@@ -1,15 +1,17 @@
 ### Changes:
+- Added the Dragon Head to HNN
 
 ### Updates:
-- I'm not dumb I swear...
+
 
 ### Additions:
-- Stargate Journey: Deco
+
 
 ### Removals:
-- Stargate Journey Additions
+
 
 ### CURRENT OBJECTIVES:
+
 
 ### Long Term TODOs:
 - Security Craft Integration (Hard)

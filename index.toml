@@ -1093,6 +1093,10 @@ file = "kubejs/data/hostilenetworks/data_models/creeper.json"
 hash = "dc46e4b6b63c597ca8882c85d144eeef2f8ee41e0848531167c4b42852f0e745"
 
 [[files]]
+file = "kubejs/data/hostilenetworks/data_models/ender_dragon.json"
+hash = "a4bf9a564a14738723c52cdf167ee2a6db14b6ce390568c4208d69cc0fec7546"
+
+[[files]]
 file = "kubejs/data/hostilenetworks/data_models/enderman.json"
 hash = "7d3918075813690229e7796e86bc46a3a416ef287fee50dbd4e7187835632266"
 
