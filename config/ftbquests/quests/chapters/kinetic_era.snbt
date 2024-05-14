@@ -1,0 +1,263 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "kinetic_era"
+	group: "0B892AF6A2410D9F"
+	icon: "sgcommunity_pack:vacuum_tube"
+	id: "1CB3B5E3AA485E19"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3B0AA365C22B2922"]
+			description: ["Welcome to the Kinetic Era! We are now getting into our first tech mod: Create. If you are ever stuck wondering how something works, simply check out the Ponder Index. You can get there by holding W on any create item, or by clicking on the goggle icon in the menu screen."]
+			hide: true
+			id: "2283E12D506D17D1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3DEDACE5BC13F5D4"
+					table_id: 6707801667765775512L
+					type: "loot"
+				}
+				{
+					id: "4EB7C114A14C7EC5"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Gear go spinny"
+			tasks: [{
+				id: "060E31D1E304F7D0"
+				title: "Welcome to the Kinetic Era"
+				type: "checkmark"
+			}]
+			title: "&6Welcome to the Kinetic Era"
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E5C949246BC1112"]
+			id: "2F7574E640879AA0"
+			tasks: [{
+				id: "7B4515580C205250"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F7574E640879AA0"]
+			id: "31B94609B18AEAB9"
+			tasks: [{
+				id: "432FF2523F6ABA0A"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2F7574E640879AA0"]
+			description: ["The deployed can be used in certain recipes, to place blocks and to interact with mobs and blocks."]
+			id: "12C36B05C19AB3F2"
+			tasks: [{
+				id: "1F3F8885C3089712"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2283E12D506D17D1"]
+			description: ["Using that andesite you gathered earlier and some iron, make Andesite Alloy. Andesite alloy is one of the main materials of create, so you will almost always need more."]
+			hide: true
+			id: "1E5C949246BC1112"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28D5C4C0B996E8FB"
+				table_id: 6707801667765775512L
+				type: "random"
+			}]
+			tasks: [{
+				count: 32L
+				id: "687B3D137FF6483F"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "&6Creation"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E5C949246BC1112"]
+			id: "39ADFC1941826E2E"
+			tasks: [{
+				count: 40L
+				id: "78AF29D3BB550ED3"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "&6Moving Rotation"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39ADFC1941826E2E"]
+			description: ["Now that you have some shafts, it's time to make them spin! Water wheels will provide full power as long as one side is covered in flowing water."]
+			id: "29774781234E32DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55C281BCABD368B5"
+				table_id: 6707801667765775512L
+				type: "random"
+			}]
+			tasks: [{
+				count: 4L
+				id: "4EA52F9FE4B57B22"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "&6Getting Kinetic Energy"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29774781234E32DC"]
+			description: ["While I can provide some of the basics of create, the Ponder Index provides far more information about nearly everything. As such, the rest of this chapter will be focused on progressing through the modpack rather than create"]
+			id: "6939F607B8218B37"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21AE9FF16A7FD0FF"
+				table_id: 6707801667765775512L
+				type: "random"
+			}]
+			subtitle: "Just try not to get crushed"
+			tasks: [{
+				id: "5D85369FA6974C0B"
+				title: "Experiment!"
+				type: "checkmark"
+			}]
+			title: "&6Experiment"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1785914BD68AC89E"]
+			description: ["Glass tubes are the hardest component of the vacuum tube. In order to make them, you need will need sand. Yeah, that's it."]
+			id: "09934CB76FADA45B"
+			tasks: [{
+				count: 128L
+				id: "4A8A8A59D70982FA"
+				item: "sgcommunity_pack:glass_tube"
+				type: "item"
+			}]
+			title: "&3Glass Tubes"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1785914BD68AC89E"]
+			id: "1D92274424B0EDFA"
+			tasks: [{
+				count: 384L
+				id: "7A1449FF1D63E5B7"
+				item: "sgcommunity_pack:iron_filament"
+				type: "item"
+			}]
+			title: "&3Iron Filaments"
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1785914BD68AC89E"]
+			id: "12C65A426800BC3F"
+			tasks: [{
+				count: 384L
+				id: "0801B4F1B8CCB004"
+				item: "create:copper_sheet"
+				type: "item"
+			}]
+			title: "&3Copper Sheets"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1785914BD68AC89E"]
+			id: "695A43F3CDC74834"
+			tasks: [{
+				count: 384L
+				id: "7A8E1EE8851C1763"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			title: "&3Iron Sheets"
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6939F607B8218B37"]
+			description: ["In order to make more advanced machines and item transportation systems, you will need to make circuits, lots of them. You &3WILL NEED TO AUTOMATE CIRCUITS&r Thankfully, your first circuit is just a single vacuum tube. Even though it's relatively simple, it's still best that you break down the task into logical units."]
+			id: "1785914BD68AC89E"
+			rewards: [{
+				id: "17F41B0634505725"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Wait, doesn't create have this?"
+			tasks: [{
+				id: "4CE42D67345EFC5E"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "&6Making your first electronic circuit"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"12C65A426800BC3F"
+				"09934CB76FADA45B"
+				"1D92274424B0EDFA"
+				"695A43F3CDC74834"
+			]
+			description: [
+				"Now that you have all the components automated, you just need to build a sequenced assembly line to complete the vacuum tubes."
+				"{@pagebreak}"
+				"(If you didn't automate this, you are probably pretty mad right now. Too bad, you will need hundreds more just to get to the next era, it's for your own good.)"
+			]
+			id: "7542A74737AC4408"
+			size: 2.0d
+			tasks: [{
+				count: 256L
+				id: "59C1DB50AC19EA72"
+				item: "sgcommunity_pack:vacuum_tube"
+				type: "item"
+			}]
+			title: "&3Vacuum Tubes"
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7542A74737AC4408"]
+			description: ["You just automated the first of 5 circuits in this modpack! Now that you have Vacuum tubes, you have completed part I of the Kinetic Era. You are now free to explore Applied Energistics. However, I recommend setting up autocrafting and other amenities before crafting the &dComputational Substrate&r as it isn't exactly game-changing."]
+			id: "55FA04711F888480"
+			rewards: [{
+				id: "6499E1ED72113ABA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "75908AC5740C8285"
+				title: "Well done!"
+				type: "checkmark"
+			}]
+			title: "&6Well Done!"
+			x: 4.5d
+			y: -7.0d
+		}
+	]
+	title: "Kinetic I"
+}

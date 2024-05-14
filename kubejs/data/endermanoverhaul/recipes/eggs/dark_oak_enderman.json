@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#&#",
+        "&E&",
+        "#&#"
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:mushrooms"
+        },
+        "&": {
+            "item": "minecraft:dark_oak_sapling"
+        },
+        "E": {
+            "item": "minecraft:enderman_spawn_egg"
+        }
+    },
+    "result": {
+        "item": "endermanoverhaul:dark_oak_enderman_spawn_egg",
+        "count": 1
+    },
+    "group": "enderman_eggs"
+}

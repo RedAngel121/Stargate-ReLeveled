@@ -1,0 +1,11 @@
+type = customizablemenus
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+
+net.povstalec.sgjourney.client.screens.MilkyWayDHDScreen {
+}
+
+net.minecraft.client.gui.screens.PauseScreen {
+}
+

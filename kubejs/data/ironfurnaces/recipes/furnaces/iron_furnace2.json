@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "YYY",
+    "#X#",
+    "YSY"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:glass"
+    },
+    "S": {
+      "tag": "sgcommunity_pack:circuit_basic"
+    },
+    "X": {
+      "tag": "forge:furnaces/copper"
+    },
+    "Y": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "result": {
+    "item": "ironfurnaces:iron_furnace"
+  }
+}

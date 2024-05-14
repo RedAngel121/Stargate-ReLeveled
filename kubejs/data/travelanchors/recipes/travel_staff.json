@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "e": {
+      "item": "mekanism:teleportation_core"
+    },
+    "i": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "pattern": [
+    "  e",
+    " i ",
+    "i  "
+  ],
+  "result": {
+    "item": "travelanchors:travel_staff"
+  },
+  "show_notification": true
+}

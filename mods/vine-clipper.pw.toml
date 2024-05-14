@@ -1,0 +1,13 @@
+name = "Vine Clipper"
+filename = "vineclipper-1.0.0-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cee7e115d4892bb806884789603f9ec4ab4488d2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4719217
+project-id = 905961

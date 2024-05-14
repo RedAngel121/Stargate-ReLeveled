@@ -1,0 +1,8 @@
+{
+	"values":
+	[
+		"common_stargates:common_stargate/classic/pedestal/stargate_pedestal",
+		"common_stargates:common_stargate/classic/pedestal/sandstone_stargate_pedestal",
+		"common_stargates:common_stargate/classic/pedestal/red_sandstone_stargate_pedestal"
+	]
+}

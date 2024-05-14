@@ -1,0 +1,473 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanised_iii"
+	group: "0B892AF6A2410D9F"
+	icon: "sgcommunity_pack:computation_core"
+	id: "1C4FC52D8793A706"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7FC523FEA8F868A5"]
+			description: ["The final tier will require all your previous automation skills for one final item, the Computation Core. Once you have made your first Computation Core, however, you will still need to automate the raw resources needed for it."]
+			hide: true
+			id: "57D1B4C1ED535BB0"
+			tasks: [{
+				id: "57B21BF9EDDF87B6"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Welcome to the Final Tier"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5BD0CF36D88F6820"
+				"26652039B53CD630"
+				"5692D6BC6250B08E"
+				"64B15FE1AE791A07"
+				"5DB3BEC780602A48"
+			]
+			description: ["Since these are very likely to be expensive for you, it is probably wise to use them sparingly"]
+			id: "17E21A1B48A99E29"
+			size: 2.0d
+			tasks: [{
+				count: 4L
+				id: "091E3A5E49158D92"
+				item: "sgcommunity_pack:computation_core"
+				type: "item"
+			}]
+			title: "&3Mother of all Circuits"
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["57D1B4C1ED535BB0"]
+			description: ["A solid naquadah frame allows for the Computation Core to channel additional energy into its processors."]
+			hide: true
+			id: "5BD0CF36D88F6820"
+			tasks: [{
+				count: 4L
+				id: "756FE8A18A5E0A9E"
+				item: "sgcommunity_pack:computation_core_frame"
+				type: "item"
+			}]
+			title: "Have you been to abydos?"
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["57D1B4C1ED535BB0"]
+			description: ["&dIsotopic Decay Oscillators&r are produced in nearly the same way as &lIntegrated Circuits&r. As such, you can utilize your existing factory to produce them."]
+			hide: true
+			id: "5E6E8EC306B66113"
+			tasks: [{
+				count: 8L
+				id: "22A506684E63BC8D"
+				item: "sgcommunity_pack:uranium_wafer"
+				type: "item"
+			}]
+			title: "Isotopic Decay Oscillators"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57D1B4C1ED535BB0"]
+			description: ["In order to make Edible Processors, we need to first make Wafers! And yes, they are food items."]
+			hide: true
+			icon: "sgcommunity_pack:wafer"
+			id: "0D1AD978EAFB634C"
+			tasks: [{
+				id: "52DC0453B8847046"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Wafer Production"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47A69061D243A995"]
+			description: ["Now, mix in your eggs and vanilla"]
+			icon: "create:mechanical_mixer"
+			id: "184B775D4BB72AB8"
+			tasks: [{
+				id: "5E85B05A902BD563"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Add Eggs and Vanilla"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0D1AD978EAFB634C"]
+			description: ["Cream sugar and butter together to get started on the wafer recipe."]
+			icon: "create:mechanical_mixer"
+			id: "47A69061D243A995"
+			tasks: [{
+				id: "07CBCE0E4DE73B4D"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Mix Sugar and Butter"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["184B775D4BB72AB8"]
+			description: ["Now, slowly mix in your flour"]
+			icon: "create:mechanical_mixer"
+			id: "0037AEAA42C65333"
+			tasks: [{
+				id: "70680D42DA9C5A26"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Slowly introduce some flour"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0037AEAA42C65333"]
+			description: ["Now, add in the rest of the flour"]
+			icon: "create:mechanical_mixer"
+			id: "574B3182847B43C8"
+			tasks: [{
+				id: "34DE591CF408C6DE"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Add the rest of the flour"
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["574B3182847B43C8"]
+			description: ["To ensure your wafers are light, mix in some baking soda."]
+			icon: "create:mechanical_mixer"
+			id: "4044025B79CF78BE"
+			tasks: [{
+				id: "7E2F7BBC46116753"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Mix in Sodium Bicarbonate"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4044025B79CF78BE"]
+			description: ["Now, slowly mix in your flour"]
+			icon: "minecraft:smoker"
+			id: "3526B63F9A0CD846"
+			tasks: [{
+				id: "6EFE00470385535C"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Bake!"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3526B63F9A0CD846"]
+			id: "5FBF63288E1EECEB"
+			tasks: [{
+				count: 16L
+				id: "71F4E1CF00D69E6C"
+				item: "sgcommunity_pack:wafer"
+				type: "item"
+			}]
+			title: "Now for turning them into processors"
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5FBF63288E1EECEB"]
+			icon: "create:spout"
+			id: "024076D5FFC651DA"
+			tasks: [{
+				id: "63048C2FF7399AFF"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Apply Honey"
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6BD91191EC16DFAD"]
+			icon: "create:spout"
+			id: "2C2B47C8E207675C"
+			tasks: [{
+				id: "3ECC7252CA5917FA"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Apply Chocolate"
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["024076D5FFC651DA"]
+			description: ["Photoresist isn't edible, so we use maple syrup instead!"]
+			icon: "create:mechanical_mixer"
+			id: "5F7A5317BF38FEF2"
+			tasks: [{
+				id: "4F38BA6E5AC5C386"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Toss in Maple Syrup"
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5F7A5317BF38FEF2"]
+			icon: "ae2:inscriber"
+			id: "2CA6B3612193EE50"
+			tasks: [{
+				id: "2C38CAF875CEAF4E"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Inscribe Pattern"
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2CA6B3612193EE50"]
+			description: ["I mean, if it can make your cookie fall apart, surely it will work well enough"]
+			icon: "create:spout"
+			id: "44A01E795C2EF397"
+			tasks: [{
+				id: "052ADB4CCB9B787B"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Etch with Milk"
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44A01E795C2EF397"]
+			description: ["Photoresist isn't edible, so we use maple syrup instead!"]
+			icon: "create:mechanical_mixer"
+			id: "5F93CD50134E1E32"
+			tasks: [{
+				id: "7CA28B0218E80A7C"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Toss in Maple Syrup"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F93CD50134E1E32"]
+			icon: "ae2:inscriber"
+			id: "6BD91191EC16DFAD"
+			tasks: [{
+				id: "139BDD715C610277"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Inscribe Pattern"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C2B47C8E207675C"]
+			description: ["Photoresist isn't edible, so we use maple syrup instead!"]
+			icon: "create:mechanical_mixer"
+			id: "7DF2157947E90122"
+			tasks: [{
+				id: "759F8392D314F749"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Toss in Maple Syrup"
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7DF2157947E90122"]
+			icon: "ae2:inscriber"
+			id: "19C73880935B2000"
+			tasks: [{
+				id: "0155F73A47300110"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Inscribe Pattern"
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["19C73880935B2000"]
+			description: ["I mean, if it can make your cookie fall apart, surely it will work well enough"]
+			icon: "create:spout"
+			id: "55E72B435EFF8FBE"
+			tasks: [{
+				id: "1F62118140D88CC0"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Etch with Milk"
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["66EA2C19AFB46F77"]
+			id: "2A17565596861225"
+			tasks: [{
+				count: 16L
+				id: "69B629EA605457A5"
+				item: "sgcommunity_pack:edible_processor_wafer"
+				type: "item"
+			}]
+			title: "Edible Processors"
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2A17565596861225"]
+			id: "26652039B53CD630"
+			tasks: [{
+				count: 8L
+				id: "6B74522076D254CA"
+				item: "sgcommunity_pack:edible_processor"
+				type: "item"
+			}]
+			title: "Stop eating them! We need those!"
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["55E72B435EFF8FBE"]
+			description: [""]
+			icon: "create:deployer"
+			id: "6E3C6F4BE6BDFCAA"
+			tasks: [{
+				id: "6E72F7FA68152468"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Sprinkle Sugar"
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6E3C6F4BE6BDFCAA"]
+			description: [""]
+			icon: "minecraft:smoker"
+			id: "66EA2C19AFB46F77"
+			tasks: [{
+				id: "13123EA1EC6EB6F9"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Caramelize Sugar"
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["57D1B4C1ED535BB0"]
+			hide: true
+			id: "5692D6BC6250B08E"
+			tasks: [{
+				count: 48L
+				id: "44E3F40F5ECF7EBE"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			title: "Storage Components"
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["57D1B4C1ED535BB0"]
+			hide: true
+			id: "64B15FE1AE791A07"
+			tasks: [{
+				count: 48L
+				id: "652C15117852DAFB"
+				item: "sgcommunity_pack:integrated_circuit"
+				type: "item"
+			}]
+			title: "Integrated Circuits"
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5348D03D9E10778E"]
+			id: "5DB3BEC780602A48"
+			tasks: [{
+				count: 8L
+				id: "7A0339534BCEF108"
+				item: "sgcommunity_pack:isotopic_decay_oscillator"
+				type: "item"
+			}]
+			title: "An Unpredictable Clock"
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5E6E8EC306B66113"]
+			description: ["You will need to use the&d correct Photomask&r for the&l Isotopic Decay Oscillator&r."]
+			icon: "ae2:inscriber"
+			id: "43E7ADEBD62B6910"
+			tasks: [{
+				id: "55F1EB0AE37D1173"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Inscribing steps"
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["43E7ADEBD62B6910"]
+			description: ["Instead of&l Boron&r, the&l Isotopic Decay Oscillator&r is injected with&d Uranium Hexafluoride&r at step 17."]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "65F9BF486152E7B5"
+			tasks: [{
+				id: "0173E6B03E434CC2"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Step 17: Inject Uranium Hexafluoride"
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65F9BF486152E7B5"]
+			id: "5348D03D9E10778E"
+			tasks: [{
+				count: 8L
+				id: "03E026337126320C"
+				item: "sgcommunity_pack:isotopic_decay_oscillator_wafer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["17E21A1B48A99E29"]
+			description: ["While you can currently manufacture Tier III circuits, you are not even close to automating them. You must expand into nuclear reactors in order to do so."]
+			id: "71C4CA73E8FA19A6"
+			tasks: [{
+				id: "69DCFCE11B7CC12D"
+				title: "Onwards!"
+				type: "checkmark"
+			}]
+			title: "&6What now?"
+			x: -0.5d
+			y: 12.5d
+		}
+	]
+	title: "Mekanised III"
+}

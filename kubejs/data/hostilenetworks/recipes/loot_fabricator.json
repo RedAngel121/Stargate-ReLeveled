@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "EOE",
+    "LCL"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:ingots/netherite"
+    },
+    "E": {
+      "tag": "forge:gems/diamond"
+    },
+	"O": {
+      "tag": "forge:obsidian"
+    },
+	"L": {
+      "tag": "forge:ingots/gold"
+    },
+	"C": {
+      "item": "sgcommunity_pack:computation_core"
+    }
+  },
+  "result": {
+    "item": "hostilenetworks:loot_fabricator"
+  }
+}

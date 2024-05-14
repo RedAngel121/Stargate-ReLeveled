@@ -1,0 +1,206 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanised_i"
+	group: "0B892AF6A2410D9F"
+	icon: "sgcommunity_pack:mosfet"
+	id: "4BF19415D1D50DAD"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["44F5A44C5C13627A"]
+			description: ["Mekanised I will help you to manufacture MOSFETs, which are tier I circuits similar to Vacuum Tubes, but able to be produced faster. In addition, the resources for MOSFETs are reused for Mekanised Tiers II and III."]
+			hide: true
+			id: "70130F706AC21CA4"
+			tasks: [{
+				id: "74D716AC833AB0F6"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Welcome to Mekanised I"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["626D482CA1E17EC5"]
+			id: "1E2F4F19CEF6BF3E"
+			tasks: [{
+				id: "7FE92322805670E7"
+				item: "sgcommunity_pack:silicon_wafer"
+				type: "item"
+			}]
+			title: "&3Silicon Wafers"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E2F4F19CEF6BF3E"]
+			description: ["Boron Trifluoride can be made from Borax which can be found in veins from y 62 to y 50, alongside salt"]
+			id: "0ED5A4444D858703"
+			tasks: [{
+				id: "549754B464A72C07"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Boron Trifluoride"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1E2F4F19CEF6BF3E"]
+			description: ["Phosphorus can be made from Phosphorite which spawns in veins from y 50 to y -10, alongside limestone."]
+			id: "04330436A2FF5A66"
+			tasks: [{
+				id: "5890A32D19DC58EB"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Phosphorus"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1E2F4F19CEF6BF3E"]
+			description: ["Hydrofluoric acid can be made from sulfuric acid and fluorite."]
+			id: "442119BDEDEDE3A1"
+			tasks: [{
+				id: "3F6CB2B182E1DF79"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Hydrofluoric Acid"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["70130F706AC21CA4"]
+			hide: true
+			id: "626D482CA1E17EC5"
+			tasks: [{
+				id: "1B5812EB432A5FAD"
+				item: "sgcommunity_pack:silicon_boule"
+				type: "item"
+			}]
+			title: "&3Silicon Boules"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0ED5A4444D858703"
+				"442119BDEDEDE3A1"
+				"04330436A2FF5A66"
+			]
+			description: ["Put a silicon wafer into a chemical injector and then inject silicon"]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "6DD83F5AA8498ECA"
+			tasks: [{
+				id: "78F0AD2B88D264DA"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Step 1: Inject Silicon"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6DD83F5AA8498ECA"]
+			description: ["Inject Water Vapor"]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "5B4E58F775221E6D"
+			tasks: [{
+				id: "6780D000C5160F2C"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Step 2: Inject Water Vapor"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B4E58F775221E6D"]
+			description: ["Inject Hydrofluoric Acid to etch the wafer"]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "601DFD8DA61EE755"
+			tasks: [{
+				id: "514DF4667DCB92A6"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Step 3: Etch Wafer"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["601DFD8DA61EE755"]
+			description: ["Inject boron trifluoride"]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "3F611B0D076551C7"
+			tasks: [{
+				id: "21D8AF5890F83EB4"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Step 4: Inject Boron"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F611B0D076551C7"]
+			description: ["Inject phosphorus gas"]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "65FCB72100124810"
+			tasks: [{
+				id: "05EA6D1596CF3CF0"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Step 5: Inject Phosphorus"
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["65FCB72100124810"]
+			id: "5DF7C82AAF07676C"
+			tasks: [{
+				count: 10L
+				id: "3BCCDDAA68C1AD0C"
+				item: "sgcommunity_pack:mosfet_wafer"
+				type: "item"
+			}]
+			title: "MOSFET Wafers"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5DF7C82AAF07676C"]
+			description: ["Wafers aren't too useful on their own, you need to slice them into chips and then package them first."]
+			id: "2135CBD036BFAF94"
+			size: 2.0d
+			tasks: [{
+				count: 128L
+				id: "5FCF7C4B082F7410"
+				item: "sgcommunity_pack:mosfet"
+				type: "item"
+			}]
+			title: "&3Slice and Encase"
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2135CBD036BFAF94"]
+			description: ["Now that you have made MOSFETs, you are ready to take on the challenge of Integrated Circuits."]
+			id: "4E7FC421B418088B"
+			tasks: [{
+				id: "38C3A185D5F9FDAD"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "That's the Basics!"
+			x: 14.0d
+			y: -2.0d
+		}
+	]
+	title: "Mekanised I"
+}

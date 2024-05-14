@@ -1,0 +1,423 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanised_ii"
+	group: "0B892AF6A2410D9F"
+	icon: "sgcommunity_pack:integrated_circuit"
+	id: "565378749F2B93CA"
+	images: [
+		{
+			height: 1.0d
+			image: "sgjourney:textures/entity/stargate/pegasus/atlantis/atlantis_event_horizon_shiny.png"
+			rotation: 0.0d
+			width: 0.03125d
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "sgjourney:textures/entity/stargate/pegasus/pegasus_event_horizon.png"
+			rotation: 0.0d
+			width: 0.03125d
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "mekanism:liquid/liquid"
+			rotation: 0.0d
+			width: 0.03125d
+			x: -12.5d
+			y: 11.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["20F9FC6DDC25529A"]
+			description: ["Inject photoresist"]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "49A41F1C874BC5A5"
+			tasks: [{
+				id: "6C23D6A879870788"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Step 2: Apply Photoresist"
+			x: -8.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["49A41F1C874BC5A5"]
+			description: ["Use an inscriber with an Integrated Circuit Photomask in the top slot to expose the photoresist."]
+			icon: "ae2:inscriber"
+			id: "4A30584869198FCE"
+			tasks: [{
+				id: "244936FE7A84286F"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Step 3: Expose Photoresist"
+			x: -7.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4A30584869198FCE"]
+			description: ["Inject Hydrofluoric Acid to etch the wafer"]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "7C572699F6A6BD33"
+			tasks: [{
+				id: "1A43017AC8A09236"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Step 4: Etch Wafer"
+			x: -6.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["77083A70517B1321"]
+			description: ["Inject photoresist"]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "449B2D79B4EBA499"
+			tasks: [{
+				id: "4A6AF3D4522E2BE1"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Step 18: Apply Photoresist"
+			x: -7.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0123F1E672CC0B91"]
+			description: ["Use an inscriber with an Integrated Circuit Photomask in the top slot to expose the photoresist."]
+			icon: "ae2:inscriber"
+			id: "2E0188E3533CE229"
+			tasks: [{
+				id: "57BBBAC9B11F3E05"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Step 9: Expose Photoresist"
+			x: 0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5555426613E3B5E7"]
+			description: ["Use an inscriber with an Integrated Circuit Photomask in the top slot to expose the photoresist."]
+			icon: "ae2:inscriber"
+			id: "1EE0035E2D15359A"
+			tasks: [{
+				id: "4D86878A8EF98EA1"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Step 6: Expose Photoresist"
+			x: -3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["3DD6A6C1196ACD63"]
+			description: ["Inject photoresist"]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "7C062A64B6144E35"
+			tasks: [{
+				id: "5E91F663D1B529C3"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Step 15: Apply Photoresist"
+			x: -3.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["2E0188E3533CE229"]
+			description: ["Inject Hydrofluoric Acid to etch the wafer"]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "4DE6619EC96EADA3"
+			tasks: [{
+				id: "646BC2C7C5AE58CA"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Step 10: Etch Wafer"
+			x: 2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["509DF80304D6AF20"]
+			description: ["Inject photoresist"]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "6E7B64ACDCF25A03"
+			tasks: [{
+				id: "6B6EABA3CA6D65D1"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Step 12: Apply Photoresist"
+			x: 0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6E7B64ACDCF25A03"]
+			description: ["Use an inscriber with an Integrated Circuit Photomask in the top slot to expose the photoresist."]
+			icon: "ae2:inscriber"
+			id: "17DAF9FFD708147B"
+			tasks: [{
+				id: "5080D2FA013E7994"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Step 13: Expose Photoresist"
+			x: -0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["17DAF9FFD708147B"]
+			description: ["Inject Hydrofluoric Acid to etch the wafer"]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "3DD6A6C1196ACD63"
+			tasks: [{
+				id: "025CB79FE26AD502"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Step 14: Etch Wafer"
+			x: -2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7C572699F6A6BD33"]
+			description: ["Inject photoresist"]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "5555426613E3B5E7"
+			tasks: [{
+				id: "3CB0D2A4FFA6B36E"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Step 5: Apply Photoresist"
+			x: -4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7C062A64B6144E35"]
+			description: ["Use an inscriber with an Integrated Circuit Photomask in the top slot to expose the photoresist."]
+			icon: "ae2:inscriber"
+			id: "042B824F2BC728B7"
+			tasks: [{
+				id: "3639D0A39DBF514C"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Step 16: Expose Photoresist"
+			x: -4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["042B824F2BC728B7"]
+			description: ["Inject boron trifluoride"]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "77083A70517B1321"
+			tasks: [{
+				id: "1EC72DAC964170FA"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Step 17: Inject Boron"
+			x: -6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7C0A2A611D2C1F07"]
+			description: ["Inject photoresist"]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "0123F1E672CC0B91"
+			tasks: [{
+				id: "7330629AF66E52F5"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Step 8: Apply Photoresist"
+			x: -0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["449B2D79B4EBA499"]
+			description: ["Use an inscriber with an Integrated Circuit Photomask in the top slot to expose the photoresist."]
+			icon: "ae2:inscriber"
+			id: "4012FAB74A514FCC"
+			tasks: [{
+				id: "1C420C34912884BE"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Step 19: Expose Photoresist"
+			x: -8.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["4012FAB74A514FCC"]
+			description: ["Inject phosphorus gas"]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "23CECA8A94EF424E"
+			tasks: [{
+				id: "3AD0E806D507328A"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Step 20: Inject Phosphorus"
+			x: -10.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"23CECA8A94EF424E"
+				"13FC6762244F460E"
+			]
+			description: ["Now that you have chips and something to put them on, it's time to combine it all."]
+			id: "057453950DC5CD3A"
+			size: 2.0d
+			tasks: [{
+				count: 128L
+				id: "7AA242FE2C7D67AC"
+				item: "sgcommunity_pack:integrated_circuit"
+				type: "item"
+			}]
+			title: "&3Integrated Circuits"
+			x: -12.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["4D239CF8E2B220AE"]
+			description: [
+				"Individual MOSFET gates are cool and all, but we aren't going to get anywhere with that. To enable large scale production of Tier II circuits, we are going to need to build a proper foundry. &6Make sure that you build it in a way that you can easily add more types of wafers and slight variations on recipes,&r otherwise you will be building this setup many more times."
+				"{@pagebreak}"
+				"Tip for splitting up large assembly lines into small units:"
+				"AE2 Import and Export Buses can be used to automatically insert necessary gases as well as the correct wafers."
+			]
+			hide: true
+			id: "2A74BFEACA625BCA"
+			tasks: [{
+				id: "6FF82CD8CF981A58"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "&6Chip Automation"
+			x: -12.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1FD59EC4C3900300"]
+			description: ["The photomask is used to control the areas in which the photoresist cures. The areas that are covered with photoresist won't get modified by the next step, allowing for the making of detailed patterns of various materials on the wafer."]
+			id: "6F52F80E88697D95"
+			tasks: [{
+				id: "1061C650AA21E2AA"
+				item: "sgcommunity_pack:integrated_circuit_photomask"
+				type: "item"
+			}]
+			title: "High Precision Light"
+			x: -12.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["29F9305B091C8FE9"]
+			id: "13FC6762244F460E"
+			tasks: [{
+				count: 128L
+				id: "28B69E150D17A8E7"
+				item: "sgcommunity_pack:advanced_pcb_substrate"
+				type: "item"
+			}]
+			title: "&3A better foundation"
+			x: -15.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6F52F80E88697D95"]
+			description: ["HDPE is made from Ethylene and substrate and is used in end-game mekanism gear and equipment."]
+			id: "29F9305B091C8FE9"
+			tasks: [{
+				count: 128L
+				id: "770E7D405A995B5A"
+				item: "mekanism:hdpe_pellet"
+				type: "item"
+			}]
+			title: "&3HDPE Pellets"
+			x: -15.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["057453950DC5CD3A"]
+			description: ["Now that you have manufactured your first batch of tier II circuits via mekanism, you are ready to take on tier III. Assuming you listened to my earlier advice of making sure your setup is expandable, you will be fine."]
+			id: "7FC523FEA8F868A5"
+			tasks: [{
+				id: "4D620CFA5C7B90F7"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Hope you listened to my advice"
+			x: -12.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["2A74BFEACA625BCA"]
+			description: ["Photoresist can be made from Tree Sap or PamHC2 maple syrup, and Glowstone"]
+			hide: true
+			id: "1FD59EC4C3900300"
+			tasks: [{
+				id: "64EAD1CC4F988E8A"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Photoresist"
+			x: -12.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6F52F80E88697D95"]
+			description: ["Put a silicon wafer inside a chemical injector and inject water vapor to begin the process."]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "20F9FC6DDC25529A"
+			tasks: [{
+				id: "3BA0348E9F352EFF"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Step 1: Inject Water Vapor"
+			x: -10.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1EE0035E2D15359A"]
+			description: ["Inject phosphorus gas"]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "7C0A2A611D2C1F07"
+			tasks: [{
+				id: "6648783E000BCEF1"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Step 7: Inject Phosphorus"
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4DE6619EC96EADA3"]
+			description: ["Inject Silicon"]
+			icon: "mekanism:chemical_injection_chamber"
+			id: "509DF80304D6AF20"
+			tasks: [{
+				id: "6C5FAC1AC2258104"
+				title: "Done!"
+				type: "checkmark"
+			}]
+			title: "Step 11: Inject Silicon"
+			x: 2.0d
+			y: 13.5d
+		}
+	]
+	title: "Mekanised II"
+}

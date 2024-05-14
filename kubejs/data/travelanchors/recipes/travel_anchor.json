@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "ae2:smooth_sky_stone_block"
+    },
+    "e": {
+      "item": "mekanism:teleportation_core"
+    },
+    "i": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "pattern": [
+    "bib",
+    "iei",
+    "bib"
+  ],
+  "result": {
+    "item": "travelanchors:travel_anchor"
+  },
+  "show_notification": true
+}

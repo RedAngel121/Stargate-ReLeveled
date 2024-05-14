@@ -1,0 +1,160 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "3553DD7F726AE366"
+	icon: "mekanism:metallurgic_infuser"
+	id: "21CB8C2FA5FA441F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4D239CF8E2B220AE"]
+			description: ["The Mekanised Era is the final era. Mekanised I focuses on setting up basic automation and creating MOSFETs that will end up being used for machines like the fission reactor."]
+			hide: true
+			id: "2AA736C596A9C334"
+			tasks: [{
+				id: "03302A887E14212F"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Welcome to the Mekanised Era!"
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2AA736C596A9C334"]
+			description: ["The Metallurgic Infuser is used to infuse items with chemicals. Most of the items used to infuse have enriched versions that give around 4x as much material."]
+			hide: true
+			id: "39CBECB2C3DFE133"
+			tasks: [{
+				id: "5C5D67BA0CD8F071"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			title: "Source of all things Mekanical"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["39CBECB2C3DFE133"]
+			description: ["While mekanism's metallurgic infuser is good at many things, ad astra provides a far easier steel recipe than mekanism does."]
+			id: "430F4F27DC67D1F1"
+			tasks: [{
+				count: 32L
+				id: "51EAEFFF5DA5E223"
+				item: "ad_astra:steel_ingot"
+				type: "item"
+			}]
+			title: "Cheaper than Mekanism"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["39CBECB2C3DFE133"]
+			id: "49B02F5A03D703B3"
+			tasks: [{
+				id: "0D535333CB73CEDE"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["39CBECB2C3DFE133"]
+			id: "027A9CD51B540EB9"
+			tasks: [{
+				id: "10D5226F5D8E0FD2"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49B02F5A03D703B3"]
+			description: ["The enrichment chamber is used to make many different items and convert between different forms of items. It is also used in tier 1 of mekanism ore processing where it turns 1 ore into 2 dusts and 3 raw ore into 4 dusts."]
+			id: "3B2BA44808B21235"
+			tasks: [{
+				id: "33AE9059D6BF5A7F"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			title: "Doubling Ores"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5FC5BD879525A286"
+				"38B15EC74C314C3A"
+			]
+			description: ["The crusher can be used to make several products as well as process ores."]
+			id: "06A305B7BD6C9AE3"
+			subtitle: "Don't put your hand in it"
+			tasks: [{
+				id: "59902AFD9328F69C"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			title: "Crushing"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B2BA44808B21235"]
+			description: ["You just completed tier 1 of ore processing. The next tier is a bit harder as it requires at least three more machines."]
+			id: "18A433AFDBFFF45C"
+			tasks: [{
+				id: "2F54C6135C605C6C"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Tier II"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["18A433AFDBFFF45C"]
+			description: ["The Purification Chamber takes in ores and oxygen and outputs clumps."]
+			id: "5FC5BD879525A286"
+			tasks: [{
+				id: "72D27DADF85A2A8D"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5FC5BD879525A286"]
+			description: ["The electrolytic separator uses electrolysis to split fluids into parts. In this case, you will use it to split water into hydrogen and oxygen. To get rid of the excess hydrogen, you can either burn it in a generator or just use the dump feature of the electrolytic separator."]
+			id: "38B15EC74C314C3A"
+			tasks: [{
+				id: "29A90E1FFD88E833"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["06A305B7BD6C9AE3"]
+			description: [
+				"Now that you completed tier two, your setup should look like this:"
+				"Purification Chamber -> Crusher -> Enrichment Chamber -> Furnace."
+				"Tier III requires you to get tier III circuits."
+			]
+			id: "5FDF6458983F6A7A"
+			tasks: [{
+				id: "456C6721CE2AAF21"
+				title: "Tier III"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+	]
+	title: "Mekanism"
+}

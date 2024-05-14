@@ -1,0 +1,749 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae2"
+	group: "3553DD7F726AE366"
+	icon: "ae2:controller"
+	id: "130D8C64768FBA7D"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3C51ACFA7F2A04E8"]
+			description: [
+				"Around your world there are meteors which are key to Applied Energistics 2."
+				"Having trouble? Consider creating a meteor compass."
+				"{@pagebreak}"
+				"Once you have found a meteor with certus quartz inside, gather the certus quartz blocks and take some skystone as well."
+			]
+			hide: true
+			icon: "ae2:meteorite_compass"
+			id: "6525C803A8BD105A"
+			rewards: [{
+				id: "6C93AB08262686C1"
+				table_id: 7428168543327068380L
+				type: "random"
+			}]
+			subtitle: "Look out below!"
+			tasks: [
+				{
+					id: "38F508D60E937707"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "3BB11E2D6752B0B7"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "662AFD1D2AE77BBD"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "215C0EB22E47360F"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			title: "Meteor Hunter"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7542A74737AC4408"
+				"5C938F25D0F5D112"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Applied Energistics 2 is a storage mod based around the idea of energy-mass equivalency. Your items get stored as \"energy\" inside cells which is then converted back to retrieve them. Ultimately, this means you can store a LOT of items."]
+			hide: true
+			id: "3C51ACFA7F2A04E8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "45478175ED5E98E0"
+					table_id: 7428168543327068380L
+					type: "random"
+				}
+				{
+					id: "7BE9A9A7723492D5"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Mass from energy, energy from mass"
+			tasks: [{
+				id: "0693694DC8DD1B2C"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "e = mc^2"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6525C803A8BD105A"]
+			description: ["The charger is used for creating, amongst other things, charged certus quartz which is used in many ae2 recipes. Attach the wooden crank and click it to charge items. You can also provide power over ae2 networks or with FE."]
+			id: "112725E86D8D3D75"
+			rewards: [{
+				id: "25A37A2FD88835D1"
+				item: "ae2:crank"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53A8DEC2E3D507B4"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			title: "Do you have a cable I could borrow?"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6525C803A8BD105A"]
+			description: ["Circuit presses are cool, but they are useless without an inscriber! Craft one up so that you can make circuits and dusts."]
+			id: "50A0EF9624CDF7D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29B9C4455F45D59E"
+				table_id: 7428168543327068380L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7FEA4A094D6A0F50"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			title: "Write it down"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["112725E86D8D3D75"]
+			description: ["Now that you have certus quartz blocks, growing more crystals is easy! Dropping charged certus quartz and certus quartz blocks in water will replenish them. Now, you can place the flawed budding quartz down on the ground to grow certus quartz. Repeat as needed to make lots of certus quartz."]
+			icon: "ae2:flawed_budding_quartz"
+			id: "6733B83F91FFE99E"
+			rewards: [{
+				id: "2FF40E4B23D9202E"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Jesse!"
+			tasks: [{
+				id: "624FA0652F4DE9C9"
+				title: "We need to Crystalize"
+				type: "checkmark"
+			}]
+			title: "We Need To Crystallize"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4B7991C8ACBEEEA2"
+				"6733B83F91FFE99E"
+			]
+			description: ["Place down your ME Drive and connect your terminal to it with the cables. Finally, connect the Energy Acceptor to your ME system and a power source. Congrats, You have an ME system! However, you still need storage cells. Check out the next quest for more information on how that works."]
+			id: "61FF8BB395DDB761"
+			tasks: [
+				{
+					count: 2L
+					id: "0464B35B3F0B89A0"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+				{
+					id: "78BACBEAEC53A01C"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "15304841B29F8587"
+					item: "ae2:energy_acceptor"
+					type: "item"
+				}
+				{
+					id: "3518DC85B6A97013"
+					item: "ae2:drive"
+					type: "item"
+				}
+			]
+			title: "Basic Storage"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61FF8BB395DDB761"]
+			description: [
+				"Now that you are getting into ME Storage, it's time we talked about &lBytes and Types&r. In AE2, every item cell can store up to 63 types. However, each type comes at a cost. For every type you add to a cell, you lose some bytes (up to half the drive for 63 types). But what is a byte? A byte is equivalent to 8 items or 8 buckets of fluid."
+				"{@pagebreak}"
+				"If you want a more in-depth explanation of this or other topics, check out the AE2 in-game guide (hold G while hovering over any AE2 item)"
+			]
+			id: "3C2F77FB82C01124"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "206BC46420BAD6D8"
+					table_id: 7428168543327068380L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23496C134FB0B4F0"
+					table_id: 7428168543327068380L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7AF166DAE74EE84D"
+				item: {
+					Count: 1b
+					id: "ae2:item_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "About storage"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50A0EF9624CDF7D6"]
+			description: ["Unlike in vanilla AE2, you can't just craft processors with printed circuits and redstone. Instead, you need a basic circuit as well. In this case, we'll just be using Vacuum tubes, but later on you might want to consider switching to MOSFETs."]
+			id: "4B7991C8ACBEEEA2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BE6B7E904C8EF34"
+				table_id: 7428168543327068380L
+				type: "random"
+			}]
+			subtitle: "They nerfed that too?"
+			tasks: [{
+				id: "5CD6097BFD5DDA41"
+				title: "Making Circuits"
+				type: "checkmark"
+			}]
+			title: "Making Processors"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["52144F96AAE9844A"]
+			description: ["Tired of walking to and from your storage system? Using the Wireless Access Point and Wireless Terminals, you no longer have to!"]
+			hide_dependency_lines: true
+			id: "7A971DD8D64507A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EB052C82B5EDED9"
+				table_id: 7428168543327068380L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7CCBAEE1D3544EC8"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}]
+			title: "Subspace Transmissions"
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["17013D97CFC43A4D"]
+			description: ["With the upgraded &dWireless Crafting Terminal&r, you can access your storage from afar and &lcraft&r items as well!"]
+			id: "4C6141A2B280D0A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EE9735E05B56557"
+				table_id: 7428168543327068380L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2930FDC4EF3B7935"
+				item: "ae2:wireless_crafting_terminal"
+				type: "item"
+			}]
+			title: "Crafting Included"
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["01A11F434A489617"]
+			description: ["The &dInfinity Range Booster&r allows your ME network to have &linfinite range&r."]
+			id: "727BFEF5CAE31314"
+			subtitle: "Just kill the wither"
+			tasks: [{
+				id: "75FA941146EA2118"
+				item: "aeinfinitybooster:infinity_card"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["727BFEF5CAE31314"]
+			description: ["The &dDimension Card&r allows your ME network to have &linfinite&r range and to reach &lacross dimensions&r."]
+			id: "7AA20CA2776F5FAB"
+			subtitle: "Now do it 8 times"
+			tasks: [{
+				id: "18DF50A795C2D897"
+				item: "aeinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A971DD8D64507A6"]
+			description: ["The &dWireless Booster&r allows for your &lWireless Access Point&r to reach &lfurther&r. Up to 64 can be stacked inside an Access Point."]
+			id: "01A11F434A489617"
+			tasks: [{
+				id: "144365E09B977BA7"
+				item: "ae2:wireless_booster"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7A971DD8D64507A6"]
+			description: ["The most basic of Wireless Terminals. Allows you to insert and extract items from your network on the go."]
+			id: "17013D97CFC43A4D"
+			tasks: [{
+				id: "769B740FF67A1CE8"
+				item: "ae2:wireless_terminal"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"31D78D291AFFB03F"
+				"0E63D44A2698DDD9"
+				"4C6141A2B280D0A6"
+			]
+			description: ["Craft any combination of terminals together to make them into one."]
+			id: "1645802228D598D0"
+			min_required_dependencies: 2
+			subtitle: "And in the darkness bind them... To your ME system"
+			tasks: [{
+				id: "007B600D8EECFFF0"
+				item: "ae2wtlib:wireless_universal_terminal"
+				type: "item"
+			}]
+			title: "One terminal to rule them all"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17013D97CFC43A4D"]
+			id: "0E63D44A2698DDD9"
+			tasks: [{
+				id: "0CE60EE4F40854A3"
+				item: "ae2wtlib:wireless_pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["17013D97CFC43A4D"]
+			id: "31D78D291AFFB03F"
+			tasks: [{
+				id: "422A17003E4D77D3"
+				item: "ae2wtlib:wireless_pattern_access_terminal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3C2F77FB82C01124"]
+			description: [
+				"While the basic ae2 network is easy, it can only have up to 8 devices. In order to have more devices, you will need an ME Controller. ME Controllers can output up to 32 channels per side (or 8 if you use regular cables) and can be joined together to make a larger controller. However, there can only be one controller multiblock per network."
+				""
+				"{@pagebreak}"
+				"Channels are a complicated subject in AE2, as such I would recommend reading their guide page. AE2 Guide > AE2 Mechanics > Channels"
+			]
+			id: "52144F96AAE9844A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D9CD6F34BDA0114"
+				table_id: 7428168543327068380L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5D2F41BFA1345E6E"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			title: "Making a Real Network"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52144F96AAE9844A"]
+			description: [
+				"To autocraft in ae2, you need three things: Crafting storage, Pattern Providers, and Patterns. To make crafting storage, all you need to do is make a cuboid of Crafting Storage blocks and connect them to your network. Pattern providers atomically output their inventories to an adjacent inventory when they receive a crafting request. They require patterns in order to do this, which can be made using the Pattern Encoding Terminal."
+				""
+				"{@pagebreak}"
+				"When Pattern Providers are adjacent to Molecular Assemblers, they can utilize crafting recipes."
+			]
+			id: "194423A49785391E"
+			rewards: [
+				{
+					id: "0088199E83634ED2"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2591EFDE7337ABDF"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					id: "3DBBA0F7F1257CA0"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4F75141C67EA10FE"
+					item: "ae2:1k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "78584982F1161CE9"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+				{
+					id: "36CDC88C03BD12AE"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "4828485E1B544931"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+			]
+			title: "Autocrafting"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["52144F96AAE9844A"]
+			description: [
+				"While the glass cables are cheap, they lack several features."
+				""
+				"&lCovered Cables&r are the same as glass cables"
+				""
+				"&lDense Cables&r allow for transferring up to 32 channels on 1 cable! They also take priority in network pathfinding."
+				""
+				"&lSmart Cables&r allow you to see the exact places where channels are being used in cables."
+				""
+				"As always, the AE2 Guide can give you more precise explanations."
+			]
+			id: "5E28EB3611AC4879"
+			rewards: [{
+				count: 4
+				id: "4A3B0DF94BD678BF"
+				item: "ae2:fluix_covered_dense_cable"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "4FB76F57183AFFD4"
+				item: "ae2:fluix_covered_cable"
+				type: "item"
+			}]
+			title: "Better Cables"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52144F96AAE9844A"]
+			description: ["By default, ME Networks have a small internal buffer. However, as your network grows, you may run into small brownouts when your network is unable to draw enough power. That's where &lEnergy Cells&r come in. Energy Cells allow for you to store far more power within the network, preventing shutdowns."]
+			id: "31CC3F089AF8C8BA"
+			tasks: [{
+				id: "2B1DA49D19E2C809"
+				item: {
+					Count: 1b
+					id: "ae2:energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Storing Power"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31CC3F089AF8C8BA"]
+			id: "3F0F35DD44D0EE8A"
+			tasks: [{
+				id: "047EDA6B7F3D1A02"
+				item: {
+					Count: 1b
+					id: "ae2:dense_energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Storing Even More Power"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E28EB3611AC4879"]
+			description: ["Have you read the guide and still find channels to be confusing? No worries! Smart cables allow for you to see the paths that channels are taking to the ME Controller. They also come in dense variants."]
+			id: "0F6208E619E40AB5"
+			rewards: [{
+				count: 4
+				id: "38B0166DD85F9463"
+				item: "ae2:fluix_smart_dense_cable"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "50DE4883924A21F0"
+				item: "ae2:fluix_smart_cable"
+				type: "item"
+			}]
+			title: "Smart Cables"
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3F0F35DD44D0EE8A"
+				"0F6208E619E40AB5"
+			]
+			id: "31F264A4491B9BE8"
+			subtitle: "I hope you didn't just rush this"
+			tasks: [{
+				id: "7AB2EEE20135285B"
+				item: "sgcommunity_pack:computational_substrate"
+				type: "item"
+			}]
+			title: "Not Worth It"
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52144F96AAE9844A"]
+			description: ["MEGA Cells is an AE2 addon that adds larger cells for AE2."]
+			hide_dependency_lines: true
+			id: "46F88139E0CC8428"
+			tasks: [{
+				id: "26684BBFBCA7012E"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "MEGA Cells"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["46F88139E0CC8428"]
+			description: ["The Accumulation Processor is the main ingredient of MEGA Cells. It is used in nearly all the recipes. Unlike the other processors, this one requires a Tier III circuit."]
+			id: "69FBE320CFCDC2A6"
+			tasks: [{
+				id: "40E29673822ED360"
+				item: "megacells:accumulation_processor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["194423A49785391E"]
+			description: ["The &lPattern Access&r Terminal allows you to quickly move or add patterns to your network."]
+			id: "725863D132052C3F"
+			tasks: [{
+				id: "7A4A7035311E5E5E"
+				item: "ae2:pattern_access_terminal"
+				type: "item"
+			}]
+			title: "Managing Patterns"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["52144F96AAE9844A"]
+			description: ["AE2 contains many ways to decorate your base. From fancy display mounts, to hiding cables."]
+			hide_dependency_lines: true
+			id: "3BC462BDE65FA837"
+			subtitle: "What's the point of automating everything if it isn't stylish?"
+			tasks: [{
+				id: "07A911BC043D874A"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Aesthetics"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3BC462BDE65FA837"]
+			description: ["Storage monitors allow you to see how much of an item you have in your ME network. They can also be upgraded to allow for barrel-like interaction, although they will consume channels after that."]
+			id: "6DAA999CEC7DEDF7"
+			subtitle: "It glows!"
+			tasks: [{
+				id: "66A968CEF91A1639"
+				item: "ae2:storage_monitor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6DAA999CEC7DEDF7"]
+			description: ["Want to quickly withdraw items without opening a ui? Then the Conversion Monitor is for you. The &lConversion Monitor&r allows you to insert and extract items from the me network as if it were a barrel. It also will open a crafting prompt if it runs out of items and a corresponding recipe is in the network."]
+			id: "23DBAFBE136E3B41"
+			subtitle: "Just another better monitor attempt"
+			tasks: [{
+				id: "1ECA0296F66B8A30"
+				item: "ae2:conversion_monitor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3BC462BDE65FA837"]
+			description: ["Tired of seeing ugly cables everywhere? Facades can be placed on cables to make them appear like other blocks. They can even be placed on faces that already have cable subparts."]
+			icon: {
+				Count: 1b
+				id: "ae2:facade"
+				tag: {
+					item: "minecraft:deepslate_diamond_ore"
+				}
+			}
+			id: "75A4658C0E2E2932"
+			subtitle: "The creeper has already breached our defenses"
+			tasks: [{
+				count: 16L
+				id: "41A78875D1A02258"
+				item: "ae2:cable_anchor"
+				type: "item"
+			}]
+			title: "Facades"
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["69FBE320CFCDC2A6"]
+			id: "48FE0CC92C3583B7"
+			tasks: [{
+				id: "0E4AC1D3D73636B9"
+				item: "megacells:cell_component_1m"
+				type: "item"
+			}]
+			title: "Storing 1 Megabyte"
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["48FE0CC92C3583B7"]
+			description: ["Tired of not having enough crafting storage to build the entire minecraft world? MEGA cells has you covered. You can craft MEGA Crafting Storage and MEGA Crafting Coprocessors"]
+			id: "5F67525D31BA8C02"
+			tasks: [{
+				id: "0A4239E59E9E5A84"
+				item: "megacells:1m_crafting_storage"
+				type: "item"
+			}]
+			title: "Crafting at a New Scale"
+			x: -7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["69FBE320CFCDC2A6"]
+			description: ["MEGA Cells adds MEGA variants of the pattern provider and ME interface. However, the MEGA Pattern Provider can only be used for processing recipes."]
+			id: "1221A9C5A3B3F1D1"
+			tasks: [
+				{
+					id: "663874C45DBFCEAE"
+					item: "megacells:mega_pattern_provider"
+					type: "item"
+				}
+				{
+					id: "6ABB58D04FDBF5CC"
+					item: "megacells:mega_interface"
+					type: "item"
+				}
+			]
+			title: "MEGA Subparts"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["48FE0CC92C3583B7"]
+			description: ["MEGA item cells behave exactly the same as normal item cells, but they can store up to 2 trillion of a single item."]
+			id: "3532BD90C944D6E6"
+			tasks: [{
+				id: "72C9A9CF53F789C4"
+				item: {
+					Count: 1b
+					id: "megacells:item_storage_cell_1m"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Storing More Items"
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["48FE0CC92C3583B7"]
+			description: ["The &lMEGA Bulk Item Storage Cell&r can store an unlimited number of a single item."]
+			id: "56BEE440D9F4AEC1"
+			tasks: [{
+				id: "516C62FB51B93023"
+				item: {
+					Count: 1b
+					id: "megacells:bulk_item_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["69FBE320CFCDC2A6"]
+			id: "6102BE9B5836748D"
+			tasks: [{
+				id: "216824F023B31B9D"
+				item: {
+					Count: 1b
+					id: "megacells:mega_energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3BC462BDE65FA837"]
+			description: ["Colored cables can influence the color of connected cable subparts. For example, Terminals will turn the color of their cables."]
+			icon: "ae2:red_smart_cable"
+			id: "4D999C0A1E529844"
+			tasks: [{
+				id: "310FA93A6E10F757"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Colored Cables"
+			x: -1.5d
+			y: -8.0d
+		}
+	]
+	title: "Applied Energistics"
+}

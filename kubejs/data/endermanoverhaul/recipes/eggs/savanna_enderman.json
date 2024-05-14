@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#&#",
+        "&E&",
+        "#&#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:acacia_sapling"
+        },
+        "&": {
+            "item": "minecraft:acacia_log"
+        },
+        "E": {
+            "item": "minecraft:enderman_spawn_egg"
+        }
+    },
+    "result": {
+        "item": "endermanoverhaul:savanna_enderman_spawn_egg",
+        "count": 1
+    },
+    "group": "enderman_eggs"
+}

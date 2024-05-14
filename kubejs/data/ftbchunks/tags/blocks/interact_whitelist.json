@@ -1,0 +1,66 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:crafting_table",
+		"minecraft:bell",
+		{
+			"id": "sgjourney:classic_dhd",
+			"required": false
+		},
+		{
+			"id": "sgjourney:milky_way_dhd",
+			"required": false
+		},
+		{
+			"id": "sgjourney:pegasus_dhd",
+			"required": false
+		},
+		{
+			"id": "#tombstone:graves",
+			"required": false
+		},
+		{
+			"id": "#waystones:waystone",
+			"required": false
+		},
+		{
+			"id": "#waystones:sharestone",
+			"required": false
+		},
+		{
+			"id": "fwaystones:waystone",
+			"required": false
+		},
+		{
+			"id": "fwaystones:desert_waystone",
+			"required": false
+		},
+		{
+			"id": "fwaystones:stone_brick_waystone",
+			"required": false
+		},
+		{
+			"id": "fwaystones:red_desert_waystone",
+			"required": false
+		},
+		{
+			"id": "fwaystones:nether_brick_waystone",
+			"required": false
+		},
+		{
+			"id": "fwaystones:red_nether_brick_waystone",
+			"required": false
+		},
+		{
+			"id": "fwaystones:end_stone_brick_waystone",
+			"required": false
+		},
+		{
+			"id": "fwaystones:deepslate_brick_waystone",
+			"required": false
+		},
+		{
+			"id": "fwaystones:blackstone_brick_waystone",
+			"required": false
+		}	]
+}

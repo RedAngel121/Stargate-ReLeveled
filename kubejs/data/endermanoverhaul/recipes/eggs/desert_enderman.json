@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#&#",
+        "&E&",
+        "#&#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cactus"
+        },
+        "&": {
+            "tag": "forge:sand"
+        },
+        "E": {
+            "item": "minecraft:enderman_spawn_egg"
+        }
+    },
+    "result": {
+        "item": "endermanoverhaul:desert_enderman_spawn_egg",
+        "count": 1
+    },
+    "group": "enderman_eggs"
+}

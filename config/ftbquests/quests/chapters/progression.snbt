@@ -1,0 +1,295 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progression"
+	group: ""
+	icon: "sgcommunity_pack:computation_core"
+	id: "1222006A8A49597D"
+	images: [
+		{
+			height: 1.0d
+			hover: ["Tier 1"]
+			image: "sgcommunity_pack:textures/quests/roman_one.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Tier 2"]
+			image: "sgcommunity_pack:textures/quests/roman_two.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Tier 3"]
+			image: "sgcommunity_pack:textures/quests/roman_three.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 4.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0C5C986F94D9A7DD"
+			rewards: [{
+				count: 20
+				id: "4DAD13DA1BA9664E"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
+			tasks: [{
+				id: "541EAF34640DA5EA"
+				item: "sgcommunity_pack:iron_substrate"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "707AAF433C9113A6"
+			rewards: [{
+				id: "1584E0EF8C1D8EC4"
+				item: "create:clipboard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AEE3B87A7B35681"
+				item: "sgcommunity_pack:gold_substrate"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "4023AC1A3D9CC942"
+			rewards: [{
+				count: 5
+				id: "5DB53498213D9152"
+				item: "create:crafting_blueprint"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54FBDD9B5CA0DC32"
+				item: "sgcommunity_pack:diamond_substrate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "12B2F1E5BB64DA86"
+			rewards: [{
+				id: "1845B310E92E1642"
+				item: {
+					Count: 1b
+					id: "create:copper_diving_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B39412CDB6E6F55"
+				item: "sgcommunity_pack:netherite_substrate"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "3C65F3AFDFFCDA5A"
+			rewards: [
+				{
+					count: 2
+					id: "595DFBD7ECCE9A2A"
+					item: "pamhc2foodextended:chocolatesprinklecakeitem"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "66E7BE024EC69E1D"
+					item: "create:minecart_coupling"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "394BE02160B72260"
+				item: "sgcommunity_pack:kinetic_substrate"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "6CF4F16FCE4806E3"
+			tasks: [{
+				id: "246B9760A27CD276"
+				item: "sgcommunity_pack:computational_substrate"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "0F3C45B126154562"
+			tasks: [{
+				id: "53F5C31AC6A8F50B"
+				item: "sgcommunity_pack:mekanised_substrate"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "05C460C19A9AE285"
+			tasks: [{
+				id: "3FFBE720E0954A3E"
+				item: "sgcommunity_pack:reactive_substrate"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "231AB7EA433756D2"
+			tasks: [{
+				id: "72338A7DAC2450FB"
+				item: "sgcommunity_pack:deep_space_substrate"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "2C52A6ABB40ED858"
+			tasks: [{
+				id: "68AC7BD738D562D9"
+				item: "sgcommunity_pack:naquadria_substrate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "49936745B787796E"
+			tasks: [{
+				id: "688964810E1DD0CD"
+				item: "sgcommunity_pack:positronic_substrate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			hide: false
+			hide_dependency_lines: true
+			hide_details_until_startable: false
+			id: "7064AC5CE730629B"
+			tasks: [{
+				id: "1FD45377B305EEF1"
+				item: "sgcommunity_pack:vacuum_tube"
+				type: "item"
+			}]
+			title: "Vacuum Tubes"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "54B35B245C507076"
+			tasks: [{
+				id: "6583781DA9D906B3"
+				item: "sgcommunity_pack:rudimentary_processor"
+				type: "item"
+			}]
+			title: "Rudimentary Processors"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			hide_details_until_startable: true
+			icon: "create:large_cogwheel"
+			id: "2D1E28252D69CABA"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "22664F48683B7F0D"
+				type: "custom"
+			}]
+			title: "Kinetic Era"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			hide_details_until_startable: true
+			icon: "mekanism:basic_control_circuit"
+			id: "260C678AAF5D3D3A"
+			optional: true
+			shape: "square"
+			tasks: [{
+				id: "729DB562A909E715"
+				type: "custom"
+			}]
+			title: "Mekanised Era"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "2460EC59F4FDAF9A"
+			tasks: [{
+				id: "037589660A2CB174"
+				item: "sgcommunity_pack:integrated_circuit"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "708A86111237377D"
+			tasks: [{
+				id: "3BBE59733B760ADE"
+				item: "sgcommunity_pack:computation_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: ["See /easymode for more info"]
+			disable_toast: true
+			id: "5C938F25D0F5D112"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "45F799EC073687BD"
+				stage: "easymode"
+				type: "gamestage"
+			}]
+			title: "Easy Mode is Enabled"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			id: "726BD6CD45E9CDD9"
+			tasks: [{
+				id: "0A0EDCE11795D4DA"
+				item: "sgcommunity_pack:mosfet"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+	]
+	title: "Progression"
+}

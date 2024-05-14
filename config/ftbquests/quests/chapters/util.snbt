@@ -1,0 +1,22 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "util"
+	group: ""
+	id: "625B45DE66DD59BB"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "0D32A3E3193EE32C"
+		invisible: true
+		tasks: [{
+			id: "657C25647BD961B2"
+			title: "Never Completed"
+			type: "checkmark"
+		}]
+		x: -4.0d
+		y: -2.0d
+	}]
+	title: "util"
+}

@@ -1,0 +1,21 @@
+{
+   "mw_nether_disconnect":{
+      "subtitle":"sounds.sgjourney.wormhole_close",
+      "sounds":[
+         "jajasgates:mw_nether_disconnect"
+      ]
+   },
+   "mw_nether_idle_multi":{
+      "subtitle":"sounds.sgjourney.wormhole_idle",
+      "sounds":[
+         "jajasgates:wormhole_idle",
+         "jajasgates:mw_nether_idle"
+      ]
+   },
+   "mw_nether_open":{
+      "subtitle":"sounds.sgjourney.wormhole_open",
+      "sounds":[
+         "jajasgates:mw_nether_open"
+      ]
+   }
+}

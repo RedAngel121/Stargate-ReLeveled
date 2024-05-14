@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "c": {
+      "item": "ae2:controller"
+    },
+    "e": {
+      "item": "mekanism:teleportation_core"
+    },
+    "p": {
+      "tag": "ae2:illuminated_panel"
+    },
+    "i": {
+      "item": "mekanism:alloy_infused"
+    },
+    "r": {
+      "item": "mekanism:alloy_reinforced"
+    }
+  },
+  "pattern": [
+    "iei",
+    "rpr",
+    "ici"
+  ],
+  "result": {
+    "item": "shrink:shrinking_device"
+  }
+}

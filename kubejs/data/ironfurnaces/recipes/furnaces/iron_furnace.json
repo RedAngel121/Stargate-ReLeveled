@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "#S#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:ingots/iron"
+    },
+    "S": {
+      "tag": "sgcommunity_pack:circuit_basic"
+    },
+    "X": {
+       "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "ironfurnaces:iron_furnace"
+  }
+}

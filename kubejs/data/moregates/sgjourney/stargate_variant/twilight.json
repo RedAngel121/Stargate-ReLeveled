@@ -1,0 +1,22 @@
+{
+    "base_stargate": "sgjourney:pegasus_stargate",
+    "texture": "moregates:textures/entity/stargate/pegasus/twilight/twilight_stargate.png",
+    "engaged_texture": "moregates:textures/entity/stargate/pegasus/twilight/twilight_stargate_engaged.png",
+    "event_horizon_texture": "moregates:textures/entity/stargate/pegasus/twilight/twilight_event_horizon.png",
+    "shiny_event_horizon_texture": "moregates:textures/entity/stargate/pegasus/twilight/twilight_event_horizon_shiny.png",
+    "symbol_color": [140, 140, 140, 255],
+    "engaged_symbol_color": [183, 183, 0, 255],
+
+    "model": {
+        "alternate_model": true,
+        "back_chevrons": true
+    },
+
+    "sounds": {
+        "chevron_engage_sound": "sgjourney:pegasus_chevron_engage",
+        "chevron_encode_sound": "sgjourney:pegasus_chevron_encode",
+        "fail_sound": "sgjourney:pegasus_dial_fail",
+        "wormhole_open_sound": "sgjourney:pegasus_wormhole_open",
+        "wormhole_close_sound": "sgjourney:pegasus_wormhole_close"
+    }
+}

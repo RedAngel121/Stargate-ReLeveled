@@ -1,0 +1,21 @@
+[
+    {
+        "mod": "endermanoverhaul",
+        "spawner": false,
+        "mincount": {
+            "amount": 0,
+            "mod": "endermanoverhaul",
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "mod": "mekanismadditions",
+        "mincount": {
+            "amount": 0,
+            "mod": "mekanismadditions",
+            "perplayer": true
+        },
+        "result": "deny"
+    }
+]

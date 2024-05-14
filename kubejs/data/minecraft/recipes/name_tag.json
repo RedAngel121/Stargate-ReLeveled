@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "tag": "minecraft:paper"
+    },
+    "S": {
+      "tag": "minecraft:slime_ball"
+    },
+    "T": {
+      "tag": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "  T",
+    "PS ",
+    "PP "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:name_tag"
+  }
+}

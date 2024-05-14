@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "GXG",
+    "#S#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:gems/diamond"
+    },
+    "S": {
+      "tag": "sgcommunity_pack:circuit_intermediate"
+    },
+    "X": {
+      "tag": "forge:ingots/gold"
+    },
+    "G": {
+      "tag": "forge:glass"
+    }
+  },
+  "result": {
+    "item": "ironfurnaces:upgrade_diamond"
+  }
+}

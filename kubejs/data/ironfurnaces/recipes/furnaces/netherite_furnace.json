@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "N#N",
+    "#X#",
+    "NSN"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:magma_cream"
+    },
+    "X": {
+      "tag": "forge:furnaces/obsidian"
+    },
+    "S": {
+      "item": "sgcommunity_pack:computation_core"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "ironfurnaces:netherite_furnace"
+  }
+}

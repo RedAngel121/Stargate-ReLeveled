@@ -1,0 +1,246 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "3553DD7F726AE366"
+	icon: "create:cogwheel"
+	id: "2AB09A34CE1A5FC5"
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "create:wrench"
+			id: "51EBD8AD1947C6D0"
+			rewards: [{
+				id: "3170EFB299F217AE"
+				item: "create:wrench"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "676458813C0A6E70"
+				title: "Wrench"
+				type: "checkmark"
+			}]
+			title: "Create Wrench"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51EBD8AD1947C6D0"]
+			id: "7E41742E67174220"
+			tasks: [{
+				id: "181BAB48A3E07AA1"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E41742E67174220"]
+			dependency_requirement: "one_started"
+			id: "6075DDD634B1D9C8"
+			tasks: [{
+				id: "62AD024D882346EA"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6075DDD634B1D9C8"]
+			id: "41297EEDA1F828CF"
+			tasks: [{
+				id: "3F3ACC48DFC2A6B6"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6075DDD634B1D9C8"]
+			id: "6FAD2FECF66CBECF"
+			tasks: [{
+				id: "181D813E2D1CFD5E"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E41742E67174220"]
+			id: "720A704F36C49FD2"
+			tasks: [{
+				id: "181161E779F231E2"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41297EEDA1F828CF"]
+			id: "1A1DD0C2EF085EE0"
+			tasks: [{
+				id: "3CB1AE88BA71EC9C"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1A1DD0C2EF085EE0"]
+			id: "59C2554F6C964CA6"
+			tasks: [{
+				id: "3E263F63C27C9146"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["720A704F36C49FD2"]
+			id: "19318B46098B944A"
+			tasks: [{
+				id: "1DDC8B2C31A363BD"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19318B46098B944A"]
+			id: "461C2FCA1337FE7F"
+			tasks: [{
+				id: "26D8B35C25EC2226"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6FAD2FECF66CBECF"]
+			id: "721F64B0DD7BF155"
+			tasks: [{
+				id: "7F9033BD0CB58B85"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4AAD31B49D7A8F14"]
+			id: "3D149E4A9452B36A"
+			tasks: [{
+				id: "40A47EB7F6A8341F"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["19318B46098B944A"]
+			id: "1D243C99783E047E"
+			tasks: [{
+				id: "6857925BCD52C38F"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D243C99783E047E"]
+			id: "7AA9522E8E6678AA"
+			tasks: [{
+				id: "04478C97EA6332ED"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D243C99783E047E"]
+			id: "4AAD31B49D7A8F14"
+			tasks: [{
+				id: "0CB7E39F075870DA"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4AAD31B49D7A8F14"
+				"182F2F046A74E389"
+			]
+			id: "786B843F50751D61"
+			tasks: [{
+				id: "6DAE60FE481A711C"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["786B843F50751D61"]
+			id: "7FE2427E44CFEC67"
+			tasks: [{
+				id: "5A86FC8F52DB1E72"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["19318B46098B944A"]
+			id: "3402C43C6BD3F5AE"
+			tasks: [{
+				id: "1A031BC6BDE0B5C0"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["19318B46098B944A"]
+			id: "182F2F046A74E389"
+			tasks: [{
+				id: "10596BA94E7DD565"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6075DDD634B1D9C8"]
+			id: "2ACF83461C8E7A1B"
+			tasks: [{
+				id: "64CE01E55BAF7AB7"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+	]
+	title: "Create"
+}

@@ -1,0 +1,306 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_beginnings"
+	group: "0B892AF6A2410D9F"
+	icon: "botanypots:light_blue_glazed_terracotta_botany_pot"
+	id: "7EAC592E39C4CF7B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["This pack uses mekanism and create for resources, sgjourney and ad astra for exploration, and botany pots + a custom tiered substrate system for resources. If a &3quest is cyan&r, that means that you should try your best to automate it."]
+			id: "39646520A484643F"
+			rewards: [{
+				id: "2508FBF82AF82FFE"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "It's kinda thrown together"
+			tasks: [{
+				id: "25C2BBA1C0F6ADC2"
+				title: "Welcome to the SGJourney Community Pack"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39646520A484643F"]
+			description: ["To start automating resources, you can use botany pots! You'll need to get some clay to make pots and terracotta. Once you have a pot and terracotta, you can make your first botany pot!"]
+			hide: true
+			id: "1B3E348B011762ED"
+			rewards: [
+				{
+					count: 16
+					id: "46832A222B5C3A90"
+					item: "minecraft:grass_block"
+					type: "item"
+				}
+				{
+					id: "16F64308E7018D9F"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					id: "3EE44FFE9DA4760A"
+					item: "minecraft:potato"
+					type: "item"
+				}
+			]
+			subtitle: "Just add dirt!"
+			tasks: [
+				{
+					consume_items: false
+					id: "70799550336697A6"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "botanypots:all_botany_pots"
+						}
+					}
+					match_nbt: false
+					only_from_crafting: true
+					title: "Craft a Botany Pot"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "28761084E9CDF897"
+					item: "minecraft:terracotta"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "464771C3B822775F"
+					item: "minecraft:flower_pot"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Getting started with botany pots!"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B3E348B011762ED"]
+			description: ["In order to grow iron, copper, and coal, you will need an Iron Substrate. Go ahead and craft one and use it as a botany pot soil."]
+			id: "7053517E4216FCD1"
+			rewards: [
+				{
+					id: "246314D09A0CE38F"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "62F9100A43823A63"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "558373DE155919C5"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A6CE16DBC66AFE0"
+				item: "sgcommunity_pack:iron_substrate"
+				title: "Craft Iron Substrate"
+				type: "item"
+			}]
+			title: "How do I grow ores?"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B3E348B011762ED"]
+			description: ["As cool as botany pots are, you don't want to watch them grow all day. Hopper botany pots will automatically collect and store your botany pot outputs."]
+			id: "691B9DE097A3AFD4"
+			rewards: [{
+				count: 3
+				id: "6F4F0ACFD303C939"
+				item: "minecraft:hopper"
+				type: "item"
+			}]
+			subtitle: "Watching diamonds grow"
+			tasks: [{
+				id: "06CE12D07D4D17CD"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "botanypots:hopper_botany_pots"
+					}
+				}
+				title: "Craft a Hopper Botany Pot"
+				type: "item"
+			}]
+			title: "Hop to it"
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7053517E4216FCD1"]
+			description: [
+				"This modpack uses a unique growth substrate system for growing ores in botany pots. Each tier of substrates can grow new materials and grow previous materials faster."
+				"(List of substrates on next page)"
+				"{@pagebreak}"
+				"Substrates:"
+				""
+				"Iron: iron, coal, copper"
+				"Gold: + gold"
+				"Diamond: + diamond, lapis, redstone"
+				"Netherite: + ancient debris, emerald"
+				"Kinetic: + certus quartz, nether quartz"
+				"Computational: just faster"
+				"Mekanised: + fluix"
+				"Reactive: + osmium"
+				"Deep Space: + tin, lead, borax"
+				"Naquadria: + uranium, fluorine"
+				"Positronic: + naquadah"
+			]
+			id: "1DEBD297BF2D5EC6"
+			rewards: [{
+				id: "4EB0DE5242C60D08"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "5600081E3DFB3883"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "About Substrates"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DEBD297BF2D5EC6"]
+			description: ["This substrate introduces recipes for upgrading. Notice how you can save on gold by using the upgrade recipe."]
+			id: "4CE0D979E9A5681B"
+			rewards: [{
+				id: "1306ECB184360FBC"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B2C811BB3EBE4E6"
+				item: "sgcommunity_pack:gold_substrate"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CE0D979E9A5681B"]
+			description: ["Pretty simple, just need 4 diamonds to upgrade a gold substrate or 5 to make one from scratch. However, from now on, every substrate will be made by upgrading up from this one."]
+			id: "6BDAECDF847B5CE8"
+			rewards: [{
+				id: "1E54C2C1B6FFEB15"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:sharpness"
+							lvl: 5s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Iced Out!"
+			tasks: [{
+				id: "77ECB6D23D199FAF"
+				item: "sgcommunity_pack:diamond_substrate"
+				type: "item"
+			}]
+			title: "Diamond Substrate"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BDAECDF847B5CE8"]
+			description: ["Make sure to grab enough ancient debris for two ingots so that you can grow more once you get home."]
+			id: "66FA9D9F8A8C2B8C"
+			tasks: [{
+				id: "4F68C61ACF3CD01E"
+				item: "sgcommunity_pack:netherite_substrate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DEBD297BF2D5EC6"]
+			description: ["Before we enter the first era, you'll need to gather some supplies for it. Go ahead and gather 64 andesite."]
+			id: "3B0AA365C22B2922"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CCAFD2CC91527A4"
+				table_id: 6707801667765775512L
+				type: "random"
+			}]
+			tasks: [{
+				count: 64L
+				id: "7026B74FE619A44E"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			title: "Preparing for Creation"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1DEBD297BF2D5EC6"]
+			description: ["Organic compost gives 4x speed on anything not covered by the other composts."]
+			id: "21C339B78AC8B555"
+			tasks: [{
+				id: "35FB334A9F1D6E79"
+				item: "sgcommunity_pack:organic_compost"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1DEBD297BF2D5EC6"]
+			description: ["Floral compost gives 4x speed to flowers."]
+			id: "1A3F23F4F426FD7C"
+			tasks: [{
+				id: "1765B82697C46374"
+				item: "sgcommunity_pack:floral_compost"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1DEBD297BF2D5EC6"]
+			description: ["Coral compost give 4x speed to crops that grow in water"]
+			id: "3328AF49D13841D5"
+			tasks: [{
+				id: "5705C2738EF6A039"
+				item: "sgcommunity_pack:coral_compost"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1DEBD297BF2D5EC6"]
+			description: ["Mulch gives 4x speed on trees and crops that grow on wood."]
+			id: "3469D07EB4D14590"
+			tasks: [{
+				id: "29163DD19AC362B8"
+				item: "sgcommunity_pack:mulch_compost"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+	]
+	title: "The Beginnings"
+}

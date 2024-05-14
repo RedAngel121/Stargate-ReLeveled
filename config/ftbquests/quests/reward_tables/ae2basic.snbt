@@ -1,0 +1,11 @@
+{
+	id: "671627EF1CBDA0DC"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 10, item: "ae2:certus_quartz_crystal" }
+		{ count: 5, item: "minecraft:quartz" }
+		{ count: 10, item: "ae2:sky_stone_block" }
+	]
+	title: "ae2-basic"
+}

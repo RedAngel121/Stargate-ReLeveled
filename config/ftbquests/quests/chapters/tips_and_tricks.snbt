@@ -1,0 +1,249 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tips_and_tricks"
+	group: ""
+	icon: "minecraft:book"
+	id: "5D60483138C53A9C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "674A3D8C452C1D56"
+			rewards: [{
+				id: "4C541262C33C9990"
+				item: "minecraft:axolotl_bucket"
+				type: "item"
+			}]
+			subtitle: "That seems kinda unbalanced"
+			tasks: [{
+				id: "68FD294FE78EF91D"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			title: "Infinite Water"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["The Create hose allows for extracting or filling large bodies of fluids. It extracts everything at or above the height of it's nozzle and fills up to it's level. However, when the body of fluid is larger than 10000 blocks, the hose considers the pool to be infinite. This works for water, honey, chocolate, and lava. If you want another fluid added to the list, just ask."]
+			id: "723CFF1C353C5B85"
+			rewards: [{
+				id: "491E9579D36430AC"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			subtitle: "Ok, that's definitely not balanced"
+			tasks: [{
+				id: "1B78D909ACCA8D59"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			title: "Infinite Lava"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			description: ["If you come along a cyan &3automation recommended&r quest, you probably should listen. These quests are used for items that you will be using for the rest of the era in nearly everything."]
+			icon: "minecraft:crafting_table"
+			id: "7F70CDB4ABE376E8"
+			tasks: [{
+				id: "757168EF28526968"
+				title: "Craft Big, Automate Everything"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			description: ["The AE2 Guidebook contains nearly all there is to know about AE2. If you hover over an ae2 item and hold G, it will open the guidebook automatically. This is just here as an option for those who like physical books."]
+			icon: "ae2:guide"
+			id: "5822E75A31419923"
+			optional: true
+			rewards: [{
+				id: "561831CA8A3BD659"
+				item: "ae2:guide"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2500F89E9679E880"
+				title: "AE2 Guidebook"
+				type: "checkmark"
+			}]
+			title: "Better Than Quests"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			description: ["Create has a large number of multi-faceted mechanisms. As such, it is probably wise for you to check out the &dPonder Index&r. The Ponder Index can be found under the goggle icon in the escape menu, or by holding W while hovering over a create item."]
+			icon: "create:cogwheel"
+			id: "738EF626DC5C3C90"
+			tasks: [{
+				id: "12480A5D3FD71BA5"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Learning Create"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"While traveling around the world, it is almost guaranteed that you might stumble upon a resource that is useful later in the game. As such, you should look out for:"
+				"- Stargates"
+				"- Oil wells"
+				"- Phosphorite"
+				"- Borax"
+			]
+			icon: "minecraft:spyglass"
+			id: "72A7AC9B845231B2"
+			tasks: [{
+				id: "064B2C5D4ED96C4B"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Things to Look Out For"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			description: ["Apotheosis has many features, including potion charms, boss mobs, placeable mob spawners, and a weapon modifier system."]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "apotheosis:apoth_chronicle"
+				}
+			}
+			id: "0CFE08309EF82343"
+			optional: true
+			rewards: [{
+				id: "03E7CB220FD773C9"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "apotheosis:apoth_chronicle"
+					}
+				}
+				only_one: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BF0F5D641450559"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Apotheosis"
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			description: ["&dAdvanced Peripherals&r allows &lComputerCraft&r computers to access far more information than they can in base CC"]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "advancedperipherals:manual"
+				}
+			}
+			id: "41B6CC48454F92F4"
+			optional: true
+			rewards: [{
+				id: "3E76EFC7C74C28D8"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "advancedperipherals:manual"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "36CEC38FB52BD29C"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Advanced Peripherals"
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"By dropping an anvil onto a cow standing on a Milk Jar, you can get the item Cow in a Jar. A Cow in a Jar will produce unlimited milk and can be used in Cooking For Blockheads kitchens."
+				""
+				"{@pagebreak}"
+				"Alternatively, you can use a deployer with a bucket on a cow for more rapid production"
+			]
+			id: "45F7FFD50A8143AB"
+			rewards: [{
+				id: "39F35B7337A73F31"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			subtitle: "It's slow, but compact!"
+			tasks: [{
+				id: "239FE759454464FC"
+				item: "cookingforblockheads:cow_jar"
+				type: "item"
+			}]
+			title: "Infinite Milk"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: ["Ad Astra is a space exploration mod where you can visit other planets and build space stations."]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "ad_astra:astrodux"
+				}
+			}
+			id: "2CE0EF19B7FB7784"
+			optional: true
+			rewards: [{
+				id: "7A91E3342C2889AC"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "ad_astra:astrodux"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "03FAB846074855A5"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Ad Astra"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			description: ["Legends speak of a sacred quest that calls upon the chosen few to seek out the bank and acknowledge their own existence. Those who heed the call are bestowed with a single Crown, a shimmering coin forged from the essence of the game itself."]
+			icon: "numismatics:crown"
+			id: "1F7207A92D11C39B"
+			rewards: [{
+				id: "5DD53A02684112CE"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			tasks: [{
+				id: "589EADB9E160FE2C"
+				title: "Cogs in the Machine"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+	]
+	title: "Tips and Tricks"
+}

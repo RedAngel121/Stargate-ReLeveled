@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LPL",
+    "RSR",
+    "LGL"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:clay_ball"
+    },
+	"P": {
+      "tag": "sgcommunity_pack:circuit_intermediate"
+    },
+	"R": {
+      "tag": "forge:dusts/redstone"
+    },
+	"S": {
+      "item": "minecraft:smooth_stone"
+    },
+	"G": {
+      "tag": "forge:ingots/gold"
+    }
+  },
+  "result": {
+    "item": "hostilenetworks:blank_data_model"
+  }
+}

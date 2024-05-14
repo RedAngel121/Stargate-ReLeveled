@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:crushing",
+    "input": {
+        "ingredient": {
+            "item": "biomesoplenty:rose_quartz_block"
+        }
+    },
+    "output": {
+        "count": 4,
+        "item": "biomesoplenty:rose_quartz_chunk"
+    }
+}

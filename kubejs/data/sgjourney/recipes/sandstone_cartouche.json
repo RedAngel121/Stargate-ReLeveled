@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "F",
+    "F"
+  ],
+  "key": {
+    "F": {"item": "sgjourney:sandstone_hieroglyphs"}
+  },
+  "result": {
+    "item": "sgjourney:sandstone_cartouche"
+  }
+}

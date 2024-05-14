@@ -1,0 +1,584 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_astra"
+	group: "3553DD7F726AE366"
+	icon: {
+		Count: 1b
+		id: "ad_astra:tier_2_rocket"
+		tag: { }
+	}
+	id: "64B3D62321648BBE"
+	images: [
+		{
+			height: 1.0d
+			image: "ad_astra:block/fluid_oil_still"
+			rotation: 0.0d
+			width: 0.03125d
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:block/fluid_oil_still"
+			rotation: 0.0d
+			width: 0.03125d
+			x: -4.0d
+			y: -1.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"44F5A44C5C13627A"
+				"5C938F25D0F5D112"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Ad Astra is a simple space mod that adds several tiers of rockets and 5 new worlds to visit. It also adds orbit dimensions where you can build space stations! By completing Ad Astra, you get access to powered flight as well."]
+			hide: true
+			id: "040091D32C7039BF"
+			tasks: [{
+				id: "5CAA0975B35E5340"
+				title: "To the Stars!"
+				type: "checkmark"
+			}]
+			title: "About Ad Astra"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["040091D32C7039BF"]
+			description: ["To make rocket fuel, you will need to find an oil well and extract some oil. Make sure to get at least 6 buckets per rocket launch."]
+			hide: true
+			id: "733DDCB7B102F065"
+			tasks: [{
+				id: "34BEFFFE5EDCD022"
+				structure: "ad_astra:oil_well"
+				type: "structure"
+			}]
+			title: "Black Gold"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["040091D32C7039BF"]
+			description: ["Steel is relatively easy to make. All you need is a blast furnace and some iron and you can have more steel ingots than you will ever need."]
+			hide: true
+			id: "4127A5F56B05E24D"
+			tasks: [{
+				count: 200L
+				id: "500D02313B83A5F7"
+				item: "ad_astra:steel_ingot"
+				type: "item"
+			}]
+			title: "Forging Steel"
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"733DDCB7B102F065"
+				"4127A5F56B05E24D"
+			]
+			description: ["To make rocket fuel, simply put oil into a fuel refinery."]
+			id: "5F155B45118EF013"
+			tasks: [
+				{
+					id: "1087CA3373B4DD60"
+					item: "ad_astra:fuel_refinery"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "21EEBB7696330172"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+			]
+			title: "Making Fuel"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F155B45118EF013"]
+			description: ["In order to launch your rocket, you'll need somewhere to place it! A launchpad will be needed for your return trip from the moon as well."]
+			id: "156B8093C4FF95A9"
+			tasks: [{
+				count: 2L
+				id: "14B805EB3B09AEB5"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			title: "Solid Foundation"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4127A5F56B05E24D"]
+			description: ["In order to assemble a rocket, you will need to craft a NASA Workbench."]
+			id: "026A1F62C8150FEA"
+			tasks: [{
+				id: "075D19F10E2642E1"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["026A1F62C8150FEA"]
+			description: ["Since the moon has no oxygen, you'll need a spacesuit to survive. Make sure to bring extra oxygen, as water will freeze on the moon, preventing you from producing more"]
+			id: "0B833C6EFF418C31"
+			tasks: [
+				{
+					id: "6D5E50212800CB5E"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17EB9C3663D83D19"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2AE9780C2D433E0A"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "211EA69323DA6BC7"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4D952AEEB7C61A9B"
+					item: {
+						Count: 1b
+						id: "ad_astra_giselle_addon:oxygen_can"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Nobody can hear you scream"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0B833C6EFF418C31"
+				"156B8093C4FF95A9"
+			]
+			id: "07FACFF9969C84EF"
+			tasks: [{
+				id: "173E67917890BAC7"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "The Rocket"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"07FACFF9969C84EF"
+				"515FAE2421519FDE"
+			]
+			description: ["In order to ensure you can return home after visiting the moon, you will need a Launchpad and 3 Fuel Buckets. In order to make this easier, the rocket has an inventory for you to store extra fuel and other items in. Once you are on the moon, you can break the landing vehicle to get back your rocket and your items."]
+			id: "558D9B481364BBDF"
+			subtitle: "Read this if you want to come back home"
+			tasks: [{
+				id: "3DD500F6D4DF54B1"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Final Checklist"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["558D9B481364BBDF"]
+			description: ["Shift Right click your rocket to open it's inventory and insert fuel. Then, right click it and press space to begin the launch countdown!"]
+			id: "140F7A948347A9AF"
+			tasks: [{
+				advancement: "ad_astra:moon"
+				criterion: ""
+				id: "3B65A5D5588C0821"
+				title: "Land on the Moon"
+				type: "advancement"
+			}]
+			title: "Blastoff!"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0B833C6EFF418C31"]
+			description: ["In order to fill your suit and tanks, you will need an &dOxygen Loader&r which produces &lOxygen&r from &lWater"]
+			id: "515FAE2421519FDE"
+			subtitle: "Essential for Life"
+			tasks: [{
+				id: "1E506E4C9FAF4B27"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			title: "Producing Oxygen"
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["140F7A948347A9AF"]
+			description: ["In the lunar underground, you can find desh which is used to make useful technology and better rockets. You will want to bring back a bit to play with, but you will need far more in order to make the next rocket."]
+			hide: true
+			id: "330BC90CB5BD20B0"
+			tasks: [{
+				count: 32L
+				id: "04DB774E7FCDD348"
+				item: "ad_astra:raw_desh"
+				type: "item"
+			}]
+			title: "Permanent Space Base?"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["330BC90CB5BD20B0"]
+			description: ["While water freezes on the moon, if you create an oxygenated atmosphere, it will stick around! In order to kickstart the process, you will need to bring several buckets of water. Consider using a fluid tank or an AE2 fluid cell to make sure you have enough. The &dOxygen Distributer&r can be used fill a room with &lOxygen&r, and the &dWater Pump&r can be used to drain water source blocks for water."]
+			id: "462B9ADD52070B7C"
+			tasks: [
+				{
+					id: "4ACEBD9258440A3F"
+					item: "ad_astra:oxygen_distributor"
+					type: "item"
+				}
+				{
+					id: "24AE79150802E952"
+					item: "ad_astra:water_pump"
+					type: "item"
+				}
+			]
+			title: "Permanent Space Base"
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["462B9ADD52070B7C"]
+			description: [
+				"In order to construct a Space Station, you will need:"
+				"- 32 Desh Ingots"
+				"- 32 Steel Ingots"
+				"- 64 Iron Sheets"
+				"- 32 Desh Plates"
+				"You might also want to bring a rocket to get back down."
+			]
+			id: "5A5BC4DABD4FB881"
+			tasks: [{
+				id: "154DF0F06E1834E5"
+				title: "Space Stations"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["462B9ADD52070B7C"]
+			description: ["The &dGravity Normalizer&r can be used to generate a field of overworld gravity in low gravity environments."]
+			id: "6FB52619A2C04B0D"
+			tasks: [{
+				id: "7A2F77102464E0A1"
+				item: "ad_astra_giselle_addon:gravity_normalizer"
+				type: "item"
+			}]
+			title: "Artificial Gravity"
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["330BC90CB5BD20B0"]
+			description: ["Traveling to Mars is very similar to traveling to the Moon. It takes the same amount of fuel and doesn't have an atmosphere."]
+			id: "0D81BDD128A6C63E"
+			tasks: [{
+				id: "7E7E481B4AF7EF3A"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Going to Mars"
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["330BC90CB5BD20B0"]
+			description: ["The Rover is a vehicle capable of traversing flat-ish terrain at high speeds and has a large inventory space. It is powered using fuel."]
+			id: "6642CDF5B5D029AC"
+			tasks: [{
+				id: "38E01A0F57E91F13"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rover"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Zoom"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D81BDD128A6C63E"]
+			id: "5A528882B2D313EF"
+			tasks: [{
+				advancement: "ad_astra:mars"
+				criterion: ""
+				id: "1CD97B1F7B542AF1"
+				type: "advancement"
+			}]
+			title: "Here we go again..."
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A528882B2D313EF"]
+			description: ["&dOstrum&r can be found in the Martian underground and can be used to produce a cleaner&l fuel&r source as well as a&l better spacesuit."]
+			hide: true
+			id: "6C1DECF67082392C"
+			tasks: [{
+				count: 32L
+				id: "75A1C57B8B31BD44"
+				item: "ad_astra:raw_ostrum"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C1DECF67082392C"]
+			description: ["The &dCryo Freezer&r allows you to produce &lCryo Fuel&r which can be used in place of &lFuel&r for powering rockets."]
+			id: "777C55927C4EA7E7"
+			tasks: [{
+				id: "0EAE2D0959CA42EE"
+				item: "ad_astra:cryo_freezer"
+				type: "item"
+			}]
+			title: "Unlimited Fuel"
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6C1DECF67082392C"]
+			description: ["Venus is a planet with a fiery atmosphere. In order to survive, you will need a &dNetherite Space Suit&r. As a bonus, it also comes with a larger oxygen tank and better armor."]
+			id: "619164BE81319331"
+			tasks: [
+				{
+					id: "0B12C070FC6D13A6"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F738362360144FD"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77D433E085B2DE2D"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09B8EE138C677686"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["619164BE81319331"]
+			description: ["Now that you have a Tier 3 rocket and a Netherite Space Suit, it's time to go to Venus!"]
+			id: "5744700A7274DA60"
+			tasks: [{
+				id: "06A0772C8248D081"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "A Lovely Planet"
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5744700A7274DA60"]
+			id: "4E2E67F2610381AF"
+			tasks: [{
+				advancement: "ad_astra:venus"
+				criterion: ""
+				id: "6A7AF03F0E250CC7"
+				type: "advancement"
+			}]
+			title: "Do you mind turning down the heat?"
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4E2E67F2610381AF"]
+			description: ["Guess what? It's found in the Venus Underground. You can craft a rocket with it. HOWEVER, unlike all the other Ad Astra ores, this one unlocks something cool: The Jet Suit."]
+			hide: true
+			id: "03A86C169C511433"
+			tasks: [{
+				id: "3FCC5E87BC421EC4"
+				item: "ad_astra:raw_calorite"
+				type: "item"
+			}]
+			title: "Another Ad Astra Ore"
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["03A86C169C511433"]
+			description: ["The Jet Suit is extremely useful. Not only does offer protection against drowning, fire damage, acid rain, and the void of space, but it also allows you to fly! By pressing space you will fly upwards and sprint key + space allows you to boost."]
+			id: "7E6EFAEBC153FC1A"
+			tasks: [
+				{
+					id: "2CB8D5D3052E173B"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "034C6D4DD1AC2906"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22AA8AB74E64C814"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "708A3B5D950215D0"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Powered Flight"
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["03A86C169C511433"]
+			description: ["Now that you have completed the main progression of ad astra, you can travel to Alpha Centauri because why not"]
+			id: "59808EDCCD6B0790"
+			tasks: [{
+				id: "452AD68FDB05422B"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Another Rocket?"
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["59808EDCCD6B0790"]
+			description: ["Despite its friendlier atmosphere, Glacio's terrain makes it extremely hostile and it lacks any major resources."]
+			id: "49A6CC81BF9908FF"
+			tasks: [{
+				advancement: "ad_astra:interstellar"
+				criterion: ""
+				id: "58962596A0B804C5"
+				type: "advancement"
+			}]
+			title: "Visit Glacio"
+			x: 6.5d
+			y: 4.0d
+		}
+	]
+	title: "Ad Astra"
+}

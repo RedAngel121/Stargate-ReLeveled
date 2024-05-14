@@ -1,0 +1,34 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "GXG",
+    "#S#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:ingots/iron"
+    },
+    "S": {
+      "tag": "sgcommunity_pack:circuit_basic"
+    },
+    "X": {
+      "tag": "forge:ingots/copper"
+    },
+    "G": {
+      "tag": "forge:glass"
+    }
+  },
+  "result": {
+    "item": "ironfurnaces:upgrade_iron2"
+  },
+  "conditions": [
+    {
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/copper"
+      },
+      "type": "forge:not"
+    }
+  ]
+}

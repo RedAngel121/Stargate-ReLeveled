@@ -1,0 +1,10 @@
+{
+	id: "5D16E613CEF3AC98"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 16, item: "create:andesite_alloy", random_bonus: 8 }
+		{ count: 2, item: "create:brass_ingot", random_bonus: 2, weight: 0.25f }
+	]
+	title: "kinetic-era-basic"
+}

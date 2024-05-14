@@ -1,0 +1,14 @@
+{
+	id: "2120B37C16CC47D2"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 4, item: "storagedrawers:oak_full_drawers_1", random_bonus: 2 }
+		{ count: 10, item: "storagedrawers:oak_trim", random_bonus: 5 }
+		{ item: "storagedrawers:iron_storage_upgrade" }
+		{ item: "storagedrawers:controller", weight: 0.2f }
+		{ item: "storagedrawers:controller_slave", weight: 0.2f }
+		{ item: "storagedrawers:compacting_drawers_3", weight: 0.5f }
+	]
+	title: "storagedrawers"
+}
