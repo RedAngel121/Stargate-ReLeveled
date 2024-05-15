@@ -1,6 +1,6 @@
 ### Changes:
 - Added the Dragon Head to HNN
-- Added Naq Gen MK-I Model and recpie (Thank you Aspect!)
+- Added Naq Gen MK-I Model and Recipe (Thank you Aspect!)
 
 ### Updates:
 

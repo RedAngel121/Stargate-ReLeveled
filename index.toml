@@ -898,7 +898,7 @@ hash = "a48daa72f458221900e1a8836159bc2192fdeb650e27fc81c27f4a24ec45a4f8"
 
 [[files]]
 file = "kubejs/assets/sgjourney/models/block/naquadah_generator_mark_i.json"
-hash = "3c4dc07c89ae6a4a2e2e0beb1a24c0e75275ea643f5e684e479207278a30df24"
+hash = "79186f16eb55236d37bfb62fea8cd6334685b8475cd530a9117784643afd3673"
 
 [[files]]
 file = "kubejs/assets/sgjourney/textures/block/naq_gen_tex.png"

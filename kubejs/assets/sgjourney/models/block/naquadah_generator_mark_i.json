@@ -1,5 +1,6 @@
 {
-	"credit": "Made with Blockbench",
+	"render type": "minecraft:cutout",
+	"credit": "Made by Aspect_Xero in Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
 		"9": "sgjourney:block/naq_gen_tex"
