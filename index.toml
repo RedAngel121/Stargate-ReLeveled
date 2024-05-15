@@ -897,6 +897,14 @@ file = "kubejs/assets/sgcommunity_pack/textures/quests/roman_two.png"
 hash = "a48daa72f458221900e1a8836159bc2192fdeb650e27fc81c27f4a24ec45a4f8"
 
 [[files]]
+file = "kubejs/assets/sgjourney/models/block/naquadah_generator_mark_i.json"
+hash = "3c4dc07c89ae6a4a2e2e0beb1a24c0e75275ea643f5e684e479207278a30df24"
+
+[[files]]
+file = "kubejs/assets/sgjourney/textures/block/naq_gen_tex.png"
+hash = "093288465b95aa9697149cd98774ac2131a22f43347f5c86db6f6e6f5d5d7cc9"
+
+[[files]]
 file = "kubejs/assets/sgjourney/textures/block/transport_rings.png"
 hash = "9d67bd9a3ee6f8ce94d3c547446955f6ce8f9af73bc17070ddcd76c8a34e79b4"
 
@@ -1391,6 +1399,10 @@ hash = "ee15021427a14b117651b6d22261a69ec0ee4d50bf5ac7b8259eff6022824350"
 [[files]]
 file = "kubejs/data/sgcommunity_pack/worldgen/placed_feature/striated_phosphorite.json"
 hash = "f7bee9f9ac70e20835b98dc74f54be9655ad769e878590ff58c5acdd0864392c"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/naquadah_generator_mark_i.json"
+hash = "c2668f447f806b1a983dd79c09c32edbd1cc5e2c2d33b11653024a14eb6ad5dd"
 
 [[files]]
 file = "kubejs/data/sgjourney/recipes/sandstone_cartouche.json"
