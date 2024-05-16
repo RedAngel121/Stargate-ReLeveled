@@ -2265,6 +2265,11 @@ hash = "aa15f807d2a5f088e79460b5a98ea1f9dbfc5a25fcc97da41c9152d82930e0f8"
 metafile = true
 
 [[files]]
+file = "mods/stargate-journey-deco.pw.toml"
+hash = "317642bcdf26dce514af457cb74ce82668601c48d70d58b704e0b98b647cec68"
+metafile = true
+
+[[files]]
 file = "mods/stellarview.pw.toml"
 hash = "cf1c31fa1e9f0d7369188bc052f42f4264971dab39cd5d6e67ccb147221b4b3f"
 metafile = true

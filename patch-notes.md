@@ -8,7 +8,7 @@
 - Moonlight Lib: 2.11.18 -> 2.11.19
 
 ### Additions:
-
+- Stargate Journey: Deco
 
 ### Removals:
 
