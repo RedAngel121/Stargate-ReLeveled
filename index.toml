@@ -1145,6 +1145,10 @@ file = "kubejs/data/ironfurnaces/recipes/furnaces/netherite_furnace.json"
 hash = "89201344166e7877d02234a302bee14a5b40e73e9bc0911f14bf1d7340a04c40"
 
 [[files]]
+file = "kubejs/data/ironfurnaces/recipes/furnaces/silver_furnace.json"
+hash = "175b9b873dc7885c06e2dd45b101133b8622f98ab20662c734997fef5ae3ba8b"
+
+[[files]]
 file = "kubejs/data/ironfurnaces/recipes/generator_blasting/ingot_lead.json"
 hash = "b36362246e46e3d702415e7f3076b277cdef0976468c2609fbb4ff9f1bdc56ae"
 
@@ -1390,7 +1394,7 @@ hash = "f7bee9f9ac70e20835b98dc74f54be9655ad769e878590ff58c5acdd0864392c"
 
 [[files]]
 file = "kubejs/data/sgjourney/recipes/cobbled_deepslate.json"
-hash = "7c9ecffa95def507137e2831abd14ae7ccd14f7e5a6a27acb17246361381ee14"
+hash = "411d9096f95f53b540537f11e5190bb261aebb718061509c40e0371c042c5f97"
 
 [[files]]
 file = "kubejs/data/sgjourney/recipes/honeycomb_from_block.json"

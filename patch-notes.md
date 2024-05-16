@@ -1,6 +1,7 @@
 ### Changes:
 - Fixed Multiple recipes to display items instead of tags
 - Added Recipe for Personal Shield Emitter
+- Added recipe for Silver Furnace without using silver (required by rainbow furnace)
 
 ### Updates:
 

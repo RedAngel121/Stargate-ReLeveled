@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:gems/diamond"
+    },
+    "X": {
+      "tag": "forge:furnaces/iron"
+    }
+  },
+  "result": {
+    "item": "ironfurnaces:silver_furnace"
+  }
+}
