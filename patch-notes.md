@@ -1,20 +1,12 @@
 ### Changes:
-- Added the Dragon Head to HNN
-- Added Naq Gen MK-I Model and Recipe (Thank you Aspect!)
-- Added Honeycomb from Honeycomb Block Recipe
 
 ### Updates:
-- Discord Integration Forge: 3.0.7 -> 3.0.7.1
-- Moonlight Lib: 2.11.18 -> 2.11.19
 
 ### Additions:
-- Stargate Journey: Deco
 
 ### Removals:
 
-
 ### CURRENT OBJECTIVES:
-
 
 ### Long Term TODOs:
 - Security Craft Integration (Hard)
