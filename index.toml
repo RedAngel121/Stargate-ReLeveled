@@ -1390,11 +1390,7 @@ hash = "f7bee9f9ac70e20835b98dc74f54be9655ad769e878590ff58c5acdd0864392c"
 
 [[files]]
 file = "kubejs/data/sgjourney/recipes/cobbled_deepslate.json"
-hash = "d05fb94c35ee9a459baba2153f848b2452a6619f726ebad997bae122939c61c8"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/cobbled_deepslate_2.json"
-hash = "10acbbf6a6ba2e5e139bdc2af250c90f780387ba7448094bd43dbdfa17861338"
+hash = "7c9ecffa95def507137e2831abd14ae7ccd14f7e5a6a27acb17246361381ee14"
 
 [[files]]
 file = "kubejs/data/sgjourney/recipes/honeycomb_from_block.json"
@@ -1402,15 +1398,15 @@ hash = "10592c53a402e9cacb4f478d48308dcf8f0036963fa91ca92ae2b73ce357829e"
 
 [[files]]
 file = "kubejs/data/sgjourney/recipes/name_tag.json"
-hash = "cc3c9204d8a44b839681c24aec223a99cbff2aff07f2700bcfec71fb1fc4efe9"
+hash = "f6f2cbb32027b7c1e6c78ed437e6d8b4ae2daae9a71be84f7b815673b2b657b8"
 
 [[files]]
 file = "kubejs/data/sgjourney/recipes/naquadah_generator_mark_i.json"
-hash = "d58d735792328615dddff128e68f5cba0ce85329d1e184334071d648182d5c9b"
+hash = "5e90758a84dbcf9803ee63ec6eb283a2f69e9049107b723a3b5d8ae074fb0884"
 
 [[files]]
 file = "kubejs/data/sgjourney/recipes/personal_shield_emitter.json"
-hash = "14a916e3c7418cf6c8a644df426b5b14493b869a7e929795265da5a9723b5a45"
+hash = "530b08c2c15fd58f9d128dbe5bdb8bc0ba697af9112391769db99f1d1636c584"
 
 [[files]]
 file = "kubejs/data/sgjourney/recipes/sandstone_cartouche.json"
