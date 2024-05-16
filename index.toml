@@ -1401,6 +1401,10 @@ file = "kubejs/data/sgcommunity_pack/worldgen/placed_feature/striated_phosphorit
 hash = "f7bee9f9ac70e20835b98dc74f54be9655ad769e878590ff58c5acdd0864392c"
 
 [[files]]
+file = "kubejs/data/sgjourney/recipes/honeycomb_from_block.json"
+hash = "10592c53a402e9cacb4f478d48308dcf8f0036963fa91ca92ae2b73ce357829e"
+
+[[files]]
 file = "kubejs/data/sgjourney/recipes/naquadah_generator_mark_i.json"
 hash = "c2668f447f806b1a983dd79c09c32edbd1cc5e2c2d33b11653024a14eb6ad5dd"
 
@@ -1717,7 +1721,7 @@ metafile = true
 
 [[files]]
 file = "mods/dcintegration.pw.toml"
-hash = "30d88ce29f5cb87acd3da8f5e9c0744372e4aa3c2a70e2f7d3a8dd8abc019668"
+hash = "8c04f9fd776591ebe8050f7504f23ef5b36f16507d95107b1c53ff408b01b3f8"
 metafile = true
 
 [[files]]
@@ -2187,7 +2191,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "25a7dff7d7337e0532a55b99b50ff5c829ecf1ac6467eebcf5ba9362c2099898"
+hash = "46d341a25d73dfec0daa80766765e7dbeac04042548a2d57d7e83eb728a9ca34"
 metafile = true
 
 [[files]]
