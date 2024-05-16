@@ -1,9 +1,10 @@
 ### Changes:
-- Fixed Multiple recipes to display items instead of tags
-- Added Recipe for Personal Shield Emitter
-- Added recipe for Silver Furnace without using silver (required by rainbow furnace)
+- Fixed Multiple recipes to display items instead of tags (one day I will prove that I'm not stupid)
+- Added Recipe for Personal Shield Emitter (once again thank you Aspect for this idea)
+- Added recipe for Silver Furnace without using silver (only cause its required by rainbow furnace)
 
 ### Updates:
+- Stargate Journey: MoreGates Addon: 3.4.0 -> 4.0.0
 
 ### Additions:
 
