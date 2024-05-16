@@ -1,4 +1,6 @@
 ### Changes:
+- Fixed Multiple recipes to display items instead of tags
+- Added Recipe for Personal Shield Emitter
 
 ### Updates:
 

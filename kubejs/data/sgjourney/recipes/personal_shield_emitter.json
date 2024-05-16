@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NEN",
+    "DAD",
+    "NEN"
+  ],
+  "key": {
+    "A": {
+      "item": "sgjourney:advanced_energy_crystal"
+    },
+    "E": {
+      "item": "minecraft:emerald_block"
+    },
+    "N": {
+       "item": "sgjourney:naquadah"
+    },
+    "D": {
+       "item": "ae2:dense_energy_cell"
+    }
+  },
+  "result": {
+    "item": "sgjourney:personal_shield_emitter"
+  }
+}

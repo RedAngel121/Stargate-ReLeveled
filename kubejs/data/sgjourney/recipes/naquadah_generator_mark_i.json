@@ -1,5 +1,5 @@
 {
-  "type": "crafting_shaped",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "RPR",
     " A ",
@@ -7,10 +7,10 @@
   ],
   "key": {
     "A": {
-      "tag": "sgjourney:advanced_energy_crystal"
+      "item": "sgjourney:advanced_energy_crystal"
     },
     "P": {
-      "tag": "sgjourney:plasma_converter"
+      "item": "sgjourney:plasma_converter"
     },
     "R": {
        "item": "sgjourney:reaction_chamber"

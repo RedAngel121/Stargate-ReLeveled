@@ -1209,18 +1209,6 @@ file = "kubejs/data/mekanism/recipes/crushing/rose_quartz_chunk_from_block.json"
 hash = "12a4e67f10609036aba96f4a75c007534b98628c7bc79b9721a28a0803c1836d"
 
 [[files]]
-file = "kubejs/data/minecraft/recipes/cobbled_deepslate.json"
-hash = "41fd566f6d4fe7caf78411b78397205a366dcf094a52ecd20e012b0df6c4ccdc"
-
-[[files]]
-file = "kubejs/data/minecraft/recipes/cobbled_deepslate_2.json"
-hash = "8b111b951f1c2a6ae89c60e9ba21dc67ee427347770e09b8631fa0fcc6fbf0b0"
-
-[[files]]
-file = "kubejs/data/minecraft/recipes/name_tag.json"
-hash = "e64b0a10b605747fcf0415b98bf4502b462e5e560a7dea1153f5b7e91528fefa"
-
-[[files]]
 file = "kubejs/data/modularrouters/recipes/blank_module.json"
 hash = "3cc2c57d7e8f365a68113ea1181624235448f861d1bcc9a222fac4011b3d2be9"
 
@@ -1401,12 +1389,28 @@ file = "kubejs/data/sgcommunity_pack/worldgen/placed_feature/striated_phosphorit
 hash = "f7bee9f9ac70e20835b98dc74f54be9655ad769e878590ff58c5acdd0864392c"
 
 [[files]]
+file = "kubejs/data/sgjourney/recipes/cobbled_deepslate.json"
+hash = "d05fb94c35ee9a459baba2153f848b2452a6619f726ebad997bae122939c61c8"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/cobbled_deepslate_2.json"
+hash = "10acbbf6a6ba2e5e139bdc2af250c90f780387ba7448094bd43dbdfa17861338"
+
+[[files]]
 file = "kubejs/data/sgjourney/recipes/honeycomb_from_block.json"
 hash = "10592c53a402e9cacb4f478d48308dcf8f0036963fa91ca92ae2b73ce357829e"
 
 [[files]]
+file = "kubejs/data/sgjourney/recipes/name_tag.json"
+hash = "cc3c9204d8a44b839681c24aec223a99cbff2aff07f2700bcfec71fb1fc4efe9"
+
+[[files]]
 file = "kubejs/data/sgjourney/recipes/naquadah_generator_mark_i.json"
-hash = "c2668f447f806b1a983dd79c09c32edbd1cc5e2c2d33b11653024a14eb6ad5dd"
+hash = "d58d735792328615dddff128e68f5cba0ce85329d1e184334071d648182d5c9b"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/personal_shield_emitter.json"
+hash = "14a916e3c7418cf6c8a644df426b5b14493b869a7e929795265da5a9723b5a45"
 
 [[files]]
 file = "kubejs/data/sgjourney/recipes/sandstone_cartouche.json"
