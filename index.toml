@@ -305,6 +305,10 @@ file = "config/megacells.json"
 hash = "b9d8a859859ce598ea852230e4d18726756f89b371c03dce59c9ffe5025318d2"
 
 [[files]]
+file = "config/peripheralworks.toml"
+hash = "2fb9a7d0eab1e38c6a8393d32e9cff7569909a237b9a0f9a181dc218220f362d"
+
+[[files]]
 file = "config/sgjourney-common.toml"
 hash = "95235b8329e31ec5bcb71caaf9a97f5c27f0abe2f137fcfa0fd017443d8704ec"
 

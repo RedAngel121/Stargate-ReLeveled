@@ -2,6 +2,7 @@
 - Fixed Multiple recipes to display items instead of tags (one day I will prove that I'm not stupid)
 - Added Recipe for Personal Shield Emitter (once again thank you Aspect for this idea)
 - Added recipe for Silver Furnace without using silver (only cause its required by rainbow furnace)
+- Fixed a peripheralworks bug breaking certain block entities in CC:T
 
 ### Updates:
 - Stargate Journey: MoreGates Addon: 3.4.0 -> 4.0.0
@@ -12,6 +13,7 @@
 - Moonlight Lib: 2.11.19 -> 2.11.22
 
 ### Additions:
+- Configured
 
 ### Removals:
 
