@@ -1625,7 +1625,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "75cf2da28d189ca7f084e16172718540bc7345a790ca04aa6e88edf5adb854ee"
+hash = "16f3cd7f515f7652bdd3c45ca85bf531fd681fa034b8024b41300a8d8aa4505b"
 metafile = true
 
 [[files]]
@@ -1740,7 +1740,7 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "f4072fa34f5089d9d5bedda848e5926d5b36f378908de01ffb38469968c927c2"
+hash = "a2888c614afd7ad2e06e8b6e5a1d2d8fc18e950b0c3855ae6adb459eb3778a30"
 metafile = true
 
 [[files]]
@@ -1980,7 +1980,7 @@ metafile = true
 
 [[files]]
 file = "mods/mcjtylib.pw.toml"
-hash = "382df961def33d0ddba922ffea33edd99386b6b3c8f7b437153a145345866fa2"
+hash = "c7912aabbb629d0fb2d1c0cecf0923a1742feae7056dd1b9feb2c81b2c9aef73"
 metafile = true
 
 [[files]]
@@ -2140,7 +2140,7 @@ metafile = true
 
 [[files]]
 file = "mods/polylib.pw.toml"
-hash = "78287a685bb66b0b924ba9c6c13e6559233c829d754f7f62a0617d001c999db9"
+hash = "947d5f3b9213360b68e9b65a8d2d5111939e82e248cf61eb02137f119c6eaeb6"
 metafile = true
 
 [[files]]
@@ -2195,7 +2195,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "46d341a25d73dfec0daa80766765e7dbeac04042548a2d57d7e83eb728a9ca34"
+hash = "d68e3dec94d4da1500d1bdfa4901507d86165ab8ccd6ece218636ebab86b43bc"
 metafile = true
 
 [[files]]
