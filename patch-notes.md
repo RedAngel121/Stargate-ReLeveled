@@ -5,15 +5,17 @@
 - Fixed a peripheralworks bug breaking certain block entities in CC:T (Thanks tehgreatdoge)
 
 ### Updates:
-- Stargate Journey: MoreGates Addon: 3.4.0 -> 4.0.0
-- McJtyLib: 8.0.4 -> 8.0.5
+- **Stargate Journey: MoreGates Addon: 3.4.0 -> 4.1.0**
 - Chat Heads: 0.12.0 -> 0.12.1
 - Embeddium: 0.3.18 -> 0.3.19
-- PolyLib: 2000.0.3-build.133 -> 2000.0.3-build.143
+- McJtyLib: 8.0.4 -> 8.0.5
 - Moonlight Lib: 2.11.19 -> 2.11.22
+- PolyLib: 2000.0.3-build.133 -> 2000.0.3-build.143
+- UtilitiX: 0.8.13 -> 0.8.14
 
 ### Additions:
 - Configured
+- Warden Horn
 
 ### Removals:
 

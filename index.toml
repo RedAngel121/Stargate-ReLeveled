@@ -2049,7 +2049,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-gates-mod-ver.pw.toml"
-hash = "f9921a4f37142c6fdf6072ce3dcb357ac1861e24db7a9dba39bcb06df852afdf"
+hash = "f7b8831896aa050498a4533c0e93bdc1de133c2f29fae7b6fd9a4d0fd130f1a4"
 metafile = true
 
 [[files]]
@@ -2354,12 +2354,17 @@ metafile = true
 
 [[files]]
 file = "mods/utilitix.pw.toml"
-hash = "10d3c0c4be5eb1997cb8e3ec4688e35041633b0f7af73c4a4e87ffa77473a2a2"
+hash = "f1b0160df01d162719f3bb06a60ba0a9cebf672e2f64cbac5d5094bc24876348"
 metafile = true
 
 [[files]]
 file = "mods/vine-clipper.pw.toml"
 hash = "61a465cba25cf21fd1c1e12d3618908fb28efb484cce661fcb4d0ddc2a895d0d"
+metafile = true
+
+[[files]]
+file = "mods/warden-horn.pw.toml"
+hash = "060b03f39d01587840aa2f03387adcc22a061145c3e818d6a8b95be41eecd84a"
 metafile = true
 
 [[files]]
