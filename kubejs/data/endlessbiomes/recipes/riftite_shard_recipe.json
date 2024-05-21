@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "endlessbiomes:riftite"
+    }
+  ],
+  "result": {
+    "item": "endlessbiomes:riftite_shard",
+    "count": 4
+  }
+}

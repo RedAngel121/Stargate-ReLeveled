@@ -925,6 +925,10 @@ file = "kubejs/data/ad_astra/loot_tables/entities/sulfur_creeper.json"
 hash = "60a5638686c04d424f0b7148a3c0b51dcfe0e6abed9afd4e3249893a45b68f2c"
 
 [[files]]
+file = "kubejs/data/ad_astra/tags/items/destroyed_in_space.json"
+hash = "b83114c23eeec820ce7eca52011f13013fb6c64002254be7aebe1e4b36244d48"
+
+[[files]]
 file = "kubejs/data/common_stargates/structures/common_stargate/classic/pedestal/classic_stargate_smooth_red_sandstone_pedestal_1.nbt"
 hash = "9c29240d3bbf6db1b7d61948ef905ca3cfca751eb92bc9077993211f00b8832f"
 
@@ -1091,6 +1095,10 @@ hash = "6822a4009e6e4e43c35a8610207c44ec0d9907704977eb73f3c28bf1040dbee8"
 [[files]]
 file = "kubejs/data/endermanoverhaul/recipes/eggs/windswept_enderman.json"
 hash = "de436424860dc6eee839500637dc8ef70e3ee5e316117323e6f639d18268fafb"
+
+[[files]]
+file = "kubejs/data/endlessbiomes/recipes/riftite_shard_recipe.json"
+hash = "2f03c515d66b4c6255deb87ae1e423f886e42ffa034987bf0fcc5faffdc3777c"
 
 [[files]]
 file = "kubejs/data/ftbchunks/tags/blocks/interact_whitelist.json"
