@@ -4,7 +4,7 @@
 	"notify_op_only": true,
 	"do_not_notify": true,
 	"retention_mode": "MAX_BACKUPS",
-	"max_backups": 6,
+	"max_backups": 3,
 	"keep_latest": 6,
 	"keep_hourly": 1,
 	"keep_daily": 1,
