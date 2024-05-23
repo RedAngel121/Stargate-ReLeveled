@@ -1466,7 +1466,7 @@ hash = "4ba32d7d4977bc5a49062cbd39fbc312e1de9187ed0ea2dfb3b9c12630c7852f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "ab19536771ee515665bcd920282b309c686f824a6f2f1603c2c59ec76cae52b6"
+hash = "cb6548c071dc84e3d622d15521fe9dee75b0de90b078a8cfe73dbff43985127d"
 
 [[files]]
 file = "kubejs/server_scripts/rftools.js"

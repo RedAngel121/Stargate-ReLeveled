@@ -1,5 +1,5 @@
 // priority 2
-// This is gonna be awful
+// This is gonna be awful ... THEN WHY DID YOU DO IT LIKE THIS?!?!
 ServerEvents.recipes(event => {
   // Iron Substrate
   event.shaped(Item.of(Substrate.IRON, 1), ["IbI", "bBb", "IbI"], {
