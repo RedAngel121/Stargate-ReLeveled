@@ -350,7 +350,7 @@ hash = "53383fd2010441a0c2169d8d69ae25a6af3fc6ce8edf6aa63e8db67abc0eb217"
 
 [[files]]
 file = "defaultconfigs/ftbchunks-world.snbt"
-hash = "ff73e001db0af1d78c75cd7a53b9bb309b8d484a7df9c2e68addd7e16e3df896"
+hash = "83da36c8a01f42cd8d69de7480caaf5d1453be9937201baadcbf3cd076f2c1db"
 
 [[files]]
 file = "defaultconfigs/ftbessentials-server.snbt"
