@@ -1,0 +1,13 @@
+name = "Sculk Horn"
+filename = "(Forge)SculkHorn-1.20.x-1.4.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9748e6ce71b22f45c1d31720e7a20cb049b59c73"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4714704
+project-id = 636227

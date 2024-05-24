@@ -2202,6 +2202,11 @@ hash = "f9be8361c39f91dce80420324ac45290a990e8178b83df6bdaa8d69f2c7aa8d4"
 metafile = true
 
 [[files]]
+file = "mods/sculk-horn.pw.toml"
+hash = "9f137820fb21c6f6be98b9de050d13da6e1d95f12ad6a5f4e34883b9775a894e"
+metafile = true
+
+[[files]]
 file = "mods/searchables.pw.toml"
 hash = "2cb8dd9a3944a6430b49916a4fe1b6cf0bd7efd907054f8e679a02717149404f"
 metafile = true
@@ -2364,11 +2369,6 @@ metafile = true
 [[files]]
 file = "mods/vine-clipper.pw.toml"
 hash = "61a465cba25cf21fd1c1e12d3618908fb28efb484cce661fcb4d0ddc2a895d0d"
-metafile = true
-
-[[files]]
-file = "mods/warden-horn.pw.toml"
-hash = "060b03f39d01587840aa2f03387adcc22a061145c3e818d6a8b95be41eecd84a"
 metafile = true
 
 [[files]]
