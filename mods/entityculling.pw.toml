@@ -1,13 +1,13 @@
 name = "Entity Culling Fabric/Forge"
-filename = "entityculling-forge-1.6.2-mc1.20.1.jar"
+filename = "entityculling-forge-1.6.5-mc1.20.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "a184f3a963c07f7026fb6d8ccd83ca29e7f7b009"
+hash = "efe9677fe7ed1b4ed7690f772c003cb2893bf05d"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4763645
+file-id = 5371852
 project-id = 448233
