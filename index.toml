@@ -1508,12 +1508,12 @@ metafile = true
 
 [[files]]
 file = "mods/advanced-peripherals.pw.toml"
-hash = "197c77a1a19d914f865403c661f786612b418dace74a453193df4b59e4374d12"
+hash = "008f4b4782a92c6a8995f26159433659d9b5bdfc5a736614a142666c4d235b3c"
 metafile = true
 
 [[files]]
 file = "mods/ae2-insert-export-card.pw.toml"
-hash = "ac048ce5e893b3971be9850ac099db0a932cccf9dde472f87d18d672e8123171"
+hash = "271becf0b7ba73ad26dab11f3292afa7aa67564600326a361317c7c22577581d"
 metafile = true
 
 [[files]]
@@ -1598,7 +1598,7 @@ metafile = true
 
 [[files]]
 file = "mods/bookshelf.pw.toml"
-hash = "6299edab7c031a3f8a8fd59bc19a22213d9c4a4f745a2ae04f4ac78086f38355"
+hash = "058699e4832d0cf5396c5ea29244100f0c0e39a8d7aa5b64c2afdcc3cb8c8145"
 metafile = true
 
 [[files]]
@@ -1633,7 +1633,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "f51d262460e27b091a778cdeb5b54ad50c4cfdcf73ccf2a11bdcfd3f3f1f5f10"
+hash = "22d9f4b270da1bbe27848c08747b35a97391141d118edfaf518cf34fd76367c5"
 metafile = true
 
 [[files]]
@@ -1668,7 +1668,7 @@ metafile = true
 
 [[files]]
 file = "mods/copycats.pw.toml"
-hash = "ff9b47b951b64a0f73f6b7f88637d5aeb54c8e0f21accc3988d7343d37c0b06f"
+hash = "a3731f3b53d9f292a68d2dfe1d0db3d59b64879a348036e6021ad3d12f219a43"
 metafile = true
 
 [[files]]
@@ -1688,7 +1688,7 @@ metafile = true
 
 [[files]]
 file = "mods/craterlib.pw.toml"
-hash = "525f433cb1a7851422596126b0d4bee6af94793d001510f94bf86b315d0165d3"
+hash = "a01901c0106f06ea3bc9a0ba132c4c4c1215e9d74641e8fcca2486257f3b1f97"
 metafile = true
 
 [[files]]
@@ -1773,7 +1773,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "484b7b7d2061da47916afe66438539048c2cc6a690ab61fb8b60050f18e39df0"
+hash = "3de9fc56a1f656b20b308f462aac84aa50bd30551371137b752db21cf5091cfd"
 metafile = true
 
 [[files]]
@@ -1843,7 +1843,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "331d72941d7ab4146812d8977f4f2d5721e09318b02a70f42432620600a155f3"
+hash = "ce53103abf7f065fe965bfad755232e65add707246e53e371d8ab0fae816cba3"
 metafile = true
 
 [[files]]
@@ -1863,7 +1863,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "237cb304225faf4c0ea3011fae80a9f438d2d002f0de5007c00f020613b3ff9b"
+hash = "7c3daed5cb51e9706cabc4da62eadbb49e6e590e6e5ffaf049e3d85e4623a012"
 metafile = true
 
 [[files]]
@@ -1873,7 +1873,7 @@ metafile = true
 
 [[files]]
 file = "mods/gunpowderlib.pw.toml"
-hash = "440e6efae5720db89f10b621cb9572b49dfb27d301cfd5e2a32a60da919a0ae6"
+hash = "fceee3c4da54bb71f2eceede2ea964c05b3e38032504dfc1e5d66b96b6fbc18e"
 metafile = true
 
 [[files]]
@@ -1938,7 +1938,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "b9e82527f9d5d2152c4e095c00a3d0a30a29825479fd73e7e24a2634bde112be"
+hash = "b85f625d815fb6e515923b2e7b325c66f48ad5d12f728dd4c1182fef91371030"
 metafile = true
 
 [[files]]
@@ -1968,7 +1968,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs-additions.pw.toml"
-hash = "61454015dbe77ad8732ca3cbcf62075a4419716ce98dae360032ac29cc3eacf5"
+hash = "b175e1a1408708cf78e211c8e768540d23e942f34a1efef1772e06abe820a5b0"
 metafile = true
 
 [[files]]
@@ -2043,7 +2043,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "c835e3734d6bd1156827fb51f539bf8871d1d87a237561ed38f59d3deb0c8d54"
+hash = "b1eca3f7a0293f8536a49d1391c07b18339702b1d085a7ba7275a780a1767f62"
 metafile = true
 
 [[files]]
@@ -2148,7 +2148,7 @@ metafile = true
 
 [[files]]
 file = "mods/placebo.pw.toml"
-hash = "14eb87dea15b2484cda7bed648ed7382d8636e1e953a0e3f73f92c528c145934"
+hash = "0f807372e11d5a8a28266ab214fd243fa7558fe3f5a0cc6505090faede8c2dd6"
 metafile = true
 
 [[files]]
@@ -2213,7 +2213,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "b1fb68db400bb8b08be0a25b5924d30d9007711469a58cfd2664a5e11e823345"
+hash = "e3bf82308855f7de46696f793f1fbd71f2c610647bcb9e30bcfa6c4c388e8a97"
 metafile = true
 
 [[files]]
@@ -2238,7 +2238,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-discord-rpc.pw.toml"
-hash = "465a7640e2a633cdb3484c8ba099350bbe451721108972125d444e06384f00ef"
+hash = "5027cf73eefaf79eabd0764392b0215eceee53d66e54f2bf6dac961c59499cd7"
 metafile = true
 
 [[files]]
@@ -2248,7 +2248,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "36dc5aaeed307cc96516b38e6c3cb965295c015e7a8ae234f56a3ff10f876dc9"
+hash = "e6f58328384e317da23e9a8143640e10e15bdd0a7acb5a0caf9ca81234a08c50"
 metafile = true
 
 [[files]]

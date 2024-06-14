@@ -1,13 +1,13 @@
 name = "AE2 Insert Export Card"
-filename = "ae2insertexportcard-1.20.1-1.2.1.jar"
+filename = "ae2insertexportcard-1.20.1-1.2.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ddab74719c476a40e1605762d815a13aab1af08e"
+hash = "81531b7d659521934f623d1b70d2d64ca5c7be74"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5224093
+file-id = 5412588
 project-id = 982512
