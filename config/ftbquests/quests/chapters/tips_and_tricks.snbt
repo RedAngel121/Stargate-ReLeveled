@@ -111,7 +111,7 @@
 			can_repeat: true
 			description: ["Apotheosis has many features, including potion charms, boss mobs, placeable mob spawners, and a weapon modifier system."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "patchouli:guide_book"
 				tag: {
 					"patchouli:book": "apotheosis:apoth_chronicle"
@@ -122,7 +122,7 @@
 			rewards: [{
 				id: "03E7CB220FD773C9"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "apotheosis:apoth_chronicle"
@@ -144,7 +144,7 @@
 			can_repeat: true
 			description: ["&dAdvanced Peripherals&r allows &lComputerCraft&r computers to access far more information than they can in base CC"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "patchouli:guide_book"
 				tag: {
 					"patchouli:book": "advancedperipherals:manual"
@@ -155,7 +155,7 @@
 			rewards: [{
 				id: "3E76EFC7C74C28D8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "advancedperipherals:manual"
@@ -199,7 +199,7 @@
 			can_repeat: true
 			description: ["Ad Astra is a space exploration mod where you can visit other planets and build space stations."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "patchouli:guide_book"
 				tag: {
 					"patchouli:book": "ad_astra:astrodux"
@@ -210,7 +210,7 @@
 			rewards: [{
 				id: "7A91E3342C2889AC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "ad_astra:astrodux"
@@ -231,11 +231,18 @@
 			description: ["Legends speak of a sacred quest that calls upon the chosen few to seek out the bank and acknowledge their own existence. Those who heed the call are bestowed with a single Crown, a shimmering coin forged from the essence of the game itself."]
 			icon: "numismatics:crown"
 			id: "1F7207A92D11C39B"
-			rewards: [{
-				id: "5DD53A02684112CE"
-				item: "numismatics:crown"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5DD53A02684112CE"
+					item: "numismatics:crown"
+					type: "item"
+				}
+				{
+					id: "624A60311CE94EDC"
+					item: "numismatics:banking_guide"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "589EADB9E160FE2C"
 				title: "Cogs in the Machine"

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "ad_astra:moon_sand"
+    },
+    {
+      "item": "ad_astra:moon_sand"
+    },
+    {
+      "item": "ad_astra:moon_sand"
+    },
+    {
+      "item": "ad_astra:moon_sand"
+    },
+    {
+      "item": "ad_astra:moon_sand"
+    },
+    {
+      "item": "ad_astra:moon_sand"
+    },
+    {
+      "item": "ad_astra:moon_sand"
+    },
+    {
+      "item": "ad_astra:moon_sand"
+    },
+    {
+      "item": "minecraft:orange_dye"
+    }
+  ],
+  "result": {
+    "item": "ad_astra:mars_sand"
+  }
+}

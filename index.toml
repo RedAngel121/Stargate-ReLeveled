@@ -270,7 +270,7 @@ hash = "704a1f9c8394931b7631cdc306f138c8b517ccb174528de06384828e3b49dcaa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks.snbt"
-hash = "f3b4baa64e988e2800f3b06225f89afaeeb2e5093fcf344f06a08a870c94764f"
+hash = "a6fd3ae724cfb0fa3d38b4bd7964d4d79bf8577f5aff7c289a25929a92e151b1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/util.snbt"
@@ -1383,6 +1383,34 @@ hash = "c1f685103abf1d0274838a678a86ef542419ae878918d2c623e33adb89333bf9"
 [[files]]
 file = "kubejs/data/sgcommunity_pack/forge/biome_modifier/striated_phosphorite.json"
 hash = "1ec33203a354149aa0f1f1d7daf8068ac22b72ff45fdbab205d737970549fd86"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipes/mars_sand_to_venus_sand.json"
+hash = "bc13cac3d94751d3f9233dcb66732cd803432facf9529e9e46a55c60b4d94b30"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipes/moon_sand_to_mars_sand.json"
+hash = "1d7a2f3b6f5518bfc828080a6a2146d533e4f78f8f88858cd8ae85fddd6db7a6"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipes/sand_to_black_sand.json"
+hash = "9e0fe0dfb99d953e325821a0c4ca0f955de5b4f010505010466bad2b94f2f8ee"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipes/sand_to_moon_sand.json"
+hash = "28da9d156ffc0dfe13d97511ca53797db60464fb3bb1b12ffc0ca6e1a137aec3"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipes/sand_to_orange_sand.json"
+hash = "e6c5b75a81740b2cdf8331f72c7f0982429c23f2b28f5bb76e1054247361928a"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipes/sand_to_red_sand.json"
+hash = "e65c9714a2d62a17a91fe0303fa57b10d8f5527f728e6cd0192f2598b9b60d15"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipes/sand_to_white_sand.json"
+hash = "376118171e4d5a8489109d046fc64c43b637e22e72d0d2892db5780ec3efc343"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/worldgen/configured_feature/striated_evaporites.json"
