@@ -1,13 +1,13 @@
 name = "HammerLib"
-filename = "HammerLib-1.20.1-20.1.29.jar"
+filename = "HammerLib-1.20.1-20.1.30.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e2d8176da4de92f0ec61dac03a27986cd9513663"
+hash = "1d1af38ab5b793782feb72927c705fd6f84c088f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5312985
+file-id = 5439462
 project-id = 247401

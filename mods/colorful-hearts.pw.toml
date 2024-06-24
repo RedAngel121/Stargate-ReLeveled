@@ -1,13 +1,13 @@
 name = "Colorful Hearts"
-filename = "colorfulhearts-forge-1.20.1-4.1.6.jar"
+filename = "colorfulhearts-forge-1.20.1-4.2.11.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "843552c7a66ebe3f67ee7b55b59e2f5cbe6f9a1c"
+hash = "6077df7a51074587095456381165b0c1e5b9bab5"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5368813
+file-id = 5438640
 project-id = 854213
