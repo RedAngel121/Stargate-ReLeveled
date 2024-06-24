@@ -1386,31 +1386,31 @@ hash = "1ec33203a354149aa0f1f1d7daf8068ac22b72ff45fdbab205d737970549fd86"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipes/mars_sand_to_venus_sand.json"
-hash = "bc13cac3d94751d3f9233dcb66732cd803432facf9529e9e46a55c60b4d94b30"
+hash = "0b79387511ac6d465a55345f55deb4cebbb23a151cca2da57f384dcb4801c380"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipes/moon_sand_to_mars_sand.json"
-hash = "1d7a2f3b6f5518bfc828080a6a2146d533e4f78f8f88858cd8ae85fddd6db7a6"
+hash = "bb6eeee1157d0d13d944c8f57ee90c2b278b414704ca022ed04f9de8c939b4db"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipes/sand_to_black_sand.json"
-hash = "9e0fe0dfb99d953e325821a0c4ca0f955de5b4f010505010466bad2b94f2f8ee"
+hash = "954306d43c64cb95e2492689ec8c4b8a1e8d4bcecfd2aad4d1e4d665ce796f0d"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipes/sand_to_moon_sand.json"
-hash = "28da9d156ffc0dfe13d97511ca53797db60464fb3bb1b12ffc0ca6e1a137aec3"
+hash = "f95018e218cbebdba34d7a70bf553c57bdc54e405af4a15377c7c67ea8ea726f"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipes/sand_to_orange_sand.json"
-hash = "e6c5b75a81740b2cdf8331f72c7f0982429c23f2b28f5bb76e1054247361928a"
+hash = "1d2f95445e7a7a6b4f754679f2d9b160d3ac21eaec40f3bc994aef4fdb360e7a"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipes/sand_to_red_sand.json"
-hash = "e65c9714a2d62a17a91fe0303fa57b10d8f5527f728e6cd0192f2598b9b60d15"
+hash = "701920072c7d4411f131e7f4d4d7171f39122f51e1daab19633052a7fa539146"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipes/sand_to_white_sand.json"
-hash = "376118171e4d5a8489109d046fc64c43b637e22e72d0d2892db5780ec3efc343"
+hash = "18c5a46357427fba92e2b507e608bd5e598377f755016d2dfb44735400db1196"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/worldgen/configured_feature/striated_evaporites.json"

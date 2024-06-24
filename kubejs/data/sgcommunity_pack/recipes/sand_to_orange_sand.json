@@ -31,6 +31,7 @@
     }
   ],
   "result": {
-    "item": "biomesoplenty:orange_sand"
+    "item": "biomesoplenty:orange_sand",
+    "count": 8
   }
 }

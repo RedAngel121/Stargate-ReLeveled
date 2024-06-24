@@ -31,6 +31,7 @@
     }
   ],
   "result": {
-    "item": "biomesoplenty:black_sand"
+    "item": "biomesoplenty:black_sand",
+    "count": 8
   }
 }
