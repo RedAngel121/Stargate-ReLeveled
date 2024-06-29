@@ -1233,120 +1233,12 @@ file = "kubejs/data/moregates/recipes/crystallizing/aether_variant_crystal.json"
 hash = "e884f9416cfddd1cbde2e37ac5718c7ed36d318f9682ce7c62bdc83bef415f1d"
 
 [[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/ancient_variant_crystal.json"
-hash = "bf3746507b8343205f39a8292562716158c563e96212f31f3f9bff4c6e71b7bd"
-
-[[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/andromeda_variant_crystal.json"
-hash = "5afb21d04093e2b35abafdccb3c0fe18c46b34e751d73459c0fd209ff65370be"
-
-[[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/bloodgate_variant_crystal.json"
-hash = "58afbd157067cd7d8ef499a90e6fef49d2e8dae642b28aead2d3ac9f236fa15b"
-
-[[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/crafter_variant_crystal.json"
-hash = "734b49d750f39846159fec8b1a020d07e7d2f7c49563b32b3889e25f7cf93432"
-
-[[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/create_mw_variant_crystal.json"
-hash = "88029c9e3a6ea3a1808a9b6e0245fee1bbe252f25bfcc317dd57759a817450ef"
-
-[[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/create_variant_crystal.json"
-hash = "4c39b4f8283e279efd96559b5528e3b3b1f3e718dbe0168bd5e22ee41c385b2a"
-
-[[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/dark_ascension_variant_crystal.json"
-hash = "5d2ac4139234fc495419d719174d07ea5ef7c190d3714a7b0343910cf2249332"
-
-[[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/doom_variant_crystal.json"
-hash = "0af0afd6a98de05cbb9fec9216664fdd5755a7b8406aec170407bd4ff8526b89"
-
-[[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/end_variant_crystal.json"
-hash = "817099132708fa44154b50c946fb1be35532f478391dfcea7ea385b51d76bc2f"
-
-[[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/forerunner_variant_crystal.json"
-hash = "06d99bf6a036bf66efc4656cea4793dffac674cfe09b71afcd0361c5997652e4"
-
-[[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/galifrey_variant_crystal.json"
-hash = "e5588ff43415baa19ec3efdbc1aedd498270560f5a65bf91fd84eba92ae00b11"
-
-[[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/horizon_variant_crystal.json"
-hash = "70d9c500efebd1e309c21a60cd3b93fa01c9274ae2da576800b21104b588d316"
-
-[[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/industrial_variant_crystal.json"
-hash = "201798326ae5e2c34ddc0ff55efad26c866caca9b32695f2ea90b17b3cbffec6"
-
-[[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/jumpgate_variant_crystal.json"
-hash = "d2e135b24c028c46ece1366de3fc5a8940307981d5139dc62fca3944785dec1d"
-
-[[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/makeshift_variant_crystal.json"
-hash = "daf6d92f9fd57300de27c01a74631df773c801a6b736f416c9a753650798a4c6"
-
-[[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/mossy_variant_crystal.json"
-hash = "8843ecc87b692658086cc21cc4b0a0dbecc8bec060d0d01bf24568e53d2ee119"
-
-[[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/nether_variant_crystal.json"
-hash = "ea5352215779f7b0c0e220098389cc686a57b46a1f64ff42925c710ddff1777c"
-
-[[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/nox_variant_crystal.json"
-hash = "b9217242b8a54369eb519707c9fbcb1bfbc14cf592f2d58ab45b1861bc514d33"
-
-[[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/ori_variant_crystal.json"
-hash = "1c36cd358c6e67cf818d60d02c144d11ce93dfa15bcb26610f4740cad1e64cf4"
-
-[[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/quantum_variant_crystal.json"
-hash = "bd2a6fd7fac0c4e48c2f3a2211497f9608c5d3a952e2785513b3be59e82d1c54"
-
-[[files]]
 file = "kubejs/data/moregates/recipes/crystallizing/quartz_variant_crystal.json"
 hash = "2e600af108cb634c7b2f925ac6803a22cacce90d319dfb20cbaddfcca238956a"
 
 [[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/retrogate_variant_crystal.json"
-hash = "eb3d4eeaf29ec2f360809712b598e8b0398973c68626731f141cd53b23baaa8d"
-
-[[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/silence_variant_crystal.json"
-hash = "3a5df466f7a44ebf4b0f5f8fcf74d918eac76e1e75836ed8d2ecd2c375e2e19e"
-
-[[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/spatial_variant_crystal.json"
-hash = "4e940cbf86c7aa8ef52651ed9ad999e2707af36854cb5fc3a99549749aafcb32"
-
-[[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/streamline_variant_crystal.json"
-hash = "9f085db4686b3ef313d3d95f0e0683d67bd909921e7a522b89af771fef2bacab"
-
-[[files]]
 file = "kubejs/data/moregates/recipes/crystallizing/twilight_variant_crystal.json"
 hash = "9174e95d9c6c307c1789f6cff8604bbacc934c0e783cb4f1a22089429b6c4385"
-
-[[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/universe_mk2_variant_crystal.json"
-hash = "70f889cce463e8259becf670f2cc27e7f428eb9394068eed16a739529f2fb9f0"
-
-[[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/universe_mk3_variant_crystal.json"
-hash = "c06f42fc779c5568e8cbb883945639f6fb72c744ec8306fc39f56811691fb9da"
-
-[[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/warpgate_variant_crystal.json"
-hash = "c0a0c29207e8f82a236055be8479e6e52d90ff7a56e62d0d50598f780546019a"
 
 [[files]]
 file = "kubejs/data/moregates/sgjourney/stargate_variant/aether.json"
