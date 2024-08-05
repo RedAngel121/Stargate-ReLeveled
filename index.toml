@@ -337,6 +337,10 @@ file = "config/staaaaaaaaaaaack-common.toml"
 hash = "5decf87990c732b7e4966349f4743c99704f35cb209f83e1059afa95eeb86cde"
 
 [[files]]
+file = "config/theoneprobe-common.toml"
+hash = "2d6b4ff5abf9a9e5104003fe87120e82718c37088a7e4fed5b04c7f4b2fa3d97"
+
+[[files]]
 file = "config/torchmaster.toml"
 hash = "9e94cea5e76831982350add1328b3c109f5b767ac328fc6321963f1ae304d264"
 
@@ -913,10 +917,6 @@ file = "kubejs/assets/sgjourney/textures/block/transport_rings.png"
 hash = "9d67bd9a3ee6f8ce94d3c547446955f6ce8f9af73bc17070ddcd76c8a34e79b4"
 
 [[files]]
-file = "kubejs/client_scripts/WailaClientRegistrationEvent.js"
-hash = "5bb6990795f2f02c2a477bc6e9c995d2c911a036100ec89634836aca957ce519"
-
-[[files]]
 file = "kubejs/client_scripts/client.js"
 hash = "f40825e9d26aea1b4de3ef39e54bc4e58eb9f891233d37dff57faff6e70a41c3"
 
@@ -1403,10 +1403,6 @@ hash = "b2354f27fa640c164923482a7ed22c05919c6b96f2fb14a5cab64b031d993412"
 [[files]]
 file = "kubejs/server_scripts/tagStorageDrawers.js"
 hash = "1fc35c49df2f45aab92132a544907211020c9c395cad763a561ec58b002ff938"
-
-[[files]]
-file = "kubejs/startup_scripts/WailaCommonRegistrationEvent.js"
-hash = "ffea77596874a934d2628eb28e79e68f285fce3263453839b6a4f6553f34451e"
 
 [[files]]
 file = "kubejs/startup_scripts/common.js"
