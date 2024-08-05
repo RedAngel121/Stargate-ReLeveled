@@ -1623,6 +1623,11 @@ hash = "0bbb0d5c211ddf6fd76fd602167b1f012dbfe56e72c5f2568ec1089cd930ece0"
 metafile = true
 
 [[files]]
+file = "mods/create-design-n-decor.pw.toml"
+hash = "5de85151d1381261bb6e0246f599b7d3d7b9e55414bff2ea82c19b75c37de852"
+metafile = true
+
+[[files]]
 file = "mods/create-steam-n-rails.pw.toml"
 hash = "1ba1548e25b229c3097a310113d2929c94d6b5f183b64a0ebb2227799195cfcd"
 metafile = true
@@ -1775,6 +1780,11 @@ metafile = true
 [[files]]
 file = "mods/game-stages.pw.toml"
 hash = "8e6b9d8f865cd23aa6bfd31e04c1fa4dc8727f714ee915e901362a2bf1fb0ffd"
+metafile = true
+
+[[files]]
+file = "mods/gauges-and-switches-ported.pw.toml"
+hash = "4fab4abb3528d7d6e5575dcb6699a60992a30f12779c0111baa318cf7640deeb"
 metafile = true
 
 [[files]]

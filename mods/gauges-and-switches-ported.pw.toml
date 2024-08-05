@@ -1,0 +1,13 @@
+name = "Gauges and Switches Ported"
+filename = "rsgauges-1.2.21.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fc96675c3e7338c9ff89bd930688f3656a3b3a5e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5240196
+project-id = 990992
