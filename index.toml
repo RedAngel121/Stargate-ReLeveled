@@ -1544,7 +1544,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "df90aa10942d1d5cac3f10f46d471d92858ad99979efceed319486dda208490f"
+hash = "06c1a7c98b132a2351f70bb4b4369a5fbec9775fdabfb3705cad8b81f3dd8d11"
 metafile = true
 
 [[files]]
@@ -1854,7 +1854,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "cb056c4a1fab790c8c2a96861e2a95c448f0740093c9816b2393524b176a3211"
+hash = "30dedcd9f4c6a023a5af83a690077586af1b6d1b9ac99cf8f296226411f3a7bd"
 metafile = true
 
 [[files]]

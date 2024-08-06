@@ -6,6 +6,9 @@
 
 ### Removals:
 
+### Mod Rollback due to breaking changes:
+JEI: v15.8.2.26
+CC Tweaked: v1.111.0
 ### CURRENT OBJECTIVES:
 
 ### Long Term TODOs:
