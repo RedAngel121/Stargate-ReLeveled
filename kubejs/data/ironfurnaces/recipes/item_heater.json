@@ -13,7 +13,7 @@
       "tag": "forge:dusts/redstone"
     },
     "X": {
-       "item": "sgcommunity_pack:circuit_intermediate"
+       "tag": "sgcommunity_pack:circuit_basic"
     }
   },
   "result": {

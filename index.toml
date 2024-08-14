@@ -1138,7 +1138,7 @@ hash = "8fb46d901d32aab070733538512bb2c857862f5e240b9f5701e791c99ff7f671"
 
 [[files]]
 file = "kubejs/data/ironfurnaces/recipes/augments/augment_generator.json"
-hash = "26b58a47b294444a48ed43885a09a8dd5ea370cdb62445f39b0d23ea9639d1ca"
+hash = "99b02fac36659f19f9e5c745a50e7c71a8117d40b41f96ed3c85556004c7fa7f"
 
 [[files]]
 file = "kubejs/data/ironfurnaces/recipes/furnaces/diamond_furnace.json"
@@ -1174,11 +1174,11 @@ hash = "c6c4d5080ac55636b539e92a458eafd60ea0b6f9123bc2b7aa39ce7ce0e885a4"
 
 [[files]]
 file = "kubejs/data/ironfurnaces/recipes/heater.json"
-hash = "cc8b7ab49d6bf5e89cf5fb8db23428c37f759d055a3578393de258ff016efa6a"
+hash = "6e6d681a265f92a2a8bee764a057dfbff7f19cbf0f756df7b1b6348e2d1a31b8"
 
 [[files]]
 file = "kubejs/data/ironfurnaces/recipes/item_heater.json"
-hash = "f4370379c5f39668ca10c8e08d3a36115ddc9678c8f2a1827f105092ee1c386d"
+hash = "f69f5b0336570b3a44d3f5e5c00d7550a29fd0237f77d3c11910fdaa361cbd28"
 
 [[files]]
 file = "kubejs/data/ironfurnaces/recipes/upgrades/upgrade_diamond.json"
@@ -1802,6 +1802,11 @@ hash = "1e17d92e2843cdb01a229d4987b0ef456c8a759d1e02e18f5265fd8179cbf7c2"
 metafile = true
 
 [[files]]
+file = "mods/fusion-connected-textures.pw.toml"
+hash = "59d22263e36313c43ad7c5e4179cb3554d414f701442b0784d94c0ba2384edfd"
+metafile = true
+
+[[files]]
 file = "mods/game-stages.pw.toml"
 hash = "8e6b9d8f865cd23aa6bfd31e04c1fa4dc8727f714ee915e901362a2bf1fb0ffd"
 metafile = true
@@ -2099,6 +2104,11 @@ metafile = true
 [[files]]
 file = "mods/polylib.pw.toml"
 hash = "947d5f3b9213360b68e9b65a8d2d5111939e82e248cf61eb02137f119c6eaeb6"
+metafile = true
+
+[[files]]
+file = "mods/rechiseled.pw.toml"
+hash = "3e8c59c1817babb68d49af1bd816d6d00ffbaa8343968ad324996a0d5deb9c69"
 metafile = true
 
 [[files]]

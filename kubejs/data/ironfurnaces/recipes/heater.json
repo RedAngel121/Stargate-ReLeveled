@@ -13,7 +13,7 @@
       "item": "minecraft:furnace"
     },
     "F": {
-      "item": "sgcommunity_pack:circuit_intermediate"
+      "tag": "sgcommunity_pack:circuit_basic"
     },
     "X": {
       "tag": "forge:storage_blocks/redstone"
