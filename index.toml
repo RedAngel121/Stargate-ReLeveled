@@ -345,6 +345,10 @@ file = "config/torchmaster.toml"
 hash = "9e94cea5e76831982350add1328b3c109f5b767ac328fc6321963f1ae304d264"
 
 [[files]]
+file = "defaultconfigs/auto_restart-server.toml"
+hash = "530ffcb3d46109686888d6bbb8c46ef8aaf862a287d3f8d27f72a5f69637dc2c"
+
+[[files]]
 file = "defaultconfigs/create-server.toml"
 hash = "e924e8191511b2111353716573e579c84dec4d07db85ed4b5107e05a82c7b7b6"
 
@@ -1414,7 +1418,7 @@ hash = "2206f713e71df7de9421034a0cff77a1a2b9cef75ff5623c0509ca04182502a8"
 
 [[files]]
 file = "mods/ad-astra-giselle-addon.pw.toml"
-hash = "a02c0bf16ea9078dde3befa697f8334836d30aeacf997c161b3d6bb9a3506ce2"
+hash = "7d58f2f1164fe878f50da49f24f28f922303a73143e504ac9e2d48cc98bcfb10"
 metafile = true
 
 [[files]]
@@ -1483,8 +1487,18 @@ hash = "8a27a482bf7dbf9b8a96fe9a3e8bf8e08ca1d376c6cf13bccf49f0d5191d56fa"
 metafile = true
 
 [[files]]
+file = "mods/athena.pw.toml"
+hash = "9638d8a308563842fd989970919a51f37ed1bcc82372bff47fc5a5c2e6de738e"
+metafile = true
+
+[[files]]
 file = "mods/attributefix.pw.toml"
 hash = "e9179c6f362e82c08ffb103a8e19c7dbdbeb18b24cca69ffacbd8b1929e23031"
+metafile = true
+
+[[files]]
+file = "mods/auto-restart.pw.toml"
+hash = "d1122b1d43031a6528d6d99d4ea312fdc7757bc17f3dddfdeadf09c9ca23f3e4"
 metafile = true
 
 [[files]]
@@ -1494,7 +1508,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "a96886fe12b0156b383437c664125ca8989e7c972728a37e2ac36b35dcf29bec"
+hash = "89405b622819b263cefd219f7a3bbe469387884b38698e03b4fa09d7a6ce8e3f"
 metafile = true
 
 [[files]]
@@ -1549,7 +1563,17 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "82daa6fa48459b30e79bb089103c3b33164d06155ad2c33c839e89a8ac142953"
+hash = "73e2ecbba9a9637a9942fb6323c6ef55c2ed33b57fb90f0606aa3c020e751a11"
+metafile = true
+
+[[files]]
+file = "mods/chipped.pw.toml"
+hash = "2d88c8932f077d343b4df477302cab4b66e912b73509c17781ea786c28c08461"
+metafile = true
+
+[[files]]
+file = "mods/chisel-chipped-integration.pw.toml"
+hash = "0eac3208a89e6888d6c53864c935e1b25e5fba0aa0b8a1f1b54052167e65f651"
 metafile = true
 
 [[files]]
@@ -1564,7 +1588,7 @@ metafile = true
 
 [[files]]
 file = "mods/colorful-hearts.pw.toml"
-hash = "72f2bcd15a158233c3b791238ba9a05e597a9b0224390b8be974dd56a8603d40"
+hash = "61b298643bbff518f41b77ec4626199fe090f0cd6aa8b78c705719111ff0940b"
 metafile = true
 
 [[files]]
@@ -1599,12 +1623,12 @@ metafile = true
 
 [[files]]
 file = "mods/crafting-tweaks.pw.toml"
-hash = "9a6d944e6518ef55ec14dcdac4ec8fad74f02572874d37769590aeca616ad4d5"
+hash = "bc0573b24f5dc93fcc644f7c5ba99d66c18097f874070b2808fd0af7ccb10259"
 metafile = true
 
 [[files]]
 file = "mods/craterlib.pw.toml"
-hash = "36950330fa81e3934baabe651bd935da738e97200539570a7d5a16cb4db4eb9b"
+hash = "e2befb1a2536964266f522442362bc61b61a22b246ab0df167e7bf02de2eb2af"
 metafile = true
 
 [[files]]
@@ -1669,12 +1693,12 @@ metafile = true
 
 [[files]]
 file = "mods/easy-villagers.pw.toml"
-hash = "8dd720f59eab155f2649b74c2aef11af3d8a7634c32dd4f66c0a814c6066a224"
+hash = "1f3acb38db8ee7e84e8df1c606b341f2123f4d107278fee16a820363016bdd35"
 metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "b3417e7c03644152f775f2b6c4cd7eef8437d68a898b639640d37788a6c564d9"
+hash = "353a9d7dead89daf76f6dd5f12f0c5d8e120c55a6a867211648dd91086cfc91d"
 metafile = true
 
 [[files]]
@@ -1794,7 +1818,7 @@ metafile = true
 
 [[files]]
 file = "mods/gravestone-mod.pw.toml"
-hash = "81a731e0f0e02d2a3b0605500724c7003e268ed6806040fa6b1ae1493c48d7fe"
+hash = "8e51cabc8a5738ca481a04f2be4ac5442bda2bea5d110bbd7bc53ecf3de23dda"
 metafile = true
 
 [[files]]
@@ -1849,7 +1873,7 @@ metafile = true
 
 [[files]]
 file = "mods/jaopca.pw.toml"
-hash = "51e9b01daf8aff6f037944101d6cf30ebf1d077c3f5bba9ee043203297955694"
+hash = "7ef52c57cc2dc8ebbc3cb6a625d60a93f365386a00e866f0100bca961f19f918"
 metafile = true
 
 [[files]]
@@ -1909,7 +1933,7 @@ metafile = true
 
 [[files]]
 file = "mods/mcjtylib.pw.toml"
-hash = "c7912aabbb629d0fb2d1c0cecf0923a1742feae7056dd1b9feb2c81b2c9aef73"
+hash = "7428d76392d1c976db8ff731d2d889c88ddf515e6813712f5b58b490d427f8f1"
 metafile = true
 
 [[files]]
@@ -1959,7 +1983,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "200dc9d52925894d95675e92cb306f0982a3af0cb0376722c4422bd530685b24"
+hash = "b9c03eeef85a050a626770dee002377099248b5a33ece835a162163ca8d443df"
 metafile = true
 
 [[files]]
@@ -2089,7 +2113,7 @@ metafile = true
 
 [[files]]
 file = "mods/rftools-base.pw.toml"
-hash = "984db11b069d45ee175a8f20e25b26cbd87db633aa83c2ed3e61a9c3a81b40f5"
+hash = "ca582093870dc726c1ce366843b8aee8ee761550cb4daed58d6f5ac9be4af956"
 metafile = true
 
 [[files]]
@@ -2134,7 +2158,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "fb91b41e7a3921f55326939ec7046e53fb765329ec591bf6d43bae804a541a31"
+hash = "5627608f70bf204cce10dfd16a05c8bf3ca689eb89c689e10b5fc48c9effe1f0"
 metafile = true
 
 [[files]]
@@ -2169,7 +2193,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "8be59d4bd5e7aada4edc43d17aabd1efd87a6837f89033e8f68193c4958fddc4"
+hash = "4c9fe1c48de2de8501a443b7099b2e4d2a8a45f0e364ddffe7bebda145d0e987"
 metafile = true
 
 [[files]]

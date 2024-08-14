@@ -1,0 +1,48 @@
+
+#Options for restarting:
+[restart]
+	#Is the server started by an external restart script?
+	use_external_restart_script = false
+	#Command that is executed on Server stopped to restart the server. Only called if "[restart, use_external_restart_script]" is false.
+	restart_command = "stop"
+
+#Option for auto restarting:
+[auto_restart]
+	#Should the Server do automatic restarts?
+	enabled = true
+	#Times in 24-hour format on which the server will automatically restart
+	times = ["08:00"]
+	#Should the server be automatically restarted when it crashes.
+	on_crash = false
+	#Times before an auto restart of the server, a restart warning should be shown.
+	#Examples:
+	# - 5s - For a message 5 seconds before a restart
+	# - 7m - For a message 7 minutes before a restart
+	# - 2h - For a message 2 hours before a restart
+	warning_times = ["30m", "10m", "5m", "1m", "5s", "4s", "3s", "2s", "1s"]
+
+#Options for restart, if the server is empty:
+[on_empty_restart]
+	#Should the server restart, if no players are online?
+	enabled = true
+	#Delay after the server should restart, if it is empty.
+	#Examples:
+	# - 5s - For a delay 5 seconds
+	# - 7m - For a delay 7 minutes
+	# - 2h - For a delay 2 hours
+	delay = "30m"
+
+#Options for restart, if the tps of server or its dimensions are low:
+[low_tps_restart]
+	#Should the server restart, if it is below a tps level for a specified time?
+	enabled = true
+	#TPS level below which the server is restarted, if it lasts for a specified time.
+	#Range: 0.0 ~ 20.0
+	minium_tps_level = 10
+	#Delay, that the server must be below the defined TPS level, in order for it to be restarted.
+	#Examples:
+	# - 5s - For a delay 5 seconds
+	# - 7m - For a delay 7 minutes
+	# - 2h - For a delay 2 hours
+	delay = "10m"
+
