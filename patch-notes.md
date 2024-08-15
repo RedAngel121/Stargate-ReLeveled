@@ -1,8 +1,12 @@
 ### Changes:
+- Fixed some recipes
+- Fixed Chisel Chipped Integration
 
 ### Updates:
 
 ### Additions:
+- Chiseled
+- Fusion
 
 ### Removals:
 

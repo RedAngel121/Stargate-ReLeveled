@@ -345,6 +345,10 @@ file = "config/torchmaster.toml"
 hash = "9e94cea5e76831982350add1328b3c109f5b767ac328fc6321963f1ae304d264"
 
 [[files]]
+file = "config/voicechat/voicechat-server.properties"
+hash = "29250fec830b50c7861e757d6f944718d3f573eccfe6a9b8cfdb2ba11329ccf7"
+
+[[files]]
 file = "defaultconfigs/auto_restart-server.toml"
 hash = "530ffcb3d46109686888d6bbb8c46ef8aaf862a287d3f8d27f72a5f69637dc2c"
 
@@ -1382,7 +1386,7 @@ hash = "9d09709aa13c6b7bd87a976122c62cf76ed9e40496a5e58da84df82988f3e161"
 
 [[files]]
 file = "kubejs/server_scripts/randomTagsFix.js"
-hash = "e4be9041be487dfd8b8cb1104d2b2298e9a2398705b56185ee220c3d196df20e"
+hash = "b76aee4e3747ac93c7387d8d2111ba73195e7e9f4d4baee904c997b0f239e84e"
 
 [[files]]
 file = "kubejs/server_scripts/recipeUtil.js"

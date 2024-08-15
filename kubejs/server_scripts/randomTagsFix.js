@@ -33,6 +33,8 @@ ServerEvents.tags('fluid', event => {
     event.remove('ad_astra:evaporates_in_space', 'minecraft:water')
     event.remove('ad_astra:freezes_in_space', 'minecraft:water')
 })
+
+// Removing Space Tags for Building
 ServerEvents.tags('block', event => {
     event.remove('ad_astra:destroyed_in_space', '#minecraft:saplings')
     event.remove('ad_astra:destroyed_in_space', '#minecraft:leaves')
@@ -52,4 +54,18 @@ ServerEvents.tags('block', event => {
     event.remove('ad_astra:destroyed_in_space', 'minecraft:tall_grass')
     event.remove('ad_astra:destroyed_in_space', 'minecraft:sweet_berries')
     event.remove('ad_astra:destroyed_in_space', 'minecraft:bamboo')
+})
+
+// Fixing Chisel Chipped Integration
+ServerEvents.tags('item', event => {
+    event.add('chisel_chipped_integration:technical_block', 'chisel_chipped_integration:technical_vent')
+})
+ServerEvents.tags('item', event => {
+    event.add('chisel_chipped_integration:tyrian', '#chisel_chipped_integration:metals/aluminum_blocks')
+    event.add('chisel_chipped_integration:tyrian', '#chisel_chipped_integration:metals/invar_blocks')
+    event.add('chisel_chipped_integration:tyrian', '#chisel_chipped_integration:metals/silver_blocks')
+    event.add('chisel_chipped_integration:tyrian', '#forge:storage_blocks/cobalt')
+    event.add('chisel_chipped_integration:tyrian', '#forge:storage_blocks/electrum')
+    event.add('chisel_chipped_integration:tyrian', '#forge:storage_blocks/nickel')
+    event.add('chisel_chipped_integration:tyrian', '#forge:storage_blocks/platinum')
 })
