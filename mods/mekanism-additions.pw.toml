@@ -1,13 +1,13 @@
 name = "Mekanism Additions"
-filename = "MekanismAdditions-1.20.1-10.4.8.43.jar"
+filename = "MekanismAdditions-1.20.1-10.4.9.61.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c6d275243a342f4293328decd97752137c001619"
+hash = "96fe9c23bc9184e11742eade33176f48d6a72813"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5395223
+file-id = 5662586
 project-id = 345425

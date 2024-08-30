@@ -350,7 +350,7 @@ hash = "29250fec830b50c7861e757d6f944718d3f573eccfe6a9b8cfdb2ba11329ccf7"
 
 [[files]]
 file = "defaultconfigs/auto_restart-server.toml"
-hash = "530ffcb3d46109686888d6bbb8c46ef8aaf862a287d3f8d27f72a5f69637dc2c"
+hash = "0ef17932f6703d561d03283ca8b3054e35503f5d4f0d11016a8c7867aa980f5d"
 
 [[files]]
 file = "defaultconfigs/create-server.toml"
@@ -393,6 +393,14 @@ file = "instance.png"
 hash = "aea8d874f70c2c44575298899a44aea2c7f1ec72913eba4b3f50306d45c4fd98"
 
 [[files]]
+file = "kubejs/assets/computercraft/models/block/monitor_base.json"
+hash = "0b818eea36bef00ed2feb1404e8427becd661a924d1d87f8890f3ada34097809"
+
+[[files]]
+file = "kubejs/assets/computercraft/models/block/monitor_base_backup.json"
+hash = "9504907e1d51439e90ecee6f173b7055b97f4f08d179c80b389b542abe58abab"
+
+[[files]]
 file = "kubejs/assets/jajasgates/sounds.json"
 hash = "4b56009f6c93eeebc948c6b94598f9e082d5cf440b65081d1b7ba157e39ab63b"
 
@@ -415,6 +423,66 @@ hash = "eee53a0700ebc3775fde9a03eba4d71731905dfedfec09714864ad19cf343d1e"
 [[files]]
 file = "kubejs/assets/jajasgates/sounds/wormhole_idle.ogg"
 hash = "77861ec3c41d77aa4ff260f0bea64f4945c40cdde76b3d961658b1420db8829f"
+
+[[files]]
+file = "kubejs/assets/jajasgates/textures/entity/stargate/cl_xtreme/xtreme_event_horizon.png"
+hash = "bf52258d05f663cf32b728cbed2cfb3fe07e7711554ac7196eaa39478b901cc5"
+
+[[files]]
+file = "kubejs/assets/jajasgates/textures/entity/stargate/cl_xtreme/xtreme_event_horizon_shiny.png"
+hash = "3bac57fba26363f2ab96482c8262cf4a3dde6b21b2ce76378c647a3ff458cdf5"
+
+[[files]]
+file = "kubejs/assets/jajasgates/textures/entity/stargate/cl_xtreme/xtreme_event_horizon_shiny.xcf"
+hash = "c9544b32b3eb184bf217b865640cd61eddfd8dbb009bf9ffca6dbad2329e5560"
+
+[[files]]
+file = "kubejs/assets/jajasgates/textures/entity/stargate/cl_xtreme/xtreme_stargate.png"
+hash = "a09335a14394d3f719192cc4b8c059277dc054e0fdf6d820d2458d8f466e3ecc"
+
+[[files]]
+file = "kubejs/assets/jajasgates/textures/entity/stargate/cl_xtreme/xtreme_stargate.xcf"
+hash = "1d4ea67e417abfef8c4192663fc06c3a2457e89ffdb8c3a587fee9b267678302"
+
+[[files]]
+file = "kubejs/assets/jajasgates/textures/entity/stargate/cl_xtreme/xtreme_stargate_engaged.png"
+hash = "9e126f25dac91a0778e21a11ad5582f16c93b7ea47e122e4be4272d3f19fe1e5"
+
+[[files]]
+file = "kubejs/assets/jajasgates/textures/entity/stargate/cl_xtreme/xtreme_stargate_engaged.xcf"
+hash = "6b0f0cfe1133261828db9fffdb368bbeeecc5940472a9b53ab54a443f51f56b0"
+
+[[files]]
+file = "kubejs/assets/jajasgates/textures/entity/stargate/mw_darkmetal/event_horizon.png"
+hash = "6a4cc3525a891402986081237ce6f2c4a0a63171e8910b1ca3d813a17cc13cba"
+
+[[files]]
+file = "kubejs/assets/jajasgates/textures/entity/stargate/mw_darkmetal/event_horizon_shiny.png"
+hash = "bf49a69bb4c1cba7e068e85ec8ae6e25eb6b7aac44f973b8333f76e319e32a1c"
+
+[[files]]
+file = "kubejs/assets/jajasgates/textures/entity/stargate/mw_darkmetal/event_horizon_shiny.xcf"
+hash = "5f1cab4f634550eb2904d51dcc00c580230ea1058ccf33bf8f00b02c32f98a65"
+
+[[files]]
+file = "kubejs/assets/jajasgates/textures/entity/stargate/mw_darkmetal/stargate.aseprite"
+hash = "9b97c369baa3b47fb84b3d257ebf67de2f4f18cd3324214806e3434e6a6cc5b9"
+
+[[files]]
+file = "kubejs/assets/jajasgates/textures/entity/stargate/mw_darkmetal/stargate.png"
+hash = "99eb3a6399942e6f422cc5892a56a066687d061c204875e57e19396b89cdee75"
+
+[[files]]
+file = "kubejs/assets/jajasgates/textures/entity/stargate/mw_darkmetal/stargate_alternate_engaged.png"
+hash = "47c1dfc63990351836cd63227bff623b4c60575f5e891bb9bc511f8444957fbc"
+
+[[files]]
+file = "kubejs/assets/jajasgates/textures/entity/stargate/mw_darkmetal/stargate_engaged.aseprite"
+hash = "7fa2a6f6d0cf50f672b8b1d38a9d11c880e247a456b05058f46bd742cc559e20"
+
+[[files]]
+file = "kubejs/assets/jajasgates/textures/entity/stargate/mw_darkmetal/stargate_engaged.png"
+hash = "e65190aa10f403b39796c95b9fa2b56a79adcec7f588635fe1ff403c38cb0a8d"
 
 [[files]]
 file = "kubejs/assets/jajasgates/textures/entity/stargate/mw_nether/event_horizon.png"
@@ -458,7 +526,7 @@ hash = "7a9d41d1f965fe10fca67cf6127a407e4c7a545ae41714fad01add831778a223"
 
 [[files]]
 file = "kubejs/assets/jajasgates/textures/entity/stargate/mw_oak/stargate.png"
-hash = "8a73b785d6b023499e4f0dcdd362f3d2c87e0b4ae0e949ee293cfaa1a3ba600e"
+hash = "9b231581bb3321488d7fabbc7cc7f689f405b56066944b84445b6ad814759844"
 
 [[files]]
 file = "kubejs/assets/jajasgates/textures/entity/stargate/mw_oak/stargate_alternate.png"
@@ -523,6 +591,22 @@ hash = "47c1dfc63990351836cd63227bff623b4c60575f5e891bb9bc511f8444957fbc"
 [[files]]
 file = "kubejs/assets/jajasgates/textures/entity/stargate/mw_stone/stargate_engaged.png"
 hash = "8fcc531f6fce4434daa0900007146e7c5a9b392aeafcc131fbaa1f83fe30dd07"
+
+[[files]]
+file = "kubejs/assets/jajasgates/textures/symbols/cl_xtreme.aseprite"
+hash = "603ebbedcdd984850e5163f27b2cb959910365b5a82ff9cf2208042d55649732"
+
+[[files]]
+file = "kubejs/assets/jajasgates/textures/symbols/cl_xtreme.png"
+hash = "34d5b2f9573c6861a7fd138d875817b3ec199355917467cae8365b34497da01f"
+
+[[files]]
+file = "kubejs/assets/jajasgates/textures/symbols/cl_xtreme.xcf"
+hash = "c1b9b4ce013ddc0d69545a3a5791349ba6870de550e26dc76d16acee43af5889"
+
+[[files]]
+file = "kubejs/assets/jajasgates/textures/symbols/point_of_origin/cl_xtreme.png"
+hash = "589900a7b8cd8b6c2ef715ef4063b9a7829a164d981831f657873d3e674e779c"
 
 [[files]]
 file = "kubejs/assets/moregates/textures/entity/stargate/pegasus/twilight/twilight_event_horizon.png"
@@ -1201,6 +1285,14 @@ file = "kubejs/data/ironfurnaces/recipes/upgrades/upgrade_netherite.json"
 hash = "584f2f6e6c79a1e596d4b854bc9407b480c126b59606f264e51ef871524b44d3"
 
 [[files]]
+file = "kubejs/data/jajasgates/recipes/crystallizing/cl_xtreme_variant_crystal.json"
+hash = "9082c59e10a7f1f719fe8acbb889f15e4a83de888a3d72d8b3d86597f99f473d"
+
+[[files]]
+file = "kubejs/data/jajasgates/recipes/crystallizing/mw_darkmetal_variant_crystal.json"
+hash = "aa33048398303c3354c9ab318e15ce839043f907685bf9f7d978d31270efd0af"
+
+[[files]]
 file = "kubejs/data/jajasgates/recipes/crystallizing/mw_nether_variant_crystal.json"
 hash = "ce892947a43145a4287d57fc2bb50e3ea524478e490e828031e832b2769c7b3e"
 
@@ -1213,6 +1305,18 @@ file = "kubejs/data/jajasgates/recipes/crystallizing/mw_stone_variant_crystal.js
 hash = "d578aa8a853b44c1bfc62d221c626fa4cd5286be9b1d34634497f50bb08e9fbf"
 
 [[files]]
+file = "kubejs/data/jajasgates/sgjourney/point_of_origin/cl_xtreme.json"
+hash = "bff47fe8497d4f369a8974c0935ff2663e06a4f0c72d5ee78957de6d36be3b88"
+
+[[files]]
+file = "kubejs/data/jajasgates/sgjourney/stargate_variant/cl_xtreme.json"
+hash = "6d8d6d88e30a9bf5f186038faf8564abda93fd02fecc3642f3f8ffcf9cbbcaa5"
+
+[[files]]
+file = "kubejs/data/jajasgates/sgjourney/stargate_variant/mw_darkmetal.json"
+hash = "afd0001d19684e4fcf71882cf913a578d80b24156eaf211529643a4b11c1ae59"
+
+[[files]]
 file = "kubejs/data/jajasgates/sgjourney/stargate_variant/mw_nether.json"
 hash = "f9544e9868d99c18dab815ae6b319f51ba16d623c3dc8f71c3080145180ad4d1"
 
@@ -1223,6 +1327,14 @@ hash = "5437b24acabcce7086f2c5eb09dfd4c8b7811beeab0f31fbedfcbdad369b83cf"
 [[files]]
 file = "kubejs/data/jajasgates/sgjourney/stargate_variant/mw_stone.json"
 hash = "fc9d447221f38327677f6514f8c6243658436523dc47bc1794e6f0d9f0dac708"
+
+[[files]]
+file = "kubejs/data/jajasgates/sgjourney/symbol_set/cl_xtreme.json"
+hash = "8c050cbc068f3d98d17c68700dc06155cd06eb8529f7c1d5aeeacbb248c05294"
+
+[[files]]
+file = "kubejs/data/jajasgates/sgjourney/symbols/cl_xtreme.json"
+hash = "ca394b600f494046c3a411f064d67f09e599e7e36474e493edc5df385c639731"
 
 [[files]]
 file = "kubejs/data/mekanism/recipes/crushing/rose_quartz_chunk_from_block.json"
@@ -1457,12 +1569,12 @@ metafile = true
 
 [[files]]
 file = "mods/apotheosis.pw.toml"
-hash = "bfff4a8be74c7d02e62cc7ba3b75183dbbff98e550dfc648d49f9f721688e730"
+hash = "55e921a275e97a1e6288f46d84f840ec7002626e8790171876c877b8b2d517be"
 metafile = true
 
 [[files]]
 file = "mods/apothic-attributes.pw.toml"
-hash = "ad85f1847b402498fdad38731c632ca0167ccbdade0c1884776aa5ee88463f28"
+hash = "7ec91c6a496a122e84c4f0e7737175bf869dda8e046a208ef6e13830ca731378"
 metafile = true
 
 [[files]]
@@ -1477,7 +1589,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "d7feb9d52456bf8475759c29d5611735ece5a032d0d1eeeaa53721eae74e6ac7"
+hash = "9bd97f776c321a330b117f83f3632c867dd60c61cffabe51ce18c2dd19e24458"
 metafile = true
 
 [[files]]
@@ -1512,7 +1624,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "89405b622819b263cefd219f7a3bbe469387884b38698e03b4fa09d7a6ce8e3f"
+hash = "7fbee422bf0c8308757b7159767572b3fe920c82c137cc2408f8555fbfc9ef9b"
 metafile = true
 
 [[files]]
@@ -1567,7 +1679,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "73e2ecbba9a9637a9942fb6323c6ef55c2ed33b57fb90f0606aa3c020e751a11"
+hash = "6c120baba31a0b1791edf2ccfc99c64cad6093250f1c43674e1543892f752c04"
 metafile = true
 
 [[files]]
@@ -1577,7 +1689,7 @@ metafile = true
 
 [[files]]
 file = "mods/chisel-chipped-integration.pw.toml"
-hash = "0eac3208a89e6888d6c53864c935e1b25e5fba0aa0b8a1f1b54052167e65f651"
+hash = "de56b2621dd980626de0551228154788fd5f9ab2c69dc9c0cd1a6c22c27b20cb"
 metafile = true
 
 [[files]]
@@ -1592,7 +1704,7 @@ metafile = true
 
 [[files]]
 file = "mods/colorful-hearts.pw.toml"
-hash = "61b298643bbff518f41b77ec4626199fe090f0cd6aa8b78c705719111ff0940b"
+hash = "73108be80a7a50787e933cbb4b0c39ae6c3fcf59c68781fe731d2f692ff9f4e9"
 metafile = true
 
 [[files]]
@@ -1667,7 +1779,7 @@ metafile = true
 
 [[files]]
 file = "mods/createaddition.pw.toml"
-hash = "c1fa8e6889d3dffd9708de9d59aeeaefec66ff013b0bc32de2e23ec9199c66e9"
+hash = "274ead8f01184fb94bcb6d421f03924c2c7a0d10fee7c201154c549253b216ef"
 metafile = true
 
 [[files]]
@@ -1692,17 +1804,17 @@ metafile = true
 
 [[files]]
 file = "mods/deeperdarker.pw.toml"
-hash = "c2693b6cb0bbdfbf84b166382f8612c8dc8ccc02ab5fa66d44bf7ece75f48afb"
+hash = "7315e1db9fe128031fe3e0a6776eec866d6f9ffa1a0aaf471bb9850b8af7509a"
 metafile = true
 
 [[files]]
 file = "mods/easy-villagers.pw.toml"
-hash = "1f3acb38db8ee7e84e8df1c606b341f2123f4d107278fee16a820363016bdd35"
+hash = "0d105bb456fd5464bae3279759e0cc733c7d8a7fae20b916e6220d1a4e4cde26"
 metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "353a9d7dead89daf76f6dd5f12f0c5d8e120c55a6a867211648dd91086cfc91d"
+hash = "113be3232d48dc9875189bdef468a03f61725bf4e1ed4040738ed05ea6beb4ae"
 metafile = true
 
 [[files]]
@@ -1722,7 +1834,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "3de9fc56a1f656b20b308f462aac84aa50bd30551371137b752db21cf5091cfd"
+hash = "512f27fb0eae5e7e3fb9ff66f5d8f83b47fcbc15e5cbdf59fdf9f6f6d2c480cc"
 metafile = true
 
 [[files]]
@@ -1737,7 +1849,7 @@ metafile = true
 
 [[files]]
 file = "mods/exposure.pw.toml"
-hash = "40957d154f6fdedac034bf32bca6299b29d270532fcc5468e52e8ef8c741bb94"
+hash = "d9d40e74f2575e29b97bc89531e539b476f5e060becb3c52c61e6ce084da05b9"
 metafile = true
 
 [[files]]
@@ -1767,7 +1879,7 @@ metafile = true
 
 [[files]]
 file = "mods/framedblocks.pw.toml"
-hash = "ec1e75e28d448fba354039b37470565e9c2aefc63fde1852904c38af0b4b2136"
+hash = "f0985d39c6bb45984378049516de43f8faa6ee52ac74487d67442452cbf84d60"
 metafile = true
 
 [[files]]
@@ -1822,12 +1934,12 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "060760770ff9523f85467d066f73b2dbf8f03abadbf57dbdaaa98b92bce8d92b"
+hash = "ce2208de3caf116f938102b52c12ce0dd253753781a54bd0907c71dff32bc583"
 metafile = true
 
 [[files]]
 file = "mods/gravestone-mod.pw.toml"
-hash = "8e51cabc8a5738ca481a04f2be4ac5442bda2bea5d110bbd7bc53ecf3de23dda"
+hash = "5e9d1f89e4d139e555ef5211ad656995b6776a22dfeb21cedec3d60c9decaa50"
 metafile = true
 
 [[files]]
@@ -1847,7 +1959,7 @@ metafile = true
 
 [[files]]
 file = "mods/hostile-neural-networks.pw.toml"
-hash = "865f3d49713a5e5d284a858c724fdbef873e89434e6ebb2bee1a43386ae9ec98"
+hash = "0508216cc4c57cc5214d1105142e50df880ad9102de1d485ee8ced284524ce64"
 metafile = true
 
 [[files]]
@@ -1882,7 +1994,7 @@ metafile = true
 
 [[files]]
 file = "mods/jaopca.pw.toml"
-hash = "7ef52c57cc2dc8ebbc3cb6a625d60a93f365386a00e866f0100bca961f19f918"
+hash = "81c9157124e36f1861cf7d301e90c33edcb2886621472952036c75420828570b"
 metafile = true
 
 [[files]]
@@ -1957,17 +2069,17 @@ metafile = true
 
 [[files]]
 file = "mods/mekanism-additions.pw.toml"
-hash = "8e3069d86afb9db4eb1d66809376e7def8ae49d8b49b034f579edd374de3d69f"
+hash = "ad25624e78d982a35732c419c13456b1f89c1abec062d76c522235e258e5c17a"
 metafile = true
 
 [[files]]
 file = "mods/mekanism-generators.pw.toml"
-hash = "31bedc841cd4f28284805ce9b2c1ab53a39c2fa062816e1e520ef1b7d631f7db"
+hash = "2b8bfaabf74a2c8fb5f2753e2585f8700ed2877d640e86505110d4360b0adc32"
 metafile = true
 
 [[files]]
 file = "mods/mekanism.pw.toml"
-hash = "97abd23496116a8b3fb4b832ae5a7ef7c84063909b16dcbf1a403963893f2ea3"
+hash = "3f93e11f19698af8f5f817f8121a220bbb5cc0f3226bff8ecab4fcec78574073"
 metafile = true
 
 [[files]]
@@ -1992,7 +2104,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "b9c03eeef85a050a626770dee002377099248b5a33ece835a162163ca8d443df"
+hash = "f03861f83a9f0c69606d5e355b9a342838a04d255873cf0751c676dd50ec6e8e"
 metafile = true
 
 [[files]]
@@ -2052,7 +2164,7 @@ metafile = true
 
 [[files]]
 file = "mods/observable.pw.toml"
-hash = "b21b3850e6f670fc456ae89816a714fffd9dc71bfcd5bb9e631f03239979dc3b"
+hash = "5d0eae777859369335212a6a68a0c835fc7487ace8016749fe9f377de1c4b392"
 metafile = true
 
 [[files]]
@@ -2087,7 +2199,7 @@ metafile = true
 
 [[files]]
 file = "mods/peripheralium.pw.toml"
-hash = "656871367a61adbe06f82f3444caf606891fbde7d29a59433dd2d38a5e49a9a8"
+hash = "5c9c8946faa6ddd31b68c52f97e71dcc591cab8072c73fe991ee6fd4a7423f55"
 metafile = true
 
 [[files]]
@@ -2122,7 +2234,7 @@ metafile = true
 
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
-hash = "73f52912d24a121d62ea8c8f7ed00ac8e6ac7cec1a7253ca0cecb24d7cb9f61a"
+hash = "ef0264b7d819848f72ab2f34643306187e712965a8246e1f733e1bd39d8fd681"
 metafile = true
 
 [[files]]
@@ -2147,7 +2259,7 @@ metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
-hash = "6be79c8aeb5bddbe5957a1292a7977d8e03926c3126472edeaa906ef54f51b58"
+hash = "d218175a2fc0fd2fdb907ed55a214f0163d9bcabb75b47ccdb6f4704c3bd5dd0"
 metafile = true
 
 [[files]]
@@ -2172,7 +2284,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "5627608f70bf204cce10dfd16a05c8bf3ca689eb89c689e10b5fc48c9effe1f0"
+hash = "2e3f05a6740618a0eb333956615aa47247bf12554fc6b6375946026453c264cc"
 metafile = true
 
 [[files]]
@@ -2222,17 +2334,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "3f6894af067410277d2281acd6a674575694eb65e4e3514e4d96e32b06e4e0e2"
+hash = "2170ed9eb7672fc517075c2259dc7ff8e9501c167f4083a30be162c8873b32c4"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "9935c85e1d899d5bd69e83b51070cdca5ae9dc138bb6ccde8f76aac214df0cc0"
+hash = "d47cf8902495273ee0a9223ee33f0dacf8a43667f6026d92af0186d5bac1b563"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "ab9393f8ffa86006454b2eef2d0276630baacb9644f48ee04c7e1abc5090f2d0"
+hash = "87ed59e9a14222c3a093641c1c93ded80c9255cada9ea417e73a167342097441"
 metafile = true
 
 [[files]]
@@ -2257,7 +2369,7 @@ metafile = true
 
 [[files]]
 file = "mods/storage-drawers.pw.toml"
-hash = "b23614f126b6ad58ccc18d45c547d2e7357da867ff1a45f63e3dcb246f3a87f4"
+hash = "834f243639b745a910725cfacb6b7e2282cb8b5c2ad5740c2a0e520be82a0ec1"
 metafile = true
 
 [[files]]
@@ -2267,7 +2379,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "436e0c633a689379dfb99745344a6ab0c9cc39955f59d6194aad2a6a44202217"
+hash = "c0fdbfb5995309ae73fe8c22c5d4921a9e08af1f74aed3ac5a6096e0b919ddbe"
 metafile = true
 
 [[files]]
@@ -2322,7 +2434,7 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "66785c8967f4ef7836a9e5582136b766f028cbd453bfb8ffdfaac646b1f6ddb7"
+hash = "fd92fcc6ef2bcd95038774bc732b898a4253f7db38dca5ed76f98738e43d344e"
 metafile = true
 
 [[files]]

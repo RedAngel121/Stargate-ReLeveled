@@ -11,7 +11,7 @@
 	#Should the Server do automatic restarts?
 	enabled = true
 	#Times in 24-hour format on which the server will automatically restart
-	times = ["08:00"]
+	times = ["07:00"]
 	#Should the server be automatically restarted when it crashes.
 	on_crash = false
 	#Times before an auto restart of the server, a restart warning should be shown.
@@ -24,7 +24,7 @@
 #Options for restart, if the server is empty:
 [on_empty_restart]
 	#Should the server restart, if no players are online?
-	enabled = true
+	enabled = false
 	#Delay after the server should restart, if it is empty.
 	#Examples:
 	# - 5s - For a delay 5 seconds
