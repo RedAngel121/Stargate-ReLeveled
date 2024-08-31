@@ -393,6 +393,22 @@ file = "instance.png"
 hash = "aea8d874f70c2c44575298899a44aea2c7f1ec72913eba4b3f50306d45c4fd98"
 
 [[files]]
+file = "kubejs/assets/chipped/textures/block/glass/ctm/clear_leaded_glass_ctm/0.png"
+hash = "b671d406b8d4d6f6d2d78ebeb4685d58bba167adc6d024987163fc9b983660b5"
+
+[[files]]
+file = "kubejs/assets/chipped/textures/block/glass/ctm/clear_leaded_glass_ctm/1.png"
+hash = "964f865edba3f0304db4c1482139ef2696c00c7e1603db71e06133c9f55b4dd4"
+
+[[files]]
+file = "kubejs/assets/chipped/textures/block/glass/ctm/clear_leaded_glass_ctm/2.png"
+hash = "71879c125605ecd5e389efb42c9804fd79f766c7d2445ac64f3c9735b0fd58a4"
+
+[[files]]
+file = "kubejs/assets/chipped/textures/block/glass/ctm/clear_leaded_glass_ctm/3.png"
+hash = "d74a0640a6574d3eb634843fdf102bbc748331c0758d97b35528698eb9168d73"
+
+[[files]]
 file = "kubejs/assets/computercraft/models/block/monitor_base.json"
 hash = "0b818eea36bef00ed2feb1404e8427becd661a924d1d87f8890f3ada34097809"
 

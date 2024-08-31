@@ -1,7 +1,8 @@
 ### Changes:
 - Fixed some recipes
-- Fixed Chisel Chipped Integration
-- Added CC Monitor fix
+- Fixed Chisel Chipped Integration - Thanks Cookta!
+- Added CC Monitor fix - Thanks Jaja!
+- Leaded Glass connected texture fixed - Thanks Jaja!
 
 ### Updates:
 - **Jaja's Gates**
