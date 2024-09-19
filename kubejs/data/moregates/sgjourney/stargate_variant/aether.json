@@ -1,22 +1,4 @@
 {
-	"base_stargate": "sgjourney:universe_stargate",
-	"texture": "moregates:textures/entity/stargate/universe/aether/aether_stargate.png",
-	"engaged_texture": "moregates:textures/entity/stargate/universe/aether/aether_stargate_engaged.png",
-	"event_horizon_texture": "moregates:textures/entity/stargate/universe/aether/aether_event_horizon.png",
-	"shiny_event_horizon_texture": "moregates:textures/entity/stargate/universe/aether/aether_event_horizon_shiny.png",
-	"symbol_color": [0,0,0,255],
-	"engaged_symbol_color": [200,200,200,255],
-
-	"model": {
-		"alternate_model": true,
-		"back_chevrons": true
-	},
-
-	"sounds": {
-		"chevron_engage_sound": "sgjourney:universe_chevron_engage",
-		"chevron_encode_sound": "sgjourney:universe_chevron_encode",
-		"fail_sound": "sgjourney:universe_dial_fail",
-		"wormhole_open_sound": "sgjourney:universe_wormhole_open",
-		"wormhole_close_sound": "sgjourney:universe_wormhole_close"
-	}
+    "base_stargate": "sgjourney:universe_stargate",
+    "client_variant": "moregates:universe/aether"
 }

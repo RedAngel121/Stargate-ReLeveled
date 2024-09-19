@@ -1,13 +1,13 @@
 name = "Botany Pots"
-filename = "BotanyPots-Forge-1.20.1-13.0.38.jar"
+filename = "BotanyPots-Forge-1.20.1-13.0.39.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b4b12020c30116710833a6c9fa0712a535be26b8"
+hash = "c1e33db0edc008f0626712dc1a389947820224e4"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5586279
+file-id = 5727506
 project-id = 353928

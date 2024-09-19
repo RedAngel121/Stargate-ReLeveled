@@ -1,24 +1,4 @@
 {
-	"base_stargate": "sgjourney:universe_stargate",
-	
-	"texture": "moregates:textures/entity/stargate/universe/quartz/quartz_stargate.png",
-	"engaged_texture": "moregates:textures/entity/stargate/universe/quartz/quartz_stargate_engaged.png",
-	"event_horizon_texture": "moregates:textures/entity/stargate/universe/quartz/quartz_event_horizon.png",
-	"shiny_event_horizon_texture": "moregates:textures/entity/stargate/universe/quartz/quartz_event_horizon_shiny.png",
-	"symbol_color": [255, 255, 255, 125],
-	"engaged_symbol_color": [186, 155, 255, 255],
-	
-	"model":
-	{
-		"alternate_model": false,
-		"back_chevrons": false
-	},
-	
-	"sounds": {
-		"chevron_engage_sound": "sgjourney:universe_chevron_engage",
-		"chevron_encode_sound": "sgjourney:universe_chevron_encode",
-		"fail_sound": "sgjourney:universe_dial_fail",
-		"wormhole_open_sound": "sgjourney:universe_wormhole_open",
-		"wormhole_close_sound": "sgjourney:universe_wormhole_close"
-	}
+    "base_stargate": "sgjourney:universe_stargate",
+    "client_variant": "moregates:universe/quartz"
 }

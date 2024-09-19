@@ -16,6 +16,10 @@
 			"required": false
 		},
 		{
+			"id": "computercraft:monitor_advanced",
+			"required": false
+		},
+		{
 			"id": "#tombstone:graves",
 			"required": false
 		},

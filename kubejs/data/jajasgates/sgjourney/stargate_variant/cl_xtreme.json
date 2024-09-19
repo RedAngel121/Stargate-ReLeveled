@@ -1,13 +1,1 @@
-{
-	"base_stargate": "sgjourney:classic_stargate",
-	
-	"texture": "jajasgates:textures/entity/stargate/cl_xtreme/xtreme_stargate.png",
-	"engaged_texture": "jajasgates:textures/entity/stargate/cl_xtreme/xtreme_stargate_engaged.png",
-	"event_horizon_texture": "jajasgates:textures/entity/stargate/cl_xtreme/xtreme_event_horizon.png",
-	"shiny_event_horizon_texture": "jajasgates:textures/entity/stargate/cl_xtreme/xtreme_event_horizon_shiny.png",
-	"event_horizon_frames": 32,
-
-	"symbol_color": [255, 215, 76, 255],
-	"symbols": "jajasgates:cl_xtreme",
-	"point_of_origin": "jajasgates:cl_xtreme"
-}
+{"client_variant":"jajasgates:cl_xtreme","base_stargate":"sgjourney:classic_stargate"}

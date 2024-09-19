@@ -1,0 +1,78 @@
+{
+	"texture": "jajasgates:textures/entity/stargate/tl_gallifrey/stargate.png",
+	"engaged_texture": "jajasgates:textures/entity/stargate/tl_gallifrey/stargate_engaged.png",
+	
+	"wormhole":
+	{
+		"distortion": 10,
+		"event_horizon":
+		{
+			"front":
+			{
+				"texture": "jajasgates:textures/entity/stargate/tl_gallifrey/event_horizon_shiny.png",
+				"rows": 32,
+				"columns": 1,
+				"frames": 32,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "jajasgates:textures/entity/stargate/tl_gallifrey/event_horizon_shiny_back.png",
+				"rows": 32,
+				"columns": 1,
+				"frames": 32,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			}
+		}
+	},
+	"shiny_wormhole":
+	{
+		"distortion": 10,
+		"event_horizon":
+		{
+			"front":
+			{
+				"texture": "jajasgates:textures/entity/stargate/tl_gallifrey/event_horizon_shiny.png",
+				"rows": 32,
+				"columns": 1,
+				"frames": 32,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "jajasgates:textures/entity/stargate/tl_gallifrey/event_horizon_shiny_back.png",
+				"rows": 32,
+				"columns": 1,
+				"frames": 32,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+	},
+	
+	"symbols":
+	{
+		"symbol_color": { "red": 1.0, "green": 1.0, "blue": 1.0, "alpha": 1.0 }
+	},
+	
+	"chevron_engaged_sounds":
+	{
+		"default": "sgjourney:tollan_chevron_engage"
+	},
+	
+	"chevron_incoming_sounds":
+	{
+		"default": "sgjourney:tollan_chevron_engage"
+	},
+	
+	"wormhole_sounds":
+	{
+		"open": "sgjourney:tollan_wormhole_open",
+		"idle": "sgjourney:tollan_wormhole_idle",
+		"close": "sgjourney:tollan_wormhole_close"
+	},
+	
+	"fail_sounds":
+	{
+		"default": "sgjourney:tollan_dial_fail"
+	}
+}
