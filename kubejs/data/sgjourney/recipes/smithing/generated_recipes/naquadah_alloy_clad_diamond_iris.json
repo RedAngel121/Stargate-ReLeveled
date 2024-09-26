@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:paper"
+    },
+    "addition": {
+        "tag": "forge:nuggets/naquadah_alloy"
+    },
+    "base": {
+        "item": "sgjourney:diamond_iris"
+    },
+    "result": {
+        "item": "sgjourney:diamond_iris",
+        "nbt": {
+            "texture": "sgjourney:textures/entity/stargate/iris/naquadah_alloy_iris.png",
+            "display": {
+                "Name": "{\"text\":\"Naquadah Alloy Clad Diamond Iris\",\"italic\":false}"
+            }
+        }
+    }
+}

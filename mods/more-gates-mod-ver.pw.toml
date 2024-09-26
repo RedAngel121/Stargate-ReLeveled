@@ -1,13 +1,13 @@
 name = "Stargate Journey: MoreGates Addon"
-filename = "moregates-4.3.1-forge-1.20.1.jar"
+filename = "moregates-4.3.2-forge-1.20.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "09b3903986df3a897db311b3e465ec1eda4a742d"
+hash = "58e40a343cfd86dacef8fdaee5e7f1df6d645a7d"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5737076
+file-id = 5758921
 project-id = 1015656

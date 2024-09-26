@@ -670,11 +670,11 @@ hash = "8fd5336f78c1710938812a452d3f40d1002cde16ea923ff35d03119ec81f8ead"
 
 [[files]]
 file = "kubejs/assets/jajasgates/textures/entity/stargate/tl_gallifrey/stargate.aseprite"
-hash = "177508c9130284fb5057a077b01cb9f108406c37f734e6f4f42150a933d2252a"
+hash = "466731cc932c6d15b0bcadd08d4f56616950bd4c96aa64deb996a0d11e4bf4cb"
 
 [[files]]
 file = "kubejs/assets/jajasgates/textures/entity/stargate/tl_gallifrey/stargate.png"
-hash = "576e412ef30959a700d368893b099b96f19aadc60a345346fed9b6a4c7ec79dc"
+hash = "0249cc8ac911c9421396d9fb385870ef2c56fad28056138e933cc111845a1671"
 
 [[files]]
 file = "kubejs/assets/jajasgates/textures/entity/stargate/tl_gallifrey/stargate_engaged.png"
@@ -1461,6 +1461,10 @@ file = "kubejs/data/moregates/recipes/crystallizing/aether_variant_crystal.json"
 hash = "e884f9416cfddd1cbde2e37ac5718c7ed36d318f9682ce7c62bdc83bef415f1d"
 
 [[files]]
+file = "kubejs/data/moregates/recipes/crystallizing/galifrey_pg_variant_crystal.json"
+hash = "5af7e4bfcaa38cd485e265ad3ecf5372a269840ad990d998c54cb5dc850277a1"
+
+[[files]]
 file = "kubejs/data/moregates/recipes/crystallizing/quartz_variant_crystal.json"
 hash = "2e600af108cb634c7b2f925ac6803a22cacce90d319dfb20cbaddfcca238956a"
 
@@ -1573,6 +1577,234 @@ file = "kubejs/data/sgjourney/recipes/sandstone_cartouche.json"
 hash = "2d76f54617f44ce1f8e9aac91cf64d75567e1a0ff3741ecef3b8f7c2ecd978f1"
 
 [[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generate_iris.py"
+hash = "8e295b52d6b9985124239cd746e0566509afeec1a9cff94303b51b91829963bf"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/bronze_clad_copper_iris.json"
+hash = "bbd0a705e1125eb5417ea96377b111ea8956331a252389425419766b23e55d91"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/bronze_clad_diamond_iris.json"
+hash = "8b94629b519de23971a67803cbe2a2303d12c2cb6926425b0168e13eabb44654"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/bronze_clad_gold_iris.json"
+hash = "83a917d4c821c8b65ca965984787a090519898f3f7356e1da137f7236ea93f82"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/bronze_clad_iron_iris.json"
+hash = "73422ff1e6713ed8ee8e741b1cba2552eb383004664397f94d8473383c7a18fd"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/bronze_clad_naquadah_alloy_iris.json"
+hash = "7173afdfd5328b97a813e36b833a80a59cfbbd46d79bbeaf12e7d62f47270c04"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/bronze_clad_netherite_iris.json"
+hash = "d967c14c6e87c15f68db9858509db390b6b2e4ae67b8bce37ae774d821de38cd"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/bronze_clad_steel_iris.json"
+hash = "9246300e48d138aad2d10d6295dd6bcdaaa2a125f28c3c1b7ffb7d3f350d47cf"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/copper_clad_bronze_iris.json"
+hash = "b7c72f623212cec951cb52301f65a2308865e9a2f58de44716a934dad98a0ccc"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/copper_clad_diamond_iris.json"
+hash = "b4c2807e7e3ba621fbba8c1b26dcc5cc4dacda2344615e1922b28f3ef04f9d41"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/copper_clad_gold_iris.json"
+hash = "01580c927fb23c8e528246b331aa1b4cf266759868071bb87f11c2f3cd99dad0"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/copper_clad_iron_iris.json"
+hash = "7b2a0b355c5c2e065f3353f719b8bb5d2c2c6d430e135d67f52f18d4f31f5e01"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/copper_clad_naquadah_alloy_iris.json"
+hash = "90c8b456f825a821b5df29aa520638b0c87df0a87d58ef46de4d9e358bc4b57d"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/copper_clad_netherite_iris.json"
+hash = "f6a7968020fd883eb6ff0186fab99a678967672ed693821a6795d799b16e811e"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/copper_clad_steel_iris.json"
+hash = "c7a6e83a2ab5fa682ca665ba6de9d26ad2c16612f8da7243f9d2069bcc9e24e1"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/diamond_clad_bronze_iris.json"
+hash = "f80c9fd3f6d4e6fb6cc93b43b5689043b3aac79e5402810dd584055c4a5f44ba"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/diamond_clad_copper_iris.json"
+hash = "1a2b426d195d232c2e5a0565b0a05ef9a52e11c5c287e01e1eb13cf8dc0750fc"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/diamond_clad_gold_iris.json"
+hash = "cfb8876e335b74b541339c5b1bbbf46fa20c2d7125d7f53e3c95c36e4f5612f5"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/diamond_clad_iron_iris.json"
+hash = "e3d7f0aa2b6aa5591f6165c0a0ba52879c6dbd8e3e403a7a7c6eda1c8bb548c7"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/diamond_clad_naquadah_alloy_iris.json"
+hash = "a1a9b340248ff53e8fa97320a441077aa7f3c0eac40796bf14252e8eeed3f370"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/diamond_clad_netherite_iris.json"
+hash = "f999fb90cdfc3e28b51d85c30297cd8d4bafe0080e198c2eacde9fde9449c302"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/diamond_clad_steel_iris.json"
+hash = "e878d9af56174d92b9b3a4e212a088995085b229ecdb522449cf9186540750f3"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/gold_clad_bronze_iris.json"
+hash = "e3bfcdf547b23053bd3bfb7d77662ce2ef3df97f5dcc38af9c282b0b98c39e8d"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/gold_clad_copper_iris.json"
+hash = "f2c935ccad0be9a2095925458d2764eb4960a52b2c2ffbdc3e1db10f62d4ab70"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/gold_clad_diamond_iris.json"
+hash = "7952047a44b69df83ac87f540720c2be1cb086a33ba88991c95b71a70ac349aa"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/gold_clad_iron_iris.json"
+hash = "0fb0007f5ab3af87d63b666ae2a263d41ebf173ab3d4d62ae56ae176118cfc30"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/gold_clad_naquadah_alloy_iris.json"
+hash = "70daca2f832e390f8fd052cd98ecccf998ccc9b7745df59e15a08901ecb1e9ee"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/gold_clad_netherite_iris.json"
+hash = "3f2ea0d50fec9e0f985266e427a410baf6c1aa457325ba3958bd3766a62548c3"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/gold_clad_steel_iris.json"
+hash = "ae2de2a9171de2d681f9d7b29571a1ef010effecaef762c8d08212800d67dbea"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/iron_clad_bronze_iris.json"
+hash = "69cbd4efef8c3ab534d48e6a99497486af98e630d155056a3554425ef6a2e1e3"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/iron_clad_copper_iris.json"
+hash = "9d873ad93a91645b920562daa9d89c2e8a87a0eee783966d079a629abbe288b2"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/iron_clad_diamond_iris.json"
+hash = "022c5bcad99b162acfb5558948d96aebaca44691d78f6cf860f32ebd1830bc16"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/iron_clad_gold_iris.json"
+hash = "a578930306bc38c31f0f0df08e2c4ae1a70c066148ba6bceb22efd88f028e612"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/iron_clad_naquadah_alloy_iris.json"
+hash = "7a8b829f29ec0ea57793339be6179ab12adcf252a46aee552978f8b1edf93d09"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/iron_clad_netherite_iris.json"
+hash = "440bb365280db75ad3478b7543b259effd4f236dfe052234880af1e51fd6e83c"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/iron_clad_steel_iris.json"
+hash = "f8c45e604de7d28809fda7b7f3d59ca40309a7626ede9d11621c06d68fa90b1f"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/naquadah_alloy_clad_bronze_iris.json"
+hash = "c82a2340c11d5d393160580f408bac35346f50b291ad47c85c16aaf6822889ad"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/naquadah_alloy_clad_copper_iris.json"
+hash = "48760f0870e06e363b3662d39d0e37f10c97b208deee10136f75eb1fdba49621"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/naquadah_alloy_clad_diamond_iris.json"
+hash = "c24dbbd9d1c2ae6c5b39274c9b38e7b71c5a553b8bb5dac7f123db85a2e5244f"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/naquadah_alloy_clad_gold_iris.json"
+hash = "b3c2e7b0e0784c2f4fecb6b851e2340fe51e3b616d0f15b393f66b52a1088ccb"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/naquadah_alloy_clad_iron_iris.json"
+hash = "2207d85448c5e0e72d320ceaf2f13a6f8933c6e2be2d39c13f86f1687467763e"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/naquadah_alloy_clad_netherite_iris.json"
+hash = "4e77571d6531115ba7140214cc84e8b1dd47c7b8f7b90e9c457d4f83303b309c"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/naquadah_alloy_clad_steel_iris.json"
+hash = "f432852ab2ef81dd524b599981bac3c761a0acb33aed0041b970190f597b9a0a"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/netherite_clad_bronze_iris.json"
+hash = "da645a7d2bc04dc56c9e747dbf1e2f632a906375b8deb98ca010667765a3d81e"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/netherite_clad_copper_iris.json"
+hash = "84de31619ee3ee142b653a8232468f78fd186443400cce387925feaf8e2b354b"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/netherite_clad_diamond_iris.json"
+hash = "ec9357ff4e4094c51ba2a75a0a035201bbbc97d3636d4a78708cf9e31791b50b"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/netherite_clad_gold_iris.json"
+hash = "850d43cdd915d7b9280134fd2ad41bf7d683d60d4a701f366bd248f9f446fc30"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/netherite_clad_iron_iris.json"
+hash = "85ad20996f563801a4a145329fdf86daf16179aff9010d7b4eea31df89f1fa7f"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/netherite_clad_naquadah_alloy_iris.json"
+hash = "af512342f7c5856bda1bffe590a7a7697fbe9c577e2350ea0d54ed8ec6d44b7a"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/netherite_clad_steel_iris.json"
+hash = "a7a6828c8144594fdff5244ee2cf7ac7478dc03dbd4e103af5ace6be8e92366d"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/steel_clad_bronze_iris.json"
+hash = "4ca15ad1d09050ff189c494e6da1bdef0be977b4a5dde25542fd857b0c041353"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/steel_clad_copper_iris.json"
+hash = "f58336d541f2412884b6cbc50a13ce7ea7b77415947eaac6c0bf73b4c6d2b633"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/steel_clad_diamond_iris.json"
+hash = "cc6e780a70c5c42edb934c43959784302c5f60ddbcad6a65f7323d0e772fb9d6"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/steel_clad_gold_iris.json"
+hash = "3397218fe657f9a1c9c95118fa21daf2e4458a7f1477f6facb9b0fbde86a1769"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/steel_clad_iron_iris.json"
+hash = "76f8ba708502f1751c25bfb9d4760df603468f1a0d2a17e5c57e78830fefd527"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/steel_clad_naquadah_alloy_iris.json"
+hash = "14df706c3d45cda514dc351e10ec946489cfa832540ab7fbbac7246625af5e5b"
+
+[[files]]
+file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/steel_clad_netherite_iris.json"
+hash = "f3629095d6bc953dbd0cbeece53ca56fa76c8714406b58410c8281c977be23df"
+
+[[files]]
 file = "kubejs/data/sgjourney/tags/worldgen/structure/has_stargate.json"
 hash = "3dcb9be31f33841e1a11a47e020180fa73bfc201e426eac470e407f58332e23d"
 
@@ -1642,7 +1874,7 @@ hash = "2206f713e71df7de9421034a0cff77a1a2b9cef75ff5623c0509ca04182502a8"
 
 [[files]]
 file = "mods/ad-astra-giselle-addon.pw.toml"
-hash = "7d58f2f1164fe878f50da49f24f28f922303a73143e504ac9e2d48cc98bcfb10"
+hash = "69c3643a5f7ebfe16b49b603eb8a7005aea4b2b0ae63f57993ed802417f59fd7"
 metafile = true
 
 [[files]]
@@ -1677,7 +1909,7 @@ metafile = true
 
 [[files]]
 file = "mods/apotheosis.pw.toml"
-hash = "55e921a275e97a1e6288f46d84f840ec7002626e8790171876c877b8b2d517be"
+hash = "aeb6c7309052bb9bfb096ed6aef11cfab3c4bf3b0a44746b4e249bc0cca8120c"
 metafile = true
 
 [[files]]
@@ -1787,7 +2019,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "a927d87c6beb570885b1d317f82cbdd0b3d0b6122669169b24ce3ed59d09edff"
+hash = "f9c40ece0388981e78b2c1bccaff8df0fca29272f1789b9a990bd02e0118e2a7"
 metafile = true
 
 [[files]]
@@ -1901,8 +2133,13 @@ hash = "d41c8557243ddcda7d0193ac905d4209ebc4753273b967e6c31ec6874dc0a58c"
 metafile = true
 
 [[files]]
+file = "mods/dairy-peripherals.pw.toml"
+hash = "d98d5277c83bffbbb8dfff526e1f7f213af0d0c0592c55995d8fb49569ec7aca"
+metafile = true
+
+[[files]]
 file = "mods/dark-utilities.pw.toml"
-hash = "73d04361ac8c44b7128d1acf9bf4384f8e573ff3308065047f8675112540c9c9"
+hash = "5c70601c99b306cf5b6bb918443a5814071fa528829958aa51a7e2385c3c0379"
 metafile = true
 
 [[files]]
@@ -1957,7 +2194,7 @@ metafile = true
 
 [[files]]
 file = "mods/exposure.pw.toml"
-hash = "d9d40e74f2575e29b97bc89531e539b476f5e060becb3c52c61e6ce084da05b9"
+hash = "f4dd7d480cd2ad726f65ed4a17c3d2af3c20e212cda2b4c02fa8a59149330baf"
 metafile = true
 
 [[files]]
@@ -1988,6 +2225,11 @@ metafile = true
 [[files]]
 file = "mods/framedblocks.pw.toml"
 hash = "f0985d39c6bb45984378049516de43f8faa6ee52ac74487d67442452cbf84d60"
+metafile = true
+
+[[files]]
+file = "mods/framework.pw.toml"
+hash = "ce081a84c6f6ac4a79753761fbe5c48bfcd29077af2c849ea6e3d7824b8f3e20"
 metafile = true
 
 [[files]]
@@ -2057,7 +2299,7 @@ metafile = true
 
 [[files]]
 file = "mods/hammer-lib.pw.toml"
-hash = "dc2d33109c6d785ac53b0af16565c122a0caa7faa8b27fbd920accbc31ac8de6"
+hash = "477cb4eb5a51737b780c956048834cc7488a1bf2887281a61420cb12713d1a01"
 metafile = true
 
 [[files]]
@@ -2107,7 +2349,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "11e6972435ae5cdddb2d4555ad8762d2bc32c6893ec0899ba96d86c93a404f99"
+hash = "caf9eb48e4eac66f7659d01896341a9c7d749ce2ddff264305283258c0b3a996"
 metafile = true
 
 [[files]]
@@ -2152,7 +2394,7 @@ metafile = true
 
 [[files]]
 file = "mods/let-me-despawn.pw.toml"
-hash = "f19f61fcce9df3befee6d0d6096a93a9646f93766b2523b27e7903da81e4269b"
+hash = "abd38b12752436258db8ffec7d4bee971812f75cdf5d8ce0b6d705948d12f859"
 metafile = true
 
 [[files]]
@@ -2222,7 +2464,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-gates-mod-ver.pw.toml"
-hash = "504bd49f695988b12839d897d04d8c5ff2631191e076627974ff40152f2c5bbe"
+hash = "43f57a9ef6ba8a7a5da50675a7b3fe8f186eaf30d89dfa21758cca157d001cb3"
 metafile = true
 
 [[files]]
@@ -2333,6 +2575,11 @@ metafile = true
 [[files]]
 file = "mods/rechiseled.pw.toml"
 hash = "3e8c59c1817babb68d49af1bd816d6d00ffbaa8343968ad324996a0d5deb9c69"
+metafile = true
+
+[[files]]
+file = "mods/refurbished-furniture.pw.toml"
+hash = "6174bb14ac82ddbd83df42d91ab413960a2d173186b16bad918e378a49494143"
 metafile = true
 
 [[files]]
@@ -2447,17 +2694,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "71102bb75e79ce2695ed0fc1d4198dd8395d9a737b9b1d3a358142b764e058d7"
+hash = "06362695ee08340ed2ac84f9d5d8cc216f731725e1c0b27f111a713cb4811de6"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "c2da3974f21a70aa72781aa392b69ae897d37151837128dcb5d4b6426b611e34"
+hash = "8207f330335ef87f9e24a51343691fec49c75153678085d0a1667235d5e463bc"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "87ed59e9a14222c3a093641c1c93ded80c9255cada9ea417e73a167342097441"
+hash = "bd0c993e7fed71834faad8e6870dc6edee506e7e044e43a96c4fff0b06b0e55c"
 metafile = true
 
 [[files]]
@@ -2482,7 +2729,7 @@ metafile = true
 
 [[files]]
 file = "mods/storage-drawers.pw.toml"
-hash = "b5be7a24037b1d0b91a88cefad8f2caa523647d7a627503642de34807b51d940"
+hash = "b02a3192aaca65986f3eba6091e2d3a813efa5597132acfab9889eda8ccf06f2"
 metafile = true
 
 [[files]]
@@ -2513,6 +2760,11 @@ metafile = true
 [[files]]
 file = "mods/tiny-gates.pw.toml"
 hash = "ceac2c3e6899066cf7193d7669d1803ba80f8ad103e9345b7a6acc4eb6ee574a"
+metafile = true
+
+[[files]]
+file = "mods/tiny-redstone.pw.toml"
+hash = "8e7fe08359c9055536da7f487cf086fa615aeaa06b5e843427d30018c7ac13ca"
 metafile = true
 
 [[files]]

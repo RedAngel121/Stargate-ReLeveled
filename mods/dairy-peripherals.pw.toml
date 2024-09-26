@@ -1,0 +1,13 @@
+name = "Dairy Peripherals"
+filename = "Dairy Peripherals 0.1.1 - 1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8857ec9c8aba43cc555d38c47c9c73d643210b91"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5737219
+project-id = 1105586

@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:paper"
+    },
+    "addition": {
+        "tag": "forge:ingots/netherite"
+    },
+    "base": {
+        "item": "sgjourney:diamond_iris"
+    },
+    "result": {
+        "item": "sgjourney:diamond_iris",
+        "nbt": {
+            "texture": "sgjourney:textures/entity/stargate/iris/netherite_iris.png",
+            "display": {
+                "Name": "{\"text\":\"Netherite Clad Diamond Iris\",\"italic\":false}"
+            }
+        }
+    }
+}

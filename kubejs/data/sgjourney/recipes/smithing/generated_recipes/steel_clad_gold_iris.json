@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:paper"
+    },
+    "addition": {
+        "tag": "forge:ingots/steel"
+    },
+    "base": {
+        "item": "sgjourney:gold_iris"
+    },
+    "result": {
+        "item": "sgjourney:gold_iris",
+        "nbt": {
+            "texture": "sgjourney:textures/entity/stargate/iris/steel_iris.png",
+            "display": {
+                "Name": "{\"text\":\"Steel Clad Gold Iris\",\"italic\":false}"
+            }
+        }
+    }
+}

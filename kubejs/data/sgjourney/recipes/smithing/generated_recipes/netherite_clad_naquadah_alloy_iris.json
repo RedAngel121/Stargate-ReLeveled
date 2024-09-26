@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:paper"
+    },
+    "addition": {
+        "tag": "forge:ingots/netherite"
+    },
+    "base": {
+        "item": "sgjourney:naquadah_alloy_iris"
+    },
+    "result": {
+        "item": "sgjourney:naquadah_alloy_iris",
+        "nbt": {
+            "texture": "sgjourney:textures/entity/stargate/iris/netherite_iris.png",
+            "display": {
+                "Name": "{\"text\":\"Netherite Clad Naquadah Alloy Iris\",\"italic\":false}"
+            }
+        }
+    }
+}

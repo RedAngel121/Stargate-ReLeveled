@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:paper"
+    },
+    "addition": {
+        "tag": "forge:ingots/iron"
+    },
+    "base": {
+        "item": "sgjourney:netherite_iris"
+    },
+    "result": {
+        "item": "sgjourney:netherite_iris",
+        "nbt": {
+            "texture": "sgjourney:textures/entity/stargate/iris/iron_iris.png",
+            "display": {
+                "Name": "{\"text\":\"Iron Clad Netherite Iris\",\"italic\":false}"
+            }
+        }
+    }
+}

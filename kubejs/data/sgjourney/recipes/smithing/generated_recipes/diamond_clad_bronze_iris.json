@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:paper"
+    },
+    "addition": {
+        "item": "minecraft:diamond"
+    },
+    "base": {
+        "item": "sgjourney:bronze_iris"
+    },
+    "result": {
+        "item": "sgjourney:bronze_iris",
+        "nbt": {
+            "texture": "sgjourney:textures/entity/stargate/iris/diamond_iris.png",
+            "display": {
+                "Name": "{\"text\":\"Diamond Clad Bronze Iris\",\"italic\":false}"
+            }
+        }
+    }
+}

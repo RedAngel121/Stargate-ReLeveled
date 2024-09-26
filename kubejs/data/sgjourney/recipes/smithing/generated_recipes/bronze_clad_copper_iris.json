@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:paper"
+    },
+    "addition": {
+        "tag": "forge:ingots/bronze"
+    },
+    "base": {
+        "item": "sgjourney:copper_iris"
+    },
+    "result": {
+        "item": "sgjourney:copper_iris",
+        "nbt": {
+            "texture": "sgjourney:textures/entity/stargate/iris/bronze_iris.png",
+            "display": {
+                "Name": "{\"text\":\"Bronze Clad Copper Iris\",\"italic\":false}"
+            }
+        }
+    }
+}
