@@ -1461,10 +1461,6 @@ file = "kubejs/data/moregates/recipes/crystallizing/aether_variant_crystal.json"
 hash = "e884f9416cfddd1cbde2e37ac5718c7ed36d318f9682ce7c62bdc83bef415f1d"
 
 [[files]]
-file = "kubejs/data/moregates/recipes/crystallizing/galifrey_pg_variant_crystal.json"
-hash = "5af7e4bfcaa38cd485e265ad3ecf5372a269840ad990d998c54cb5dc850277a1"
-
-[[files]]
 file = "kubejs/data/moregates/recipes/crystallizing/quartz_variant_crystal.json"
 hash = "2e600af108cb634c7b2f925ac6803a22cacce90d319dfb20cbaddfcca238956a"
 
