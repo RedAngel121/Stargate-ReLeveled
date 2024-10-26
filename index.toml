@@ -350,7 +350,7 @@ hash = "29250fec830b50c7861e757d6f944718d3f573eccfe6a9b8cfdb2ba11329ccf7"
 
 [[files]]
 file = "defaultconfigs/auto_restart-server.toml"
-hash = "0ef17932f6703d561d03283ca8b3054e35503f5d4f0d11016a8c7867aa980f5d"
+hash = "1cd638318f851108fa75f50358a29b85c9a2384eff538c6fb631b94225f037ae"
 
 [[files]]
 file = "defaultconfigs/create-server.toml"
@@ -1470,15 +1470,15 @@ hash = "9174e95d9c6c307c1789f6cff8604bbacc934c0e783cb4f1a22089429b6c4385"
 
 [[files]]
 file = "kubejs/data/moregates/sgjourney/stargate_variant/aether.json"
-hash = "7b853fe0a9fcae041e39833ce645c2a49b281596149bce7d1dbe4919c5c667b1"
+hash = "4de94c11830b1e16a0008107db008e8e907ce5a8bed96b98e648eb12dbd0c2ae"
 
 [[files]]
 file = "kubejs/data/moregates/sgjourney/stargate_variant/quartz.json"
-hash = "5d8ec491b2fd1f6f3fbaef71f3510968e0d256897cdc0c09d4be4841574db325"
+hash = "794b4e2fd2a4d8c549d38f666eb21d243397e01a6078715320356bb09d72ec90"
 
 [[files]]
 file = "kubejs/data/moregates/sgjourney/stargate_variant/twilight.json"
-hash = "a6f28b1b0ebe24eb53e19a2ca5c4f2896877a5e337715adb79aa71b2c6e04b0f"
+hash = "de1068dd22cf941aafcf08c77f6a2a4e6ded4762fa066360c36f8a5148259e5f"
 
 [[files]]
 file = "kubejs/data/overworldmirror/dimension/overworld.json"
@@ -1561,244 +1561,12 @@ file = "kubejs/data/sgjourney/recipes/name_tag.json"
 hash = "f6f2cbb32027b7c1e6c78ed437e6d8b4ae2daae9a71be84f7b815673b2b657b8"
 
 [[files]]
-file = "kubejs/data/sgjourney/recipes/naquadah_generator_mark_i.json"
-hash = "5e90758a84dbcf9803ee63ec6eb283a2f69e9049107b723a3b5d8ae074fb0884"
-
-[[files]]
 file = "kubejs/data/sgjourney/recipes/personal_shield_emitter.json"
 hash = "530b08c2c15fd58f9d128dbe5bdb8bc0ba697af9112391769db99f1d1636c584"
 
 [[files]]
 file = "kubejs/data/sgjourney/recipes/sandstone_cartouche.json"
 hash = "2d76f54617f44ce1f8e9aac91cf64d75567e1a0ff3741ecef3b8f7c2ecd978f1"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generate_iris.py"
-hash = "8e295b52d6b9985124239cd746e0566509afeec1a9cff94303b51b91829963bf"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/bronze_clad_copper_iris.json"
-hash = "bbd0a705e1125eb5417ea96377b111ea8956331a252389425419766b23e55d91"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/bronze_clad_diamond_iris.json"
-hash = "8b94629b519de23971a67803cbe2a2303d12c2cb6926425b0168e13eabb44654"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/bronze_clad_gold_iris.json"
-hash = "83a917d4c821c8b65ca965984787a090519898f3f7356e1da137f7236ea93f82"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/bronze_clad_iron_iris.json"
-hash = "73422ff1e6713ed8ee8e741b1cba2552eb383004664397f94d8473383c7a18fd"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/bronze_clad_naquadah_alloy_iris.json"
-hash = "7173afdfd5328b97a813e36b833a80a59cfbbd46d79bbeaf12e7d62f47270c04"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/bronze_clad_netherite_iris.json"
-hash = "d967c14c6e87c15f68db9858509db390b6b2e4ae67b8bce37ae774d821de38cd"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/bronze_clad_steel_iris.json"
-hash = "9246300e48d138aad2d10d6295dd6bcdaaa2a125f28c3c1b7ffb7d3f350d47cf"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/copper_clad_bronze_iris.json"
-hash = "b7c72f623212cec951cb52301f65a2308865e9a2f58de44716a934dad98a0ccc"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/copper_clad_diamond_iris.json"
-hash = "b4c2807e7e3ba621fbba8c1b26dcc5cc4dacda2344615e1922b28f3ef04f9d41"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/copper_clad_gold_iris.json"
-hash = "01580c927fb23c8e528246b331aa1b4cf266759868071bb87f11c2f3cd99dad0"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/copper_clad_iron_iris.json"
-hash = "7b2a0b355c5c2e065f3353f719b8bb5d2c2c6d430e135d67f52f18d4f31f5e01"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/copper_clad_naquadah_alloy_iris.json"
-hash = "90c8b456f825a821b5df29aa520638b0c87df0a87d58ef46de4d9e358bc4b57d"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/copper_clad_netherite_iris.json"
-hash = "f6a7968020fd883eb6ff0186fab99a678967672ed693821a6795d799b16e811e"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/copper_clad_steel_iris.json"
-hash = "c7a6e83a2ab5fa682ca665ba6de9d26ad2c16612f8da7243f9d2069bcc9e24e1"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/diamond_clad_bronze_iris.json"
-hash = "f80c9fd3f6d4e6fb6cc93b43b5689043b3aac79e5402810dd584055c4a5f44ba"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/diamond_clad_copper_iris.json"
-hash = "1a2b426d195d232c2e5a0565b0a05ef9a52e11c5c287e01e1eb13cf8dc0750fc"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/diamond_clad_gold_iris.json"
-hash = "cfb8876e335b74b541339c5b1bbbf46fa20c2d7125d7f53e3c95c36e4f5612f5"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/diamond_clad_iron_iris.json"
-hash = "e3d7f0aa2b6aa5591f6165c0a0ba52879c6dbd8e3e403a7a7c6eda1c8bb548c7"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/diamond_clad_naquadah_alloy_iris.json"
-hash = "a1a9b340248ff53e8fa97320a441077aa7f3c0eac40796bf14252e8eeed3f370"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/diamond_clad_netherite_iris.json"
-hash = "f999fb90cdfc3e28b51d85c30297cd8d4bafe0080e198c2eacde9fde9449c302"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/diamond_clad_steel_iris.json"
-hash = "e878d9af56174d92b9b3a4e212a088995085b229ecdb522449cf9186540750f3"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/gold_clad_bronze_iris.json"
-hash = "e3bfcdf547b23053bd3bfb7d77662ce2ef3df97f5dcc38af9c282b0b98c39e8d"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/gold_clad_copper_iris.json"
-hash = "f2c935ccad0be9a2095925458d2764eb4960a52b2c2ffbdc3e1db10f62d4ab70"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/gold_clad_diamond_iris.json"
-hash = "7952047a44b69df83ac87f540720c2be1cb086a33ba88991c95b71a70ac349aa"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/gold_clad_iron_iris.json"
-hash = "0fb0007f5ab3af87d63b666ae2a263d41ebf173ab3d4d62ae56ae176118cfc30"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/gold_clad_naquadah_alloy_iris.json"
-hash = "70daca2f832e390f8fd052cd98ecccf998ccc9b7745df59e15a08901ecb1e9ee"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/gold_clad_netherite_iris.json"
-hash = "3f2ea0d50fec9e0f985266e427a410baf6c1aa457325ba3958bd3766a62548c3"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/gold_clad_steel_iris.json"
-hash = "ae2de2a9171de2d681f9d7b29571a1ef010effecaef762c8d08212800d67dbea"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/iron_clad_bronze_iris.json"
-hash = "69cbd4efef8c3ab534d48e6a99497486af98e630d155056a3554425ef6a2e1e3"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/iron_clad_copper_iris.json"
-hash = "9d873ad93a91645b920562daa9d89c2e8a87a0eee783966d079a629abbe288b2"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/iron_clad_diamond_iris.json"
-hash = "022c5bcad99b162acfb5558948d96aebaca44691d78f6cf860f32ebd1830bc16"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/iron_clad_gold_iris.json"
-hash = "a578930306bc38c31f0f0df08e2c4ae1a70c066148ba6bceb22efd88f028e612"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/iron_clad_naquadah_alloy_iris.json"
-hash = "7a8b829f29ec0ea57793339be6179ab12adcf252a46aee552978f8b1edf93d09"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/iron_clad_netherite_iris.json"
-hash = "440bb365280db75ad3478b7543b259effd4f236dfe052234880af1e51fd6e83c"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/iron_clad_steel_iris.json"
-hash = "f8c45e604de7d28809fda7b7f3d59ca40309a7626ede9d11621c06d68fa90b1f"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/naquadah_alloy_clad_bronze_iris.json"
-hash = "c82a2340c11d5d393160580f408bac35346f50b291ad47c85c16aaf6822889ad"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/naquadah_alloy_clad_copper_iris.json"
-hash = "48760f0870e06e363b3662d39d0e37f10c97b208deee10136f75eb1fdba49621"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/naquadah_alloy_clad_diamond_iris.json"
-hash = "c24dbbd9d1c2ae6c5b39274c9b38e7b71c5a553b8bb5dac7f123db85a2e5244f"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/naquadah_alloy_clad_gold_iris.json"
-hash = "b3c2e7b0e0784c2f4fecb6b851e2340fe51e3b616d0f15b393f66b52a1088ccb"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/naquadah_alloy_clad_iron_iris.json"
-hash = "2207d85448c5e0e72d320ceaf2f13a6f8933c6e2be2d39c13f86f1687467763e"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/naquadah_alloy_clad_netherite_iris.json"
-hash = "4e77571d6531115ba7140214cc84e8b1dd47c7b8f7b90e9c457d4f83303b309c"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/naquadah_alloy_clad_steel_iris.json"
-hash = "f432852ab2ef81dd524b599981bac3c761a0acb33aed0041b970190f597b9a0a"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/netherite_clad_bronze_iris.json"
-hash = "da645a7d2bc04dc56c9e747dbf1e2f632a906375b8deb98ca010667765a3d81e"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/netherite_clad_copper_iris.json"
-hash = "84de31619ee3ee142b653a8232468f78fd186443400cce387925feaf8e2b354b"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/netherite_clad_diamond_iris.json"
-hash = "ec9357ff4e4094c51ba2a75a0a035201bbbc97d3636d4a78708cf9e31791b50b"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/netherite_clad_gold_iris.json"
-hash = "850d43cdd915d7b9280134fd2ad41bf7d683d60d4a701f366bd248f9f446fc30"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/netherite_clad_iron_iris.json"
-hash = "85ad20996f563801a4a145329fdf86daf16179aff9010d7b4eea31df89f1fa7f"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/netherite_clad_naquadah_alloy_iris.json"
-hash = "af512342f7c5856bda1bffe590a7a7697fbe9c577e2350ea0d54ed8ec6d44b7a"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/netherite_clad_steel_iris.json"
-hash = "a7a6828c8144594fdff5244ee2cf7ac7478dc03dbd4e103af5ace6be8e92366d"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/steel_clad_bronze_iris.json"
-hash = "4ca15ad1d09050ff189c494e6da1bdef0be977b4a5dde25542fd857b0c041353"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/steel_clad_copper_iris.json"
-hash = "f58336d541f2412884b6cbc50a13ce7ea7b77415947eaac6c0bf73b4c6d2b633"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/steel_clad_diamond_iris.json"
-hash = "cc6e780a70c5c42edb934c43959784302c5f60ddbcad6a65f7323d0e772fb9d6"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/steel_clad_gold_iris.json"
-hash = "3397218fe657f9a1c9c95118fa21daf2e4458a7f1477f6facb9b0fbde86a1769"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/steel_clad_iron_iris.json"
-hash = "76f8ba708502f1751c25bfb9d4760df603468f1a0d2a17e5c57e78830fefd527"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/steel_clad_naquadah_alloy_iris.json"
-hash = "14df706c3d45cda514dc351e10ec946489cfa832540ab7fbbac7246625af5e5b"
-
-[[files]]
-file = "kubejs/data/sgjourney/recipes/smithing/generated_recipes/steel_clad_netherite_iris.json"
-hash = "f3629095d6bc953dbd0cbeece53ca56fa76c8714406b58410c8281c977be23df"
 
 [[files]]
 file = "kubejs/data/sgjourney/tags/worldgen/structure/has_stargate.json"
@@ -1823,6 +1591,10 @@ hash = "8d83c2b9c1c9372036d65335af9bc97f6cbc20ef31fc13c5c6d13622b6334306"
 [[files]]
 file = "kubejs/server_scripts/fixStupidOverride.js"
 hash = "6031985321ea75355767e5469e7f2b708e949443cc8ac120ad29797b5990b259"
+
+[[files]]
+file = "kubejs/server_scripts/iris_smithing.js"
+hash = "739e7c87bbf0e5c1c2f6506768a556583d68ac614ad74d47e0db49676b917c8f"
 
 [[files]]
 file = "kubejs/server_scripts/mekanism.js"
@@ -1880,7 +1652,7 @@ metafile = true
 
 [[files]]
 file = "mods/advanced-peripherals.pw.toml"
-hash = "008f4b4782a92c6a8995f26159433659d9b5bdfc5a736614a142666c4d235b3c"
+hash = "b0c61413cc2dd7fca52014fa070c40aa478dc9007dc7a94330b97f1be7827bd5"
 metafile = true
 
 [[files]]
@@ -1955,7 +1727,7 @@ metafile = true
 
 [[files]]
 file = "mods/bad-wither-no-cookie-reloaded.pw.toml"
-hash = "3a563cec62a27bffa896631b5560d2f546ff2623ab9e2cabfeced7904c09c5d8"
+hash = "51302dac43e88dc7d5e199c9bd616b3dbd5455c8573426a41812e8d147eccc74"
 metafile = true
 
 [[files]]
@@ -1975,7 +1747,7 @@ metafile = true
 
 [[files]]
 file = "mods/biomes-o-plenty.pw.toml"
-hash = "b0119b17c7c9a075780d55dc87749942a835365db5578102d6250db8875e8267"
+hash = "378eb4b529a35df88348c528665641d34b3e80189f7a9c4129ba071bf0cefa03"
 metafile = true
 
 [[files]]
@@ -2015,17 +1787,17 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "f9c40ece0388981e78b2c1bccaff8df0fca29272f1789b9a990bd02e0118e2a7"
+hash = "c4a57725f998e11fab3968e1c5ff73d03e7a4dc8dab8ab3cf03d9fd8a054f8ab"
 metafile = true
 
 [[files]]
 file = "mods/chipped.pw.toml"
-hash = "2d88c8932f077d343b4df477302cab4b66e912b73509c17781ea786c28c08461"
+hash = "71a33fe41bead909b3e95643351ef8015def70d3cb083916469f492f66434b45"
 metafile = true
 
 [[files]]
 file = "mods/chisel-chipped-integration.pw.toml"
-hash = "25a7a7f9be7289ad64f49eadb6d76f00ccff378d5a7a6edeb533075ec29b6656"
+hash = "3ac159d945a8e52fa88ae8f5abaf68c7757161345baa78461d449357087e05eb"
 metafile = true
 
 [[files]]
@@ -2080,7 +1852,7 @@ metafile = true
 
 [[files]]
 file = "mods/craterlib.pw.toml"
-hash = "389a2a3a6b36f2e1c5b83bd8065ce64b2522da5470ed3b4a16d2fd46f769ad37"
+hash = "da102a0fbc86ff69bd3544c1787ca46ccabbdbcdbf471918ef6350d7e3340410"
 metafile = true
 
 [[files]]
@@ -2090,7 +1862,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-connected.pw.toml"
-hash = "06ebad552d4be228b753ee2131374f7f6a9328a6d48e3f0b09fc80c9087b45a0"
+hash = "50394fccc8d1789561c6ffb3ad995bd57389e70abe4f0a5e66cfcdb764ef287b"
 metafile = true
 
 [[files]]
@@ -2105,12 +1877,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-steam-n-rails.pw.toml"
-hash = "8f8754eda6beb02d73da14294026af5fcc2c849fd07ae3b210136492e7fde95b"
+hash = "cb7b31c785f6e7466951c7b2b221d9c89f065e7930a36ac1a575e40d54404bb3"
 metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "9a46e878cc447fa6375554fddd18cfe4f7a04cd232ae1685be6af7c7f75b617a"
+hash = "8782d120f8b3e8439595af87a84d8e955ecdcf2e7abcf1a2ce85c413f085daa3"
 metafile = true
 
 [[files]]
@@ -2125,7 +1897,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "d41c8557243ddcda7d0193ac905d4209ebc4753273b967e6c31ec6874dc0a58c"
+hash = "750841548ae0990fca6a11691760b394623d3316bc1eaad47ad7ee0ec5a906c9"
 metafile = true
 
 [[files]]
@@ -2200,7 +1972,7 @@ metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "ce5b6e5f46fe0386b0a1c6e7aa2e811d45ff9eaa36b8ede42678939ee86de8eb"
+hash = "bfde417f768e5517c25fa35f4640073c7cbee0097833ae19be149b903daaf39c"
 metafile = true
 
 [[files]]
@@ -2225,7 +1997,7 @@ metafile = true
 
 [[files]]
 file = "mods/framework.pw.toml"
-hash = "ce081a84c6f6ac4a79753761fbe5c48bfcd29077af2c849ea6e3d7824b8f3e20"
+hash = "c54736c6ca21387a33ec422e2dac89789869c4b61705cfaddf69535a2c8008d7"
 metafile = true
 
 [[files]]
@@ -2250,7 +2022,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "800421ac8a23d1a441a1af31747a5742b370e2a2ccbeaf9e498c7b6fc66cbb6e"
+hash = "f40a0b281164f4d406e19ff256d88e1a96f9c380f47699ad6cea30926699dc5a"
 metafile = true
 
 [[files]]
@@ -2270,12 +2042,12 @@ metafile = true
 
 [[files]]
 file = "mods/game-stages.pw.toml"
-hash = "8e6b9d8f865cd23aa6bfd31e04c1fa4dc8727f714ee915e901362a2bf1fb0ffd"
+hash = "5a9ee402a1db67f84efd6f1b5665ece795c1d2b5d477152f2d5853319c1ed590"
 metafile = true
 
 [[files]]
 file = "mods/gauges-and-switches-ported.pw.toml"
-hash = "4fab4abb3528d7d6e5575dcb6699a60992a30f12779c0111baa318cf7640deeb"
+hash = "3cd4a0825c7667abbeee4389fe7eaac126562c3809ae54eba57096f10845be74"
 metafile = true
 
 [[files]]
@@ -2285,7 +2057,7 @@ metafile = true
 
 [[files]]
 file = "mods/gravestone-mod.pw.toml"
-hash = "1c1e4ca2ee8662f503f894594e404f511a7d736880f4aaa5c6df76e7d4f2a517"
+hash = "acf1aceab8c44817b0c376a99d2019614e0471d3d1a9cb2f40943fec03f05fbf"
 metafile = true
 
 [[files]]
@@ -2320,7 +2092,7 @@ metafile = true
 
 [[files]]
 file = "mods/in-control.pw.toml"
-hash = "563b356f5a2cd1c12ef99ef6577ba4f3745719708c3b405b869a551dbb4cfa83"
+hash = "24fec71f760af3f3f53118e6e08df0d0116c4923bdba8a24785ad78fb807a129"
 metafile = true
 
 [[files]]
@@ -2340,12 +2112,12 @@ metafile = true
 
 [[files]]
 file = "mods/jaopca.pw.toml"
-hash = "81c9157124e36f1861cf7d301e90c33edcb2886621472952036c75420828570b"
+hash = "da3424e058489023e23d2a3a0068bebac7276cfecfd103f102046fafd5525171"
 metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "caf9eb48e4eac66f7659d01896341a9c7d749ce2ddff264305283258c0b3a996"
+hash = "0968cf761fc4608f1d756da1b693314f23148dd8d9a4b8d1c1d046ed7d8f6f39"
 metafile = true
 
 [[files]]
@@ -2355,7 +2127,7 @@ metafile = true
 
 [[files]]
 file = "mods/journeymap.pw.toml"
-hash = "3da77e12a5a3178621401c9f98cb302d9dd25b6747ce55725b7db66c75672b89"
+hash = "664a573384edf644e9b788c7c29fe32593917ac8283bb794cc46b471a0a6504a"
 metafile = true
 
 [[files]]
@@ -2375,7 +2147,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs-additions.pw.toml"
-hash = "b175e1a1408708cf78e211c8e768540d23e942f34a1efef1772e06abe820a5b0"
+hash = "fb805a0ceb336cb3bcd7a4f7dcd551c87658c0c65bbb447a76ca7ae750b178ce"
 metafile = true
 
 [[files]]
@@ -2390,7 +2162,7 @@ metafile = true
 
 [[files]]
 file = "mods/let-me-despawn.pw.toml"
-hash = "abd38b12752436258db8ffec7d4bee971812f75cdf5d8ce0b6d705948d12f859"
+hash = "f1aa1a1b3746f0bad932aa0e3a95ee987b96efadf1107431c735923f3ae00890"
 metafile = true
 
 [[files]]
@@ -2416,6 +2188,11 @@ metafile = true
 [[files]]
 file = "mods/mekanism-additions.pw.toml"
 hash = "ad25624e78d982a35732c419c13456b1f89c1abec062d76c522235e258e5c17a"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-covers.pw.toml"
+hash = "3650f986bb2174320e026a44f53b16b1a797c8ced7cf7943d3dfd4b629d94b4a"
 metafile = true
 
 [[files]]
@@ -2460,7 +2237,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-gates-mod-ver.pw.toml"
-hash = "43f57a9ef6ba8a7a5da50675a7b3fe8f186eaf30d89dfa21758cca157d001cb3"
+hash = "7f507043b1501c14bdccba9096c144f020daafcf2f74aa573d37cb067c6ce833"
 metafile = true
 
 [[files]]
@@ -2500,7 +2277,7 @@ metafile = true
 
 [[files]]
 file = "mods/notenoughrecipebook.pw.toml"
-hash = "311675473084eb0f1b33dbd5bf58c8f47e6a6af88b3d9832ceaf247e6734f35d"
+hash = "5dd8e869fbebed8abe7886fd28f1f192c420d3fefd9f714939c2a501d3a4a1af"
 metafile = true
 
 [[files]]
@@ -2635,7 +2412,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "9048fa8d3c08b8ed2056b95936b056cc588f714f5492ffbf7c03046802c669ae"
+hash = "8e8e73420f475b3dce793d65b02c9367d61c74793575371c3a980f8e3275fc3d"
 metafile = true
 
 [[files]]
@@ -2645,7 +2422,7 @@ metafile = true
 
 [[files]]
 file = "mods/sgjourney.pw.toml"
-hash = "1ec9d17cc35f4002a08a92b9311bb03af13cf2fd2879792c0a046c4cfd9609ec"
+hash = "6bf33f4a24883a0aa00ebd00040733717296cd40264aeb6086dd002f2fab6c93"
 metafile = true
 
 [[files]]
@@ -2675,7 +2452,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "bcd933fc843063c7f0da4df200c60b27d4f8c68ed143dc3d5f6f52824ec7a282"
+hash = "059be12558bea1c356d92444828aab63008347774a4121d9814eef5bf15d6054"
 metafile = true
 
 [[files]]
@@ -2690,17 +2467,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "06362695ee08340ed2ac84f9d5d8cc216f731725e1c0b27f111a713cb4811de6"
+hash = "4d0b892ca8d67cb233f3d3be816553da4ecfa820519a1c55ce5efa9061fcf662"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "8207f330335ef87f9e24a51343691fec49c75153678085d0a1667235d5e463bc"
+hash = "55cab45f4fc9ef0b382ac8ee1f7680ae1bd42832e47ae4b4cf56ce6bec7a96fe"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "bd0c993e7fed71834faad8e6870dc6edee506e7e044e43a96c4fff0b06b0e55c"
+hash = "c7303b109577a683aef185c43912e4e9194397ddd40c562880468937136af0af"
 metafile = true
 
 [[files]]
@@ -2720,12 +2497,12 @@ metafile = true
 
 [[files]]
 file = "mods/stellarview.pw.toml"
-hash = "c40ae9c5d4e71fce73e0e32981e7138b130e9e21bda8f0dd357d0e1b3b6d1bac"
+hash = "c92cfb6c0ab4e61d779b14c5a43cd25c0afa76fadbd32de0b535f4a89a2d9c08"
 metafile = true
 
 [[files]]
 file = "mods/storage-drawers.pw.toml"
-hash = "b02a3192aaca65986f3eba6091e2d3a813efa5597132acfab9889eda8ccf06f2"
+hash = "95b389553b4291561219f41c01e76246fe32ccc4806d09d6eadc4bc90368684d"
 metafile = true
 
 [[files]]
@@ -2775,7 +2552,7 @@ metafile = true
 
 [[files]]
 file = "mods/torchmaster.pw.toml"
-hash = "7dea79ae9793a1a5ff3bb97f17ab5f835d07fd1053ade9114feced05bccb0229"
+hash = "cfd9a2802e5471ffd9e2555286ba95fddc4fa75184bf59084bd2e1cb88b14b3c"
 metafile = true
 
 [[files]]
@@ -2795,7 +2572,7 @@ metafile = true
 
 [[files]]
 file = "mods/u-team-core.pw.toml"
-hash = "4cac5373ae387bc3c6d6b4a9b58936f600a0b6bb8566873e1f5378c9789eda38"
+hash = "b4294490c5770002b879c3f0c5200e2a8a9a1b611bc5107e2931d80117046991"
 metafile = true
 
 [[files]]
@@ -2825,7 +2602,7 @@ metafile = true
 
 [[files]]
 file = "mods/yungs-api.pw.toml"
-hash = "0604af4500f5e7ea46e38f7faef3459023c305b3155eacbf406e600073f643d9"
+hash = "d0d14c38427cf19c6f1244d4a6a0d05ad1a3d22d9f8b4f0eb083cef7f2ad407d"
 metafile = true
 
 [[files]]
