@@ -42,6 +42,8 @@
 
 ### Additions:
 - Mekanism Covers
+- OctoLib
+- GlitchCore
 
 ### Removals:
 - Custom Naq Gen Recipe
