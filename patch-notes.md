@@ -10,8 +10,8 @@
 - Chipped: 3.0.6 -> 3.0.7
 - Chisel Chipped Integration: v1.1.3 -> v1.1.4
 - CraterLib: 2.1.0 -> 2.1.1
-- Create: Connected: 0.9.1 -> 0.9.2
 - Create: 0.5.1.h -> 0.5.1.j
+- Create: Connected: 0.9.1 -> 0.9.2
 - Create: Steam 'n' Rails: 1.6.5 -> 1.6.7
 - Curios API (Forge/NeoForge): 5.10.0 -> 5.11.0
 - FancyMenu: 3.2.3 -> 3.3.2
@@ -41,7 +41,9 @@
 - YUNG's API (Forge): 4.0.5 -> 4.0.6
 
 ### Additions:
+- Gravitational Modulating Additional Unit
 - Mekanism Covers
+- Almanac Lib
 - OctoLib
 - GlitchCore
 
@@ -49,6 +51,7 @@
 - Custom Naq Gen Recipe
 
 ### CURRENT OBJECTIVES:
+- Find a reason to add https://www.curseforge.com/minecraft/mc-mods/project-red-core + everything except exploration
 
 ### Long Term TODOs:
 - Replace current ore growing and botany pots with Mystical Agriculture + MA Customize
