@@ -1,13 +1,14 @@
 name = "Biomes O' Plenty"
-filename = "BiomesOPlenty-forge-1.20.1-19.0.0.91.jar"
+filename = "BiomesOPlenty-1.20.1-18.0.0.598.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"
-hash = "1b1ebd771acb537f689f359ff4f6643948b686a0"
+hash = "c10ccda2a31e7ea9dbcb1db9688ee3d66bee25c8"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5773031
+file-id = 4764804
 project-id = 220318
