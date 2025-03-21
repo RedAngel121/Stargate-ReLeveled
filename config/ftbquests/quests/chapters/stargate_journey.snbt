@@ -231,7 +231,7 @@
 		}
 		{
 			dependencies: ["63D8F4937E64F978"]
-			description: ["The Advanced Crystal Interface allows for DHD-like dialing as well as adding a few methods for getting addresses for a given dimension."]
+			description: ["The Advanced Crystal Interface allows for DHD-like dialing as well as adding a new method for getting the address of a connected gate."]
 			id: "1876697DF3ED680C"
 			tasks: [{
 				id: "532C437CB8DCC5D4"

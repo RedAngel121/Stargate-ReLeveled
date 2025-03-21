@@ -16,6 +16,22 @@
 			"required": false
 		},
 		{
+			"id": "sgjourney:ring_panel",
+			"required": false
+		},
+		{
+			"id": "sgjourney:red_sandstone_cartouche",
+			"required": false
+		},
+		{
+			"id": "sgjourney:sandstone_cartouche",
+			"required": false
+		},
+		{
+			"id": "sgjourney:stone_cartouche",
+			"required": false
+		},
+		{
 			"id": "computercraft:monitor_advanced",
 			"required": false
 		},

@@ -1,6 +1,7 @@
 name = "Sculk Horn"
 filename = "(Forge)SculkHorn-1.20.x-1.4.5.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"

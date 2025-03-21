@@ -1,13 +1,13 @@
 name = "Chisel Chipped Integration"
-filename = "chisel_chipped_integration-v1.1.4-1.20.1.jar"
+filename = "chisel_chipped_integration-v1.1.5-1.20.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "13d8e0e326b8495b294c0eaa76f62f24fcc3f703"
+hash = "87e3d0e2f904232e811bfe349da7987762d39f6a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5844298
+file-id = 6296931
 project-id = 971089
