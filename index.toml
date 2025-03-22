@@ -1892,7 +1892,7 @@ metafile = true
 
 [[files]]
 file = "mods/createaddition.pw.toml"
-hash = "5bf5d5fd3ee61dae57ec321ef60921c159ab1afea32db67b097fd42cbddee3cc"
+hash = "92cad65aa788651070a72cd2bfb49b4da5dadc670d7058efc6bc25abf69c8018"
 metafile = true
 
 [[files]]
@@ -2307,7 +2307,7 @@ metafile = true
 
 [[files]]
 file = "mods/numismatics.pw.toml"
-hash = "5dc8a059b600d40792b91f3a807e70b65a7cc6190b4e53af0ea95acfdc2cac55"
+hash = "2f1dc70631a47dda1a273f35be6b548ea460f429260b3037cebb7597156d5abd"
 metafile = true
 
 [[files]]
@@ -2452,7 +2452,7 @@ metafile = true
 
 [[files]]
 file = "mods/sgjourney.pw.toml"
-hash = "5c037c1304a9b5dad20f05446dedaff135f79a7e95c53f45365097b18197d321"
+hash = "76300728672b5af18011f835f340062793141d2dcda6ebab3dbd46365711cebb"
 metafile = true
 
 [[files]]
