@@ -1,6 +1,7 @@
 name = "Create: Connected"
 filename = "create_connected-0.9.4-mc1.20.1-all.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"

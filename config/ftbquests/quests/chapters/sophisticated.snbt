@@ -9,11 +9,17 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["Go exploring with this, and dont forget your map!"]
 			id: "0298A13EEDA2B865"
+			rewards: [{
+				id: "5C4C7FFEF774F679"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "7AF52BB231020430"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -51,11 +57,17 @@
 			y: 0.0d
 		}
 		{
+			description: ["The &oBest&r Storage Solution"]
 			id: "45D542F277B9E385"
+			rewards: [{
+				id: "193814ECC7638D91"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "48752B29F290E3EE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "sophisticatedstorage:base_tier_wooden_storage"
@@ -72,6 +84,12 @@
 			dependencies: ["0298A13EEDA2B865"]
 			hide_dependent_lines: true
 			id: "72A8376FBE371CFD"
+			rewards: [{
+				count: 2
+				id: "1CAD9DCFAE0341CF"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
 			tasks: [{
 				id: "25C996F7ACCA421C"
 				item: "sophisticatedbackpacks:upgrade_base"
@@ -84,6 +102,12 @@
 			dependencies: ["45D542F277B9E385"]
 			hide_dependent_lines: true
 			id: "7BAB6448EEB8EC69"
+			rewards: [{
+				count: 2
+				id: "6B9F30CC58602B33"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5BDA2333C60268DE"
 				item: "sophisticatedstorage:upgrade_base"
@@ -94,6 +118,7 @@
 		}
 		{
 			dependencies: ["45D542F277B9E385"]
+			description: ["No Tape Required"]
 			id: "3BFA59E014B46583"
 			tasks: [{
 				id: "711EEE1C811AB41C"
@@ -107,11 +132,12 @@
 		}
 		{
 			dependencies: ["45D542F277B9E385"]
+			description: ["Tape your chests shut so you can move them!"]
 			id: "284CE559534E3C64"
 			tasks: [{
 				id: "45815E1595E97BE0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedstorage:packing_tape"
 					tag: {
 						Damage: 0
@@ -125,7 +151,7 @@
 		}
 		{
 			dependencies: ["72A8376FBE371CFD"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2C20EAA7DCC9452C"
 			tasks: [{
 				id: "611398CB731F6ABF"
@@ -137,7 +163,7 @@
 		}
 		{
 			dependencies: ["2C20EAA7DCC9452C"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1A37C392DBFE8799"
 			tasks: [{
 				id: "2BDC8D45CBB8668E"
@@ -149,7 +175,7 @@
 		}
 		{
 			dependencies: ["1A37C392DBFE8799"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "68FC25CD912B301A"
 			tasks: [{
 				id: "7D80B6C6AB6075F3"
@@ -161,7 +187,7 @@
 		}
 		{
 			dependencies: ["68FC25CD912B301A"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4B26EC18F393C672"
 			tasks: [{
 				id: "2196E655FD93DF4B"
@@ -173,7 +199,7 @@
 		}
 		{
 			dependencies: ["72A8376FBE371CFD"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "59F95755C323212E"
 			tasks: [{
 				id: "7C27DE5CFC94BD5C"
@@ -185,7 +211,7 @@
 		}
 		{
 			dependencies: ["72A8376FBE371CFD"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5C324B3A70CDEE65"
 			tasks: [{
 				id: "54041B548DC9CD4A"
@@ -197,7 +223,7 @@
 		}
 		{
 			dependencies: ["72A8376FBE371CFD"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "27B512B01F960A86"
 			tasks: [{
 				id: "6229481911B1EA48"
@@ -209,7 +235,7 @@
 		}
 		{
 			dependencies: ["72A8376FBE371CFD"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7CD5D4C69324466D"
 			tasks: [{
 				id: "486ADAEAD79CAED3"
@@ -221,7 +247,7 @@
 		}
 		{
 			dependencies: ["72A8376FBE371CFD"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5BC1B1B8229784FC"
 			tasks: [{
 				id: "5B7C1AAE99A52CE0"
@@ -233,7 +259,7 @@
 		}
 		{
 			dependencies: ["72A8376FBE371CFD"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1BC6ACDC913F637D"
 			tasks: [{
 				id: "10C8D7AE9CFEFF8F"
@@ -245,7 +271,7 @@
 		}
 		{
 			dependencies: ["72A8376FBE371CFD"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "665995825689C8F3"
 			tasks: [{
 				id: "0BCE1F900628869C"
@@ -257,8 +283,19 @@
 		}
 		{
 			dependencies: ["72A8376FBE371CFD"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0827B039101ACCB0"
+			rewards: [{
+				id: "70A17C8608E837BE"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7DEA86FC72C7EB7A"
 				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
@@ -269,7 +306,7 @@
 		}
 		{
 			dependencies: ["72A8376FBE371CFD"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3BC4CEDD272890DA"
 			tasks: [{
 				id: "1224641E395EAFB3"
@@ -281,7 +318,7 @@
 		}
 		{
 			dependencies: ["72A8376FBE371CFD"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "60F58E0A8E7F3A9C"
 			tasks: [{
 				id: "18AF44E390AC7F0F"
@@ -293,8 +330,13 @@
 		}
 		{
 			dependencies: ["72A8376FBE371CFD"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "767B11A981F87FCA"
+			rewards: [{
+				id: "3F5F4DA76DBABAB5"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
 			tasks: [{
 				id: "58FD2E9819343F45"
 				item: "sophisticatedbackpacks:everlasting_upgrade"
@@ -305,8 +347,13 @@
 		}
 		{
 			dependencies: ["72A8376FBE371CFD"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "41A63F401FBA04BD"
+			rewards: [{
+				id: "1DB48B782C8CB592"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
 			tasks: [{
 				id: "000DF4F2D8702F68"
 				item: "sophisticatedbackpacks:inception_upgrade"
@@ -317,7 +364,7 @@
 		}
 		{
 			dependencies: ["7BAB6448EEB8EC69"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "74C95C9C7E1EB793"
 			tasks: [{
 				id: "2352A04F8AF2E5F2"
@@ -329,7 +376,7 @@
 		}
 		{
 			dependencies: ["74C95C9C7E1EB793"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "66437A0AED566A2E"
 			tasks: [{
 				id: "0E8A40BFF5EE8977"
@@ -341,7 +388,7 @@
 		}
 		{
 			dependencies: ["66437A0AED566A2E"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "77680314FF660A4B"
 			tasks: [{
 				id: "7EE8B66BA5D239E6"
@@ -353,7 +400,7 @@
 		}
 		{
 			dependencies: ["77680314FF660A4B"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3E4BE066915E4105"
 			tasks: [{
 				id: "3A3A5EC17761C106"
@@ -365,7 +412,7 @@
 		}
 		{
 			dependencies: ["7BAB6448EEB8EC69"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5820C9ED1E7DDD60"
 			tasks: [{
 				id: "779F88C763C85526"
@@ -377,7 +424,7 @@
 		}
 		{
 			dependencies: ["7BAB6448EEB8EC69"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "26E0C69ED15AAE64"
 			tasks: [{
 				id: "473C31BA26715BF0"
@@ -389,7 +436,7 @@
 		}
 		{
 			dependencies: ["7BAB6448EEB8EC69"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2E326AE584C28E7C"
 			tasks: [{
 				id: "060E46BE3B3559F4"
@@ -401,7 +448,7 @@
 		}
 		{
 			dependencies: ["7BAB6448EEB8EC69"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "19D19460AD01CB29"
 			tasks: [{
 				id: "314E9D1BC5E170E8"
@@ -413,7 +460,7 @@
 		}
 		{
 			dependencies: ["7BAB6448EEB8EC69"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "47C1213A140F2245"
 			tasks: [{
 				id: "09BDC0753A7AF603"
@@ -425,7 +472,7 @@
 		}
 		{
 			dependencies: ["7BAB6448EEB8EC69"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "61714687DCAC629F"
 			tasks: [{
 				id: "73618FF0A903E8CE"
@@ -437,7 +484,7 @@
 		}
 		{
 			dependencies: ["7BAB6448EEB8EC69"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "168A68F5389801CA"
 			tasks: [{
 				id: "328A3B54318EDCFC"
@@ -449,7 +496,7 @@
 		}
 		{
 			dependencies: ["7BAB6448EEB8EC69"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "42FA5BA034E1BB32"
 			tasks: [{
 				id: "21B7E6656C869559"
@@ -461,8 +508,13 @@
 		}
 		{
 			dependencies: ["72A8376FBE371CFD"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2B5C294456018C6F"
+			rewards: [{
+				id: "28577972F7749A0F"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0FBB56863C7212FC"
 				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
@@ -473,6 +525,7 @@
 		}
 		{
 			dependencies: ["45D542F277B9E385"]
+			description: ["This is not a trash can"]
 			id: "2CFE45BBBCB776F0"
 			tasks: [
 				{
@@ -492,11 +545,12 @@
 		}
 		{
 			dependencies: ["45D542F277B9E385"]
+			description: ["A Larger Inventory for Everyone!"]
 			id: "5E2B4E3EF7D7EB8B"
 			tasks: [{
 				id: "3AC1FF67B99F444A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -568,6 +622,28 @@
 			title: "UPGRADES PEOPLE!"
 			x: -3.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["3E4BE066915E4105"]
+			id: "2A3A0D8AC76B1C8F"
+			rewards: [{
+				id: "35E25452C5A40BB9"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2998E2E7549D1BEC"
+				item: "sophisticatedstorage:stack_upgrade_tier_5"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
 		}
 	]
 	title: "Sophisticated"

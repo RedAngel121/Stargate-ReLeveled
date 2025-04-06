@@ -1,13 +1,13 @@
 name = "Easy Villagers"
-filename = "easy-villagers-forge-1.20.1-1.1.23.jar"
+filename = "easy-villagers-forge-1.20.1-1.1.24.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "97690e4039eb71258892edde8b2da8661dffbf5c"
+hash = "d75552a17a078be943bb1ce9c89558cee1da4c93"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5724570
+file-id = 6370557
 project-id = 400514

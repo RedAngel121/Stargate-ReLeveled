@@ -206,3 +206,5 @@
 			#Z chunk bounds within which a Buried Stargate may generate
 			#Range: 0 ~ 64
 			buried_stargate_generation_z_bound = 64
+			#Common Stargates will generate
+			common_stargate_generation = true

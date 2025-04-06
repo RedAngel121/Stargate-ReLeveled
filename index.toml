@@ -205,6 +205,10 @@ file = "config/fancymenu/slideshows/main_menu/properties.txt"
 hash = "392ea74823594d160c2a2990e99e75c30ffde6f072b705f986f024d7d21568f3"
 
 [[files]]
+file = "config/flan/flan_config.json"
+hash = "33f1c50847ea14b81367a0b0f09af31f500ebb42872d2f7f7fd4eeb1c23b4670"
+
+[[files]]
 file = "config/ftbbackups2.json"
 hash = "b93ec397ec445ae4da3fbd8515929496e4835a1877955b3c5d2afc136c305ca4"
 
@@ -254,15 +258,11 @@ hash = "21d367bd7a3f77f26c3600dc0090c7ddb7a019a27537f077ac6ae4fdaa8763b4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sophisticated.snbt"
-hash = "ccd120b09a21651902e684602d5ed9984a0add0136ef2f452ef3d9e92abe7f1c"
+hash = "7a3074bc6db4d342a515c4a41f4daa19782b4c46427e4f67e498cafceaee8346"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stargate_journey.snbt"
 hash = "417af0d1ed5d367295cc67500cd19ddac8212ea7a8e8e8577103a5a753e05384"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/storage_drawers.snbt"
-hash = "37ddf31337340c398fc495a60bbc5bfcc78def433ed9a253c6d9ab6aece12555"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_beginnings.snbt"
@@ -289,10 +289,6 @@ file = "config/ftbquests/quests/reward_tables/kineticerabasic.snbt"
 hash = "2ed262b4b0630905fe457bf83ddf07128773524412d2b4d519ce9f7483e02cb2"
 
 [[files]]
-file = "config/ftbquests/quests/reward_tables/storagedrawers.snbt"
-hash = "5bd1f14ff1390bc80b593ca87440024e23deca6ffdd7b265c4bd7542c7d1e858"
-
-[[files]]
 file = "config/incontrol/spawn.json"
 hash = "50a9b69ab0123da3459844ed899c359356718f2c3b1636bc64f8e2328b9bf463"
 
@@ -310,7 +306,7 @@ hash = "2fb9a7d0eab1e38c6a8393d32e9cff7569909a237b9a0f9a181dc218220f362d"
 
 [[files]]
 file = "config/sgjourney-common.toml"
-hash = "95235b8329e31ec5bcb71caaf9a97f5c27f0abe2f137fcfa0fd017443d8704ec"
+hash = "946c33cd8ad5d6c9a94735dc4c5069eea068f5810bcd3f3275dd7d5aa14eeadd"
 
 [[files]]
 file = "config/sidebar_buttons.json"
@@ -1117,88 +1113,20 @@ file = "kubejs/data/ad_astra/loot_tables/entities/sulfur_creeper.json"
 hash = "60a5638686c04d424f0b7148a3c0b51dcfe0e6abed9afd4e3249893a45b68f2c"
 
 [[files]]
-file = "kubejs/data/common_stargates/structures/common_stargate/classic/pedestal/classic_stargate_smooth_red_sandstone_pedestal_1.nbt"
-hash = "9c29240d3bbf6db1b7d61948ef905ca3cfca751eb92bc9077993211f00b8832f"
+file = "kubejs/data/apotheosis/worldgen/structure_set/tower_leaf.json"
+hash = "cd3ae8eadf2873aa1b082a56b0e720865d5ad34d5106b5d1926ec16d2d4b8e69"
 
 [[files]]
-file = "kubejs/data/common_stargates/structures/common_stargate/classic/pedestal/classic_stargate_smooth_sandstone_pedestal_1.nbt"
-hash = "e8841ed494f502b5389d99ff6970695f97fdd9de1a47bd679982b96ae475ad98"
+file = "kubejs/data/apotheosis/worldgen/structure_set/tower_main.json"
+hash = "372dbc802ff32040e47d8f2d16551a93956294bfb6ba5f2a83e71147bb982ba0"
 
 [[files]]
-file = "kubejs/data/common_stargates/structures/common_stargate/classic/pedestal/classic_stargate_smooth_stone_pedestal_1.nbt"
-hash = "4e609509b9995134d8f2a9f15d02e7558f2a3656c934ffbb692801ba39e8a53c"
+file = "kubejs/data/apotheosis/worldgen/structure_set/tower_sand.json"
+hash = "9475a219e5ef4e3cecace173c94776d2d85b49405096b82b4f402c3e8a8d1bff"
 
 [[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/common_stargate/classic/pedestal/classic_stargate_pedestal_badlands_biomes.json"
-hash = "a53501e9e47eb303ad731116e195e5964e597535fb0f057effca8f0695625097"
-
-[[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/common_stargate/classic/pedestal/classic_stargate_pedestal_biomes.json"
-hash = "8f335646a005ff40099a1b560dbb9121aa17533ad9bf21d4e14e19d7429d8ba1"
-
-[[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/common_stargate/classic/pedestal/classic_stargate_pedestal_desert_biomes.json"
-hash = "46e042fcd796d3cd3bf04c9b3c296b43df59a54d867c451336448628d723e13a"
-
-[[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/common_stargate/milky_way/pedestal/common_milky_way_stargate_pedestal_badlands_biomes.json"
-hash = "bfbc7e53b2d852b33696f0eedc0b51a3f732d7bffba5afb887bcfa9942b8f658"
-
-[[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/common_stargate/milky_way/pedestal/common_milky_way_stargate_pedestal_biomes.json"
-hash = "5d72c80b1eed86ffa058d58d80fe746d2afe664ec2a1e8d42972f2228619c8b0"
-
-[[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/common_stargate/milky_way/pedestal/common_milky_way_stargate_pedestal_deep_dark_biomes.json"
-hash = "0210a7d640ad0308f9496a23973f87d85207faf4b9f9007196c7ea3c356ec80b"
-
-[[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/common_stargate/milky_way/pedestal/common_milky_way_stargate_pedestal_desert_biomes.json"
-hash = "1ad47484cdef61fc10b0e54bfe5ebad2e92fc1d4f9a4def0eedf7d76f99a37fd"
-
-[[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/common_stargate/milky_way/pedestal/common_milky_way_stargate_pedestal_jungle_biomes.json"
-hash = "b5ee622f33409ba5a23747845d9acdbcc23c0d6be7e11043436fb71d3c1d9bd0"
-
-[[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/common_stargate/milky_way/pedestal/common_milky_way_stargate_pedestal_mushroom_biomes.json"
-hash = "2e7479f48f0ae6dd850a639ae5ac6e1ae8154c2283842a70d4ac95000d60d7c9"
-
-[[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/common_stargate/milky_way/pedestal/common_milky_way_stargate_pedestal_snow_biomes.json"
-hash = "a05c1b2e14fe1bb895c1524b0d4a36f6f058807ca864c449a19d4367b5a3a135"
-
-[[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/structure/common_stargate.json"
-hash = "6f3897f7fcaf731e73e94f82d8be0b68810dba8f73643da18c23b738de731f93"
-
-[[files]]
-file = "kubejs/data/common_stargates/worldgen/structure/common_stargate/classic/pedestal/red_sandstone_stargate_pedestal.json"
-hash = "749fdf3a8268d5d94606c59861a7c2094ff4cfa25a90fa03136e2ad648bddba7"
-
-[[files]]
-file = "kubejs/data/common_stargates/worldgen/structure/common_stargate/classic/pedestal/sandstone_stargate_pedestal.json"
-hash = "c94dc50515c0be4379ab4ad94f87fc03e541b1e7a0406abe6d0895cc08787079"
-
-[[files]]
-file = "kubejs/data/common_stargates/worldgen/structure/common_stargate/classic/pedestal/stargate_pedestal.json"
-hash = "01204bd965d9a53c8b836f41ef15b5342c66b045c6c6e21395709e980de61183"
-
-[[files]]
-file = "kubejs/data/common_stargates/worldgen/structure_set/common_stargate_pedestal.json"
-hash = "058876b947dd92ea2fabe6fb34882247a9babdc6a85a2e2e40e084d53fa27ee9"
-
-[[files]]
-file = "kubejs/data/common_stargates/worldgen/template_pool/common_stargate/classic/pedestal/red_sandstone_stargate_pedestal.json"
-hash = "c7085de2ce40445e3b3a0df8599fbd3231c5d08eda41817607ad0daf932de27e"
-
-[[files]]
-file = "kubejs/data/common_stargates/worldgen/template_pool/common_stargate/classic/pedestal/sandstone_stargate_pedestal.json"
-hash = "67ce2c8e8c0d0a607e855105b619537096cd705ccead225d6164f26fbcffed70"
-
-[[files]]
-file = "kubejs/data/common_stargates/worldgen/template_pool/common_stargate/classic/pedestal/stargate_pedestal.json"
-hash = "11feca5ee484fffc82a4a5c50f68899ab9655ecbfe283df168095f0cb8a75408"
+file = "kubejs/data/apotheosis/worldgen/structure_set/tower_spruce.json"
+hash = "ece803155b7f5de8d3607316fa136ba8055d0c104cb01555f8cb7fbd1144bbed"
 
 [[files]]
 file = "kubejs/data/create/recipes/crushing/obsidian.json"
@@ -1566,11 +1494,123 @@ hash = "530b08c2c15fd58f9d128dbe5bdb8bc0ba697af9112391769db99f1d1636c584"
 
 [[files]]
 file = "kubejs/data/sgjourney/recipes/sandstone_cartouche.json"
-hash = "2d76f54617f44ce1f8e9aac91cf64d75567e1a0ff3741ecef3b8f7c2ecd978f1"
+hash = "2309e886b5fa7abc51098fafeef750abaf7edf665d2758f64eed92b76062128c"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_center.nbt"
+hash = "3fc694bd542f85ff17ccd8c4ad052e035bf27f9d954a1cfdcc369d4913981f4d"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_corner.nbt"
+hash = "223281bb554919d3816a432ba681cf89562a20b3c323a6922c26e0748834e330"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_corner_upper.nbt"
+hash = "9d03a5a3a091df3f2d4d0b22d716e6b536b031a5e19b4676d8f38826a1c43a45"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_entrance.nbt"
+hash = "4031f7e127138de5cdd9027179fc0fd1a963dae5a762200aa693b65d82cbee26"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_entrance_1.nbt"
+hash = "c44c5f1798078b43097c9c2924c63a843a8daf9c854732ac610705ab2efad11d"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_entrance_2.nbt"
+hash = "b1c5fedd75f7c922c28929ecdea0e5ac1d3d60b7965e2a71a10b4076f8b57412"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_front.nbt"
+hash = "077dd6ff94fc53e35474ec3e4a7c8e753843a1117f70330f549f2cd5f4dfd297"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_left_corner.nbt"
+hash = "1a9b6b707b499aa59b5e87f5a0a2884f0b03316c810908d7676c483f63d45a0c"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_right_corner.nbt"
+hash = "d1c4d6360a7f38691dabc0dd7f1b4212d926cad23e95565f927ab73da40245ff"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_right_side.nbt"
+hash = "f9439b111d7965fc3f5f49c302ee50dd98e0480405207cbf07bf4935876b1b72"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_side.nbt"
+hash = "571856d71fd849324ad5bc01424d37f1f64cc3759a268eb5826ba6faa265f465"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_side_upper.nbt"
+hash = "4d6cac593ea74b9b4513e5c8179d42199b85c9233ebf57f69b82b7e5d68ab34a"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_top.nbt"
+hash = "f0eafb0b3dd32d248738c0df4c3291fe8f80a24b36f1060898c571dd13e35a0e"
 
 [[files]]
 file = "kubejs/data/sgjourney/tags/worldgen/structure/has_stargate.json"
 hash = "3dcb9be31f33841e1a11a47e020180fa73bfc201e426eac470e407f58332e23d"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/structure/stargate/milky_way/temple/abydos_pyramid.json"
+hash = "9cd0ec6c1078f8cf68a96361838cb033456374e9cb41609269c5f64a3ac87fbe"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/structure_set/stargate_temple.json"
+hash = "33a8f6aa566e2a664a2aee1e0cb4995957a2a104e89627738fdc5ecc2d92552c"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/milky_way/temple/abydos_pyramid/center_pool.json"
+hash = "6b09487303bc6f144278d5c32e171cb3eff8b15b6a4d993fc783d1261556d5a1"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/milky_way/temple/abydos_pyramid/corner_pool.json"
+hash = "63f0c44ca14968fcdbea444ac37c3b8051baff39e874ae371b52d46116673476"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/milky_way/temple/abydos_pyramid/corner_pool_upper.json"
+hash = "bf25cc7c4dabf62d388f40c8222d495eb0b82aa09adeb0351f7609ee2d8fd3c6"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/milky_way/temple/abydos_pyramid/entrance_pool.json"
+hash = "158b985128d1961d288a649d0ff89fba074a0f8b99f9a31eb06ab67f4420c32f"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/milky_way/temple/abydos_pyramid/entrance_pool_1.json"
+hash = "269ff94e50dfad245e5823d273373b59b542734425bf5669d93570a0bbb9b776"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/milky_way/temple/abydos_pyramid/entrance_pool_2.json"
+hash = "d09203a237b10e5f60832cbd5d54205a4bbb4dda4ef25b08e0bff11fe3f6d1a0"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/milky_way/temple/abydos_pyramid/front_pool.json"
+hash = "7ef50bf0daa9b866c2057aa54ab839a22dc98ea925c8537ad688afb91b413e1d"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/milky_way/temple/abydos_pyramid/left_corner_pool.json"
+hash = "e508964147b67585faa33687d6e208215d45ef9313ff2df8ef4bff46d5eb6eec"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/milky_way/temple/abydos_pyramid/right_corner_pool.json"
+hash = "189160bd1957c8205e2597ab3ea9222deaf5553f2ea19e02da7e80abda720f40"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/milky_way/temple/abydos_pyramid/right_side_pool.json"
+hash = "cf2fe8044775327be8576fb4527177e90607721e55ccd99a23dc73053f5d91f6"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/milky_way/temple/abydos_pyramid/side_pool.json"
+hash = "1773dbd5ccf8a152d8cfe9f3d13f47ff82495b345c7bf35a69e575fbdb3d911b"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/milky_way/temple/abydos_pyramid/side_pool_upper.json"
+hash = "fcceec320ec60cdb6e92fe5592712f97d81af50f27a17859c653d2074cb386a8"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/milky_way/temple/abydos_pyramid/top_pool.json"
+hash = "37cf79d72690c356abd1b7cbd07dd74322821cddd97a59cc973fc614242595de"
 
 [[files]]
 file = "kubejs/data/shrink/recipes/shrinking_device.json"
@@ -1587,6 +1627,10 @@ hash = "1d2af806fdf3d58702e833bd17930b06d22afac6e81ad81e4539e73172ac1633"
 [[files]]
 file = "kubejs/server_scripts/common.js"
 hash = "8d83c2b9c1c9372036d65335af9bc97f6cbc20ef31fc13c5c6d13622b6334306"
+
+[[files]]
+file = "kubejs/server_scripts/cookta2012-utils.js"
+hash = "24e15e244692fabdbd15f4c09a2cede4cb84f63d57177c942615a2f72fedf553"
 
 [[files]]
 file = "kubejs/server_scripts/fixStupidOverride.js"
@@ -1637,6 +1681,10 @@ file = "kubejs/startup_scripts/common.js"
 hash = "8d83c2b9c1c9372036d65335af9bc97f6cbc20ef31fc13c5c6d13622b6334306"
 
 [[files]]
+file = "kubejs/startup_scripts/cookta2012-edits.js"
+hash = "e85ea492f290ddea066ef30532fed037412b5a43508d71e3bea8cdf2c8659a51"
+
+[[files]]
 file = "kubejs/startup_scripts/startup.js"
 hash = "2206f713e71df7de9421034a0cff77a1a2b9cef75ff5623c0509ca04182502a8"
 
@@ -1681,6 +1729,11 @@ hash = "2362e168d550f0a3a3bea1715a495d7c54fe6e9f159b948981eae15c53df597c"
 metafile = true
 
 [[files]]
+file = "mods/anvians-lib.pw.toml"
+hash = "e80a6aaae4ddbff1b3161b36c7b93cf568f7201a51fa411ad3e73b42e7585e96"
+metafile = true
+
+[[files]]
 file = "mods/apotheosis.pw.toml"
 hash = "4fc425234d70f254e2b420d7c01d33c4c1666366c64909114c943a1b15e436d0"
 metafile = true
@@ -1702,7 +1755,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "c6cef4430ac97995e435b526f54876ade62e57a5a5b5d9f740760fc4026349cf"
+hash = "b517935116a96965c298957ca2920d0d710d7dfd3f6d50f689024fc6de28b872"
 metafile = true
 
 [[files]]
@@ -1737,7 +1790,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "90d208b257c34c5a6b8407802316e60e9a1d857e80e626cbd04c31811eca1cb9"
+hash = "e02edad65b21bdaa914dce1237d99e4a4d2d80e497e817e0cd77be87043c80be"
 metafile = true
 
 [[files]]
@@ -1752,7 +1805,7 @@ metafile = true
 
 [[files]]
 file = "mods/biomes-o-plenty.pw.toml"
-hash = "0a84253171aa7520ee7c81ab00ba0b6ea0981f8ad90b50d1004d1593ff922f68"
+hash = "83ba38ab1e5b583227e9d37b8fea91ac1fcb4e2f67ba86800c5d7aa4024d2993"
 metafile = true
 
 [[files]]
@@ -1762,7 +1815,7 @@ metafile = true
 
 [[files]]
 file = "mods/botany-pots.pw.toml"
-hash = "4f25f116d1264b752ac1f14e6f870b68b6e31345477b9bc9ab5cb5a3c0812bfa"
+hash = "737ed88644dfdcad286183bfb1856878fc2bc0682739d514837cf01aa28fc017"
 metafile = true
 
 [[files]]
@@ -1837,7 +1890,7 @@ metafile = true
 
 [[files]]
 file = "mods/copycats.pw.toml"
-hash = "cdb4a78d4bb572501108461cda1d4bfabfb55b0984e5554955fb4797de657778"
+hash = "972bff3f8192a2ed99cdefb162b053a94b5f5b617b7f43ef8adb09a98c4e1cd5"
 metafile = true
 
 [[files]]
@@ -1857,32 +1910,32 @@ metafile = true
 
 [[files]]
 file = "mods/craterlib.pw.toml"
-hash = "26739ea7243065700c354b4aa0970ceb7aa0a815a70b7195261b83300939c730"
+hash = "2ae921ae166c3e232197bed464e1fc54b057d9aa9b1efc4db3095bd1a35f05e5"
 metafile = true
 
 [[files]]
 file = "mods/create-confectionery.pw.toml"
-hash = "7f98e3461e1319ef01a91a8258aa2d932179d0406280d980b356ddbfbef52213"
+hash = "117082bd4fa477e8b093ae2badfce303d8611d892c27e4681e367cd0e90a6a51"
 metafile = true
 
 [[files]]
 file = "mods/create-connected.pw.toml"
-hash = "2db78de43f113bb7ceefa7bcb1c2d8f1d33363ed83dde7593abca19cf4c957c4"
+hash = "5155826ce12f20640e38b152d38dd1a5314a7bd24a9c64811753f123088dcd34"
 metafile = true
 
 [[files]]
 file = "mods/create-deco.pw.toml"
-hash = "0bbb0d5c211ddf6fd76fd602167b1f012dbfe56e72c5f2568ec1089cd930ece0"
+hash = "8c5c3b10e0382f1474d67dabde761974dd6fd6423b00db56ab570ea5880e37d4"
 metafile = true
 
 [[files]]
 file = "mods/create-design-n-decor.pw.toml"
-hash = "5de85151d1381261bb6e0246f599b7d3d7b9e55414bff2ea82c19b75c37de852"
+hash = "fa3f7511e951805066d563b2665bdd44430ab7ad4157528fdd8f16e8fc28370e"
 metafile = true
 
 [[files]]
 file = "mods/create-steam-n-rails.pw.toml"
-hash = "cb7b31c785f6e7466951c7b2b221d9c89f065e7930a36ac1a575e40d54404bb3"
+hash = "c74fea949c16afdb0edb954c0c00365764cc067b1edfe5c5d68207a55a55ea6a"
 metafile = true
 
 [[files]]
@@ -1927,12 +1980,12 @@ metafile = true
 
 [[files]]
 file = "mods/distant-horizons.pw.toml"
-hash = "78e86b01d4f72cda8d12660151c101b02f0ef1dbcfc5d73f6c8dba10fbd482ee"
+hash = "65009247d7407af232a5959d12d71f13332be181d2042e8e8d743e5096a825d4"
 metafile = true
 
 [[files]]
 file = "mods/easy-villagers.pw.toml"
-hash = "cfd3d0513669ff79a6f672ff68afc7b0441e2a987070e3732ff19a0a36f7cae1"
+hash = "89ae4f4628c3ff956f51277d56bdeed5394648d671e57931c7eeca0e47960abb"
 metafile = true
 
 [[files]]
@@ -1957,7 +2010,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "100117191fb92159ff547a7918df5bc2070c5a816eecebb1de4bc0eca0dd487a"
+hash = "93364566437d0965a12f68f5e676345341c2d9d7e3b24d2ecfd5b932f6057cc4"
 metafile = true
 
 [[files]]
@@ -2067,7 +2120,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "0b24312ff5783cbb9c2707e16eb791ed12adb765259dd154cd09a00cc3fc38e2"
+hash = "598758f152e98916bc6eea2ad73a82b47a6e6934f4b0ba1e1f6593773afd1a50"
 metafile = true
 
 [[files]]
@@ -2082,7 +2135,7 @@ metafile = true
 
 [[files]]
 file = "mods/gravitational-modulating-additional-unit.pw.toml"
-hash = "d6272fe2dbacb95bd5e20af6cdb1b5bff93256dc2ac5428e08f57ba0cff8d371"
+hash = "195f1b1a65d73e58e0c4abec13c4f02c7af0b43cbf647a6482454fd911121518"
 metafile = true
 
 [[files]]
@@ -2092,7 +2145,7 @@ metafile = true
 
 [[files]]
 file = "mods/hammer-lib.pw.toml"
-hash = "4fe68507aa85cd32058c233e1b0b5b8a7b4ab2ad1bd002e9cd77a164cc317d19"
+hash = "1a6b03437d3f80ac96348dc8e5f1077f3271f594a8a560c43375117fd8f176c1"
 metafile = true
 
 [[files]]
@@ -2362,7 +2415,7 @@ metafile = true
 
 [[files]]
 file = "mods/pipez.pw.toml"
-hash = "de8f599eb6d2bf0461014c6d86bcfcaa40db57107e662445e99c04648756554f"
+hash = "17c942a8654025bde22ffb51826ba59115c0928d0c9cbcd2470ae7b526b7d13b"
 metafile = true
 
 [[files]]
@@ -2432,7 +2485,7 @@ metafile = true
 
 [[files]]
 file = "mods/sculk-horn.pw.toml"
-hash = "1988614c0c5d86ea5988fc722234ea685027787706d54fe4edf627a8a311a6a7"
+hash = "3e262e3aa51d6c27d434d1b04642a41acdfd85cc8fc9bafc4b4691554761c73d"
 metafile = true
 
 [[files]]
@@ -2442,7 +2495,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "bbed5792ab8d818d5cf5f25387427e6fd1999376d330f7cd0a6ff55554073adb"
+hash = "74605dbc168a001511741a85318364fc67d83f975528d279005304a182d87762"
 metafile = true
 
 [[files]]
@@ -2452,7 +2505,7 @@ metafile = true
 
 [[files]]
 file = "mods/sgjourney.pw.toml"
-hash = "76300728672b5af18011f835f340062793141d2dcda6ebab3dbd46365711cebb"
+hash = "dce6f60067681824165447d25a7f0d44251946e6e776a06e30a26d596a45193e"
 metafile = true
 
 [[files]]
@@ -2482,7 +2535,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "d31799ce8cc4fb4b4215abc904d3bd2a3a51b1758409142879db8ed0a7c90cf6"
+hash = "703a46fa7d4918e855cc6ee841d4542741494851023ff49ba4087092a8d70b20"
 metafile = true
 
 [[files]]
@@ -2492,22 +2545,27 @@ metafile = true
 
 [[files]]
 file = "mods/solar-flux-reborn.pw.toml"
-hash = "cca57356ad7f31bcb25810a2c0aeeaadafb99bd7bcc7d26e58b0e98f071e5335"
+hash = "7664135e0ab95868709e3b0d29852d558e8b7215c3c97f91581db71ce73191d9"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "f774a1eca63915333543b245112bedbf0629d2faa024a96e43767f62e11216df"
+hash = "ce5b7461610475ccbce6b9fd16c1aac18e272539947492d47047f7076327ddfa"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "9c11c06685a9b4ac9d7b8d923ad423a45aa9ac683d09a9161c6450c7b3f6279c"
+hash = "4d10afb9f6e717c0125f86599d1d402ab88b41e5988a34b56971138e05ec5d97"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage-in-motion.pw.toml"
+hash = "2e52766c603207c0e96eb46a17c7b15591274a43c71f5d22455bab6205845862"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "81bafa7124361c601ee5436cd9935161bf4be73b9532097e55c29178876ba1b7"
+hash = "e92a4622c799664b6767e5887a5724d48d847d0487e304b30b702056d2446bbb"
 metafile = true
 
 [[files]]
@@ -2531,11 +2589,6 @@ hash = "16f58761e68e7aebb845743220148ca5f5ab2b4dd8b58687909ce6edc5c6e967"
 metafile = true
 
 [[files]]
-file = "mods/storage-drawers.pw.toml"
-hash = "eb7fb878f669cc17a22d19902fe96cdcfe541a9cf7d03eb7244fc11e13713b61"
-metafile = true
-
-[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "3eede8a7ebafb69840153ff51dbc879b0232799e90a834ab6d71274b1316179f"
 metafile = true
@@ -2546,8 +2599,18 @@ hash = "4ddff1daf862f7e481a6c30c4cbb4bb32165f2c73cefc908dbf62b18f0d46a56"
 metafile = true
 
 [[files]]
+file = "mods/tectonic.pw.toml"
+hash = "1688cf8e91002b58e23e3040a8b72a728ca76f054d110440d1e91b0d8ec4b16a"
+metafile = true
+
+[[files]]
 file = "mods/terrablender.pw.toml"
 hash = "fde3d3b1607636100e382dce1bba80ab4608ebfa1ef888a37b86bc8c7dcbafe5"
+metafile = true
+
+[[files]]
+file = "mods/terralith.pw.toml"
+hash = "b0978cb7ae7b79c5be89b323ca1bd038f693ff6d11c43dfcbd63953964149af2"
 metafile = true
 
 [[files]]
@@ -2631,8 +2694,18 @@ hash = "bd1dc13316e2aa9b56c89e7e974057f8da8d6bbfe707ba4210109fc612b782e3"
 metafile = true
 
 [[files]]
+file = "mods/worldeditcui-forge.pw.toml"
+hash = "02750acec3b73b203a2441f78ad4749650d4768ab2db9c4083a1c09ee421eb0f"
+metafile = true
+
+[[files]]
 file = "mods/yungs-api.pw.toml"
 hash = "d0d14c38427cf19c6f1244d4a6a0d05ad1a3d22d9f8b4f0eb083cef7f2ad407d"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-desert-temples.pw.toml"
+hash = "88273436c5fc0efecdd61d4615992ae76835b7f88aab2d0f9047b1dc3ec9a5e5"
 metafile = true
 
 [[files]]
@@ -2643,6 +2716,21 @@ metafile = true
 [[files]]
 file = "mods/yungs-better-end-island.pw.toml"
 hash = "eb89c7d6a1c7eeba70189cf2ad777b4ed5afba7ed2c6a40fb34eb3fad71419c8"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-jungle-temples.pw.toml"
+hash = "e5d9eba7b883a5bed97e98d97b0291f584d3de1696afe4d00f14585b579b6095"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-mineshafts-forge.pw.toml"
+hash = "5ded53795031472b64e165faf04adc21d7181854e4d9d2c83fea7b7b12ab3ddf"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-nether-fortresses.pw.toml"
+hash = "a3adfd6be62c3540b81cb117a71d68d4021ae7d4a85486599eb5028cd8692b7d"
 metafile = true
 
 [[files]]
