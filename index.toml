@@ -306,7 +306,7 @@ hash = "2fb9a7d0eab1e38c6a8393d32e9cff7569909a237b9a0f9a181dc218220f362d"
 
 [[files]]
 file = "config/sgjourney-common.toml"
-hash = "946c33cd8ad5d6c9a94735dc4c5069eea068f5810bcd3f3275dd7d5aa14eeadd"
+hash = "4232135066af7e163b45b85bf8eb344d68e0f802301616341cbf5fd5f41be07d"
 
 [[files]]
 file = "config/sidebar_buttons.json"
@@ -1129,6 +1129,90 @@ file = "kubejs/data/apotheosis/worldgen/structure_set/tower_spruce.json"
 hash = "ece803155b7f5de8d3607316fa136ba8055d0c104cb01555f8cb7fbd1144bbed"
 
 [[files]]
+file = "kubejs/data/common_stargates/structures/common_stargate/classic/pedestal/classic_stargate_smooth_red_sandstone_pedestal_1.nbt"
+hash = "9c29240d3bbf6db1b7d61948ef905ca3cfca751eb92bc9077993211f00b8832f"
+
+[[files]]
+file = "kubejs/data/common_stargates/structures/common_stargate/classic/pedestal/classic_stargate_smooth_sandstone_pedestal_1.nbt"
+hash = "e8841ed494f502b5389d99ff6970695f97fdd9de1a47bd679982b96ae475ad98"
+
+[[files]]
+file = "kubejs/data/common_stargates/structures/common_stargate/classic/pedestal/classic_stargate_smooth_stone_pedestal_1.nbt"
+hash = "4e609509b9995134d8f2a9f15d02e7558f2a3656c934ffbb692801ba39e8a53c"
+
+[[files]]
+file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/common_stargate/classic/pedestal/classic_stargate_pedestal_badlands_biomes.json"
+hash = "a53501e9e47eb303ad731116e195e5964e597535fb0f057effca8f0695625097"
+
+[[files]]
+file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/common_stargate/classic/pedestal/classic_stargate_pedestal_biomes.json"
+hash = "8f335646a005ff40099a1b560dbb9121aa17533ad9bf21d4e14e19d7429d8ba1"
+
+[[files]]
+file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/common_stargate/classic/pedestal/classic_stargate_pedestal_desert_biomes.json"
+hash = "46e042fcd796d3cd3bf04c9b3c296b43df59a54d867c451336448628d723e13a"
+
+[[files]]
+file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/common_stargate/milky_way/pedestal/common_milky_way_stargate_pedestal_badlands_biomes.json"
+hash = "bfbc7e53b2d852b33696f0eedc0b51a3f732d7bffba5afb887bcfa9942b8f658"
+
+[[files]]
+file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/common_stargate/milky_way/pedestal/common_milky_way_stargate_pedestal_biomes.json"
+hash = "5d72c80b1eed86ffa058d58d80fe746d2afe664ec2a1e8d42972f2228619c8b0"
+
+[[files]]
+file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/common_stargate/milky_way/pedestal/common_milky_way_stargate_pedestal_deep_dark_biomes.json"
+hash = "0210a7d640ad0308f9496a23973f87d85207faf4b9f9007196c7ea3c356ec80b"
+
+[[files]]
+file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/common_stargate/milky_way/pedestal/common_milky_way_stargate_pedestal_desert_biomes.json"
+hash = "1ad47484cdef61fc10b0e54bfe5ebad2e92fc1d4f9a4def0eedf7d76f99a37fd"
+
+[[files]]
+file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/common_stargate/milky_way/pedestal/common_milky_way_stargate_pedestal_jungle_biomes.json"
+hash = "b5ee622f33409ba5a23747845d9acdbcc23c0d6be7e11043436fb71d3c1d9bd0"
+
+[[files]]
+file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/common_stargate/milky_way/pedestal/common_milky_way_stargate_pedestal_mushroom_biomes.json"
+hash = "2e7479f48f0ae6dd850a639ae5ac6e1ae8154c2283842a70d4ac95000d60d7c9"
+
+[[files]]
+file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/common_stargate/milky_way/pedestal/common_milky_way_stargate_pedestal_snow_biomes.json"
+hash = "a05c1b2e14fe1bb895c1524b0d4a36f6f058807ca864c449a19d4367b5a3a135"
+
+[[files]]
+file = "kubejs/data/common_stargates/tags/worldgen/structure/common_stargate.json"
+hash = "6f3897f7fcaf731e73e94f82d8be0b68810dba8f73643da18c23b738de731f93"
+
+[[files]]
+file = "kubejs/data/common_stargates/worldgen/structure/common_stargate/classic/pedestal/red_sandstone_stargate_pedestal.json"
+hash = "749fdf3a8268d5d94606c59861a7c2094ff4cfa25a90fa03136e2ad648bddba7"
+
+[[files]]
+file = "kubejs/data/common_stargates/worldgen/structure/common_stargate/classic/pedestal/sandstone_stargate_pedestal.json"
+hash = "c94dc50515c0be4379ab4ad94f87fc03e541b1e7a0406abe6d0895cc08787079"
+
+[[files]]
+file = "kubejs/data/common_stargates/worldgen/structure/common_stargate/classic/pedestal/stargate_pedestal.json"
+hash = "01204bd965d9a53c8b836f41ef15b5342c66b045c6c6e21395709e980de61183"
+
+[[files]]
+file = "kubejs/data/common_stargates/worldgen/structure_set/common_stargate_pedestal.json"
+hash = "058876b947dd92ea2fabe6fb34882247a9babdc6a85a2e2e40e084d53fa27ee9"
+
+[[files]]
+file = "kubejs/data/common_stargates/worldgen/template_pool/common_stargate/classic/pedestal/red_sandstone_stargate_pedestal.json"
+hash = "c7085de2ce40445e3b3a0df8599fbd3231c5d08eda41817607ad0daf932de27e"
+
+[[files]]
+file = "kubejs/data/common_stargates/worldgen/template_pool/common_stargate/classic/pedestal/sandstone_stargate_pedestal.json"
+hash = "67ce2c8e8c0d0a607e855105b619537096cd705ccead225d6164f26fbcffed70"
+
+[[files]]
+file = "kubejs/data/common_stargates/worldgen/template_pool/common_stargate/classic/pedestal/stargate_pedestal.json"
+hash = "11feca5ee484fffc82a4a5c50f68899ab9655ecbfe283df168095f0cb8a75408"
+
+[[files]]
 file = "kubejs/data/create/recipes/crushing/obsidian.json"
 hash = "d9628ecd09acfa69294a85340d0dc2482f4404f8a69c5b8e1e5b6ca623950af2"
 
@@ -1554,11 +1638,7 @@ hash = "3dcb9be31f33841e1a11a47e020180fa73bfc201e426eac470e407f58332e23d"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/structure/stargate/milky_way/temple/abydos_pyramid.json"
-hash = "9cd0ec6c1078f8cf68a96361838cb033456374e9cb41609269c5f64a3ac87fbe"
-
-[[files]]
-file = "kubejs/data/sgjourney/worldgen/structure_set/stargate_temple.json"
-hash = "33a8f6aa566e2a664a2aee1e0cb4995957a2a104e89627738fdc5ecc2d92552c"
+hash = "6c921adc9d7d5e59b890dd051e92981da85c488e4c04f4aff6a6de55dde2b8b0"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/milky_way/temple/abydos_pyramid/center_pool.json"

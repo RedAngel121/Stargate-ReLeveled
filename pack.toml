@@ -1,12 +1,12 @@
 name = "Stargate: ReLeveled"
 author = "RedΛngel"
-version = "1.0"
+version = "1.0.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "0e2a444599046c86b32aa5326aa6559f804a527edaed2a7161a8a7a82f7509ed"
+hash = "666e110d2215042c8a7a750337176a7b269f6f12952661dd299226368e5775e1"
 
 [versions]
 forge = "47.4.0"
