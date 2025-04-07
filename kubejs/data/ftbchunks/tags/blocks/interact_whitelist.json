@@ -32,6 +32,26 @@
 			"required": false
 		},
 		{
+			"id": "numismatics:andesite_depositor",
+			"required": false
+		},
+		{
+			"id": "numismatics:brass_depositor",
+			"required": false
+		},
+		{
+			"id": "numismatics:bank_terminal",
+			"required": false
+		},
+		{
+			"id": "numismatics:vendor",
+			"required": false
+		},
+		{
+			"id": "numismatics:creative_vendor",
+			"required": false
+		},
+		{
 			"id": "computercraft:monitor_advanced",
 			"required": false
 		},

@@ -70,16 +70,16 @@
 			always_display_stargate_id = false
 			#FAST - Incoming Chevrons take 4 Ticks to lock; MEDIUM - Incoming Chevrons take 8 Ticks to lock; SLOW - Incoming Chevrons take 12 Ticks to lock
 			#Allowed Values: SLOW, MEDIUM, FAST
-			universe_chevron_lock_speed = "SLOW"
+			universe_chevron_lock_speed = "MEDIUM"
 			#FAST - Incoming Chevrons take 4 Ticks to lock; MEDIUM - Incoming Chevrons take 8 Ticks to lock; SLOW - Incoming Chevrons take 12 Ticks to lock
 			#Allowed Values: SLOW, MEDIUM, FAST
-			milky_way_chevron_lock_speed = "SLOW"
+			milky_way_chevron_lock_speed = "MEDIUM"
 			#FAST - Incoming Chevrons take 4 Ticks to lock; MEDIUM - Incoming Chevrons take 8 Ticks to lock; SLOW - Incoming Chevrons take 12 Ticks to lock
 			#Allowed Values: SLOW, MEDIUM, FAST
 			pegasus_chevron_lock_speed = "MEDIUM"
 			#FAST - Incoming Chevrons take 4 Ticks to lock; MEDIUM - Incoming Chevrons take 8 Ticks to lock; SLOW - Incoming Chevrons take 12 Ticks to lock
 			#Allowed Values: SLOW, MEDIUM, FAST
-			classic_chevron_lock_speed = "SLOW"
+			classic_chevron_lock_speed = "MEDIUM"
 			#FAST - Incoming Chevrons take 4 Ticks to lock; MEDIUM - Incoming Chevrons take 8 Ticks to lock; SLOW - Incoming Chevrons take 12 Ticks to lock
 			#Allowed Values: SLOW, MEDIUM, FAST
 			tollan_chevron_lock_speed = "MEDIUM"
@@ -118,7 +118,7 @@
 			enable_address_choice = true
 			#The maximum amount of blocks allowed within the ring area before Stargate becomes obstructed
 			#Range: 1 ~ 21
-			max_obstructive_blocks = 12
+			max_obstructive_blocks = 21
 			#Decides if 8-chevron addresses can be used for dialing within the same galaxy
 			allow_interstellar_8_chevron_addresses = false
 			#Decides if two Stargates from the same Solar System should be able to connect

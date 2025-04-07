@@ -60,6 +60,11 @@
       "sgjourney:red_sandstone_cartouche",
       "sgjourney:sandstone_cartouche",
       "sgjourney:stone_cartouche",
+      "numismatics:andesite_depositor",
+      "numismatics:brass_depositor",
+      "numismatics:bank_terminal",
+      "numismatics:vendor",
+      "numismatics:creative_vendor",
       "computercraft:monitor_advanced",
       "universal_shops:trade_block"
     ],

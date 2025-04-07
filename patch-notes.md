@@ -61,6 +61,7 @@
 - Find a reason to add https://www.curseforge.com/minecraft/mc-mods/project-red-core + everything except exploration
 
 ### Long Term TODOs:
+- Replace common stargates with common *buried* stargates
 - Replace current ore growing and botany pots with Mystical Agriculture + MA Customize
   - Tiered Substrates conversions into MA
   - Ore tiers applied to mirror custom work

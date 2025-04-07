@@ -1301,6 +1301,10 @@ file = "kubejs/data/endlessbiomes/recipes/riftite_shard_recipe.json"
 hash = "2f03c515d66b4c6255deb87ae1e423f886e42ffa034987bf0fcc5faffdc3777c"
 
 [[files]]
+file = "kubejs/data/explorerscompass/recipes/explorers_compass.json"
+hash = "2c17f87fb719f418cefaa52f397eef527e2ddf30add95b4f778e4f8e8a7ffcdd"
+
+[[files]]
 file = "kubejs/data/ftbchunks/tags/blocks/interact_whitelist.json"
 hash = "bf17ac227342d0352ad8946836adb2707ee6d8e4d29404b326132170ec2ec989"
 
