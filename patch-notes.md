@@ -1,4 +1,7 @@
 ### Changes:
+- Adjusted Explorers Compass recipe
+- Updated interact whitelists to include numismatics blocks
+- adjusted SGJourney config settings
 
 ### Additions:
 
@@ -9,10 +12,10 @@
 ### CURRENT OBJECTIVES:
 - Wait for mods to Update to Create 6:
  - SGJ Ponder - Jaja needs to update this or remove it from the pack
- - Create: Connected
- - Create: Copycats+
- - Create: Design n' Decor
- - Create: Steam 'n' Rails
+ - Create: Connected - https://www.curseforge.com/minecraft/mc-mods/create-connected
+ - Create: Copycats+ - https://www.curseforge.com/minecraft/mc-mods/copycats
+ - Create: Design n' Decor - https://www.curseforge.com/minecraft/mc-mods/create-design-n-decor
+ - Create: Steam 'n' Rails - https://www.curseforge.com/minecraft/mc-mods/create-steam-n-rails
  - Create: Bells & Whistles - **Ready**
  - Create: Confectionery - **Ready**
  - Create: Crafts & Additions - **Ready**
