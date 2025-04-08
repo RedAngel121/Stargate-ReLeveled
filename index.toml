@@ -206,7 +206,7 @@ hash = "392ea74823594d160c2a2990e99e75c30ffde6f072b705f986f024d7d21568f3"
 
 [[files]]
 file = "config/flan/flan_config.json"
-hash = "33f1c50847ea14b81367a0b0f09af31f500ebb42872d2f7f7fd4eeb1c23b4670"
+hash = "04d045fb11b304d22f685c78e7f0668b963119bedfe610d8b42ff9297cf2f94b"
 
 [[files]]
 file = "config/ftbbackups2.json"
@@ -306,7 +306,7 @@ hash = "2fb9a7d0eab1e38c6a8393d32e9cff7569909a237b9a0f9a181dc218220f362d"
 
 [[files]]
 file = "config/sgjourney-common.toml"
-hash = "4232135066af7e163b45b85bf8eb344d68e0f802301616341cbf5fd5f41be07d"
+hash = "3c9f5f7f15ce1bdb0ee3e0a74628d454393f0722b2677c21aa5285b5b718dc1f"
 
 [[files]]
 file = "config/sidebar_buttons.json"
@@ -1306,7 +1306,7 @@ hash = "2c17f87fb719f418cefaa52f397eef527e2ddf30add95b4f778e4f8e8a7ffcdd"
 
 [[files]]
 file = "kubejs/data/ftbchunks/tags/blocks/interact_whitelist.json"
-hash = "bf17ac227342d0352ad8946836adb2707ee6d8e4d29404b326132170ec2ec989"
+hash = "ef10461bb66e0359ca545e70b15c00eacb46ae17dacfba35df50ec047b6abfb4"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/chicken.json"

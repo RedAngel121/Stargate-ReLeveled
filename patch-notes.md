@@ -59,6 +59,7 @@
  - Ad Astra - **Ready**
  - Add Sophisticated Storage Create Integration - **Ready**
 - Find a reason to add https://www.curseforge.com/minecraft/mc-mods/project-red-core + everything except exploration
+- Add Flux
 
 ### Long Term TODOs:
 - Replace common stargates with common *buried* stargates

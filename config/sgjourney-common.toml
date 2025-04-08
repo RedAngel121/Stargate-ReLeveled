@@ -175,7 +175,7 @@
 			#Stargates Network will not consider DHDs when choosing preferred Stargate
 			disable_dhd_preference = true
 			#Stargates Network will prioritize Primary Stargates
-			primary_stargate = false
+			primary_stargate = true
 
 	["Stargate Journey Common Config"."Tech Config"]
 
@@ -260,10 +260,10 @@
 		["Stargate Journey Common Config"."Permission Config".server]
 			#Decides the player permission level required to modify or break protected Stargates
 			#Range: 0 ~ 4
-			protected_stargate_permissions = 0
+			protected_stargate_permissions = 4
 			#Decides the player permission level required to modify or break protected DHDs
 			#Range: 0 ~ 4
-			protected_dhd_permissions = 0
+			protected_dhd_permissions = 4
 
 	["Stargate Journey Common Config"."DHD Config"]
 
@@ -309,7 +309,7 @@
 
 		["Stargate Journey Common Config"."Iris Config".server]
 			#If true, players in Creative Mode will be able to pass through the Stargate even when the Iris is closed on the other side
-			creative_ignores_iris = false
+			creative_ignores_iris = true
 			#The Iris can break any Blocks with Block Strength below the Iris Strength
 			#Range: 0.0 ~ 1.7976931348623157E308
 			iris_breaking_strength = 0.5
@@ -321,7 +321,7 @@
 			iron_iris_durability = 2048
 			#Durability of the Gold Iris
 			#Range: > 1
-			gold_iris_durability = 1024
+			gold_iris_durability = 768
 			#Durability of the Diamond Iris
 			#Range: > 1
 			diamond_iris_durability = 8192
