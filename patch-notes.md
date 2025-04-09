@@ -8,6 +8,7 @@
 ### Updates:
 
 ### Removals:
+- Distant Horizons
 
 ### CURRENT OBJECTIVES:
 - Wait for mods to Update to Create 6:
