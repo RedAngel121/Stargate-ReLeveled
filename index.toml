@@ -1569,12 +1569,12 @@ file = "kubejs/data/sgcommunity_pack/worldgen/placed_feature/striated_phosphorit
 hash = "f7bee9f9ac70e20835b98dc74f54be9655ad769e878590ff58c5acdd0864392c"
 
 [[files]]
-file = "kubejs/data/sgjourney/recipes/cobbled_deepslate.json"
-hash = "411d9096f95f53b540537f11e5190bb261aebb718061509c40e0371c042c5f97"
+file = "kubejs/data/sgjourney/recipes/advanced_crystallizing/pure_naquadah.json"
+hash = "148f31068f9ca931a6078eb28568ffa602815b66043cef345f1e61482b960265"
 
 [[files]]
-file = "kubejs/data/sgjourney/recipes/crystallizing/pure_naquadah.json"
-hash = "a639075d3fd56f5fef6601359f60ff5f1a79a1cd0dcc1e5370b5c861e5b3adb6"
+file = "kubejs/data/sgjourney/recipes/cobbled_deepslate.json"
+hash = "411d9096f95f53b540537f11e5190bb261aebb718061509c40e0371c042c5f97"
 
 [[files]]
 file = "kubejs/data/sgjourney/recipes/honeycomb_from_block.json"
