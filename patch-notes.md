@@ -1,7 +1,10 @@
 ### Changes:
 - Adjusted Explorers Compass recipe
 - Updated interact whitelists to include numismatics blocks
-- adjusted SGJourney config settings
+- Adjusted SGJourney config settings
+- Adjusted DH Configs to reduce CPU load on servers
+- Replaced common stargates with buried stargates (sgjourney:stargate/milky_way/pedestal/nether/stargate_pedestal_nether_1 needs beard_thin replaced with bury)
+- Fixed Abydos Pyramid Entrance not getting buried correctly
 
 ### Additions:
 
@@ -31,7 +34,6 @@
 - Add Flux
 
 ### Long Term TODOs:
-- Replace common stargates with common *buried* stargates
 - Replace current ore growing and botany pots with Mystical Agriculture + MA Customize
   - Tiered Substrates conversions into MA
   - Ore tiers applied to mirror custom work

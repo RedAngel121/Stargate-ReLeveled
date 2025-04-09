@@ -1573,6 +1573,10 @@ file = "kubejs/data/sgjourney/recipes/cobbled_deepslate.json"
 hash = "411d9096f95f53b540537f11e5190bb261aebb718061509c40e0371c042c5f97"
 
 [[files]]
+file = "kubejs/data/sgjourney/recipes/crystallizing/pure_naquadah.json"
+hash = "a639075d3fd56f5fef6601359f60ff5f1a79a1cd0dcc1e5370b5c861e5b3adb6"
+
+[[files]]
 file = "kubejs/data/sgjourney/recipes/honeycomb_from_block.json"
 hash = "10592c53a402e9cacb4f478d48308dcf8f0036963fa91ca92ae2b73ce357829e"
 

@@ -1,0 +1,12 @@
+{
+	"type": "sgjourney:advanced_crystallizing",
+	"crystal_base": {"item": "sgjourney:raw_naquadah_block", "amount": 1},
+	"primary_ingredient": {"item": "minecraft:quartz", "amount": 16},
+	"secondary_ingredient": {"item": "minecraft:quartz", "amount": 16},
+	"deplete_primary": true,
+	"deplete_secondary": true,
+	"output":
+	{
+		"item": "sgjourney:pure_naquadah"
+	}
+}
