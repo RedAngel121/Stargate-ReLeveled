@@ -3,17 +3,16 @@
 - Updated interact whitelists to include numismatics blocks
 - Adjusted SGJourney config settings
 - Adjusted DH Configs to reduce CPU load on servers
-- Replaced common stargates with buried stargates (sgjourney:stargate/milky_way/pedestal/nether/stargate_pedestal_nether_1 needs beard_thin replaced with bury)
 - Fixed Abydos Pyramid Entrance not getting buried correctly
 - Added temporary recipe for Pure Naquadah
 - 
+- Replaced common stargates with buried stargates (sgjourney:stargate/milky_way/pedestal/nether/stargate_pedestal_nether_1 needs beard_thin replaced with bury)
 
 ### Additions:
 
 ### Updates:
 
 ### Removals:
-- Distant Horizons
 
 ### CURRENT OBJECTIVES:
 - Wait for mods to Update to Create 6:

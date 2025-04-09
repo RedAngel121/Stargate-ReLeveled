@@ -1569,6 +1569,10 @@ file = "kubejs/data/sgcommunity_pack/worldgen/placed_feature/striated_phosphorit
 hash = "f7bee9f9ac70e20835b98dc74f54be9655ad769e878590ff58c5acdd0864392c"
 
 [[files]]
+file = "kubejs/data/sgjourney/dimension_type/abydos.json"
+hash = "59cf7f8ba133c853b02952cbee56a1a23b41916d7768761e84bedc4acbc6574f"
+
+[[files]]
 file = "kubejs/data/sgjourney/recipes/advanced_crystallizing/pure_naquadah.json"
 hash = "148f31068f9ca931a6078eb28568ffa602815b66043cef345f1e61482b960265"
 
@@ -1647,6 +1651,22 @@ hash = "f0eafb0b3dd32d248738c0df4c3291fe8f80a24b36f1060898c571dd13e35a0e"
 [[files]]
 file = "kubejs/data/sgjourney/tags/worldgen/structure/has_stargate.json"
 hash = "3dcb9be31f33841e1a11a47e020180fa73bfc201e426eac470e407f58332e23d"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/biome/abydos_desert.json"
+hash = "ca48abd30cf18feaf386f08774f9c8857d2d1e12ddfd84bc44db8c958983e7ee"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/biome/abydos_oasis.json"
+hash = "e6629e3ffb0314fc6bc5d5859521310ef94561f48010a7c26d43fee90774cb7e"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/biome/abydos_spires.json"
+hash = "228caa5b8fac50aed9c16757cddb697e14007ebe5e5daf9e7b113220e75204bb"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/noise_settings/abydos.json"
+hash = "7bbb6c3a279029b6a1364e203e5ad30e52e5c28c83badec9f3f43b92e2fe6c56"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/structure/stargate/milky_way/temple/abydos_pyramid.json"
