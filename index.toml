@@ -5,6 +5,10 @@ file = "config/Advancedperipherals/world.toml"
 hash = "bdc53953e8bf37d8b715be9d3d188adaecc95d71b6c605987da91999da41d5f9"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "7f34d3d99ae26af13e18462cb08412d92d3d463f232a8774d023ab4c4062d569"
+
+[[files]]
 file = "config/Mekanism/general.toml"
 hash = "ae6c89a93e653d96aa3817c11385a4fd801c177070d72ba6e8fb1af8796669de"
 
@@ -1598,7 +1602,7 @@ hash = "9d03a5a3a091df3f2d4d0b22d716e6b536b031a5e19b4676d8f38826a1c43a45"
 
 [[files]]
 file = "kubejs/data/sgjourney/structures/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_entrance.nbt"
-hash = "4031f7e127138de5cdd9027179fc0fd1a963dae5a762200aa693b65d82cbee26"
+hash = "18f60981cfeddc98aba598be9e614f6c2658f1565e060d2b1bf1caa8115ed11f"
 
 [[files]]
 file = "kubejs/data/sgjourney/structures/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_entrance_1.nbt"
