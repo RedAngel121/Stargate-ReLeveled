@@ -1654,7 +1654,7 @@ hash = "3dcb9be31f33841e1a11a47e020180fa73bfc201e426eac470e407f58332e23d"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/biome/abydos_desert.json"
-hash = "ca48abd30cf18feaf386f08774f9c8857d2d1e12ddfd84bc44db8c958983e7ee"
+hash = "029525d15f23f895ff022a09426997f1d0380162957d8d8b30e087f34b223660"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/biome/abydos_oasis.json"
@@ -1662,11 +1662,15 @@ hash = "e6629e3ffb0314fc6bc5d5859521310ef94561f48010a7c26d43fee90774cb7e"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/biome/abydos_spires.json"
-hash = "228caa5b8fac50aed9c16757cddb697e14007ebe5e5daf9e7b113220e75204bb"
+hash = "be8a96492af1b6cb9317c7a863a8d66ed5709cfebc8148c1b4acef2955a37a63"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/noise_settings/abydos.json"
 hash = "7bbb6c3a279029b6a1364e203e5ad30e52e5c28c83badec9f3f43b92e2fe6c56"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/placed_feature/ore_naquadah.json"
+hash = "e2b01a7cc36008f07959bbc7f4bd7935122038771fcfcc27a9c3cbd2724a1a7a"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/structure/stargate/milky_way/temple/abydos_pyramid.json"

@@ -5,7 +5,7 @@
 - Adjusted DH Configs to reduce CPU load on servers
 - Fixed Abydos Pyramid Entrance not getting buried correctly
 - Added temporary recipe for Pure Naquadah
-- 
+- Lowered Abydos bedrock to -64 (please be careful of new chunk generation when mining)
 - Replaced common stargates with buried stargates (sgjourney:stargate/milky_way/pedestal/nether/stargate_pedestal_nether_1 needs beard_thin replaced with bury)
 
 ### Additions:
