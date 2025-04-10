@@ -697,6 +697,10 @@ file = "kubejs/assets/jajasgates/textures/symbols/point_of_origin/cl_xtreme.png"
 hash = "589900a7b8cd8b6c2ef715ef4063b9a7829a164d981831f657873d3e674e779c"
 
 [[files]]
+file = "kubejs/assets/moregates/sgjourney/stargate_variant/milky_way/bloodgate2.json"
+hash = "7787a0a2be1f82cfa4bcd5bcf4ceab851aa72edf8dc270bee5a3065baaddacef"
+
+[[files]]
 file = "kubejs/assets/moregates/sgjourney/stargate_variant/pegasus/twilight.json"
 hash = "1850f07a72fcc380c0dc23cd633dd619cf38bd9500ffa73b398d433ed3c0667e"
 
@@ -1491,6 +1495,10 @@ hash = "9174e95d9c6c307c1789f6cff8604bbacc934c0e783cb4f1a22089429b6c4385"
 [[files]]
 file = "kubejs/data/moregates/sgjourney/stargate_variant/aether.json"
 hash = "4de94c11830b1e16a0008107db008e8e907ce5a8bed96b98e648eb12dbd0c2ae"
+
+[[files]]
+file = "kubejs/data/moregates/sgjourney/stargate_variant/bloodgate2.json"
+hash = "9bc7e89185149f18f23e5205d0b7e257dd9d65d920512f246d2d98aa7976f031"
 
 [[files]]
 file = "kubejs/data/moregates/sgjourney/stargate_variant/quartz.json"
@@ -2457,6 +2465,11 @@ metafile = true
 [[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "464e83a35e22e9bbdf7be38cf7a7a98c39462a0a50b01d2a1355bcae9167ea7a"
+metafile = true
+
+[[files]]
+file = "mods/nbtedit-reborn.pw.toml"
+hash = "6dc46e084e99f709e8d17e250f7b61a9c56cd138a443d4f10118da94672f7030"
 metafile = true
 
 [[files]]

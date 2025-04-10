@@ -1,14 +1,18 @@
 ### Changes:
 - Changed Explorers Compass recipe
+- Fixed Fancymenu Docs opening on every update
 - Updated interact whitelists to include numismatics blocks
 - Adjusted SGJourney config settings
 - Adjusted DH Configs to reduce CPU load on servers
 - Fixed Abydos Pyramid Entrance not getting buried correctly
 - Added temporary recipe for Pure Naquadah
 - Lowered Abydos bedrock to -64 and added Mek ores
-  - Please be careful of new chunk generation when mining in the deepslate
+  - Please be careful of new chunk generation when mining in the deepslate (ask me how to reset abydos!)
 - Common stargates is now disabled for single player expeirence
   - Change `common_stargate_generation` to true in `sgjourney-common` config to enable this again (or if you start a server)
+
+- Replaced common stargate pedestals with buried stargates in the overworld
+  - other dims were simply blocked off to prevent circumventing standard progression
 
 ### Additions:
 - Packet Fixer (could help with long range connections)
@@ -18,8 +22,6 @@
 ### Removals:
 
 ### WIP:
-- Replaced common stargate pedestals with buried stargates in the overworld
-  - other dims were simply blocked off to prevent circumventing standard progression
 
 - Wait for mods to Update to Create 6:
   - SGJ Ponder - Jaja needs to update this or remove it from the pack
