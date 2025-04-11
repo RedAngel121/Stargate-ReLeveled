@@ -1,7 +1,7 @@
 ### WIP:
 - Replaced common stargate pedestals with buried stargates in the overworld
   - other dims were simply blocked off to prevent circumventing standard progression
-- check all the SGJ dims for common pedestals and generate them as buried or block them off
+  - check all the SGJ dims for common pedestals and generate them as buried or block them off
 
 ### Changes:
 - Changed Explorers Compass recipe

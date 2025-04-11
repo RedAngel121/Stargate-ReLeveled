@@ -1141,8 +1141,32 @@ file = "kubejs/data/common_stargates/worldgen/structure/stargate/classic/buried/
 hash = "02840672b3d3058bd4779792b934cc7b08974c2f9135c8208bd9d96efb8834a1"
 
 [[files]]
+file = "kubejs/data/common_stargates/worldgen/structure/stargate/classic/buried/blackstone_structure.json"
+hash = "e932a93b00287a72ca62f995c79d411cc7a5ad7428b54d4db9cacf4c36dd3cb7"
+
+[[files]]
+file = "kubejs/data/common_stargates/worldgen/structure/stargate/classic/buried/deepslate_structure.json"
+hash = "bd1fa7ddd82c5f78c67560ba052944f45336bb733140bf211918889e21d65012"
+
+[[files]]
+file = "kubejs/data/common_stargates/worldgen/structure/stargate/classic/buried/desert_structure.json"
+hash = "1d44594e294b1f9142b5c7054bab76fc59ed4dd86dcdc06789618462f168f4cc"
+
+[[files]]
 file = "kubejs/data/common_stargates/worldgen/structure/stargate/classic/buried/nether_structure.json"
-hash = "ef794a9dce743938930bde3a323547ad24ecd2333a903f0177722194ab5a66b3"
+hash = "e751110ea13baaa4386128f6231b2b67ce7addcaf2ecceeecc0fee526be617f7"
+
+[[files]]
+file = "kubejs/data/common_stargates/worldgen/structure/stargate/classic/buried/snow_structure.json"
+hash = "77d64700b5f2fbf4afff860c521f3a078c74113c9de9c7ee07fcd4aebd4311de"
+
+[[files]]
+file = "kubejs/data/common_stargates/worldgen/structure/stargate/classic/buried/soul_sand_structure.json"
+hash = "f2f9ef8f17cc6a7e6ae13ee02ed1f0e0beba662ac887bad62b4661730f82aeb7"
+
+[[files]]
+file = "kubejs/data/common_stargates/worldgen/structure/stargate/classic/buried/stone_structure.json"
+hash = "461900ce15a3e6040c1a6a54c50ae4c488616c179b29a55bf28d00b43314913f"
 
 [[files]]
 file = "kubejs/data/common_stargates/worldgen/structure_set/common_stargate.json"
@@ -1669,8 +1693,32 @@ file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/classic/buried/bad
 hash = "d48786d0d851f22e57317993619da8e1db59de51cf54064322c6d76d170aad71"
 
 [[files]]
+file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/classic/buried/blackstone_pool.json"
+hash = "e70770ec0dfc3e137a8c76b9e4fa4a38c08cc3b0f589b19bd4139ad44cc839ec"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/classic/buried/deepslate_pool.json"
+hash = "036fdf1d9dc3c6eba9dfff0a1ce2e4fb9e913ec06db93f4bf3af3a2b16c9eed6"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/classic/buried/desert_pool.json"
+hash = "f2db171b9d2fff2496a49fe1ea9ea3e535a3ff9907ce9783faec0ab9ffd40bb3"
+
+[[files]]
 file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/classic/buried/nether_pool.json"
 hash = "3d2a5d0129fe7ed2c79b71e32a28cdcf9570fd00dbcde58bb10933e50cd23347"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/classic/buried/snow_pool.json"
+hash = "85e5e683721a86dde992b07e81768326ecaddbd2a6b211b4eacbff62fa851c6c"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/classic/buried/soul_sand_pool.json"
+hash = "2bf104faf8b10b0a527874116451ba1bbcd5324e26bbd3f2aff9ac414e333d88"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/classic/buried/stone_pool.json"
+hash = "03a8f3ff3f8854a30f19c0e8003b435b41dc374936d08535f86a766b6d2e06e1"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/milky_way/temple/abydos_pyramid/center_pool.json"

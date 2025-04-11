@@ -1,9 +1,9 @@
 {
   "type": "sgjourney:common_stargate",
-  "start_pool": "sgjourney:stargate/milky_way/pedestal/nether_pool",
+  "start_pool": "sgjourney:stargate/classic/buried/soul_sand_pool",
   "size": 1,
   "max_distance_from_center": 80,
-  "biomes": "#common_stargates:has_structure/stargate/milky_way/pedestal/stargate_pedestal_nether_biomes",
+  "biomes": "#common_stargates:has_structure/stargate/milky_way/pedestal/stargate_pedestal_soul_sand_biomes",
   "step": "strongholds",
   "start_height": {
     "type": "minecraft:uniform",
@@ -23,8 +23,8 @@
   },
   "terrain_adaptation": "bury",
   "stargate_modifiers": {
-    "display_id": true,
-    "upgraded": true
+    "display_id": false,
+    "upgraded": false
   },
   "common_stargates": true
 }
