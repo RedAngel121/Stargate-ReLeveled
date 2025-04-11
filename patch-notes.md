@@ -1,7 +1,7 @@
 ### WIP:
-- Replaced common stargate pedestals with buried stargates in the overworld
-  - other dims were simply blocked off to prevent circumventing standard progression
-  - check all the SGJ dims for common pedestals and generate them as buried or block them off
+- Replaced common stargate pedestals with buried stargates in all dims
+  - ok so my goal is to change the NBT files to buried classic variants and just overwrite your files, might make additional ones idk
+  - then change the JSONs in common_gates to `"absolute": -5` with the exception of the nether, i can just leave those be
 
 ### Changes:
 - Changed Explorers Compass recipe
@@ -47,6 +47,7 @@
   - Add Sophisticated Backpacks Create Integration - **Ready**
 
 ### Long Term Objectives:
+- Non-Overworld "overworld" dim replicas still spawn the overworld alpha and beta gates, can that be limited?
 - Add Milky Way Planet Galar Mega City https://www.gateworld.net/wiki/Galar - Use Minecraft City mod
 - Replace current ore growing and botany pots with Mystical Agriculture + MA Customize
   - Tiered Substrates conversions into MA
