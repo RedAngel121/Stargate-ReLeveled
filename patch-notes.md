@@ -1,3 +1,8 @@
+### WIP:
+- Replaced common stargate pedestals with buried stargates in the overworld
+  - other dims were simply blocked off to prevent circumventing standard progression
+- check all the SGJ dims for common pedestals and generate them as buried or block them off
+
 ### Changes:
 - Changed Explorers Compass recipe
 - Fixed Fancymenu Docs opening on every update
@@ -7,12 +12,10 @@
 - Fixed Abydos Pyramid Entrance not getting buried correctly
 - Added temporary recipe for Pure Naquadah
 - Lowered Abydos bedrock to -64 and added Mek ores
-  - Please be careful of new chunk generation when mining in the deepslate (ask me how to reset abydos!)
+  - Please be careful of new chunk generation when mining in the deepslate
+  - If you want to reset Abydos, drop by the discord and ask me how!
 - Common stargates is now disabled for single player expeirence
   - Change `common_stargate_generation` to true in `sgjourney-common` config to enable this again (or if you start a server)
-
-- Replaced common stargate pedestals with buried stargates in the overworld
-  - other dims were simply blocked off to prevent circumventing standard progression
 
 ### Additions:
 - Packet Fixer (could help with long range connections)
@@ -21,7 +24,9 @@
 
 ### Removals:
 
-### WIP:
+### Short Term Objectives:
+- Should I add Flux/Powah for wireless charging and alternative power?
+- Find a reason to add https://www.curseforge.com/minecraft/mc-mods/project-red-core + everything except exploration
 
 - Wait for mods to Update to Create 6:
   - SGJ Ponder - Jaja needs to update this or remove it from the pack
@@ -41,11 +46,8 @@
   - Add Sophisticated Storage Create Integration - **Ready**
   - Add Sophisticated Backpacks Create Integration - **Ready**
 
-### Short Term Objectives:
-- Should I add Flux/Powah for wireless charging and alternative power?
-- Find a reason to add https://www.curseforge.com/minecraft/mc-mods/project-red-core + everything except exploration
-
 ### Long Term Objectives:
+- Add Milky Way Planet Galar Mega City https://www.gateworld.net/wiki/Galar - Use Minecraft City mod
 - Replace current ore growing and botany pots with Mystical Agriculture + MA Customize
   - Tiered Substrates conversions into MA
   - Ore tiers applied to mirror custom work
