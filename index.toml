@@ -1137,116 +1137,52 @@ file = "kubejs/data/apotheosis/worldgen/structure_set/tower_spruce.json"
 hash = "ece803155b7f5de8d3607316fa136ba8055d0c104cb01555f8cb7fbd1144bbed"
 
 [[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/stargate/milky_way/pedestal/stargate_pedestal_badlands_biomes.json"
-hash = "a53501e9e47eb303ad731116e195e5964e597535fb0f057effca8f0695625097"
-
-[[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/stargate/milky_way/pedestal/stargate_pedestal_basalt_biomes.json"
-hash = "86bfab49ac8273cb0b71c854853c02e498ccbae8d99191e6b8dcc43893186d77"
-
-[[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/stargate/milky_way/pedestal/stargate_pedestal_biomes.json"
-hash = "675dd8eea9cc5639e24ce39707b4fca54412936a08c0d6452ced1669dbeac28b"
-
-[[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/stargate/milky_way/pedestal/stargate_pedestal_deep_dark_biomes.json"
-hash = "7dd0e61c333b741bf1080a0ddb3d08378a7bc75ffc8212a351d5e44f2c860c27"
-
-[[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/stargate/milky_way/pedestal/stargate_pedestal_deepslate_biomes.json"
-hash = "2683c2489c221b96a25ad38674a06eb1bc54b9dba2ee1af72adc02c651a50a52"
-
-[[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/stargate/milky_way/pedestal/stargate_pedestal_desert_biomes.json"
-hash = "31a5b39ef527590d20be3272ed55d9e474dd8ef0c6f257a59f34575659ff0482"
-
-[[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/stargate/milky_way/pedestal/stargate_pedestal_jungle_biomes.json"
-hash = "af0561ebc1f7b9cd2cba1bcb7ea1b8906d10f2e2f5b49f4284194e72762ce798"
-
-[[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/stargate/milky_way/pedestal/stargate_pedestal_mushroom_biomes.json"
-hash = "1a39b523e5bb293c48d0165fca421cb5cbfa60c92b594ea4e54dcf63d8ee10bb"
-
-[[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/stargate/milky_way/pedestal/stargate_pedestal_nether_biomes.json"
-hash = "41dfa498fc14ce87c0ae0a594f2c0738d43aeb939b81d86321d57beaf93b43b1"
-
-[[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/stargate/milky_way/pedestal/stargate_pedestal_snow_biomes.json"
-hash = "6df5c9b376e7f9cea241411dc631c71f21bcef8884f8685c25534bdfbfbc8776"
-
-[[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/stargate/milky_way/pedestal/stargate_pedestal_soul_sand_biomes.json"
-hash = "92d21d887c8ad9a43534b41d0e0e53078121cc0b2009c945801745566e74d1a9"
-
-[[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/stargate/pegasus/pegasus_stargate_grass_biomes.json"
-hash = "673395c70c2b74ae3f7beb61635803f658d53146d4b743755e4754ae9237f72b"
-
-[[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/stargate/pegasus/pegasus_stargate_outpost_biomes.json"
-hash = "9ccf51bf24b3c2b5d298975c8e6616887d9066923ee1539e0decb03927b86540"
-
-[[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/biome/has_structure/stargate/universe/pedestal/stargate_pedestal_end_biomes.json"
-hash = "2ff331b53e111dbd58813457f9d64675eed049215755464a8b8816fbe5436392"
-
-[[files]]
-file = "kubejs/data/common_stargates/tags/worldgen/structure/common_stargate.json"
-hash = "8be7d8eb91b5a21d17d6ef88978c6c00041716ec391dcaefc0cd0b8d61c8fbb8"
-
-[[files]]
 file = "kubejs/data/common_stargates/worldgen/structure/stargate/milky_way/pedestal/stargate_pedestal.json"
-hash = "8911250253ae23f059d1d1b540b1f22b3103a0705f33ee6708b9434368805f82"
+hash = "e8f2c1586a5f1630bc9c34e25932d440e92c4eb9ba1c445bca8b6066ef16537d"
 
 [[files]]
 file = "kubejs/data/common_stargates/worldgen/structure/stargate/milky_way/pedestal/stargate_pedestal_badlands.json"
-hash = "4bc8ab338beecc924a29483a90c12b125e3cb9d8e416089b656b1630bc790d13"
+hash = "9572d682b0cd7a8af701a11d459d323e9f045881416fc790dad7d4f2fec7249e"
 
 [[files]]
 file = "kubejs/data/common_stargates/worldgen/structure/stargate/milky_way/pedestal/stargate_pedestal_basalt.json"
-hash = "ec32876819a71ab5813d5e277a001df1e57f0a5003a692b38285a464c1fe2008"
+hash = "90e05c8e13b1f6941028930f3650bac8908960284c430451519ce78d336bd5cc"
 
 [[files]]
 file = "kubejs/data/common_stargates/worldgen/structure/stargate/milky_way/pedestal/stargate_pedestal_deep_dark.json"
-hash = "54f35dd63be2fca91d5bba6cae079a5de8f3bb8b6b61c85e8c281d853c6b6c94"
+hash = "58f4a104520ac90b404ad962e43e8823f5068e155eca2141a6d23fa3693658b3"
 
 [[files]]
 file = "kubejs/data/common_stargates/worldgen/structure/stargate/milky_way/pedestal/stargate_pedestal_deepslate.json"
-hash = "519958bf16ad5e4c22a48bea5307259b011e1096d7990567410c9ef713a198dc"
+hash = "423a8077932e678a13b71cf01e5ff8b1ff82c7d2153d9ab4ccaa74d869429228"
 
 [[files]]
 file = "kubejs/data/common_stargates/worldgen/structure/stargate/milky_way/pedestal/stargate_pedestal_desert.json"
-hash = "41dc5b67828c2769e0b437625b5b7c5cbd05a0ab648dbe95255877c9f5243386"
+hash = "c42d6f47b78042f7b1cbf2b0f6a465c50daadbcbd0d64c9bf40f43cc63bdc9ce"
 
 [[files]]
 file = "kubejs/data/common_stargates/worldgen/structure/stargate/milky_way/pedestal/stargate_pedestal_jungle.json"
-hash = "9a885acc842ab24ce16fab4fe6bb7c34ab18cff1f49e3749c640d9ba898ad22e"
+hash = "568398ed3ca4d2114f01be73ca18cd16e1fb311d360b0f2041f9ce13ad7628e0"
 
 [[files]]
 file = "kubejs/data/common_stargates/worldgen/structure/stargate/milky_way/pedestal/stargate_pedestal_mushroom.json"
-hash = "fcf0017a2b1b06705b2c706711211ea443a5a4a29348e7c47dc9e2e21354a6e9"
+hash = "ec7f8fb0a24db6035b64298784fceb090e5143d48d9b177ec28268595fa83cdd"
 
 [[files]]
 file = "kubejs/data/common_stargates/worldgen/structure/stargate/milky_way/pedestal/stargate_pedestal_nether.json"
-hash = "fa6884d316610467ebd5f5b191afde26e7291584b48387c7c3bb71a170227685"
+hash = "0421a007d15218962060dd76330363a3585a0110d6a5bdd18ba0df96ef1efede"
 
 [[files]]
 file = "kubejs/data/common_stargates/worldgen/structure/stargate/milky_way/pedestal/stargate_pedestal_snow.json"
-hash = "677bba7799668a207fc5b588f5000af30ebc195adae69fa82b3c100ad5aebf58"
+hash = "e2341707c6c82e24ef902358cb12613d879050ce9f3f8ee20007df13e6702ca9"
 
 [[files]]
 file = "kubejs/data/common_stargates/worldgen/structure/stargate/milky_way/pedestal/stargate_pedestal_soul_sand.json"
-hash = "4e571563451ac5ed7c48716d115cdb2fff1ebf24c83c345c76526c59cd3f9d0a"
-
-[[files]]
-file = "kubejs/data/common_stargates/worldgen/structure/stargate/universe/pedestal/stargate_pedestal_end.json"
-hash = "972492df959b8a5ef1b0fba372abee7668182ebf5d822f88cec5165fe9d1855c"
+hash = "927cc398112ddc1fefa68de2991f91db4cf3d1307b7963c6b8b4ec82bbd2fce6"
 
 [[files]]
 file = "kubejs/data/common_stargates/worldgen/structure_set/common_stargate.json"
-hash = "da1038720457031b0bcce02273f5035c74ca3d9329a04bf471330fe3d0f27e95"
+hash = "151dd98d0017e66befc82755dbb3f90080048557d741e06d8fe927684179be5d"
 
 [[files]]
 file = "kubejs/data/create/recipes/crushing/obsidian.json"
@@ -1631,6 +1567,78 @@ hash = "530b08c2c15fd58f9d128dbe5bdb8bc0ba697af9112391769db99f1d1636c584"
 [[files]]
 file = "kubejs/data/sgjourney/recipes/sandstone_cartouche.json"
 hash = "2309e886b5fa7abc51098fafeef750abaf7edf665d2758f64eed92b76062128c"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/pedestal REPLACE_THESE/badlands/stargate_pedestal_badlands_1.nbt"
+hash = "3d570d9e02c5bb21218498f0a2c11aa1b139cc267cab41a31ac8c4eccc8e0db5"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/pedestal REPLACE_THESE/badlands/stargate_pedestal_badlands_2.nbt"
+hash = "c535442ff19d50497eea0bfe9b111b09ff0b8b8c06b2f08dfdf5f3b3efae51ac"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/pedestal REPLACE_THESE/deep_dark/stargate_pedestal_deep_dark_1.nbt"
+hash = "2b3952369637491d645cf8439aa20229c75f4ac4600de753db1a350b4724d885"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/pedestal REPLACE_THESE/deepslate/deepslate_stargate_pedestal_1.nbt"
+hash = "d3668ae0ea349b48fdde0985975f2b4fe2b8d48958d7cc2e03dcb93ce89e320e"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/pedestal REPLACE_THESE/desert/stargate_pedestal_desert_1.nbt"
+hash = "c7eb9f613d731b2f4618303c2355b6c4423329e35314d242474e79d1cdbaa117"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/pedestal REPLACE_THESE/desert/stargate_pedestal_desert_2.nbt"
+hash = "407c53b668af8ed3974c5114680a772512d4b497eddd79abb65cf94fdaacee44"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/pedestal REPLACE_THESE/desert/stargate_pedestal_desert_3.nbt"
+hash = "cb142f95cb6f4144230896a9c4583a5cf6a2d8ad30bca747bc257ef105ee8e37"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/pedestal REPLACE_THESE/jungle/stargate_pedestal_jungle_1.nbt"
+hash = "96c0d430c14e70a906395511582c26ecdb513756b58cb1d8753cb2f240352d7f"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/pedestal REPLACE_THESE/mushroom/stargate_pedestal_mushroom_1.nbt"
+hash = "bf5e2f0fd7ea3ea079fa4dcb593bb737b7c1eb4728f7c04893291a7a66560230"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/pedestal REPLACE_THESE/nether/milky_way_stargate_pedestal_nether_1.nbt"
+hash = "ef8b2d4628701d6f4ca6098c167002a018a70f1885cd25db58f1659497c1d03c"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/pedestal REPLACE_THESE/nether/stargate_pedestal_basalt_1.nbt"
+hash = "5b243337bf36a9c1c868c453d55164ea93f1c4f8724d4d256bc6ddc23bcf0acc"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/pedestal REPLACE_THESE/nether/stargate_pedestal_nether_1.nbt"
+hash = "be297149799610bbdbe69eb01068c68b7d82411ddce40f8ac237138a799bfad2"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/pedestal REPLACE_THESE/nether/stargate_pedestal_soul_sand_1.nbt"
+hash = "248b97b8ac2f84e6c819862d54d06bf54fa139086b10c02ae8d2d88b19b69712"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/pedestal REPLACE_THESE/snow/stargate_pedestal_snow_1.nbt"
+hash = "c56712863eb5111b9ef14cf1656112bca2e1b65139a00ead0fb693ad93c23acd"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/pedestal REPLACE_THESE/stargate_pedestal_1.nbt"
+hash = "6965f5d3e1b2c733cfb3d2c81152b22b51b09eb46bfa82e93d00365beb453e2e"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/pedestal REPLACE_THESE/stargate_pedestal_2.nbt"
+hash = "180b388b869c55088d2843954df09eb0d485d646dd9bf93cf04a998e44af5dcc"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/pedestal REPLACE_THESE/stargate_pedestal_3.nbt"
+hash = "1a3e18bc391ed9a2e660de26840d9b26e4704045cf3b88accb2f70ed22c76f08"
+
+[[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/pedestal REPLACE_THESE/stargate_pedestal_4.nbt"
+hash = "db00d95f1e00185fd5bec661baa57091c315df1bcf2c27b18fd872d8f1d2b1b3"
 
 [[files]]
 file = "kubejs/data/sgjourney/structures/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_center.nbt"

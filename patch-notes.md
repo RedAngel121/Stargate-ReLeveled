@@ -1,7 +1,6 @@
 ### WIP:
 - Replaced common stargate pedestals with buried stargates in all dims
-  - ok so my goal is to change the NBT files to buried classic variants and just overwrite your files, might make additional ones idk
-  - then change the JSONs in common_gates to `"absolute": -5` with the exception of the nether, i can just leave those be
+  - ok so my goal is to change the NBT files to buried classic variants and just overwrite wolds files, might make additional ones idk yet
 
 ### Changes:
 - Changed Explorers Compass recipe
