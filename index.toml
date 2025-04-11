@@ -146,7 +146,7 @@ hash = "972492df959b8a5ef1b0fba372abee7668182ebf5d822f88cec5165fe9d1855c"
 
 [[files]]
 file = "SGJdata/common_stargates/worldgen/structure_set/cartouche.json"
-hash = "05eda48663f9806aa433214959ff54c64e9a2c1548525e47f35099e0b445b0c4"
+hash = "fe70ae72eb746672d2ba0689b59ae678edf586de5fbaa402fbd0318965ef1b1b"
 
 [[files]]
 file = "SGJdata/common_stargates/worldgen/structure_set/common_stargate.json"

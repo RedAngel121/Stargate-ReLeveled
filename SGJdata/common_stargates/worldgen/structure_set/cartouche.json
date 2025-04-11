@@ -1,8 +1,5 @@
 {
-	// What structures to pick to try and spawn if a spot passes the placement check.
-	// If two or more structures in this list can spawn in a biome at a spot, a random one based on weight is chosen to spawn
-	"structures":
-	[
+	"structures": [
 		{
 			"structure": "common_stargates:cartouche/stone_cartouche_monument",
 			"weight": 1
@@ -16,16 +13,10 @@
 			"weight": 1
 		}
 	],
-	"placement":
-	{
-		// Make sure this is unique and does not match any other structure set's salt
+	"placement": {
 		"salt": 17368164,
-		// The average distance apart in chunks for spawn attempts
 		"spacing": 24,
-		// Minimum distance apart in chunks for spawn attempts
- 		// MUST ALWAYS BE SMALLER THAN spacing ABOVE
 		"separation": 16,
-		// The kind of placement to use. The other kind is ring based like strongholds use.
 		"type": "minecraft:random_spread"
 	}
 }
