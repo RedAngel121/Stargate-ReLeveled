@@ -1,7 +1,0 @@
-{
-	"replace": false,
-	"values":
-	[
-		{"id": "#sgjourney:wormhole_ignores", "required": false}
-	]
-}

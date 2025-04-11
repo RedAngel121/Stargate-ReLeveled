@@ -1,0 +1,50 @@
+{
+  "structures": [
+    {
+      "structure": "common_stargates:stargate/classic/buried/badlands_structure",
+      "weight": 1
+    },
+    {
+      "structure": "common_stargates:stargate/classic/buried/blackstone_structure",
+      "weight": 1
+    },
+    {
+      "structure": "common_stargates:stargate/classic/buried/desert_structure",
+      "weight": 1
+    },
+    {
+      "structure": "common_stargates:stargate/classic/buried/netherbrick_structure",
+      "weight": 1
+    },
+    {
+      "structure": "common_stargates:stargate/classic/buried/netherrack_structure",
+      "weight": 1
+    },
+    {
+      "structure": "common_stargates:stargate/classic/buried/snow_structure",
+      "weight": 1
+    },
+    {
+      "structure": "common_stargates:stargate/classic/buried/soul_sand_structure",
+      "weight": 1
+    },
+    {
+      "structure": "common_stargates:stargate/classic/buried/deepslate_structure",
+      "weight": 1
+    },
+    {
+      "structure": "common_stargates:stargate/classic/buried/stone_structure",
+      "weight": 1
+    },
+    {
+      "structure": "common_stargates:stargate/classic/pedestal/stargate_pedestal_obstructed_end",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1875847473,
+    "spacing": 80,
+    "separation": 64,
+    "type": "minecraft:random_spread"
+  }
+}
