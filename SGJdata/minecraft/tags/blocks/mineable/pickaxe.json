@@ -1,0 +1,91 @@
+{
+	"replace": false,
+	"values":
+	[
+		"sgjourney:universe_stargate",
+		"sgjourney:universe_ring",
+		"sgjourney:universe_shielding",
+		
+		"sgjourney:universe_stargate_chevron",
+		
+		"sgjourney:milky_way_stargate",
+		"sgjourney:milky_way_ring",
+		"sgjourney:milky_way_shielding",
+		"sgjourney:milky_way_dhd",
+		
+		"sgjourney:pegasus_stargate",
+		"sgjourney:pegasus_ring",
+		"sgjourney:pegasus_shielding",
+		"sgjourney:pegasus_dhd",
+		
+		"sgjourney:classic_stargate",
+		"sgjourney:classic_ring",
+		"sgjourney:classic_shielding",
+		"sgjourney:classic_stargate_base_block",
+		"sgjourney:classic_stargate_chevron_block",
+		"sgjourney:classic_stargate_ring_block",
+		"sgjourney:classic_dhd",
+		
+		"sgjourney:tollan_stargate",
+		"sgjourney:tollan_ring",
+		
+		"sgjourney:transport_rings",
+		"sgjourney:ring_panel",
+		
+		"sgjourney:naquadah_ore",
+		"sgjourney:nether_naquadah_ore",
+		"sgjourney:deepslate_naquadah_ore",
+		"sgjourney:raw_naquadah_block",
+		"sgjourney:pure_naquadah_block",
+		
+		"sgjourney:naquadah_block",
+		"sgjourney:naquadah_stairs",
+		"sgjourney:naquadah_slab",
+		"sgjourney:cut_naquadah_block",
+		"sgjourney:cut_naquadah_stairs",
+		"sgjourney:cut_naquadah_slab",
+		
+		"sgjourney:budding_unity",
+		"sgjourney:unity_cluster",
+		"sgjourney:small_unity_bud",
+		"sgjourney:medium_unity_bud",
+		"sgjourney:large_unity_bud",
+		
+		"sgjourney:sandstone_with_lapis",
+		"sgjourney:sandstone_with_gold",
+		"sgjourney:sandstone_hieroglyphs",
+		"sgjourney:sandstone_switch",
+		"sgjourney:sandstone_cartouche",
+		"sgjourney:sandstone_symbol",
+
+		"sgjourney:red_sandstone_glyphs",
+		"sgjourney:red_sandstone_with_lapis",
+		"sgjourney:red_sandstone_with_gold",
+		"sgjourney:red_sandstone_cartouche",
+		"sgjourney:red_sandstone_symbol",
+
+		"sgjourney:stone_cartouche",
+		"sgjourney:stone_symbol",
+		
+		"sgjourney:golden_idol",
+		
+		"sgjourney:naquadah_generator_mark_i",
+		"sgjourney:naquadah_generator_mark_ii",
+		
+		"sgjourney:basic_interface",
+		"sgjourney:crystal_interface",
+		"sgjourney:advanced_crystal_interface",
+		
+		"sgjourney:naquadah_liquidizer",
+		"sgjourney:heavy_naquadah_liquidizer",
+		
+		"sgjourney:crystallizer",
+		"sgjourney:advanced_crystallizer",
+		
+		"sgjourney:ancient_gene_detector",
+		
+		"sgjourney:zpm_hub",
+		
+		"sgjourney:transceiver"
+	]
+}

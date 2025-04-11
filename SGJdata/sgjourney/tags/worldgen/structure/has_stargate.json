@@ -1,0 +1,8 @@
+{
+	"values":
+	[
+		"#sgjourney:network_stargate",
+		
+		{id: "#common_stargates:common_stargate", required: false}
+	]
+}
