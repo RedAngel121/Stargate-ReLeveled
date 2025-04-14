@@ -1,15 +1,12 @@
 ### WIP:
-- Replaced common stargate pedestals with buried stargates in all dims
-  - ok so my goal is to change the NBT files to buried classic variants and just overwrite wolds files, might make additional ones idk yet
 
 ### Changes:
+- Updated all configs and defaultconfigs to most recent versions
 - Changed Explorers Compass recipe
-- Fixed Fancymenu Docs opening on every update
 - Updated interact whitelists to include numismatics blocks
-- Adjusted SGJourney config settings
-- Adjusted DH Configs to reduce CPU load on servers
 - Fixed Abydos Pyramid Entrance not getting buried correctly
 - Added temporary recipe for Pure Naquadah
+- Replaced common stargate pedestals with buried stargates in all dims
 - Lowered Abydos bedrock to -64 and added Mek ores
   - Please be careful of new chunk generation when mining in the deepslate
   - If you want to reset Abydos, drop by the discord and ask me how!

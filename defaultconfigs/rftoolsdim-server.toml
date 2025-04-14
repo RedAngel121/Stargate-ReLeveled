@@ -43,6 +43,10 @@
 	phasedFieldGeneratorDebuf = true
 	#If true creating dimensions requires an owner dimlet
 	ownerDimletRequired = false
+	#The default base block for a dimension
+	defaultBaseBlock = "minecraft:stone"
+	#The default base fluid for a dimension
+	defaultBaseFluid = "minecraft:water"
 
 #Dimension Builder settings
 [dimensionbuilder]

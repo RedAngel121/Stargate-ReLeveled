@@ -1,7 +1,6 @@
 name = "Simple Discord RPC"
 filename = "SimpleRPC-Universal-3.3.3.jar"
 side = "both"
-pin = true
 
 [download]
 hash-format = "sha1"

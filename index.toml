@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/Advancedperipherals/world.toml"
-hash = "bdc53953e8bf37d8b715be9d3d188adaecc95d71b6c605987da91999da41d5f9"
+hash = "26a724ba0da977fc606abde6d3b28608a0b2bc5a02039b6b9ccf840e5c4c9509"
 
 [[files]]
 file = "config/DistantHorizons.toml"
@@ -14,15 +14,15 @@ hash = "ae6c89a93e653d96aa3817c11385a4fd801c177070d72ba6e8fb1af8796669de"
 
 [[files]]
 file = "config/ad_astra.jsonc"
-hash = "6702aa8d3731b6d2a0dd4232a6e4cfed23fdc8de154196680b5a70e447d6498f"
+hash = "472ff6c4b28019f0e138563834e33392e2c7dc151a65888e71fac57ae161393d"
 
 [[files]]
-file = "config/ad_astra_giselle_addon.jsonc"
-hash = "f67134bfe26e9306a507fead18009150e5ae798b6e44163548246c6212017843"
+file = "config/ad_astra_giselle_addon.ver2.jsonc"
+hash = "5c5282b3fc4cf4be65e2051f0520040244699b7a08c1cf8c7b8f9de592664788"
 
 [[files]]
 file = "config/ae2/common.json"
-hash = "dbd1b6e11c182b35dd4baec8731a62bfdc1438fd60e9ada70ffd6a2cd06772ef"
+hash = "67ddece12213fb7b435f45c80d8d0224f1192d6ea18f2e940e7b57e42596316e"
 
 [[files]]
 file = "config/apotheosis/apotheosis.cfg"
@@ -30,15 +30,23 @@ hash = "7f820f2a493685f8c3fbffa54bbc041b91bfb0db14ab072f2b6014124066db4b"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
-hash = "efb0c3c82fda343d3353b47a03892368809e78dcde235b08f148854e777090b6"
+hash = "613e49abe894dd5e99bc7ff3214a6ec16477307da023b5a0dd99ebf26d3da527"
 
 [[files]]
 file = "config/apotheosis/names.cfg"
-hash = "c6975d7605eb8b0804048dc29c4321bc38c82e83ec0738bcc67f00653a160258"
+hash = "b1357de59d9b79ad872aef0cbeac8fd59f269d5dd87a0bb5bfd46c6dabd84717"
 
 [[files]]
 file = "config/cookingforblockheads-common.toml"
 hash = "7d5700231a91e0a523583922d079f458a80033325c59ebc8cf399c3520f32426"
+
+[[files]]
+file = "config/fancymenu/assets/HVbTxLf.png"
+hash = "3d10c9672b4f4fbb6d1ccffa6b01eb42073e29f7a3cde7bd880ef05227291b82"
+
+[[files]]
+file = "config/fancymenu/assets/abydos.png"
+hash = "26ecd158cc31fa002ebb9f6b5522a9686cb110b71305cff42de84b1a0b06d030"
 
 [[files]]
 file = "config/fancymenu/assets/connect.png"
@@ -210,11 +218,11 @@ hash = "392ea74823594d160c2a2990e99e75c30ffde6f072b705f986f024d7d21568f3"
 
 [[files]]
 file = "config/flan/flan_config.json"
-hash = "04d045fb11b304d22f685c78e7f0668b963119bedfe610d8b42ff9297cf2f94b"
+hash = "9d18e0ebf4c8147d6b5d983804e741fde68c59013df213508ee5dbd6b445f619"
 
 [[files]]
 file = "config/ftbbackups2.json"
-hash = "b93ec397ec445ae4da3fbd8515929496e4835a1877955b3c5d2afc136c305ca4"
+hash = "fcb4aea3a2e0abbe4f204354def9b21f799028209dfbc0f118b9c6a339754924"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -298,7 +306,7 @@ hash = "50a9b69ab0123da3459844ed899c359356718f2c3b1636bc64f8e2328b9bf463"
 
 [[files]]
 file = "config/jei/jei-client.ini"
-hash = "07155fbf3aae320fa10909607f5a2f88bb019d0fd0d2086f8534f440e8a32acf"
+hash = "b91afb6b706695c3d9b62c5908cc2722dbabb38242d74d952aac4d85b3007c68"
 
 [[files]]
 file = "config/megacells.json"
@@ -306,15 +314,15 @@ hash = "b9d8a859859ce598ea852230e4d18726756f89b371c03dce59c9ffe5025318d2"
 
 [[files]]
 file = "config/peripheralworks.toml"
-hash = "2fb9a7d0eab1e38c6a8393d32e9cff7569909a237b9a0f9a181dc218220f362d"
+hash = "91c43f6c8362fc32bc1e9b2a871550843d16b0b4e0b4fe22ae23b589c8ad9eeb"
 
 [[files]]
 file = "config/sgjourney-common.toml"
-hash = "3c9f5f7f15ce1bdb0ee3e0a74628d454393f0722b2677c21aa5285b5b718dc1f"
+hash = "3dbe59a34f5e8d31c6581ee552ed0bdc15d1b862c3056d384a0b31d955b65b51"
 
 [[files]]
 file = "config/sidebar_buttons.json"
-hash = "c0a2342ab1d042cec98799321a196d4b9ef958d6fdd59869c905226e71c5c8b2"
+hash = "920b190e450c2b832cc3ecd218d7536ee8e880cfdd9614396ff31a8c5faa2a75"
 
 [[files]]
 file = "config/simple-rpc/server-entries.toml"
@@ -322,11 +330,11 @@ hash = "17b07ca5f6758448c4c2effbe9cb9f7b2b534c83b1287b5b751c3bbe4f74f2d0"
 
 [[files]]
 file = "config/simple-rpc/simple-rpc.toml"
-hash = "244c1754f8f41c204a96cc9296085895cf92bb05032b3178a0a505d59c2b675e"
+hash = "f6a9c7bba6a4158a654f5c5351710c88abf237bc867be860744e86af5ee3e247"
 
 [[files]]
 file = "config/smoothchunk.json"
-hash = "169e722c0a6cc7315f92f2a0ca7591fc42fc9b40349ee8c5a139e586cbc7d797"
+hash = "fa7c329e5bc6c45e887abb72850197bd264fd006783faf9fa09ad3756688e621"
 
 [[files]]
 file = "config/staaaaaaaaaaaack-client.toml"
@@ -346,7 +354,7 @@ hash = "9e94cea5e76831982350add1328b3c109f5b767ac328fc6321963f1ae304d264"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
-hash = "29250fec830b50c7861e757d6f944718d3f573eccfe6a9b8cfdb2ba11329ccf7"
+hash = "b26952149ccaee45de60732ef1a240cbce9f69ce2ede1803bc0aec17a3a9c5c6"
 
 [[files]]
 file = "defaultconfigs/auto_restart-server.toml"
@@ -354,19 +362,15 @@ hash = "1cd638318f851108fa75f50358a29b85c9a2384eff538c6fb631b94225f037ae"
 
 [[files]]
 file = "defaultconfigs/create-server.toml"
-hash = "e924e8191511b2111353716573e579c84dec4d07db85ed4b5107e05a82c7b7b6"
+hash = "539553dfd0771c076c6244605db54328f8f9dfe355c755b843ecd45342294e81"
 
 [[files]]
 file = "defaultconfigs/forge-server.toml"
-hash = "53383fd2010441a0c2169d8d69ae25a6af3fc6ce8edf6aa63e8db67abc0eb217"
+hash = "f5a64024ab5f48d443d45a09a71740f03866e47e1037814c5b0eaff77391e359"
 
 [[files]]
 file = "defaultconfigs/ftbchunks-world.snbt"
-hash = "83da36c8a01f42cd8d69de7480caaf5d1453be9937201baadcbf3cd076f2c1db"
-
-[[files]]
-file = "defaultconfigs/ftbessentials-server.snbt"
-hash = "4444fa163e029565eb76f6aa55940e99cfcf21727778dd6fcca4f22e1b62e5f6"
+hash = "0c5cd351482f9611934a65b355e04e5403e36c92e3066ea0670567bae018b591"
 
 [[files]]
 file = "defaultconfigs/ftbquests/client-config.snbt"
@@ -378,11 +382,11 @@ hash = "9e5046ac0b9f6d27945b689657835bff24310aec7b11f7461c972b514d0e0658"
 
 [[files]]
 file = "defaultconfigs/rftoolsbuilder-server.toml"
-hash = "61335da7fc6fe8a14f015eb4be24e2221693ec5c232898ed2c170060ba86e33d"
+hash = "b867ae1634265ab27d8f7817c158b875230dba2e3409df8da61fb8045c4f4048"
 
 [[files]]
 file = "defaultconfigs/rftoolsdim-server.toml"
-hash = "d22bafb15b4a4caaff6a15964b97d760138e1387e4d9d95aa4687e819c4ed3c5"
+hash = "c105a57c1cb5ac701c92e9e663d6c0bf18e3f1de86b73f6e1248e308ffe7a492"
 
 [[files]]
 file = "defaultconfigs/rftoolsutility-server.toml"
@@ -2695,7 +2699,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-discord-rpc.pw.toml"
-hash = "7191a87790d1e5c08b6b00a53e9adb798b83eb8870047d371cc1f81ddd3db019"
+hash = "bb217c96d1f1aa347ef3b3c0f8b5252f17132b9d98cb0cb5aa8a082eaa177d9b"
 metafile = true
 
 [[files]]

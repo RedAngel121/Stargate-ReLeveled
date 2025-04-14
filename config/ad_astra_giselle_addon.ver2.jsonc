@@ -1,5 +1,7 @@
 {
     "items": {
+        // Type: Integer
+        "oxygen_chargers_distribution_interval": 20,
         // Type: Long
         "oxygen_can_fluid_capacity": 500,
         // Type: Long
@@ -33,7 +35,7 @@
          */
         "gravity_normalizer_energy_per_blocks": 0.5,
         // Type: Integer
-        "gravity_normalizer_max_length": 60,
+        "gravity_normalizer_max_length": 63,
         // Type: Integer
         "gravity_normalizer_proof_duration": 10,
         /*

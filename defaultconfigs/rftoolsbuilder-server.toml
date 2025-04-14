@@ -83,6 +83,8 @@
 	maxBuilderDimension = 512
 	#If true we go back to the old (wrong) sphere/cylinder calculation for the builder/shield
 	oldSphereCylinderShape = false
+	#Whitelist or blacklist block NBT data from being transferred over, set `true` to whitelist block, set `false` to blacklist block, every block not included in the list is blacklisted by default (format <id>=<boolean>)
+	blackWhiteListedNBTBlocks = ["minecraft:chest=false"]
 
 #Settings for the shield system
 [shield]

@@ -32,7 +32,7 @@
 	# DEFAULT: allow force-loading IF the team has at least one player with the 'ftbchunks.chunk_load_offline' FTB Ranks permission.
 	# Default: "default"
 	# Valid values: "default", "always", "never"
-	force_load_mode: "never"
+	force_load_mode: "always"
 	
 	# Hard limit for the number of chunks a team can claim, regardless of how many members. Default of 0 means no hard limit.
 	# Default: 0
@@ -103,6 +103,10 @@
 	# Valid values: "largest", "owner", "sum", "average"
 	party_limit_mode: "largest"
 	
+	# If true, pistons are prevented from pushing/pulling blocks across claims owned by different teams (unless the target claim has public 'edit block' permissions defined). If 'disable_protection' is set to true, this setting is ignored.
+	# Default: true
+	piston_protection: true
+	
 	# When true, standard FTB Chunk explosion protection is applied in protected chunks when the source of the explosion cannot be determined
 	# (Ghast fireballs are a common case - vanilla supplies a null entity source)
 	# Default: true
@@ -117,4 +121,17 @@
 	# Requires KubeJS and/or Gamestages to be installed.
 	# Default: false
 	require_game_stage: false
+	waypoint_sharing: {
+		# Allow players to share waypoints with their party.
+		# Default: true
+		waypoint_sharing_party: true
+		
+		# Allow players to share waypoints with other players.
+		# Default: true
+		waypoint_sharing_players: true
+		
+		# Allow players to share waypoints with the entire server.
+		# Default: true
+		waypoint_sharing_server: true
+	}
 }
