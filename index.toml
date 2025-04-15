@@ -10,7 +10,7 @@ hash = "7f34d3d99ae26af13e18462cb08412d92d3d463f232a8774d023ab4c4062d569"
 
 [[files]]
 file = "config/Mekanism/general.toml"
-hash = "ae6c89a93e653d96aa3817c11385a4fd801c177070d72ba6e8fb1af8796669de"
+hash = "dd9aed10adfc02c39d5694025961cb17d197b0f9b94de7e27638c8e45a1fab2b"
 
 [[files]]
 file = "config/ad_astra.jsonc"
@@ -1558,7 +1558,7 @@ hash = "ab8e9727239640f68896a26aeb0e5e57f7e6d70751dddc1b17b188b3868a42da"
 
 [[files]]
 file = "kubejs/data/sgjourney/recipes/advanced_crystallizing/pure_naquadah.json"
-hash = "d496fd7f24b824d76f2bd609e952daf2ddad87a33c77715b8eedd331dac0f0f4"
+hash = "933cc939324585253e1ef76f28d0e7c9782a4a46b355b12848ca904d3c85c1e1"
 
 [[files]]
 file = "kubejs/data/sgjourney/recipes/personal_shield_emitter.json"
@@ -2187,6 +2187,11 @@ metafile = true
 [[files]]
 file = "mods/embeddium.pw.toml"
 hash = "a1575677daaaf6ea6dac12e5a10073e34025e5ca2c35b6d36ad4a5a0edbc0e82"
+metafile = true
+
+[[files]]
+file = "mods/enderchests.pw.toml"
+hash = "ddfd4ecec76622a69f3c73464d5442e3026a76e5c689e7846e88949117b930cf"
 metafile = true
 
 [[files]]

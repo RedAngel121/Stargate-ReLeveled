@@ -14,6 +14,7 @@
 
 ### Additions:
 - Packet Fixer (could help with long range connections)
+- Ender Chests (Remember to upgrade your ender tanks!)
 
 ### Updates:
 

@@ -6,11 +6,11 @@
   },
   "primary_ingredient": {
     "item": "minecraft:quartz",
-    "amount": 8
+    "amount": 32
   },
   "secondary_ingredient": {
     "item": "minecraft:quartz",
-    "amount": 48
+    "amount": 32
   },
   "deplete_primary": true,
   "deplete_secondary": true,
