@@ -6,12 +6,13 @@
 - Updated interact whitelists to include numismatics blocks
 - Fixed Abydos Pyramid Entrance not getting buried correctly
 - Added temporary recipe for Pure Naquadah
-- Replaced common stargate pedestals with buried stargates in all dims
+- Added Undergarden Gate (Thanks to lukaskabc and Samrel556)
 - Lowered Abydos bedrock to -64 and added Mek ores
   - Please be careful of new chunk generation when mining in the deepslate
   - If you want to reset Abydos, drop by the discord and ask me how!
 - Common stargates is now disabled for single player expeirence
   - Change `common_stargate_generation` to true in `sgjourney-common` config to enable this again (or if you start a server)
+- Replaced common stargate pedestals with buried stargates in all dims
 
 ### Additions:
 - Packet Fixer (could help with long range connections)
@@ -23,6 +24,10 @@
 ### Short Term Objectives:
 - Should I add Flux/Powah for wireless charging and alternative power?
 - Find a reason to add https://www.curseforge.com/minecraft/mc-mods/project-red-core + everything except exploration
+- Dims that need First Dial Gates:
+  - deeperdarker:otherside
+  - overworldmirror:overworld
+  - undergarden:undergarden
 
 - Wait for mods to Update to Create 6:
   - SGJ Ponder - Jaja needs to update this or remove it from the pack
@@ -44,6 +49,9 @@
 
 ### Long Term Objectives:
 - Non-Overworld "overworld" dim replicas still spawn the overworld alpha and beta gates, can that be limited?
+- Create a new DIM using SGJ and add https://www.curseforge.com/minecraft/mc-mods/splendid-slimes to it 
+  - MW or Peg Galaxy?
+  - InControl to limit slime spawning to specific dim
 - Add Milky Way Planet Galar Mega City https://www.gateworld.net/wiki/Galar - Use Minecraft City mod
 - Replace current ore growing and botany pots with Mystical Agriculture + MA Customize
   - Tiered Substrates conversions into MA
@@ -54,3 +62,4 @@
   - New Processing Trees
   - Substrate Replacement/Additions
   - Oil removal and recipe/tag replacement with existing oil
+- Full FTB Suite Replacements

@@ -1,47 +1,35 @@
 {
   "structures": [
     {
-      "structure": "common_stargates:stargate/milky_way/pedestal/stargate_pedestal",
+      "structure": "common_stargates:stargate/classic/buried/badlands_structure",
       "weight": 1
     },
     {
-      "structure": "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_deepslate",
+      "structure": "common_stargates:stargate/classic/buried/blackstone_structure",
       "weight": 1
     },
     {
-      "structure": "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_badlands",
+      "structure": "common_stargates:stargate/classic/buried/desert_structure",
       "weight": 1
     },
     {
-      "structure": "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_desert",
+      "structure": "common_stargates:stargate/classic/buried/nether_structure",
       "weight": 1
     },
     {
-      "structure": "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_jungle",
+      "structure": "common_stargates:stargate/classic/buried/snow_structure",
       "weight": 1
     },
     {
-      "structure": "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_mushroom",
+      "structure": "common_stargates:stargate/classic/buried/soul_sand_structure",
       "weight": 1
     },
     {
-      "structure": "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_snow",
+      "structure": "common_stargates:stargate/classic/buried/deepslate_structure",
       "weight": 1
     },
     {
-      "structure": "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_nether",
-      "weight": 1
-    },
-    {
-      "structure": "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_soul_sand",
-      "weight": 1
-    },
-    {
-      "structure": "common_stargates:stargate/milky_way/pedestal/stargate_pedestal_basalt",
-      "weight": 1
-    },
-    {
-      "structure": "common_stargates:stargate/universe/pedestal/stargate_pedestal_end",
+      "structure": "common_stargates:stargate/classic/buried/stone_structure",
       "weight": 1
     }
   ],

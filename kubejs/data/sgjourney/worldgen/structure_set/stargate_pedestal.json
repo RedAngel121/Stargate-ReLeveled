@@ -1,0 +1,14 @@
+{
+    "structures":[
+    {
+	    "structure": "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_undergarden",
+	    "weight": 1
+    }
+    ],
+    "placement": {
+    "salt": 1646217471,
+    "spacing": 1,
+    "separation": 0,
+    "type": "minecraft:random_spread"
+  }
+}
