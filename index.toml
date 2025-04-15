@@ -1558,7 +1558,7 @@ hash = "ab8e9727239640f68896a26aeb0e5e57f7e6d70751dddc1b17b188b3868a42da"
 
 [[files]]
 file = "kubejs/data/sgjourney/recipes/advanced_crystallizing/pure_naquadah.json"
-hash = "8930fbef5ef5475fbfceee05f17b7a93fbc0c7a0c81d51b5ba4adefd52ee9e78"
+hash = "d496fd7f24b824d76f2bd609e952daf2ddad87a33c77715b8eedd331dac0f0f4"
 
 [[files]]
 file = "kubejs/data/sgjourney/recipes/personal_shield_emitter.json"
