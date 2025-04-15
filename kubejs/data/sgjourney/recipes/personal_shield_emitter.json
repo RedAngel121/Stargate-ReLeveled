@@ -13,10 +13,10 @@
       "item": "minecraft:emerald_block"
     },
     "N": {
-       "item": "sgjourney:naquadah"
+      "item": "sgjourney:naquadah"
     },
     "D": {
-       "item": "ae2:dense_energy_cell"
+      "item": "ae2:dense_energy_cell"
     }
   },
   "result": {

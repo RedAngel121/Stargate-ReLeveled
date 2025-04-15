@@ -1,6 +1,5 @@
 {
-    "values":
-    [
+  "values": [
     "common_stargates:stargate/classic/buried/badlands_structure",
     "common_stargates:stargate/classic/buried/blackstone_structure",
     "common_stargates:stargate/classic/buried/desert_structure",
@@ -9,5 +8,5 @@
     "common_stargates:stargate/classic/buried/soul_sand_structure",
     "common_stargates:stargate/classic/buried/deepslate_structure",
     "common_stargates:stargate/classic/buried/stone_structure"
-    ]
+  ]
 }

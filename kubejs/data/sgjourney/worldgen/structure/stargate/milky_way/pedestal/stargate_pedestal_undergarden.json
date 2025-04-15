@@ -6,27 +6,20 @@
   "biomes": "#sgjourney:has_structure/stargate_pedestal/stargate_pedestal_undergarden_biomes",
   "step": "strongholds",
   "terrain_adaptation": "beard_thin",
-	"start_height":
-	{
-		"type": "minecraft:uniform",
-		"min_inclusive":
-		{
-			"absolute": 20
-		},
-		"max_inclusive":
-		{
-			"absolute": 90
-		}
-	},
-
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 20
+    },
+    "max_inclusive": {
+      "absolute": 90
+    }
+  },
   "use_expansion_hack": false,
-
   "spawn_overrides": {
     "monster": {
       "bounding_box": "piece",
-      "spawns": [
-        
-      ]
+      "spawns": []
     }
   }
 }

@@ -1,6 +1,5 @@
 {
-	"values":
-	[
-		"#common_stargates:common_stargate"
-	]
+  "values": [
+    "#common_stargates:common_stargate"
+  ]
 }

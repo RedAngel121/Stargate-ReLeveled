@@ -1,0 +1,9 @@
+{
+  "type": "flan:block_left_click",
+  "values": [
+    {
+      "entry": "#sophisticatedstorage:limited_barrels",
+      "permission": "flan:open_container"
+    }
+  ]
+}

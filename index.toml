@@ -1142,39 +1142,39 @@ hash = "ece803155b7f5de8d3607316fa136ba8055d0c104cb01555f8cb7fbd1144bbed"
 
 [[files]]
 file = "kubejs/data/common_stargates/tags/worldgen/structure/common_stargate.json"
-hash = "5f1698d7b950ea3bab76631769458927af5153053a3bfde8101208f54a7b9634"
+hash = "0c7b19a5410240844109ff130592077913993c876f74f1ceb0b7d89504df1ce7"
 
 [[files]]
 file = "kubejs/data/common_stargates/worldgen/structure/stargate/classic/buried/badlands_structure.json"
-hash = "eb187f4471954fb68afd70719eae0814b4385fa821c1c7aaa785395c6653fc6f"
+hash = "244570d79f2372696a9154b4bce6b30c829b1099d894d34eda8614bf49ac47da"
 
 [[files]]
 file = "kubejs/data/common_stargates/worldgen/structure/stargate/classic/buried/blackstone_structure.json"
-hash = "c6b435b12fd1671903c3898e084a161eb8dc83458040f1563c550001b701feed"
+hash = "83e0d51d95f1cc08e85d829b2fa6bef80ee650e444b51985e14a8edfe617e19d"
 
 [[files]]
 file = "kubejs/data/common_stargates/worldgen/structure/stargate/classic/buried/deepslate_structure.json"
-hash = "e4936a5d97d50a031c4b07478c8ae5b76d43f9bf4deec3393dc533a3c2da6fe4"
+hash = "f007db78b83a4ef2f96f8ba8b484a1129b48b0108d8e8f2332ab745379699994"
 
 [[files]]
 file = "kubejs/data/common_stargates/worldgen/structure/stargate/classic/buried/desert_structure.json"
-hash = "865c4a6f5ca9c8d7cec87f3df2a6dd16bbfd33f32ed9b7ab2614afaa6f6f86f3"
+hash = "96f4969976becc96842e197ec4eff367b8a0307bf76766db739c6538620b04a3"
 
 [[files]]
 file = "kubejs/data/common_stargates/worldgen/structure/stargate/classic/buried/nether_structure.json"
-hash = "0b2e1ed2638d5175e42bc39e480e09ce904afd1624126e4747206a805fe7103f"
+hash = "25e81f2e92be1bcdb79e21ca8b697712595186bcbcb7de10ecfa393deaec29c0"
 
 [[files]]
 file = "kubejs/data/common_stargates/worldgen/structure/stargate/classic/buried/snow_structure.json"
-hash = "f2da1c80d92af0f9c3418490905278af9cf16497b1d5f538f98aa7f7975ebc82"
+hash = "90ade999e16c3e4d64bc85e24a08b990f4437e0c9152d854f65837aaffee5272"
 
 [[files]]
 file = "kubejs/data/common_stargates/worldgen/structure/stargate/classic/buried/soul_sand_structure.json"
-hash = "d768d237b33cdf606368e70f482a84af25a06138fc7309723c0d24d8338a526a"
+hash = "206c2e2fad896c5e6e4f5ec3945f0a13b8a82f783b6e672567c2a8a910446509"
 
 [[files]]
 file = "kubejs/data/common_stargates/worldgen/structure/stargate/classic/buried/stone_structure.json"
-hash = "e8aeb217dfb81d941a32791ce2f5a2ef65d12c67dbc2b237ee78b64f315b70e1"
+hash = "414d5db9795244b245aa678d0d32429a4a06292a7a712eccefd37cd6a42da06e"
 
 [[files]]
 file = "kubejs/data/common_stargates/worldgen/structure_set/common_stargate.json"
@@ -1271,6 +1271,10 @@ hash = "2f03c515d66b4c6255deb87ae1e423f886e42ffa034987bf0fcc5faffdc3777c"
 [[files]]
 file = "kubejs/data/explorerscompass/recipes/explorers_compass.json"
 hash = "2c17f87fb719f418cefaa52f397eef527e2ddf30add95b4f778e4f8e8a7ffcdd"
+
+[[files]]
+file = "kubejs/data/flan/claim_interactions_override/sophisticated_storage.json"
+hash = "c1c54c584222c2f485d651633d06e1162cdb9978e6a8700117dd671d77e64f02"
 
 [[files]]
 file = "kubejs/data/ftbchunks/tags/blocks/interact_whitelist.json"
@@ -1482,15 +1486,15 @@ hash = "44eee99e8816172d0de61c94319c90b37ee2dc2d6fdbf36e6806a4b34354e1ac"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/curios/slots/charm.json"
-hash = "aaaa33bf74dbd3c302f1bb6c64d8830e796ef2ed1cf36c68f60d9a9e5ceda0fc"
+hash = "7cb4681da14254ad29425ac322b71d134c1ad224e9fd4160187554bea2b4d4d7"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/forge/biome_modifier/striated_evaporites.json"
-hash = "c1f685103abf1d0274838a678a86ef542419ae878918d2c623e33adb89333bf9"
+hash = "c66af7d84928bed806fbf98c179b0f9b218534f6ee73f86347bab3949149ad92"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/forge/biome_modifier/striated_phosphorite.json"
-hash = "1ec33203a354149aa0f1f1d7daf8068ac22b72ff45fdbab205d737970549fd86"
+hash = "c740d86dacc6581463d7c221bd598cb95afdfd22181f9a7bd324c5700405d23b"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipes/cobbled_deepslate.json"
@@ -1550,15 +1554,15 @@ hash = "f7bee9f9ac70e20835b98dc74f54be9655ad769e878590ff58c5acdd0864392c"
 
 [[files]]
 file = "kubejs/data/sgjourney/dimension_type/abydos.json"
-hash = "59cf7f8ba133c853b02952cbee56a1a23b41916d7768761e84bedc4acbc6574f"
+hash = "ab8e9727239640f68896a26aeb0e5e57f7e6d70751dddc1b17b188b3868a42da"
 
 [[files]]
 file = "kubejs/data/sgjourney/recipes/advanced_crystallizing/pure_naquadah.json"
-hash = "148f31068f9ca931a6078eb28568ffa602815b66043cef345f1e61482b960265"
+hash = "8930fbef5ef5475fbfceee05f17b7a93fbc0c7a0c81d51b5ba4adefd52ee9e78"
 
 [[files]]
 file = "kubejs/data/sgjourney/recipes/personal_shield_emitter.json"
-hash = "530b08c2c15fd58f9d128dbe5bdb8bc0ba697af9112391769db99f1d1636c584"
+hash = "cab0e814d556792154967360d79d8ad59ccbeb001cb33e5374ba465a464156b1"
 
 [[files]]
 file = "kubejs/data/sgjourney/recipes/sandstone_cartouche.json"
@@ -1674,39 +1678,39 @@ hash = "80fad5f18de1667f4f4fe8d2f4c21bb8ecb3aca96f358cbc17ec013062d26eb4"
 
 [[files]]
 file = "kubejs/data/sgjourney/tags/worldgen/biome/has_structure/stargate_pedestal/stargate_pedestal_undergarden_biomes.json"
-hash = "07a68d1b2c298e958673d07559496bc360af9b73e34e8351e13771399c0aa5d3"
+hash = "0863f302d4ee8e4475fa4b9a62780a41e62330843e5913b4f8778a71a627b926"
 
 [[files]]
 file = "kubejs/data/sgjourney/tags/worldgen/structure/has_stargate.json"
-hash = "3dcb9be31f33841e1a11a47e020180fa73bfc201e426eac470e407f58332e23d"
+hash = "e5a2437485e02f41c170e99ca53a98732670a025f6e6c1f8ccfc4d0342be43cf"
 
 [[files]]
 file = "kubejs/data/sgjourney/tags/worldgen/structure/milky_way_stargate_pedestal.json"
-hash = "24bd84f5c4a4a85342dd8a494c41f6f672c6265bacc708ae54a374a74ba9350d"
+hash = "172add540d9ad30192e801e99ec3667aef42f5fc0317a76438dfc670dafbf98c"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/biome/abydos_desert.json"
-hash = "029525d15f23f895ff022a09426997f1d0380162957d8d8b30e087f34b223660"
+hash = "2c187498fb73acc38e1a0a5a71f28bd26ee0c59a02782d7ecce0e80499a0fb4c"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/biome/abydos_oasis.json"
-hash = "e6629e3ffb0314fc6bc5d5859521310ef94561f48010a7c26d43fee90774cb7e"
+hash = "f807d1c16e3a94cd20f976381b1d0c3aaf14fe6109f45fe33037cbe1e9d53b5e"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/biome/abydos_spires.json"
-hash = "be8a96492af1b6cb9317c7a863a8d66ed5709cfebc8148c1b4acef2955a37a63"
+hash = "359ff56cab62f15bb47d1f59415acf1d0c3a48c23eb230e112e4a7ad86bf7241"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/noise_settings/abydos.json"
-hash = "7bbb6c3a279029b6a1364e203e5ad30e52e5c28c83badec9f3f43b92e2fe6c56"
+hash = "8804b2644024237968a1f3e2b8ac3f011d3dea15dc0f6f6893e8d504df6c72d0"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/placed_feature/ore_naquadah.json"
-hash = "e2b01a7cc36008f07959bbc7f4bd7935122038771fcfcc27a9c3cbd2724a1a7a"
+hash = "17689d8eeba17d15080288646d93915946d42d6ea65e10f27638a978227b37c1"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/structure/stargate/milky_way/pedestal/stargate_pedestal_undergarden.json"
-hash = "804b4a7c6db95e24d3300775070bcb079ed11aa69da0b6be4ab0adbd04811985"
+hash = "d6c1f5d4cc9544c4624f9ac733b0398d53ea2002246655ceabe026b0bdd1382e"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/structure/stargate/milky_way/temple/abydos_pyramid.json"
@@ -1714,7 +1718,7 @@ hash = "6c921adc9d7d5e59b890dd051e92981da85c488e4c04f4aff6a6de55dde2b8b0"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/structure_set/stargate_pedestal.json"
-hash = "0fb01e3df7e76f9701c21f03f9160afc401174ec635d779d46f54b5d79bd5e4f"
+hash = "4b6876366cda914daf89a5144ca6bf55f54cbb516b216b88a7abb6367e0b5b0c"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/classic/buried/badlands_pool.json"
@@ -1750,11 +1754,11 @@ hash = "03a8f3ff3f8854a30f19c0e8003b435b41dc374936d08535f86a766b6d2e06e1"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/milky_way/pedestal/stargate_pedestal_undergarden.json"
-hash = "90f18ff872a39ec2c8fecf1a6ce9b9c889065a0ea7408c0652f28761b4db11ef"
+hash = "513afbb079b69558d36990d808727398a9b321d0a08e901853850518b63979ac"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/milky_way/temple/abydos_pyramid/center_pool.json"
-hash = "6b09487303bc6f144278d5c32e171cb3eff8b15b6a4d993fc783d1261556d5a1"
+hash = "bba3ab9d1cd75382f897cc821c21dfce95a1a1b56ca6407e03b7360e9fb185b5"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/milky_way/temple/abydos_pyramid/corner_pool.json"
@@ -1842,7 +1846,7 @@ hash = "9d09709aa13c6b7bd87a976122c62cf76ed9e40496a5e58da84df82988f3e161"
 
 [[files]]
 file = "kubejs/server_scripts/randomTagsFix.js"
-hash = "b76aee4e3747ac93c7387d8d2111ba73195e7e9f4d4baee904c997b0f239e84e"
+hash = "fd7f38bc5841d3d64213cbe4340ab1deea5d089a55c2269c14db8edefc5352b3"
 
 [[files]]
 file = "kubejs/server_scripts/recipeUtil.js"

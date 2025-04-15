@@ -3,7 +3,7 @@
   "start_pool": "sgjourney:stargate/classic/buried/stone_pool",
   "size": 1,
   "max_distance_from_center": 80,
-  "biomes": "#common_stargates:has_structure/stargate/milky_way/pedestal/stargate_pedestal_stone_biomes",
+  "biomes": "#common_stargates:has_structure/stargate/milky_way/pedestal/stargate_pedestal_biomes",
   "step": "strongholds",
   "start_height": {
     "absolute": -5
@@ -16,7 +16,7 @@
       "spawns": []
     }
   },
-  "terrain_adaptation": "encapsulate",
+  "terrain_adaptation": "none",
   "stargate_modifiers": {
     "display_id": false,
     "upgraded": false

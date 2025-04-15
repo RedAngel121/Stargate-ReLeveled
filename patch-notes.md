@@ -27,7 +27,7 @@
 - Dims that need First Dial Gates:
   - deeperdarker:otherside
   - overworldmirror:overworld
-  - undergarden:undergarden
+  - undergarden:undergarden **DONE**
 
 - Wait for mods to Update to Create 6:
   - SGJ Ponder - Jaja needs to update this or remove it from the pack

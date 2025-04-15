@@ -21,7 +21,7 @@
       "spawns": []
     }
   },
-  "terrain_adaptation": "encapsulate",
+  "terrain_adaptation": "none",
   "stargate_modifiers": {
     "display_id": false,
     "upgraded": false
