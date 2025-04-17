@@ -1718,7 +1718,7 @@ hash = "6c921adc9d7d5e59b890dd051e92981da85c488e4c04f4aff6a6de55dde2b8b0"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/structure_set/stargate_pedestal.json"
-hash = "4b6876366cda914daf89a5144ca6bf55f54cbb516b216b88a7abb6367e0b5b0c"
+hash = "f9db3a1ace3b2673d5c3bb4d69d438cce976f9a8b1885c4475dc72be48d7aac1"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/classic/buried/badlands_pool.json"
