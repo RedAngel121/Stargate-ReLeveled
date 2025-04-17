@@ -5,6 +5,10 @@ file = "config/Advancedperipherals/world.toml"
 hash = "26a724ba0da977fc606abde6d3b28608a0b2bc5a02039b6b9ccf840e5c4c9509"
 
 [[files]]
+file = "config/DimStruct Restrict.json"
+hash = "ab7222cdc1020a0b9f06e4df6456ccab3c6b127860ce3681c4321ea3ea41e629"
+
+[[files]]
 file = "config/DistantHorizons.toml"
 hash = "7f34d3d99ae26af13e18462cb08412d92d3d463f232a8774d023ab4c4062d569"
 
@@ -1883,6 +1887,10 @@ hash = "e85ea492f290ddea066ef30532fed037412b5a43508d71e3bea8cdf2c8659a51"
 [[files]]
 file = "kubejs/startup_scripts/startup.js"
 hash = "2206f713e71df7de9421034a0cff77a1a2b9cef75ff5623c0509ca04182502a8"
+
+[[files]]
+file = "mods/DimStructure Restrict-0.1.0.jar"
+hash = "0a29691aee5ac8cf4ee71d17772d4fd3054f302c04591fe4f7e7aa4e501ff232"
 
 [[files]]
 file = "mods/ad-astra-giselle-addon.pw.toml"
