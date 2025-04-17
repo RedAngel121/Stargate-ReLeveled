@@ -49,10 +49,6 @@ file = "config/fancymenu/assets/HVbTxLf.png"
 hash = "3d10c9672b4f4fbb6d1ccffa6b01eb42073e29f7a3cde7bd880ef05227291b82"
 
 [[files]]
-file = "config/fancymenu/assets/abydos.png"
-hash = "26ecd158cc31fa002ebb9f6b5522a9686cb110b71305cff42de84b1a0b06d030"
-
-[[files]]
 file = "config/fancymenu/assets/connect.png"
 hash = "99318f4b6aaa698ad4fb3b956f6f5c663597a50a661e17bf8313839b57af06da"
 
@@ -205,6 +201,10 @@ file = "config/fancymenu/slideshows/main_menu/images/quantum.png"
 hash = "d056099c5328219bf4e8f327cd2a8bb4092a56593f34fec3b62e0c84ebbb9f1a"
 
 [[files]]
+file = "config/fancymenu/slideshows/main_menu/images/secret_base.png"
+hash = "8e9edf7720d1bc3353b06d5a580f0d14801f1cc7f3e1231570f1e6359a8ff19d"
+
+[[files]]
 file = "config/fancymenu/slideshows/main_menu/images/sgc.png"
 hash = "06f90d5676b1b905de8cccf402a1246736b8331614710510c6733c8ff6b15843"
 
@@ -329,12 +329,80 @@ file = "config/sidebar_buttons.json"
 hash = "920b190e450c2b832cc3ecd218d7536ee8e880cfdd9614396ff31a8c5faa2a75"
 
 [[files]]
+file = "config/simple-rpc/assets/abydos.png"
+hash = "26ecd158cc31fa002ebb9f6b5522a9686cb110b71305cff42de84b1a0b06d030"
+
+[[files]]
+file = "config/simple-rpc/assets/athos.png"
+hash = "9ccd22c277d1f6a6119ebc4f0c28784731ec3adbed070881919c5a3e2b3f0dd5"
+
+[[files]]
+file = "config/simple-rpc/assets/cavum_tenebrae.png"
+hash = "7fa4f21c737afd9a0203a867561a2445d438830f177499a8c035645482afa34b"
+
+[[files]]
+file = "config/simple-rpc/assets/chulak.png"
+hash = "b48b4c7cfc571b4faf4ffbd3259f76ebc50f1adb3ffa24815fe774346d3615f9"
+
+[[files]]
+file = "config/simple-rpc/assets/deepdark.png"
+hash = "0913d9f57bda2e3bf53b2a47e947861b5be23c275bb05918f15454de9c81c410"
+
+[[files]]
+file = "config/simple-rpc/assets/glacio.png"
+hash = "8f0a5f2a351f80ac176d3382ac61930a02bf9d496e26456a2d8a4264bd449f1e"
+
+[[files]]
+file = "config/simple-rpc/assets/lantea.png"
+hash = "f397710273a561c880a7c1b9fa5be4716ebe13c24b7cd4dde673353175bc6973"
+
+[[files]]
+file = "config/simple-rpc/assets/logo.png"
+hash = "3d10c9672b4f4fbb6d1ccffa6b01eb42073e29f7a3cde7bd880ef05227291b82"
+
+[[files]]
+file = "config/simple-rpc/assets/mars.png"
+hash = "110a1de80526140e1c4924c7f4e58d6f80fb32fd40a24c81eb4336a25249d00f"
+
+[[files]]
+file = "config/simple-rpc/assets/mercury.png"
+hash = "7a96f80c7e2a3d2c07cf80382838621109d783a3d2777045bc2093226a1523d4"
+
+[[files]]
+file = "config/simple-rpc/assets/mirror.png"
+hash = "232b908c6b4eedbadc1f682782b65c38c8bddd8d0837804e56e69f1217a556e9"
+
+[[files]]
+file = "config/simple-rpc/assets/moon.png"
+hash = "4edd9190935b4e22a978c3365773e05290d74b8590e0106ea008dbf04fa25b04"
+
+[[files]]
+file = "config/simple-rpc/assets/orbit.png"
+hash = "8883e9dc645e63b4c1da86ba0974971b44640e1dbbeefb014c9e9240b9a6ef28"
+
+[[files]]
+file = "config/simple-rpc/assets/rima.png"
+hash = "7ac829eb96984631854729c2423c2a87f401eba75b5be045cc6f12aa6404b397"
+
+[[files]]
+file = "config/simple-rpc/assets/undergarden.png"
+hash = "78ad1476338a8be6d94b4eb0462542c2fcc2cbfd13c9bce21e6d563d1b4ec80e"
+
+[[files]]
+file = "config/simple-rpc/assets/unitas.png"
+hash = "aef2b6d4ba85bde4de48fad84f40a23b018fa30ef358068cf7200a18cfa5bc42"
+
+[[files]]
+file = "config/simple-rpc/assets/venus.png"
+hash = "43fbedf0664ab5e40c181588e58946dcdc972d2981475dff8b50c85c9edc4198"
+
+[[files]]
 file = "config/simple-rpc/server-entries.toml"
 hash = "17b07ca5f6758448c4c2effbe9cb9f7b2b534c83b1287b5b751c3bbe4f74f2d0"
 
 [[files]]
 file = "config/simple-rpc/simple-rpc.toml"
-hash = "f6a9c7bba6a4158a654f5c5351710c88abf237bc867be860744e86af5ee3e247"
+hash = "1bf959abfc08eb2cdbd6e66e0b1cb9fe338a849a1ad14c73cdaf2926b4dd5937"
 
 [[files]]
 file = "config/smoothchunk.json"

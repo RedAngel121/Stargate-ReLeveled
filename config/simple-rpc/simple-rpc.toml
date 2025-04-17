@@ -1,41 +1,41 @@
 
 #General Config Section. See https://srpc.fdd-docs.com/introduction/
 [general]
-	#The Application ID of the Discord App to use
-	applicationID = "762726289341677668"
-	#Enable/Disable the mod
-	enabled = true
-	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
-	debugging = false
-	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
-	launcherIntegration = false
-	#Internal Version Number. NO TOUCHY!
-	version = 25
+  #The Application ID of the Discord App to use
+  applicationID = "762726289341677668"
+  #Enable/Disable the mod
+  enabled = true
+  #Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+  debugging = false
+  #Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+  launcherIntegration = false
+  #Internal Version Number. NO TOUCHY!
+  version = 25
 
 #The Game Loading event
 [init]
-	#Enable/Disable the Game Loading Event
-	enabled = true
+  #Enable/Disable the Game Loading Event
+  enabled = true
 
-	#List of RPCs that will be displayed at random
-	[[init.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
-		type = "PLAYING"
-		#The first line of text under the app name
-		description = "Minecraft is loading"
-		#The second line of text under the app name
-		state = "Game Starting..."
-		#The Asset ID or URLs of images to randomly use for the large image
-    largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/fancymenu/assets/HVbTxLf.png"]
-		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = ["mclogo"]
-		#The text to show when someone hovers over the smallImage
-		smallImageText = "{{game.mods}} mods installed"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
-		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
+  #List of RPCs that will be displayed at random
+  [[init.presence]]
+    #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+    type = "PLAYING"
+    #The first line of text under the app name
+    description = "Minecraft is loading"
+    #The second line of text under the app name
+    state = "Game Starting..."
+    #The Asset ID or URLs of images to randomly use for the large image
+    largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/logo.png"]
+    #The text to show when someone hovers over the largeImage
+    largeImageText = "It's Minecraft {{game.version}}, but modded"
+    #The Asset ID or URLs of images to randomly use for the small image
+    smallImageKey = ["mclogo"]
+    #The text to show when someone hovers over the smallImage
+    smallImageText = "{{game.mods}} mods installed"
+    #The Twitch or Youtube URL to use when type is set to STREAMING
+    streamingActivityUrl = "https://twitch.tv/twitch"
+    #List of buttons (max 2) to show on the RPC
     [[init.buttons]]
       label = "Curseforge"
       url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
@@ -45,28 +45,28 @@
 
 #The Main Menu event
 [main_menu]
-	#Enable/Disable the Main Menu Event
-	enabled = true
+  #Enable/Disable the Main Menu Event
+  enabled = true
 
-	#List of RPCs that will be displayed at random
-	[[main_menu.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
-		type = "PLAYING"
-		#The first line of text under the app name
-		description = "{{player.name}} is currently lazy"
-		#The second line of text under the app name
-		state = "Chilling in the menu"
-		#The Asset ID or URLs of images to randomly use for the large image
-    largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/fancymenu/assets/HVbTxLf.png"]
-		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = ["{{images.player}}"]
-		#The text to show when someone hovers over the smallImage
-		smallImageText = "{{player.name}}"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
-		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
+  #List of RPCs that will be displayed at random
+  [[main_menu.presence]]
+    #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+    type = "PLAYING"
+    #The first line of text under the app name
+    description = "{{player.name}} is currently lazy"
+    #The second line of text under the app name
+    state = "Chilling in the menu"
+    #The Asset ID or URLs of images to randomly use for the large image
+    largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/logo.png"]
+    #The text to show when someone hovers over the largeImage
+    largeImageText = "It's Minecraft {{game.version}}, but modded"
+    #The Asset ID or URLs of images to randomly use for the small image
+    smallImageKey = ["{{images.player}}"]
+    #The text to show when someone hovers over the smallImage
+    smallImageText = "{{player.name}}"
+    #The Twitch or Youtube URL to use when type is set to STREAMING
+    streamingActivityUrl = "https://twitch.tv/twitch"
+    #List of buttons (max 2) to show on the RPC
     [[main_menu.buttons]]
       label = "Curseforge"
       url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
@@ -76,28 +76,28 @@
 
 #The Server List event
 [server_list]
-	#Enable/Disable the Server List Event
-	enabled = true
+  #Enable/Disable the Server List Event
+  enabled = true
 
-	#List of RPCs that will be displayed at random
-	[[server_list.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
-		type = "PLAYING"
-		#The first line of text under the app name
-		description = "{{player.name}} is looking for a server"
-		#The second line of text under the app name
-		state = "Searching for friends"
-		#The Asset ID or URLs of images to randomly use for the large image
-    largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/fancymenu/assets/HVbTxLf.png"]
-		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = ["{{images.player}}"]
-		#The text to show when someone hovers over the smallImage
-		smallImageText = "{{player.name}}"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
-		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
+  #List of RPCs that will be displayed at random
+  [[server_list.presence]]
+    #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+    type = "PLAYING"
+    #The first line of text under the app name
+    description = "{{player.name}} is looking for a server"
+    #The second line of text under the app name
+    state = "Searching for friends"
+    #The Asset ID or URLs of images to randomly use for the large image
+    largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/logo.png"]
+    #The text to show when someone hovers over the largeImage
+    largeImageText = "It's Minecraft {{game.version}}, but modded"
+    #The Asset ID or URLs of images to randomly use for the small image
+    smallImageKey = ["{{images.player}}"]
+    #The text to show when someone hovers over the smallImage
+    smallImageText = "{{player.name}}"
+    #The Twitch or Youtube URL to use when type is set to STREAMING
+    streamingActivityUrl = "https://twitch.tv/twitch"
+    #List of buttons (max 2) to show on the RPC
     [[server_list.buttons]]
       label = "Curseforge"
       url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
@@ -107,28 +107,28 @@
 
 #The Realms Screen event
 [realms_list]
-	#Enable/Disable the Realms Screen Event
-	enabled = true
+  #Enable/Disable the Realms Screen Event
+  enabled = true
 
-	#List of RPCs that will be displayed at random
-	[[realms_list.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
-		type = "PLAYING"
-		#The first line of text under the app name
-		description = "{{player.name}} is looking for a Realm"
-		#The second line of text under the app name
-		state = "Browsing Realms"
-		#The Asset ID or URLs of images to randomly use for the large image
-    largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/fancymenu/assets/HVbTxLf.png"]
-		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = ["{{images.player}}"]
-		#The text to show when someone hovers over the smallImage
-		smallImageText = "{{player.name}}"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
-		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
+  #List of RPCs that will be displayed at random
+  [[realms_list.presence]]
+    #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+    type = "PLAYING"
+    #The first line of text under the app name
+    description = "{{player.name}} is looking for a Realm"
+    #The second line of text under the app name
+    state = "Browsing Realms"
+    #The Asset ID or URLs of images to randomly use for the large image
+    largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/logo.png"]
+    #The text to show when someone hovers over the largeImage
+    largeImageText = "It's Minecraft {{game.version}}, but modded"
+    #The Asset ID or URLs of images to randomly use for the small image
+    smallImageKey = ["{{images.player}}"]
+    #The text to show when someone hovers over the smallImage
+    smallImageText = "{{player.name}}"
+    #The Twitch or Youtube URL to use when type is set to STREAMING
+    streamingActivityUrl = "https://twitch.tv/twitch"
+    #List of buttons (max 2) to show on the RPC
     [[realms_list.buttons]]
       label = "Curseforge"
       url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
@@ -138,28 +138,28 @@
 
 #The Join Game Event
 [join_game]
-	#Enable/Disable the Join Game Event
-	enabled = true
+  #Enable/Disable the Join Game Event
+  enabled = true
 
-	#List of RPCs that will be displayed at random
-	[[join_game.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
-		type = "PLAYING"
-		#The first line of text under the app name
-		description = "{{player.name}} is joining a game"
-		#The second line of text under the app name
-		state = "Joining Game"
-		#The Asset ID or URLs of images to randomly use for the large image
-    largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/fancymenu/assets/HVbTxLf.png"]
-		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = ["{{images.player}}"]
-		#The text to show when someone hovers over the smallImage
-		smallImageText = "{{player.name}}"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
-		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
+  #List of RPCs that will be displayed at random
+  [[join_game.presence]]
+    #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+    type = "PLAYING"
+    #The first line of text under the app name
+    description = "{{player.name}} is joining a game"
+    #The second line of text under the app name
+    state = "Joining Game"
+    #The Asset ID or URLs of images to randomly use for the large image
+    largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/logo.png"]
+    #The text to show when someone hovers over the largeImage
+    largeImageText = "It's Minecraft {{game.version}}, but modded"
+    #The Asset ID or URLs of images to randomly use for the small image
+    smallImageKey = ["{{images.player}}"]
+    #The text to show when someone hovers over the smallImage
+    smallImageText = "{{player.name}}"
+    #The Twitch or Youtube URL to use when type is set to STREAMING
+    streamingActivityUrl = "https://twitch.tv/twitch"
+    #List of buttons (max 2) to show on the RPC
     [[join_game.buttons]]
       label = "Curseforge"
       url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
@@ -169,28 +169,28 @@
 
 #The Single Player Event
 [single_player]
-	#Enable/Disable the Single Player Event
-	enabled = true
+  #Enable/Disable the Single Player Event
+  enabled = true
 
-	#List of RPCs that will be displayed at random
-	[[single_player.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
-		type = "PLAYING"
-		#The first line of text under the app name
-		description = "Currently In {{world.name}}"
-		#The second line of text under the app name
-		state = "Playing lonely mode"
-		#The Asset ID or URLs of images to randomly use for the large image
-    largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/fancymenu/assets/HVbTxLf.png"]
-		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = ["{{images.player}}"]
-		#The text to show when someone hovers over the smallImage
-		smallImageText = "{{player.name}}"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
-		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
+  #List of RPCs that will be displayed at random
+  [[single_player.presence]]
+    #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+    type = "PLAYING"
+    #The first line of text under the app name
+    description = "Currently In {{world.name}}"
+    #The second line of text under the app name
+    state = "Playing lonely mode"
+    #The Asset ID or URLs of images to randomly use for the large image
+    largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/logo.png"]
+    #The text to show when someone hovers over the largeImage
+    largeImageText = "It's Minecraft {{game.version}}, but modded"
+    #The Asset ID or URLs of images to randomly use for the small image
+    smallImageKey = ["{{images.player}}"]
+    #The text to show when someone hovers over the smallImage
+    smallImageText = "{{player.name}}"
+    #The Twitch or Youtube URL to use when type is set to STREAMING
+    streamingActivityUrl = "https://twitch.tv/twitch"
+    #List of buttons (max 2) to show on the RPC
     [[single_player.buttons]]
       label = "Curseforge"
       url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
@@ -200,28 +200,28 @@
 
 #The Multi Player Event
 [multi_player]
-	#Enable/Disable the Multi Player Event
-	enabled = true
+  #Enable/Disable the Multi Player Event
+  enabled = true
 
-	#List of RPCs that will be displayed at random
-	[[multi_player.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
-		type = "PLAYING"
-		#The first line of text under the app name
-		description = "Playing on {{server.name}} with {{server.players.count}} players"
-		#The second line of text under the app name
-		state = "Playing online"
-		#The Asset ID or URLs of images to randomly use for the large image
-    largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/fancymenu/assets/HVbTxLf.png"]
-		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = ["{{images.player}}"]
-		#The text to show when someone hovers over the smallImage
-		smallImageText = "{{player.name}}"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
-		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
+  #List of RPCs that will be displayed at random
+  [[multi_player.presence]]
+    #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+    type = "PLAYING"
+    #The first line of text under the app name
+    description = "Playing on {{server.name}} with {{server.players.count}} players"
+    #The second line of text under the app name
+    state = "Playing online"
+    #The Asset ID or URLs of images to randomly use for the large image
+    largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/logo.png"]
+    #The text to show when someone hovers over the largeImage
+    largeImageText = "It's Minecraft {{game.version}}, but modded"
+    #The Asset ID or URLs of images to randomly use for the small image
+    smallImageKey = ["{{images.player}}"]
+    #The text to show when someone hovers over the smallImage
+    smallImageText = "{{player.name}}"
+    #The Twitch or Youtube URL to use when type is set to STREAMING
+    streamingActivityUrl = "https://twitch.tv/twitch"
+    #List of buttons (max 2) to show on the RPC
     [[multi_player.buttons]]
       label = "Curseforge"
       url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
@@ -231,28 +231,28 @@
 
 #The Realms Game Event
 [realms]
-	#Enable/Disable the Realms Game Event
-	enabled = true
+  #Enable/Disable the Realms Game Event
+  enabled = true
 
-	#List of RPCs that will be displayed at random
-	[[realms.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
-		type = "PLAYING"
-		#The first line of text under the app name
-		description = "Playing on {{realm.name}}"
-		#The second line of text under the app name
-		state = "Playing on a Realm"
-		#The Asset ID or URLs of images to randomly use for the large image
-    largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/fancymenu/assets/HVbTxLf.png"]
-		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = ["{{images.player}}"]
-		#The text to show when someone hovers over the smallImage
-		smallImageText = "{{player.name}}"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
-		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
+  #List of RPCs that will be displayed at random
+  [[realms.presence]]
+    #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+    type = "PLAYING"
+    #The first line of text under the app name
+    description = "Playing on {{realm.name}}"
+    #The second line of text under the app name
+    state = "Playing on a Realm"
+    #The Asset ID or URLs of images to randomly use for the large image
+    largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/logo.png"]
+    #The text to show when someone hovers over the largeImage
+    largeImageText = "It's Minecraft {{game.version}}, but modded"
+    #The Asset ID or URLs of images to randomly use for the small image
+    smallImageKey = ["{{images.player}}"]
+    #The text to show when someone hovers over the smallImage
+    smallImageText = "{{player.name}}"
+    #The Twitch or Youtube URL to use when type is set to STREAMING
+    streamingActivityUrl = "https://twitch.tv/twitch"
+    #List of buttons (max 2) to show on the RPC
     [[realms.buttons]]
       label = "Curseforge"
       url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
@@ -262,28 +262,28 @@
 
 #The Paused Event
 [paused]
-	#Enable/Disable the Pause Event
-	enabled = true
+  #Enable/Disable the Pause Event
+  enabled = true
 
-	#List of RPCs that will be displayed at random
-	[[paused.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
-		type = "PLAYING"
-		#The first line of text under the app name
-		description = "In the Pause Menu"
-		#The second line of text under the app name
-		state = "Game Paused"
-		#The Asset ID or URLs of images to randomly use for the large image
-    largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/fancymenu/assets/HVbTxLf.png"]
-		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = ["{{images.player}}"]
-		#The text to show when someone hovers over the smallImage
-		smallImageText = "{{player.name}}"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
-		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
+  #List of RPCs that will be displayed at random
+  [[paused.presence]]
+    #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+    type = "PLAYING"
+    #The first line of text under the app name
+    description = "In the Pause Menu"
+    #The second line of text under the app name
+    state = "Game Paused"
+    #The Asset ID or URLs of images to randomly use for the large image
+    largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/logo.png"]
+    #The text to show when someone hovers over the largeImage
+    largeImageText = "It's Minecraft {{game.version}}, but modded"
+    #The Asset ID or URLs of images to randomly use for the small image
+    smallImageKey = ["{{images.player}}"]
+    #The text to show when someone hovers over the smallImage
+    smallImageText = "{{player.name}}"
+    #The Twitch or Youtube URL to use when type is set to STREAMING
+    streamingActivityUrl = "https://twitch.tv/twitch"
+    #List of buttons (max 2) to show on the RPC
     [[paused.buttons]]
       label = "Curseforge"
       url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
@@ -294,25 +294,25 @@
 #Fallback event for disabled events
 [generic]
 
-	#List of RPCs that will be displayed at random
-	[[generic.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
-		type = "PLAYING"
-		#The first line of text under the app name
-		description = "Playing Minecraft"
-		#The second line of text under the app name
-		state = ""
-		#The Asset ID or URLs of images to randomly use for the large image
-    largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/fancymenu/assets/HVbTxLf.png"]
-		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = ["mclogo"]
-		#The text to show when someone hovers over the smallImage
-		smallImageText = "{{game.mods}} mods installed"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
-		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
+  #List of RPCs that will be displayed at random
+  [[generic.presence]]
+    #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+    type = "PLAYING"
+    #The first line of text under the app name
+    description = "Playing Minecraft"
+    #The second line of text under the app name
+    state = ""
+    #The Asset ID or URLs of images to randomly use for the large image
+    largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/logo.png"]
+    #The text to show when someone hovers over the largeImage
+    largeImageText = "It's Minecraft {{game.version}}, but modded"
+    #The Asset ID or URLs of images to randomly use for the small image
+    smallImageKey = ["mclogo"]
+    #The text to show when someone hovers over the smallImage
+    smallImageText = "{{game.mods}} mods installed"
+    #The Twitch or Youtube URL to use when type is set to STREAMING
+    streamingActivityUrl = "https://twitch.tv/twitch"
+    #List of buttons (max 2) to show on the RPC
     [[generic.buttons]]
       label = "Curseforge"
       url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
@@ -322,40 +322,40 @@
 
 #Custom Config Variables that you can use
 [custom]
-	#Must these variables be parsed along with other variables
-	enabled = true
-	#Your custom variables to add
-	variables = []
+  #Must these variables be parsed along with other variables
+  enabled = false
+  #Your custom variables to add
+  variables = []
 
 #Dimension Information Overrides
 [dimension_overrides]
-	#Allows you to override the displayed values for dimensions
-	enabled = false
+  #Allows you to override the displayed values for dimensions
+  enabled = true
 
-	#The Dimensions to override
-	[[dimension_overrides.dimensions]]
-		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
-		name = "overworld"
+  #The Dimensions to override
+  [[dimension_overrides.dimensions]]
+    #The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+    name = "overworld"
 
-		#List of RPCs that will be displayed at random
-		[[dimension_overrides.dimensions.presence]]
-			#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
-			type = "PLAYING"
-			#The first line of text under the app name
-			description = "{{player.name}} is in The Overworld"
-			#The second line of text under the app name
-			state = ""
-			#The Asset ID or URLs of images to randomly use for the large image
-			largeImageKey = ["overworld"]
-			#The text to show when someone hovers over the largeImage
-			largeImageText = "In the Overworld"
-			#The Asset ID or URLs of images to randomly use for the small image
-			smallImageKey = ["mclogo"]
-			#The text to show when someone hovers over the smallImage
-			smallImageText = "{{game.mods}} mods installed"
-			#The Twitch or Youtube URL to use when type is set to STREAMING
-			streamingActivityUrl = "https://twitch.tv/twitch"
-			#List of buttons (max 2) to show on the RPC
+    #List of RPCs that will be displayed at random
+    [[dimension_overrides.dimensions.presence]]
+      #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+      type = "PLAYING"
+      #The first line of text under the app name
+      description = "{{player.name}} is in The Overworld"
+      #The second line of text under the app name
+      state = ""
+      #The Asset ID or URLs of images to randomly use for the large image
+      largeImageKey = ["overworld"]
+      #The text to show when someone hovers over the largeImage
+      largeImageText = "In the Overworld"
+      #The Asset ID or URLs of images to randomly use for the small image
+      smallImageKey = ["mclogo"]
+      #The text to show when someone hovers over the smallImage
+      smallImageText = "{{game.mods}} mods installed"
+      #The Twitch or Youtube URL to use when type is set to STREAMING
+      streamingActivityUrl = "https://twitch.tv/twitch"
+      #List of buttons (max 2) to show on the RPC
       [[dimension_overrides.buttons]]
         label = "Curseforge"
         url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
@@ -363,29 +363,29 @@
         label = "Discord"
         url = "https://discord.gg/vDUGsWUKk8"
 
-	[[dimension_overrides.dimensions]]
-		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
-		name = "the_nether"
+  [[dimension_overrides.dimensions]]
+    #The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+    name = "the_nether"
 
-		#List of RPCs that will be displayed at random
-		[[dimension_overrides.dimensions.presence]]
-			#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
-			type = "PLAYING"
-			#The first line of text under the app name
-			description = "{{player.name}} is in The Nether"
-			#The second line of text under the app name
-			state = ""
-			#The Asset ID or URLs of images to randomly use for the large image
-			largeImageKey = ["nether"]
-			#The text to show when someone hovers over the largeImage
-			largeImageText = "In the Nether"
-			#The Asset ID or URLs of images to randomly use for the small image
-			smallImageKey = ["mclogo"]
-			#The text to show when someone hovers over the smallImage
-			smallImageText = "{{game.mods}} mods installed"
-			#The Twitch or Youtube URL to use when type is set to STREAMING
-			streamingActivityUrl = "https://twitch.tv/twitch"
-			#List of buttons (max 2) to show on the RPC
+    #List of RPCs that will be displayed at random
+    [[dimension_overrides.dimensions.presence]]
+      #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+      type = "PLAYING"
+      #The first line of text under the app name
+      description = "{{player.name}} is in The Nether"
+      #The second line of text under the app name
+      state = ""
+      #The Asset ID or URLs of images to randomly use for the large image
+      largeImageKey = ["nether"]
+      #The text to show when someone hovers over the largeImage
+      largeImageText = "In the Nether"
+      #The Asset ID or URLs of images to randomly use for the small image
+      smallImageKey = ["mclogo"]
+      #The text to show when someone hovers over the smallImage
+      smallImageText = "{{game.mods}} mods installed"
+      #The Twitch or Youtube URL to use when type is set to STREAMING
+      streamingActivityUrl = "https://twitch.tv/twitch"
+      #List of buttons (max 2) to show on the RPC
       [[dimension_overrides.buttons]]
         label = "Curseforge"
         url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
@@ -393,29 +393,29 @@
         label = "Discord"
         url = "https://discord.gg/vDUGsWUKk8"
 
-	[[dimension_overrides.dimensions]]
-		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
-		name = "the_end"
+  [[dimension_overrides.dimensions]]
+    #The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+    name = "the_end"
 
-		#List of RPCs that will be displayed at random
-		[[dimension_overrides.dimensions.presence]]
-			#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
-			type = "PLAYING"
-			#The first line of text under the app name
-			description = "{{player.name}} is in The End"
-			#The second line of text under the app name
-			state = ""
-			#The Asset ID or URLs of images to randomly use for the large image
-			largeImageKey = ["end"]
-			#The text to show when someone hovers over the largeImage
-			largeImageText = "In the End"
-			#The Asset ID or URLs of images to randomly use for the small image
-			smallImageKey = ["mclogo"]
-			#The text to show when someone hovers over the smallImage
-			smallImageText = "{{game.mods}} mods installed"
-			#The Twitch or Youtube URL to use when type is set to STREAMING
-			streamingActivityUrl = "https://twitch.tv/twitch"
-			#List of buttons (max 2) to show on the RPC
+    #List of RPCs that will be displayed at random
+    [[dimension_overrides.dimensions.presence]]
+      #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+      type = "PLAYING"
+      #The first line of text under the app name
+      description = "{{player.name}} is in The End"
+      #The second line of text under the app name
+      state = ""
+      #The Asset ID or URLs of images to randomly use for the large image
+      largeImageKey = ["end"]
+      #The text to show when someone hovers over the largeImage
+      largeImageText = "In the End"
+      #The Asset ID or URLs of images to randomly use for the small image
+      smallImageKey = ["mclogo"]
+      #The text to show when someone hovers over the smallImage
+      smallImageText = "{{game.mods}} mods installed"
+      #The Twitch or Youtube URL to use when type is set to STREAMING
+      streamingActivityUrl = "https://twitch.tv/twitch"
+      #List of buttons (max 2) to show on the RPC
       [[dimension_overrides.buttons]]
         label = "Curseforge"
         url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
@@ -423,29 +423,629 @@
         label = "Discord"
         url = "https://discord.gg/vDUGsWUKk8"
 
-	[[dimension_overrides.dimensions]]
-		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
-		name = "sgjourney:abydos"
+  [[dimension_overrides.dimensions]]
+    #The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+    name = "overworldmirror:overworld"
 
-		#List of RPCs that will be displayed at random
-		[[dimension_overrides.dimensions.presence]]
-			#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
-			type = "PLAYING"
-			#The first line of text under the app name
-			description = "{{player.name}} is on Abydos"
-			#The second line of text under the app name
-			state = ""
-			#The Asset ID or URLs of images to randomly use for the large image
-			largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/fancymenu/assets/abydos.png"]
-			#The text to show when someone hovers over the largeImage
-			largeImageText = "Exploring Abydos"
-			#The Asset ID or URLs of images to randomly use for the small image
-			smallImageKey = ["mclogo"]
-			#The text to show when someone hovers over the smallImage
-			smallImageText = "{{game.mods}} mods installed"
-			#The Twitch or Youtube URL to use when type is set to STREAMING
-			streamingActivityUrl = "https://twitch.tv/twitch"
-			#List of buttons (max 2) to show on the RPC
+    #List of RPCs that will be displayed at random
+    [[dimension_overrides.dimensions.presence]]
+      #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+      type = "PLAYING"
+      #The first line of text under the app name
+      description = "{{player.name}} is in the Overworld Mirror"
+      #The second line of text under the app name
+      state = ""
+      #The Asset ID or URLs of images to randomly use for the large image
+      largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/mirror.png"]
+      #The text to show when someone hovers over the largeImage
+      largeImageText = "Exploring The Amplified Overworld Mirror"
+      #The Asset ID or URLs of images to randomly use for the small image
+      smallImageKey = ["mclogo"]
+      #The text to show when someone hovers over the smallImage
+      smallImageText = "{{game.mods}} mods installed"
+      #The Twitch or Youtube URL to use when type is set to STREAMING
+      streamingActivityUrl = "https://twitch.tv/twitch"
+      #List of buttons (max 2) to show on the RPC
+      [[dimension_overrides.buttons]]
+        label = "Curseforge"
+        url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
+      [[dimension_overrides.buttons]]
+        label = "Discord"
+        url = "https://discord.gg/vDUGsWUKk8"
+
+  [[dimension_overrides.dimensions]]
+    #The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+    name = "ad_astra:glacio"
+
+    #List of RPCs that will be displayed at random
+    [[dimension_overrides.dimensions.presence]]
+      #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+      type = "PLAYING"
+      #The first line of text under the app name
+      description = "{{player.name}} is on Glacio"
+      #The second line of text under the app name
+      state = ""
+      #The Asset ID or URLs of images to randomly use for the large image
+      largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/glacio.png"]
+      #The text to show when someone hovers over the largeImage
+      largeImageText = "Exploring Glacio"
+      #The Asset ID or URLs of images to randomly use for the small image
+      smallImageKey = ["mclogo"]
+      #The text to show when someone hovers over the smallImage
+      smallImageText = "{{game.mods}} mods installed"
+      #The Twitch or Youtube URL to use when type is set to STREAMING
+      streamingActivityUrl = "https://twitch.tv/twitch"
+      #List of buttons (max 2) to show on the RPC
+      [[dimension_overrides.buttons]]
+        label = "Curseforge"
+        url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
+      [[dimension_overrides.buttons]]
+        label = "Discord"
+        url = "https://discord.gg/vDUGsWUKk8"
+
+  [[dimension_overrides.dimensions]]
+    #The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+    name = "ad_astra:mars"
+
+    #List of RPCs that will be displayed at random
+    [[dimension_overrides.dimensions.presence]]
+      #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+      type = "PLAYING"
+      #The first line of text under the app name
+      description = "{{player.name}} is on Mars"
+      #The second line of text under the app name
+      state = ""
+      #The Asset ID or URLs of images to randomly use for the large image
+      largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/mars.png"]
+      #The text to show when someone hovers over the largeImage
+      largeImageText = "Exploring Mars"
+      #The Asset ID or URLs of images to randomly use for the small image
+      smallImageKey = ["mclogo"]
+      #The text to show when someone hovers over the smallImage
+      smallImageText = "{{game.mods}} mods installed"
+      #The Twitch or Youtube URL to use when type is set to STREAMING
+      streamingActivityUrl = "https://twitch.tv/twitch"
+      #List of buttons (max 2) to show on the RPC
+      [[dimension_overrides.buttons]]
+        label = "Curseforge"
+        url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
+      [[dimension_overrides.buttons]]
+        label = "Discord"
+        url = "https://discord.gg/vDUGsWUKk8"
+
+  [[dimension_overrides.dimensions]]
+    #The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+    name = "ad_astra:moon"
+
+    #List of RPCs that will be displayed at random
+    [[dimension_overrides.dimensions.presence]]
+      #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+      type = "PLAYING"
+      #The first line of text under the app name
+      description = "{{player.name}} is on Luna"
+      #The second line of text under the app name
+      state = ""
+      #The Asset ID or URLs of images to randomly use for the large image
+      largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/moon.png"]
+      #The text to show when someone hovers over the largeImage
+      largeImageText = "Exploring Luna"
+      #The Asset ID or URLs of images to randomly use for the small image
+      smallImageKey = ["mclogo"]
+      #The text to show when someone hovers over the smallImage
+      smallImageText = "{{game.mods}} mods installed"
+      #The Twitch or Youtube URL to use when type is set to STREAMING
+      streamingActivityUrl = "https://twitch.tv/twitch"
+      #List of buttons (max 2) to show on the RPC
+      [[dimension_overrides.buttons]]
+        label = "Curseforge"
+        url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
+      [[dimension_overrides.buttons]]
+        label = "Discord"
+        url = "https://discord.gg/vDUGsWUKk8"
+
+  [[dimension_overrides.dimensions]]
+    #The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+    name = "ad_astra:mercury"
+
+    #List of RPCs that will be displayed at random
+    [[dimension_overrides.dimensions.presence]]
+      #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+      type = "PLAYING"
+      #The first line of text under the app name
+      description = "{{player.name}} is on Mercury"
+      #The second line of text under the app name
+      state = ""
+      #The Asset ID or URLs of images to randomly use for the large image
+      largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/mercury.png"]
+      #The text to show when someone hovers over the largeImage
+      largeImageText = "Exploring Mercury"
+      #The Asset ID or URLs of images to randomly use for the small image
+      smallImageKey = ["mclogo"]
+      #The text to show when someone hovers over the smallImage
+      smallImageText = "{{game.mods}} mods installed"
+      #The Twitch or Youtube URL to use when type is set to STREAMING
+      streamingActivityUrl = "https://twitch.tv/twitch"
+      #List of buttons (max 2) to show on the RPC
+      [[dimension_overrides.buttons]]
+        label = "Curseforge"
+        url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
+      [[dimension_overrides.buttons]]
+        label = "Discord"
+        url = "https://discord.gg/vDUGsWUKk8"
+
+  [[dimension_overrides.dimensions]]
+    #The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+    name = "ad_astra:venus"
+
+    #List of RPCs that will be displayed at random
+    [[dimension_overrides.dimensions.presence]]
+      #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+      type = "PLAYING"
+      #The first line of text under the app name
+      description = "{{player.name}} is on Venus"
+      #The second line of text under the app name
+      state = ""
+      #The Asset ID or URLs of images to randomly use for the large image
+      largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/venus.png"]
+      #The text to show when someone hovers over the largeImage
+      largeImageText = "Exploring Venus"
+      #The Asset ID or URLs of images to randomly use for the small image
+      smallImageKey = ["mclogo"]
+      #The text to show when someone hovers over the smallImage
+      smallImageText = "{{game.mods}} mods installed"
+      #The Twitch or Youtube URL to use when type is set to STREAMING
+      streamingActivityUrl = "https://twitch.tv/twitch"
+      #List of buttons (max 2) to show on the RPC
+      [[dimension_overrides.buttons]]
+        label = "Curseforge"
+        url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
+      [[dimension_overrides.buttons]]
+        label = "Discord"
+        url = "https://discord.gg/vDUGsWUKk8"
+
+  [[dimension_overrides.dimensions]]
+    #The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+    name = "ad_astra:glacio_orbit"
+
+    #List of RPCs that will be displayed at random
+    [[dimension_overrides.dimensions.presence]]
+      #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+      type = "PLAYING"
+      #The first line of text under the app name
+      description = "{{player.name}} is in orbit over Glacio"
+      #The second line of text under the app name
+      state = ""
+      #The Asset ID or URLs of images to randomly use for the large image
+      largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/orbit.png"]
+      #The text to show when someone hovers over the largeImage
+      largeImageText = "In Space"
+      #The Asset ID or URLs of images to randomly use for the small image
+      smallImageKey = ["mclogo"]
+      #The text to show when someone hovers over the smallImage
+      smallImageText = "{{game.mods}} mods installed"
+      #The Twitch or Youtube URL to use when type is set to STREAMING
+      streamingActivityUrl = "https://twitch.tv/twitch"
+      #List of buttons (max 2) to show on the RPC
+      [[dimension_overrides.buttons]]
+        label = "Curseforge"
+        url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
+      [[dimension_overrides.buttons]]
+        label = "Discord"
+        url = "https://discord.gg/vDUGsWUKk8"
+
+  [[dimension_overrides.dimensions]]
+    #The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+    name = "ad_astra:mars_orbit"
+
+    #List of RPCs that will be displayed at random
+    [[dimension_overrides.dimensions.presence]]
+      #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+      type = "PLAYING"
+      #The first line of text under the app name
+      description = "{{player.name}} is in orbit over Mars"
+      #The second line of text under the app name
+      state = ""
+      #The Asset ID or URLs of images to randomly use for the large image
+      largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/orbit.png"]
+      #The text to show when someone hovers over the largeImage
+      largeImageText = "In Space"
+      #The Asset ID or URLs of images to randomly use for the small image
+      smallImageKey = ["mclogo"]
+      #The text to show when someone hovers over the smallImage
+      smallImageText = "{{game.mods}} mods installed"
+      #The Twitch or Youtube URL to use when type is set to STREAMING
+      streamingActivityUrl = "https://twitch.tv/twitch"
+      #List of buttons (max 2) to show on the RPC
+      [[dimension_overrides.buttons]]
+        label = "Curseforge"
+        url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
+      [[dimension_overrides.buttons]]
+        label = "Discord"
+        url = "https://discord.gg/vDUGsWUKk8"
+
+  [[dimension_overrides.dimensions]]
+    #The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+    name = "ad_astra:moon_orbit"
+
+    #List of RPCs that will be displayed at random
+    [[dimension_overrides.dimensions.presence]]
+      #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+      type = "PLAYING"
+      #The first line of text under the app name
+      description = "{{player.name}} is in orbit over Luna"
+      #The second line of text under the app name
+      state = ""
+      #The Asset ID or URLs of images to randomly use for the large image
+      largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/orbit.png"]
+      #The text to show when someone hovers over the largeImage
+      largeImageText = "In Space"
+      #The Asset ID or URLs of images to randomly use for the small image
+      smallImageKey = ["mclogo"]
+      #The text to show when someone hovers over the smallImage
+      smallImageText = "{{game.mods}} mods installed"
+      #The Twitch or Youtube URL to use when type is set to STREAMING
+      streamingActivityUrl = "https://twitch.tv/twitch"
+      #List of buttons (max 2) to show on the RPC
+      [[dimension_overrides.buttons]]
+        label = "Curseforge"
+        url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
+      [[dimension_overrides.buttons]]
+        label = "Discord"
+        url = "https://discord.gg/vDUGsWUKk8"
+
+  [[dimension_overrides.dimensions]]
+    #The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+    name = "ad_astra:mercury_orbit"
+
+    #List of RPCs that will be displayed at random
+    [[dimension_overrides.dimensions.presence]]
+      #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+      type = "PLAYING"
+      #The first line of text under the app name
+      description = "{{player.name}} is in orbit over Mercury"
+      #The second line of text under the app name
+      state = ""
+      #The Asset ID or URLs of images to randomly use for the large image
+      largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/orbit.png"]
+      #The text to show when someone hovers over the largeImage
+      largeImageText = "In Space"
+      #The Asset ID or URLs of images to randomly use for the small image
+      smallImageKey = ["mclogo"]
+      #The text to show when someone hovers over the smallImage
+      smallImageText = "{{game.mods}} mods installed"
+      #The Twitch or Youtube URL to use when type is set to STREAMING
+      streamingActivityUrl = "https://twitch.tv/twitch"
+      #List of buttons (max 2) to show on the RPC
+      [[dimension_overrides.buttons]]
+        label = "Curseforge"
+        url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
+      [[dimension_overrides.buttons]]
+        label = "Discord"
+        url = "https://discord.gg/vDUGsWUKk8"
+
+  [[dimension_overrides.dimensions]]
+    #The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+    name = "ad_astra:venus_orbit"
+
+    #List of RPCs that will be displayed at random
+    [[dimension_overrides.dimensions.presence]]
+      #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+      type = "PLAYING"
+      #The first line of text under the app name
+      description = "{{player.name}} is in orbit over Venus"
+      #The second line of text under the app name
+      state = ""
+      #The Asset ID or URLs of images to randomly use for the large image
+      largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/orbit.png"]
+      #The text to show when someone hovers over the largeImage
+      largeImageText = "In Space"
+      #The Asset ID or URLs of images to randomly use for the small image
+      smallImageKey = ["mclogo"]
+      #The text to show when someone hovers over the smallImage
+      smallImageText = "{{game.mods}} mods installed"
+      #The Twitch or Youtube URL to use when type is set to STREAMING
+      streamingActivityUrl = "https://twitch.tv/twitch"
+      #List of buttons (max 2) to show on the RPC
+      [[dimension_overrides.buttons]]
+        label = "Curseforge"
+        url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
+      [[dimension_overrides.buttons]]
+        label = "Discord"
+        url = "https://discord.gg/vDUGsWUKk8"
+
+  [[dimension_overrides.dimensions]]
+    #The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+    name = "ad_astra:earth_orbit"
+
+    #List of RPCs that will be displayed at random
+    [[dimension_overrides.dimensions.presence]]
+      #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+      type = "PLAYING"
+      #The first line of text under the app name
+      description = "{{player.name}} is in orbit over Earth"
+      #The second line of text under the app name
+      state = ""
+      #The Asset ID or URLs of images to randomly use for the large image
+      largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/orbit.png"]
+      #The text to show when someone hovers over the largeImage
+      largeImageText = "In Space"
+      #The Asset ID or URLs of images to randomly use for the small image
+      smallImageKey = ["mclogo"]
+      #The text to show when someone hovers over the smallImage
+      smallImageText = "{{game.mods}} mods installed"
+      #The Twitch or Youtube URL to use when type is set to STREAMING
+      streamingActivityUrl = "https://twitch.tv/twitch"
+      #List of buttons (max 2) to show on the RPC
+      [[dimension_overrides.buttons]]
+        label = "Curseforge"
+        url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
+      [[dimension_overrides.buttons]]
+        label = "Discord"
+        url = "https://discord.gg/vDUGsWUKk8"
+
+  [[dimension_overrides.dimensions]]
+    #The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+    name = "deeperdarker:otherside"
+
+    #List of RPCs that will be displayed at random
+    [[dimension_overrides.dimensions.presence]]
+      #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+      type = "PLAYING"
+      #The first line of text under the app name
+      description = "{{player.name}} is in the Deep Dark"
+      #The second line of text under the app name
+      state = ""
+      #The Asset ID or URLs of images to randomly use for the large image
+      largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/deepdark.png"]
+      #The text to show when someone hovers over the largeImage
+      largeImageText = "Exploring The Otherside"
+      #The Asset ID or URLs of images to randomly use for the small image
+      smallImageKey = ["mclogo"]
+      #The text to show when someone hovers over the smallImage
+      smallImageText = "{{game.mods}} mods installed"
+      #The Twitch or Youtube URL to use when type is set to STREAMING
+      streamingActivityUrl = "https://twitch.tv/twitch"
+      #List of buttons (max 2) to show on the RPC
+      [[dimension_overrides.buttons]]
+        label = "Curseforge"
+        url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
+      [[dimension_overrides.buttons]]
+        label = "Discord"
+        url = "https://discord.gg/vDUGsWUKk8"
+
+  [[dimension_overrides.dimensions]]
+    #The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+    name = "undergarden:undergarden"
+
+    #List of RPCs that will be displayed at random
+    [[dimension_overrides.dimensions.presence]]
+      #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+      type = "PLAYING"
+      #The first line of text under the app name
+      description = "{{player.name}} is in the Undergarden"
+      #The second line of text under the app name
+      state = ""
+      #The Asset ID or URLs of images to randomly use for the large image
+      largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/undergarden.png"]
+      #The text to show when someone hovers over the largeImage
+      largeImageText = "Exploring the Undergarden"
+      #The Asset ID or URLs of images to randomly use for the small image
+      smallImageKey = ["mclogo"]
+      #The text to show when someone hovers over the smallImage
+      smallImageText = "{{game.mods}} mods installed"
+      #The Twitch or Youtube URL to use when type is set to STREAMING
+      streamingActivityUrl = "https://twitch.tv/twitch"
+      #List of buttons (max 2) to show on the RPC
+      [[dimension_overrides.buttons]]
+        label = "Curseforge"
+        url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
+      [[dimension_overrides.buttons]]
+        label = "Discord"
+        url = "https://discord.gg/vDUGsWUKk8"
+
+  [[dimension_overrides.dimensions]]
+    #The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+    name = "sgjourney:abydos"
+
+    #List of RPCs that will be displayed at random
+    [[dimension_overrides.dimensions.presence]]
+      #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+      type = "PLAYING"
+      #The first line of text under the app name
+      description = "{{player.name}} is on Abydos"
+      #The second line of text under the app name
+      state = ""
+      #The Asset ID or URLs of images to randomly use for the large image
+      largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/abydos.png"]
+      #The text to show when someone hovers over the largeImage
+      largeImageText = "Exploring Abydos"
+      #The Asset ID or URLs of images to randomly use for the small image
+      smallImageKey = ["mclogo"]
+      #The text to show when someone hovers over the smallImage
+      smallImageText = "{{game.mods}} mods installed"
+      #The Twitch or Youtube URL to use when type is set to STREAMING
+      streamingActivityUrl = "https://twitch.tv/twitch"
+      #List of buttons (max 2) to show on the RPC
+      [[dimension_overrides.buttons]]
+        label = "Curseforge"
+        url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
+      [[dimension_overrides.buttons]]
+        label = "Discord"
+        url = "https://discord.gg/vDUGsWUKk8"
+
+  [[dimension_overrides.dimensions]]
+    #The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+    name = "sgjourney:athos"
+
+    #List of RPCs that will be displayed at random
+    [[dimension_overrides.dimensions.presence]]
+      #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+      type = "PLAYING"
+      #The first line of text under the app name
+      description = "{{player.name}} is on Athos"
+      #The second line of text under the app name
+      state = ""
+      #The Asset ID or URLs of images to randomly use for the large image
+      largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/athos.png"]
+      #The text to show when someone hovers over the largeImage
+      largeImageText = "Exploring Athos"
+      #The Asset ID or URLs of images to randomly use for the small image
+      smallImageKey = ["mclogo"]
+      #The text to show when someone hovers over the smallImage
+      smallImageText = "{{game.mods}} mods installed"
+      #The Twitch or Youtube URL to use when type is set to STREAMING
+      streamingActivityUrl = "https://twitch.tv/twitch"
+      #List of buttons (max 2) to show on the RPC
+      [[dimension_overrides.buttons]]
+        label = "Curseforge"
+        url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
+      [[dimension_overrides.buttons]]
+        label = "Discord"
+        url = "https://discord.gg/vDUGsWUKk8"
+
+  [[dimension_overrides.dimensions]]
+    #The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+    name = "sgjourney:cavum_tenebrae"
+
+    #List of RPCs that will be displayed at random
+    [[dimension_overrides.dimensions.presence]]
+      #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+      type = "PLAYING"
+      #The first line of text under the app name
+      description = "{{player.name}} is on Cavum Tenebrae"
+      #The second line of text under the app name
+      state = ""
+      #The Asset ID or URLs of images to randomly use for the large image
+      largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/cavum_tenebrae.png"]
+      #The text to show when someone hovers over the largeImage
+      largeImageText = "Exploring a Black Hole"
+      #The Asset ID or URLs of images to randomly use for the small image
+      smallImageKey = ["mclogo"]
+      #The text to show when someone hovers over the smallImage
+      smallImageText = "{{game.mods}} mods installed"
+      #The Twitch or Youtube URL to use when type is set to STREAMING
+      streamingActivityUrl = "https://twitch.tv/twitch"
+      #List of buttons (max 2) to show on the RPC
+      [[dimension_overrides.buttons]]
+        label = "Curseforge"
+        url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
+      [[dimension_overrides.buttons]]
+        label = "Discord"
+        url = "https://discord.gg/vDUGsWUKk8"
+
+  [[dimension_overrides.dimensions]]
+    #The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+    name = "sgjourney:chulak"
+
+    #List of RPCs that will be displayed at random
+    [[dimension_overrides.dimensions.presence]]
+      #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+      type = "PLAYING"
+      #The first line of text under the app name
+      description = "{{player.name}} is on Chulak"
+      #The second line of text under the app name
+      state = ""
+      #The Asset ID or URLs of images to randomly use for the large image
+      largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/chulak.png"]
+      #The text to show when someone hovers over the largeImage
+      largeImageText = "Exploring Chulak"
+      #The Asset ID or URLs of images to randomly use for the small image
+      smallImageKey = ["mclogo"]
+      #The text to show when someone hovers over the smallImage
+      smallImageText = "{{game.mods}} mods installed"
+      #The Twitch or Youtube URL to use when type is set to STREAMING
+      streamingActivityUrl = "https://twitch.tv/twitch"
+      #List of buttons (max 2) to show on the RPC
+      [[dimension_overrides.buttons]]
+        label = "Curseforge"
+        url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
+      [[dimension_overrides.buttons]]
+        label = "Discord"
+        url = "https://discord.gg/vDUGsWUKk8"
+
+  [[dimension_overrides.dimensions]]
+    #The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+    name = "sgjourney:rima"
+
+    #List of RPCs that will be displayed at random
+    [[dimension_overrides.dimensions.presence]]
+      #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+      type = "PLAYING"
+      #The first line of text under the app name
+      description = "{{player.name}} is on Rima"
+      #The second line of text under the app name
+      state = ""
+      #The Asset ID or URLs of images to randomly use for the large image
+      largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/rima.png"]
+      #The text to show when someone hovers over the largeImage
+      largeImageText = "Exploring Rima"
+      #The Asset ID or URLs of images to randomly use for the small image
+      smallImageKey = ["mclogo"]
+      #The text to show when someone hovers over the smallImage
+      smallImageText = "{{game.mods}} mods installed"
+      #The Twitch or Youtube URL to use when type is set to STREAMING
+      streamingActivityUrl = "https://twitch.tv/twitch"
+      #List of buttons (max 2) to show on the RPC
+      [[dimension_overrides.buttons]]
+        label = "Curseforge"
+        url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
+      [[dimension_overrides.buttons]]
+        label = "Discord"
+        url = "https://discord.gg/vDUGsWUKk8"
+
+  [[dimension_overrides.dimensions]]
+    #The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+    name = "sgjourney:lantea"
+
+    #List of RPCs that will be displayed at random
+    [[dimension_overrides.dimensions.presence]]
+      #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+      type = "PLAYING"
+      #The first line of text under the app name
+      description = "{{player.name}} is in Atlantis"
+      #The second line of text under the app name
+      state = ""
+      #The Asset ID or URLs of images to randomly use for the large image
+      largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/lantea.png"]
+      #The text to show when someone hovers over the largeImage
+      largeImageText = "Exploring Lantea"
+      #The Asset ID or URLs of images to randomly use for the small image
+      smallImageKey = ["mclogo"]
+      #The text to show when someone hovers over the smallImage
+      smallImageText = "{{game.mods}} mods installed"
+      #The Twitch or Youtube URL to use when type is set to STREAMING
+      streamingActivityUrl = "https://twitch.tv/twitch"
+      #List of buttons (max 2) to show on the RPC
+      [[dimension_overrides.buttons]]
+        label = "Curseforge"
+        url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
+      [[dimension_overrides.buttons]]
+        label = "Discord"
+        url = "https://discord.gg/vDUGsWUKk8"
+
+  [[dimension_overrides.dimensions]]
+    #The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+    name = "sgjourney:unitas"
+
+    #List of RPCs that will be displayed at random
+    [[dimension_overrides.dimensions.presence]]
+      #The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+      type = "PLAYING"
+      #The first line of text under the app name
+      description = "{{player.name}} is on Unitas"
+      #The second line of text under the app name
+      state = ""
+      #The Asset ID or URLs of images to randomly use for the large image
+      largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/unitas.png"]
+      #The text to show when someone hovers over the largeImage
+      largeImageText = "Exploring Unitas"
+      #The Asset ID or URLs of images to randomly use for the small image
+      smallImageKey = ["mclogo"]
+      #The text to show when someone hovers over the smallImage
+      smallImageText = "{{game.mods}} mods installed"
+      #The Twitch or Youtube URL to use when type is set to STREAMING
+      streamingActivityUrl = "https://twitch.tv/twitch"
+      #List of buttons (max 2) to show on the RPC
       [[dimension_overrides.buttons]]
         label = "Curseforge"
         url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
