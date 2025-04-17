@@ -1178,7 +1178,7 @@ hash = "414d5db9795244b245aa678d0d32429a4a06292a7a712eccefd37cd6a42da06e"
 
 [[files]]
 file = "kubejs/data/common_stargates/worldgen/structure_set/common_stargate.json"
-hash = "db62690e3dec4616294239be7383dd3f9f1944dacc72b961dc694a80622e0667"
+hash = "221c0fc0a6c5fdc82f27f17c5292d6a1aa24789af44ff6cd6910614cec2b0f78"
 
 [[files]]
 file = "kubejs/data/create/recipes/crushing/obsidian.json"
