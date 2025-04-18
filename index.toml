@@ -1585,6 +1585,10 @@ file = "kubejs/data/sgcommunity_pack/recipes/mars_sand_to_venus_sand.json"
 hash = "0b79387511ac6d465a55345f55deb4cebbb23a151cca2da57f384dcb4801c380"
 
 [[files]]
+file = "kubejs/data/sgcommunity_pack/recipes/mixing_sky_steel_ingot.json"
+hash = "2149911b68fdbf87281d5bb0b61bd7fc73077e571c42d2ffa6a9b76043d5856c"
+
+[[files]]
 file = "kubejs/data/sgcommunity_pack/recipes/moon_sand_to_mars_sand.json"
 hash = "bb6eeee1157d0d13d944c8f57ee90c2b278b414704ca022ed04f9de8c939b4db"
 
