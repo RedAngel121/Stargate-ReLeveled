@@ -1757,7 +1757,11 @@ file = "kubejs/data/sgjourney/structures/stargate/universe/pedestal/end/universe
 hash = "80fad5f18de1667f4f4fe8d2f4c21bb8ecb3aca96f358cbc17ec013062d26eb4"
 
 [[files]]
-file = "kubejs/data/sgjourney/tags/worldgen/biome/has_structure/mirror_stargate_biomes.json"
+file = "kubejs/data/sgjourney/tags/worldgen/biome/has_structure/stargate_pedestal/stargate_pedestal_deeperdarker_biomes.json"
+hash = "9e76c7836cab1596ec47aea431f7fbfc45139a5b0853cc5c166c09d6a59a4f04"
+
+[[files]]
+file = "kubejs/data/sgjourney/tags/worldgen/biome/has_structure/stargate_pedestal/stargate_pedestal_overworldmirror_biomes.json"
 hash = "0a6ee525129e547e17e4e6ef7e2d1a0b483e0ad2b1f4489ea8d0605a88103986"
 
 [[files]]
@@ -1765,12 +1769,12 @@ file = "kubejs/data/sgjourney/tags/worldgen/biome/has_structure/stargate_pedesta
 hash = "0863f302d4ee8e4475fa4b9a62780a41e62330843e5913b4f8778a71a627b926"
 
 [[files]]
-file = "kubejs/data/sgjourney/tags/worldgen/structure/has_stargate.json"
-hash = "e5a2437485e02f41c170e99ca53a98732670a025f6e6c1f8ccfc4d0342be43cf"
-
-[[files]]
 file = "kubejs/data/sgjourney/tags/worldgen/structure/milky_way_stargate_pedestal.json"
 hash = "172add540d9ad30192e801e99ec3667aef42f5fc0317a76438dfc670dafbf98c"
+
+[[files]]
+file = "kubejs/data/sgjourney/tags/worldgen/structure/tollan_stargate_pedestal.json"
+hash = "d58d5260ed5f5205f8390e1e771bce2e69e9d6d98c799bae514583d509c6d152"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/biome/abydos_desert.json"
@@ -1794,7 +1798,7 @@ hash = "7543ceed677d094950f259a5b000c826d7b97e1196e2d154d99ae0db5f61766a"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/structure/stargate/milky_way/pedestal/stargate_pedestal_undergarden.json"
-hash = "d6c1f5d4cc9544c4624f9ac733b0398d53ea2002246655ceabe026b0bdd1382e"
+hash = "f18f379f4f1414096e6063d38d5b793149caf7c55f3cad2233005e4dd93cd5d2"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/structure/stargate/milky_way/temple/abydos_pyramid.json"
@@ -1802,7 +1806,7 @@ hash = "6c921adc9d7d5e59b890dd051e92981da85c488e4c04f4aff6a6de55dde2b8b0"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/structure/stargate/tollan/pedestal/stargate_pedestal_mirror.json"
-hash = "9fa29fe0eb400d3cd74f8adf639fdaf283a048370984680bad07a0e4335e07e1"
+hash = "bd134850401a9435b6b87efccf40f625cf15a13c1d0f67c3151a1c4cf2d62314"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/structure_set/stargate_pedestal.json"

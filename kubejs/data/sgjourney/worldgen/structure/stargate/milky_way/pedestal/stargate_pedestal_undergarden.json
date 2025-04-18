@@ -21,5 +21,14 @@
       "bounding_box": "piece",
       "spawns": []
     }
-  }
+  },
+	"stargate_modifiers":
+	{
+		"primary": true,
+		"protected": true
+	},
+	"dhd_modifiers":
+	{
+		"protected": true
+	}
 }
