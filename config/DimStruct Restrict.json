@@ -1,6 +1,10 @@
 {
   "structures": [
     {
+      "id": "sgjourney:stargate/tollan/pedestal/stargate_pedestal_mirror",
+      "whitelist": ["overworldmirror:overworld"]
+    },
+    {
       "id": "sgjourney:stargate/milky_way/buried/buried_stargate",
       "whitelist": ["minecraft:overworld"]
     },
