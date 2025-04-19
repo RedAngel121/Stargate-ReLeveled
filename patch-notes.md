@@ -8,6 +8,7 @@
 - Updated interact whitelists to include numismatics blocks
 - Added Undergarden Gate (Thanks to lukaskabc and Samrel556)
 - Added Overworld Mirror Gate (Thanks Cookta2012)
+- Added Deeper and Darker Gate
 - Updated all configs and defaultconfigs to most recent versions
 - Fixed Abydos Pyramid Entrance not getting buried correctly
 - Added temporary recipe for Pure Naquadah
