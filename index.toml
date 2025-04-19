@@ -1685,6 +1685,10 @@ file = "kubejs/data/sgjourney/structures/stargate/classic/buried/stone_template.
 hash = "11f1b3ed413016b5229854376ec007beda3fb371b4b4d670af87fe726b36f930"
 
 [[files]]
+file = "kubejs/data/sgjourney/structures/stargate/milky_way/pedestal/deeper_darker_pedestal.nbt"
+hash = "b8b0072fcd9427e7969450d81902e27362c12bc0d83a1971176e0c8c3f9a318b"
+
+[[files]]
 file = "kubejs/data/sgjourney/structures/stargate/milky_way/pedestal/deepslate/deepslate_stargate_pedestal_1.nbt"
 hash = "077642a81606c027b133477e9133ef4f1bd587f89dbeb24242f6fadb570f959a"
 
@@ -1750,7 +1754,7 @@ hash = "3dec557864655e0e4d94843cd9436ccc36ebb672181786ca35e6c67ba70ed5ac"
 
 [[files]]
 file = "kubejs/data/sgjourney/structures/stargate/tollan/pedestal/overworld_mirror_pedestal.nbt"
-hash = "9c71f450826b5f34d176a186b8082e3d0ef381fce82b336be41d8a9f2629d9ef"
+hash = "eea484c38b2f02d47bdfd98851607d355d7bbe99c5e82e4b1bc115f01994e11d"
 
 [[files]]
 file = "kubejs/data/sgjourney/structures/stargate/universe/pedestal/end/universe_stargate_pedestal_end_1.nbt"
@@ -1761,7 +1765,7 @@ file = "kubejs/data/sgjourney/structures/stargate/universe/pedestal/end/universe
 hash = "80fad5f18de1667f4f4fe8d2f4c21bb8ecb3aca96f358cbc17ec013062d26eb4"
 
 [[files]]
-file = "kubejs/data/sgjourney/tags/worldgen/biome/has_structure/stargate_pedestal/stargate_pedestal_deeperdarker_biomes.json"
+file = "kubejs/data/sgjourney/tags/worldgen/biome/has_structure/stargate_pedestal/stargate_pedestal_deeper_darker_biomes.json"
 hash = "9e76c7836cab1596ec47aea431f7fbfc45139a5b0853cc5c166c09d6a59a4f04"
 
 [[files]]
@@ -1771,14 +1775,6 @@ hash = "0a6ee525129e547e17e4e6ef7e2d1a0b483e0ad2b1f4489ea8d0605a88103986"
 [[files]]
 file = "kubejs/data/sgjourney/tags/worldgen/biome/has_structure/stargate_pedestal/stargate_pedestal_undergarden_biomes.json"
 hash = "0863f302d4ee8e4475fa4b9a62780a41e62330843e5913b4f8778a71a627b926"
-
-[[files]]
-file = "kubejs/data/sgjourney/tags/worldgen/structure/milky_way_stargate_pedestal.json"
-hash = "172add540d9ad30192e801e99ec3667aef42f5fc0317a76438dfc670dafbf98c"
-
-[[files]]
-file = "kubejs/data/sgjourney/tags/worldgen/structure/tollan_stargate_pedestal.json"
-hash = "d58d5260ed5f5205f8390e1e771bce2e69e9d6d98c799bae514583d509c6d152"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/biome/abydos_desert.json"
@@ -1801,6 +1797,10 @@ file = "kubejs/data/sgjourney/worldgen/placed_feature/ore_naquadah.json"
 hash = "7543ceed677d094950f259a5b000c826d7b97e1196e2d154d99ae0db5f61766a"
 
 [[files]]
+file = "kubejs/data/sgjourney/worldgen/structure/stargate/milky_way/pedestal/stargate_pedestal_deeper_darker.json"
+hash = "ac2b04d441ddfb778b2bf93c3aece8b5b4d8e1223a32e62433427037454f3a92"
+
+[[files]]
 file = "kubejs/data/sgjourney/worldgen/structure/stargate/milky_way/pedestal/stargate_pedestal_undergarden.json"
 hash = "f18f379f4f1414096e6063d38d5b793149caf7c55f3cad2233005e4dd93cd5d2"
 
@@ -1814,7 +1814,7 @@ hash = "bd134850401a9435b6b87efccf40f625cf15a13c1d0f67c3151a1c4cf2d62314"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/structure_set/stargate_pedestal.json"
-hash = "3e1d95c033287150645f9df636ddfa3e35c0244ff0fdc2f1ff37a0ffbb77095b"
+hash = "acf5261a8831b2c4830fbcfdfc4a657e851fcf353d35102fbf6bbfff54996d66"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/structure_set/stargate_pedestal_mirror.json"
@@ -1851,6 +1851,10 @@ hash = "2bf104faf8b10b0a527874116451ba1bbcd5324e26bbd3f2aff9ac414e333d88"
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/classic/buried/stone_pool.json"
 hash = "03a8f3ff3f8854a30f19c0e8003b435b41dc374936d08535f86a766b6d2e06e1"
+
+[[files]]
+file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/milky_way/pedestal/stargate_pedestal_deeper_darker.json"
+hash = "cc739050eac49a1d7899c7cecfffcc1c9789df743885e7c503aca24a922c8d3a"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/milky_way/pedestal/stargate_pedestal_undergarden.json"

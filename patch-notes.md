@@ -3,6 +3,7 @@
 
 ### Changes:
 - Fixed double recipe between Futura Blocks and the CC wired modem
+- Added alternate mixing recipe for sky steel
 - Changed Explorers Compass recipe
 - Updated interact whitelists to include numismatics blocks
 - Added Undergarden Gate (Thanks to lukaskabc and Samrel556)
