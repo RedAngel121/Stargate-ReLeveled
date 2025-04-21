@@ -1,24 +1,24 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#&#",
-        "&E&",
-        "#&#"
-    ],
-    "key": {
-        "#": {
-            "tag": "forge:bones"
-        },
-        "&": {
-            "item": "minecraft:netherrack"
-        },
-        "E": {
-            "item": "minecraft:enderman_spawn_egg"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#&#",
+    "&E&",
+    "#&#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:bones"
     },
-    "result": {
-        "item": "endermanoverhaul:nether_wastes_enderman_spawn_egg",
-        "count": 1
+    "&": {
+      "item": "minecraft:netherrack"
     },
-    "group": "enderman_eggs"
+    "E": {
+      "item": "minecraft:enderman_spawn_egg"
+    }
+  },
+  "result": {
+    "item": "endermanoverhaul:nether_wastes_enderman_spawn_egg",
+    "count": 1
+  },
+  "group": "enderman_eggs"
 }

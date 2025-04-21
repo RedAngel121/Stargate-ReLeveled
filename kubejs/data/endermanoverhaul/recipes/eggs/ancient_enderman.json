@@ -1,24 +1,24 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#&#",
-        "&E&",
-        "#&#"
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:end_rod"
-        },
-        "&": {
-            "item": "minecraft:ender_eye"
-        },
-        "E": {
-            "item": "minecraft:enderman_spawn_egg"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#&#",
+    "&E&",
+    "#&#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:end_rod"
     },
-    "result": {
-        "item": "endermanoverhaul:end_islands_enderman_spawn_egg",
-        "count": 1
+    "&": {
+      "item": "minecraft:ender_eye"
     },
-    "group": "enderman_eggs"
+    "E": {
+      "item": "minecraft:enderman_spawn_egg"
+    }
+  },
+  "result": {
+    "item": "endermanoverhaul:end_islands_enderman_spawn_egg",
+    "count": 1
+  },
+  "group": "enderman_eggs"
 }

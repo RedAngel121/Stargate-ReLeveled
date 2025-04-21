@@ -1,24 +1,24 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#&#",
-        "&E&",
-        "#&#"
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:ice"
-        },
-        "&": {
-            "item": "minecraft:packed_ice"
-        },
-        "E": {
-            "item": "minecraft:enderman_spawn_egg"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#&#",
+    "&E&",
+    "#&#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:ice"
     },
-    "result": {
-        "item": "endermanoverhaul:ice_spikes_enderman_spawn_egg",
-        "count": 1
+    "&": {
+      "item": "minecraft:packed_ice"
     },
-    "group": "enderman_eggs"
+    "E": {
+      "item": "minecraft:enderman_spawn_egg"
+    }
+  },
+  "result": {
+    "item": "endermanoverhaul:ice_spikes_enderman_spawn_egg",
+    "count": 1
+  },
+  "group": "enderman_eggs"
 }

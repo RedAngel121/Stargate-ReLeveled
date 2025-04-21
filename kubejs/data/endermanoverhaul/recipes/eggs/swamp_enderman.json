@@ -1,24 +1,24 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#&#",
-        "&E&",
-        "#&#"
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:lily_pad"
-        },
-        "&": {
-            "item": "minecraft:blue_orchid"
-        },
-        "E": {
-            "item": "minecraft:enderman_spawn_egg"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#&#",
+    "&E&",
+    "#&#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lily_pad"
     },
-    "result": {
-        "item": "endermanoverhaul:swamp_enderman_spawn_egg",
-        "count": 1
+    "&": {
+      "item": "minecraft:blue_orchid"
     },
-    "group": "enderman_eggs"
+    "E": {
+      "item": "minecraft:enderman_spawn_egg"
+    }
+  },
+  "result": {
+    "item": "endermanoverhaul:swamp_enderman_spawn_egg",
+    "count": 1
+  },
+  "group": "enderman_eggs"
 }

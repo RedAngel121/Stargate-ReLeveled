@@ -1,11 +1,21 @@
 {
-	"type": "sgjourney:crystallizing",
-	"crystal_base": {"item": "sgjourney:stargate_variant_crystal", "amount": 1},
-	"primary_ingredient": {"item": "minecraft:clock", "amount": 1},
-	"secondary_ingredient": {"item": "minecraft:red_wool", "amount": 1},
-	"output":
-	{
-		"item": "sgjourney:stargate_variant_crystal",
-		"nbt": {"Variant":"jajasgates:tl_gallifrey"}
-	}
+  "type": "sgjourney:crystallizing",
+  "crystal_base": {
+    "item": "sgjourney:stargate_variant_crystal",
+    "amount": 1
+  },
+  "primary_ingredient": {
+    "item": "minecraft:clock",
+    "amount": 1
+  },
+  "secondary_ingredient": {
+    "item": "minecraft:red_wool",
+    "amount": 1
+  },
+  "output": {
+    "item": "sgjourney:stargate_variant_crystal",
+    "nbt": {
+      "Variant": "jajasgates:tl_gallifrey"
+    }
+  }
 }

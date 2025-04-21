@@ -1,113 +1,113 @@
 {
-    "chevron_encode_sounds": {
-        "default": "sgjourney:milky_way_chevron_encode"
-    },
-    "chevron_engaged_sounds": {
-        "default": "sgjourney:milky_way_chevron_engage"
-    },
-    "chevron_incoming_sounds": {
-        "default": "sgjourney:milky_way_chevron_engage"
-    },
-    "chevron_open_sounds": {
-        "default": "sgjourney:milky_way_chevron_open"
-    },
-    "engaged_texture": "jajasgates:textures/entity/stargate/mw_nether/stargate_engaged.png",
-    "fail_sounds": {
-        "default": "sgjourney:milky_way_dial_fail"
-    },
-    "rotation_sounds": {
-        "rotation_sound": "sgjourney:milky_way_ring_spin",
-        "rotation_startup_sound": "sgjourney:milky_way_ring_spin_start",
-        "rotation_stop_sound": "sgjourney:milky_way_ring_spin_stop"
-    },
-    "shiny_wormhole": {
-        "distortion": 5,
-        "event_horizon": {
-            "back": {
-                "columns": 1,
-                "frames": 32,
-                "rgba": {
-                    "alpha": 0.75,
-                    "blue": 1,
-                    "green": 1,
-                    "red": 1
-                },
-                "rows": 32,
-                "texture": "jajasgates:textures/entity/stargate/mw_nether/event_horizon.png"
-            },
-            "front": {
-                "columns": 1,
-                "frames": 32,
-                "rgba": {
-                    "alpha": 1,
-                    "blue": 1,
-                    "green": 1,
-                    "red": 1
-                },
-                "rows": 32,
-                "texture": "jajasgates:textures/entity/stargate/mw_nether/event_horizon.png"
-            }
-        }
-    },
-    "stargate_model": {
-        "raise_back_chevrons": false
-    },
-    "symbols": {
-        "encoded_symbol_color": {
-            "alpha": 0.50196078431373,
-            "blue": 0.89411764705882,
-            "green": 0.031372549019608,
-            "red": 0.51372549019608
+  "chevron_encode_sounds": {
+    "default": "sgjourney:milky_way_chevron_encode"
+  },
+  "chevron_engaged_sounds": {
+    "default": "sgjourney:milky_way_chevron_engage"
+  },
+  "chevron_incoming_sounds": {
+    "default": "sgjourney:milky_way_chevron_engage"
+  },
+  "chevron_open_sounds": {
+    "default": "sgjourney:milky_way_chevron_open"
+  },
+  "engaged_texture": "jajasgates:textures/entity/stargate/mw_nether/stargate_engaged.png",
+  "fail_sounds": {
+    "default": "sgjourney:milky_way_dial_fail"
+  },
+  "rotation_sounds": {
+    "rotation_sound": "sgjourney:milky_way_ring_spin",
+    "rotation_startup_sound": "sgjourney:milky_way_ring_spin_start",
+    "rotation_stop_sound": "sgjourney:milky_way_ring_spin_stop"
+  },
+  "shiny_wormhole": {
+    "distortion": 5,
+    "event_horizon": {
+      "back": {
+        "columns": 1,
+        "frames": 32,
+        "rgba": {
+          "alpha": 0.75,
+          "blue": 1,
+          "green": 1,
+          "red": 1
         },
-        "encoded_symbols_glow": true,
-        "engage_encoded_symbols": true,
-        "engage_symbols_on_incoming": true,
-        "engaged_symbol_color": {
-            "alpha": 1,
-            "blue": 0.89411764705882,
-            "green": 0.031372549019608,
-            "red": 0.51372549019608
+        "rows": 32,
+        "texture": "jajasgates:textures/entity/stargate/mw_nether/event_horizon.png"
+      },
+      "front": {
+        "columns": 1,
+        "frames": 32,
+        "rgba": {
+          "alpha": 1,
+          "blue": 1,
+          "green": 1,
+          "red": 1
         },
-        "symbol_color": {
-            "alpha": 0,
-            "blue": 0.043137254901961,
-            "green": 0.011764705882353,
-            "red": 0.023529411764706
-        }
-    },
-    "texture": "jajasgates:textures/entity/stargate/mw_nether/stargate.png",
-    "wormhole": {
-        "distortion": 5,
-        "event_horizon": {
-            "back": {
-                "columns": 1,
-                "frames": 32,
-                "rgba": {
-                    "alpha": 0.75,
-                    "blue": 1,
-                    "green": 1,
-                    "red": 1
-                },
-                "rows": 32,
-                "texture": "jajasgates:textures/entity/stargate/mw_nether/event_horizon.png"
-            },
-            "front": {
-                "columns": 1,
-                "frames": 32,
-                "rgba": {
-                    "alpha": 1,
-                    "blue": 1,
-                    "green": 1,
-                    "red": 1
-                },
-                "rows": 32,
-                "texture": "jajasgates:textures/entity/stargate/mw_nether/event_horizon.png"
-            }
-        }
-    },
-    "wormhole_sounds": {
-        "close": "jajasgates:mw_nether_disconnect",
-        "idle": "sgjourney:milky_way_wormhole_idle",
-        "open": "jajasgates:mw_nether_open"
+        "rows": 32,
+        "texture": "jajasgates:textures/entity/stargate/mw_nether/event_horizon.png"
+      }
     }
+  },
+  "stargate_model": {
+    "raise_back_chevrons": false
+  },
+  "symbols": {
+    "encoded_symbol_color": {
+      "alpha": 0.50196078431373,
+      "blue": 0.89411764705882,
+      "green": 0.031372549019608,
+      "red": 0.51372549019608
+    },
+    "encoded_symbols_glow": true,
+    "engage_encoded_symbols": true,
+    "engage_symbols_on_incoming": true,
+    "engaged_symbol_color": {
+      "alpha": 1,
+      "blue": 0.89411764705882,
+      "green": 0.031372549019608,
+      "red": 0.51372549019608
+    },
+    "symbol_color": {
+      "alpha": 0,
+      "blue": 0.043137254901961,
+      "green": 0.011764705882353,
+      "red": 0.023529411764706
+    }
+  },
+  "texture": "jajasgates:textures/entity/stargate/mw_nether/stargate.png",
+  "wormhole": {
+    "distortion": 5,
+    "event_horizon": {
+      "back": {
+        "columns": 1,
+        "frames": 32,
+        "rgba": {
+          "alpha": 0.75,
+          "blue": 1,
+          "green": 1,
+          "red": 1
+        },
+        "rows": 32,
+        "texture": "jajasgates:textures/entity/stargate/mw_nether/event_horizon.png"
+      },
+      "front": {
+        "columns": 1,
+        "frames": 32,
+        "rgba": {
+          "alpha": 1,
+          "blue": 1,
+          "green": 1,
+          "red": 1
+        },
+        "rows": 32,
+        "texture": "jajasgates:textures/entity/stargate/mw_nether/event_horizon.png"
+      }
+    }
+  },
+  "wormhole_sounds": {
+    "close": "jajasgates:mw_nether_disconnect",
+    "idle": "sgjourney:milky_way_wormhole_idle",
+    "open": "jajasgates:mw_nether_open"
+  }
 }

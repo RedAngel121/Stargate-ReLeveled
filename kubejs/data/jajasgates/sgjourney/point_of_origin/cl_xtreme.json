@@ -1,5 +1,5 @@
 {
-	"name": "point_of_origin.jajasgates.cl_xtreme",
-	"texture": "jajasgates:point_of_origin/cl_xtreme.png",
-	"generates_randomly": false
+  "name": "point_of_origin.jajasgates.cl_xtreme",
+  "texture": "jajasgates:point_of_origin/cl_xtreme.png",
+  "generates_randomly": false
 }

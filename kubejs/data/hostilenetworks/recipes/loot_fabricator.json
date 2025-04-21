@@ -12,13 +12,13 @@
     "E": {
       "tag": "forge:gems/diamond"
     },
-	"O": {
+    "O": {
       "tag": "forge:obsidian"
     },
-	"L": {
+    "L": {
       "tag": "forge:ingots/gold"
     },
-	"C": {
+    "C": {
       "item": "sgcommunity_pack:computation_core"
     }
   },

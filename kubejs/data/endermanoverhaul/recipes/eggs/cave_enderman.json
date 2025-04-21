@@ -1,24 +1,24 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#&#",
-        "&E&",
-        "#&#"
-    ],
-    "key": {
-        "#": {
-            "tag": "forge:raw_materials/iron"
-        },
-        "&": {
-            "item": "minecraft:dripstone_block"
-        },
-        "E": {
-            "item": "minecraft:enderman_spawn_egg"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#&#",
+    "&E&",
+    "#&#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:raw_materials/iron"
     },
-    "result": {
-        "item": "endermanoverhaul:cave_enderman_spawn_egg",
-        "count": 1
+    "&": {
+      "item": "minecraft:dripstone_block"
     },
-    "group": "enderman_eggs"
+    "E": {
+      "item": "minecraft:enderman_spawn_egg"
+    }
+  },
+  "result": {
+    "item": "endermanoverhaul:cave_enderman_spawn_egg",
+    "count": 1
+  },
+  "group": "enderman_eggs"
 }

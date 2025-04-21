@@ -1,24 +1,24 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#&#",
-        "&E&",
-        "#&#"
-    ],
-    "key": {
-        "#": {
-            "tag": "forge:nuggets/gold"
-        },
-        "&": {
-            "item": "minecraft:crimson_fungus"
-        },
-        "E": {
-            "item": "minecraft:enderman_spawn_egg"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#&#",
+    "&E&",
+    "#&#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:nuggets/gold"
     },
-    "result": {
-        "item": "endermanoverhaul:crimson_forest_enderman_spawn_egg",
-        "count": 1
+    "&": {
+      "item": "minecraft:crimson_fungus"
     },
-    "group": "enderman_eggs"
+    "E": {
+      "item": "minecraft:enderman_spawn_egg"
+    }
+  },
+  "result": {
+    "item": "endermanoverhaul:crimson_forest_enderman_spawn_egg",
+    "count": 1
+  },
+  "group": "enderman_eggs"
 }

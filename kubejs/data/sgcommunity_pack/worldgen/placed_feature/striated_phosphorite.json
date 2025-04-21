@@ -1,24 +1,24 @@
 {
-    "feature": "sgcommunity_pack:striated_phosphorite",
-    "placement": [
-      {
-        "type": "minecraft:rarity_filter",
-        "chance": 20
-      },
-      {
-        "type": "minecraft:in_square"
-      },
-      {
-        "type": "minecraft:height_range",
-        "height": {
-          "type": "minecraft:uniform",
-          "max_inclusive": {
-            "absolute": 50
-          },
-          "min_inclusive": {
-            "absolute": -10
-          }
+  "feature": "sgcommunity_pack:striated_phosphorite",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 20
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "absolute": 50
+        },
+        "min_inclusive": {
+          "absolute": -10
         }
       }
-    ]
-  }
+    }
+  ]
+}

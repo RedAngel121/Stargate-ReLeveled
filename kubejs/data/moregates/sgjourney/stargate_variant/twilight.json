@@ -1,4 +1,4 @@
 {
-    "base_stargate": "sgjourney:pegasus_stargate",
-    "client_variant": "moregates:twilight"
+  "base_stargate": "sgjourney:pegasus_stargate",
+  "client_variant": "moregates:twilight"
 }

@@ -1,11 +1,21 @@
 {
-	"type": "sgjourney:crystallizing",
-	"crystal_base": {"item": "sgjourney:stargate_variant_crystal", "amount": 1},
-	"primary_ingredient": {"item": "minecraft:iron_block", "amount": 1},
-	"secondary_ingredient": {"item": "minecraft:black_dye", "amount": 1},
-	"output":
-	{
-		"item": "sgjourney:stargate_variant_crystal",
-		"nbt": {"Variant":"jajasgates:mw_darkmetal"}
-	}
+  "type": "sgjourney:crystallizing",
+  "crystal_base": {
+    "item": "sgjourney:stargate_variant_crystal",
+    "amount": 1
+  },
+  "primary_ingredient": {
+    "item": "minecraft:iron_block",
+    "amount": 1
+  },
+  "secondary_ingredient": {
+    "item": "minecraft:black_dye",
+    "amount": 1
+  },
+  "output": {
+    "item": "sgjourney:stargate_variant_crystal",
+    "nbt": {
+      "Variant": "jajasgates:mw_darkmetal"
+    }
+  }
 }

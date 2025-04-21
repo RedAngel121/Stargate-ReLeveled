@@ -9,13 +9,13 @@
     "P": {
       "tag": "forge:glass_panes"
     },
-	"O": {
+    "O": {
       "tag": "forge:obsidian"
     },
-	"R": {
+    "R": {
       "tag": "forge:dusts/redstone"
     },
-	"C": {
+    "C": {
       "tag": "sgcommunity_pack:circuit_intermediate"
     }
   },

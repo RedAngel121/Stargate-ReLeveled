@@ -17,13 +17,11 @@
     }
   },
   "terrain_adaptation": "beard_thin",
-	"stargate_modifiers":
-	{
-		"primary": true,
-		"protected": true
-	},
-	"dhd_modifiers":
-	{
-		"protected": true
-	}
+  "stargate_modifiers": {
+    "primary": true,
+    "protected": true
+  },
+  "dhd_modifiers": {
+    "protected": true
+  }
 }

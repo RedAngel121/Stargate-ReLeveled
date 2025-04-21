@@ -9,16 +9,16 @@
     "L": {
       "item": "minecraft:clay_ball"
     },
-	"P": {
+    "P": {
       "tag": "sgcommunity_pack:circuit_intermediate"
     },
-	"R": {
+    "R": {
       "tag": "forge:dusts/redstone"
     },
-	"S": {
+    "S": {
       "item": "minecraft:smooth_stone"
     },
-	"G": {
+    "G": {
       "tag": "forge:ingots/gold"
     }
   },

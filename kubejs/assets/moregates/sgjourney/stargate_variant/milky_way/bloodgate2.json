@@ -1,113 +1,113 @@
 {
-    "wormhole_sounds": {
-        "open": "moregates:crafter_gate_open",
-        "idle": "moregates:silence_wormhole_idle",
-        "close": "moregates:crafter_gate_close"
-    },
-    "wormhole": {
-        "event_horizon": {
-            "front": {
-                "texture": "moregates:textures/entity/stargate/milky_way/bloodgate/bloodgate_event_horizon.png",
-                "columns": 1,
-                "frames": 64,
-                "rows": 64,
-                "rgba": {
-                    "alpha": 1,
-                    "red": 1,
-                    "green": 1,
-                    "blue": 1
-                }
-            },
-            "back": {
-                "texture": "moregates:textures/entity/stargate/milky_way/bloodgate/bloodgate_event_horizon.png",
-                "columns": 1,
-                "frames": 64,
-                "rows": 64,
-                "rgba": {
-                    "alpha": 0.75,
-                    "red": 1,
-                    "green": 1,
-                    "blue": 1
-                }
-            }
+  "wormhole_sounds": {
+    "open": "moregates:crafter_gate_open",
+    "idle": "moregates:silence_wormhole_idle",
+    "close": "moregates:crafter_gate_close"
+  },
+  "wormhole": {
+    "event_horizon": {
+      "front": {
+        "texture": "moregates:textures/entity/stargate/milky_way/bloodgate/bloodgate_event_horizon.png",
+        "columns": 1,
+        "frames": 64,
+        "rows": 64,
+        "rgba": {
+          "alpha": 1,
+          "red": 1,
+          "green": 1,
+          "blue": 1
         }
-    },
-    "chevron_encode_sounds": {
-        "default": "moregates:nox_chevron_encode"
-    },
-    "chevron_open_sounds": {
-        "default": "moregates:crafter_chevron_open"
-    },
-    "fail_sounds": {
-        "default": "sgjourney:universe_dial_fail"
-    },
-    "shiny_wormhole": {
-        "event_horizon": {
-            "front": {
-                "texture": "moregates:textures/entity/stargate/milky_way/bloodgate/bloodgate_event_horizon_shiny.png",
-                "columns": 1,
-                "frames": 64,
-                "rows": 64,
-                "rgba": {
-                    "alpha": 1,
-                    "red": 1,
-                    "green": 1,
-                    "blue": 1
-                }
-            },
-            "back": {
-                "texture": "moregates:textures/entity/stargate/milky_way/bloodgate/bloodgate_event_horizon_shiny.png",
-                "columns": 1,
-                "frames": 64,
-                "rows": 64,
-                "rgba": {
-                    "alpha": 0.75,
-                    "red": 1,
-                    "green": 1,
-                    "blue": 1
-                }
-            }
+      },
+      "back": {
+        "texture": "moregates:textures/entity/stargate/milky_way/bloodgate/bloodgate_event_horizon.png",
+        "columns": 1,
+        "frames": 64,
+        "rows": 64,
+        "rgba": {
+          "alpha": 0.75,
+          "red": 1,
+          "green": 1,
+          "blue": 1
         }
-    },
-    "symbols": {
-        "encoded_symbols_glow": true,
-        "engage_encoded_symbols": true,
-        "engage_symbols_on_incoming": true,
-        "symbol_color": {
-            "alpha": 1,
-            "red": 0.11764705882353,
-            "blue": 0.11764705882353,
-            "green": 0.11764705882353
-        },
-        "encoded_symbol_color": {
-            "alpha": 1,
-            "red": 0.68235294117647,
-            "blue": 0,
-            "green": 0
-        },
-        "movie_chevron_locking": true,
-        "engaged_symbol_color": {
-            "alpha": 1,
-            "red": 0.68235294117647,
-            "blue": 0,
-            "green": 0
-        },
-        "movie_primary_chevron": true
-    },
-    "texture": "moregates:textures/entity/stargate/milky_way/bloodgate/bloodgate_stargate.png",
-    "engaged_texture": "moregates:textures/entity/stargate/milky_way/bloodgate/bloodgate_stargate_engaged.png",
-    "stargate_model": {
-        "raise_back_chevrons": false
-    },
-    "rotation_sounds": {
-        "rotation_sound": "moregates:bloodgate_ring_spin",
-        "rotation_stop_sound": "moregates:crafter_chevron_encode",
-        "rotation_startup_sound": "sgjourney:empty"
-    },
-    "chevron_engaged_sounds": {
-        "default": "moregates:crafter_chevron_encode"
-    },
-    "chevron_incoming_sounds": {
-        "default": "moregates:nox_chevron_encode"
+      }
     }
+  },
+  "chevron_encode_sounds": {
+    "default": "moregates:nox_chevron_encode"
+  },
+  "chevron_open_sounds": {
+    "default": "moregates:crafter_chevron_open"
+  },
+  "fail_sounds": {
+    "default": "sgjourney:universe_dial_fail"
+  },
+  "shiny_wormhole": {
+    "event_horizon": {
+      "front": {
+        "texture": "moregates:textures/entity/stargate/milky_way/bloodgate/bloodgate_event_horizon_shiny.png",
+        "columns": 1,
+        "frames": 64,
+        "rows": 64,
+        "rgba": {
+          "alpha": 1,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      },
+      "back": {
+        "texture": "moregates:textures/entity/stargate/milky_way/bloodgate/bloodgate_event_horizon_shiny.png",
+        "columns": 1,
+        "frames": 64,
+        "rows": 64,
+        "rgba": {
+          "alpha": 0.75,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      }
+    }
+  },
+  "symbols": {
+    "encoded_symbols_glow": true,
+    "engage_encoded_symbols": true,
+    "engage_symbols_on_incoming": true,
+    "symbol_color": {
+      "alpha": 1,
+      "red": 0.11764705882353,
+      "blue": 0.11764705882353,
+      "green": 0.11764705882353
+    },
+    "encoded_symbol_color": {
+      "alpha": 1,
+      "red": 0.68235294117647,
+      "blue": 0,
+      "green": 0
+    },
+    "movie_chevron_locking": true,
+    "engaged_symbol_color": {
+      "alpha": 1,
+      "red": 0.68235294117647,
+      "blue": 0,
+      "green": 0
+    },
+    "movie_primary_chevron": true
+  },
+  "texture": "moregates:textures/entity/stargate/milky_way/bloodgate/bloodgate_stargate.png",
+  "engaged_texture": "moregates:textures/entity/stargate/milky_way/bloodgate/bloodgate_stargate_engaged.png",
+  "stargate_model": {
+    "raise_back_chevrons": false
+  },
+  "rotation_sounds": {
+    "rotation_sound": "moregates:bloodgate_ring_spin",
+    "rotation_stop_sound": "moregates:crafter_chevron_encode",
+    "rotation_startup_sound": "sgjourney:empty"
+  },
+  "chevron_engaged_sounds": {
+    "default": "moregates:crafter_chevron_encode"
+  },
+  "chevron_incoming_sounds": {
+    "default": "moregates:nox_chevron_encode"
+  }
 }

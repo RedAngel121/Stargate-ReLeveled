@@ -6,7 +6,7 @@ hash = "26a724ba0da977fc606abde6d3b28608a0b2bc5a02039b6b9ccf840e5c4c9509"
 
 [[files]]
 file = "config/DimStruct Restrict.json"
-hash = "f5fe80080f37fcfc3d31498cb3083f481e4d3a0dd267eea239db06269aad455f"
+hash = "7e92a663c79c3d3692232eb1ace85e396dec765142a3e91b8479fa6a193cebee"
 
 [[files]]
 file = "config/DistantHorizons.toml"
@@ -22,7 +22,7 @@ hash = "472ff6c4b28019f0e138563834e33392e2c7dc151a65888e71fac57ae161393d"
 
 [[files]]
 file = "config/ad_astra_giselle_addon.ver2.jsonc"
-hash = "5c5282b3fc4cf4be65e2051f0520040244699b7a08c1cf8c7b8f9de592664788"
+hash = "cfcc77818919a971d4f194f90bc6f9e0d4c72b3839e4043222c2d51f7128042c"
 
 [[files]]
 file = "config/ae2/common.json"
@@ -306,7 +306,7 @@ hash = "2ed262b4b0630905fe457bf83ddf07128773524412d2b4d519ce9f7483e02cb2"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "50a9b69ab0123da3459844ed899c359356718f2c3b1636bc64f8e2328b9bf463"
+hash = "44990041b8433696dea0307c7cae1123ee5b362c96817da45b916d3a485d2b2a"
 
 [[files]]
 file = "config/jei/jei-client.ini"
@@ -486,39 +486,39 @@ hash = "d74a0640a6574d3eb634843fdf102bbc748331c0758d97b35528698eb9168d73"
 
 [[files]]
 file = "kubejs/assets/computercraft/models/block/monitor_base.json"
-hash = "0b818eea36bef00ed2feb1404e8427becd661a924d1d87f8890f3ada34097809"
+hash = "09380fa8a077b6eee2e44fdeabad5f12273fc50211ed9577313f692d125a7ae0"
 
 [[files]]
 file = "kubejs/assets/computercraft/models/block/monitor_base_backup.json"
-hash = "9504907e1d51439e90ecee6f173b7055b97f4f08d179c80b389b542abe58abab"
+hash = "61f5ab170af6b498f2ac4b2311b35a0b2f65d84e62dcb99e775ec3a2196d4b3f"
 
 [[files]]
 file = "kubejs/assets/jajasgates/sgjourney/stargate_variant/classic/cl_xtreme.json"
-hash = "d3512944695652c0ff0f459b8ba3c055f347d6011924cc94a1fc9fd5172ce629"
+hash = "200c3cea6398acfa12e4a50bfcdb7a5a91d5ab712d48922dbfa858b09765a1b3"
 
 [[files]]
 file = "kubejs/assets/jajasgates/sgjourney/stargate_variant/milky_way/mw_darkmetal.json"
-hash = "d00675589b8de9fb822ceaa4afff01e43cb3c4cfb455711ebd5816f60b194220"
+hash = "e35c1c294325edf8245ec92d7c6ea17529a1cbbf314a4a65cbbea7c379fba1e5"
 
 [[files]]
 file = "kubejs/assets/jajasgates/sgjourney/stargate_variant/milky_way/mw_nether.json"
-hash = "b2a2abb9a6260c3889fb5746033aba6b4c428cf0f74c1ea921364db85bca4e52"
+hash = "da19872764bd415ad4bd648cc1c5ecee925c91d771a146120785faeac0059001"
 
 [[files]]
 file = "kubejs/assets/jajasgates/sgjourney/stargate_variant/milky_way/mw_oak.json"
-hash = "7248521ccfccf0e42f136d10ea1f106883979c9c9bd1ca2fc15a10edf8b6db5e"
+hash = "aad771028360d8af7545a84f5a2f7ad76bae96ce3216db8ab41f6521ec7f84d5"
 
 [[files]]
 file = "kubejs/assets/jajasgates/sgjourney/stargate_variant/milky_way/mw_stone.json"
-hash = "96d2914b877ea838ed6f4f49fda6ee5b67e1ffde75ab8567f08945f329e9ee9f"
+hash = "d184bc9bd37ce239ea7b8f770e1c5e3df0abfdc07963ddaa9105196c86ac734e"
 
 [[files]]
 file = "kubejs/assets/jajasgates/sgjourney/stargate_variant/tollan/tl_gallifrey.json"
-hash = "6768f07f6300edbabcbec23e4f7efe1a0d162c673cf53ad63fc277342533e9a7"
+hash = "2106e241311ee1da3298c2fbef1d4f074018d79a4cdd05a3c5f0ce4ddd12eddb"
 
 [[files]]
 file = "kubejs/assets/jajasgates/sounds.json"
-hash = "4b56009f6c93eeebc948c6b94598f9e082d5cf440b65081d1b7ba157e39ab63b"
+hash = "a747e18909ee53ceae2bec431821e0e14aa53348f673b8af8e027ce8e12ea8e1"
 
 [[files]]
 file = "kubejs/assets/jajasgates/sounds/mw_nether_disconnect.ogg"
@@ -774,19 +774,19 @@ hash = "589900a7b8cd8b6c2ef715ef4063b9a7829a164d981831f657873d3e674e779c"
 
 [[files]]
 file = "kubejs/assets/moregates/sgjourney/stargate_variant/milky_way/bloodgate2.json"
-hash = "7787a0a2be1f82cfa4bcd5bcf4ceab851aa72edf8dc270bee5a3065baaddacef"
+hash = "dcdae3fdc80e7311994f3667aad3a8c81cd6455c8ff114f366c657fa680a07a0"
 
 [[files]]
 file = "kubejs/assets/moregates/sgjourney/stargate_variant/pegasus/twilight.json"
-hash = "1850f07a72fcc380c0dc23cd633dd619cf38bd9500ffa73b398d433ed3c0667e"
+hash = "b5d0c63e36c561eb6eb99ff0c3c04d55812a696f43841a82cfe4f93da9a62e69"
 
 [[files]]
 file = "kubejs/assets/moregates/sgjourney/stargate_variant/universe/aether.json"
-hash = "a88f19131db182116663731937b19cb129dc894eda7c6c1e1fe505d398365845"
+hash = "cd4472cef5668dd9aaaac836b70330cde6e872e885df5f87e5f330f1373e7c99"
 
 [[files]]
 file = "kubejs/assets/moregates/sgjourney/stargate_variant/universe/quartz.json"
-hash = "65d5d84980f5687a64cc72c14c838fd901dbcbc27cac661c57d93289348790ac"
+hash = "e22eca2d555019af8d86f1de922d72ed4f16b2b331eef953487d6ab80f75c962"
 
 [[files]]
 file = "kubejs/assets/moregates/textures/entity/stargate/aether/aether_event_horizon.png"
@@ -850,7 +850,7 @@ hash = "25ff19b5ddc6572fa2c85d8dc58b809f599615aec2f4bd0749c9f69dc831eaaf"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/lang/en_us.json"
-hash = "826c5a645c0d4304373117739dab9323af9c60f71928972e0f0340a89dbec580"
+hash = "d282ce1f5587fb2ddb1fe062288eb23e03c666048f58a7bda291897ec5a3790e"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/textures/block/borax.png"
@@ -1177,14 +1177,6 @@ file = "kubejs/assets/sgcommunity_pack/textures/quests/roman_two.png"
 hash = "a48daa72f458221900e1a8836159bc2192fdeb650e27fc81c27f4a24ec45a4f8"
 
 [[files]]
-file = "kubejs/assets/sgjourney/models/block/naquadah_generator_mark_i.json"
-hash = "79186f16eb55236d37bfb62fea8cd6334685b8475cd530a9117784643afd3673"
-
-[[files]]
-file = "kubejs/assets/sgjourney/textures/block/naq_gen_tex.png"
-hash = "093288465b95aa9697149cd98774ac2131a22f43347f5c86db6f6e6f5d5d7cc9"
-
-[[files]]
 file = "kubejs/assets/sgjourney/textures/block/transport_rings.png"
 hash = "9d67bd9a3ee6f8ce94d3c547446955f6ce8f9af73bc17070ddcd76c8a34e79b4"
 
@@ -1198,19 +1190,19 @@ hash = "60a5638686c04d424f0b7148a3c0b51dcfe0e6abed9afd4e3249893a45b68f2c"
 
 [[files]]
 file = "kubejs/data/apotheosis/worldgen/structure_set/tower_leaf.json"
-hash = "cd3ae8eadf2873aa1b082a56b0e720865d5ad34d5106b5d1926ec16d2d4b8e69"
+hash = "9a3a21ebbea94d0875ad4109db40a14738d49dd18de3bc51365f55b5e90de466"
 
 [[files]]
 file = "kubejs/data/apotheosis/worldgen/structure_set/tower_main.json"
-hash = "372dbc802ff32040e47d8f2d16551a93956294bfb6ba5f2a83e71147bb982ba0"
+hash = "416210c1a962647be51142cf7a3e9eb7810e688c69b031d0a9283be96f61526e"
 
 [[files]]
 file = "kubejs/data/apotheosis/worldgen/structure_set/tower_sand.json"
-hash = "9475a219e5ef4e3cecace173c94776d2d85b49405096b82b4f402c3e8a8d1bff"
+hash = "512d803d11f9a35b96ad605e117ce7474a6e7b6cdf1c0c13869b8594f242849c"
 
 [[files]]
 file = "kubejs/data/apotheosis/worldgen/structure_set/tower_spruce.json"
-hash = "ece803155b7f5de8d3607316fa136ba8055d0c104cb01555f8cb7fbd1144bbed"
+hash = "bc2b7ed2bbae5c16117620e05b95b113e7f194f82d36e9a7b2bc2a592a3a411e"
 
 [[files]]
 file = "kubejs/data/common_stargates/tags/worldgen/structure/common_stargate.json"
@@ -1270,75 +1262,75 @@ hash = "b8f688d306d95cd2ec4a65612fa07078a83c2672e1d4107fc2d32888ddee2b4d"
 
 [[files]]
 file = "kubejs/data/endermanoverhaul/recipes/eggs/ancient_enderman.json"
-hash = "9149662c43d2b1f60b94254134fc63e44cf00bcb1134bc5c11b5d1e67cea6cd6"
+hash = "ef69d46986878a48203fe91c7888a1eaccf9946551814dfc2770ab851201398d"
 
 [[files]]
 file = "kubejs/data/endermanoverhaul/recipes/eggs/badlands_enderman.json"
-hash = "6dc4d7c1bebf3c4fb399d32f7dd0e3bd5cb25c00cdc44bd085a8af5477ac872f"
+hash = "02f305cd9088db8467e04cef6243c509cd4ccf0914e5bcf58eed3047b0a632a9"
 
 [[files]]
 file = "kubejs/data/endermanoverhaul/recipes/eggs/cave_enderman.json"
-hash = "d7cba76da79bc9405c8c552ea1b0ee5afe2627d4c135e09767567fb472bcc520"
+hash = "8f7d4010c441dec22aa547a6988ac6874996d8ccaefe91f1bf2936aae3007750"
 
 [[files]]
 file = "kubejs/data/endermanoverhaul/recipes/eggs/coral_enderman.json"
-hash = "8f2ef57c3a8c6c665c19911debeeeabca9e0d25249dcd1f046b7345672ac53b2"
+hash = "72dda767b5359dce9b21298cf093a008f953f8c1dc1c4b892433bd385dd9d97b"
 
 [[files]]
 file = "kubejs/data/endermanoverhaul/recipes/eggs/corrupted_enderman.json"
-hash = "92cb2bc182eb783bd0b968f2360a9ab673dbd75a59569046ebb39cfb311e16b0"
+hash = "9c4dedf505d286db999c1651ca8f91f4a605ec28e9f270f34f8078f8a6b821d9"
 
 [[files]]
 file = "kubejs/data/endermanoverhaul/recipes/eggs/crimson_enderman.json"
-hash = "b833a8463a568031632654bee25f8dd40ba494d7591181d41769008105eeebb1"
+hash = "46606e1d99493daf1af902984adcde9e8964d511faa5cc2a79dac3ac0c1ebd80"
 
 [[files]]
 file = "kubejs/data/endermanoverhaul/recipes/eggs/dark_oak_enderman.json"
-hash = "7a47f422011f000d71787dbc034c3c58b8a4130bf8dfffb3dac45220ec799399"
+hash = "e93d0ef344ecf75a8c4725265567c4cfda3cc263eac216f0ba0de5609c0fc57c"
 
 [[files]]
 file = "kubejs/data/endermanoverhaul/recipes/eggs/desert_enderman.json"
-hash = "dfd5abaddbc872d10655d14ed7c999dc24fc6e54cb1a7251a82c75b0d6db04e0"
+hash = "f263815f79c86c82f0619b3fa481fa6a9433194260752fcb54b0e04e485a7fae"
 
 [[files]]
 file = "kubejs/data/endermanoverhaul/recipes/eggs/floral_enderman.json"
-hash = "afc09e43df66522bb40a8fa4f9c5001d6a697aa7ca97667f9ab979a9aa02fc8e"
+hash = "df8d9fefdfe72bd77e3dd8e5bdf27a05c4764480993db5cf6b66641caf01ca6f"
 
 [[files]]
 file = "kubejs/data/endermanoverhaul/recipes/eggs/ice_spikes_enderman.json"
-hash = "160892512879e74c48f126c6aed1ca053c1d8c3fe95b22bb6a2a850bdf37aa30"
+hash = "d70362ee8e4cd483f0c276eb9f5df76794b333a1dd2a37c2832591eb3ae23154"
 
 [[files]]
 file = "kubejs/data/endermanoverhaul/recipes/eggs/mushroom_enderman.json"
-hash = "65a68a4b07d72bc7865165ccbd25771184a790505ec55368fadd38092b988d87"
+hash = "f269ec073e685ddd8e750b46480515e7b6152304b9099192806e43a87d3e5a41"
 
 [[files]]
 file = "kubejs/data/endermanoverhaul/recipes/eggs/nether_wastes_enderman.json"
-hash = "9f04f966fb4243ed469d3d595a876b89e1da6f422aac8533772757872403f269"
+hash = "1807c4f2e874f73d9e305a84afd7db3afcfe8a458cea58c890f5815fd173f1aa"
 
 [[files]]
 file = "kubejs/data/endermanoverhaul/recipes/eggs/savanna_enderman.json"
-hash = "353295a8daf424225d819fbe71a9f250935574eb29e7be7cdbfff48f6ef1f6be"
+hash = "1f3d860d7af1e0c838fb0ca2e6d309f79d49e147da331ea52e85c03304d72c9c"
 
 [[files]]
 file = "kubejs/data/endermanoverhaul/recipes/eggs/snowy_enderman.json"
-hash = "68fe9696fbd90dae14c04771ece9cced5dbf48f5e3f346348cda0ef0d43638fc"
+hash = "2c00f0da17f0e82e80ee8f0ba5559c7d407d2438834dc2ae8ae8f31afe905f09"
 
 [[files]]
 file = "kubejs/data/endermanoverhaul/recipes/eggs/soulsand_enderman.json"
-hash = "64c6aaac06b5166b4e040da6e96f16784c5813e46685bf68cade612838acf922"
+hash = "a8c0485cbc4b305accaad9490616c6a422b7e6e41e0b485acb0a674eb4912025"
 
 [[files]]
 file = "kubejs/data/endermanoverhaul/recipes/eggs/swamp_enderman.json"
-hash = "ca6a685dd97bc648f305b8cdeb1fdffa966ae809c42fb9740e8a54312070ffc3"
+hash = "103e114edc1cc5b81a2f6dd75291ca4ef8999ab052c07bb9a5a66ce1edd0e3d0"
 
 [[files]]
 file = "kubejs/data/endermanoverhaul/recipes/eggs/warped_enderman.json"
-hash = "6822a4009e6e4e43c35a8610207c44ec0d9907704977eb73f3c28bf1040dbee8"
+hash = "be5739d55fe68b01c5f0c2eec08fd6e7fc9313cff8fcd05101e908e0fb362661"
 
 [[files]]
 file = "kubejs/data/endermanoverhaul/recipes/eggs/windswept_enderman.json"
-hash = "de436424860dc6eee839500637dc8ef70e3ee5e316117323e6f639d18268fafb"
+hash = "ea08da4f6fffe65820001331f526001936b0e10119a80933b7eeacb236ea546a"
 
 [[files]]
 file = "kubejs/data/endlessbiomes/recipes/riftite_shard_recipe.json"
@@ -1346,7 +1338,7 @@ hash = "2f03c515d66b4c6255deb87ae1e423f886e42ffa034987bf0fcc5faffdc3777c"
 
 [[files]]
 file = "kubejs/data/explorerscompass/recipes/explorers_compass.json"
-hash = "2c17f87fb719f418cefaa52f397eef527e2ddf30add95b4f778e4f8e8a7ffcdd"
+hash = "8dcb580045a085938e2ee23b5b0d5e18f829764609499ba4b4a06f2442bdd2ea"
 
 [[files]]
 file = "kubejs/data/flan/claim_interactions_override/sophisticated_storage.json"
@@ -1354,39 +1346,39 @@ hash = "c1c54c584222c2f485d651633d06e1162cdb9978e6a8700117dd671d77e64f02"
 
 [[files]]
 file = "kubejs/data/ftbchunks/tags/blocks/interact_whitelist.json"
-hash = "ef10461bb66e0359ca545e70b15c00eacb46ae17dacfba35df50ec047b6abfb4"
+hash = "181a2e498a39aee2f39623983ec005de9a9b69b7ccc32dd7ede490000be23a9a"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/chicken.json"
-hash = "a91c34356589d7b5f2f6d153a7ee24f7a8dab4a4b2e38c43b1d06a27eb9975d0"
+hash = "9114c010d5873b2652d250a4eb07aea7f8a8e9f36c45285ce444878eb64bc7da"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/creeper.json"
-hash = "dc46e4b6b63c597ca8882c85d144eeef2f8ee41e0848531167c4b42852f0e745"
+hash = "cdbcabe51e9274e27e0e3fcd979151062c223054786e90adcf0fea661e8a1330"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/ender_dragon.json"
-hash = "a4bf9a564a14738723c52cdf167ee2a6db14b6ce390568c4208d69cc0fec7546"
+hash = "73a5e2862488bf6f10670c94f5d86794cedf57519cf3d10f7cc28bac2f433e7e"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/enderman.json"
-hash = "7d3918075813690229e7796e86bc46a3a416ef287fee50dbd4e7187835632266"
+hash = "39920e6397990ca0d175f56fe758c38504238ee8f55ce0f7619adc0486453d99"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/recipes/deep_learner.json"
-hash = "b9333ddcdb317d809cf441bbd328d4a30bf528ac11d72ac8101059e07f648977"
+hash = "26c39578dbce4c0b2c9ebd038b81fdea1f91c11723698e1560b6af354c53eb8f"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/recipes/framework.json"
-hash = "09211a70b7c1d8edfde0ca36b2aa592ab212390c04be713cd3e759694a428c8e"
+hash = "4054550811d1c5ff029ac9109af16d282ae337de10e183fe7c63c7d79897345e"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/recipes/loot_fabricator.json"
-hash = "906bc61f925e36bf9cb33cf91ef1daed0f5c1ebaf632eab2c124c974d042c722"
+hash = "3413dc623ebe2a581e52d081a5496fe3f63d05c0ac76fe4010744e2a5075991d"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/recipes/sim_chamber.json"
-hash = "8fb46d901d32aab070733538512bb2c857862f5e240b9f5701e791c99ff7f671"
+hash = "74fdf74f4e69a1c58f8bdb1d7ae7b126e048811b4ba5cb36638ab187e166d3e8"
 
 [[files]]
 file = "kubejs/data/ironfurnaces/recipes/augments/augment_generator.json"
@@ -1398,7 +1390,7 @@ hash = "f347873a294adf06c460d868ea83d6ea5e1cff288d1b5ce426dba1ae5e5471ab"
 
 [[files]]
 file = "kubejs/data/ironfurnaces/recipes/furnaces/iron_furnace.json"
-hash = "93ebe67f0df7eccc243a7b201be16e97c7188fa7c1df02b6b6738e6cf7ba324a"
+hash = "e0ea03a92ba53e373aadb9a53d042759888d8d18ca07e49a32e8388064e93b84"
 
 [[files]]
 file = "kubejs/data/ironfurnaces/recipes/furnaces/iron_furnace2.json"
@@ -1430,7 +1422,7 @@ hash = "6e6d681a265f92a2a8bee764a057dfbff7f19cbf0f756df7b1b6348e2d1a31b8"
 
 [[files]]
 file = "kubejs/data/ironfurnaces/recipes/item_heater.json"
-hash = "f69f5b0336570b3a44d3f5e5c00d7550a29fd0237f77d3c11910fdaa361cbd28"
+hash = "38494a6ee881b971a9d8e15b767d6965c9dfc571bb77a5ebc2892182de631e2c"
 
 [[files]]
 file = "kubejs/data/ironfurnaces/recipes/upgrades/upgrade_diamond.json"
@@ -1450,67 +1442,67 @@ hash = "584f2f6e6c79a1e596d4b854bc9407b480c126b59606f264e51ef871524b44d3"
 
 [[files]]
 file = "kubejs/data/jajasgates/recipes/crystallizing/cl_xtreme_variant_crystal.json"
-hash = "9082c59e10a7f1f719fe8acbb889f15e4a83de888a3d72d8b3d86597f99f473d"
+hash = "d75a93f14df1c182cba593e34ec5309cc554834e25bffe66dbabeea34e7bf88b"
 
 [[files]]
 file = "kubejs/data/jajasgates/recipes/crystallizing/mw_darkmetal_variant_crystal.json"
-hash = "aa33048398303c3354c9ab318e15ce839043f907685bf9f7d978d31270efd0af"
+hash = "00e4c220b9dc726629a8077d3b4be71eb18eaa0c9ced15f844bb0c061a7ab063"
 
 [[files]]
 file = "kubejs/data/jajasgates/recipes/crystallizing/mw_nether_variant_crystal.json"
-hash = "ce892947a43145a4287d57fc2bb50e3ea524478e490e828031e832b2769c7b3e"
+hash = "a2ec6beec8849e40ceb57d75f0f68c9fb40ad03c1839526a6ad9aa18891bdf9f"
 
 [[files]]
 file = "kubejs/data/jajasgates/recipes/crystallizing/mw_oak_variant_crystal.json"
-hash = "0be0237edf6522a3f19d78531e683a0eef9ba28097c9de0115565b2d7d24783d"
+hash = "eec3f19141c4d15c43666d2f8c0b0d6d3db93d64049b5c043b713c9490b31a5e"
 
 [[files]]
 file = "kubejs/data/jajasgates/recipes/crystallizing/mw_stone_variant_crystal.json"
-hash = "d578aa8a853b44c1bfc62d221c626fa4cd5286be9b1d34634497f50bb08e9fbf"
+hash = "02c452cf6c9379bcd9c796b85e7195708b4b243c3a2286f46ab7f5cce04a3df7"
 
 [[files]]
 file = "kubejs/data/jajasgates/recipes/crystallizing/tl_gallifrey_variant_crystal.json"
-hash = "0a49f733214b50a1a9a9a7c030c238a2e08083c8e3b8628d24da34eef52907a4"
+hash = "dfadd8cac4a7ed07a5f2e24fd2ba33a9452f91790396d876bdc0e4538fb9a774"
 
 [[files]]
 file = "kubejs/data/jajasgates/sgjourney/point_of_origin/cl_xtreme.json"
-hash = "bff47fe8497d4f369a8974c0935ff2663e06a4f0c72d5ee78957de6d36be3b88"
+hash = "5c48019237992398b68de27a2d4f1130c6578492a35326249bf08611c93c4bfa"
 
 [[files]]
 file = "kubejs/data/jajasgates/sgjourney/stargate_variant/cl_xtreme.json"
-hash = "576b4b4b5afb859568fc4470a6fc5345be801979af35867e6918e8b4744e7baf"
+hash = "422d1eea3706849845777d0772dd68c9de33c492d600451c3d1736cdfe55cb8a"
 
 [[files]]
 file = "kubejs/data/jajasgates/sgjourney/stargate_variant/mw_darkmetal.json"
-hash = "7ff4f186e45412e6b019077d0c30750713f08b73c4e35534376f4e2dd68377bf"
+hash = "7278fb92b7af168fe68478b29be8cdda730b6cbfe12fcd50d963877443b7e58c"
 
 [[files]]
 file = "kubejs/data/jajasgates/sgjourney/stargate_variant/mw_nether.json"
-hash = "c980fc621ede3c26d2daf52bbf8929d5bd35300d347e0efd7a2d03832f9b12ab"
+hash = "08dce8fc4bbd28a1c6b1ae44d523ae874a0c9807b2c747c03fbec2698aae7414"
 
 [[files]]
 file = "kubejs/data/jajasgates/sgjourney/stargate_variant/mw_oak.json"
-hash = "ae5caee4df279c7cbcd792e8ae63bb2aa160db6b089d74370799a74e023d48b0"
+hash = "2ff2167a32d64a2cba75552073b59cb398ec26924b7e0a5f72508c807340fa60"
 
 [[files]]
 file = "kubejs/data/jajasgates/sgjourney/stargate_variant/mw_stone.json"
-hash = "a9692c6095556d914c573a56998d5d58b9a52f44ce5ac52f9d59623e120d0a4e"
+hash = "7d7e0be13f7844829528293b46e702fa23846dac7d92aedc59ec114607c4105b"
 
 [[files]]
 file = "kubejs/data/jajasgates/sgjourney/stargate_variant/tl_gallifrey.json"
-hash = "ca688419c794116099e00934304980e0d79caa29901b9150c87405326d8203bc"
+hash = "1ddcd00d6fd5467b6efc6467e68d02272eafb81f22dbbdbfcd527cb1df9187ce"
 
 [[files]]
 file = "kubejs/data/jajasgates/sgjourney/symbol_set/cl_xtreme.json"
-hash = "8c050cbc068f3d98d17c68700dc06155cd06eb8529f7c1d5aeeacbb248c05294"
+hash = "978a433c15acbb610c06f6d12fe7a8c2d05af16f702f92f336b417493e42e466"
 
 [[files]]
 file = "kubejs/data/jajasgates/sgjourney/symbols/cl_xtreme.json"
-hash = "ca394b600f494046c3a411f064d67f09e599e7e36474e493edc5df385c639731"
+hash = "c97bea47e76f1d5c88c314261574eff0305b134b703c8942cf1181cc36ce03df"
 
 [[files]]
 file = "kubejs/data/mekanism/recipes/crushing/rose_quartz_chunk_from_block.json"
-hash = "12a4e67f10609036aba96f4a75c007534b98628c7bc79b9721a28a0803c1836d"
+hash = "05b6765df2675e6a44581f00001e7c94cdd87292b7c98ea554458607c250062c"
 
 [[files]]
 file = "kubejs/data/modularrouters/recipes/blank_module.json"
@@ -1522,39 +1514,39 @@ hash = "6817152712c1da62fe55270664c673192ccc3174608e705d020d0e989c5ee228"
 
 [[files]]
 file = "kubejs/data/moregates/recipes/crystallizing/aether_variant_crystal.json"
-hash = "e884f9416cfddd1cbde2e37ac5718c7ed36d318f9682ce7c62bdc83bef415f1d"
+hash = "43aec42d53fbe0670a739ef93c05f857026b72663061ebee8f4470a851badf85"
 
 [[files]]
 file = "kubejs/data/moregates/recipes/crystallizing/quartz_variant_crystal.json"
-hash = "2e600af108cb634c7b2f925ac6803a22cacce90d319dfb20cbaddfcca238956a"
+hash = "26f6e03d65cde94736c86324b73eace38beedd48c52102fc56cd1b7f34264fe4"
 
 [[files]]
 file = "kubejs/data/moregates/recipes/crystallizing/twilight_variant_crystal.json"
-hash = "9174e95d9c6c307c1789f6cff8604bbacc934c0e783cb4f1a22089429b6c4385"
+hash = "fb55a4d9c3eaa5c3f6d4cc70310c3adfc5d4e71dfc2b1fb909de16fe6b537c8c"
 
 [[files]]
 file = "kubejs/data/moregates/sgjourney/stargate_variant/aether.json"
-hash = "4de94c11830b1e16a0008107db008e8e907ce5a8bed96b98e648eb12dbd0c2ae"
+hash = "5b5d03f293fb785e19a3b2276c858bb7fe00075e42094c1da2ad71208692e752"
 
 [[files]]
 file = "kubejs/data/moregates/sgjourney/stargate_variant/bloodgate2.json"
-hash = "9bc7e89185149f18f23e5205d0b7e257dd9d65d920512f246d2d98aa7976f031"
+hash = "984cb1828860f55753f3e6743064c0ecf196f8d610230136bfdb321001d9c3fc"
 
 [[files]]
 file = "kubejs/data/moregates/sgjourney/stargate_variant/quartz.json"
-hash = "794b4e2fd2a4d8c549d38f666eb21d243397e01a6078715320356bb09d72ec90"
+hash = "315221afa6b7b9712dff02ea6bd291a6a3177d689367d0119b7785b3511ccb2a"
 
 [[files]]
 file = "kubejs/data/moregates/sgjourney/stargate_variant/twilight.json"
-hash = "de1068dd22cf941aafcf08c77f6a2a4e6ded4762fa066360c36f8a5148259e5f"
+hash = "16254061b86f96eb57302d6c39dad8c7e05d9fdd0d831bc80762d799e97e00fd"
 
 [[files]]
 file = "kubejs/data/overworldmirror/dimension/overworld.json"
-hash = "2c0a254add3ce491588ea687296b39247560375947bd44052739b1b0d60c52e3"
+hash = "695d0c88ec27c3aafc00afa641c922c9f2e2d2ea2aa6e44572798d73f2014732"
 
 [[files]]
 file = "kubejs/data/pamhc2crops/recipes/sunchokeseeditem.json"
-hash = "ca2cadec02be7bd096ea68947e2cd98a6920b22ba8d74dc179042f575b05b32f"
+hash = "c88548448fc549b84aa6f9e1c8627bb800eb7250090eab1ee0251bae245ec16f"
 
 [[files]]
 file = "kubejs/data/pamhc2foodcore/recipes/saltitem.json"
@@ -1618,19 +1610,19 @@ hash = "18c5a46357427fba92e2b507e608bd5e598377f755016d2dfb44735400db1196"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/worldgen/configured_feature/striated_evaporites.json"
-hash = "8267c87fbd6e875748493d5e57b59f4112c76e9707cb8bfe3d7e13364b516c2d"
+hash = "0472d0844d31137d4e3ad45325542c73ea1959f15b7038a4d6ecfcdfb747d25e"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/worldgen/configured_feature/striated_phosphorite.json"
-hash = "5b4f814fa890ea2dd0a86512b71f03fe34141d978e3e6c7f7a2f52275aa8d8e8"
+hash = "73bd525467a33030716cd96c871b5cddd7e555b20bb2afa3ae4870c90f8bb1f1"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/worldgen/placed_feature/striated_evaporites.json"
-hash = "ee15021427a14b117651b6d22261a69ec0ee4d50bf5ac7b8259eff6022824350"
+hash = "53ae71ae2286bac533fa622e9de8453c3fae18e49b7d4eed66c1b1895ccafa03"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/worldgen/placed_feature/striated_phosphorite.json"
-hash = "f7bee9f9ac70e20835b98dc74f54be9655ad769e878590ff58c5acdd0864392c"
+hash = "952823766f22f31049c586031b3c1a5971fc48d9a2d6d57abb5d0b714c68931d"
 
 [[files]]
 file = "kubejs/data/sgjourney/dimension_type/abydos.json"
@@ -1766,7 +1758,7 @@ hash = "80fad5f18de1667f4f4fe8d2f4c21bb8ecb3aca96f358cbc17ec013062d26eb4"
 
 [[files]]
 file = "kubejs/data/sgjourney/tags/worldgen/biome/has_structure/stargate_pedestal/stargate_pedestal_deeper_darker_biomes.json"
-hash = "9e76c7836cab1596ec47aea431f7fbfc45139a5b0853cc5c166c09d6a59a4f04"
+hash = "709a7f32d27b101f630bd5693003ec2e6ab162450042535acdef19ae7f17b4cc"
 
 [[files]]
 file = "kubejs/data/sgjourney/tags/worldgen/biome/has_structure/stargate_pedestal/stargate_pedestal_overworldmirror_biomes.json"
@@ -1798,11 +1790,11 @@ hash = "7543ceed677d094950f259a5b000c826d7b97e1196e2d154d99ae0db5f61766a"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/structure/stargate/milky_way/pedestal/stargate_pedestal_deeper_darker.json"
-hash = "ac2b04d441ddfb778b2bf93c3aece8b5b4d8e1223a32e62433427037454f3a92"
+hash = "38ab180a270093809021a012b6cd54219f66a3dc5ddf951379dc28823ec9f6ca"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/structure/stargate/milky_way/pedestal/stargate_pedestal_undergarden.json"
-hash = "f18f379f4f1414096e6063d38d5b793149caf7c55f3cad2233005e4dd93cd5d2"
+hash = "29f2c57c2b04d7b3616f864cf1ed8e55337095d878855f2de552c19d9a605f25"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/structure/stargate/milky_way/temple/abydos_pyramid.json"
@@ -1810,7 +1802,7 @@ hash = "6c921adc9d7d5e59b890dd051e92981da85c488e4c04f4aff6a6de55dde2b8b0"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/structure/stargate/tollan/pedestal/stargate_pedestal_mirror.json"
-hash = "bd134850401a9435b6b87efccf40f625cf15a13c1d0f67c3151a1c4cf2d62314"
+hash = "b9b554c50d2063ccf504247d071a2542ef862af38d3c2e12864b20e817e2578e"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/structure_set/stargate_pedestal.json"
@@ -1838,7 +1830,7 @@ hash = "f2db171b9d2fff2496a49fe1ea9ea3e535a3ff9907ce9783faec0ab9ffd40bb3"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/classic/buried/nether_pool.json"
-hash = "3d2a5d0129fe7ed2c79b71e32a28cdcf9570fd00dbcde58bb10933e50cd23347"
+hash = "dc8969cbb3230a8bb00d22f518299b567f27a9a3f51d003b2ac30cdd86891bcd"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/template_pool/stargate/classic/buried/snow_pool.json"

@@ -13,7 +13,7 @@
       "tag": "sgcommunity_pack:circuit_basic"
     },
     "X": {
-       "item": "minecraft:furnace"
+      "item": "minecraft:furnace"
     }
   },
   "result": {

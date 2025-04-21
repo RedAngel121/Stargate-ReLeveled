@@ -1,24 +1,24 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#&#",
-        "&E&",
-        "#&#"
-    ],
-    "key": {
-        "#": {
-            "tag": "forge:mushrooms"
-        },
-        "&": {
-            "item": "minecraft:mycelium"
-        },
-        "E": {
-            "item": "minecraft:enderman_spawn_egg"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#&#",
+    "&E&",
+    "#&#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:mushrooms"
     },
-    "result": {
-        "item": "endermanoverhaul:mushroom_fields_enderman_spawn_egg",
-        "count": 1
+    "&": {
+      "item": "minecraft:mycelium"
     },
-    "group": "enderman_eggs"
+    "E": {
+      "item": "minecraft:enderman_spawn_egg"
+    }
+  },
+  "result": {
+    "item": "endermanoverhaul:mushroom_fields_enderman_spawn_egg",
+    "count": 1
+  },
+  "group": "enderman_eggs"
 }

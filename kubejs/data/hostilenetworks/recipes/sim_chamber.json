@@ -12,13 +12,13 @@
     "E": {
       "item": "minecraft:ender_pearl"
     },
-	"O": {
+    "O": {
       "tag": "forge:obsidian"
     },
-	"L": {
+    "L": {
       "tag": "forge:gems/lapis"
     },
-	"C": {
+    "C": {
       "item": "sgcommunity_pack:computation_core"
     }
   },

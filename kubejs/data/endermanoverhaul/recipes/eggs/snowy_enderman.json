@@ -1,24 +1,24 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#&#",
-        "&E&",
-        "#&#"
-    ],
-    "key": {
-        "#": {
-            "item": "minecraft:snowball"
-        },
-        "&": {
-            "item": "minecraft:snow_block"
-        },
-        "E": {
-            "item": "minecraft:enderman_spawn_egg"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#&#",
+    "&E&",
+    "#&#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:snowball"
     },
-    "result": {
-        "item": "endermanoverhaul:snowy_enderman_spawn_egg",
-        "count": 1
+    "&": {
+      "item": "minecraft:snow_block"
     },
-    "group": "enderman_eggs"
+    "E": {
+      "item": "minecraft:enderman_spawn_egg"
+    }
+  },
+  "result": {
+    "item": "endermanoverhaul:snowy_enderman_spawn_egg",
+    "count": 1
+  },
+  "group": "enderman_eggs"
 }

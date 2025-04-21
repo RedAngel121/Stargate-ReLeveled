@@ -1,1 +1,84 @@
-{"wormhole":{"event_horizon":{"front":{"texture":"jajasgates:textures/entity/stargate/cl_xtreme/xtreme_event_horizon.png","rgba":{"blue":1,"alpha":0.75,"green":1,"red":1},"frames":32,"columns":1,"rows":32},"back":{"texture":"jajasgates:textures/entity/stargate/cl_xtreme/xtreme_event_horizon.png","rgba":{"blue":1,"alpha":0.75,"green":1,"red":1},"frames":32,"columns":1,"rows":32}}},"chevron_incoming_sounds":{"default":"sgjourney:classic_chevron_engage"},"chevron_engaged_sounds":{"default":"sgjourney:classic_chevron_engage"},"symbols":{"permanent_symbols":"jajasgates:cl_xtreme","permanent_point_of_origin":"jajasgates:cl_xtreme","symbol_color":{"green":0.84313725490196,"alpha":1,"blue":0.29803921568627,"red":1}},"texture":"jajasgates:textures/entity/stargate/cl_xtreme/xtreme_stargate.png","engaged_texture":"jajasgates:textures/entity/stargate/cl_xtreme/xtreme_stargate_engaged.png","wormhole_sounds":{"open":"sgjourney:classic_wormhole_open","close":"sgjourney:classic_wormhole_close","idle":"sgjourney:classic_wormhole_idle"},"shiny_wormhole":{"event_horizon":{"front":{"texture":"jajasgates:textures/entity/stargate/cl_xtreme/xtreme_event_horizon_shiny.png","rgba":{"blue":1,"alpha":0.75,"green":1,"red":1},"frames":32,"columns":1,"rows":32},"back":{"texture":"jajasgates:textures/entity/stargate/cl_xtreme/xtreme_event_horizon_shiny.png","rgba":{"blue":1,"alpha":0.75,"green":1,"red":1},"frames":32,"columns":1,"rows":32}}},"fail_sounds":{"default":"sgjourney:classic_dial_fail"}}
+{
+  "wormhole": {
+    "event_horizon": {
+      "front": {
+        "texture": "jajasgates:textures/entity/stargate/cl_xtreme/xtreme_event_horizon.png",
+        "rgba": {
+          "blue": 1,
+          "alpha": 0.75,
+          "green": 1,
+          "red": 1
+        },
+        "frames": 32,
+        "columns": 1,
+        "rows": 32
+      },
+      "back": {
+        "texture": "jajasgates:textures/entity/stargate/cl_xtreme/xtreme_event_horizon.png",
+        "rgba": {
+          "blue": 1,
+          "alpha": 0.75,
+          "green": 1,
+          "red": 1
+        },
+        "frames": 32,
+        "columns": 1,
+        "rows": 32
+      }
+    }
+  },
+  "chevron_incoming_sounds": {
+    "default": "sgjourney:classic_chevron_engage"
+  },
+  "chevron_engaged_sounds": {
+    "default": "sgjourney:classic_chevron_engage"
+  },
+  "symbols": {
+    "permanent_symbols": "jajasgates:cl_xtreme",
+    "permanent_point_of_origin": "jajasgates:cl_xtreme",
+    "symbol_color": {
+      "green": 0.84313725490196,
+      "alpha": 1,
+      "blue": 0.29803921568627,
+      "red": 1
+    }
+  },
+  "texture": "jajasgates:textures/entity/stargate/cl_xtreme/xtreme_stargate.png",
+  "engaged_texture": "jajasgates:textures/entity/stargate/cl_xtreme/xtreme_stargate_engaged.png",
+  "wormhole_sounds": {
+    "open": "sgjourney:classic_wormhole_open",
+    "close": "sgjourney:classic_wormhole_close",
+    "idle": "sgjourney:classic_wormhole_idle"
+  },
+  "shiny_wormhole": {
+    "event_horizon": {
+      "front": {
+        "texture": "jajasgates:textures/entity/stargate/cl_xtreme/xtreme_event_horizon_shiny.png",
+        "rgba": {
+          "blue": 1,
+          "alpha": 0.75,
+          "green": 1,
+          "red": 1
+        },
+        "frames": 32,
+        "columns": 1,
+        "rows": 32
+      },
+      "back": {
+        "texture": "jajasgates:textures/entity/stargate/cl_xtreme/xtreme_event_horizon_shiny.png",
+        "rgba": {
+          "blue": 1,
+          "alpha": 0.75,
+          "green": 1,
+          "red": 1
+        },
+        "frames": 32,
+        "columns": 1,
+        "rows": 32
+      }
+    }
+  },
+  "fail_sounds": {
+    "default": "sgjourney:classic_dial_fail"
+  }
+}

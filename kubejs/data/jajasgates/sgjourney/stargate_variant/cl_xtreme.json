@@ -1,1 +1,4 @@
-{"client_variant":"jajasgates:cl_xtreme","base_stargate":"sgjourney:classic_stargate"}
+{
+  "client_variant": "jajasgates:cl_xtreme",
+  "base_stargate": "sgjourney:classic_stargate"
+}
