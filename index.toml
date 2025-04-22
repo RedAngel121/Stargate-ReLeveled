@@ -157,6 +157,10 @@ file = "config/fancymenu/options.txt"
 hash = "a00ec313e54cf2db280d2bf5aa29f7ecabbd1b31693b9fd9297cc317ea39f1ba"
 
 [[files]]
+file = "config/fancymenu/slideshows/main_menu/images/Datas_home_gate.png"
+hash = "c91d124c83d57cf08fea21cb5f28e8147cc2b89c7f3959f7f918191e08b6969f"
+
+[[files]]
 file = "config/fancymenu/slideshows/main_menu/images/abydos.png"
 hash = "fcafac2058f3c734b613b26442647ea2c51c0861097192080a14f2aab46623e5"
 
@@ -2176,6 +2180,11 @@ metafile = true
 [[files]]
 file = "mods/configured.pw.toml"
 hash = "c1bdeff356cd2ac164e2c0e6d0ceeda234db9774c2df44fb9f0e71d3960cc3f1"
+metafile = true
+
+[[files]]
+file = "mods/connected-glass.pw.toml"
+hash = "f7d6e93ebda94f4e833741ca04527ee8758852ba44ba4a36de071936a2533bff"
 metafile = true
 
 [[files]]
