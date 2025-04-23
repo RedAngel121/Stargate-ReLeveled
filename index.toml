@@ -1989,10 +1989,6 @@ file = "kubejs/startup_scripts/startup.js"
 hash = "2206f713e71df7de9421034a0cff77a1a2b9cef75ff5623c0509ca04182502a8"
 
 [[files]]
-file = "mods/DimStructure Restrict-0.1.0.jar"
-hash = "0a29691aee5ac8cf4ee71d17772d4fd3054f302c04591fe4f7e7aa4e501ff232"
-
-[[files]]
 file = "mods/ad-astra-giselle-addon.pw.toml"
 hash = "2aa8ec6a3cab2c9d7cbc728bbde3364c4f36cc8c71b7527cd683edfb59cb6f5a"
 metafile = true
@@ -2285,6 +2281,11 @@ metafile = true
 [[files]]
 file = "mods/deeperdarker.pw.toml"
 hash = "e50740a50bdeef70e78fc991fbc8eee9dbb4bacd11f5e7cbf10f4c46cb5fd0aa"
+metafile = true
+
+[[files]]
+file = "mods/dimensional-structure-restrict.pw.toml"
+hash = "6569c960a0cbe5a1c42078e7e32f89ca90a84acbe764a8bcdab679ecc51826a9"
 metafile = true
 
 [[files]]

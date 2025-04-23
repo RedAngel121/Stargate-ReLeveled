@@ -1,0 +1,13 @@
+name = "Dimensional Structure Restrict"
+filename = "DimStructure Restrict-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "edc49cbe4d5ac4f95932fb164f5930510384e0fe"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6453374
+project-id = 1249468
