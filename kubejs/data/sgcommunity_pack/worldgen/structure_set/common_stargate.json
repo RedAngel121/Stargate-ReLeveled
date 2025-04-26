@@ -1,0 +1,42 @@
+{
+  "structures": [
+    {
+      "structure": "sgcommunity_pack:stargate/classic/buried/badlands_structure",
+      "weight": 1
+    },
+    {
+      "structure": "sgcommunity_pack:stargate/classic/buried/desert_structure",
+      "weight": 1
+    },
+    {
+      "structure": "sgcommunity_pack:stargate/classic/buried/snow_structure",
+      "weight": 1
+    },
+    {
+      "structure": "sgcommunity_pack:stargate/classic/buried/deepslate_structure",
+      "weight": 1
+    },
+    {
+      "structure": "sgcommunity_pack:stargate/classic/buried/stone_structure",
+      "weight": 1
+    },
+    {
+      "structure": "sgcommunity_pack:stargate/classic/buried/blackstone_structure",
+      "weight": 1
+    },
+    {
+      "structure": "sgcommunity_pack:stargate/classic/buried/nether_structure",
+      "weight": 1
+    },
+    {
+      "structure": "sgcommunity_pack:stargate/classic/buried/soul_sand_structure",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1875847473,
+    "spacing": 80,
+    "separation": 64,
+    "type": "minecraft:random_spread"
+  }
+}

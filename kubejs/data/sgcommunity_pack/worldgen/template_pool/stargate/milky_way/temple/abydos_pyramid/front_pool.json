@@ -1,0 +1,15 @@
+{
+  "name": "sgcommunity_pack:abydos_pyramid/abydos_pyramid_front_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "sgcommunity_pack:stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_front",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
