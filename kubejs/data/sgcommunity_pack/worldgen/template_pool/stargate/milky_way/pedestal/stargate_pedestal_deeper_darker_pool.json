@@ -1,0 +1,15 @@
+{
+  "name": "sgcommunity_pack:stargate/milky_way/pedestal/stargate_pedestal_deeper_darker_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "sgcommunity_pack:stargate/milky_way/pedestal/deeper_darker_pedestal",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
