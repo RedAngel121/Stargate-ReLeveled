@@ -1,13 +1,13 @@
 name = "SGJ: Ponder"
-filename = "sgj_ponder.1.20.1-1.0.0.jar"
+filename = "sgj_ponder.1.20.1-1.0.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "439e6b5ae9c82c4bd7a23074c1df96cd2f98c5b1"
+hash = "e67860bc22e942c4232ea008941aeb8c7ab56582"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5708445
+file-id = 6421172
 project-id = 1100013

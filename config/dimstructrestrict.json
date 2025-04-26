@@ -1,10 +1,19 @@
 {
   "structures": [
     {
+      "id": "sgjourney:stargate/milky_way/terra_stargate",
+      "whitelist": [
+        "minecraft:overworld"
+      ],
+      "false_place": false,
+      "active": true
+    },
+    {
       "id": "sgcommunity_pack:stargate/tollan/pedestal/stargate_pedestal_mirror",
       "whitelist": [
         "overworldmirror:overworld"
       ],
+      "false_place": false,
       "active": true
     },
     {
@@ -12,13 +21,7 @@
       "whitelist": [
         "minecraft:overworld"
       ],
-      "active": true
-    },
-    {
-      "id": "sgjourney:stargate/milky_way/terra_stargate",
-      "whitelist": [
-        "minecraft:overworld"
-      ],
+      "false_place": false,
       "active": true
     }
   ],
