@@ -1,5 +1,9 @@
-### Common Stargates is now **DISABLED** for the single player expeirence!
-- Change the `common_stargate_generation` to **true** in `sgjourney-common` config to enable this again (or if you start a server)
+### MAJOR CHANGES:
+- Common Stargates is now **DISABLED** for the single player expeirence!
+  - Change the `common_stargate_generation` to **true** in `sgjourney-common` config to enable this again (or if you start a server)
+- Lowered Abydos bedrock to -64 and added Mek ores
+  - Please be careful of new chunk generation when mining in the deepslate
+  - If you want to reset *Just Abydos*, drop by the discord and ask me how!
 
 ### Changes:
 - Fixed double recipe between Futura Blocks and the CC wired modem
@@ -12,15 +16,13 @@
 - Updated all configs and defaultconfigs to most recent versions
 - Fixed Abydos Pyramid Entrance not getting buried correctly
 - Added temporary recipe for Pure Naquadah
-- Replaced common stargate pedestals with buried stargates in all dims
-- Lowered Abydos bedrock to -64 and added Mek ores
-  - Please be careful of new chunk generation when mining in the deepslate
-  - If you want to reset *Just Abydos*, drop by the discord and ask me how!
+- Replaced common stargate pedestals with obstructed/buried stargates in all dims
 
 ### Additions:
 - Packet Fixer (could help with long range connections)
 - Ender Chests (Remember to upgrade your ender tanks too!)
-- Connected Glass
+- Connected Glass (upon popular request)
+- Dimensional Structure Restrict (to prevent Stargates from spawning in the incorrect dims)
 
 ### Updates:
 

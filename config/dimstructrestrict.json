@@ -1,22 +1,25 @@
 {
   "structures": [
     {
-      "id": "sgjourney:stargate/tollan/pedestal/stargate_pedestal_mirror",
+      "id": "sgcommunity_pack:stargate/tollan/pedestal/stargate_pedestal_mirror",
       "whitelist": [
         "overworldmirror:overworld"
-      ]
+      ],
+      "active": true
     },
     {
       "id": "sgjourney:stargate/milky_way/buried/buried_stargate",
       "whitelist": [
         "minecraft:overworld"
-      ]
+      ],
+      "active": true
     },
     {
       "id": "sgjourney:stargate/milky_way/terra_stargate",
       "whitelist": [
         "minecraft:overworld"
-      ]
+      ],
+      "active": true
     }
   ],
   "dimensions": []
