@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "ae2:charged_certus_quartz_crystal"
+    },
+    {
+      "item": "sgjourney:raw_naquadah_block"
+    },
+    {
+      "amount": 100,
+      "fluid": "sgjourney:liquid_naquadah"
+    }
+  ],
+  "results": [
+    {
+      "item": "sgjourney:pure_naquadah"
+    }
+  ]
+}

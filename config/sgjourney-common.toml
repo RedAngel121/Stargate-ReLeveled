@@ -118,7 +118,7 @@
       enable_address_choice = true
       #The maximum amount of blocks allowed within the ring area before Stargate becomes obstructed
       #Range: 1 ~ 21
-      max_obstructive_blocks = 21
+      max_obstructive_blocks = 13
       #Decides if 8-chevron addresses can be used for dialing within the same galaxy
       allow_interstellar_8_chevron_addresses = false
       #Decides if two Stargates from the same Solar System should be able to connect

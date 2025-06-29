@@ -1,7 +1,7 @@
 name = "Create Confectionery"
 filename = "create-confectionery1.20.1_v1.1.0.jar"
 side = "both"
-pin = true
+ 
 
 [download]
 hash-format = "sha1"

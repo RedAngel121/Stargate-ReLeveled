@@ -1,3 +1,8 @@
+// Ad Astra venus sandstone tag to prevent Mekanism from yelling at me
+ServerEvents.tags('item', event => {
+    event.add('forge:sandstone/venus_sandstone', 'ad_astra:venus_sandstone')
+})
+
 // Pams salt is now Mek salt instead
 ServerEvents.tags('item', event => {
     event.add('forge:dusts/salt', 'pamhc2foodcore:saltitem')
