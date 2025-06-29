@@ -2769,11 +2769,6 @@ hash = "dec2bc011d4ca1d451aaa3eea477f13366bfb13beba0716018f47d9331a50d8e"
 metafile = true
 
 [[files]]
-file = "mods/peripheralium.pw.toml"
-hash = "9fd9b86bdb5097fea5f7eafe7cc5561802db9bda3509aa6e5e7801a08ca435c1"
-metafile = true
-
-[[files]]
 file = "mods/pig-pen-cipher.pw.toml"
 hash = "f896fefa7466845181da9db06ba4a89865f54b406ff3b1fb65773c66614b6f1b"
 metafile = true
@@ -3045,7 +3040,7 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "0d38b708565daa23f216c9f005cfd5a167f7989438590343bfb39b900a17873c"
+hash = "0411db8d43aad3b002a92175361492e88fa00bd2fcb7d8ba7cffe2546a2aeb53"
 metafile = true
 
 [[files]]

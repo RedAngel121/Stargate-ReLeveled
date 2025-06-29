@@ -1,14 +1,13 @@
 name = "UnlimitedPeripheralWorks"
-filename = "peripheralworks-forge-1.20.1-1.4.5.jar"
+filename = "peripheralworks-forge-1.20.1-1.5.1.jar"
 side = "both"
-pin = true
 
 [download]
 hash-format = "sha1"
-hash = "480add47f5022e7e773b4ccfadc7dd3e456e8a1c"
+hash = "76fa7d9a142dac8e88a8820e117ec64a4a8bd2cd"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6172125
+file-id = 6322057
 project-id = 621851
