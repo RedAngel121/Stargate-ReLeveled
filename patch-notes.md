@@ -68,7 +68,6 @@
 - Sophisticated Storage: 1.3.37.1134 -> 1.3.51.1182
 - Stellar View: 0.4.5 -> 0.4.6
 - U Team Core: 5.1.4.362 -> 5.1.4.382
-- UnlimitedPeripheralWorks: 1.4.5 -> 1.5.1
 
 ### Removals:
 - Jaja's SG-Ponder
