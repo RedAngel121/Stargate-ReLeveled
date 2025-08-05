@@ -47,7 +47,6 @@
 - Sophisticated Backpacks: 3.23.19.1263 -> 3.23.23.1289
 - Sophisticated Storage: 1.3.51.1182 -> 1.3.58.1217
 - Sophisticated Storage in Motion: 0.10.19.104 -> 0.10.19.120
-- 
 
 ### Removals:
 - FTB Backups 2
