@@ -2025,6 +2025,10 @@ file = "kubejs/server_scripts/tagStorageDrawers.js"
 hash = "1fc35c49df2f45aab92132a544907211020c9c395cad763a561ec58b002ff938"
 
 [[files]]
+file = "kubejs/startup_scripts/common.js"
+hash = "9d5105530c668694d45d6970d17dc0e0f7706c4e40a04cf0590e36834e6128d2"
+
+[[files]]
 file = "kubejs/startup_scripts/cookta2012-edits.js"
 hash = "e85ea492f290ddea066ef30532fed037412b5a43508d71e3bea8cdf2c8659a51"
 
