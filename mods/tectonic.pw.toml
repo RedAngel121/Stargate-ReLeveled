@@ -1,6 +1,7 @@
 name = "Tectonic"
 filename = "tectonic-forge-1.20.1-2.4.1.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"

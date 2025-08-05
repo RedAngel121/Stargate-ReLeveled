@@ -277,12 +277,14 @@ _class3 = Tier;
 _defineProperty(Tier, "IRON", new _class3(Substrate.IRON, {
   coal: 1,
   copper: 1,
-  iron: 1
+  iron: 1,
+  amethyst: 1
 }));
 _defineProperty(Tier, "GOLD", new _class3(Substrate.GOLD, {
   coal: 2,
   copper: 2,
   iron: 2,
+  amethyst: 2,
   gold: 1,
   zinc: 1
 }));
@@ -290,6 +292,7 @@ _defineProperty(Tier, "DIAMOND", new _class3(Substrate.DIAMOND, {
   coal: 2,
   copper: 2,
   iron: 2,
+  amethyst: 2,
   gold: 2,
   zinc: 1,
   diamond: 0.5,
@@ -301,6 +304,7 @@ _defineProperty(Tier, "NETHERITE", new _class3(Substrate.NETHERITE, {
   coal: 4,
   copper: 4,
   iron: 2,
+  amethyst: 2,
   gold: 2,
   zinc: 2,
   diamond: 1,
@@ -313,6 +317,7 @@ _defineProperty(Tier, "KINETIC", new _class3(Substrate.KINETIC, {
   coal: 4,
   copper: 4,
   iron: 4,
+  amethyst: 4,
   gold: 2,
   zinc: 2,
   diamond: 2,
@@ -327,6 +332,7 @@ _defineProperty(Tier, "KINETIC", new _class3(Substrate.KINETIC, {
 _defineProperty(Tier, "COMPUTATIONAL", new _class3(Substrate.COMPUTATIONAL, {
   coal: 4,
   iron: 4,
+  amethyst: 4,
   gold: 4,
   zinc: 2,
   diamond: 3,
@@ -343,6 +349,7 @@ _defineProperty(Tier, "MEKANISED", new _class3(Substrate.MEKANISED, {
   coal: 4,
   copper: 4,
   iron: 4,
+  amethyst: 4,
   gold: 4,
   zinc: 4,
   diamond: 4,
@@ -359,6 +366,7 @@ _defineProperty(Tier, "REACTIVE", new _class3(Substrate.REACTIVE, {
   coal: 4,
   copper: 4,
   iron: 4,
+  amethyst: 4,
   gold: 4,
   zinc: 4,
   diamond: 4,
@@ -377,6 +385,7 @@ _defineProperty(Tier, "DEEP_SPACE", new _class3(Substrate.DEEP_SPACE, {
   coal: 4,
   copper: 4,
   iron: 4,
+  amethyst: 4,
   gold: 4,
   zinc: 4,
   diamond: 4,
@@ -399,6 +408,7 @@ _defineProperty(Tier, "NAQUADRIA", new _class3(Substrate.NAQUADRIA, {
   coal: 8,
   copper: 8,
   iron: 8,
+  amethyst: 8,
   gold: 4,
   zinc: 4,
   diamond: 4,
@@ -424,6 +434,7 @@ _defineProperty(Tier, "POSITRONIC", new _class3(Substrate.POSITRONIC, {
   coal: 16,
   copper: 8,
   iron: 8,
+  amethyst: 8,
   gold: 8,
   zinc: 8,
   diamond: 8,
@@ -490,6 +501,15 @@ var Materials = {
       "item": "create:raw_zinc",
       min: 2,
       max: 3
+    }]
+  },
+  amethyst: {
+    item: "minecraft:amethyst_shard",
+    display: "minecraft:amethyst_block",
+    drops: [{
+      "item": "minecraft:amethyst_shard",
+      min: 4,
+      max: 4
     }]
   },
   diamond: {

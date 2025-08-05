@@ -20,6 +20,6 @@
   "backup_format": "ZIP",
   "minimum_free_space": 0,
   "free_space_if_needed": false,
-  "excluded": [],
+  "excluded": ["*data/DistantHorizons.sqlite"],
   "preview_dimension": "all"
 }
