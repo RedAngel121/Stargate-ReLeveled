@@ -1,3 +1,6 @@
 *.md
 Discord-Integration.toml
 SGJdata
+jdk-17.0.12
+libraries
+StartServer*
