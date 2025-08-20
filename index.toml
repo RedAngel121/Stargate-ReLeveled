@@ -1234,7 +1234,7 @@ hash = "b43b1c343dd5094dd3e97f79694b47d8213f8ef8fc945fcc7257b899f31905af"
 
 [[files]]
 file = "kubejs/data/common_stargates/worldgen/structure/stargate/universe/pedestal/stargate_pedestal_end.json"
-hash = "72b4c54fc4f8dd46a01b7ffb29abf11c0e359592cfb2d33370260ffa43af5b8f"
+hash = "5d97a73031129ab7d8a6c576970537e305906f42621fba73f88e8ad70b2e6ee8"
 
 [[files]]
 file = "kubejs/data/common_stargates/worldgen/structure_set/common_stargate.json"
