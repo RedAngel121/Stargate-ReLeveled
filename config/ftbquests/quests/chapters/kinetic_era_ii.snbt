@@ -11,13 +11,14 @@
 		{
 			dependencies: ["55FA04711F888480"]
 			description: ["The goal of Kinetic Era II is to obtain &d&lRudimentary Processors&r which will allow you to create computers, unlock Mekanism, and more! Assuming you have a nice ME network and properly automated &3Vacuum Tubes&r, this shouldn't be too hard."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "692BC266D99DADE9"
 			rewards: [{
 				id: "3A03FACAFBD72E78"
 				type: "xp"
 				xp: 20
 			}]
+			shape: "diamond"
 			subtitle: "We don't need Surface Mount Technology"
 			tasks: [{
 				id: "49774F61C940FE54"
@@ -31,7 +32,7 @@
 		{
 			dependencies: ["692BC266D99DADE9"]
 			description: ["In order to make higher quality circuits, you will need high purity quartz glass. Don't worry too much about sheer volume, as you will only need 5 per tier II circuit."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "08D7A9160CF1D20C"
 			tasks: [{
 				count: 128L
@@ -48,7 +49,7 @@
 				"08D7A9160CF1D20C"
 				"0817B9B5962CA4F0"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "494419E2B4AB7E80"
 			tasks: [{
 				count: 20L
@@ -98,7 +99,7 @@
 		{
 			dependencies: ["692BC266D99DADE9"]
 			description: ["To act as a backing for our circuits, craft some electrum with gold, copper, and iron."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0817B9B5962CA4F0"
 			tasks: [{
 				id: "4DC768038EFFBAB9"

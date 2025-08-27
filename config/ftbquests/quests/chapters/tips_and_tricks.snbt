@@ -9,6 +9,9 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["72A7AC9B845231B2"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "674A3D8C452C1D56"
 			rewards: [{
 				id: "4C541262C33C9990"
@@ -22,11 +25,14 @@
 				type: "item"
 			}]
 			title: "Infinite Water"
-			x: -3.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
+			dependencies: ["72A7AC9B845231B2"]
 			description: ["The Create hose allows for extracting or filling large bodies of fluids. It extracts everything at or above the height of it's nozzle and fills up to it's level. However, when the body of fluid is larger than 10000 blocks, the hose considers the pool to be infinite. This works for water, honey, chocolate, and lava. If you want another fluid added to the list, just ask."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "723CFF1C353C5B85"
 			rewards: [{
 				id: "491E9579D36430AC"
@@ -40,24 +46,43 @@
 				type: "item"
 			}]
 			title: "Infinite Lava"
-			x: -1.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["72A7AC9B845231B2"]
 			description: ["If you come along a cyan &3automation recommended&r quest, you probably should listen. These quests are used for items that you will be using for the rest of the era in nearly everything."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			icon: "minecraft:crafting_table"
 			id: "7F70CDB4ABE376E8"
+			rewards: [{
+				count: 16
+				id: "14E68B5AFAD61D6E"
+				item: "create:zinc_nugget"
+				type: "item"
+			}]
+			subtitle: "Watch for Colors!"
 			tasks: [{
 				id: "757168EF28526968"
 				title: "Craft Big, Automate Everything"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: -2.0d
+			x: -4.5d
+			y: -1.5d
 		}
 		{
 			can_repeat: true
-			description: ["The AE2 Guidebook contains nearly all there is to know about AE2. If you hover over an ae2 item and hold G, it will open the guidebook automatically. This is just here as an option for those who like physical books."]
+			dependencies: ["72A7AC9B845231B2"]
+			description: [
+				"The &dApplied Energistics 2&r Guidebook contains nearly all there is to know about AE2!"
+				"If you hover over an AE2 item and hold G, it will open the guidebook automatically. "
+				""
+				"(This is just here as an option for those who like physical books.)"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			icon: "ae2:guide"
 			id: "5822E75A31419923"
 			optional: true
@@ -66,19 +91,31 @@
 				item: "ae2:guide"
 				type: "item"
 			}]
+			subtitle: "Store Everything"
 			tasks: [{
+				disable_toast: true
 				id: "2500F89E9679E880"
 				title: "AE2 Guidebook"
 				type: "checkmark"
 			}]
 			title: "Better Than Quests"
-			x: -9.0d
+			x: -4.5d
 			y: 0.0d
 		}
 		{
+			dependencies: ["72A7AC9B845231B2"]
 			description: ["Create has a large number of multi-faceted mechanisms. As such, it is probably wise for you to check out the &dPonder Index&r. The Ponder Index can be found under the goggle icon in the escape menu, or by holding W while hovering over a create item."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			icon: "create:cogwheel"
 			id: "738EF626DC5C3C90"
+			rewards: [{
+				count: 16
+				id: "531CA72E16306C35"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			subtitle: "Factory Game"
 			tasks: [{
 				id: "12480A5D3FD71BA5"
 				title: "Acknowledge"
@@ -86,30 +123,61 @@
 			}]
 			title: "Learning Create"
 			x: -3.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			description: [
-				"While traveling around the world, it is almost guaranteed that you might stumble upon a resource that is useful later in the game. As such, you should look out for:"
-				"- Stargates"
-				"- Oil wells"
-				"- Phosphorite"
-				"- Borax"
+				"While traveling around the world, it is almost guaranteed that you might stumble upon something that may be useful later in the game."
+				"As such, you should look out for:"
+				"• Oil Wells"
+				"• Wizard Towers"
+				"• Fallen Meteors"
+				"• Jungle Pyramids"
+				"• Phosphorite"
+				"• Borax"
+				"• Villages"
 			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			icon: "minecraft:spyglass"
 			id: "72A7AC9B845231B2"
+			rewards: [
+				{
+					count: 64
+					id: "3F862491D0F1E29C"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "46FA2C7CBD6027A6"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "2A0E88BF6C30A2D7"
+					item: "biomesoplenty:jacaranda_door"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Eye Spy"
 			tasks: [{
 				id: "064B2C5D4ED96C4B"
 				title: "Acknowledge"
 				type: "checkmark"
 			}]
 			title: "Things to Look Out For"
-			x: 1.0d
-			y: -2.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
-			description: ["Apotheosis has many features, including potion charms, boss mobs, placeable mob spawners, and a weapon modifier system."]
+			dependencies: ["72A7AC9B845231B2"]
+			description: ["&dApotheosis&r has many features, including potion charms, boss mobs, placeable mob spawners, and a weapon modifier system."]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			icon: {
 				Count: 1
 				id: "patchouli:guide_book"
@@ -131,18 +199,24 @@
 				only_one: true
 				type: "item"
 			}]
+			subtitle: "Harder, Faster, Better, Stronger"
 			tasks: [{
+				disable_toast: true
 				id: "0BF0F5D641450559"
 				title: "Acknowledge"
 				type: "checkmark"
 			}]
 			title: "Apotheosis"
-			x: -9.0d
-			y: -2.0d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
+			dependencies: ["72A7AC9B845231B2"]
 			description: ["&dAdvanced Peripherals&r allows &lComputerCraft&r computers to access far more information than they can in base CC"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			icon: {
 				Count: 1
 				id: "patchouli:guide_book"
@@ -163,22 +237,27 @@
 				}
 				type: "item"
 			}]
+			subtitle: "Computational Interaction"
 			tasks: [{
+				disable_toast: true
 				id: "36CEC38FB52BD29C"
 				title: "Acknowledge"
 				type: "checkmark"
 			}]
 			title: "Advanced Peripherals"
-			x: -7.0d
-			y: -2.0d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["72A7AC9B845231B2"]
 			description: [
 				"By dropping an anvil onto a cow standing on a Milk Jar, you can get the item Cow in a Jar. A Cow in a Jar will produce unlimited milk and can be used in Cooking For Blockheads kitchens."
 				""
 				"{@pagebreak}"
 				"Alternatively, you can use a deployer with a bucket on a cow for more rapid production"
 			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "45F7FFD50A8143AB"
 			rewards: [{
 				id: "39F35B7337A73F31"
@@ -192,12 +271,16 @@
 				type: "item"
 			}]
 			title: "Infinite Milk"
-			x: 1.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
 			can_repeat: true
-			description: ["Ad Astra is a space exploration mod where you can visit other planets and build space stations."]
+			dependencies: ["72A7AC9B845231B2"]
+			description: ["&dAd Astra&r is a space exploration mod where you can visit other planets and build space stations."]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			icon: {
 				Count: 1
 				id: "patchouli:guide_book"
@@ -218,38 +301,398 @@
 				}
 				type: "item"
 			}]
+			subtitle: "See you later, Space Cowboy"
 			tasks: [{
+				disable_toast: true
 				id: "03FAB846074855A5"
 				title: "Acknowledge"
 				type: "checkmark"
 			}]
 			title: "Ad Astra"
-			x: -7.0d
+			x: -6.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["72A7AC9B845231B2"]
 			description: ["Legends speak of a sacred quest that calls upon the chosen few to seek out the bank and acknowledge their own existence. Those who heed the call are bestowed with a single Crown, a shimmering coin forged from the essence of the game itself."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			icon: "numismatics:crown"
 			id: "1F7207A92D11C39B"
-			rewards: [
-				{
-					id: "5DD53A02684112CE"
-					item: "numismatics:crown"
-					type: "item"
-				}
-				{
-					id: "624A60311CE94EDC"
-					item: "numismatics:banking_guide"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5DD53A02684112CE"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			subtitle: "A new hand has touched the Cog"
 			tasks: [{
 				id: "589EADB9E160FE2C"
 				title: "Cogs in the Machine"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: -1.0d
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["72A7AC9B845231B2"]
+			description: [
+				"Using a Glass Bottle at the cloud levels (192-196 by default) will get you a Bottled Cloud."
+				""
+				"The Bottled Cloud can be right clicked to produce a (non-solid) block floating in midair in front of you. The cloud block disappears after a few seconds, but you can right click it with any other block to replace the two. The cloud will go back in the bottle when you do this."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "quark:bottled_cloud"
+			id: "330F487B82B4444C"
+			rewards: [{
+				id: "17F76F826F26481A"
+				item: "minecraft:bundle"
+				type: "item"
+			}]
+			subtitle: "Is that an Angel?"
+			tasks: [
+				{
+					id: "13F24268DEEFF6F2"
+					item: "quark:bottled_cloud"
+					type: "item"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "6CCB786F00F4D86C"
+					ignore_dimension: false
+					position: [I;
+						0
+						190
+						0
+					]
+					size: [I;
+						1
+						1
+						1
+					]
+					title: "Go Higher!"
+					type: "location"
+				}
+			]
+			title: "Bottled Cloud"
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72A7AC9B845231B2"]
+			description: [
+				"Stonelings are new passive mobs that spawn in the deep underground and in complete darkness. These little stone fairies will spawn in carrying an item, and will get startled if you get too close to them without sneaking and holding a Glow Shroom to tempt them."
+				""
+				"If startled, they'll run away from you and eventually poof out of existence. If you manage to kill one, you'll get the item its carrying as well as a Heart of Diamond."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7D5515AB38688F43"
+			rewards: [{
+				id: "73A163AF89107C53"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "It's Stoneling Hunting Season"
+			tasks: [{
+				id: "78CF1BC483F99B61"
+				item: "quark:diamond_heart"
+				type: "item"
+			}]
+			title: "Stonelings"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72A7AC9B845231B2"]
+			description: [
+				"A new tool for mining! The pickarang is a boomerang pickaxe - throw it, it breaks whatever it hits, and comes back to you with the drops."
+				""
+				"The Pickarang is crafted with a Heart of Diamond (from Stonelings, in the Mobs category, or just diamonds if it's disabled), and can be enchanted with Efficiency, Unbreaking, Fortune, Silk Touch, and Piercing."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "35C92A242C77A205"
+			subtitle: "Here we go again..."
+			tasks: [{
+				id: "12268B84B8931F06"
+				item: {
+					Count: 1
+					id: "quark:pickarang"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Pickarang"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72A7AC9B845231B2"]
+			description: ["A Trowel tool can be crafted with Iron and Sticks. The Trowel, when right clicked, will place a random block from your hotbar, making it useful for ruins or paths."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "50CF4FDB4145E5D7"
+			rewards: [
+				{
+					id: "693B42B80A83D7D0"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+				{
+					id: "75FA4602FBB8D9B5"
+					item: "rechiseled:sandstone_brick_pattern_connecting"
+					type: "item"
+				}
+				{
+					id: "3D9C75FABEA2FA50"
+					item: "quark:chiseled_diorite_bricks"
+					type: "item"
+				}
+			]
+			subtitle: "Keeping it Random"
+			tasks: [{
+				id: "75AE39B11A563DF7"
+				item: "quark:trowel"
+				type: "item"
+			}]
+			title: "Trowels"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72A7AC9B845231B2"]
+			description: [
+				"Reacharound Placing allows you to place blocks behind the block you're looking at. This can be done either vertically or horizontally, provided you wouldn't be placing a block given normal rules."
+				""
+				"To do it vertically, sneak over the edge of a block and look at the area directly below it. A &a[ ]&r will appear around your crosshair if you do it properly."
+				""
+				"To do it horizontally, look in front of a block, where the next block would be. A &a< >&r will appear around your crosshair for this one."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3AACCE98C8B8915D"
+			subtitle: "Can I really put it there?"
+			tasks: [{
+				id: "0C493FF23582D551"
+				title: "I see"
+				type: "checkmark"
+			}]
+			title: "Reacharound Placing"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["72A7AC9B845231B2"]
+			description: ["&dNumismatics&r is a currency mod that boasts easy-to-use systems for simple shops as well as leaving room for your wildest redstone-capitalism dreams."]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "numismatics:banking_guide"
+			id: "0EA0FEE22F2F3C35"
+			optional: true
+			rewards: [{
+				id: "66FC84375FF339A7"
+				item: "numismatics:banking_guide"
+				type: "item"
+			}]
+			subtitle: "Only 67% APR!"
+			tasks: [{
+				disable_toast: true
+				id: "5788725D74D7F2C4"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Numismatics"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72A7AC9B845231B2"]
+			description: [
+				"There are several commands that make everything easier:"
+				"• &a/back&r - takes you back to the last known location after death or teleporting"
+				"• &a/rtp&r - randomly teleports you anywhere in the world"
+				"• &a/sethome&r - sets the exact location you are standing in as your home teleport"
+				"• &a/home&r - teleports you home"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "computercraft:pocket_computer_advanced"
+			id: "5B1CA6DED2C030F4"
+			rewards: [{
+				id: "304F5B377D34D8FC"
+				item: "minecraft:compass"
+				type: "item"
+			}]
+			subtitle: "Life is easier than you think"
+			tasks: [{
+				id: "605C7837B49918C3"
+				title: "Acknowledge"
+				type: "checkmark"
+			}]
+			title: "Classic Commands"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["72A7AC9B845231B2"]
+			description: ["Start by building a dark 9x9 room, place the mob masher in the corner and a spawner in the middle, use fans or conveyors to move them into the masher and collect your reward!"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "utilitix:experience_crystal"
+			id: "35632CE492A7F7C2"
+			rewards: [{
+				id: "3D5927AD755EBBDD"
+				item: "mob_grinding_utils:xp_tap"
+				type: "item"
+			}]
+			subtitle: "Some Assembly Required"
+			tasks: [
+				{
+					id: "5246220AD89CC57A"
+					item: "mob_grinding_utils:saw"
+					type: "item"
+				}
+				{
+					id: "092352F5EB8F5ECC"
+					item: "mob_grinding_utils:absorption_hopper"
+					type: "item"
+				}
+				{
+					id: "13C3612A78A2FB63"
+					item: "utilitix:experience_crystal"
+					type: "item"
+				}
+			]
+			title: "Infinite XP"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["72A7AC9B845231B2"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "27C91EAAEC3EF997"
+			rewards: [{
+				id: "1F889E3E90DAAB00"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			subtitle: "Stop them from running away"
+			tasks: [{
+				id: "773CDC38E07AB4BC"
+				item: "mob_grinding_utils:ender_inhibitor_on"
+				type: "item"
+			}]
+			title: "Ender Inhibitor"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["72A7AC9B845231B2"]
+			description: [
+				"The &dPersonal Shrinking Device&r can easily get you into areas that are nice and small, or make yourself larger than life! "
+				""
+				"Just dont forget to charge it..."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "362C80569525E85A"
+			rewards: [{
+				id: "495E8305B15894C0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Smaller on the Outside"
+			tasks: [{
+				id: "39B6A7EA1BC19F79"
+				item: {
+					Count: 1
+					id: "shrink:shrinking_device"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72A7AC9B845231B2"]
+			description: ["There are several types of power generation in the pack that you can easily start early on. Make sure you make more than one cause you are probably going to need it anyway."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "02D196F734985673"
+			rewards: [
+				{
+					id: "6EDC62151AAEA2F2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "76DBFF5C290872A2"
+					item: "solarflux:mirror"
+					type: "item"
+				}
+			]
+			subtitle: "Trickle Charging at its finest"
+			tasks: [{
+				icon: "ironfurnaces:augment_generator"
+				id: "3AB444DC80A21BCD"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "createaddition:alternator"
+							}
+							{
+								Count: 1b
+								id: "ironfurnaces:augment_generator"
+							}
+							{
+								Count: 1b
+								id: "solarflux:mirror"
+							}
+							{
+								Count: 1b
+								id: "mekanismgenerators:solar_panel"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Power Generation"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72A7AC9B845231B2"]
+			description: ["&dSponge on a Stick&r doesnt need to be cooked or heated to keep being useful."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "633EEBC383BF5CD8"
+			subtitle: "Mopping up the extra"
+			tasks: [{
+				id: "34461C9A2564BA71"
+				item: {
+					Count: 1
+					id: "simplesponge:sponge_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
 		}
 	]
 	title: "Tips and Tricks"

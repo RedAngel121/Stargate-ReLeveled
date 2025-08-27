@@ -11,21 +11,22 @@
 		{
 			dependencies: ["4D239CF8E2B220AE"]
 			description: ["The Mekanised Era is the final era. Mekanised I focuses on setting up basic automation and creating MOSFETs that will end up being used for machines like the fission reactor."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2AA736C596A9C334"
+			shape: "diamond"
 			tasks: [{
 				id: "03302A887E14212F"
 				title: "Acknowledge"
 				type: "checkmark"
 			}]
 			title: "Welcome to the Mekanised Era!"
-			x: -6.5d
-			y: 2.0d
+			x: -6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2AA736C596A9C334"]
 			description: ["The Metallurgic Infuser is used to infuse items with chemicals. Most of the items used to infuse have enriched versions that give around 4x as much material."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "39CBECB2C3DFE133"
 			tasks: [{
 				id: "5C5D67BA0CD8F071"
@@ -33,8 +34,8 @@
 				type: "item"
 			}]
 			title: "Source of all things Mekanical"
-			x: -4.0d
-			y: 2.0d
+			x: -4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["39CBECB2C3DFE133"]
@@ -47,8 +48,8 @@
 				type: "item"
 			}]
 			title: "Cheaper than Mekanism"
-			x: -4.0d
-			y: -0.5d
+			x: -4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["39CBECB2C3DFE133"]
@@ -58,8 +59,8 @@
 				item: "mekanism:steel_casing"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.5d
+			x: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["39CBECB2C3DFE133"]
@@ -69,8 +70,8 @@
 				item: "mekanism:alloy_infused"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.5d
+			x: -3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["49B02F5A03D703B3"]
@@ -154,6 +155,116 @@
 			}]
 			x: 4.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["027A9CD51B540EB9"]
+			id: "1E5C73FE12C5B3D2"
+			tasks: [{
+				id: "3B4C5A6B1B099416"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1E5C73FE12C5B3D2"]
+			id: "69971EDB448102A8"
+			tasks: [{
+				id: "167AEB055C96E865"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["39CBECB2C3DFE133"]
+			id: "19266F8031C7CA7D"
+			tasks: [{
+				id: "73FD3269EEE52EF8"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["19266F8031C7CA7D"]
+			id: "4D26AC097500BCBB"
+			tasks: [{
+				id: "3EAC40AED459B0A7"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4D26AC097500BCBB"]
+			id: "42ECB6AD58B0D282"
+			tasks: [{
+				id: "2B58471AC3D1EC86"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["42ECB6AD58B0D282"]
+			id: "3919D5B912592AD8"
+			tasks: [{
+				id: "7E269825B8401DE0"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["19266F8031C7CA7D"]
+			id: "53EA4C13DF4E9FEE"
+			tasks: [{
+				id: "2857B0A97EB952D6"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["53EA4C13DF4E9FEE"]
+			id: "098CDB62CBE36D00"
+			tasks: [{
+				id: "36AE756B43D339CB"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["098CDB62CBE36D00"]
+			id: "10F21731035AE414"
+			tasks: [{
+				id: "480BD87472F6B6AF"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["10F21731035AE414"]
+			id: "0EDC8F6B944373BC"
+			tasks: [{
+				id: "534BB9A999F5B479"
+				item: "mekanism:ultimate_tier_installer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
 		}
 	]
 	title: "Mekanism"

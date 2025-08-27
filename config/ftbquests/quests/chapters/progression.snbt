@@ -85,11 +85,17 @@
 			y: -1.0d
 		}
 		{
+			dependencies: [
+				"707AAF433C9113A6"
+				"4023AC1A3D9CC942"
+				"0C5C986F94D9A7DD"
+			]
+			dependency_requirement: "one_completed"
 			id: "12B2F1E5BB64DA86"
 			rewards: [{
 				id: "1845B310E92E1642"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:copper_diving_boots"
 					tag: {
 						Damage: 0
@@ -106,6 +112,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["12B2F1E5BB64DA86"]
 			id: "3C65F3AFDFFCDA5A"
 			rewards: [
 				{
@@ -190,9 +197,9 @@
 			y: 0.0d
 		}
 		{
-			hide: false
 			hide_dependency_lines: true
 			hide_details_until_startable: false
+			hide_until_deps_visible: false
 			id: "7064AC5CE730629B"
 			tasks: [{
 				id: "1FD45377B305EEF1"
@@ -201,7 +208,7 @@
 			}]
 			title: "Vacuum Tubes"
 			x: -2.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			id: "54B35B245C507076"
@@ -212,7 +219,7 @@
 			}]
 			title: "Rudimentary Processors"
 			x: -1.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			disable_toast: true
@@ -227,7 +234,7 @@
 			}]
 			title: "Kinetic Era"
 			x: -3.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			disable_toast: true
@@ -242,7 +249,7 @@
 			}]
 			title: "Mekanised Era"
 			x: -3.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			id: "2460EC59F4FDAF9A"
@@ -252,7 +259,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			id: "708A86111237377D"
@@ -262,7 +269,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependency_requirement: "one_completed"
@@ -288,7 +295,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 2.0d
+			y: 3.0d
 		}
 	]
 	title: "Progression"

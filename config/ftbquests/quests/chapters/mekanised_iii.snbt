@@ -11,15 +11,16 @@
 		{
 			dependencies: ["7FC523FEA8F868A5"]
 			description: ["The final tier will require all your previous automation skills for one final item, the Computation Core. Once you have made your first Computation Core, however, you will still need to automate the raw resources needed for it."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "57D1B4C1ED535BB0"
+			shape: "diamond"
 			tasks: [{
 				id: "57B21BF9EDDF87B6"
 				title: "Acknowledge"
 				type: "checkmark"
 			}]
 			title: "Welcome to the Final Tier"
-			x: -0.5d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
@@ -40,13 +41,13 @@
 				type: "item"
 			}]
 			title: "&3Mother of all Circuits"
-			x: -0.5d
-			y: 10.5d
+			x: 1.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["57D1B4C1ED535BB0"]
 			description: ["A solid naquadah frame allows for the Computation Core to channel additional energy into its processors."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5BD0CF36D88F6820"
 			tasks: [{
 				count: 4L
@@ -55,13 +56,13 @@
 				type: "item"
 			}]
 			title: "Have you been to abydos?"
-			x: -0.5d
+			x: 1.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["57D1B4C1ED535BB0"]
 			description: ["&dIsotopic Decay Oscillators&r are produced in nearly the same way as &lIntegrated Circuits&r. As such, you can utilize your existing factory to produce them."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5E6E8EC306B66113"
 			tasks: [{
 				count: 8L
@@ -70,13 +71,13 @@
 				type: "item"
 			}]
 			title: "Isotopic Decay Oscillators"
-			x: -5.5d
-			y: 0.0d
+			x: -3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["57D1B4C1ED535BB0"]
 			description: ["In order to make Edible Processors, we need to first make Wafers! And yes, they are food items."]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "sgcommunity_pack:wafer"
 			id: "0D1AD978EAFB634C"
 			tasks: [{
@@ -330,8 +331,8 @@
 				type: "item"
 			}]
 			title: "Edible Processors"
-			x: 4.0d
-			y: 9.5d
+			x: 7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["2A17565596861225"]
@@ -343,7 +344,7 @@
 				type: "item"
 			}]
 			title: "Stop eating them! We need those!"
-			x: 2.5d
+			x: 4.0d
 			y: 9.5d
 		}
 		{
@@ -376,7 +377,7 @@
 		}
 		{
 			dependencies: ["57D1B4C1ED535BB0"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5692D6BC6250B08E"
 			tasks: [{
 				count: 48L
@@ -385,12 +386,12 @@
 				type: "item"
 			}]
 			title: "Storage Components"
-			x: -2.5d
+			x: -1.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["57D1B4C1ED535BB0"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "64B15FE1AE791A07"
 			tasks: [{
 				count: 48L
@@ -399,7 +400,7 @@
 				type: "item"
 			}]
 			title: "Integrated Circuits"
-			x: 1.5d
+			x: 3.0d
 			y: 8.0d
 		}
 		{
@@ -412,7 +413,7 @@
 				type: "item"
 			}]
 			title: "An Unpredictable Clock"
-			x: -3.5d
+			x: -2.0d
 			y: 9.5d
 		}
 		{
@@ -426,8 +427,8 @@
 				type: "checkmark"
 			}]
 			title: "Inscribing steps"
-			x: -5.5d
-			y: 1.5d
+			x: -3.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["43E7ADEBD62B6910"]
@@ -440,8 +441,8 @@
 				type: "checkmark"
 			}]
 			title: "Step 17: Inject Uranium Hexafluoride"
-			x: -5.5d
-			y: 3.0d
+			x: -3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["65F9BF486152E7B5"]
@@ -452,8 +453,8 @@
 				item: "sgcommunity_pack:isotopic_decay_oscillator_wafer"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 9.5d
+			x: -3.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["17E21A1B48A99E29"]
@@ -465,8 +466,8 @@
 				type: "checkmark"
 			}]
 			title: "&6What now?"
-			x: -0.5d
-			y: 12.5d
+			x: 1.0d
+			y: 12.0d
 		}
 	]
 	title: "Mekanised III"

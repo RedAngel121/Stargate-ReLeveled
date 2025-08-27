@@ -645,6 +645,30 @@
 			x: -9.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["4B26EC18F393C672"]
+			hide_until_deps_complete: true
+			id: "22411E8C1EBAB0D4"
+			tasks: [{
+				id: "30F3A61B33698819"
+				item: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2A3A0D8AC76B1C8F"]
+			hide_until_deps_complete: true
+			id: "6D2057901AF99375"
+			tasks: [{
+				id: "4273CECAB12E8DF8"
+				item: "sophisticatedstorage:stack_upgrade_omega_tier"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.0d
+		}
 	]
 	title: "Sophisticated"
 }

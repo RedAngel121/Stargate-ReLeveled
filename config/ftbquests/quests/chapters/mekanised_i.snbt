@@ -11,8 +11,9 @@
 		{
 			dependencies: ["44F5A44C5C13627A"]
 			description: ["Mekanised I will help you to manufacture MOSFETs, which are tier I circuits similar to Vacuum Tubes, but able to be produced faster. In addition, the resources for MOSFETs are reused for Mekanised Tiers II and III."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "70130F706AC21CA4"
+			shape: "diamond"
 			tasks: [{
 				id: "74D716AC833AB0F6"
 				title: "Acknowledge"
@@ -75,7 +76,7 @@
 		}
 		{
 			dependencies: ["70130F706AC21CA4"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "626D482CA1E17EC5"
 			tasks: [{
 				id: "1B5812EB432A5FAD"

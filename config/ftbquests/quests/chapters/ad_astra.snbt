@@ -4,30 +4,12 @@
 	filename: "ad_astra"
 	group: "3553DD7F726AE366"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "ad_astra:tier_2_rocket"
 		tag: { }
 	}
 	id: "64B3D62321648BBE"
-	images: [
-		{
-			height: 1.0d
-			image: "ad_astra:block/fluid_oil_still"
-			rotation: 0.0d
-			width: 0.03125d
-			x: -5.5d
-			y: -1.0d
-		}
-		{
-			height: 1.0d
-			image: "ad_astra:block/fluid_oil_still"
-			rotation: 0.0d
-			width: 0.03125d
-			x: -4.0d
-			y: -1.0d
-		}
-	]
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -37,8 +19,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: ["Ad Astra is a simple space mod that adds several tiers of rockets and 5 new worlds to visit. It also adds orbit dimensions where you can build space stations! By completing Ad Astra, you get access to powered flight as well."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "040091D32C7039BF"
+			shape: "diamond"
 			tasks: [{
 				id: "5CAA0975B35E5340"
 				title: "To the Stars!"
@@ -51,7 +34,7 @@
 		{
 			dependencies: ["040091D32C7039BF"]
 			description: ["To make rocket fuel, you will need to find an oil well and extract some oil. Make sure to get at least 6 buckets per rocket launch."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "733DDCB7B102F065"
 			tasks: [{
 				id: "34BEFFFE5EDCD022"
@@ -65,7 +48,7 @@
 		{
 			dependencies: ["040091D32C7039BF"]
 			description: ["Steel is relatively easy to make. All you need is a blast furnace and some iron and you can have more steel ingots than you will ever need."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4127A5F56B05E24D"
 			tasks: [{
 				count: 200L
@@ -135,7 +118,7 @@
 				{
 					id: "6D5E50212800CB5E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:space_helmet"
 						tag: {
 							Damage: 0
@@ -146,7 +129,7 @@
 				{
 					id: "17EB9C3663D83D19"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:space_suit"
 						tag: {
 							Damage: 0
@@ -157,7 +140,7 @@
 				{
 					id: "2AE9780C2D433E0A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:space_pants"
 						tag: {
 							Damage: 0
@@ -168,7 +151,7 @@
 				{
 					id: "211EA69323DA6BC7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:space_boots"
 						tag: {
 							Damage: 0
@@ -180,7 +163,7 @@
 					count: 2L
 					id: "4D952AEEB7C61A9B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra_giselle_addon:oxygen_can"
 						tag: { }
 					}
@@ -200,7 +183,7 @@
 			tasks: [{
 				id: "173E67917890BAC7"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ad_astra:tier_1_rocket"
 					tag: { }
 				}
@@ -259,7 +242,7 @@
 		{
 			dependencies: ["140F7A948347A9AF"]
 			description: ["In the lunar underground, you can find desh which is used to make useful technology and better rockets. You will want to bring back a bit to play with, but you will need far more in order to make the next rocket."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "330BC90CB5BD20B0"
 			tasks: [{
 				count: 32L
@@ -274,6 +257,7 @@
 		{
 			dependencies: ["330BC90CB5BD20B0"]
 			description: ["While water freezes on the moon, if you create an oxygenated atmosphere, it will stick around! In order to kickstart the process, you will need to bring several buckets of water. Consider using a fluid tank or an AE2 fluid cell to make sure you have enough. The &dOxygen Distributer&r can be used fill a room with &lOxygen&r, and the &dWater Pump&r can be used to drain water source blocks for water."]
+			icon: "ad_astra:oxygen_distributor"
 			id: "462B9ADD52070B7C"
 			tasks: [
 				{
@@ -313,10 +297,11 @@
 		{
 			dependencies: ["462B9ADD52070B7C"]
 			description: ["The &dGravity Normalizer&r can be used to generate a field of overworld gravity in low gravity environments."]
+			icon: "ad_astra:gravity_normalizer"
 			id: "6FB52619A2C04B0D"
 			tasks: [{
-				id: "7A2F77102464E0A1"
-				item: "ad_astra_giselle_addon:gravity_normalizer"
+				id: "394A8C3CF0A1DA6B"
+				item: "ad_astra:gravity_normalizer"
 				type: "item"
 			}]
 			title: "Artificial Gravity"
@@ -330,7 +315,7 @@
 			tasks: [{
 				id: "7E7E481B4AF7EF3A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ad_astra:tier_2_rocket"
 					tag: { }
 				}
@@ -347,15 +332,15 @@
 			tasks: [{
 				id: "38E01A0F57E91F13"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ad_astra:tier_1_rover"
 					tag: { }
 				}
 				type: "item"
 			}]
 			title: "Zoom"
-			x: 6.5d
-			y: 0.0d
+			x: 8.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["0D81BDD128A6C63E"]
@@ -373,7 +358,7 @@
 		{
 			dependencies: ["5A528882B2D313EF"]
 			description: ["&dOstrum&r can be found in the Martian underground and can be used to produce a cleaner&l fuel&r source as well as a&l better spacesuit."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6C1DECF67082392C"
 			tasks: [{
 				count: 32L
@@ -381,8 +366,8 @@
 				item: "ad_astra:raw_ostrum"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -2.0d
+			x: 6.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6C1DECF67082392C"]
@@ -394,8 +379,8 @@
 				type: "item"
 			}]
 			title: "Unlimited Fuel"
-			x: 12.5d
-			y: -4.0d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6C1DECF67082392C"]
@@ -405,7 +390,7 @@
 				{
 					id: "0B12C070FC6D13A6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:netherite_space_helmet"
 						tag: {
 							Damage: 0
@@ -416,7 +401,7 @@
 				{
 					id: "4F738362360144FD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:netherite_space_suit"
 						tag: {
 							Damage: 0
@@ -427,7 +412,7 @@
 				{
 					id: "77D433E085B2DE2D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:netherite_space_pants"
 						tag: {
 							Damage: 0
@@ -438,7 +423,7 @@
 				{
 					id: "09B8EE138C677686"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:netherite_space_boots"
 						tag: {
 							Damage: 0
@@ -446,8 +431,18 @@
 					}
 					type: "item"
 				}
+				{
+					count: 2L
+					id: "2B0C28F7FEBF10FB"
+					item: {
+						Count: 2
+						id: "ad_astra_giselle_addon:netherite_oxygen_can"
+						tag: { }
+					}
+					type: "item"
+				}
 			]
-			x: 12.5d
+			x: 8.5d
 			y: 0.0d
 		}
 		{
@@ -457,15 +452,15 @@
 			tasks: [{
 				id: "06A0772C8248D081"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ad_astra:tier_3_rocket"
 					tag: { }
 				}
 				type: "item"
 			}]
 			title: "A Lovely Planet"
-			x: 12.5d
-			y: 2.0d
+			x: 10.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5744700A7274DA60"]
@@ -478,12 +473,12 @@
 			}]
 			title: "Do you mind turning down the heat?"
 			x: 12.5d
-			y: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4E2E67F2610381AF"]
 			description: ["Guess what? It's found in the Venus Underground. You can craft a rocket with it. HOWEVER, unlike all the other Ad Astra ores, this one unlocks something cool: The Jet Suit."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "03A86C169C511433"
 			tasks: [{
 				id: "3FCC5E87BC421EC4"
@@ -491,8 +486,8 @@
 				type: "item"
 			}]
 			title: "Another Ad Astra Ore"
-			x: 10.5d
-			y: 4.0d
+			x: 6.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["03A86C169C511433"]
@@ -502,7 +497,7 @@
 				{
 					id: "2CB8D5D3052E173B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:jet_suit_helmet"
 						tag: {
 							Damage: 0
@@ -513,7 +508,7 @@
 				{
 					id: "034C6D4DD1AC2906"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:jet_suit"
 						tag: {
 							Damage: 0
@@ -524,7 +519,7 @@
 				{
 					id: "22AA8AB74E64C814"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:jet_suit_pants"
 						tag: {
 							Damage: 0
@@ -535,7 +530,7 @@
 				{
 					id: "708A3B5D950215D0"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ad_astra:jet_suit_boots"
 						tag: {
 							Damage: 0
@@ -545,7 +540,7 @@
 				}
 			]
 			title: "Powered Flight"
-			x: 10.5d
+			x: 4.5d
 			y: 2.0d
 		}
 		{
@@ -555,7 +550,7 @@
 			tasks: [{
 				id: "452AD68FDB05422B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ad_astra:tier_4_rocket"
 					tag: { }
 				}
@@ -563,7 +558,7 @@
 			}]
 			title: "Another Rocket?"
 			x: 8.5d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["59808EDCCD6B0790"]
@@ -576,8 +571,8 @@
 				type: "advancement"
 			}]
 			title: "Visit Glacio"
-			x: 6.5d
-			y: 4.0d
+			x: 10.5d
+			y: 2.0d
 		}
 	]
 	title: "Ad Astra"

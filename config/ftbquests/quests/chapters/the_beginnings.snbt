@@ -9,26 +9,28 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["This pack uses mekanism and create for resources, sgjourney and ad astra for exploration, and botany pots + a custom tiered substrate system for resources. If a &3quest is cyan&r, that means that you should try your best to automate it."]
+			description: ["This pack uses &dMekanism&r and &dCreate&r for resources, &dStargate Journey&r and &dAd Astra&r for exploration, and &dBotany Pots&r + a &ocustom tiered substrate system&r for resources. If a &3quest is cyan&r, that means that you should try your best to automate it."]
 			id: "39646520A484643F"
 			rewards: [{
 				id: "2508FBF82AF82FFE"
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "It's kinda thrown together"
+			shape: "diamond"
+			subtitle: "An organized mess..."
 			tasks: [{
 				id: "25C2BBA1C0F6ADC2"
 				title: "Welcome to the SGJourney Community Pack"
 				type: "checkmark"
 			}]
-			x: -7.5d
+			x: -6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["39646520A484643F"]
-			description: ["To start automating resources, you can use botany pots! You'll need to get some clay to make pots and terracotta. Once you have a pot and terracotta, you can make your first botany pot!"]
-			hide: true
+			description: ["To start automating resources, you can use &dBotany Pots&r! You'll need to get some clay to make terracotta and flower pots. Once you have a flower pot and 5 terracotta, you can make your first Botany Pot!"]
+			hide_until_deps_visible: true
+			icon: "botanypots:terracotta_botany_pot"
 			id: "1B3E348B011762ED"
 			rewards: [
 				{
@@ -51,21 +53,6 @@
 			subtitle: "Just add dirt!"
 			tasks: [
 				{
-					consume_items: false
-					id: "70799550336697A6"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "botanypots:all_botany_pots"
-						}
-					}
-					match_nbt: false
-					only_from_crafting: true
-					title: "Craft a Botany Pot"
-					type: "item"
-				}
-				{
 					count: 5L
 					id: "28761084E9CDF897"
 					item: "minecraft:terracotta"
@@ -80,7 +67,7 @@
 				}
 			]
 			title: "Getting started with botany pots!"
-			x: -5.5d
+			x: -4.5d
 			y: 0.0d
 		}
 		{
@@ -111,7 +98,7 @@
 				type: "item"
 			}]
 			title: "How do I grow ores?"
-			x: -3.5d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -128,7 +115,7 @@
 			tasks: [{
 				id: "06CE12D07D4D17CD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "botanypots:hopper_botany_pots"
@@ -138,8 +125,8 @@
 				type: "item"
 			}]
 			title: "Hop to it"
-			x: -5.5d
-			y: 2.0d
+			x: -4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7053517E4216FCD1"]
@@ -190,7 +177,7 @@
 				item: "sgcommunity_pack:gold_substrate"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -200,7 +187,7 @@
 			rewards: [{
 				id: "1E54C2C1B6FFEB15"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
@@ -218,7 +205,7 @@
 				type: "item"
 			}]
 			title: "Diamond Substrate"
-			x: 2.5d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -230,7 +217,7 @@
 				item: "sgcommunity_pack:netherite_substrate"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -251,7 +238,7 @@
 			}]
 			title: "Preparing for Creation"
 			x: -1.5d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1DEBD297BF2D5EC6"]
@@ -263,7 +250,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1DEBD297BF2D5EC6"]
@@ -275,7 +262,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1DEBD297BF2D5EC6"]
@@ -287,7 +274,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1DEBD297BF2D5EC6"]
@@ -299,7 +286,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -3.0d
+			y: -2.0d
 		}
 	]
 	title: "The Beginnings"

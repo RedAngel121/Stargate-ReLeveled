@@ -5,7 +5,7 @@
 	group: "3553DD7F726AE366"
 	icon: "ae2:controller"
 	id: "130D8C64768FBA7D"
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -16,7 +16,7 @@
 				"{@pagebreak}"
 				"Once you have found a meteor with certus quartz inside, gather the certus quartz blocks and take some skystone as well."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "ae2:meteorite_compass"
 			id: "6525C803A8BD105A"
 			rewards: [{
@@ -48,7 +48,7 @@
 				}
 			]
 			title: "Meteor Hunter"
-			x: -3.0d
+			x: -3.5d
 			y: 0.0d
 		}
 		{
@@ -58,7 +58,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: ["Applied Energistics 2 is a storage mod based around the idea of energy-mass equivalency. Your items get stored as \"energy\" inside cells which is then converted back to retrieve them. Ultimately, this means you can store a LOT of items."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3C51ACFA7F2A04E8"
 			rewards: [
 				{
@@ -73,6 +73,8 @@
 					xp: 20
 				}
 			]
+			shape: "diamond"
+			size: 1.5d
 			subtitle: "Mass from energy, energy from mass"
 			tasks: [{
 				id: "0693694DC8DD1B2C"
@@ -98,7 +100,7 @@
 				type: "item"
 			}]
 			title: "Do you have a cable I could borrow?"
-			x: -1.0d
+			x: -3.5d
 			y: -1.5d
 		}
 		{
@@ -117,7 +119,7 @@
 				type: "item"
 			}]
 			title: "Write it down"
-			x: -1.0d
+			x: -3.5d
 			y: 1.5d
 		}
 		{
@@ -137,7 +139,7 @@
 				type: "checkmark"
 			}]
 			title: "We Need To Crystallize"
-			x: 1.0d
+			x: -2.0d
 			y: -1.5d
 		}
 		{
@@ -171,7 +173,7 @@
 				}
 			]
 			title: "Basic Storage"
-			x: 3.0d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -197,16 +199,125 @@
 				}
 			]
 			tasks: [{
-				id: "7AF166DAE74EE84D"
-				item: {
-					Count: 1b
+				icon: {
+					Count: 1
 					id: "ae2:item_storage_cell_1k"
 					tag: { }
 				}
+				id: "1E98A98515EF737D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:portable_item_cell_1k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:portable_item_cell_4k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:portable_item_cell_16k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:portable_item_cell_64k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:portable_item_cell_256k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:portable_fluid_cell_1k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:portable_fluid_cell_4k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:portable_fluid_cell_16k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:portable_fluid_cell_64k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:portable_fluid_cell_256k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_1k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_4k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_16k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_64k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_256k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_storage_cell_1k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_storage_cell_4k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_storage_cell_16k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_storage_cell_64k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_storage_cell_256k"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "Item Storage Disks"
 				type: "item"
 			}]
 			title: "About storage"
-			x: 5.0d
+			x: -0.5d
 			y: 0.0d
 		}
 		{
@@ -226,13 +337,15 @@
 				type: "checkmark"
 			}]
 			title: "Making Processors"
-			x: 1.0d
+			x: -2.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["52144F96AAE9844A"]
 			description: ["Tired of walking to and from your storage system? Using the Wireless Access Point and Wireless Terminals, you no longer have to!"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "7A971DD8D64507A6"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -246,8 +359,8 @@
 				type: "item"
 			}]
 			title: "Subspace Transmissions"
-			x: -7.5d
-			y: 7.0d
+			x: -0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["17013D97CFC43A4D"]
@@ -265,8 +378,8 @@
 				type: "item"
 			}]
 			title: "Crafting Included"
-			x: -7.0d
-			y: 5.0d
+			x: -2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["01A11F434A489617"]
@@ -278,8 +391,8 @@
 				item: "aeinfinitybooster:infinity_card"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 5.0d
+			x: 2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["727BFEF5CAE31314"]
@@ -291,8 +404,8 @@
 				item: "aeinfinitybooster:dimension_card"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 3.0d
+			x: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7A971DD8D64507A6"]
@@ -303,8 +416,8 @@
 				item: "ae2:wireless_booster"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 7.0d
+			x: 1.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7A971DD8D64507A6"]
@@ -315,8 +428,8 @@
 				item: "ae2:wireless_terminal"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 7.0d
+			x: -0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -334,8 +447,8 @@
 				type: "item"
 			}]
 			title: "One terminal to rule them all"
-			x: -5.0d
-			y: 3.0d
+			x: -0.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["17013D97CFC43A4D"]
@@ -345,8 +458,8 @@
 				item: "ae2wtlib:wireless_pattern_encoding_terminal"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 5.0d
+			x: -0.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["17013D97CFC43A4D"]
@@ -356,8 +469,8 @@
 				item: "ae2wtlib:wireless_pattern_access_terminal"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 5.0d
+			x: 1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3C2F77FB82C01124"]
@@ -380,7 +493,7 @@
 				type: "item"
 			}]
 			title: "Making a Real Network"
-			x: 7.0d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
@@ -433,8 +546,8 @@
 				}
 			]
 			title: "Autocrafting"
-			x: 7.0d
-			y: -2.0d
+			x: 1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["52144F96AAE9844A"]
@@ -463,8 +576,8 @@
 				type: "item"
 			}]
 			title: "Better Cables"
-			x: 7.0d
-			y: 2.0d
+			x: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["52144F96AAE9844A"]
@@ -473,14 +586,14 @@
 			tasks: [{
 				id: "2B1DA49D19E2C809"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:energy_cell"
 					tag: { }
 				}
 				type: "item"
 			}]
 			title: "Storing Power"
-			x: 9.0d
+			x: 2.5d
 			y: 0.0d
 		}
 		{
@@ -489,14 +602,14 @@
 			tasks: [{
 				id: "047EDA6B7F3D1A02"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:dense_energy_cell"
 					tag: { }
 				}
 				type: "item"
 			}]
 			title: "Storing Even More Power"
-			x: 11.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -516,8 +629,8 @@
 				type: "item"
 			}]
 			title: "Smart Cables"
-			x: 7.0d
-			y: 4.0d
+			x: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -532,13 +645,15 @@
 				type: "item"
 			}]
 			title: "Not Worth It"
-			x: 11.0d
-			y: 4.0d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["52144F96AAE9844A"]
 			description: ["MEGA Cells is an AE2 addon that adds larger cells for AE2."]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "46F88139E0CC8428"
 			tasks: [{
 				id: "26684BBFBCA7012E"
@@ -546,7 +661,7 @@
 				type: "checkmark"
 			}]
 			title: "MEGA Cells"
-			x: -5.0d
+			x: -0.5d
 			y: -3.0d
 		}
 		{
@@ -558,8 +673,8 @@
 				item: "megacells:accumulation_processor"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -5.0d
+			x: -0.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["194423A49785391E"]
@@ -571,13 +686,15 @@
 				type: "item"
 			}]
 			title: "Managing Patterns"
-			x: 5.0d
-			y: -2.0d
+			x: 2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["52144F96AAE9844A"]
 			description: ["AE2 contains many ways to decorate your base. From fancy display mounts, to hiding cables."]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "3BC462BDE65FA837"
 			subtitle: "What's the point of automating everything if it isn't stylish?"
 			tasks: [{
@@ -586,8 +703,8 @@
 				type: "checkmark"
 			}]
 			title: "Aesthetics"
-			x: 0.0d
-			y: -8.0d
+			x: 4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3BC462BDE65FA837"]
@@ -599,8 +716,8 @@
 				item: "ae2:storage_monitor"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -6.5d
+			x: 4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6DAA999CEC7DEDF7"]
@@ -612,14 +729,14 @@
 				item: "ae2:conversion_monitor"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.0d
+			x: 4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3BC462BDE65FA837"]
 			description: ["Tired of seeing ugly cables everywhere? Facades can be placed on cables to make them appear like other blocks. They can even be placed on faces that already have cable subparts."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ae2:facade"
 				tag: {
 					item: "minecraft:deepslate_diamond_ore"
@@ -634,8 +751,8 @@
 				type: "item"
 			}]
 			title: "Facades"
-			x: 1.5d
-			y: -8.0d
+			x: 5.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["69FBE320CFCDC2A6"]
@@ -646,8 +763,8 @@
 				type: "item"
 			}]
 			title: "Storing 1 Megabyte"
-			x: -7.0d
-			y: -5.0d
+			x: -2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["48FE0CC92C3583B7"]
@@ -659,8 +776,8 @@
 				type: "item"
 			}]
 			title: "Crafting at a New Scale"
-			x: -7.0d
-			y: -7.0d
+			x: -2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["69FBE320CFCDC2A6"]
@@ -679,8 +796,8 @@
 				}
 			]
 			title: "MEGA Subparts"
-			x: -3.0d
-			y: -5.0d
+			x: 1.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["48FE0CC92C3583B7"]
@@ -689,15 +806,15 @@
 			tasks: [{
 				id: "72C9A9CF53F789C4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:item_storage_cell_1m"
 					tag: { }
 				}
 				type: "item"
 			}]
 			title: "Storing More Items"
-			x: -9.0d
-			y: -5.0d
+			x: -3.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["48FE0CC92C3583B7"]
@@ -706,14 +823,14 @@
 			tasks: [{
 				id: "516C62FB51B93023"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:bulk_item_cell"
 					tag: { }
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: -3.0d
+			x: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["69FBE320CFCDC2A6"]
@@ -721,14 +838,14 @@
 			tasks: [{
 				id: "216824F023B31B9D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "megacells:mega_energy_cell"
 					tag: { }
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: -7.0d
+			x: -0.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3BC462BDE65FA837"]
@@ -741,8 +858,8 @@
 				type: "checkmark"
 			}]
 			title: "Colored Cables"
-			x: -1.5d
-			y: -8.0d
+			x: 5.5d
+			y: -4.5d
 		}
 	]
 	title: "Applied Energistics"

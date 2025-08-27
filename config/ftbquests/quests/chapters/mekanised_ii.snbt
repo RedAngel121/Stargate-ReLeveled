@@ -5,32 +5,6 @@
 	group: "0B892AF6A2410D9F"
 	icon: "sgcommunity_pack:integrated_circuit"
 	id: "565378749F2B93CA"
-	images: [
-		{
-			height: 1.0d
-			image: "sgjourney:textures/entity/stargate/pegasus/atlantis/atlantis_event_horizon_shiny.png"
-			rotation: 0.0d
-			width: 0.03125d
-			x: -8.0d
-			y: 3.5d
-		}
-		{
-			height: 1.0d
-			image: "sgjourney:textures/entity/stargate/pegasus/pegasus_event_horizon.png"
-			rotation: 0.0d
-			width: 0.03125d
-			x: -8.5d
-			y: 1.5d
-		}
-		{
-			height: 1.0d
-			image: "mekanism:liquid/liquid"
-			rotation: 0.0d
-			width: 0.03125d
-			x: -12.5d
-			y: 11.5d
-		}
-	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -298,7 +272,7 @@
 				"Tip for splitting up large assembly lines into small units:"
 				"AE2 Import and Export Buses can be used to automatically insert necessary gases as well as the correct wafers."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2A74BFEACA625BCA"
 			tasks: [{
 				id: "6FF82CD8CF981A58"
@@ -353,6 +327,7 @@
 			dependencies: ["057453950DC5CD3A"]
 			description: ["Now that you have manufactured your first batch of tier II circuits via mekanism, you are ready to take on tier III. Assuming you listened to my earlier advice of making sure your setup is expandable, you will be fine."]
 			id: "7FC523FEA8F868A5"
+			shape: "diamond"
 			tasks: [{
 				id: "4D620CFA5C7B90F7"
 				title: "Acknowledge"
@@ -365,7 +340,7 @@
 		{
 			dependencies: ["2A74BFEACA625BCA"]
 			description: ["Photoresist can be made from Tree Sap or PamHC2 maple syrup, and Glowstone"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1FD59EC4C3900300"
 			tasks: [{
 				id: "64EAD1CC4F988E8A"

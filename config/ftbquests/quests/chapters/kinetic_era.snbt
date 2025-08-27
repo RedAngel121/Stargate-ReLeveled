@@ -11,7 +11,7 @@
 		{
 			dependencies: ["3B0AA365C22B2922"]
 			description: ["Welcome to the Kinetic Era! We are now getting into our first tech mod: Create. If you are ever stuck wondering how something works, simply check out the Ponder Index. You can get there by holding W on any create item, or by clicking on the goggle icon in the menu screen."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2283E12D506D17D1"
 			rewards: [
 				{
@@ -26,6 +26,7 @@
 					xp: 20
 				}
 			]
+			shape: "diamond"
 			subtitle: "Gear go spinny"
 			tasks: [{
 				id: "060E31D1E304F7D0"
@@ -33,7 +34,7 @@
 				type: "checkmark"
 			}]
 			title: "&6Welcome to the Kinetic Era"
-			x: -9.5d
+			x: -6.0d
 			y: 0.0d
 		}
 		{
@@ -44,8 +45,8 @@
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 2.0d
+			x: -4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2F7574E640879AA0"]
@@ -55,8 +56,8 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 3.0d
+			x: -5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2F7574E640879AA0"]
@@ -67,13 +68,13 @@
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 3.0d
+			x: -3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2283E12D506D17D1"]
 			description: ["Using that andesite you gathered earlier and some iron, make Andesite Alloy. Andesite alloy is one of the main materials of create, so you will almost always need more."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1E5C949246BC1112"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -88,7 +89,7 @@
 				type: "item"
 			}]
 			title: "&6Creation"
-			x: -7.0d
+			x: -4.5d
 			y: 0.0d
 		}
 		{
@@ -101,7 +102,7 @@
 				type: "item"
 			}]
 			title: "&6Moving Rotation"
-			x: -4.5d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -121,7 +122,7 @@
 				type: "item"
 			}]
 			title: "&6Getting Kinetic Energy"
-			x: -2.0d
+			x: -1.5d
 			y: 0.0d
 		}
 		{
@@ -141,7 +142,7 @@
 				type: "checkmark"
 			}]
 			title: "&6Experiment"
-			x: 0.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -155,8 +156,8 @@
 				type: "item"
 			}]
 			title: "&3Glass Tubes"
-			x: 1.5d
-			y: -2.5d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1785914BD68AC89E"]
@@ -168,8 +169,8 @@
 				type: "item"
 			}]
 			title: "&3Iron Filaments"
-			x: 5.5d
-			y: -2.5d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1785914BD68AC89E"]
@@ -181,8 +182,8 @@
 				type: "item"
 			}]
 			title: "&3Copper Sheets"
-			x: 7.5d
-			y: -2.5d
+			x: 4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1785914BD68AC89E"]
@@ -194,8 +195,8 @@
 				type: "item"
 			}]
 			title: "&3Iron Sheets"
-			x: 3.5d
-			y: -2.5d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6939F607B8218B37"]
@@ -213,7 +214,7 @@
 				type: "checkmark"
 			}]
 			title: "&6Making your first electronic circuit"
-			x: 4.5d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -237,8 +238,8 @@
 				type: "item"
 			}]
 			title: "&3Vacuum Tubes"
-			x: 4.5d
-			y: -5.0d
+			x: 3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7542A74737AC4408"]
@@ -255,8 +256,8 @@
 				type: "checkmark"
 			}]
 			title: "&6Well Done!"
-			x: 4.5d
-			y: -7.0d
+			x: 3.0d
+			y: -6.0d
 		}
 	]
 	title: "Kinetic I"
