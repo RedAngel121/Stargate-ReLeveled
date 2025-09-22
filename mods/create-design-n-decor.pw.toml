@@ -1,0 +1,13 @@
+name = "Create: Design n' Decor"
+filename = "dndecor-2.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ebb404a2b0603cf05b598d12916e4fe5b76193d8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7006245
+project-id = 923238
