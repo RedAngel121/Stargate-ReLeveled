@@ -238,7 +238,7 @@ hash = "392ea74823594d160c2a2990e99e75c30ffde6f072b705f986f024d7d21568f3"
 
 [[files]]
 file = "config/flan/flan_config.json"
-hash = "9d18e0ebf4c8147d6b5d983804e741fde68c59013df213508ee5dbd6b445f619"
+hash = "558bf1ddd3ed67ccc00433f35f6e3af61a1de024b93ea00dfa88ac6be3fdd5af"
 
 [[files]]
 file = "config/ftbbackups2.json"
@@ -442,7 +442,7 @@ hash = "5decf87990c732b7e4966349f4743c99704f35cb209f83e1059afa95eeb86cde"
 
 [[files]]
 file = "config/theoneprobe-common.toml"
-hash = "24ec458223a22b35235710db327cc448c09d55a4ab30cf77d4299c82f2bfe707"
+hash = "3b908e150ba2805be1c9e3698e5d5e55df47b7f94de054da52eb1f3cfbb3d097"
 
 [[files]]
 file = "config/torchmaster.toml"

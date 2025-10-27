@@ -46,7 +46,7 @@ showItemDetailThresshold = 4
 #Range: 0 ~ 1000
 showSmallChestContentsWithoutSneaking = 0
 #A list of blocks for which we automatically show chest contents even if not sneaking
-showContentsWithoutSneaking = ["storagedrawers:basicdrawers", "storagedrawersextra:extra_drawers"]
+showContentsWithoutSneaking = []
 #A list of blocks for which we don't show chest contents automatically except if sneaking
 dontShowContentsUnlessSneaking = []
 #A list of blocks for which we don't send NBT over the network. This is mostly useful for blocks that have HUGE NBT in their pickblock (itemstack)
