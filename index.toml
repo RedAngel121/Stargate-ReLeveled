@@ -1974,7 +1974,7 @@ hash = "9d5105530c668694d45d6970d17dc0e0f7706c4e40a04cf0590e36834e6128d2"
 
 [[files]]
 file = "kubejs/server_scripts/cookta2012-utils.js"
-hash = "24e15e244692fabdbd15f4c09a2cede4cb84f63d57177c942615a2f72fedf553"
+hash = "de2ff06f819ac793fffa7cb12dbc012ad00b511bd490e45ce463035cd2d7c87c"
 
 [[files]]
 file = "kubejs/server_scripts/fixStupidOverride.js"
@@ -1994,7 +1994,7 @@ hash = "9d09709aa13c6b7bd87a976122c62cf76ed9e40496a5e58da84df82988f3e161"
 
 [[files]]
 file = "kubejs/server_scripts/randomTagsFix.js"
-hash = "9e3b5899609779348ddbe2c26ed4226cba3927bb214bed2f6724f86047646000"
+hash = "21fb1b895ab1db3828c4f086bff7880cdb84e549704e66acc07a67178956e150"
 
 [[files]]
 file = "kubejs/server_scripts/recipeUtil.js"
@@ -2017,16 +2017,12 @@ file = "kubejs/server_scripts/tagFluids.js"
 hash = "b2354f27fa640c164923482a7ed22c05919c6b96f2fb14a5cab64b031d993412"
 
 [[files]]
-file = "kubejs/server_scripts/tagStorageDrawers.js"
-hash = "1fc35c49df2f45aab92132a544907211020c9c395cad763a561ec58b002ff938"
-
-[[files]]
 file = "kubejs/startup_scripts/common.js"
 hash = "9d5105530c668694d45d6970d17dc0e0f7706c4e40a04cf0590e36834e6128d2"
 
 [[files]]
 file = "kubejs/startup_scripts/cookta2012-edits.js"
-hash = "e85ea492f290ddea066ef30532fed037412b5a43508d71e3bea8cdf2c8659a51"
+hash = "5028f012446a9261924caed2ed5e19c63494628e9ad87d9ea61a5d1ad267ecb4"
 
 [[files]]
 file = "kubejs/startup_scripts/startup.js"
