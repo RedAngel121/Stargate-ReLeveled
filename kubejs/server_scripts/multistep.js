@@ -39,7 +39,7 @@ let MultistepProcess = /*#__PURE__*/function () {
     }
     /**
      * Add a step to the process
-     * @param {MultistepProcessStep} step 
+     * @param {MultistepProcessStep} step
      * @returns {this}
      */
   }, {
@@ -50,7 +50,7 @@ let MultistepProcess = /*#__PURE__*/function () {
     }
     /**
      * Register the multistep process and all its sub recipes
-     * @param {ServerRecipeEvent} event 
+     * @param {ServerRecipeEvent} event
      * @returns {this}
      */
   }, {
