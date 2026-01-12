@@ -57,7 +57,7 @@
 		}
 		{
 			dependencies: ["7E26E25094A8FA06"]
-			description: ["Steal the golden idol from a pyramid (not just in the desert!) and use it to make the Archaeology Table, a villager workstation for the archaeologist. Then, you can trade for a map to a buried stargate"]
+			description: ["Steal the golden idol from a pyramid (not just in the desert!) and use it to make the Archaeology Table; a villager workstation for the Archaeologist. Then, you can trade to upgrade that villager to Master and unlock the Map to Chappa'ai."]
 			icon: "sgjourney:archeology_table"
 			id: "7FFEAEE440BD9D16"
 			tasks: [

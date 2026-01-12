@@ -1,13 +1,13 @@
 name = "Create: Cardboarded Conveynience"
-filename = "create_cardboarded_conveynience-1.20.1-0.0.3.jar"
+filename = "create-cardboarded-conveynience-1.20.1-forge-0.1.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b9e9ecac86c1805a3adafd98277f37ea2a246b8e"
+hash = "9257fe07349311d11dd930f75eefcce2e3dad8c5"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6361661
+file-id = 7384116
 project-id = 1230892
