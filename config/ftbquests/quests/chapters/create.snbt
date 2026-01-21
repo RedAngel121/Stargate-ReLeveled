@@ -349,7 +349,14 @@
 							]
 						}
 					}
+					optional_task: true
 					title: "Trader's Seat"
+					type: "item"
+				}
+				{
+					id: "2BF593C0B1065F2B"
+					item: "create:blaze_burner"
+					optional_task: true
 					type: "item"
 				}
 			]

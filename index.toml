@@ -258,7 +258,7 @@ hash = "de3e4b5fc57011c79432e79e282b021f218a6d2c549f605bc15d7df5d40df17b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "43052f841dfa1df07bd94101ed65dd3b38fa57e18df674f265c4247d1a1beeb6"
+hash = "88aa787490074853f600f50f85229603139248e347e335edb157e2541b9e3e82"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kinetic_era.snbt"
@@ -310,7 +310,7 @@ hash = "0e89ad7caa23f923ac0555df32ba2c4a14d3d314d38ce6098b0362e84f3cdd92"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "0a44e9b0a6598e8c6fc467c50b89f3396089a033bad37f1fad6a015134def11c"
+hash = "c56419724423a74b8d28504455281b3ab4c9e73637d458e80cbaeb241fd1f729"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/ae2basic.snbt"
@@ -1245,6 +1245,14 @@ file = "kubejs/data/computercraft/recipes/wired_modem.json"
 hash = "1fc2a8fbe09a3d8fdb4d6be49766abc9745184e27a99926edc196a68371e598a"
 
 [[files]]
+file = "kubejs/data/create/recipes/crafting/appliances/chain_from_iron.json"
+hash = "d0922e3dc4fac78e0a340c67b9033ffedf5c20b9e2d9268fbd517a264d5bccd9"
+
+[[files]]
+file = "kubejs/data/create/recipes/crafting/appliances/chain_from_zinc.json"
+hash = "7b2c1a581fabeff0d8988cdc80f6faccf793f210d60822237fc6332a49c1988f"
+
+[[files]]
 file = "kubejs/data/create/recipes/crushing/obsidian.json"
 hash = "d9628ecd09acfa69294a85340d0dc2482f4404f8a69c5b8e1e5b6ca623950af2"
 
@@ -1999,6 +2007,10 @@ hash = "21fb1b895ab1db3828c4f086bff7880cdb84e549704e66acc07a67178956e150"
 [[files]]
 file = "kubejs/server_scripts/recipeUtil.js"
 hash = "4ba32d7d4977bc5a49062cbd39fbc312e1de9187ed0ea2dfb3b9c12630c7852f"
+
+[[files]]
+file = "kubejs/server_scripts/recipe_changes.js"
+hash = "fa8b7916c932ff0d571da928e24890930f222ca6a0a60715f874682850324daa"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
