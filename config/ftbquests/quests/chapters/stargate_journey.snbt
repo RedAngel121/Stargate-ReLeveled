@@ -138,6 +138,9 @@
 				}
 			}
 			id: "4F1A70A84D97EAB3"
+			progression_mode: "flexible"
+			require_sequential_tasks: false
+			shape: "circle"
 			subtitle: "One Way Trip!"
 			tasks: [{
 				dimension: "sgjourney:abydos"
@@ -168,7 +171,7 @@
 			subtitle: "Start Excavating!"
 			tasks: [{
 				id: "045DE5981C07553A"
-				structure: "#common_stargates:common_stargate"
+				structure: "#sgcommunity_pack:common_stargate"
 				type: "structure"
 			}]
 			title: "You Found One!"
@@ -625,6 +628,9 @@
 			description: ["Computercraft has the ability to control a major aspect of the dialing sequence on any gate with an interface attached. You can program auto-dialing scripts using LUA or just look for some scripts online instead. (psst... check the discord too!)"]
 			icon: "computercraft:computer_advanced"
 			id: "0A42BE3304151ADF"
+			min_required_dependencies: 1
+			progression_mode: "flexible"
+			require_sequential_tasks: false
 			subtitle: "Chevron 1 Locked!"
 			tasks: [
 				{

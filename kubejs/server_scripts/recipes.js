@@ -306,10 +306,10 @@ ServerEvents.recipes(event => {
     R: "ad_astra:iron_rod"
   });
   // Remove easy rocket engines
-  event.remove("ad_astra:recipes/steel_engine");
-  event.remove("ad_astra:recipes/desh_engine");
-  event.remove("ad_astra:recipes/ostrum_engine");
-  event.remove("ad_astra:recipes/calorite_engine");
+  event.remove("ad_astra:steel_engine");
+  event.remove("ad_astra:desh_engine");
+  event.remove("ad_astra:ostrum_engine");
+  event.remove("ad_astra:calorite_engine");
   // Add hard engines
   event.shaped(Item.of("ad_astra:steel_engine", 1), ["SSS", "ECE", " F "], {
     S: "#forge:plates/steel",
