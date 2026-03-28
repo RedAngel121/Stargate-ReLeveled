@@ -1,13 +1,13 @@
 name = "Pam's HarvestCraft 2 - Food Extended"
-filename = "pamhc2foodextended-1.20.4-1.0.1.jar"
+filename = "pamhc2foodextended-NEOFORGE-1.21.1-1.0.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "5939df90ec025f90e502d6e735081103860bbd0f"
+hash = "0cf7f668fdedef93446f33215484913991185102"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5147171
+file-id = 6221521
 project-id = 402231

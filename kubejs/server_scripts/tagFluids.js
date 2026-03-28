@@ -1,4 +1,4 @@
-let bottomless = ["create:honey", "create:chocolate", "#forge:experience", "mekanismgenerators:fusion_fuel"];
+let bottomless = ["create:honey", "create:chocolate", "#c:experience", "mekanismgenerators:fusion_fuel"];
 
 ServerEvents.tags("fluid", event => {
   for (let tag of bottomless) {

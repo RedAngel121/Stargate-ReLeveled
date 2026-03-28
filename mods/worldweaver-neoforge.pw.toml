@@ -1,0 +1,13 @@
+name = "WorldWeaver Neoforge"
+filename = "worldweaver-21.0.19.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "09e1803fe6a85292ced6b64eb2cd53cafbbb6df6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7672397
+project-id = 1422284

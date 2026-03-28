@@ -1,0 +1,13 @@
+name = "ChatPlus"
+filename = "chatplus-neoforge-2.8.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5a32e0be9e2ac8a914c53ac8cbd6cdcf38b77b61"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7699625
+project-id = 1023333

@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#F#",
+    "#X#",
+    "#C#"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:stone"
+    },
+    "C": {
+      "item": "minecraft:furnace"
+    },
+    "F": {
+      "tag": "sgcommunity_pack:circuit_basic"
+    },
+    "X": {
+      "tag": "c:storage_blocks/redstone"
+    }
+  },
+  "result": {
+    "item": "ironfurnaces:heater"
+  }
+}

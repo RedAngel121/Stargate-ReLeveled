@@ -1,0 +1,13 @@
+name = "Stellaris StellarView Compatibility"
+filename = "stellaris_stellarview_compatibility-1.0.0-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c145aabd8f8aff63d30bb92a636a2d69f80c9841"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7735743
+project-id = 1482048

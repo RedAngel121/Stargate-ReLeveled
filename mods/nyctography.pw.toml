@@ -1,0 +1,13 @@
+name = "Nyctography"
+filename = "nyctography-neoforge-1.21.1-21.1.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3c0a8662581e48c65f478ea38d0a065846be6caf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7115340
+project-id = 1126493

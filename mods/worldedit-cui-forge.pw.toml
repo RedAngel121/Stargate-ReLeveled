@@ -1,0 +1,13 @@
+name = "WorldEdit CUI (Forge)"
+filename = "WorldEditCUI-NeoForge-1.21.1+02-SNAPSHOT.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ad2653eeb1ad84c15de5739ee98b1879957ac3fa"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7195941
+project-id = 1380388

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:tool_pot"
+    },
+    {
+      "tag": "c:water"
+    }
+  ],
+  "result": {
+    "item": "mekanism:salt",
+    "count": 1
+  }
+}

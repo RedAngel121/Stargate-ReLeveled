@@ -29,6 +29,7 @@ StartupEvents.registry("block", event => {
     }
   }
 });
+
 StartupEvents.registry("item", event => {
   for (let e in Item) {
     let item = Item[e];
@@ -50,34 +51,27 @@ StartupEvents.registry("item", event => {
     builder.displayName(item.getName());
   }
 });
+
 StartupEvents.registry("fluid", event => {
   event.create(MODID + ":liquid_glass").displayName("Molten Glass").thickTexture(0x0FFCCCC).bucketColor(0xFFCCCC);
 });
-// mekanism registration
-// gonna be cursed
+
+// Mekanism API Registration
 const MekanismAPI = Java.loadClass('mekanism.api.MekanismAPI');
-const InfuseTypeBuilder = Java.loadClass('mekanism.api.chemical.infuse.InfuseTypeBuilder');
-const GasBuilder = Java.loadClass('mekanism.api.chemical.gas.GasBuilder');
-const GasClass = Java.loadClass('mekanism.api.chemical.gas.Gas');
-const MekanismGases = Java.loadClass("mekanism.common.registries.MekanismGases");
-const MekanismInfuseTypes = Java.loadClass('mekanism.common.registries.MekanismInfuseTypes');
-StartupEvents.registry("mekanism:gas", event => {
-  for (let gas of Object.values(Gases)) {
-    let builder = GasBuilder.builder().tint(gas.getColor());
-    let gasInstance = GasClass(builder);
-    MekanismGases.GASES['register(java.lang.String,java.util.function.Supplier)'](gas.identifier, () => gasInstance);
+const ChemicalBuilder = Java.loadClass('mekanism.api.chemical.ChemicalBuilder');
+const ChemicalClass = Java.loadClass('mekanism.api.chemical.Chemical');
+const MekanismChemicals = Java.loadClass("mekanism.common.registries.MekanismChemicals");
+StartupEvents.registry("mekanism:chemical", event => {
+  for (let chemical of Object.values(Chemicals)) {
+    let builder = ChemicalBuilder.builder().tint(chemical.getColor());
+    let chemicalInstance = ChemicalClass(builder);
+    MekanismChemicals.CHEMICAL['register(java.lang.String,java.util.function.Supplier)'](chemical.identifier, () => chemicalInstance);
   }
 });
+
 StartupEvents.modifyCreativeTab("kubejs:tab", event => {
-  event.setDisplayName("Stargate: Leveled");
+  event.setDisplayName("Stargate: ReLeveled");
   event.setIcon(Item.INTEGRATED_CIRCUIT.getIdentifier());
 });
-// Easter egg ig
-ItemEvents.modification(event => {
-  event.modify("pamhc2crops:cornitem", item => {
-    item.setFoodProperties(builder => {
-      builder.hunger(1).saturation(1);
-    });
-  });
-});
+
 console.info('Loaded Startup Scripts');

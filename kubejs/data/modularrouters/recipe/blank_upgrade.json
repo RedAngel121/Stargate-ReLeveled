@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "tag": "c:nuggets/gold"
+    },
+    "L": {
+      "tag": "c:gems/lapis"
+    },
+    "P": {
+      "tag": "sgcommunity_pack:circuit_basic"
+    }
+  },
+  "pattern": [
+    "PPG",
+    "PLG",
+    " PG"
+  ],
+  "result": {
+    "count": 4,
+    "item": "modularrouters:blank_upgrade"
+  },
+  "show_notification": true
+}

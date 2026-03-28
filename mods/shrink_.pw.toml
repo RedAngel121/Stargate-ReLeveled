@@ -1,13 +1,13 @@
 name = "Shrink."
-filename = "Shrink-1.20.1-1.4.5.jar"
+filename = "shrink-2.0.1.47-neoforge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f14fb093062f193d758cd90acffae0ce1c461dc2"
+hash = "17407b525c0c70a0f6f03a08024a14058f645d01"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4863339
+file-id = 6194054
 project-id = 426386

@@ -1,0 +1,13 @@
+name = "BetterEnd Neoforge"
+filename = "BetterEnd-21.0.24.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a4344efa302c04ab11fa5313032836c662fb540c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7754760
+project-id = 1422294

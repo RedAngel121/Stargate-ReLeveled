@@ -1,0 +1,13 @@
+name = "Simple Voice Chat Group Player Names"
+filename = "svcgroupplayernames-1.21.1-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c041968bc8d23be4237703e5dd12207ec2f394f5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7216191
+project-id = 1382903

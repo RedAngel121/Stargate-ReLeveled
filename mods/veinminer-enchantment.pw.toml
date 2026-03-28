@@ -1,0 +1,13 @@
+name = "Veinminer Enchantment (Fabric/Forge/NeoForge/Quilt)"
+filename = "ly-veinminer-enchantment-v1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b5ce641433fccb3476fd07fe126abd18a0a736bd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7128403
+project-id = 1277234

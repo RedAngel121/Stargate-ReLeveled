@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#R#",
+    "RXR",
+    "#R#"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:stone"
+    },
+    "R": {
+      "tag": "c:dusts/redstone"
+    },
+    "X": {
+      "tag": "sgcommunity_pack:circuit_basic"
+    }
+  },
+  "result": {
+    "item": "ironfurnaces:item_heater"
+  }
+}

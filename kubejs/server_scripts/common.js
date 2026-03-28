@@ -129,7 +129,7 @@ _defineProperty(Item, "PURE_QUARTZ_GLASS", new _class2("pure_quartz_glass", "Pur
 _defineProperty(Item, "ADVANCED_PCB_SUBSTRATE", new _class2("advanced_pcb_substrate", "PCB Substrate"));
 // Silicon Wafers
 _defineProperty(Item, "PHOSPHORUS", new _class2("phosphorus", "Phosphorus", {
-  tags: ["forge:phosphorus"]
+  tags: ["c:phosphorus"]
 }));
 // Rudimentary Processor
 // static ADDER = new Item("adder", "8 Bit Adder")
@@ -179,27 +179,27 @@ _defineProperty(Item, "SODIUM_BICARBONATE", new _class2("sodium_bicarbonate", "B
 _defineProperty(Item, "WAFER_DOUGH", new _class2("wafer_dough", "Wafer Dough"));
 _defineProperty(Item, "WAFER", new _class2("wafer", "Wafer", {
   food: foodBuilder => {
-    foodBuilder.hunger(5).saturation(1);
+    foodBuilder.nutrition(5).saturation(1);
   }
 }));
 _defineProperty(Item, "INCOMPLETE_EDIBLE_PROCESSOR_WAFER", new _class2("incomplete_edible_processor_wafer", "Incomplete Edible Processor Wafer", {
   food: foodBuilder => {
-    foodBuilder.hunger(5).saturation(1);
+    foodBuilder.nutrition(5).saturation(1);
   }
 }));
 _defineProperty(Item, "EDIBLE_PROCESSOR_WAFER", new _class2("edible_processor_wafer", "Edible Processor Wafer", {
   food: foodBuilder => {
-    foodBuilder.hunger(10).saturation(3);
+    foodBuilder.nutrition(10).saturation(3);
   }
 }));
 _defineProperty(Item, "EDIBLE_PROCESSOR_CHIP", new _class2("edible_processor_chip", "Edible Processor Chip", {
   food: foodBuilder => {
-    foodBuilder.hunger(5).saturation(2);
+    foodBuilder.nutrition(5).saturation(2);
   }
 }));
 _defineProperty(Item, "EDIBLE_PROCESSOR", new _class2("edible_processor", "Edible Processor", {
   food: foodBuilder => {
-    foodBuilder.hunger(9).saturation(2);
+    foodBuilder.nutrition(9).saturation(2);
   }
 }));
 // Isotopic Decay Oscillator (terrible name)
@@ -877,24 +877,24 @@ let Block = /*#__PURE__*/function () {
   return Block;
 }();
 var Blocks = {
-  PHOSPHORITE: new Block("phosphorite", "Phosphorite").material(MaterialType.STONE).useTool(ToolType.PICKAXE).requireTier(ToolTier.IRON).tagBoth("forge:ores/phosphorus").tagBoth("forge:ores"),
-  BORAX: new Block("borax", "Borax").material(MaterialType.STONE).useTool(ToolType.PICKAXE).requireTier(ToolTier.IRON).tagBoth("forge:ores/borax").tagBoth("forge:ores"),
+  PHOSPHORITE: new Block("phosphorite", "Phosphorite").material(MaterialType.STONE).useTool(ToolType.PICKAXE).requireTier(ToolTier.IRON).tagBoth("c:ores/phosphorus").tagBoth("c:ores"),
+  BORAX: new Block("borax", "Borax").material(MaterialType.STONE).useTool(ToolType.PICKAXE).requireTier(ToolTier.IRON).tagBoth("c:ores/borax").tagBoth("c:ores"),
   COMPOST_FLORAL: new Block("floral_compost", "Floral Compost").material(MaterialType.DIRT).useTool(ToolType.SHOVEL),
   COMPOST_MULCH: new Block("mulch_compost", "Mulch").material(MaterialType.DIRT).useTool(ToolType.SHOVEL),
   COMPOST_ORGANIC: new Block("organic_compost", "Organic Compost").material(MaterialType.DIRT).useTool(ToolType.SHOVEL),
   COMPOST_CORAL: new Block("coral_compost", "Coral Compost").material(MaterialType.DIRT).useTool(ToolType.PICKAXE),
   INACTIVE_NAQUADRIA_SUBSTRATE: new Block("inactive_naquadria_substrate", "Inactive Naquadria Substrate").material(MaterialType.METAL).useTool(ToolType.PICKAXE).hardness(2).blastResistance(10)
 };
-let Gas = /*#__PURE__*/function () {
+let Chemical = /*#__PURE__*/function () {
   "use strict";
 
-  function Gas(identifier, name) {
-    _classCallCheck(this, Gas);
+  function Chemical (identifier, name) {
+    _classCallCheck(this, Chemical);
     _defineProperty(this, "_color", 0x000000);
     this.identifier = identifier;
     this.name = name;
   }
-  _createClass(Gas, [{
+  _createClass(Chemical, [{
     key: "color",
     value: function color(_color) {
       this._color = _color;
@@ -916,16 +916,16 @@ let Gas = /*#__PURE__*/function () {
       return this._color;
     }
   }]);
-  return Gas;
+  return Chemical;
 }();
-var Gases = {
-  BLAZE_GAS: new Gas("blaze_gas", "Blaze Gas").color(0xF18A22),
-  PHOSPHORUS_GAS: new Gas("phosphorus", "Phosphorus Gas").color(0xFFFFDD),
-  SILICON_GAS: new Gas("silicon", "Molten Silicon").color(0xEECCCC),
-  DOPED_SILICON_GAS: new Gas("doped_silicon", "Doped Molten Silicon").color(0xFFCCDD),
-  RESIN: new Gas("photoresist", "Photoresist").color(0xFF643C),
-  BORON_TRIFLUORIDE: new Gas("boron_trifluoride", "Boron Trifluoride").color(0xFFFFFF),
-  BORON_TRIOXIDE: new Gas("boron_trioxide", "Boron Trioxide").color(0xFFFFFF),
-  TREE_SAP: new Gas("tree_sap", "Tree Sap").color(0xc06000),
-  NAQUADRIA: new Gas("naquadria", "Naquadria").color(0x444444)
+var Chemicals = {
+  BLAZE_GAS: new Chemical ("blaze_gas", "Blaze Gas").color(0xF18A22),
+  PHOSPHORUS_GAS: new Chemical ("phosphorus", "Phosphorus Gas").color(0xFFFFDD),
+  SILICON_GAS: new Chemical ("silicon", "Molten Silicon").color(0xEECCCC),
+  DOPED_SILICON_GAS: new Chemical ("doped_silicon", "Doped Molten Silicon").color(0xFFCCDD),
+  RESIN: new Chemical ("photoresist", "Photoresist").color(0xFF643C),
+  BORON_TRIFLUORIDE: new Chemical ("boron_trifluoride", "Boron Trifluoride").color(0xFFFFFF),
+  BORON_TRIOXIDE: new Chemical ("boron_trioxide", "Boron Trioxide").color(0xFFFFFF),
+  TREE_SAP: new Chemical ("tree_sap", "Tree Sap").color(0xc06000),
+  NAQUADRIA: new Chemical ("naquadria", "Naquadria").color(0x444444)
 };

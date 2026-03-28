@@ -114,7 +114,7 @@ ServerEvents.recipes(event => {
     "ingredients": [{
       "item": "ae2:singularity"
     }, {
-      "tag": "forge:dusts/ender_pearl"
+      "tag": "c:dusts/ender_pearl"
     }, {
       "tag": Tags.CIRCUIT_INTERMEDIATE
     }],
@@ -166,7 +166,7 @@ ServerEvents.recipes(event => {
   registerItemToGas(event, {
     "amount": 100,
     "gas": "mekanism:phosphorus"
-  }, "forge:phosphorus");
+  }, "c:phosphorus");
   event.custom({
     type: "mekanism:oxidizing",
     input: {
@@ -182,15 +182,15 @@ ServerEvents.recipes(event => {
   registerItemToGas(event, {
     "amount": 250,
     "gas": "mekanism:blaze_gas"
-  }, "forge:dusts/blaze");
+  }, "c:dusts/blaze");
   registerItemToGas(event, {
     "amount": 1000,
     "gas": "mekanism:blaze_gas"
-  }, "forge:rods/blaze");
+  }, "c:rods/blaze");
   registerItemToGas(event, {
     "amount": 5000,
     "gas": "mekanism:blaze_gas"
-  }, "forge:eggs/blaze");
+  }, "c:eggs/blaze");
   event.custom({
     "type": "mekanism:sawing",
     "input": {
@@ -247,7 +247,7 @@ ServerEvents.recipes(event => {
   });
   event.shaped("mekanism:isotopic_centrifuge", ["lll", "ctc", "lll"], {
     "c": "mekanism:elite_control_circuit",
-    "l": "#forge:ingots/lead",
+    "l": "#c:ingots/lead",
     "t": "mekanism:basic_chemical_tank"
   });
   // Make the combiner easier
@@ -256,7 +256,7 @@ ServerEvents.recipes(event => {
   });
   event.shaped("mekanism:combiner", ["aca", "sts", "aca"], {
     a: "#mekanism:alloys/reinforced",
-    c: "#forge:circuits/advanced",
+    c: "#c:circuits/advanced",
     t: "mekanism:steel_casing",
     s: "minecraft:cobblestone"
   });
@@ -301,7 +301,7 @@ ServerEvents.recipes(event => {
   registerAE2InscriberRecipe(event, Item.RUDIMENTARY_PROCESSOR.getIdentifier(), ["createaddition:electrum_sheet", Item.CONTROL_UNIT.getIdentifier(), Item.ALU.getIdentifier()], true);
   // Ad Astra
   event.shaped(Item.of(Item.RCU, 1), ["SSS", "CCC", "RRR"], {
-    S: "#forge:storage_blocks/steel",
+    S: "#c:storage_blocks/steel",
     C: "#" + Tags.CIRCUIT_INTERMEDIATE,
     R: "ad_astra:iron_rod"
   });
@@ -312,25 +312,25 @@ ServerEvents.recipes(event => {
   event.remove("ad_astra:calorite_engine");
   // Add hard engines
   event.shaped(Item.of("ad_astra:steel_engine", 1), ["SSS", "ECE", " F "], {
-    S: "#forge:plates/steel",
+    S: "#c:plates/steel",
     C: Item.RCU.getIdentifier(),
     E: "ad_astra:engine_frame",
     F: "ad_astra:engine_fan"
   });
   event.shaped(Item.of("ad_astra:desh_engine", 1), ["SSS", "ECE", " F "], {
-    S: "#forge:plates/desh",
+    S: "#c:plates/desh",
     C: Item.RCU.getIdentifier(),
     E: "ad_astra:engine_frame",
     F: "ad_astra:engine_fan"
   });
   event.shaped(Item.of("ad_astra:ostrum_engine", 1), ["SSS", "ECE", " F "], {
-    S: "#forge:plates/ostrum",
+    S: "#c:plates/ostrum",
     C: Item.RCU.getIdentifier(),
     E: "ad_astra:engine_frame",
     F: "ad_astra:engine_fan"
   });
   event.shaped(Item.of("ad_astra:calorite_engine", 1), ["SSS", "ECE", " F "], {
-    S: "#forge:plates/calorite",
+    S: "#c:plates/calorite",
     C: Item.RCU.getIdentifier(),
     E: "ad_astra:engine_frame",
     F: "ad_astra:engine_fan"
@@ -348,24 +348,24 @@ ServerEvents.recipes(event => {
   event.shaped("computercraft:computer_normal", ["sss", "scs", "sgs"], {
     "s": "#balm:stones",
     "c": "#" + Tags.CIRCUIT_INTERMEDIATE,
-    "g": "#forge:glass_panes"
+    "g": "#c:glass_panes"
   });
   event.shaped("computercraft:computer_advanced", ["sss", "scs", "sgs"], {
     "s": "minecraft:gold_ingot",
     "c": "#" + Tags.CIRCUIT_INTERMEDIATE,
-    "g": "#forge:glass_panes"
+    "g": "#c:glass_panes"
   });
   event.shaped("computercraft:pocket_computer_normal", ["scs", "sas", "sgs"], {
     "s": "#balm:stones",
     "a": "minecraft:golden_apple",
     "c": "#" + Tags.CIRCUIT_INTERMEDIATE,
-    "g": "#forge:glass_panes"
+    "g": "#c:glass_panes"
   });
   event.shaped("computercraft:pocket_computer_advanced", ["scs", "sas", "sgs"], {
     "s": "minecraft:gold_ingot",
     "a": "minecraft:golden_apple",
     "c": "#" + Tags.CIRCUIT_INTERMEDIATE,
-    "g": "#forge:glass_panes"
+    "g": "#c:glass_panes"
   });
   // AE2WTLIB
   event.remove({
@@ -543,7 +543,7 @@ ServerEvents.recipes(event => {
     },
     itemInput: {
       ingredient: {
-        tag: "forge:ores/borax"
+        tag: "c:ores/borax"
       }
     },
     output: {
@@ -628,10 +628,10 @@ ServerEvents.recipes(event => {
     id: "mekanism:chemical_crystallizer"
   });
   event.shaped("mekanism:chemical_crystallizer", ["ofo", "csc", "ofo"], {
-    "f": "#forge:gems/fluorite",
+    "f": "#c:gems/fluorite",
     "c": "mekanism:advanced_control_circuit",
     "o": {
-      "tag": "forge:ingots/refined_obsidian"
+      "tag": "c:ingots/refined_obsidian"
     },
     "s": "mekanism:steel_casing"
   });
@@ -640,7 +640,7 @@ ServerEvents.recipes(event => {
   });
   event.shaped("mekanism:chemical_dissolution_chamber", ["ctc", "asa", "ctc"], {
     c: "mekanism:advanced_control_circuit",
-    a: "#forge:ingots/refined_obsidian",
+    a: "#c:ingots/refined_obsidian",
     t: "mekanism:basic_chemical_tank",
     s: "mekanism:steel_casing"
   });
@@ -665,20 +665,20 @@ ServerEvents.recipes(event => {
   //====Edible Processor====\\
   // Wafer recipe
   new MultistepProcess().addStep(new CreateMixingStep("Cream Butter and Sugar", {
-    input: ["#forge:sugar", "#forge:butter"]
+    input: ["#c:sugar", "#c:butter"]
   })).addStep(new CreateMixingStep("Add Eggs and Vanilla", {
     input: [MultistepProcess.INTERMEDIATE_ITEM, {
-      tag: "forge:egg",
+      tag: "c:egg",
       amount: 2
     }, "pamhc2foodextended:vanillaitem"]
   })).addStep(new CreateMixingStep("Mix in some flour", {
     input: [MultistepProcess.INTERMEDIATE_ITEM, {
-      tag: "forge:flour",
+      tag: "c:flour",
       amount: 1
     }]
   })).addStep(new CreateMixingStep("Mix in some more flour", {
     input: [MultistepProcess.INTERMEDIATE_ITEM, {
-      tag: "forge:flour",
+      tag: "c:flour",
       amount: 1
     }]
   })).addStep(new CreateMixingStep("Mix in Sodium Bicarbonate", {
@@ -720,7 +720,7 @@ ServerEvents.recipes(event => {
       amount: 1000
     }]
   })).addStep(new CreateDeployingStep("Sprinkle Sugar", {
-    input: [MultistepProcess.INTERMEDIATE_ITEM, "#forge:sugar"]
+    input: [MultistepProcess.INTERMEDIATE_ITEM, "#c:sugar"]
   })).addStep(new MinecraftSmokingStep("Caramelize Sugar", {
     output: Item.EDIBLE_PROCESSOR_WAFER
   })).usingItem(Item.INCOMPLETE_EDIBLE_PROCESSOR_WAFER.getIdentifier()).register(event);
@@ -973,12 +973,12 @@ ServerEvents.recipes(event => {
   });
   event.shaped(Blocks.COMPOST_ORGANIC.getIdentifier(), ['gfp', 'ddd', 'lcm'], {
     d: "#minecraft:dirt",
-    g: "#forge:grain",
-    f: "#forge:fruits",
-    p: "#forge:paper_plants",
-    l: "#forge:leafyvegetables",
-    c: Ingredient.of(["#forge:cactus_plants", "minecraft:cactus"]),
-    m: "#forge:mushrooms"
+    g: "#c:grain",
+    f: "#c:fruits",
+    p: "#c:paper_plants",
+    l: "#c:leafyvegetables",
+    c: Ingredient.of(["#c:cactus_plants", "minecraft:cactus"]),
+    m: "#c:mushrooms"
   });
   event.shaped(Blocks.COMPOST_CORAL.getIdentifier(), ['bsa', 'sss', 'psi'], {
     s: "minecraft:sand",
@@ -1094,8 +1094,8 @@ ServerEvents.recipes(event => {
     "i": "pipez:item_pipe",
     "g": "pipez:gas_pipe",
     "f": "pipez:fluid_pipe",
-    "r": "#forge:storage_blocks/redstone",
-    "e": "#forge:ingots/iron"
+    "r": "#c:storage_blocks/redstone",
+    "e": "#c:ingots/iron"
   });
   // Phosphorus
   registerChemicalInjectionRecipe(event, {

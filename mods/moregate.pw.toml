@@ -1,0 +1,13 @@
+name = "moregate"
+filename = "moregate-0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SkmbrVFu/versions/heEbZmJG/moregate-0.5.jar"
+hash-format = "sha512"
+hash = "70b0cec39e0262742e36ee903d17d38415055428e0b2746b4c9567ae95192cc9e8ca01740ff11301e1ae3951cba0084ebed6cfb29cb4f4e9ffddc1ebc2f876d0"
+
+[update]
+[update.modrinth]
+mod-id = "SkmbrVFu"
+version = "heEbZmJG"

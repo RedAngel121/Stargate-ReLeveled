@@ -1,0 +1,13 @@
+name = "BCLib Neoforge"
+filename = "bclib-21.0.20.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ddeb239d00fe5ece6352778726e4f599c7f20b49"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7755328
+project-id = 1422283

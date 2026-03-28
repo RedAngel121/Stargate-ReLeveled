@@ -10,14 +10,14 @@ ServerEvents.recipes(event => {
     }
 
     let iris_materials = {
-        "Copper": { "block": "forge:ingots/copper", "item": "sgjourney:copper_iris" },
-        "Iron": { "block": "forge:ingots/iron", "item": "sgjourney:iron_iris" },
-        "Golden": { "block": "forge:ingots/gold", "item": "sgjourney:golden_iris" },
-        "Diamond": { "block": "forge:gems/diamond", "item": "sgjourney:diamond_iris" },
-        "Netherite": { "block": "forge:ingots/netherite", "item": "sgjourney:netherite_iris" },
-        "Naquadah Alloy": { "block": "forge:ingots/naquadah_alloy", "item": "sgjourney:naquadah_alloy_iris" },
-        "Bronze": { "block": "forge:ingots/bronze", "item": "sgjourney:bronze_iris" },
-        "Steel": { "block": "forge:ingots/steel", "item": "sgjourney:steel_iris" }
+        "Copper": { "block": "c:ingots/copper", "item": "sgjourney:copper_iris" },
+        "Iron": { "block": "c:ingots/iron", "item": "sgjourney:iron_iris" },
+        "Golden": { "block": "c:ingots/gold", "item": "sgjourney:golden_iris" },
+        "Diamond": { "block": "c:gems/diamond", "item": "sgjourney:diamond_iris" },
+        "Netherite": { "block": "c:ingots/netherite", "item": "sgjourney:netherite_iris" },
+        "Naquadah Alloy": { "block": "c:ingots/naquadah_alloy", "item": "sgjourney:naquadah_alloy_iris" },
+        "Bronze": { "block": "c:ingots/bronze", "item": "sgjourney:bronze_iris" },
+        "Steel": { "block": "c:ingots/steel", "item": "sgjourney:steel_iris" }
     }
 
     // Generate all combinations of smithing recipes

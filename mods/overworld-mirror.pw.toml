@@ -1,13 +1,13 @@
 name = "Overworld Mirror"
-filename = "overworld_mirror-forge-1.20.1-1.7.0.23.jar"
+filename = "overworld_mirror-neoforge-1.21.1-1.8.0.25.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "3e8d58f8db6798ec36a4c9de67dfbdd801919ba0"
+hash = "3d603b52f9fc3d53c73b411b6e5600ce17a74ccf"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4620023
+file-id = 6556438
 project-id = 303780

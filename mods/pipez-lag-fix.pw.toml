@@ -1,13 +1,13 @@
 name = "Pipez Lag Fix"
-filename = "pipezlagfix-1.20.1-1.0.0.jar"
+filename = "pipezlagfix-1.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "5e8d51eb78fd1cda502319a705831165dc6bd837"
+hash = "32d26f4e279d5059e358853ba0a567cf74e1d96e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7643747
+file-id = 7536788
 project-id = 1446489

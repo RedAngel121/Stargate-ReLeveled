@@ -1,11 +1,12 @@
 {
   "__comment": "For help with the config refer to https://github.com/Flemmli97/Flan/wiki/Config",
-  "configVersion": 5,
+  "configVersion": 7,
   "startingBlocks": 6400,
   "maxClaimBlocks": 25600,
   "ticksForNextBlock": 600,
   "minClaimsize": 100,
   "defaultClaimDepth": 500,
+  "subClaimsInheritParentDepth": true,
   "maxClaims": -1,
   "defaultClaimName": "",
   "defaultEnterMessage": "",
@@ -80,6 +81,7 @@
   "entityTagIgnore": [
     "graves.marker"
   ],
+  "ignoredProjectileTypes": [],
   "legacyOverrides": [
     "@c:wrenches-flan:interact_block",
     "appliedenergistics2:nether_quartz_wrench-flan:interact_block",
@@ -97,6 +99,8 @@
   "deletePlayerFile": false,
   "bannedDeletionTime": 30,
   "offlineProtectActivation": -1,
+  "dynmapIntegration": false,
+  "bluemapIntegration": false,
   "enableLogs": false,
   "defaultGroups": {
     "Interactable Visitor": {
@@ -152,7 +156,6 @@
       "flan:chorus_fruit": true,
       "flan:xp": true,
       "flan:animal_interact": true,
-      "flan:mob_spawn": true,
       "flan:enchantment": true,
       "flan:interact_block": true,
       "flan:bed": true,
@@ -170,14 +173,15 @@
       "flan:noteblock": true,
       "flan:place": true,
       "flan:trample": true,
-      "flan:animal_spawn": true,
       "flan:ender_pearl": true,
       "flan:target_block": true,
       "flan:break_non_living": true,
       "flan:anvil": true,
+      "flan:disable_monster_spawn": true,
       "flan:door": true,
       "flan:frost_walker": true,
       "flan:jukebox": true,
+      "flan:disable_mob_spawn": true,
       "flan:player_mob_spawn": true,
       "flan:minecart": true,
       "flan:raid": true,
@@ -213,7 +217,6 @@
       "flan:chorus_fruit": true,
       "flan:xp": true,
       "flan:animal_interact": true,
-      "flan:mob_spawn": true,
       "flan:enchantment": true,
       "flan:no_hunger": true,
       "flan:interact_block": true,
@@ -234,14 +237,15 @@
       "flan:noteblock": true,
       "flan:place": true,
       "flan:trample": true,
-      "flan:animal_spawn": true,
       "flan:ender_pearl": true,
       "flan:target_block": true,
       "flan:break_non_living": true,
       "flan:anvil": true,
+      "flan:disable_monster_spawn": true,
       "flan:door": true,
       "flan:frost_walker": true,
       "flan:jukebox": true,
+      "flan:disable_mob_spawn": true,
       "flan:player_mob_spawn": true,
       "flan:minecart": true,
       "flan:raid": true,
@@ -256,13 +260,14 @@
   },
   "globalDefaultPerms": {
     "*": {
+      "flan:disable_monster_spawn": "ALLFALSE",
+      "flan:edit_potions": "ALLFALSE",
       "flan:fire_spread": "ALLFALSE",
-      "flan:mob_spawn": "ALLFALSE",
-      "flan:teleport": "ALLFALSE",
-      "flan:no_hunger": "ALLFALSE",
-      "flan:lock_items": "ALLFALSE",
       "flan:flight": "ALLTRUE",
-      "flan:edit_potions": "ALLFALSE"
+      "flan:lock_items": "ALLFALSE",
+      "flan:may_flight": "ALLFALSE",
+      "flan:no_hunger": "ALLFALSE",
+      "flan:teleport": "ALLFALSE"
     }
   }
 }

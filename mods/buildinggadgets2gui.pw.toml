@@ -1,0 +1,13 @@
+name = "BuildingGadgets2GUI"
+filename = "buildinggadgets2gui-0.2.0-beta.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9d0ff2756a1afaade1d0e30bcb51817e367d39a4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7548215
+project-id = 1418443
