@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "tft",
+        "dkd",
+        "scs"
+    ],
+    "key": {
+        "t": {
+            "item": "ae2:terminal"
+        },
+        "f": {
+            "item": "ae2:formation_plane"
+        },
+        "d": {
+            "item": "ae2:dense_energy_cell"
+        },
+        "k": {
+            "item": "sgcommunity_pack:kinetic_substrate"
+        },
+        "s": {
+            "tag": "ae2:smart_cable"
+        },
+        "c": {
+            "item": "ae2:controller"
+        }
+    },
+    "result": {
+        "id": "sgcommunity_pack:computational_substrate"
+    }
+}

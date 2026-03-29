@@ -1,0 +1,16 @@
+{
+    "type": "mekanism:injecting",
+    "chemical_input": {
+        "amount": 50,
+        "tag": "mekanism:naquadria"
+    },
+    "item_input": {
+        "count": 1,
+        "item": "sgcommunity_pack:inactive_naquadria_substrate"
+    },
+    "output": {
+        "count": 1,
+        "id": "sgcommunity_pack:naquadria_substrate"
+    },
+    "per_tick_usage": false
+}

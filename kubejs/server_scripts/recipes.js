@@ -1,139 +1,12 @@
 // priority 2
-// This is gonna be awful ... THEN WHY DID YOU DO IT LIKE THIS?!?!
 ServerEvents.recipes(event => {
-  // Iron Substrate
-  event.shaped(Item.of(Substrate.IRON, 1), ["IbI", "bBb", "IbI"], {
-    "I": "minecraft:iron_ingot",
-    "b": "minecraft:iron_bars",
-    "B": "minecraft:iron_block"
-  });
-  // Gold Substrate
-  event.shaped(Item.of(Substrate.GOLD, 1), ["ggg", "GgG", "ggg"], {
-    "g": "minecraft:gold_ingot",
-    "G": "minecraft:gold_block"
-  });
-  event.shaped(Item.of(Substrate.GOLD, 1), ["nnn", "bBb", "nnn"], {
-    "n": "minecraft:gold_nugget",
-    "b": "minecraft:gold_block",
-    "B": Substrate.IRON.getIdentifier()
-  });
-  // Diamond Substrate
-  event.shaped(Item.of(Substrate.DIAMOND, 1), ["dbd", "GdG", "dbd"], {
-    "d": "minecraft:diamond",
-    "b": "minecraft:iron_bars",
-    "G": "minecraft:gold_block"
-  });
-  event.shaped(Item.of(Substrate.DIAMOND, 1), ["dbd", "bGb", "dbd"], {
-    "d": "minecraft:diamond",
-    "b": "minecraft:iron_bars",
-    "G": Substrate.GOLD.getIdentifier()
-  });
-  // Netherite Substrate
-  event.smithing(Substrate.NETHERITE.getIdentifier(), "minecraft:netherite_upgrade_smithing_template", Substrate.DIAMOND.getIdentifier(), "minecraft:netherite_ingot");
-  // Kinetic Substrate
-  event.recipes.create.mechanical_crafting(Substrate.KINETIC.getIdentifier(), [
-    //spell-checker: disable
-    "ppppp", "svvvs", "scncs", "sdvds", "sppps"], {
-    //spell-checker: enable
-    "p": "minecraft:paper",
-    "v": "#" + Tags.CIRCUIT_BASIC,
-    "s": "minecraft:stone",
-    "d": "create:mechanical_drill",
-    "c": "create:large_cogwheel",
-    "n": Substrate.NETHERITE.getIdentifier()
-  });
-  // Computational Substrate
-  event.shaped(Substrate.COMPUTATIONAL.getIdentifier(), ["tft", "dkd", "scs"], {
-    "t": "ae2:terminal",
-    "f": "ae2:formation_plane",
-    "d": "ae2:dense_energy_cell",
-    "k": Substrate.KINETIC.getIdentifier(),
-    "s": "#ae2:smart_cable",
-    "c": "ae2:controller"
-  });
-  // Mekanised Substrate
-  registerMetallurgicInfusing(event, {
-    amount: 20,
-    tag: "mekanism:refined_obsidian"
-  }, Substrate.COMPUTATIONAL.getIdentifier(), Substrate.MEKANISED.getIdentifier());
-  // Reactive Substrate
-  event.shaped(Substrate.REACTIVE.getIdentifier(), ["iui", "usu", "iui"], {
-    i: Item.ISOTOPIC_DECAY_OSCILLATOR.getIdentifier(),
-    u: "mekanism:ingot_uranium",
-    s: Substrate.MEKANISED.getIdentifier()
-  });
-  // Deep Space Substrate
-  event.shaped(Substrate.DEEP_SPACE.getIdentifier(), ["pcp", "csc", "pcp"], {
-    p: "mekanism:pellet_plutonium",
-    c: "ad_astra:calorite_ingot",
-    s: Substrate.REACTIVE.getIdentifier()
-  });
-  // Naquadria Substrate
-  event.shaped(Blocks.INACTIVE_NAQUADRIA_SUBSTRATE.getIdentifier(), ["cnc", "nsn", "cnc"], {
-    c: Item.COMPUTATION_CORE.getIdentifier(),
-    n: "sgjourney:naquadah_block",
-    s: Substrate.DEEP_SPACE.getIdentifier()
-  });
-  registerChemicalInjectionRecipe(event, {
-    "chemicalType": "gas",
-    "gas": "mekanism:naquadria",
-    "amount": 50
-  }, Substrate.NAQUADRIA.getIdentifier(), Blocks.INACTIVE_NAQUADRIA_SUBSTRATE.getIdentifier());
-  // Positronic Substrate
-  registerChemicalInjectionRecipe(event, {
-    "chemicalType": "gas",
-    "gas": "mekanism:antimatter",
-    "amount": 25
-  }, Substrate.POSITRONIC.getIdentifier(), Substrate.NAQUADRIA.getIdentifier());
-  // Be evil and remove all the easy ae2 circuit recipes
-  event.remove([{
-    id: "ae2:inscriber/engineering_processor"
-  }, {
-    id: "ae2:inscriber/logic_processor"
-  }, {
-    id: "ae2:inscriber/calculation_processor"
-  }, {
-    id: "megacells:inscriber/accumulation_processor"
-  }]);
-  // Replace them with harder recipes
-  registerAE2InscriberRecipeTagMiddle(event, "ae2:engineering_processor", [Tags.CIRCUIT_BASIC, "ae2:printed_engineering_processor", "ae2:printed_silicon"], true);
-  registerAE2InscriberRecipeTagMiddle(event, "ae2:logic_processor", [Tags.CIRCUIT_BASIC, "ae2:printed_logic_processor", "ae2:printed_silicon"], true);
-  registerAE2InscriberRecipeTagMiddle(event, "ae2:calculation_processor", [Tags.CIRCUIT_BASIC, "ae2:printed_calculation_processor", "ae2:printed_silicon"], true);
-  registerAE2InscriberRecipeTagMiddle(event, "megacells:accumulation_processor", [Tags.CIRCUIT_ADVANCED, "megacells:printed_accumulation_processor", "ae2:printed_silicon"], true);
-  // Make quantum bridge harder
-  event.remove([{
-    id: "ae2:transform/entangled_singularity"
-  }, {
-    id: "ae2:transform/entangled_singularity_from_pearl"
-  }]);
-  event.custom({
-    "type": "ae2:transform",
-    "circumstance": {
-      "type": "explosion"
-    },
-    "ingredients": [{
-      "item": "ae2:singularity"
-    }, {
-      "tag": "c:dusts/ender_pearl"
-    }, {
-      "tag": Tags.CIRCUIT_INTERMEDIATE
-    }],
-    "result": {
-      "count": 2,
-      "item": "ae2:quantum_entangled_singularity"
-    }
-  });
-  // Pure Quartz Glass Recipe
-  event.recipes.create.sequenced_assembly([Item.WASHED_SILICA_DUST.getIdentifier()], Item.SILICA_DUST.getIdentifier(), [event.recipes.createFilling(Item.INCOMPLETE_SILICA_DUST.getIdentifier(), [Fluid.toBucket("minecraft:water"), Item.INCOMPLETE_SILICA_DUST.getIdentifier()])]).transitionalItem(Item.INCOMPLETE_SILICA_DUST.getIdentifier()).loops(4);
-  event.recipes.createMixing(Item.IMPURE_QUARTZ_GLASS.getIdentifier(), Item.WASHED_SILICA_DUST.getIdentifier()).heated();
-  event.blasting(Item.PURE_QUARTZ_GLASS.getIdentifier(), Item.IMPURE_QUARTZ_GLASS.getIdentifier());
-  // PCB Substrate recipe
-  // registerAE2InscriberRecipe(event, Item.PCB_SUBSTRATE.getIdentifier(), [Item.PURE_QUARTZ_GLASS.getIdentifier(), "create:copper_sheet","create:copper_sheet"], true)
-  // Phosphorus
-  event.blasting({
-    item: Item.PHOSPHORUS.getIdentifier(),
-    count: 7
-  }, Blocks.PHOSPHORITE.getIdentifier());
+  // NOTES:
+  // Register Naquadria Chemical for the naq substrate recipe
+  // Register Molten Glass fluid
+  // Register Blaze Gas
+  // Register Doped Silicon Fluid
+  // Update the texture for Iron Spool to mimic the Copper Spool to use in the Vac Tube recipe
+
   // Silicon Wafers
   registerChemicalDissolutionRecipe(event, {
     "amount": 10000,
@@ -191,18 +64,6 @@ ServerEvents.recipes(event => {
     "amount": 5000,
     "gas": "mekanism:blaze_gas"
   }, "c:eggs/blaze");
-  event.custom({
-    "type": "mekanism:sawing",
-    "input": {
-      "ingredient": {
-        "item": Item.SILICON_BOULE.getIdentifier()
-      }
-    },
-    "mainOutput": {
-      "count": 5,
-      "item": Item.SILICON_WAFER.getIdentifier()
-    }
-  });
   // Mekanism
   event.remove({
     id: "mekanism:teleporter"
@@ -213,98 +74,16 @@ ServerEvents.recipes(event => {
   event.remove({
     id: "mekanism:portable_teleporter"
   });
-  event.remove({
-    id: "mekanism:metallurgic_infuser"
-  });
-  event.shaped("mekanism:metallurgic_infuser", ["ifi", "bob", "ifi"], {
-    i: "minecraft:iron_ingot",
-    b: "#" + Tags.CIRCUIT_INTERMEDIATE,
-    f: "minecraft:iron_ingot",
-    o: "mekanism:ingot_osmium"
-  });
-  // Yeet the elite and basic control circuit recipes
-  event.remove([{
-    'id': "mekanism:control_circuit/basic"
-  }, {
-    "id": "mekanism:control_circuit/elite"
-  }]);
-  // Replace with even harder recipes :)
-  registerMetallurgicInfusing(event, {
-    amount: 20,
-    tag: "mekanism:redstone"
-  }, {
-    tag: Tags.CIRCUIT_INTERMEDIATE
-  }, "mekanism:basic_control_circuit");
-  registerMetallurgicInfusing(event, {
-    amount: 40,
-    tag: "mekanism:diamond"
-  }, {
-    tag: Tags.CIRCUIT_ADVANCED
-  }, "mekanism:elite_control_circuit");
-  // Make the centrifuge easier
-  event.remove({
-    id: "mekanism:isotopic_centrifuge"
-  });
-  event.shaped("mekanism:isotopic_centrifuge", ["lll", "ctc", "lll"], {
-    "c": "mekanism:elite_control_circuit",
-    "l": "#c:ingots/lead",
-    "t": "mekanism:basic_chemical_tank"
-  });
-  // Make the combiner easier
-  event.remove({
-    id: "mekanism:combiner"
-  });
-  event.shaped("mekanism:combiner", ["aca", "sts", "aca"], {
-    a: "#mekanism:alloys/reinforced",
-    c: "#c:circuits/advanced",
-    t: "mekanism:steel_casing",
-    s: "minecraft:cobblestone"
-  });
   // Create Vacuum Tube
-  event.recipes.create.pressing(Item.SILICA_DUST.getIdentifier(), "minecraft:glass");
-  event.recipes.create.pressing(Item.SAND_MOLD.getIdentifier(), "minecraft:sand");
   event.recipes.create.deploying(Item.SILICA_DUST_BUCKET.getIdentifier(), ["minecraft:bucket", Item.SILICA_DUST.getIdentifier()]);
   event.recipes.create.filling(MODID + ":liquid_glass_bucket", [Fluid.toBucket(MODID + ":liquid_glass"), "minecraft:bucket"]);
   event.recipes.create.filling(Item.GLASS_TUBE.getIdentifier(), [Fluid.toBucket(MODID + ":liquid_glass"), Item.SAND_MOLD.getIdentifier()]);
   event.recipes.create.mixing([Fluid.toAmount(MODID + ":liquid_glass", 800)], [Item.SILICA_DUST.getIdentifier()]).heated();
   event.blasting(MODID + ":liquid_glass_bucket", Item.SILICA_DUST_BUCKET.getIdentifier());
-  event.recipes.create.sequenced_assembly([Item.VACUUM_TUBE.getIdentifier()], Item.GLASS_TUBE.getIdentifier(), [event.recipes.createDeploying(Item.INCOMPLETE_VACUUM_TUBE.getIdentifier(), [Item.INCOMPLETE_VACUUM_TUBE.getIdentifier(), "create:iron_sheet"]), event.recipes.createDeploying(Item.INCOMPLETE_VACUUM_TUBE.getIdentifier(), [Item.INCOMPLETE_VACUUM_TUBE.getIdentifier(), "create:copper_sheet"]), event.recipes.createDeploying(Item.INCOMPLETE_VACUUM_TUBE.getIdentifier(), [Item.INCOMPLETE_VACUUM_TUBE.getIdentifier(), Item.IRON_FILAMENT.getIdentifier()])]).transitionalItem(Item.INCOMPLETE_VACUUM_TUBE.getIdentifier()).loops(3);
-  event.custom({
-    type: "createaddition:rolling",
-    input: {
-      item: "createaddition:iron_wire"
-    },
-    result: {
-      item: Item.IRON_FILAMENT.getIdentifier(),
-      count: 2
-    }
-  });
-  // Rudimentary Processor
-  // event.recipes.create.sequenced_assembly([Item.ADDER.getIdentifier()], Item.PURE_QUARTZ_GLASS.getIdentifier(), [
-  //     event.recipes.createDeploying(Item.INCOMPLETE_ADDER.getIdentifier(),[Item.INCOMPLETE_ADDER.getIdentifier(),Item.VACUUM_TUBE.getIdentifier()])
-  // ]).transitionalItem(Item.INCOMPLETE_ADDER.getIdentifier()).loops(8)
-  // event.recipes.create.sequenced_assembly([Item.XOR.getIdentifier()], "create:iron_sheet", [
-  //     event.recipes.createDeploying(Item.INCOMPLETE_XOR.getIdentifier(),[Item.INCOMPLETE_XOR.getIdentifier(),Item.VACUUM_TUBE.getIdentifier()])
-  // ]).transitionalItem(Item.INCOMPLETE_XOR.getIdentifier()).loops(8)
-  // event.recipes.create.sequenced_assembly([Item.RSHIFT.getIdentifier()], "create:copper_sheet", [
-  //         event.recipes.createDeploying(Item.INCOMPLETE_RSHIFT.getIdentifier(),[Item.INCOMPLETE_RSHIFT.getIdentifier(),Item.VACUUM_TUBE.getIdentifier()])
-  // ]).transitionalItem(Item.INCOMPLETE_RSHIFT.getIdentifier()).loops(8)
+  event.recipes.create.sequenced_assembly([Item.VACUUM_TUBE.getIdentifier()], Item.GLASS_TUBE.getIdentifier(), [event.recipes.createDeploying(Item.INCOMPLETE_VACUUM_TUBE.getIdentifier(), [Item.INCOMPLETE_VACUUM_TUBE.getIdentifier(), "create:iron_sheet"]), event.recipes.createDeploying(Item.INCOMPLETE_VACUUM_TUBE.getIdentifier(), [Item.INCOMPLETE_VACUUM_TUBE.getIdentifier(), "create:copper_sheet"]), event.recipes.createDeploying(Item.INCOMPLETE_VACUUM_TUBE.getIdentifier(), [Item.INCOMPLETE_VACUUM_TUBE.getIdentifier(), Item.IRON_SPOOL.getIdentifier()])]).transitionalItem(Item.INCOMPLETE_VACUUM_TUBE.getIdentifier()).loops(3);
   event.recipes.create.sequenced_assembly([Item.ALU.getIdentifier()], "createaddition:electrum_sheet", [event.recipes.createDeploying(Item.INCOMPLETE_CONTROL_UNIT.getIdentifier(), [Item.INCOMPLETE_CONTROL_UNIT.getIdentifier(), Item.VACUUM_TUBE.getIdentifier()]), event.recipes.createDeploying(Item.INCOMPLETE_CONTROL_UNIT.getIdentifier(), [Item.INCOMPLETE_CONTROL_UNIT.getIdentifier(), Item.VACUUM_TUBE.getIdentifier()]), event.recipes.createDeploying(Item.INCOMPLETE_CONTROL_UNIT.getIdentifier(), [Item.INCOMPLETE_CONTROL_UNIT.getIdentifier(), Item.VACUUM_TUBE.getIdentifier()]), event.recipes.createDeploying(Item.INCOMPLETE_CONTROL_UNIT.getIdentifier(), [Item.INCOMPLETE_CONTROL_UNIT.getIdentifier(), Item.VACUUM_TUBE.getIdentifier()]), event.recipes.createDeploying(Item.INCOMPLETE_ALU.getIdentifier(), [Item.INCOMPLETE_ALU.getIdentifier(), Item.PURE_QUARTZ_GLASS.getIdentifier()])]).transitionalItem(Item.INCOMPLETE_ALU.getIdentifier()).loops(2);
   event.recipes.create.sequenced_assembly([Item.CONTROL_UNIT.getIdentifier()], "createaddition:electrum_sheet", [event.recipes.createDeploying(Item.INCOMPLETE_CONTROL_UNIT.getIdentifier(), [Item.INCOMPLETE_CONTROL_UNIT.getIdentifier(), "minecraft:redstone"]), event.recipes.createDeploying(Item.INCOMPLETE_CONTROL_UNIT.getIdentifier(), [Item.INCOMPLETE_CONTROL_UNIT.getIdentifier(), Item.VACUUM_TUBE.getIdentifier()]), event.recipes.createDeploying(Item.INCOMPLETE_CONTROL_UNIT.getIdentifier(), [Item.INCOMPLETE_CONTROL_UNIT.getIdentifier(), Item.VACUUM_TUBE.getIdentifier()]), event.recipes.createDeploying(Item.INCOMPLETE_CONTROL_UNIT.getIdentifier(), [Item.INCOMPLETE_CONTROL_UNIT.getIdentifier(), "createaddition:copper_wire"]), event.recipes.createDeploying(Item.INCOMPLETE_CONTROL_UNIT.getIdentifier(), [Item.INCOMPLETE_CONTROL_UNIT.getIdentifier(), Item.VACUUM_TUBE.getIdentifier()]), event.recipes.createDeploying(Item.INCOMPLETE_CONTROL_UNIT.getIdentifier(), [Item.INCOMPLETE_CONTROL_UNIT.getIdentifier(), Item.VACUUM_TUBE.getIdentifier()]), event.recipes.createDeploying(Item.INCOMPLETE_ALU.getIdentifier(), [Item.INCOMPLETE_ALU.getIdentifier(), Item.PURE_QUARTZ_GLASS.getIdentifier()])]).transitionalItem(Item.INCOMPLETE_CONTROL_UNIT.getIdentifier()).loops(3);
-  // event.recipes.create.sequenced_assembly([Item.SMALL_CACHE.getIdentifier()], Item.PCB_SUBSTRATE.getIdentifier(), [
-  //         event.recipes.createDeploying(Item.INCOMPLETE_SMALL_CACHE.getIdentifier(),[Item.INCOMPLETE_SMALL_CACHE.getIdentifier(),"createaddition:copper_wire"]),
-  //         event.recipes.createDeploying(Item.INCOMPLETE_SMALL_CACHE.getIdentifier(),[Item.INCOMPLETE_SMALL_CACHE.getIdentifier(),Item.VACUUM_TUBE.getIdentifier()]),
-  //         event.recipes.createDeploying(Item.INCOMPLETE_SMALL_CACHE.getIdentifier(),[Item.INCOMPLETE_SMALL_CACHE.getIdentifier(),Item.VACUUM_TUBE.getIdentifier()]),
-  //         event.recipes.createDeploying(Item.INCOMPLETE_SMALL_CACHE.getIdentifier(),[Item.INCOMPLETE_SMALL_CACHE.getIdentifier(),Item.VACUUM_TUBE.getIdentifier()]),
-  //         event.recipes.createDeploying(Item.INCOMPLETE_SMALL_CACHE.getIdentifier(),[Item.INCOMPLETE_SMALL_CACHE.getIdentifier(),Item.VACUUM_TUBE.getIdentifier()]),
-  // ]).transitionalItem(Item.INCOMPLETE_SMALL_CACHE.getIdentifier()).loops(2)
   registerAE2InscriberRecipe(event, Item.RUDIMENTARY_PROCESSOR.getIdentifier(), ["createaddition:electrum_sheet", Item.CONTROL_UNIT.getIdentifier(), Item.ALU.getIdentifier()], true);
-  // Ad Astra
-  event.shaped(Item.of(Item.RCU, 1), ["SSS", "CCC", "RRR"], {
-    S: "#c:storage_blocks/steel",
-    C: "#" + Tags.CIRCUIT_INTERMEDIATE,
-    R: "ad_astra:iron_rod"
-  });
   // Remove easy rocket engines
   event.remove("ad_astra:steel_engine");
   event.remove("ad_astra:desh_engine");
@@ -335,59 +114,9 @@ ServerEvents.recipes(event => {
     E: "ad_astra:engine_frame",
     F: "ad_astra:engine_fan"
   });
-  // Computercraft
-  event.remove([{
-    id: "computercraft:computer_normal"
-  }, {
-    id: "computercraft:computer_advanced"
-  }, {
-    id: "computercraft:pocket_computer_normal"
-  }, {
-    id: "computercraft:pocket_computer_advanced"
-  }]);
-  event.shaped("computercraft:computer_normal", ["sss", "scs", "sgs"], {
-    "s": "#balm:stones",
-    "c": "#" + Tags.CIRCUIT_INTERMEDIATE,
-    "g": "#c:glass_panes"
-  });
-  event.shaped("computercraft:computer_advanced", ["sss", "scs", "sgs"], {
-    "s": "minecraft:gold_ingot",
-    "c": "#" + Tags.CIRCUIT_INTERMEDIATE,
-    "g": "#c:glass_panes"
-  });
-  event.shaped("computercraft:pocket_computer_normal", ["scs", "sas", "sgs"], {
-    "s": "#balm:stones",
-    "a": "minecraft:golden_apple",
-    "c": "#" + Tags.CIRCUIT_INTERMEDIATE,
-    "g": "#c:glass_panes"
-  });
-  event.shaped("computercraft:pocket_computer_advanced", ["scs", "sas", "sgs"], {
-    "s": "minecraft:gold_ingot",
-    "a": "minecraft:golden_apple",
-    "c": "#" + Tags.CIRCUIT_INTERMEDIATE,
-    "g": "#c:glass_panes"
-  });
   // AE2WTLIB
   event.remove({
     id: "ae2wtlib:quantum_bridge_card"
-  });
-  // SgJourney
-  event.remove({
-    id: "sgjourney:basic_interface"
-  });
-  event.remove({
-    id: "sgjourney:reaction_chamber"
-  });
-  event.shaped("sgjourney:reaction_chamber", ["cnc", "nbn", "cnc"], {
-    "c": "#" + Tags.CIRCUIT_INTERMEDIATE,
-    "n": "sgjourney:naquadah_alloy",
-    "b": "minecraft:blaze_powder"
-  });
-  event.shaped("sgjourney:basic_interface", ["gii", "cuu", "gii"], {
-    "c": "#" + Tags.CIRCUIT_INTERMEDIATE,
-    "i": "minecraft:iron_ingot",
-    "g": "minecraft:gold_ingot",
-    "u": "minecraft:copper_ingot"
   });
   // Blue Ice (testing recipe ig)
   new MultistepProcess().addStep(new MekanismInjectingStep("Water Vapor Injecting", {
@@ -601,67 +330,6 @@ ServerEvents.recipes(event => {
     "amount": 5,
     "gas": "mekanism:tree_sap"
   }, "minecraft:glowstone_dust");
-  // photomask
-  event.shaped(Item.IC_PHOTOMASK.getIdentifier(), ["ek ", "   ", "   "], {
-    e: Item.PURE_QUARTZ_GLASS.getIdentifier(),
-    k: "#ae2:knife"
-  }).noMirror().noShrink();
-  event.shaped(Item.EP_PHOTOMASK.getIdentifier(), [" k ", " e ", "   "], {
-    e: Item.PURE_QUARTZ_GLASS.getIdentifier(),
-    k: "#ae2:knife"
-  }).noMirror().noShrink();
-  event.shaped(Item.ISO_PHOTOMASK.getIdentifier(), [" ke", "   ", "   "], {
-    e: Item.PURE_QUARTZ_GLASS.getIdentifier(),
-    k: "#ae2:knife"
-  }).noMirror().noShrink();
-  // Rebalance mekanism recipes to be easier (woah how nice of me)
-  event.remove({
-    id: "mekanism:chemical_injection_chamber"
-  });
-  event.shaped("mekanism:chemical_injection_chamber", ["cac", "gpg", "cac"], {
-    c: "mekanism:advanced_control_circuit",
-    a: "mekanism:alloy_reinforced",
-    g: "minecraft:gold_ingot",
-    p: "mekanism:purification_chamber"
-  });
-  event.remove({
-    id: "mekanism:chemical_crystallizer"
-  });
-  event.shaped("mekanism:chemical_crystallizer", ["ofo", "csc", "ofo"], {
-    "f": "#c:gems/fluorite",
-    "c": "mekanism:advanced_control_circuit",
-    "o": {
-      "tag": "c:ingots/refined_obsidian"
-    },
-    "s": "mekanism:steel_casing"
-  });
-  event.remove({
-    id: "mekanism:chemical_dissolution_chamber"
-  });
-  event.shaped("mekanism:chemical_dissolution_chamber", ["ctc", "asa", "ctc"], {
-    c: "mekanism:advanced_control_circuit",
-    a: "#c:ingots/refined_obsidian",
-    t: "mekanism:basic_chemical_tank",
-    s: "mekanism:steel_casing"
-  });
-  // AE2 Infinity Booster
-  event.remove({
-    id: "aeinfinitybooster:infinity_card"
-  });
-  event.shaped("aeinfinitybooster:infinity_card", ["ece", "csc", "nnn"], {
-    e: "minecraft:ender_eye",
-    c: "#" + Tags.CIRCUIT_INTERMEDIATE,
-    s: "minecraft:nether_star",
-    n: "minecraft:netherite_ingot"
-  });
-  event.remove({
-    id: "aeinfinitybooster:dimension_card"
-  });
-  event.shaped("aeinfinitybooster:dimension_card", ["isi", "scs", "isi"], {
-    c: "#" + Tags.CIRCUIT_ADVANCED,
-    s: "minecraft:nether_star",
-    i: "aeinfinitybooster:infinity_card"
-  });
   //====Edible Processor====\\
   // Wafer recipe
   new MultistepProcess().addStep(new CreateMixingStep("Cream Butter and Sugar", {
@@ -738,105 +406,7 @@ ServerEvents.recipes(event => {
   });
   // Processors
   registerAE2InscriberRecipe(event, Item.EDIBLE_PROCESSOR.getIdentifier(), [Item.EDIBLE_PROCESSOR_CHIP.getIdentifier(), "create:bar_of_chocolate", "create:bar_of_chocolate"], true);
-  // Baking Soda
-  event.custom({
-    type: "minecraft:smoking",
-    cookingtime: 100,
-    experience: 1.0,
-    ingredient: {
-      item: "minecraft:dried_kelp"
-    },
-    result: Item.KELP_ASH.getIdentifier()
-  });
-  event.custom({
-    "type": "create:splashing",
-    "ingredients": [{
-      "item": Item.KELP_ASH.getIdentifier()
-    }],
-    "results": [{
-      "item": Item.SODIUM_BICARBONATE.getIdentifier()
-    }]
-  });
-  //====Computation Core====\\
-  event.recipes.create.mechanical_crafting(Item.COMPUTATION_CORE.getIdentifier(), [
-    //spell-checker: disable
-    "ussse", "svvvs", "svnvs", "svvvs", "esssu"], {
-    //spell-checker: enable
-    s: "ae2:cell_component_4k",
-    v: Item.INTEGRATED_CIRCUIT.getIdentifier(),
-    u: Item.ISOTOPIC_DECAY_OSCILLATOR.getIdentifier(),
-    e: Item.EDIBLE_PROCESSOR.getIdentifier(),
-    n: Item.COMPUTATION_CORE_FRAME.getIdentifier()
-  });
-  event.shaped(Item.COMPUTATION_CORE_FRAME.getIdentifier(), ["nnn", "n n", "nnn"], {
-    n: "sgjourney:naquadah_alloy"
-  });
 
-  //====RAM Stick====\\
-  // new MultistepProcess()
-  //     // Oxide layer
-  //     .addStep(new MekanismCombiningStep("Combine Wafer with Phantom Membrane", {inputItem: Item.SILICON_WAFER.getIdentifier(), extraItem: "minecraft:phantom_membrane"}))
-  //     .addStep(new MekanismInjectingStep("Inject Water Vapor",{"amount": 10,"tag": "mekanism:water_vapor"}))
-  //     .addStep(new MekanismInjectingStep("Apply Photoresist",{"amount": 5,"gas": "mekanism:photoresist"}))
-  //     .addStep(new Ae2InscribingStep("Expose Photoresist", {top: Item.RAM_PHOTOMASK.getIdentifier()}))
-  //     .addStep(new MekanismInjectingStep("Etch Wafer", {"amount": 2,"gas": "mekanism:hydrofluoric_acid"}))
-  //     //nWell
-  //     .addStep(new MekanismInjectingStep("Apply Photoresist",{"amount": 5,"gas": "mekanism:photoresist"}))
-  //     .addStep(new Ae2InscribingStep("Expose Photoresist", {top: Item.RAM_PHOTOMASK.getIdentifier()}))
-  //     .addStep(new MekanismInjectingStep("Inject Phosphorus",{"amount": 2,"gas": "mekanism:phosphorus"}))
-  //     //nMOS
-  //     .addStep(new MekanismInjectingStep("Apply Photoresist",{"amount": 5,"gas": "mekanism:photoresist"}))
-  //     .addStep(new Ae2InscribingStep("Expose Photoresist", {top: Item.RAM_PHOTOMASK.getIdentifier()}))
-  //     .addStep(new MekanismInjectingStep("Etch Wafer", {"amount": 2,"gas": "mekanism:hydrofluoric_acid"}))
-  //     //grow oxide (idk a good way to represent this step so ima leave it out)
-  //     // polysilicon
-  //     .addStep(new MekanismInjectingStep("Inject Silicon",{"amount": 5,"gas": "mekanism:silicon"}))
-  //     .addStep(new MekanismInjectingStep("Apply Photoresist",{"amount": 5,"gas": "mekanism:photoresist"}))
-  //     .addStep(new Ae2InscribingStep("Expose Photoresist", {top: Item.RAM_PHOTOMASK.getIdentifier()}))
-  //     .addStep(new MekanismInjectingStep("Etch Wafer", {"amount": 2,"gas": "mekanism:hydrofluoric_acid"}))
-  //     // p-type implantation
-  //     .addStep(new MekanismInjectingStep("Apply Photoresist",{"amount": 5,"gas": "mekanism:photoresist"}))
-  //     .addStep(new Ae2InscribingStep("Expose Photoresist", {top: Item.RAM_PHOTOMASK.getIdentifier()}))
-  //     .addStep(new MekanismInjectingStep("Inject Boron",{"amount": 2,"gas": "mekanism:boron_trifluoride"}))
-  //     // n-type implantation
-  //     .addStep(new MekanismInjectingStep("Apply Photoresist",{"amount": 5,"gas": "mekanism:photoresist"}))
-  //     .addStep(new Ae2InscribingStep("Expose Photoresist", {top: Item.RAM_PHOTOMASK.getIdentifier()}))
-  //     .addStep(new MekanismInjectingStep("Inject Phosphorus",{"amount": 2,"gas": "mekanism:phosphorus"},MultistepProcess.INTERMEDIATE_ITEM,Item.RAM_MODULE_WAFER.getIdentifier()))
-
-  //     .usingItem(Item.INCOMPLETE_RAM_MODULE_WAFER.getIdentifier())
-  //     .register(event)
-  //     event.custom({
-  //         "type": "mekanism:sawing",
-  //         "input": {
-  //           "ingredient": {
-  //             "item": Item.RAM_MODULE_WAFER.getIdentifier()
-  //           }
-  //         },
-  //         "mainOutput": {
-  //           "count": 6,
-  //           "item": Item.RAM_MODULE_CHIP.getIdentifier()
-  //         }
-  //       })
-  //     registerAE2InscriberRecipe(event, Item.RAM_MODULE.getIdentifier(), [Item.RAM_MODULE_CHIP.getIdentifier(), Item.PURE_QUARTZ_GLASS.getIdentifier(), Item.ADVANCED_PCB_SUBSTRATE.getIdentifier()])
-  //     registerMetallurgicInfusing(event, {amount:40, tag: "mekanism:gold"}, Item.ADVANCED_PCB_SUBSTRATE.getIdentifier(), Item.RAM_PCB.getIdentifier())
-  //     event.custom({
-  //       "type": "mekanism:combining",
-  //       "extraInput": {
-  //         "amount": 8,
-  //         "ingredient": {
-  //           "item": Item.RAM_MODULE.getIdentifier()
-  //         }
-  //       },
-  //       "mainInput": {
-  //         "ingredient": {
-  //           "item": Item.RAM_PCB.getIdentifier()
-  //         }
-  //       },
-  //       "output": {
-  //         "count": 1,
-  //         "item": Item.RAM_STICK.getIdentifier()
-  //       }
-  //     })
   //====Radioactive thingy====\\
   event.custom({
     "type": "mekanism:sawing",
@@ -931,34 +501,7 @@ ServerEvents.recipes(event => {
     }
   });
   registerAE2InscriberRecipe(event, Item.ISOTOPIC_DECAY_OSCILLATOR.getIdentifier(), [Item.ISOTOPIC_DECAY_OSCILLATOR_CHIP.getIdentifier(), "mekanism:block_lead", Item.ADVANCED_PCB_SUBSTRATE.getIdentifier()], true);
-  // Mob Grinding Utils
-  event.remove([{
-    id: "mob_grinding_utils:recipe_saw"
-  }, {
-    id: "mob_grinding_utils:recipe_absorbtion_hopper"
-  }]);
-  event.shaped("mob_grinding_utils:saw", ["sds", "pcp", "dcd"], {
-    s: "minecraft:iron_sword",
-    d: "minecraft:diamond",
-    c: "#" + Tags.CIRCUIT_INTERMEDIATE,
-    p: "mob_grinding_utils:spikes"
-  });
-  event.shaped("mob_grinding_utils:absorption_hopper", [" e ", "ioi", "oho"], {
-    e: "minecraft:ender_eye",
-    i: "#" + Tags.CIRCUIT_INTERMEDIATE,
-    o: "minecraft:obsidian",
-    h: "minecraft:hopper"
-  });
   // BoP
-  event.custom({
-    "type": "create:sandpaper_polishing",
-    "ingredients": [{
-      "item": "biomesoplenty:rose_quartz_chunk"
-    }],
-    "results": [{
-      "item": "create:polished_rose_quartz"
-    }]
-  });
   event.recipes.create.mixing([KItem.of("biomesoplenty:white_sand", 8)], [Ingredient.of("minecraft:sand", 8), Ingredient.of("#balm:white_dyes", 1)]);
   event.recipes.create.mixing([KItem.of("biomesoplenty:black_sand", 8)], [Ingredient.of("minecraft:sand", 8), Ingredient.of("#balm:black_dyes", 1)]);
   event.recipes.create.mixing([KItem.of("biomesoplenty:orange_sand", 8)], [Ingredient.of("minecraft:sand", 8), Ingredient.of("#balm:orange_dyes", 1)]);
@@ -996,11 +539,6 @@ ServerEvents.recipes(event => {
     b: Ingredient.of(["minecraft:cornflower", "biomesoplenty:blue_hydrangea", "biomesoplenty:icy_iris", "minecraft:blue_orchid"]),
     p: Ingredient.of(["biomesoplenty:lavender", "biomesoplenty:tall_lavender", "biomesoplenty:violet", "biomesoplenty:wildflower", "minecraft:lilac", "minecraft:allium"])
   });
-  // Electrum
-  event.recipes.create.mixing({
-    item: "createaddition:electrum_ingot",
-    count: 3
-  }, ["minecraft:copper_ingot", "minecraft:gold_ingot", "minecraft:iron_ingot"]).heated();
   // DHDs
   event.custom({
     type: "minecraft:smithing_transform",

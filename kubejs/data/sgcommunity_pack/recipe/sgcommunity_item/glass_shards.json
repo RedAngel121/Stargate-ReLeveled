@@ -1,0 +1,14 @@
+{
+    "type": "create:pressing",
+    "ingredients": [
+        {
+            "tag": "c:glass_blocks"
+        }
+    ],
+    "results": [
+        {
+            "count": 4,
+            "id": "quark:dirty_shard"
+        }
+    ]
+}

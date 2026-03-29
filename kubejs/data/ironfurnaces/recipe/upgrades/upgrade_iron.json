@@ -17,6 +17,6 @@
     }
   },
   "result": {
-    "item": "ironfurnaces:upgrade_iron"
+    "id": "ironfurnaces:upgrade_iron"
   }
 }

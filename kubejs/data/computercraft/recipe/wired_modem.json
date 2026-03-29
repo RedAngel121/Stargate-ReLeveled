@@ -15,7 +15,7 @@
     "###"
   ],
   "result": {
-    "item": "computercraft:wired_modem"
+    "id": "computercraft:wired_modem"
   },
   "show_notification": true
 }

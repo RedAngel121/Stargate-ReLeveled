@@ -1,0 +1,14 @@
+{
+  "type": "createaddition:rolling",
+  "ingredients": [
+    {
+      "tag": "c:wires/iron"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "id": "sgcommunity_pack:iron_spool"
+    }
+  ]
+}

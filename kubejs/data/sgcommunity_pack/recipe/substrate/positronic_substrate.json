@@ -1,0 +1,16 @@
+{
+    "type": "mekanism:injecting",
+    "chemical_input": {
+        "amount": 25,
+        "tag": "mekanism:antimatter"
+    },
+    "item_input": {
+        "count": 1,
+        "item": "sgcommunity_pack:naquadria_substrate"
+    },
+    "output": {
+        "count": 1,
+        "id": "sgcommunity_pack:positronic_substrate"
+    },
+    "per_tick_usage": false
+}

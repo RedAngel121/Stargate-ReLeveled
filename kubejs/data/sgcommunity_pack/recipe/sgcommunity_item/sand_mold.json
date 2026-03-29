@@ -1,0 +1,14 @@
+{
+    "type": "create:pressing",
+    "ingredients": [
+        {
+            "tag": "c:sands"
+        }
+    ],
+    "results": [
+        {
+            "count": 1,
+            "id": "sgcommunity_pack:sand_mold"
+        }
+    ]
+}

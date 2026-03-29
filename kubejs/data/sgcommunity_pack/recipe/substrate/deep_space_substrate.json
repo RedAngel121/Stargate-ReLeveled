@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "pcp",
+        "csc",
+        "pcp"
+    ],
+    "key": {
+        "p": {
+            "tag": "c:pellets/plutonium"
+        },
+        "c": {
+            "item": "stellaris:corronium_ingot"
+        },
+        "s": {
+            "item": "sgcommunity_pack:reactive_substrate"
+        }
+    },
+    "result": {
+        "id": "sgcommunity_pack:deep_space_substrate"
+    }
+}

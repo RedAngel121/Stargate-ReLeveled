@@ -1,0 +1,11 @@
+{
+    "type": "mekanism:sawing",
+    "input": {
+        "count": 1,
+        "item": "sgcommunity_pack:silicon_boule"
+    },
+    "main_output": {
+        "count": 5,
+        "id": "sgcommunity_pack:silicon_wafer"
+    }
+}

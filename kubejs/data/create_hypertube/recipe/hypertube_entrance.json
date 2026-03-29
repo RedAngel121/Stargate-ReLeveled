@@ -24,7 +24,7 @@
     " G "
   ],
   "result": {
-    "item": "create_hypertube:hypertube_entrance"
+    "id": "create_hypertube:hypertube_entrance"
   },
   "show_notification": true
 }

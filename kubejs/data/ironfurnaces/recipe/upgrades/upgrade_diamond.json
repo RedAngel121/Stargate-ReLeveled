@@ -20,6 +20,6 @@
     }
   },
   "result": {
-    "item": "ironfurnaces:upgrade_diamond"
+    "id": "ironfurnaces:upgrade_diamond"
   }
 }

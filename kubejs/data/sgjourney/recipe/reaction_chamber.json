@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"ANA",
+		"RHR",
+		"ANA"
+	],
+	"key": {
+		"A": {
+			"tag": "sgcommunity_pack:circuit_intermediate"
+		},
+		"N": {
+			"tag": "sgjourney:refined_naquadah"
+		},
+		"R": {
+			"item": "minecraft:redstone"
+		},
+		"H": {
+			"tag": "sgjourney:reaction_heater"
+		}
+	},
+	"result": {
+		"id": "sgjourney:reaction_chamber",
+		"count": 1
+	}
+}

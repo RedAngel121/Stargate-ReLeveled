@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:blasting",
+    "category": "misc",
+    "cookingtime": 100,
+    "ingredient": {
+        "item": "sgcommunity_pack:impure_quartz_glass"
+    },
+    "result": {
+        "id": "sgcommunity_pack:pure_quartz_glass"
+    }
+}

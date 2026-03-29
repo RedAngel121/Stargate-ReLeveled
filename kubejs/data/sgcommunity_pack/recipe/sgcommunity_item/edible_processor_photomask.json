@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "K",
+        "Q"
+    ],
+    "key": {
+        "K": {
+            "tag": "ae2:knife"
+        },
+        "Q": {
+            "item": "sgcommunity_pack:pure_quartz_glass"
+        }
+    },
+    "result": {
+        "id": "sgcommunity_pack:edible_processor_photomask"
+    }
+}

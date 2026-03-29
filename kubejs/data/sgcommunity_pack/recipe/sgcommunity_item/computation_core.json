@@ -1,0 +1,34 @@
+{
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+    "category": "misc",
+    "key": {
+        "s": {
+            "item": "ae2:cell_component_4k"
+        },
+        "v": {
+            "item": "sgcommunity_pack:integrated_circuit"
+        },
+        "u": {
+            "item": "sgcommunity_pack:isotopic_decay_oscillator"
+        },
+        "e": {
+            "item": "sgcommunity_pack:edible_processor"
+        },
+        "n": {
+            "item": "sgcommunity_pack:computation_core_frame"
+        }
+    },
+    "pattern": [
+        "ussse",
+        "svvvs",
+        "svnvs",
+        "svvvs",
+        "esssu"
+    ],
+    "result": {
+        "count": 1,
+        "id": "sgcommunity_pack:computation_core"
+    },
+    "show_notification": false
+}

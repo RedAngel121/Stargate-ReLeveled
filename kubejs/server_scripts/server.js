@@ -1,12 +1,14 @@
 // priority: 1
+
 // Remove Computer Scientist Trades
-MoreJSEvents.villagerTrades(event => {
+MoreJS.villagerTrades(event => {
   event.forEachTrades("advancedperipherals:computer_scientist", [1, 5], listings => {
     listings.removeIf(() => true);
   });
 });
+
 let VillagerTrade = Java.loadClass("de.srendi.advancedperipherals.common.village.VillagerTrade");
-MoreJSEvents.wandererTrades(event => {
+MoreJS.wandererTrades(event => {
   // Nuke Advanced Peripherals trades
   event.getTrades(1).removeIf(trade => trade.getClass() == VillagerTrade);
   event.getTrades(2).removeIf(trade => trade.getClass() == VillagerTrade);
@@ -17,8 +19,12 @@ MoreJSEvents.wandererTrades(event => {
     outputItem: Ingredient.of("minecraft:beacon")
   });
 });
+
+
+
+// ---= EVERYTHING BELOW THIS NEEDS TO BE EVALUATED =---
 let floralCompostItems = ['minecraft:wither_rose', 'minecraft:orange_tulip', 'minecraft:rose_bush', 'biomesoplenty:wilted_lily', 'minecraft:cornflower', 'biomesoplenty:jacaranda_leaves', 'minecraft:flowering_azalea_leaves', 'biomesoplenty:pink_hibiscus', 'biomesoplenty:rose', 'biomesoplenty:flowering_oak_leaves', 'biomesoplenty:goldenrod', 'minecraft:blue_orchid', 'minecraft:white_tulip', 'minecraft:cherry_leaves', 'minecraft:lily_of_the_valley', 'biomesoplenty:icy_iris', 'biomesoplenty:snowblossom_leaves', 'minecraft:pitcher_plant', 'minecraft:allium', 'biomesoplenty:blue_hydrangea', 'biomesoplenty:orange_cosmos', 'biomesoplenty:burning_blossom', 'biomesoplenty:tall_lavender', 'minecraft:flowering_azalea', 'minecraft:pink_petals', 'minecraft:azure_bluet', 'minecraft:poppy', 'minecraft:torchflower', 'biomesoplenty:pink_daffodil', 'biomesoplenty:lavender', 'minecraft:mangrove_propagule', 'minecraft:red_tulip', 'biomesoplenty:violet', 'biomesoplenty:glowflower', 'minecraft:peony', 'minecraft:sunflower', 'biomesoplenty:white_petals', 'biomesoplenty:wildflower', 'minecraft:dandelion', 'minecraft:pink_tulip', 'minecraft:oxeye_daisy', 'minecraft:lilac'];
-let mulchItems = Ingredient.of("minecraft:saplings").getItemIds();
+let mulchItems = Ingredient.of("#minecraft:saplings").getItemIds();
 let coralCompostItems = Ingredient.of("#minecraft:flowers").getItemIds();
 let organicCompostItems = Ingredient.of("#c:crops").getItemIds();
 ServerEvents.recipes(event => {

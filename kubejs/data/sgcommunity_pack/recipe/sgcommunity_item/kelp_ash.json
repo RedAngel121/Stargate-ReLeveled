@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "minecraft:dried_kelp"
+  },
+  "result": {
+    "id": "sgcommunity_pack:kelp_ash"
+  }
+}

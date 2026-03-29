@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "QK"
+    ],
+    "key": {
+        "K": {
+            "tag": "ae2:knife"
+        },
+        "Q": {
+            "item": "sgcommunity_pack:pure_quartz_glass"
+        }
+    },
+    "result": {
+        "id": "sgcommunity_pack:integrated_circuit_photomask"
+    }
+}

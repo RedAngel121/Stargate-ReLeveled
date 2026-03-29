@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "pcp",
+        "csc",
+        "pcp"
+    ],
+    "key": {
+        "c": {
+            "tag": "sgcommunity_pack:circuit_advanced"
+        },
+        "n": {
+            "item": "sgjourney:naquadah_block"
+        },
+        "s": {
+            "item": "sgcommunity_pack:deep_space_substrate"
+        }
+    },
+    "result": {
+        "id": "sgcommunity_pack:inactive_naquadria_substrate"
+    }
+}

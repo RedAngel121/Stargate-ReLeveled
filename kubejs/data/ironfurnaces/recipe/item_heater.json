@@ -17,6 +17,6 @@
     }
   },
   "result": {
-    "item": "ironfurnaces:item_heater"
+    "id": "ironfurnaces:item_heater"
   }
 }

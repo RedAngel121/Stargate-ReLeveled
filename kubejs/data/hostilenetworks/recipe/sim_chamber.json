@@ -23,6 +23,6 @@
     }
   },
   "result": {
-    "item": "hostilenetworks:sim_chamber"
+    "id": "hostilenetworks:sim_chamber"
   }
 }

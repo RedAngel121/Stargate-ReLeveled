@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "sgcommunity_pack:kelp_ash"
+    }
+  ],
+  "results": [
+    {
+      "id": "sgcommunity_pack:sodium_bicarbonate"
+    }
+  ]
+}

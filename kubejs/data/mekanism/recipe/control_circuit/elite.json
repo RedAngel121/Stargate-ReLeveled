@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "A": {
+            "tag": "mekanism:alloys/reinforced"
+        },
+        "C": {
+            "item": "sgcommunity_pack:computation_core"
+        }
+    },
+    "pattern": [
+        "ACA"
+    ],
+    "result": {
+        "count": 1,
+        "id": "mekanism:elite_control_circuit"
+    }
+}

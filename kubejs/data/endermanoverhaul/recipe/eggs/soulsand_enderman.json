@@ -17,7 +17,7 @@
     }
   },
   "result": {
-    "item": "endermanoverhaul:soulsand_valley_enderman_spawn_egg",
+    "id": "endermanoverhaul:soulsand_valley_enderman_spawn_egg",
     "count": 1
   },
   "group": "enderman_eggs"

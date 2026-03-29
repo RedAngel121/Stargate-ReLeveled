@@ -1,25 +1,25 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "NEN",
-    "DAD",
-    "NEN"
-  ],
-  "key": {
-    "A": {
-      "item": "sgjourney:advanced_energy_crystal"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "NEN",
+        "DAD",
+        "NEN"
+    ],
+    "key": {
+        "A": {
+            "tag": "sgjourney:advanced_crystal"
+        },
+        "E": {
+            "tag": "c:storage_blocks/emerald"
+        },
+        "N": {
+            "tag": "c:ingots/naquadah"
+        },
+        "D": {
+            "item": "ae2:dense_energy_cell"
+        }
     },
-    "E": {
-      "item": "minecraft:emerald_block"
-    },
-    "N": {
-      "item": "sgjourney:naquadah"
-    },
-    "D": {
-      "item": "ae2:dense_energy_cell"
+    "result": {
+        "id": "sgjourney:personal_shield_emitter"
     }
-  },
-  "result": {
-    "item": "sgjourney:personal_shield_emitter"
-  }
 }

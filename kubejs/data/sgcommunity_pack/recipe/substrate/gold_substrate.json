@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ggg",
+        "GgG",
+        "ggg"
+    ],
+    "key": {
+        "g": {
+            "tag": "c:ingots/gold"
+        },
+        "G": {
+            "tag": "c:storage_blocks/gold"
+        }
+    },
+    "result": {
+        "id": "sgcommunity_pack:gold_substrate"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SSS",
+        "CCC",
+        "RRR"
+    ],
+    "key": {
+        "S": {
+            "tag": "c:storage_blocks/steel"
+        },
+        "C": {
+            "tag": "sgcommunity_pack:circuit_intermediate"
+        },
+        "R": {
+            "tag": "c:rods/iron"
+        }
+    },
+    "result": {
+        "id": "sgcommunity_pack:rocket_control_unit"
+    }
+}

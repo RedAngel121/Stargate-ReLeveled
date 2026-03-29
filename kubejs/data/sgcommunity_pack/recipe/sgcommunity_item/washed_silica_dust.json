@@ -1,0 +1,35 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "tag": "quark:shards"
+    },
+    "loops": 4,
+    "results": [
+        {
+            "id": "sgcommunity_pack:washed_silica_dust"
+        }
+    ],
+    "sequence": [
+        {
+            "type": "create:filling",
+            "ingredients": [
+                {
+                    "item": "sgcommunity_pack:incomplete_washed_silica_dust"
+                },
+                {
+                    "type": "neoforge:single",
+                    "amount": 1000,
+                    "fluid": "minecraft:water"
+                }
+            ],
+            "results": [
+                {
+                    "id": "sgcommunity_pack:incomplete_washed_silica_dust"
+                }
+            ]
+        }
+    ],
+    "transitional_item": {
+        "id": "sgcommunity_pack:incomplete_washed_silica_dust"
+    }
+}

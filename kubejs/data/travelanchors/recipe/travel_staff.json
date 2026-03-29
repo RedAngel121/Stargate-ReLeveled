@@ -15,7 +15,7 @@
     "i  "
   ],
   "result": {
-    "item": "travelanchors:travel_staff"
+    "id": "travelanchors:travel_staff"
   },
   "show_notification": true
 }

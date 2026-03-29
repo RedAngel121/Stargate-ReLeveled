@@ -1,0 +1,37 @@
+{
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+    "category": "misc",
+    "key": {
+        "p": {
+            "item": "minecraft:paper"
+        },
+        "v": {
+            "tag": "sgcommunity_pack:circuit_basic"
+        },
+        "s": {
+            "tag": "c:stones"
+        },
+        "d": {
+            "item": "create:mechanical_drill"
+        },
+        "c": {
+            "item": "create:large_cogwheel"
+        },
+        "n": {
+            "item": "sgcommunity_pack:netherite_substrate"
+        }
+    },
+    "pattern": [
+        "ppppp",
+        "svvvs",
+        "scncs",
+        "sdvds",
+        "sppps"
+    ],
+    "result": {
+        "count": 1,
+        "id": "sgcommunity_pack:kinetic_substrate"
+    },
+    "show_notification": false
+}

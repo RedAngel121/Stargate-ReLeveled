@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:blasting",
+    "category": "misc",
+    "cookingtime": 100,
+    "ingredient": {
+        "item": "sgcommunity_pack:phosphorite"
+    },
+    "result": {
+        "count": 7,
+        "id": "sgcommunity_pack:phosphorus"
+    }
+}

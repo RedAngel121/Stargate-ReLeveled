@@ -1,0 +1,16 @@
+{
+    "type": "mekanism:metallurgic_infusing",
+    "chemical_input": {
+        "amount": 20,
+        "tag": "mekanism:refined_obsidian"
+    },
+    "item_input": {
+        "count": 1,
+        "item": "sgcommunity_pack:computational_substrate"
+    },
+    "output": {
+        "count": 1,
+        "id": "sgcommunity_pack:mekanised_substrate"
+    },
+    "per_tick_usage": false
+}

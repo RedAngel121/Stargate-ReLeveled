@@ -20,7 +20,7 @@
     }
   },
   "result": {
-    "item": "ironfurnaces:upgrade_iron2"
+    "id": "ironfurnaces:upgrade_iron2"
   },
   "conditions": [
     {

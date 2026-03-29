@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "dbd",
+        "GdG",
+        "dbd"
+    ],
+    "key": {
+        "d": {
+            "tag": "c:gems/diamond"
+        },
+        "b": {
+            "item": "minecraft:iron_bars"
+        },
+        "G": {
+            "tag": "c:storage_blocks/gold"
+        }
+    },
+    "result": {
+        "id": "sgcommunity_pack:diamond_substrate"
+    }
+}

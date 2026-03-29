@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "minecraft:stone"
+    },
+    "G": {
+      "tag": "c:glass_panes"
+    },
+    "R": {
+      "tag": "sgcommunity_pack:circuit_intermediate"
+    }
+  },
+  "pattern": [
+    "###",
+    "#R#",
+    "#G#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "computercraft:computer_normal"
+  }
+}
