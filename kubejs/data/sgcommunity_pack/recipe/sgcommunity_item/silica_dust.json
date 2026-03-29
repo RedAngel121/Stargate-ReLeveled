@@ -2,12 +2,11 @@
     "type": "create:pressing",
     "ingredients": [
         {
-            "tag": "quark:glass_shards"
+            "tag": "quark:shards"
         }
     ],
     "results": [
         {
-            "count": 4,
             "id": "sgcommunity_pack:silica_dust"
         }
     ]

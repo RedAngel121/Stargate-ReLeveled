@@ -1642,7 +1642,7 @@ hash = "de59594ea7096a4434aca2ca43ad443d5bb8c395414432fe562ac272561b19e3"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/silica_dust.json"
-hash = "ca8b7ab3b2256c5512bc2f9073633d7b53ccb38799fb0afe16378c980d0ae4ad"
+hash = "4da807f58c33044c7507a19fe93f7c650955f8eedabb6a933be15c9ac24df1f9"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/silicon_wafer.json"
@@ -1658,7 +1658,7 @@ hash = "7055c935c6126554be9535b55aae56d01c54e758a9b808005857c0ab9b7ec012"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/washed_silica_dust.json"
-hash = "8af249c9cbe4f4f965055acfe40f31d9d82eeaacc465193a9299e6a9e2d4d06d"
+hash = "0220ef8765b6ae3d79857756a12dc20dfbc4b7cd8bb9837183eed4aca97f28d6"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/substrate/computational_substrate.json"
