@@ -1654,7 +1654,7 @@ hash = "e4765d647fc67d59a0c2b22682c4df910750c74d96725f722b02ad334c9acc8b"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/vacuum_tube.json"
-hash = "78bcd821aec46791b63a8b1b918aef6abae22ce3bdc0dcdb715be7f8b6205602"
+hash = "7055c935c6126554be9535b55aae56d01c54e758a9b808005857c0ab9b7ec012"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/washed_silica_dust.json"
