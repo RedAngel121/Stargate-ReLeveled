@@ -1138,19 +1138,7 @@ hash = "fbd9f04fdc15a4f1fbdada8132d8bd3fba47f95bf5e6153a06368e7511b6b7b8"
 
 [[files]]
 file = "kubejs/data/computercraft/recipe/wired_modem.json"
-hash = "26023b9cdaf361bf76d9079dc2c3d077beeca4d7151be22456307cc5fdb7e13e"
-
-[[files]]
-file = "kubejs/data/create/recipe/crushing/obsidian.json"
-hash = "d9628ecd09acfa69294a85340d0dc2482f4404f8a69c5b8e1e5b6ca623950af2"
-
-[[files]]
-file = "kubejs/data/create/recipe/crushing/rose_quartz_block.json"
-hash = "65a4adb93e73bf65a3257debdcac48cd0596e72bd5bca1c68ca68f7106932916"
-
-[[files]]
-file = "kubejs/data/create/recipe/sequenced_assembly/sturdy_sheet.json"
-hash = "b8f688d306d95cd2ec4a65612fa07078a83c2672e1d4107fc2d32888ddee2b4d"
+hash = "c25e4e732eb432df338ab8e5b8db1fc346bcab16ef0944f947d1b8d01ca048f5"
 
 [[files]]
 file = "kubejs/data/create_hypertube/recipe/hypertube_entrance.json"
@@ -1227,10 +1215,6 @@ hash = "118d4304ac881a81acda9bc27211a82faefe23d9972c3ce6a07cf3876a03ce83"
 [[files]]
 file = "kubejs/data/endermanoverhaul/recipe/eggs/windswept_enderman.json"
 hash = "33d111b2bd631547543ca95fb96fde704991893956bb5879d16aaadca13ace2d"
-
-[[files]]
-file = "kubejs/data/endlessbiomes/recipe/riftite_shard_recipe.json"
-hash = "f91539d95414ac4f0ff249e77e82293c46896fae85537e29e60625b561a094b4"
 
 [[files]]
 file = "kubejs/data/explorerscompass/recipe/explorers_compass.json"
@@ -1581,8 +1565,20 @@ file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/glass_shards.json"
 hash = "cc976bd2efd08c720bc1ac93399bf8e4474e639e8c15022af28e44f2f39598a7"
 
 [[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/glass_tube.json"
+hash = "e9b1e9b57f29029b2c67d624e9ecb7006074add94df888d0dcc7f5ec7e166a8a"
+
+[[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/impure_quartz_glass.json"
 hash = "84aad40e705c589548c4611758de3f3eca55c0a1dd07a6cdcbfb6f8b2ee33892"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/integrated_circuit.json"
+hash = "0ee905a5ecedfa704f639e01cb9cc691cde3a16efbd248726aa3a4057d74aefd"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/integrated_circuit_chip.json"
+hash = "b01dffbe8bdf01f13cfc1d8919da138b33b4e8e153bfd4befb65c2b6623cff40"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/integrated_circuit_photomask.json"
@@ -1609,8 +1605,20 @@ file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/kelp_ash.json"
 hash = "9312c0b38ed15920daead4fdfacefa93a1002e05f4971cf7bf30177c67343cd7"
 
 [[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/molten_glass.json"
+hash = "9ecb916720a17cd95542f1f0282a42f89adbc0909e7cc2739b08664651516559"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/molten_glass_bucket_from_blasting.json"
+hash = "72267378f75e0e9be1dad1a65d86248718960ed5e8887b042e629924012a029b"
+
+[[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/phosphorus.json"
 hash = "2dd8030273738ee752dfe8dc21762823343e93998fe9e99dc9d7c871ad8fae0a"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/phosphorus_injecting.json"
+hash = "e3d21827b172d33e5f1734e2e0967b713773a1b6a8352f0c729ac844e7fb0d1a"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/pure_quartz_glass.json"
@@ -1630,7 +1638,7 @@ hash = "118cc247336669a2454fa4e31dc0f94584854413a0d461e277d33c43b0452a98"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/silica_bucket.json"
-hash = "4306a3afd56ba094b6bc12ad7bb1e7e51a92523e9925e020c4c3bcc69bff737b"
+hash = "de59594ea7096a4434aca2ca43ad443d5bb8c395414432fe562ac272561b19e3"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/silica_dust.json"
@@ -2102,7 +2110,7 @@ hash = "4ba32d7d4977bc5a49062cbd39fbc312e1de9187ed0ea2dfb3b9c12630c7852f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "a53534af268fbf1ebd77de5a9db8f227eebada1718bd1b97b592fbef2fa6fd05"
+hash = "55dd124f982053492386b4945c2c1bb56d8564edd12184f4d3a2d090492a566f"
 
 [[files]]
 file = "kubejs/server_scripts/rftools.js"
@@ -2126,7 +2134,7 @@ hash = "8e34f4c597f0e4e7e386f7db173684db3d42cfd98fe192bb348e3ef00cf3c6de"
 
 [[files]]
 file = "kubejs/startup_scripts/startup.js"
-hash = "cd3b4d8c128ed4ca30b5c511c2bdb914d14c7db40045e8c336f4e24167b1d7ba"
+hash = "f23ff3a8774332092f18f6ece824c8c58f31b99ef442a60693e44fd259ba0c36"
 
 [[files]]
 file = "mods/advanced-peripherals.pw.toml"

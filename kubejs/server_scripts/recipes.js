@@ -1,21 +1,17 @@
 // priority 2
 ServerEvents.recipes(event => {
     // NOTES:
-    // Register Naquadria Chemical for the naq substrate recipe
-    // Register Molten Glass fluid
-    // Register Blaze Gas
-    // Register Doped Silicon Fluid
+    // Register Chemicals: naquadria, silicon, blaze_gas, doped_silicon, boron_trifluoride, boron_trioxide, phosphorus, photoresist, tree_sap
     // Update the texture for Iron Spool to mimic the Copper Spool to use in the Vac Tube recipe
     // Add the other bars of chocolate from confectionary to the `c:foods/chocolate` tag
 
     // Silicon Wafers
     registerChemicalDissolutionRecipe(event, {
         "amount": 10000,
-        chemicalType: "gas",
-        "gas": "mekanism:silicon"
+        "chemical": "mekanism:silicon"
     }, {
         amount: 10,
-        "gas": "mekanism:blaze_gas"
+        "chemical": "mekanism:blaze_gas"
     }, {
         "amount": 10,
         ingredient: {
@@ -24,22 +20,21 @@ ServerEvents.recipes(event => {
     });
     registerChemicalInfusionRecipe(event, {
         "amount": 10000,
-        chemicalType: "gas",
-        "gas": "mekanism:doped_silicon"
+        "chemical": "mekanism:doped_silicon"
     }, {
         amount: 1,
-        "gas": "mekanism:boron_trifluoride"
+        "chemical": "mekanism:boron_trifluoride"
     }, {
         amount: 100,
-        "gas": "mekanism:silicon"
+        "chemical": "mekanism:silicon"
     });
     registerCrystallizing(event, Item.SILICON_BOULE.getIdentifier(), {
         "amount": 5000,
-        "gas": "mekanism:doped_silicon"
+        "chemical": "mekanism:doped_silicon"
     });
-    registerItemToGas(event, {
+    registerItemTochemical(event, {
         "amount": 100,
-        "gas": "mekanism:phosphorus"
+        "chemical": "mekanism:phosphorus"
     }, "c:phosphorus");
     event.custom({
         type: "mekanism:oxidizing",
@@ -50,20 +45,20 @@ ServerEvents.recipes(event => {
         },
         output: {
             amount: 200,
-            gas: "mekanism:phosphorus"
+            chemical: "mekanism:phosphorus"
         }
     });
-    registerItemToGas(event, {
+    registerItemTochemical(event, {
         "amount": 250,
-        "gas": "mekanism:blaze_gas"
+        "chemical": "mekanism:blaze_gas"
     }, "c:dusts/blaze");
-    registerItemToGas(event, {
+    registerItemTochemical(event, {
         "amount": 1000,
-        "gas": "mekanism:blaze_gas"
+        "chemical": "mekanism:blaze_gas"
     }, "c:rods/blaze");
-    registerItemToGas(event, {
+    registerItemTochemical(event, {
         "amount": 5000,
-        "gas": "mekanism:blaze_gas"
+        "chemical": "mekanism:blaze_gas"
     }, "c:eggs/blaze");
     // Mekanism
     event.remove({
@@ -75,11 +70,6 @@ ServerEvents.recipes(event => {
     event.remove({
         id: "mekanism:portable_teleporter"
     });
-    // Create Vacuum Tube
-    event.recipes.create.filling(MODID + ":liquid_glass_bucket", [Fluid.toBucket(MODID + ":liquid_glass"), "minecraft:bucket"]);
-    event.recipes.create.filling(Item.GLASS_TUBE.getIdentifier(), [Fluid.toBucket(MODID + ":liquid_glass"), Item.SAND_MOLD.getIdentifier()]);
-    event.recipes.create.mixing([Fluid.toAmount(MODID + ":liquid_glass", 800)], [Item.SILICA_DUST.getIdentifier()]).heated();
-    event.blasting(MODID + ":liquid_glass_bucket", Item.SILICA_DUST_BUCKET.getIdentifier());
     // Remove easy rocket engines
     event.remove("ad_astra:steel_engine");
     event.remove("ad_astra:desh_engine");
@@ -125,25 +115,25 @@ ServerEvents.recipes(event => {
         "amount": 20,
         "tag": "mekanism:water_vapor"
     }, MultistepProcess.INTERMEDIATE_ITEM, "minecraft:blue_ice")).usingItem("minecraft:ice").register(event);
-    // Gas upgrade sucks
+    // chemical upgrade sucks
     // - injecting
     // - dissolution
     // MOSFET (ngl, i give up on making accurate recipes)
     new MultistepProcess().addStep(new MekanismInjectingStep("Inject Silicon", {
         "amount": 5,
-        "gas": "mekanism:silicon"
+        "chemical": "mekanism:silicon"
     }, Item.SILICON_WAFER.getIdentifier())).addStep(new MekanismInjectingStep("Inject Water Vapor", {
         "amount": 10,
         "tag": "mekanism:water_vapor"
     })).addStep(new MekanismInjectingStep("Etch Wafer", {
         "amount": 2,
-        "gas": "mekanism:hydrofluoric_acid"
+        "chemical": "mekanism:hydrofluoric_acid"
     })).addStep(new MekanismInjectingStep("Inject Boron", {
         "amount": 2,
-        "gas": "mekanism:boron_trifluoride"
+        "chemical": "mekanism:boron_trifluoride"
     })).addStep(new MekanismInjectingStep("Inject Phosphorus", {
         "amount": 1,
-        "gas": "mekanism:phosphorus"
+        "chemical": "mekanism:phosphorus"
     }, MultistepProcess.INTERMEDIATE_ITEM, Item.MOSFET_WAFER.getIdentifier())).usingItem(Item.INCOMPLETE_MOSFET_WAFER.getIdentifier()).register(event);
     // Slicing
     event.custom({
@@ -183,88 +173,74 @@ ServerEvents.recipes(event => {
             "tag": "mekanism:water_vapor"
         }, Item.SILICON_WAFER.getIdentifier())).addStep(new MekanismInjectingStep("Apply Photoresist", {
             "amount": 2,
-            "gas": "mekanism:photoresist"
+            "chemical": "mekanism:photoresist"
         })).addStep(new Ae2InscribingStep("Expose Photoresist", {
             top: Item.IC_PHOTOMASK.getIdentifier()
         })).addStep(new MekanismInjectingStep("Etch Wafer", {
             "amount": 2,
-            "gas": "mekanism:hydrofluoric_acid"
+            "chemical": "mekanism:hydrofluoric_acid"
         }))
         //nWell
         .addStep(new MekanismInjectingStep("Apply Photoresist", {
             "amount": 2,
-            "gas": "mekanism:photoresist"
+            "chemical": "mekanism:photoresist"
         })).addStep(new Ae2InscribingStep("Expose Photoresist", {
             top: Item.IC_PHOTOMASK.getIdentifier()
         })).addStep(new MekanismInjectingStep("Inject Phosphorus", {
             "amount": 1,
-            "gas": "mekanism:phosphorus"
+            "chemical": "mekanism:phosphorus"
         }))
         //nMOS
         .addStep(new MekanismInjectingStep("Apply Photoresist", {
             "amount": 2,
-            "gas": "mekanism:photoresist"
+            "chemical": "mekanism:photoresist"
         })).addStep(new Ae2InscribingStep("Expose Photoresist", {
             top: Item.IC_PHOTOMASK.getIdentifier()
         })).addStep(new MekanismInjectingStep("Etch Wafer", {
             "amount": 2,
-            "gas": "mekanism:hydrofluoric_acid"
+            "chemical": "mekanism:hydrofluoric_acid"
         }))
         //grow oxide (idk a good way to represent this step so ima leave it out)
         // polysilicon
         .addStep(new MekanismInjectingStep("Inject Silicon", {
             "amount": 5,
-            "gas": "mekanism:silicon"
+            "chemical": "mekanism:silicon"
         })).addStep(new MekanismInjectingStep("Apply Photoresist", {
             "amount": 2,
-            "gas": "mekanism:photoresist"
+            "chemical": "mekanism:photoresist"
         })).addStep(new Ae2InscribingStep("Expose Photoresist", {
             top: Item.IC_PHOTOMASK.getIdentifier()
         })).addStep(new MekanismInjectingStep("Etch Wafer", {
             "amount": 2,
-            "gas": "mekanism:hydrofluoric_acid"
+            "chemical": "mekanism:hydrofluoric_acid"
         }))
         // p-type implantation
         .addStep(new MekanismInjectingStep("Apply Photoresist", {
             "amount": 2,
-            "gas": "mekanism:photoresist"
+            "chemical": "mekanism:photoresist"
         })).addStep(new Ae2InscribingStep("Expose Photoresist", {
             top: Item.IC_PHOTOMASK.getIdentifier()
         })).addStep(new MekanismInjectingStep("Inject Boron", {
             "amount": 2,
-            "gas": "mekanism:boron_trifluoride"
+            "chemical": "mekanism:boron_trifluoride"
         }))
         // n-type implantation
         .addStep(new MekanismInjectingStep("Apply Photoresist", {
             "amount": 2,
-            "gas": "mekanism:photoresist"
+            "chemical": "mekanism:photoresist"
         })).addStep(new Ae2InscribingStep("Expose Photoresist", {
             top: Item.IC_PHOTOMASK.getIdentifier()
         })).addStep(new MekanismInjectingStep("Inject Phosphorus", {
             "amount": 2,
-            "gas": "mekanism:phosphorus"
+            "chemical": "mekanism:phosphorus"
         }, MultistepProcess.INTERMEDIATE_ITEM, Item.INTEGRATED_CIRCUIT_WAFER.getIdentifier())).usingItem(Item.INCOMPLETE_IC.getIdentifier()).register(event);
-    registerAE2InscriberRecipe(event, Item.ADVANCED_PCB_SUBSTRATE.getIdentifier(), ["mekanism:hdpe_sheet", "minecraft:copper_ingot", "minecraft:copper_ingot"], true);
-    registerAE2InscriberRecipe(event, Item.INTEGRATED_CIRCUIT.getIdentifier(), [Item.INTEGRATED_CIRCUIT_CHIP.getIdentifier(), Item.PURE_QUARTZ_GLASS.getIdentifier(), Item.ADVANCED_PCB_SUBSTRATE.getIdentifier()], true);
-    // Slicing
-    event.custom({
-        "type": "mekanism:sawing",
-        "input": {
-            "ingredient": {
-                "item": Item.INTEGRATED_CIRCUIT_WAFER.getIdentifier()
-            }
-        },
-        "mainOutput": {
-            "count": 4,
-            "item": Item.INTEGRATED_CIRCUIT_CHIP.getIdentifier()
-        }
-    });
+
     // Boron stuff
     event.custom({
         type: "mekanism:dissolution",
-        gasInput: {
+        chemicalInput: {
             amount: 5,
-            gas: "mekanism:sulfuric_acid"
+            chemical: "mekanism:sulfuric_acid"
         },
         itemInput: {
             ingredient: {
@@ -273,23 +249,22 @@ ServerEvents.recipes(event => {
         },
         output: {
             amount: 5000,
-            chemicalType: "gas",
-            gas: "mekanism:boron_trioxide"
+            chemical: "mekanism:boron_trioxide"
         }
     });
     event.custom({
         type: "mekanism:chemical_infusing",
         leftInput: {
             amount: 6,
-            gas: "mekanism:hydrofluoric_acid"
+            chemical: "mekanism:hydrofluoric_acid"
         },
         output: {
             amount: 2,
-            gas: "mekanism:boron_trifluoride"
+            chemical: "mekanism:boron_trifluoride"
         },
         rightInput: {
             amount: 1,
-            gas: "mekanism:boron_trioxide"
+            chemical: "mekanism:boron_trioxide"
         }
     });
     // photoresist
@@ -302,7 +277,7 @@ ServerEvents.recipes(event => {
         },
         "output": {
             "amount": 1000,
-            "gas": "mekanism:tree_sap"
+            "chemical": "mekanism:tree_sap"
         }
     });
     event.custom({
@@ -314,17 +289,15 @@ ServerEvents.recipes(event => {
         },
         "output": {
             "amount": 1000,
-            "gas": "mekanism:tree_sap"
+            "chemical": "mekanism:tree_sap"
         }
     });
     registerChemicalDissolutionRecipe(event, {
-        chemicalType: "gas",
         "amount": 1000,
-        "gas": "mekanism:photoresist"
+        "chemical": "mekanism:photoresist"
     }, {
-        chemicalType: "gas",
         "amount": 5,
-        "gas": "mekanism:tree_sap"
+        "chemical": "mekanism:tree_sap"
     }, "minecraft:glowstone_dust");
     //====Edible Processor====\\
     // Wafer recipe
@@ -396,66 +369,66 @@ ServerEvents.recipes(event => {
             "tag": "mekanism:water_vapor"
         }, Item.URANIUM_WAFER.getIdentifier())).addStep(new MekanismInjectingStep("Apply Photoresist", {
             "amount": 1,
-            "gas": "mekanism:photoresist"
+            "chemical": "mekanism:photoresist"
         })).addStep(new Ae2InscribingStep("Expose Photoresist", {
             top: Item.ISO_PHOTOMASK.getIdentifier()
         })).addStep(new MekanismInjectingStep("Etch Wafer", {
             "amount": 2,
-            "gas": "mekanism:hydrofluoric_acid"
+            "chemical": "mekanism:hydrofluoric_acid"
         }))
         //nWell
         .addStep(new MekanismInjectingStep("Apply Photoresist", {
             "amount": 1,
-            "gas": "mekanism:photoresist"
+            "chemical": "mekanism:photoresist"
         })).addStep(new Ae2InscribingStep("Expose Photoresist", {
             top: Item.ISO_PHOTOMASK.getIdentifier()
         })).addStep(new MekanismInjectingStep("Inject Phosphorus", {
             "amount": 1,
-            "gas": "mekanism:phosphorus"
+            "chemical": "mekanism:phosphorus"
         }))
         //nMOS
         .addStep(new MekanismInjectingStep("Apply Photoresist", {
             "amount": 1,
-            "gas": "mekanism:photoresist"
+            "chemical": "mekanism:photoresist"
         })).addStep(new Ae2InscribingStep("Expose Photoresist", {
             top: Item.ISO_PHOTOMASK.getIdentifier()
         })).addStep(new MekanismInjectingStep("Etch Wafer", {
             "amount": 2,
-            "gas": "mekanism:hydrofluoric_acid"
+            "chemical": "mekanism:hydrofluoric_acid"
         }))
         //grow oxide (idk a good way to represent this step so ima leave it out)
         // polysilicon
         .addStep(new MekanismInjectingStep("Inject Silicon", {
             "amount": 5,
-            "gas": "mekanism:silicon"
+            "chemical": "mekanism:silicon"
         })).addStep(new MekanismInjectingStep("Apply Photoresist", {
             "amount": 1,
-            "gas": "mekanism:photoresist"
+            "chemical": "mekanism:photoresist"
         })).addStep(new Ae2InscribingStep("Expose Photoresist", {
             top: Item.ISO_PHOTOMASK.getIdentifier()
         })).addStep(new MekanismInjectingStep("Etch Wafer", {
             "amount": 2,
-            "gas": "mekanism:hydrofluoric_acid"
+            "chemical": "mekanism:hydrofluoric_acid"
         }))
         // p-type implantation
         .addStep(new MekanismInjectingStep("Apply Photoresist", {
             "amount": 1,
-            "gas": "mekanism:photoresist"
+            "chemical": "mekanism:photoresist"
         })).addStep(new Ae2InscribingStep("Expose Photoresist", {
             top: Item.ISO_PHOTOMASK.getIdentifier()
         })).addStep(new MekanismInjectingStep("Inject Uranium Hexafluoride", {
             "amount": 2,
-            "gas": "mekanism:uranium_hexafluoride"
+            "chemical": "mekanism:uranium_hexafluoride"
         }))
         // n-type implantation
         .addStep(new MekanismInjectingStep("Apply Photoresist", {
             "amount": 1,
-            "gas": "mekanism:photoresist"
+            "chemical": "mekanism:photoresist"
         })).addStep(new Ae2InscribingStep("Expose Photoresist", {
             top: Item.ISO_PHOTOMASK.getIdentifier()
         })).addStep(new MekanismInjectingStep("Inject Phosphorus", {
             "amount": 1,
-            "gas": "mekanism:phosphorus"
+            "chemical": "mekanism:phosphorus"
         }, MultistepProcess.INTERMEDIATE_ITEM, Item.ISOTOPIC_DECAY_OSCILLATOR_WAFER.getIdentifier())).usingItem(Item.INCOMPLETE_ISOTOPIC_DECAY_OSCILLATOR_WAFER.getIdentifier()).register(event);
     // DHDs
     event.custom({
@@ -498,10 +471,9 @@ ServerEvents.recipes(event => {
     });
     event.custom({
         type: "mekanism:crystallizing",
-        chemicalType: "gas",
         input: {
             amount: 1000,
-            gas: "mekanism:tree_sap"
+            chemical: "mekanism:tree_sap"
         },
         output: {
             item: "pamhc2trees:maplesyrupitem"
@@ -514,13 +486,13 @@ ServerEvents.recipes(event => {
             "amount": 100,
             "fluid": "sgjourney:liquid_naquadah"
         },
-        "gasInput": {
+        "chemicalInput": {
             "amount": 25,
-            "gas": "mekanism:plutonium"
+            "chemical": "mekanism:plutonium"
         },
-        "gasOutput": {
+        "chemicalOutput": {
             "amount": 1,
-            "gas": "mekanism:naquadria"
+            "chemical": "mekanism:naquadria"
         },
         "itemInput": {
             "ingredient": {
@@ -531,11 +503,6 @@ ServerEvents.recipes(event => {
             "item": "sgjourney:raw_naquadah"
         }
     });
-    // PamHc2 compat
-    event.recipes.create.mixing("pamhc2foodcore:butteritem", [{
-        fluid: "milk",
-        amount: 1000
-    }, "pamhc2foodcore:potitem"]);
     // Nuke energy pipes
     event.remove({
         id: "pipez:energy_pipe"
@@ -548,15 +515,9 @@ ServerEvents.recipes(event => {
         count: 6
     }, ["igf", "ere", "igf"], {
         "i": "pipez:item_pipe",
-        "g": "pipez:gas_pipe",
+        "g": "pipez:chemical_pipe",
         "f": "pipez:fluid_pipe",
         "r": "#c:storage_blocks/redstone",
         "e": "#c:ingots/iron"
     });
-    // Phosphorus
-    registerChemicalInjectionRecipe(event, {
-        chemicalType: "gas",
-        gas: "mekanism:sulfuric_acid",
-        amount: 2
-    }, Item.PHOSPHORUS.getIdentifier(), "mekanism:bio_fuel");
 });

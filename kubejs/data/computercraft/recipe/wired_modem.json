@@ -3,15 +3,15 @@
   "category": "redstone",
   "key": {
     "#": {
-      "tag": "c:stone"
+      "tag": "c:stones"
     },
-    "R": {
+    "C": {
       "item": "computercraft:cable"
     }
   },
   "pattern": [
     "###",
-    "#R#",
+    "#C#",
     "###"
   ],
   "result": {

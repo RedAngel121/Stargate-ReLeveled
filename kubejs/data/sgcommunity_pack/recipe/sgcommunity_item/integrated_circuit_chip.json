@@ -1,0 +1,11 @@
+{
+    "type": "mekanism:sawing",
+    "input": {
+        "count": 1,
+        "item": "sgcommunity_pack:integrated_circuit_wafer"
+    },
+    "main_output": {
+        "count": 4,
+        "id": "sgcommunity_pack:integrated_circuit_chip"
+    }
+}

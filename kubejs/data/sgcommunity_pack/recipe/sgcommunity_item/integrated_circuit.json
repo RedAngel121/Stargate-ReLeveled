@@ -1,0 +1,19 @@
+{
+    "type": "ae2:inscriber",
+    "ingredients": {
+        "bottom": {
+            "item": "sgcommunity_pack:advanced_pcb_substrate"
+        },
+        "middle": {
+            "item": "sgcommunity_pack:integrated_circuit_chip"
+        },
+        "top": {
+            "item": "sgcommunity_pack:pure_quartz_glass"
+        }
+    },
+    "mode": "press",
+    "result": {
+        "count": 1,
+        "id": "sgcommunity_pack:integrated_circuit"
+    }
+}

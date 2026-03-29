@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "sgcommunity_pack:silica_dust_bucket"
+  },
+  "result": {
+    "count": 1,
+    "id": "sgcommunity_pack:molten_glass_bucket"
+  }
+}
