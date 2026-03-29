@@ -1101,6 +1101,10 @@ file = "kubejs/data/ae2/recipe/transform/entangled_singularity_from_pearl.json"
 hash = "865ef35b0151188adbed3fdca0a9ed9019a74d79678936341dcf69c876e04ebe"
 
 [[files]]
+file = "kubejs/data/ae2wtlib/recipe/quantum_bridge_card.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "kubejs/data/aeinfinitybooster/recipe/dimension_card.json"
 hash = "f36b389f26c25e14f3eb0f97f2da7e81277b1cf008db356876581cc766e001ba"
 
@@ -1417,6 +1421,18 @@ file = "kubejs/data/mekanism/recipe/metallurgic_infuser.json"
 hash = "91821ed1122f93e114efdb5dfbdddeddfb20d68df10ac2c3e0e8c31e18f5a147"
 
 [[files]]
+file = "kubejs/data/mekanism/recipe/portable_teleporter.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mekanism/recipe/teleporter.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mekanism/recipe/teleporter_frame.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "kubejs/data/mob_grinding_utils/recipe/recipe_absorption_hopper.json"
 hash = "596d6d881f98a1492724b914710f5ac9526985e20c887aca2742d212d08f02f6"
 
@@ -1439,6 +1455,14 @@ hash = "695d0c88ec27c3aafc00afa641c922c9f2e2d2ea2aa6e44572798d73f2014732"
 [[files]]
 file = "kubejs/data/pamhc2foodcore/recipe/saltitem.json"
 hash = "98e59db7e882dcb526b96bd1c6df4cc92cb78de8f7d9cef155775ecf4aa43e15"
+
+[[files]]
+file = "kubejs/data/pipez/recipe/energy_pipe.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/pipez/recipe/universal_pipe.json"
+hash = "edce95264e8ab0558d566f394da4f4f3dac38c0928827f54e4fdcdbaa83cecd3"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/curios/slots/charm.json"
@@ -2110,7 +2134,7 @@ hash = "4ba32d7d4977bc5a49062cbd39fbc312e1de9187ed0ea2dfb3b9c12630c7852f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "55dd124f982053492386b4945c2c1bb56d8564edd12184f4d3a2d090492a566f"
+hash = "77fb66d67ff653029a22f7c2fc0f4f0faf152cdbf595c21d3b97aa97bd7d1a55"
 
 [[files]]
 file = "kubejs/server_scripts/rftools.js"
@@ -2134,7 +2158,7 @@ hash = "8e34f4c597f0e4e7e386f7db173684db3d42cfd98fe192bb348e3ef00cf3c6de"
 
 [[files]]
 file = "kubejs/startup_scripts/startup.js"
-hash = "f23ff3a8774332092f18f6ece824c8c58f31b99ef442a60693e44fd259ba0c36"
+hash = "c35d76fb932f251032cbc98f2c718639e928b0bc5932dc147e93c905c1b793d1"
 
 [[files]]
 file = "mods/advanced-peripherals.pw.toml"

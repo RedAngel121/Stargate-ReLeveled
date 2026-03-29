@@ -4,6 +4,49 @@ ServerEvents.recipes(event => {
     // Register Chemicals: naquadria, silicon, blaze_gas, doped_silicon, boron_trifluoride, boron_trioxide, phosphorus, photoresist, tree_sap
     // Update the texture for Iron Spool to mimic the Copper Spool to use in the Vac Tube recipe
     // Add the other bars of chocolate from confectionary to the `c:foods/chocolate` tag
+    // Add c:salt tag to other salt items for pams compat (tag + tag)
+
+    event.custom({
+        type: "mekanism:crystallizing",
+        input: {
+            amount: 1000,
+            chemical: "mekanism:tree_sap"
+        },
+        output: {
+            item: "pamhc2trees:maplesyrupitem"
+        }
+    });
+
+    // Remove easy rocket engines
+    event.remove("ad_astra:steel_engine");
+    event.remove("ad_astra:desh_engine");
+    event.remove("ad_astra:ostrum_engine");
+    event.remove("ad_astra:calorite_engine");
+    // Add hard engines
+    event.shaped(Item.of("ad_astra:steel_engine", 1), ["SSS", "ECE", " F "], {
+        S: "#c:plates/steel",
+        C: Item.RCU.getIdentifier(),
+        E: "ad_astra:engine_frame",
+        F: "ad_astra:engine_fan"
+    });
+    event.shaped(Item.of("ad_astra:desh_engine", 1), ["SSS", "ECE", " F "], {
+        S: "#c:plates/desh",
+        C: Item.RCU.getIdentifier(),
+        E: "ad_astra:engine_frame",
+        F: "ad_astra:engine_fan"
+    });
+    event.shaped(Item.of("ad_astra:ostrum_engine", 1), ["SSS", "ECE", " F "], {
+        S: "#c:plates/ostrum",
+        C: Item.RCU.getIdentifier(),
+        E: "ad_astra:engine_frame",
+        F: "ad_astra:engine_fan"
+    });
+    event.shaped(Item.of("ad_astra:calorite_engine", 1), ["SSS", "ECE", " F "], {
+        S: "#c:plates/calorite",
+        C: Item.RCU.getIdentifier(),
+        E: "ad_astra:engine_frame",
+        F: "ad_astra:engine_fan"
+    });
 
     // Silicon Wafers
     registerChemicalDissolutionRecipe(event, {
@@ -60,65 +103,9 @@ ServerEvents.recipes(event => {
         "amount": 5000,
         "chemical": "mekanism:blaze_gas"
     }, "c:eggs/blaze");
-    // Mekanism
-    event.remove({
-        id: "mekanism:teleporter"
-    });
-    event.remove({
-        id: "mekanism:teleporter_frame"
-    });
-    event.remove({
-        id: "mekanism:portable_teleporter"
-    });
-    // Remove easy rocket engines
-    event.remove("ad_astra:steel_engine");
-    event.remove("ad_astra:desh_engine");
-    event.remove("ad_astra:ostrum_engine");
-    event.remove("ad_astra:calorite_engine");
-    // Add hard engines
-    event.shaped(Item.of("ad_astra:steel_engine", 1), ["SSS", "ECE", " F "], {
-        S: "#c:plates/steel",
-        C: Item.RCU.getIdentifier(),
-        E: "ad_astra:engine_frame",
-        F: "ad_astra:engine_fan"
-    });
-    event.shaped(Item.of("ad_astra:desh_engine", 1), ["SSS", "ECE", " F "], {
-        S: "#c:plates/desh",
-        C: Item.RCU.getIdentifier(),
-        E: "ad_astra:engine_frame",
-        F: "ad_astra:engine_fan"
-    });
-    event.shaped(Item.of("ad_astra:ostrum_engine", 1), ["SSS", "ECE", " F "], {
-        S: "#c:plates/ostrum",
-        C: Item.RCU.getIdentifier(),
-        E: "ad_astra:engine_frame",
-        F: "ad_astra:engine_fan"
-    });
-    event.shaped(Item.of("ad_astra:calorite_engine", 1), ["SSS", "ECE", " F "], {
-        S: "#c:plates/calorite",
-        C: Item.RCU.getIdentifier(),
-        E: "ad_astra:engine_frame",
-        F: "ad_astra:engine_fan"
-    });
-    // AE2WTLIB
-    event.remove({
-        id: "ae2wtlib:quantum_bridge_card"
-    });
-    // Blue Ice (testing recipe ig)
-    new MultistepProcess().addStep(new MekanismInjectingStep("Water Vapor Injecting", {
-        "amount": 20,
-        "tag": "mekanism:water_vapor"
-    }, "minecraft:snowball")).addStep(new MekanismInjectingStep("Water Vapor Injecting", {
-        "amount": 20,
-        "tag": "mekanism:water_vapor"
-    })).addStep(new MekanismInjectingStep("Water Vapor Injecting", {
-        "amount": 20,
-        "tag": "mekanism:water_vapor"
-    }, MultistepProcess.INTERMEDIATE_ITEM, "minecraft:blue_ice")).usingItem("minecraft:ice").register(event);
-    // chemical upgrade sucks
-    // - injecting
-    // - dissolution
-    // MOSFET (ngl, i give up on making accurate recipes)
+
+    // --- START MULTISTEP BULLSHIT ---
+    // MOSFET
     new MultistepProcess().addStep(new MekanismInjectingStep("Inject Silicon", {
         "amount": 5,
         "chemical": "mekanism:silicon"
@@ -299,6 +286,7 @@ ServerEvents.recipes(event => {
         "amount": 5,
         "chemical": "mekanism:tree_sap"
     }, "minecraft:glowstone_dust");
+
     //====Edible Processor====\\
     // Wafer recipe
     new MultistepProcess().addStep(new CreateMixingStep("Cream Butter and Sugar", {
@@ -396,7 +384,6 @@ ServerEvents.recipes(event => {
             "amount": 2,
             "chemical": "mekanism:hydrofluoric_acid"
         }))
-        //grow oxide (idk a good way to represent this step so ima leave it out)
         // polysilicon
         .addStep(new MekanismInjectingStep("Inject Silicon", {
             "amount": 5,
@@ -430,55 +417,6 @@ ServerEvents.recipes(event => {
             "amount": 1,
             "chemical": "mekanism:phosphorus"
         }, MultistepProcess.INTERMEDIATE_ITEM, Item.ISOTOPIC_DECAY_OSCILLATOR_WAFER.getIdentifier())).usingItem(Item.INCOMPLETE_ISOTOPIC_DECAY_OSCILLATOR_WAFER.getIdentifier()).register(event);
-    // DHDs
-    event.custom({
-        type: "minecraft:smithing_transform",
-        addition: {
-            type: "forge:nbt",
-            item: "sgjourney:stargate_upgrade_crystal",
-            nbt: JSON.stringify({
-                Type: "sgjourney:milky_way_stargate"
-            })
-        },
-        base: {
-            item: "sgjourney:classic_dhd"
-        },
-        result: {
-            item: "sgjourney:milky_way_dhd"
-        },
-        template: {
-            item: "minecraft:netherite_upgrade_smithing_template"
-        }
-    });
-    event.custom({
-        type: "minecraft:smithing_transform",
-        addition: {
-            type: "forge:nbt",
-            item: "sgjourney:stargate_upgrade_crystal",
-            nbt: JSON.stringify({
-                Type: "sgjourney:pegasus_stargate"
-            })
-        },
-        base: {
-            item: "sgjourney:classic_dhd"
-        },
-        result: {
-            item: "sgjourney:pegasus_dhd"
-        },
-        template: {
-            item: "minecraft:netherite_upgrade_smithing_template"
-        }
-    });
-    event.custom({
-        type: "mekanism:crystallizing",
-        input: {
-            amount: 1000,
-            chemical: "mekanism:tree_sap"
-        },
-        output: {
-            item: "pamhc2trees:maplesyrupitem"
-        }
-    });
     event.custom({
         "type": "mekanism:reaction",
         "duration": 100,
@@ -502,22 +440,5 @@ ServerEvents.recipes(event => {
         "itemOutput": {
             "item": "sgjourney:raw_naquadah"
         }
-    });
-    // Nuke energy pipes
-    event.remove({
-        id: "pipez:energy_pipe"
-    });
-    event.remove({
-        id: "pipez:universal_pipe"
-    });
-    event.shaped({
-        item: "pipez:universal_pipe",
-        count: 6
-    }, ["igf", "ere", "igf"], {
-        "i": "pipez:item_pipe",
-        "g": "pipez:chemical_pipe",
-        "f": "pipez:fluid_pipe",
-        "r": "#c:storage_blocks/redstone",
-        "e": "#c:ingots/iron"
     });
 });
