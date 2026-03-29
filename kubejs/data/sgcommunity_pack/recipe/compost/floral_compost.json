@@ -1,0 +1,115 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "roy",
+        "mmm",
+        "gbp"
+    ],
+    "key": {
+        "m": {
+            "item": "minecraft:moss_block"
+        },
+        "r": [
+            {
+                "item": "minecraft:poppy"
+            },
+            {
+                "item": "minecraft:rose_bush"
+            },
+            {
+                "item": "minecraft:red_tulip"
+            },
+            {
+                "item": "biomesoplenty:waterlily"
+            },
+            {
+                "item": "biomesoplenty:rose"
+            }
+        ],
+        "o": [
+            {
+                "item": "minecraft:orange_tulip"
+            },
+            {
+                "item": "minecraft:torchflower"
+            },
+            {
+                "item": "biomesoplenty:orange_cosmos"
+            },
+            {
+                "item": "biomesoplenty:burning_blossom"
+            }
+        ],
+        "y": [
+            {
+                "item": "minecraft:dandelion"
+            },
+            {
+                "item": "minecraft:sunflower"
+            },
+            {
+                "item": "biomesoplenty:goldenrod"
+            },
+            {
+                "item": "undergarden:butterbunch"
+            }
+        ],
+        "g": [
+            {
+                "item": "minecraft:short_grass"
+            },
+            {
+                "item": "minecraft:tall_grass"
+            },
+            {
+                "item": "minecraft:seagrass"
+            },
+            {
+                "item": "minecraft:fern"
+            },
+            {
+                "item": "biomesoplenty:high_grass"
+            },
+            {
+                "item": "biomesoplenty:watergrass"
+            }
+        ],
+        "b": [
+            {
+                "item": "minecraft:blue_orchid"
+            },
+            {
+                "item": "minecraft:cornflower"
+            },
+            {
+                "item": "biomesoplenty:blue_hydrangea"
+            },
+            {
+                "item": "biomesoplenty:icy_iris"
+            }
+        ],
+        "p": [
+            {
+                "item": "minecraft:lilac"
+            },
+            {
+                "item": "minecraft:allium"
+            },
+            {
+                "item": "biomesoplenty:lavender"
+            },
+            {
+                "item": "biomesoplenty:tall_lavender"
+            },
+            {
+                "item": "biomesoplenty:violet"
+            },
+            {
+                "item": "biomesoplenty:wildflower"
+            }
+        ]
+    },
+    "result": {
+        "id": "sgcommunity_pack:floral_compost"
+    }
+}

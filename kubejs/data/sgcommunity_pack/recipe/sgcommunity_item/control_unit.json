@@ -1,0 +1,129 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "tag": "c:plates/electrum"
+    },
+    "loops": 3,
+    "results": [
+        {
+            "id": "sgcommunity_pack:control_unit"
+        }
+    ],
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "sgcommunity_pack:incomplete_control_unit"
+                },
+                {
+                    "tag": "c:dusts/redstone"
+                }
+            ],
+            "results": [
+                {
+                    "id": "sgcommunity_pack:incomplete_control_unit"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "sgcommunity_pack:incomplete_control_unit"
+                },
+                {
+                    "item": "sgcommunity_pack:vacuum_tube"
+                }
+            ],
+            "results": [
+                {
+                    "id": "sgcommunity_pack:incomplete_control_unit"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "sgcommunity_pack:incomplete_control_unit"
+                },
+                {
+                    "item": "sgcommunity_pack:vacuum_tube"
+                }
+            ],
+            "results": [
+                {
+                    "id": "sgcommunity_pack:incomplete_control_unit"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "sgcommunity_pack:incomplete_control_unit"
+                },
+                {
+                    "tag": "c:wires/copper"
+                }
+            ],
+            "results": [
+                {
+                    "id": "sgcommunity_pack:incomplete_control_unit"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "sgcommunity_pack:incomplete_control_unit"
+                },
+                {
+                    "item": "sgcommunity_pack:vacuum_tube"
+                }
+            ],
+            "results": [
+                {
+                    "id": "sgcommunity_pack:incomplete_control_unit"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "sgcommunity_pack:incomplete_control_unit"
+                },
+                {
+                    "item": "sgcommunity_pack:vacuum_tube"
+                }
+            ],
+            "results": [
+                {
+                    "id": "sgcommunity_pack:incomplete_control_unit"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "sgcommunity_pack:incomplete_control_unit"
+                },
+                {
+                    "item": "sgcommunity_pack:pure_quartz_glass"
+                }
+            ],
+            "results": [
+                {
+                    "id": "sgcommunity_pack:incomplete_control_unit"
+                }
+            ]
+        }
+    ],
+    "transitional_item": {
+        "id": "sgcommunity_pack:incomplete_control_unit"
+    }
+}

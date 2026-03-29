@@ -1,0 +1,11 @@
+{
+    "type": "mekanism:sawing",
+    "input": {
+        "count": 1,
+        "item": "sgcommunity_pack:isotopic_decay_oscillator_wafer"
+    },
+    "main_output": {
+        "count": 3,
+        "id": "sgcommunity_pack:isotopic_decay_oscillator_chip"
+    }
+}

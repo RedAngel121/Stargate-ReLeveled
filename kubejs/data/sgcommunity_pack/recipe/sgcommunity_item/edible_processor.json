@@ -1,0 +1,19 @@
+{
+    "type": "ae2:inscriber",
+    "ingredients": {
+        "bottom": {
+            "tag": "c:foods/chocolate"
+        },
+        "middle": {
+            "item": "sgcommunity_pack:edible_processor_chip"
+        },
+        "top": {
+            "tag": "c:foods/chocolate"
+        }
+    },
+    "mode": "press",
+    "result": {
+        "count": 1,
+        "id": "sgcommunity_pack:edible_processor"
+    }
+}

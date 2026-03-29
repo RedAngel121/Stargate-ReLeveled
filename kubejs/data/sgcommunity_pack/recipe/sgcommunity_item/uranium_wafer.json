@@ -1,0 +1,11 @@
+{
+    "type": "mekanism:sawing",
+    "input": {
+        "count": 1,
+        "tag": "c:storage_blocks/uranium"
+    },
+    "main_output": {
+        "count": 4,
+        "id": "sgcommunity_pack:uranium_wafer"
+    }
+}

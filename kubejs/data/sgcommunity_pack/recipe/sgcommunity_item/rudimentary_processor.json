@@ -1,0 +1,19 @@
+{
+    "type": "ae2:inscriber",
+    "ingredients": {
+        "bottom": {
+            "item": "sgcommunity_pack:alu"
+        },
+        "middle": {
+            "tag": "c:plates/electrum"
+        },
+        "top": {
+            "item": "sgcommunity_pack:control_unit"
+        }
+    },
+    "mode": "press",
+    "result": {
+        "count": 1,
+        "id": "sgcommunity_pack:rudimentary_processor"
+    }
+}

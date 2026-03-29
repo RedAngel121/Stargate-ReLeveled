@@ -1,0 +1,68 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ded",
+        "mfb",
+        "dsd"
+    ],
+    "key": {
+        "d": {
+            "tag": "chipped:dirt"
+        },
+        "e": [
+            {
+                "item": "biomesoplenty:hellbark_sapling"
+            },
+            {
+                "item": "biomesoplenty:umbran_sapling"
+            }
+        ],
+        "m": [
+            {
+                "item": "biomesoplenty:magic_sapling"
+            },
+            {
+                "item": "biomesoplenty:rainbow_birch_sapling"
+            }
+        ],
+        "b": [
+            {
+                "item": "minecraft:jungle_sapling"
+            },
+            {
+                "item": "biomesoplenty:fir_sapling"
+            },
+            {
+                "item": "biomesoplenty:redwood_sapling"
+            }
+        ],
+        "f": [
+            {
+                "item": "biomesoplenty:willow_sapling"
+            },
+            {
+                "item": "biomesoplenty:dead_sapling"
+            },
+            {
+                "item": "biomesoplenty:palm_sapling"
+            }
+        ],
+        "s": [
+            {
+                "item": "biomesoplenty:flowering_oak_sapling"
+            },
+            {
+                "item": "biomesoplenty:yellow_maple_sapling"
+            },
+            {
+                "item": "biomesoplenty:orange_maple_sapling"
+            },
+            {
+                "item": "biomesoplenty:red_maple_sapling"
+            }
+        ]
+    },
+    "result": {
+        "id": "sgcommunity_pack:mulch_compost"
+    }
+}

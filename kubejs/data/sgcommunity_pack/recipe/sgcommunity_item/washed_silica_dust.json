@@ -1,7 +1,7 @@
 {
     "type": "create:sequenced_assembly",
     "ingredient": {
-        "tag": "quark:shards"
+        "tag": "sgcommunity_pack:silica_dust"
     },
     "loops": 4,
     "results": [

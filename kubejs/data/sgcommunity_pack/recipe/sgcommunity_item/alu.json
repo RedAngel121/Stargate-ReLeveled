@@ -1,0 +1,97 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "tag": "c:plates/electrum"
+    },
+    "loops": 2,
+    "results": [
+        {
+            "id": "sgcommunity_pack:alu"
+        }
+    ],
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "sgcommunity_pack:incomplete_alu"
+                },
+                {
+                    "item": "sgcommunity_pack:vacuum_tube"
+                }
+            ],
+            "results": [
+                {
+                    "id": "sgcommunity_pack:incomplete_alu"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "sgcommunity_pack:incomplete_alu"
+                },
+                {
+                    "item": "sgcommunity_pack:vacuum_tube"
+                }
+            ],
+            "results": [
+                {
+                    "id": "sgcommunity_pack:incomplete_alu"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "sgcommunity_pack:incomplete_alu"
+                },
+                {
+                    "item": "sgcommunity_pack:vacuum_tube"
+                }
+            ],
+            "results": [
+                {
+                    "id": "sgcommunity_pack:incomplete_alu"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "sgcommunity_pack:incomplete_alu"
+                },
+                {
+                    "item": "sgcommunity_pack:vacuum_tube"
+                }
+            ],
+            "results": [
+                {
+                    "id": "sgcommunity_pack:incomplete_alu"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "sgcommunity_pack:incomplete_alu"
+                },
+                {
+                    "item": "sgcommunity_pack:pure_quartz_glass"
+                }
+            ],
+            "results": [
+                {
+                    "id": "sgcommunity_pack:incomplete_alu"
+                }
+            ]
+        }
+    ],
+    "transitional_item": {
+        "id": "sgcommunity_pack:incomplete_alu"
+    }
+}

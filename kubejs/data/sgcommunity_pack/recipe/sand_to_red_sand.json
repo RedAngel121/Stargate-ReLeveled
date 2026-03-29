@@ -27,7 +27,7 @@
       "item": "minecraft:sand"
     },
     {
-      "item": "minecraft:red_dye"
+      "tag": "c:dyes/red"
     }
   ],
   "result": {

@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "item": "minecraft:bucket"
+        },
+        {
+            "tag": "sgcommunity_pack:silica_dust"
+        }
+    ],
+    "results": [
+        {
+            "id": "sgcommunity_pack:silica_dust_bucket"
+        }
+    ]
+}

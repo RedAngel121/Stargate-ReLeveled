@@ -1,0 +1,65 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "item": "sgcommunity_pack:glass_tube"
+    },
+    "loops": 3,
+    "results": [
+        {
+            "id": "sgcommunity_pack:vacuum_tube"
+        }
+    ],
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "sgcommunity_pack:incomplete_vacuum_tube"
+                },
+                {
+                    "tag": "c:plates/iron"
+                }
+            ],
+            "results": [
+                {
+                    "id": "sgcommunity_pack:incomplete_vacuum_tube"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "sgcommunity_pack:incomplete_vacuum_tube"
+                },
+                {
+                    "tag": "c:plates/copper"
+                }
+            ],
+            "results": [
+                {
+                    "id": "sgcommunity_pack:incomplete_vacuum_tube"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "sgcommunity_pack:incomplete_vacuum_tube"
+                },
+                {
+                    "tag": "sgcommunity_pack:iron_spool"
+                }
+            ],
+            "results": [
+                {
+                    "id": "sgcommunity_pack:incomplete_vacuum_tube"
+                }
+            ]
+        }
+    ],
+    "transitional_item": {
+        "id": "sgcommunity_pack:incomplete_vacuum_tube"
+    }
+}

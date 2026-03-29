@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "gfp",
+        "ddd",
+        "lcm"
+    ],
+    "key": {
+        "d": {
+            "tag": "chipped:dirt"
+        },
+        "g": {
+            "tag": "c:grain"
+        },
+        "f": {
+            "tag": "c:fruits"
+        },
+        "p": {
+            "tag": "c:paper_plants"
+        },
+        "l": {
+            "tag": "c:leafyvegetables"
+        },
+        "c": [
+            {
+                "tag": "c:cactus_plants"
+            },
+            {
+                "item": "minecraft:cactus"
+            }
+        ],
+        "m": {
+            "tag": "c:mushrooms"
+        }
+    },
+    "result": {
+        "id": "sgcommunity_pack:organic_compost"
+    }
+}

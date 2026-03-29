@@ -1,0 +1,19 @@
+{
+    "type": "ae2:inscriber",
+    "ingredients": {
+        "bottom": {
+            "tag": "c:ingots/copper"
+        },
+        "middle": {
+            "item": "mekanism:hdpe_sheet"
+        },
+        "top": {
+            "tag": "c:ingots/copper"
+        }
+    },
+    "mode": "press",
+    "result": {
+        "count": 1,
+        "id": "sgcommunity_pack:advanced_pcb_substrate"
+    }
+}

@@ -1141,14 +1141,6 @@ file = "kubejs/data/computercraft/recipe/wired_modem.json"
 hash = "26023b9cdaf361bf76d9079dc2c3d077beeca4d7151be22456307cc5fdb7e13e"
 
 [[files]]
-file = "kubejs/data/create/recipe/crafting/appliances/chain_from_iron.json"
-hash = "e8e62b0dae5ac6a5532d3fbc21b3fa5cb9f8996d7d0e83b46703303a0d957ffd"
-
-[[files]]
-file = "kubejs/data/create/recipe/crafting/appliances/chain_from_zinc.json"
-hash = "8b74574bf6242ab919b7902d8815e98e0524818c97ac4164ae4298e53a361b82"
-
-[[files]]
 file = "kubejs/data/create/recipe/crushing/obsidian.json"
 hash = "d9628ecd09acfa69294a85340d0dc2482f4404f8a69c5b8e1e5b6ca623950af2"
 
@@ -1489,6 +1481,22 @@ file = "kubejs/data/sgcommunity_pack/recipe/cobbled_deepslate.json"
 hash = "38a5db4614275bd58f86cea9420dc481677d154e79314440513f1a999f55cfcd"
 
 [[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/compost/coral_compost.json"
+hash = "04dbadfb2c0fa05be852877bdf61b9a1f3b7269a2e6d224b53c79199fe5cc846"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/compost/floral_compost.json"
+hash = "197af224d3352145c25aef6a886a026b3c6ff45bcc030127e25ea62b001eaad2"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/compost/mulch_compost.json"
+hash = "6def8b091b12baa015a29fdee6ca76133668237986770ffef378077e7a66b0d1"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/compost/organic_compost.json"
+hash = "ab57379223a2c35e404be2205852cbb8e08e6cf36739766ee9974baa1497f8de"
+
+[[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/mars_sand_to_venus_sand.json"
 hash = "2830ec8f4dc5fd1d498282ed25f293a907c60cad40db8f0b0bc445806e5650a6"
 
@@ -1510,31 +1518,39 @@ hash = "777e5d4d24c5d5fa1f426d997b3a744f6c35fd55bc46a072f6d31ce7df421ba7"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sand_to_black_sand.json"
-hash = "4defa0c63e331faa68d89a7ee25ead71f331bd5834e3e0e46db64c8853b38a6d"
+hash = "e99d04a0576096b9302455df199229d1713cea1dbe716a750bc37f742a819860"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sand_to_moon_sand.json"
-hash = "d3b4b3978a95108729d05caa5953179d264bcd88ae482420ea9b2efed5efaf34"
+hash = "ed5480be6e4e69d2c13efb32179621cdc3fb61579808a84a191b30ce2967120f"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sand_to_orange_sand.json"
-hash = "5920ec850a9d5512d04d608a0b1b6f2b48089422b615acc9787a88e82e3a32b6"
+hash = "03839836f9681b9975192a23e1cdfbfe04ff2ad36e989d460e696fb416abc62c"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sand_to_red_sand.json"
-hash = "50fda8845708911a4365855bb00e6471eda1c3259030e596579b1e227c322962"
+hash = "8f2cd7d57d6c6b8c3aa756a3aa45feb875fcf418b4ff50d6d95c42c10f8cb6f3"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sand_to_white_sand.json"
-hash = "889baacee0e11105e31127a72def4dd4f5fe903e710b3684fbc174791c89c54d"
+hash = "f3fe67b8b6fe9352b1b21b0bf3d2c56b6174a4fc776c58d03762b06986d70764"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sandstone_cartouche.json"
 hash = "79da4dfa17baa52510cb20e5ad5c4ce148cdf9419563ffcde00c740dafeb8576"
 
 [[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/advanced_pcb_substrate.json"
+hash = "16354804cd143748c45014265e76d120836a0fe54108f732c02b179b4176792e"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/alu.json"
+hash = "4fcfc27d8eb737b5c9276223d96b62fd7defcd794cc521ae7655a2fa3cd0988f"
+
+[[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/baking_soda.json"
-hash = "909f40cab338940a2977abf0d5b412e5eb3a54acb661295789a67c106ace8611"
+hash = "40dfbecaed65c1d70ab9e86f689fec81704113b8cbcad5b18cfc96e9ce625aa8"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/computation_core.json"
@@ -1543,6 +1559,18 @@ hash = "84698ba1eba93cf25066b8171817784fb500e7b08dcd3bdb41467d87b852289a"
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/computation_core_frame.json"
 hash = "8749b070cc0132978891f14568d66819eb7379f3ea1eeae4f5b1222f65b21834"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/control_unit.json"
+hash = "8d3de9cc0eeff82427f74f44bd03458a712d39af1d8341819ad0026c1f714023"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/edible_processor.json"
+hash = "1fbc6345792647b6907cbb7bb9b258dd5d7e501b05ab71bb0cd3bde2de7c09c6"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/edible_processor_chip.json"
+hash = "2022c78aa29d335b3623da745b14fc6f1abc2bbb9fe1aa19d735cf029f941abc"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/edible_processor_photomask.json"
@@ -1562,7 +1590,15 @@ hash = "bd4bbc2f3abc97b46911f46d71318321fcf3e17a6fd0ff003f41714d5d4b0f49"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/iron_spool.json"
-hash = "0def6ecdd1dfa56ad8399668c2227417a1645a48cd6594f0f53d7d54d767fbf5"
+hash = "517809e8e74b675eb3400460aa5a21524572d161dd77e4a9fe4deec1d007618c"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/isotopic_decay_oscillator.json"
+hash = "2f7cbd464cac48fd014a4f74061490eb4b19139abcea86015e72ba3835264368"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/isotopic_decay_oscillator_chip.json"
+hash = "f939cf29113e48771b10b0429365fc5a4c95027d9d58e435fc271dead425d7d1"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/isotopic_decay_oscillator_photomask.json"
@@ -1570,7 +1606,7 @@ hash = "8989abb4d55cbcee2814bc2d59c1ee3350ede10d73ca72ca6023fe11f5199296"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/kelp_ash.json"
-hash = "b799d95adf7554ac66fc4b129f97bd374ad53bfaac9fa7bb3c15c7cb02707265"
+hash = "9312c0b38ed15920daead4fdfacefa93a1002e05f4971cf7bf30177c67343cd7"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/phosphorus.json"
@@ -1585,16 +1621,36 @@ file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/rocket_control_unit
 hash = "9df657ee5b13b878c3cdf1192daa041c7355067f10041588ddbe3e329f633060"
 
 [[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/rudimentary_processor.json"
+hash = "b6ac2474b5063af6f72ffa30df698e8547942f96dde99781ddb1cf484ccf59b0"
+
+[[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/sand_mold.json"
 hash = "118cc247336669a2454fa4e31dc0f94584854413a0d461e277d33c43b0452a98"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/silica_bucket.json"
+hash = "4306a3afd56ba094b6bc12ad7bb1e7e51a92523e9925e020c4c3bcc69bff737b"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/silica_dust.json"
+hash = "ca8b7ab3b2256c5512bc2f9073633d7b53ccb38799fb0afe16378c980d0ae4ad"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/silicon_wafer.json"
 hash = "f2976abe4d7fcc360844cc1c99d918dc4da3a3131426a0422436474758688037"
 
 [[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/uranium_wafer.json"
+hash = "e4765d647fc67d59a0c2b22682c4df910750c74d96725f722b02ad334c9acc8b"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/vacuum_tube.json"
+hash = "78bcd821aec46791b63a8b1b918aef6abae22ce3bdc0dcdb715be7f8b6205602"
+
+[[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/washed_silica_dust.json"
-hash = "81f557361b39ec4c4a43aad1b378c69c99d6530a16b6f79f85106a6f917975f8"
+hash = "8af249c9cbe4f4f965055acfe40f31d9d82eeaacc465193a9299e6a9e2d4d06d"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/substrate/computational_substrate.json"
@@ -2045,12 +2101,8 @@ file = "kubejs/server_scripts/recipeUtil.js"
 hash = "4ba32d7d4977bc5a49062cbd39fbc312e1de9187ed0ea2dfb3b9c12630c7852f"
 
 [[files]]
-file = "kubejs/server_scripts/recipe_changes.js"
-hash = "fa8b7916c932ff0d571da928e24890930f222ca6a0a60715f874682850324daa"
-
-[[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "64dcb152510b710b97616247336c634827f12e2d0c7a570cc106bcdd446c8490"
+hash = "a53534af268fbf1ebd77de5a9db8f227eebada1718bd1b97b592fbef2fa6fd05"
 
 [[files]]
 file = "kubejs/server_scripts/rftools.js"

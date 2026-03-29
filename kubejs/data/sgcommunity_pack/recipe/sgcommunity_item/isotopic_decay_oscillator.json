@@ -1,0 +1,19 @@
+{
+    "type": "ae2:inscriber",
+    "ingredients": {
+        "bottom": {
+            "item": "sgcommunity_pack:advanced_pcb_substrate"
+        },
+        "middle": {
+            "item": "sgcommunity_pack:isotopic_decay_oscillator_chip"
+        },
+        "top": {
+            "tag": "c:storage_blocks/lead"
+        }
+    },
+    "mode": "press",
+    "result": {
+        "count": 1,
+        "id": "sgcommunity_pack:rudimentary_processor"
+    }
+}
