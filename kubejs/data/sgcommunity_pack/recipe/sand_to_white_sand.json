@@ -1,37 +1,37 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "ingredients": [
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "tag": "c:dyes/white"
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "tag": "c:dyes/white"
+        }
+    ],
+    "result": {
+        "id": "biomesoplenty:white_sand",
+        "count": 8
     }
-  ],
-  "result": {
-    "id": "biomesoplenty:white_sand",
-    "count": 8
-  }
 }

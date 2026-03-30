@@ -1,18 +1,18 @@
 {
-  "type": "create:filling",
-  "ingredients": [
-    {
-      "item": "sgcommunity_pack:sand_mold"
-    },
-    {
-      "type": "neoforge:single",
-      "amount": 1000,
-      "fluid": "sgcommunity_pack:molten_glass"
-    }
-  ],
-  "results": [
-    {
-      "id": "sgcommunity_pack:glass_tube"
-    }
-  ]
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "item": "sgcommunity_pack:sand_mold"
+        },
+        {
+            "type": "neoforge:single",
+            "amount": 1000,
+            "fluid": "sgcommunity_pack:molten_glass"
+        }
+    ],
+    "results": [
+        {
+            "id": "sgcommunity_pack:glass_tube"
+        }
+    ]
 }

@@ -1,37 +1,37 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "ingredients": [
-    {
-      "item": "stellaris:moon_sand"
-    },
-    {
-      "item": "stellaris:moon_sand"
-    },
-    {
-      "item": "stellaris:moon_sand"
-    },
-    {
-      "item": "stellaris:moon_sand"
-    },
-    {
-      "item": "stellaris:moon_sand"
-    },
-    {
-      "item": "stellaris:moon_sand"
-    },
-    {
-      "item": "stellaris:moon_sand"
-    },
-    {
-      "item": "stellaris:moon_sand"
-    },
-    {
-      "item": "minecraft:orange_dye"
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+        {
+            "item": "stellaris:moon_sand"
+        },
+        {
+            "item": "stellaris:moon_sand"
+        },
+        {
+            "item": "stellaris:moon_sand"
+        },
+        {
+            "item": "stellaris:moon_sand"
+        },
+        {
+            "item": "stellaris:moon_sand"
+        },
+        {
+            "item": "stellaris:moon_sand"
+        },
+        {
+            "item": "stellaris:moon_sand"
+        },
+        {
+            "item": "stellaris:moon_sand"
+        },
+        {
+            "item": "minecraft:orange_dye"
+        }
+    ],
+    "result": {
+        "id": "stellaris:mars_sand",
+        "count": 8
     }
-  ],
-  "result": {
-    "id": "stellaris:mars_sand",
-    "count": 8
-  }
 }

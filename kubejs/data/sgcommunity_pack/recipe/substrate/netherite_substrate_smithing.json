@@ -1,16 +1,16 @@
 {
-  "type": "minecraft:smithing_transform",
-  "addition": {
-    "tag": "c:ingots/netherite"
-  },
-  "base": {
-    "item": "sgcommunity_pack:diamond_substrate"
-  },
-  "result": {
-    "count": 1,
-    "id": "sgcommunity_pack:netherite_substrate"
-  },
-  "template": {
-    "item": "minecraft:netherite_upgrade_smithing_template"
-  }
+    "type": "minecraft:smithing_transform",
+    "addition": {
+        "tag": "c:ingots/netherite"
+    },
+    "base": {
+        "item": "sgcommunity_pack:diamond_substrate"
+    },
+    "result": {
+        "count": 1,
+        "id": "sgcommunity_pack:netherite_substrate"
+    },
+    "template": {
+        "item": "minecraft:netherite_upgrade_smithing_template"
+    }
 }

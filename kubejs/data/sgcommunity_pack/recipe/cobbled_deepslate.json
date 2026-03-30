@@ -1,14 +1,14 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "minecraft:coals"
-    },
-    {
-      "item": "minecraft:cobblestone"
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "minecraft:coals"
+        },
+        {
+            "item": "minecraft:cobblestone"
+        }
+    ],
+    "result": {
+        "id": "minecraft:cobbled_deepslate"
     }
-  ],
-  "result": {
-    "id": "minecraft:cobbled_deepslate"
-  }
 }

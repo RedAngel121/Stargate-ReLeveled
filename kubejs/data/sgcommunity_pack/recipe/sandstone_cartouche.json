@@ -1,19 +1,19 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "F",
-    "N",
-    "F"
-  ],
-  "key": {
-    "F": {
-      "item": "sgjourney:sandstone_hieroglyphs"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "F",
+        "N",
+        "F"
+    ],
+    "key": {
+        "F": {
+            "item": "sgjourney:sandstone_hieroglyphs"
+        },
+        "N": {
+            "item": "sgjourney:naquadah"
+        }
     },
-    "N": {
-      "item": "sgjourney:naquadah"
+    "result": {
+        "id": "sgjourney:sandstone_cartouche"
     }
-  },
-  "result": {
-    "id": "sgjourney:sandstone_cartouche"
-  }
 }

@@ -1,27 +1,27 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "E": {
-      "item": "minecraft:ender_eye"
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "E": {
+            "item": "minecraft:ender_eye"
+        },
+        "H": {
+            "item": "minecraft:hopper"
+        },
+        "O": {
+            "tag": "c:obsidians"
+        },
+        "C": {
+            "tag": "sgcommunity_pack:circuit_intermediate"
+        }
     },
-    "H": {
-      "item": "minecraft:hopper"
-    },
-    "O": {
-      "tag": "c:obsidians"
-    },
-    "C": {
-      "tag": "sgcommunity_pack:circuit_intermediate"
+    "pattern": [
+        " E ",
+        "COC",
+        "OHO"
+    ],
+    "result": {
+        "count": 1,
+        "id": "mob_grinding_utils:absorption_hopper"
     }
-  },
-  "pattern": [
-    " E ",
-    "COC",
-    "OHO"
-  ],
-  "result": {
-    "count": 1,
-    "id": "mob_grinding_utils:absorption_hopper"
-  }
 }

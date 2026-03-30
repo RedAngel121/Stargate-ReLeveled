@@ -1,15 +1,15 @@
 {
-  "type": "create:cutting",
-  "ingredients": [
-    {
-      "item": "sgcommunity_pack:edible_processor_wafer"
-    }
-  ],
-  "processing_time": 50,
-  "results": [
-    {
-      "count": 4,
-      "id": "sgcommunity_pack:edible_processor_chip"
-    }
-  ]
+    "type": "create:cutting",
+    "ingredients": [
+        {
+            "item": "sgcommunity_pack:edible_processor_wafer"
+        }
+    ],
+    "processing_time": 50,
+    "results": [
+        {
+            "count": 4,
+            "id": "sgcommunity_pack:edible_processor_chip"
+        }
+    ]
 }

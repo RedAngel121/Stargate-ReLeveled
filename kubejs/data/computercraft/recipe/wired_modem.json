@@ -1,21 +1,21 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "key": {
-    "#": {
-      "tag": "c:stones"
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "#": {
+            "tag": "c:stones"
+        },
+        "C": {
+            "item": "computercraft:cable"
+        }
     },
-    "C": {
-      "item": "computercraft:cable"
-    }
-  },
-  "pattern": [
-    "###",
-    "#C#",
-    "###"
-  ],
-  "result": {
-    "id": "computercraft:wired_modem"
-  },
-  "show_notification": true
+    "pattern": [
+        "###",
+        "#C#",
+        "###"
+    ],
+    "result": {
+        "id": "computercraft:wired_modem"
+    },
+    "show_notification": true
 }

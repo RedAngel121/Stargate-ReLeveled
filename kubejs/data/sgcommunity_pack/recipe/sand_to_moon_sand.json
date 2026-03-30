@@ -1,37 +1,37 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "ingredients": [
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "minecraft:sand"
-    },
-    {
-      "tag": "c:dyes/gray"
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "item": "minecraft:sand"
+        },
+        {
+            "tag": "c:dyes/gray"
+        }
+    ],
+    "result": {
+        "id": "stellaris:moon_sand",
+        "count": 8
     }
-  ],
-  "result": {
-    "id": "stellaris:moon_sand",
-    "count": 8
-  }
 }

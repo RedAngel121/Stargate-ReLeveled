@@ -1,37 +1,37 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "ingredients": [
-    {
-      "item": "stellaris:mars_sand"
-    },
-    {
-      "item": "stellaris:mars_sand"
-    },
-    {
-      "item": "stellaris:mars_sand"
-    },
-    {
-      "item": "stellaris:mars_sand"
-    },
-    {
-      "item": "stellaris:mars_sand"
-    },
-    {
-      "item": "stellaris:mars_sand"
-    },
-    {
-      "item": "stellaris:mars_sand"
-    },
-    {
-      "item": "stellaris:mars_sand"
-    },
-    {
-      "item": "minecraft:yellow_dye"
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+        {
+            "item": "stellaris:mars_sand"
+        },
+        {
+            "item": "stellaris:mars_sand"
+        },
+        {
+            "item": "stellaris:mars_sand"
+        },
+        {
+            "item": "stellaris:mars_sand"
+        },
+        {
+            "item": "stellaris:mars_sand"
+        },
+        {
+            "item": "stellaris:mars_sand"
+        },
+        {
+            "item": "stellaris:mars_sand"
+        },
+        {
+            "item": "stellaris:mars_sand"
+        },
+        {
+            "item": "minecraft:yellow_dye"
+        }
+    ],
+    "result": {
+        "id": "stellaris:venus_sand",
+        "count": 8
     }
-  ],
-  "result": {
-    "id": "stellaris:venus_sand",
-    "count": 8
-  }
 }

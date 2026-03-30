@@ -1,13 +1,13 @@
 name = "NoMoWanderer"
-filename = "nomowanderer-neoforge-1.21.1-1.10.1.jar"
+filename = "nomowanderer-neoforge-1.21.1-1.10.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "9957ffb7fe4154e74dda935340ac277545fa0dab"
+hash = "793233f4bf0d85920929bf1f5beb0ee2ce3f36c6"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6789853
+file-id = 7832995
 project-id = 354428

@@ -1,24 +1,24 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": {
-    "b": {
-      "item": "ae2:smooth_sky_stone_block"
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "b": {
+            "item": "ae2:smooth_sky_stone_block"
+        },
+        "e": {
+            "item": "mekanism:teleportation_core"
+        },
+        "i": {
+            "tag": "c:ingots/steel"
+        }
     },
-    "e": {
-      "item": "mekanism:teleportation_core"
+    "pattern": [
+        "bib",
+        "iei",
+        "bib"
+    ],
+    "result": {
+        "id": "travelanchors:travel_anchor"
     },
-    "i": {
-      "tag": "c:ingots/steel"
-    }
-  },
-  "pattern": [
-    "bib",
-    "iei",
-    "bib"
-  ],
-  "result": {
-    "id": "travelanchors:travel_anchor"
-  },
-  "show_notification": true
+    "show_notification": true
 }

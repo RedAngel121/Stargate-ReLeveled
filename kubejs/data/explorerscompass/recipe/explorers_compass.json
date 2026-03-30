@@ -1,23 +1,23 @@
 {
-  "type": "crafting_shaped",
-  "group": "tools",
-  "pattern": [
-    "WSW",
-    "SCS",
-    "WSW"
-  ],
-  "key": {
-    "W": {
-      "item": "minecraft:cobweb"
+    "type": "crafting_shaped",
+    "group": "tools",
+    "pattern": [
+        "WSW",
+        "SCS",
+        "WSW"
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:cobweb"
+        },
+        "S": {
+            "item": "minecraft:cracked_stone_bricks"
+        },
+        "C": {
+            "item": "sgjourney:naquadah"
+        }
     },
-    "S": {
-      "item": "minecraft:cracked_stone_bricks"
-    },
-    "C": {
-      "item": "sgjourney:naquadah"
+    "result": {
+        "id": "explorerscompass:explorerscompass"
     }
-  },
-  "result": {
-    "id": "explorerscompass:explorerscompass"
-  }
 }

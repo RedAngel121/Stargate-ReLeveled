@@ -1,14 +1,14 @@
 {
-  "structures": [
-    {
-      "structure": "sgcommunity_pack:stargate/tollan/pedestal/stargate_pedestal_mirror",
-      "weight": 1
+    "structures": [
+        {
+            "structure": "sgcommunity_pack:stargate/tollan/pedestal/stargate_pedestal_mirror",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "salt": 1646217471,
+        "spacing": 1,
+        "separation": 0,
+        "type": "sgjourney:stargate_placement"
     }
-  ],
-  "placement": {
-    "salt": 1646217471,
-    "spacing": 1,
-    "separation": 0,
-    "type": "sgjourney:stargate_placement"
-  }
 }

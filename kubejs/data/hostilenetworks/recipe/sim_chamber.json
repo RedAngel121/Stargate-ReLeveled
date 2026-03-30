@@ -1,28 +1,28 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "PPP",
-    "EOE",
-    "LCL"
-  ],
-  "key": {
-    "P": {
-      "tag": "c:glass_panes"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP",
+        "EOE",
+        "LCL"
+    ],
+    "key": {
+        "P": {
+            "tag": "c:glass_panes"
+        },
+        "E": {
+            "item": "minecraft:ender_pearl"
+        },
+        "O": {
+            "tag": "c:obsidian"
+        },
+        "L": {
+            "tag": "c:gems/lapis"
+        },
+        "C": {
+            "item": "sgcommunity_pack:computation_core"
+        }
     },
-    "E": {
-      "item": "minecraft:ender_pearl"
-    },
-    "O": {
-      "tag": "c:obsidian"
-    },
-    "L": {
-      "tag": "c:gems/lapis"
-    },
-    "C": {
-      "item": "sgcommunity_pack:computation_core"
+    "result": {
+        "id": "hostilenetworks:sim_chamber"
     }
-  },
-  "result": {
-    "id": "hostilenetworks:sim_chamber"
-  }
 }

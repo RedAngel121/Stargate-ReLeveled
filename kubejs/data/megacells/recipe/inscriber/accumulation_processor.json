@@ -1,19 +1,19 @@
 {
-  "type": "ae2:inscriber",
-  "ingredients": {
-    "bottom": {
-      "item": "ae2:printed_silicon"
+    "type": "ae2:inscriber",
+    "ingredients": {
+        "bottom": {
+            "item": "ae2:printed_silicon"
+        },
+        "middle": {
+            "item": "sgcommunity_pack:computation_core"
+        },
+        "top": {
+            "item": "megacells:printed_accumulation_processor"
+        }
     },
-    "middle": {
-      "item": "sgcommunity_pack:computation_core"
-    },
-    "top": {
-      "item": "megacells:printed_accumulation_processor"
+    "mode": "press",
+    "result": {
+        "count": 1,
+        "id": "megacells:accumulation_processor"
     }
-  },
-  "mode": "press",
-  "result": {
-    "count": 1,
-    "id": "megacells:accumulation_processor"
-  }
 }

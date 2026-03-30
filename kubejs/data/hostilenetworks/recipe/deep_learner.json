@@ -1,25 +1,25 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "OCO",
-    "CPC",
-    "ORO"
-  ],
-  "key": {
-    "P": {
-      "tag": "c:glass_panes"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OCO",
+        "CPC",
+        "ORO"
+    ],
+    "key": {
+        "P": {
+            "tag": "c:glass_panes"
+        },
+        "O": {
+            "tag": "c:obsidian"
+        },
+        "R": {
+            "tag": "c:dusts/redstone"
+        },
+        "C": {
+            "tag": "sgcommunity_pack:circuit_intermediate"
+        }
     },
-    "O": {
-      "tag": "c:obsidian"
-    },
-    "R": {
-      "tag": "c:dusts/redstone"
-    },
-    "C": {
-      "tag": "sgcommunity_pack:circuit_intermediate"
+    "result": {
+        "id": "hostilenetworks:deep_learner"
     }
-  },
-  "result": {
-    "id": "hostilenetworks:deep_learner"
-  }
 }
