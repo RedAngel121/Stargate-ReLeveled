@@ -1,0 +1,11 @@
+{
+    "type": "mekanism:chemical_conversion",
+    "input": {
+        "count": 1,
+        "tag": "c:eggs/blaze"
+    },
+    "output": {
+        "amount": 5000,
+        "id": "mekanism:blaze_gas"
+    }
+}

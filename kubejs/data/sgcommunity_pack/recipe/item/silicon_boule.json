@@ -1,0 +1,11 @@
+{
+    "type": "mekanism:crystallizing",
+    "input": {
+        "amount": 5000,
+        "chemical": "mekanism:doped_silicon"
+    },
+    "output": {
+        "count": 1,
+        "id": "sgcommunity_pack:silicon_boule"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "type": "mekanism:sawing",
+    "input": {
+        "count": 1,
+        "item": "sgcommunity_pack:mosfet_wafer"
+    },
+    "main_output": {
+        "count": 32,
+        "id": "sgcommunity_pack:mosfet_chip"
+    }
+}

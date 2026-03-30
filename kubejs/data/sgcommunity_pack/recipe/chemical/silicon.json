@@ -1,0 +1,16 @@
+{
+    "type": "mekanism:dissolution",
+    "chemical_input": {
+        "amount": 10,
+        "chemical": "mekanism:blaze_gas"
+    },
+    "item_input": {
+        "count": 10,
+        "tag": "c:silicon"
+    },
+    "output": {
+        "amount": 10000,
+        "id": "mekanism:silicon"
+    },
+    "per_tick_usage": true
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RXR",
+    "#C#",
+    "# #"
+  ],
+  "key": {
+    "#": {"tag": "c:ingots/steel"},
+    "R": {"tag": "c:storage_blocks/heavy_metal"},
+    "C": {"item": "sgcommunity_pack:rocket_control_unit"},
+    "X": {"item": "minecraft:redstone"}
+  },
+  "result": {
+    "id": "stellaris:rocket_engine"
+  }
+}

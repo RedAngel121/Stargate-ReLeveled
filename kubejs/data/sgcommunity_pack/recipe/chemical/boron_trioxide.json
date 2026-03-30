@@ -1,0 +1,16 @@
+{
+    "type": "mekanism:dissolution",
+    "chemical_input": {
+        "amount": 5,
+        "chemical": "mekanism:sulfuric_acid"
+    },
+    "item_input": {
+        "count": 1,
+        "tag": "c:ores/borax"
+    },
+    "output": {
+        "amount": 5000,
+        "id": "mekanism:boron_trioxide"
+    },
+    "per_tick_usage": true
+}

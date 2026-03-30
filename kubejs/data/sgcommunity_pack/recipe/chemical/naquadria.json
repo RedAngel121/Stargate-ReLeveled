@@ -1,0 +1,24 @@
+{
+    "type": "mekanism:reaction",
+    "chemical_input": {
+        "amount": 25,
+        "chemical": "mekanism:plutonium"
+    },
+    "chemical_output": {
+        "amount": 1,
+        "id": "mekanism:naquadria"
+    },
+    "duration": 100,
+    "fluid_input": {
+        "amount": 100,
+        "fluid": "sgjourney:liquid_naquadah"
+    },
+    "item_input": {
+        "count": 1,
+        "tag": "c:purified_ores/naquadah"
+    },
+    "item_output": {
+        "count": 1,
+        "id": "sgjourney:raw_naquadah"
+    }
+}

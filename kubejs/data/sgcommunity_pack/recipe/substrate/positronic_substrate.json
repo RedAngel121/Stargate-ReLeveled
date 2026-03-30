@@ -2,7 +2,7 @@
     "type": "mekanism:injecting",
     "chemical_input": {
         "amount": 25,
-        "tag": "mekanism:antimatter"
+        "chemical": "mekanism:antimatter"
     },
     "item_input": {
         "count": 1,

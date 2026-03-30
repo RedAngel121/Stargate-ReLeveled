@@ -1,9 +1,9 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "pcp",
-        "csc",
-        "pcp"
+        "cnc",
+        "nsn",
+        "cnc"
     ],
     "key": {
         "c": {

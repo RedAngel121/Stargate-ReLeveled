@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#C#"
+  ],
+  "key": {
+    "C": {"item": "sgcommunity_pack:rocket_control_unit"},
+    "#": {"tag": "c:ingots/steel"}
+  },
+  "result": {
+    "id": "stellaris:rocket_fin"
+  }
+}

@@ -1385,6 +1385,10 @@ file = "kubejs/data/jajasgates/sgjourney/symbols/cl_xtreme.json"
 hash = "c97bea47e76f1d5c88c314261574eff0305b134b703c8942cf1181cc36ce03df"
 
 [[files]]
+file = "kubejs/data/megacells/recipe/inscriber/accumulation_processor.json"
+hash = "f40e8147d471810495f97d0a33deff9928bcad664d5999deec4a8bf3dd986d59"
+
+[[files]]
 file = "kubejs/data/mekanism/recipe/chemical_crystallizer.json"
 hash = "7aa1d4645257cdef8b83fba23b14fdac0d722fee78004bd7ce8d2a18f432d2fc"
 
@@ -1485,6 +1489,58 @@ file = "kubejs/data/sgcommunity_pack/recipe/bop_rose_quartz_enriching.json"
 hash = "e36c6b1750edaba171362f3be950f8f1c37a57ab9bf193d416a1566df274014b"
 
 [[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/chemical/boron_trifluoride.json"
+hash = "0ae4438d306651feee62efdb84224c85fa676cf6e639feb04f6cf6584517071d"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/chemical/boron_trioxide.json"
+hash = "01f9fcc743c44591fbf6f487a7d6fad2fadce802cc22d414889b5e31e27f219e"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/chemical/doped_silicon.json"
+hash = "c7ff6c5314d09c2147745f54c24b99f8408c379028f582fb22ce7933bad65dff"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/chemical/dust_to_blaze_gas.json"
+hash = "bfe109eb9df048b9d6a88292c75f45321ff1f04d1858a12109083b7c9dc7afab"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/chemical/egg_to_blaze_gas.json"
+hash = "70336bfe27284a5992c7b73bd503aa3429226d37be4596eef56d9bd234fee20d"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/chemical/naquadria.json"
+hash = "4d60a019c4a9101b773ebddc7d000ee97b3ce380dec07340ec6996409535420f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/chemical/phosphorus.json"
+hash = "c673e3b3598f6fa716ca099586cb88300a617c952951b2707c18d62c5f3d1aff"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/chemical/phosphorus_item.json"
+hash = "77e07ec1527867ccbb0754651c5d779f1a8fda7d141bc15b80c8ea95bf5f178f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/chemical/photoresist.json"
+hash = "9aacc829c839fd5abf078b5272c327d11ffa684cf2fc2e0e1a250fdc9b1ee6a1"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/chemical/rod_to_blaze_gas.json"
+hash = "ab3e90a0fd52680361353389fb84251c1d0cd3010e48375f8f315c70d3b2de31"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/chemical/silicon.json"
+hash = "7d8e523680b564a218996aeba5b3d9363b834954448f1ce4cdcb9c2868343eab"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/chemical/tree_sap_from_maple.json"
+hash = "df8b598a2376325137fe6d8e56634c3332e925101b6e064d47650b0988de6433"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/chemical/tree_sap_from_sappling.json"
+hash = "fc47fa61187cd3922ec14d7d7f553bcd093532360705ebcb9e80b4f554748ea4"
+
+[[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/cobbled_deepslate.json"
 hash = "38a5db4614275bd58f86cea9420dc481677d154e79314440513f1a999f55cfcd"
 
@@ -1503,6 +1559,158 @@ hash = "6def8b091b12baa015a29fdee6ca76133668237986770ffef378077e7a66b0d1"
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/compost/organic_compost.json"
 hash = "ab57379223a2c35e404be2205852cbb8e08e6cf36739766ee9974baa1497f8de"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/advanced_pcb_substrate.json"
+hash = "16354804cd143748c45014265e76d120836a0fe54108f732c02b179b4176792e"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/alu.json"
+hash = "4fcfc27d8eb737b5c9276223d96b62fd7defcd794cc521ae7655a2fa3cd0988f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/baking_soda.json"
+hash = "40dfbecaed65c1d70ab9e86f689fec81704113b8cbcad5b18cfc96e9ce625aa8"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/computation_core.json"
+hash = "84698ba1eba93cf25066b8171817784fb500e7b08dcd3bdb41467d87b852289a"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/computation_core_frame.json"
+hash = "8749b070cc0132978891f14568d66819eb7379f3ea1eeae4f5b1222f65b21834"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/control_unit.json"
+hash = "8d3de9cc0eeff82427f74f44bd03458a712d39af1d8341819ad0026c1f714023"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/edible_processor.json"
+hash = "1fbc6345792647b6907cbb7bb9b258dd5d7e501b05ab71bb0cd3bde2de7c09c6"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/edible_processor_chip.json"
+hash = "2022c78aa29d335b3623da745b14fc6f1abc2bbb9fe1aa19d735cf029f941abc"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/edible_processor_photomask.json"
+hash = "ab1fc1651ceff730600d321b1f68acee8f5b0ebf36667c01aeaa934817b162ea"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/glass_shards.json"
+hash = "cc976bd2efd08c720bc1ac93399bf8e4474e639e8c15022af28e44f2f39598a7"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/glass_tube.json"
+hash = "e9b1e9b57f29029b2c67d624e9ecb7006074add94df888d0dcc7f5ec7e166a8a"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/impure_quartz_glass.json"
+hash = "84aad40e705c589548c4611758de3f3eca55c0a1dd07a6cdcbfb6f8b2ee33892"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/integrated_circuit.json"
+hash = "0ee905a5ecedfa704f639e01cb9cc691cde3a16efbd248726aa3a4057d74aefd"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/integrated_circuit_chip.json"
+hash = "b01dffbe8bdf01f13cfc1d8919da138b33b4e8e153bfd4befb65c2b6623cff40"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/integrated_circuit_photomask.json"
+hash = "bd4bbc2f3abc97b46911f46d71318321fcf3e17a6fd0ff003f41714d5d4b0f49"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/iron_spool.json"
+hash = "517809e8e74b675eb3400460aa5a21524572d161dd77e4a9fe4deec1d007618c"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/isotopic_decay_oscillator.json"
+hash = "9ecb9337022fabf0314abe28fbeeb71794e06e583d88b7d1626d1db591957382"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/isotopic_decay_oscillator_chip.json"
+hash = "f939cf29113e48771b10b0429365fc5a4c95027d9d58e435fc271dead425d7d1"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/isotopic_decay_oscillator_photomask.json"
+hash = "8989abb4d55cbcee2814bc2d59c1ee3350ede10d73ca72ca6023fe11f5199296"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/kelp_ash.json"
+hash = "9312c0b38ed15920daead4fdfacefa93a1002e05f4971cf7bf30177c67343cd7"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/molten_glass.json"
+hash = "9ecb916720a17cd95542f1f0282a42f89adbc0909e7cc2739b08664651516559"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/molten_glass_bucket_from_blasting.json"
+hash = "72267378f75e0e9be1dad1a65d86248718960ed5e8887b042e629924012a029b"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/mosfet.json"
+hash = "182fe7a9212f06f537e8e5fe95a625821bcd2641b40cb1726c21ccdd44b72b13"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/mosfet_chip.json"
+hash = "957ffdaf9d88a853abc83f832759d4329188629024f927a82c46ae18a24627e8"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/phosphorus.json"
+hash = "2dd8030273738ee752dfe8dc21762823343e93998fe9e99dc9d7c871ad8fae0a"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/phosphorus_injecting.json"
+hash = "e3d21827b172d33e5f1734e2e0967b713773a1b6a8352f0c729ac844e7fb0d1a"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/pure_quartz_glass.json"
+hash = "e0c82316c2ef9acb6bd9030e39d0539e028698d77b1382b2e63d94c80e8051c6"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/rocket_control_unit.json"
+hash = "9df657ee5b13b878c3cdf1192daa041c7355067f10041588ddbe3e329f633060"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/rudimentary_processor.json"
+hash = "b6ac2474b5063af6f72ffa30df698e8547942f96dde99781ddb1cf484ccf59b0"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/sand_mold.json"
+hash = "118cc247336669a2454fa4e31dc0f94584854413a0d461e277d33c43b0452a98"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/silica_bucket.json"
+hash = "de59594ea7096a4434aca2ca43ad443d5bb8c395414432fe562ac272561b19e3"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/silica_dust.json"
+hash = "4da807f58c33044c7507a19fe93f7c650955f8eedabb6a933be15c9ac24df1f9"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/silicon_boule.json"
+hash = "c263b4793cd70ec8a69462e64fd7d6fad0253ff7d32ace8548af8bd303bdc9ac"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/silicon_wafer.json"
+hash = "f2976abe4d7fcc360844cc1c99d918dc4da3a3131426a0422436474758688037"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/uranium_wafer.json"
+hash = "e4765d647fc67d59a0c2b22682c4df910750c74d96725f722b02ad334c9acc8b"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/vacuum_tube.json"
+hash = "7055c935c6126554be9535b55aae56d01c54e758a9b808005857c0ab9b7ec012"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/washed_silica_dust.json"
+hash = "0220ef8765b6ae3d79857756a12dc20dfbc4b7cd8bb9837183eed4aca97f28d6"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/maple_syrup_from_sap.json"
+hash = "ef883650455f128268864d3f58446ea0f1784d9bc7cc4c2eb3769b703086865e"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/mars_sand_to_venus_sand.json"
@@ -1549,142 +1757,6 @@ file = "kubejs/data/sgcommunity_pack/recipe/sandstone_cartouche.json"
 hash = "79da4dfa17baa52510cb20e5ad5c4ce148cdf9419563ffcde00c740dafeb8576"
 
 [[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/advanced_pcb_substrate.json"
-hash = "16354804cd143748c45014265e76d120836a0fe54108f732c02b179b4176792e"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/alu.json"
-hash = "4fcfc27d8eb737b5c9276223d96b62fd7defcd794cc521ae7655a2fa3cd0988f"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/baking_soda.json"
-hash = "40dfbecaed65c1d70ab9e86f689fec81704113b8cbcad5b18cfc96e9ce625aa8"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/computation_core.json"
-hash = "84698ba1eba93cf25066b8171817784fb500e7b08dcd3bdb41467d87b852289a"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/computation_core_frame.json"
-hash = "8749b070cc0132978891f14568d66819eb7379f3ea1eeae4f5b1222f65b21834"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/control_unit.json"
-hash = "8d3de9cc0eeff82427f74f44bd03458a712d39af1d8341819ad0026c1f714023"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/edible_processor.json"
-hash = "1fbc6345792647b6907cbb7bb9b258dd5d7e501b05ab71bb0cd3bde2de7c09c6"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/edible_processor_chip.json"
-hash = "2022c78aa29d335b3623da745b14fc6f1abc2bbb9fe1aa19d735cf029f941abc"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/edible_processor_photomask.json"
-hash = "ab1fc1651ceff730600d321b1f68acee8f5b0ebf36667c01aeaa934817b162ea"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/glass_shards.json"
-hash = "cc976bd2efd08c720bc1ac93399bf8e4474e639e8c15022af28e44f2f39598a7"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/glass_tube.json"
-hash = "e9b1e9b57f29029b2c67d624e9ecb7006074add94df888d0dcc7f5ec7e166a8a"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/impure_quartz_glass.json"
-hash = "84aad40e705c589548c4611758de3f3eca55c0a1dd07a6cdcbfb6f8b2ee33892"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/integrated_circuit.json"
-hash = "0ee905a5ecedfa704f639e01cb9cc691cde3a16efbd248726aa3a4057d74aefd"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/integrated_circuit_chip.json"
-hash = "b01dffbe8bdf01f13cfc1d8919da138b33b4e8e153bfd4befb65c2b6623cff40"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/integrated_circuit_photomask.json"
-hash = "bd4bbc2f3abc97b46911f46d71318321fcf3e17a6fd0ff003f41714d5d4b0f49"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/iron_spool.json"
-hash = "517809e8e74b675eb3400460aa5a21524572d161dd77e4a9fe4deec1d007618c"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/isotopic_decay_oscillator.json"
-hash = "2f7cbd464cac48fd014a4f74061490eb4b19139abcea86015e72ba3835264368"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/isotopic_decay_oscillator_chip.json"
-hash = "f939cf29113e48771b10b0429365fc5a4c95027d9d58e435fc271dead425d7d1"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/isotopic_decay_oscillator_photomask.json"
-hash = "8989abb4d55cbcee2814bc2d59c1ee3350ede10d73ca72ca6023fe11f5199296"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/kelp_ash.json"
-hash = "9312c0b38ed15920daead4fdfacefa93a1002e05f4971cf7bf30177c67343cd7"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/molten_glass.json"
-hash = "9ecb916720a17cd95542f1f0282a42f89adbc0909e7cc2739b08664651516559"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/molten_glass_bucket_from_blasting.json"
-hash = "72267378f75e0e9be1dad1a65d86248718960ed5e8887b042e629924012a029b"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/phosphorus.json"
-hash = "2dd8030273738ee752dfe8dc21762823343e93998fe9e99dc9d7c871ad8fae0a"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/phosphorus_injecting.json"
-hash = "e3d21827b172d33e5f1734e2e0967b713773a1b6a8352f0c729ac844e7fb0d1a"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/pure_quartz_glass.json"
-hash = "e0c82316c2ef9acb6bd9030e39d0539e028698d77b1382b2e63d94c80e8051c6"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/rocket_control_unit.json"
-hash = "9df657ee5b13b878c3cdf1192daa041c7355067f10041588ddbe3e329f633060"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/rudimentary_processor.json"
-hash = "b6ac2474b5063af6f72ffa30df698e8547942f96dde99781ddb1cf484ccf59b0"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/sand_mold.json"
-hash = "118cc247336669a2454fa4e31dc0f94584854413a0d461e277d33c43b0452a98"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/silica_bucket.json"
-hash = "de59594ea7096a4434aca2ca43ad443d5bb8c395414432fe562ac272561b19e3"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/silica_dust.json"
-hash = "4da807f58c33044c7507a19fe93f7c650955f8eedabb6a933be15c9ac24df1f9"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/silicon_wafer.json"
-hash = "f2976abe4d7fcc360844cc1c99d918dc4da3a3131426a0422436474758688037"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/uranium_wafer.json"
-hash = "e4765d647fc67d59a0c2b22682c4df910750c74d96725f722b02ad334c9acc8b"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/vacuum_tube.json"
-hash = "7055c935c6126554be9535b55aae56d01c54e758a9b808005857c0ab9b7ec012"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sgcommunity_item/washed_silica_dust.json"
-hash = "0220ef8765b6ae3d79857756a12dc20dfbc4b7cd8bb9837183eed4aca97f28d6"
-
-[[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/substrate/computational_substrate.json"
 hash = "43f15b950067dfe2e9389685eb951995c6e2ffc171c8687dc2c452b405508122"
 
@@ -1710,7 +1782,7 @@ hash = "f9c81f74c844aaf7ace2c164731c1c82de6bd89d4c1c465eb6f0e4d6de433ad0"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/substrate/inactive_naquadria_substrate.json"
-hash = "ed50c22663280593bd8585ab2b5db36b177e9d5e3c6a9bb2785ee218940b2450"
+hash = "93ba29ddff1fe986440c31e405902193bb35d29594c778012dca64a761743c7e"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/substrate/iron_substrate.json"
@@ -1726,7 +1798,7 @@ hash = "ca68312ba06626f419e1dce8454506c102aa492555b185a07d5d225c97487155"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/substrate/naquadria_substrate.json"
-hash = "4acf394aa91c5acebc4b9a4e14eb1bc04964212d0c026c3a08747e349af1db81"
+hash = "4b718dffc3152ff024a4a57838e64134c7fdb5cff7804290ac34b845fe68f20f"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/substrate/netherite_substrate_smithing.json"
@@ -1734,7 +1806,7 @@ hash = "9b2a437db39d5b9d9f8c746c157281a706bb52be238e227115cfcdfcd68cd248"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/substrate/positronic_substrate.json"
-hash = "481ca017e7fd928d5a10feec2793d1473a0d6869019c5ab4ede54329c3e78673"
+hash = "84eff2fd7e9c061b9c267daeaf34de14b16cc9b321cd2f28a17adc35bba9a31a"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/substrate/reactive_substrate.json"
@@ -2093,6 +2165,14 @@ file = "kubejs/data/shrink/recipe/shrinking_device.json"
 hash = "e91987afef86be8abf7afc5367ee99ca05562e079ba29c0efb23608ff8decfd5"
 
 [[files]]
+file = "kubejs/data/stellaris/recipe/misc/rocket_engine.json"
+hash = "a4dd77f6c1b81eba71d4b06c8cd47bc32c3dbd7dfcb524eebecb17b67bab533e"
+
+[[files]]
+file = "kubejs/data/stellaris/recipe/misc/rocket_fin.json"
+hash = "f42f0bcb9c85a25204fd5440a1edc124d5dff60a8b713697e278583be506caae"
+
+[[files]]
 file = "kubejs/data/travelanchors/recipe/travel_anchor.json"
 hash = "f84d12348a11a25a68e05e2f1d460fd562139ca61cfda81558c08408f32ce304"
 
@@ -2122,7 +2202,7 @@ hash = "3467573f12ca52203cd6b0d90e28e8074ad90567cd6c4b61601df9b9cedefb11"
 
 [[files]]
 file = "kubejs/server_scripts/old_common.js"
-hash = "8e34f4c597f0e4e7e386f7db173684db3d42cfd98fe192bb348e3ef00cf3c6de"
+hash = "b0cb73f225718c6340f1fd232163a493057e3f0c39c17b6dde916b918c24ded3"
 
 [[files]]
 file = "kubejs/server_scripts/randomTagsFix.js"
@@ -2134,7 +2214,7 @@ hash = "4ba32d7d4977bc5a49062cbd39fbc312e1de9187ed0ea2dfb3b9c12630c7852f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "77fb66d67ff653029a22f7c2fc0f4f0faf152cdbf595c21d3b97aa97bd7d1a55"
+hash = "6e5ed5886d1faee8d8915b888355278b2cdab9181679716fc973ddd472ccc9fa"
 
 [[files]]
 file = "kubejs/server_scripts/rftools.js"
@@ -2154,11 +2234,11 @@ hash = "5028f012446a9261924caed2ed5e19c63494628e9ad87d9ea61a5d1ad267ecb4"
 
 [[files]]
 file = "kubejs/startup_scripts/old_common.js"
-hash = "8e34f4c597f0e4e7e386f7db173684db3d42cfd98fe192bb348e3ef00cf3c6de"
+hash = "b0cb73f225718c6340f1fd232163a493057e3f0c39c17b6dde916b918c24ded3"
 
 [[files]]
 file = "kubejs/startup_scripts/startup.js"
-hash = "c35d76fb932f251032cbc98f2c718639e928b0bc5932dc147e93c905c1b793d1"
+hash = "b700885b6ece0da2e5a8a34900999c5e22b8609b5d3963f97eac020b6c795a71"
 
 [[files]]
 file = "mods/advanced-peripherals.pw.toml"
@@ -2168,6 +2248,11 @@ metafile = true
 [[files]]
 file = "mods/ae2-import-export-card.pw.toml"
 hash = "d7f68fbe4acc48670742ba22c88eef041fc7284af4d8d9d0fdc3b3086220f203"
+metafile = true
+
+[[files]]
+file = "mods/ae2-jei-integration.pw.toml"
+hash = "491974dc6adba0e893fb755f55dfe833a1076ba49fdf9e4f92b8b9fa069ce9b5"
 metafile = true
 
 [[files]]
@@ -2703,6 +2788,11 @@ metafile = true
 [[files]]
 file = "mods/kubejs-create.pw.toml"
 hash = "21a5deb5da882d9f3eb4eaf7f0cf77f52737e1e6b44d2f691bf10fda9c86d790"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-mekanism.pw.toml"
+hash = "d8e177615c38e56e8f712f9144c0f9f50e74adf5fe88c7fb0aa88e33cb1dbcdc"
 metafile = true
 
 [[files]]
