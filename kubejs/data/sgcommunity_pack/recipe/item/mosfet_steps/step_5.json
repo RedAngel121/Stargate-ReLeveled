@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:injecting",
+  "chemical_input": {
+    "amount": 1,
+    "chemical": "mekanism:phosphorus"
+  },
+  "item_input": {
+    "count": 1,
+    "item": "sgcommunity_pack:incomplete_mosfet_wafer"
+  },
+  "output": {
+    "count": 1,
+    "id": "sgcommunity_pack:mosfet_wafer"
+  },
+  "per_tick_usage": true
+}

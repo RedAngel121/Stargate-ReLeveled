@@ -19,6 +19,9 @@
                     "absolute": -10
                 }
             }
+        },
+        {
+            "type": "create:config_filter"
         }
     ]
 }

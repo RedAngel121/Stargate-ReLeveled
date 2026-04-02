@@ -15,6 +15,9 @@
             },
             {
                 "item": "biomesoplenty:umbran_sapling"
+            },
+            {
+                "item": "biomesoplenty:empyreal_sapling"
             }
         ],
         "m": [
@@ -23,6 +26,9 @@
             },
             {
                 "item": "biomesoplenty:rainbow_birch_sapling"
+            },
+            {
+                "item": "minecraft:cherry_sapling"
             }
         ],
         "b": [

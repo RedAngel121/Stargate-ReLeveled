@@ -33,7 +33,6 @@
 - a few more that i probably forgot to add
 
 ### Removals:
-- Create Design and Decor (Extreme Instability)
 - Botarium
 - Canary
 - Dairy Peripherals
@@ -58,10 +57,11 @@
 - Overlapless Config: Add SGJ stuff to prevent loss of progression
 - Quark/Zeta is causing crash on startup (keybind error resolved:	"Back Button Keybind" = false)
 - Refactor the entire KubeJS folder to accomodate the new mod changes and 1.21.1 update
-  - #forge replaced with #c (parially done)
-  - check if custom Kubejs script still works (almost)
-  - Extract all standard crafting table recipes and make them their own recipe json files
-- Find a replacement for Discord RPC and Discord Chat Integration mods
+  - [ ] fix custom Kubejs scripts
+  - [x] #forge replaced with #c
+  - [x] Extract all standard crafting recipes and make them their own recipe json files
+- Find a replacement for Discord RPC 
+- Discord Chat Integration replaced with https://www.curseforge.com/minecraft/mc-mods/viscord
 - Adjust the configs folder for mod additions/removals
 - Redo the Quests to make use of the updated mods
 

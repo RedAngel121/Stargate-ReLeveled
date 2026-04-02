@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "g": {
+      "tag": "sgcommunity_pack:circuit_basic"
+    },
+    "s": {
+      "tag": "c:stones"
+    }
+  },
+  "pattern": [
+    "ggg",
+    "sss"
+  ],
+  "result": {
+    "count": 1,
+    "id": "rftoolsbase:machine_base"
+  }
+}

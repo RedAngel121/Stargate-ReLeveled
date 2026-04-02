@@ -1,8 +1,8 @@
 {
     "type": "mekanism:combining",
     "extra_input": {
-        "count": 1,
-        "tag": "c:ingots/copper"
+        "count": 2,
+        "tag": "c:wires/copper"
     },
     "main_input": {
         "count": 1,

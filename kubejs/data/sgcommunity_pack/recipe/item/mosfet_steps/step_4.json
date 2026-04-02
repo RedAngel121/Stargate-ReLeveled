@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:injecting",
+  "chemical_input": {
+    "amount": 1,
+    "chemical": "mekanism:boron_trifluoride"
+  },
+  "item_input": {
+    "count": 1,
+    "item": "sgcommunity_pack:incomplete_mosfet_wafer"
+  },
+  "output": {
+    "count": 1,
+    "id": "sgcommunity_pack:incomplete_mosfet_wafer",
+    "nbt": "{display:{Lore:['{\"text\":\"Step 5: Inject Phosphorus (200mb)\"}']},step:5}"
+  },
+  "per_tick_usage": true
+}

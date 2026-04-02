@@ -1,0 +1,30 @@
+{
+  "type": "mcjtylib:copy_components",
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "A": {
+        "item": "rftoolsbuilder:shield_block2"
+      },
+      "S": {
+        "item": "minecraft:obsidian"
+      },
+      "D": {
+        "item": "mekanism:pellet_antimatter"
+      },
+      "F": {
+        "item": "rftoolsbase:dimensionalshard"
+      }
+    },
+    "pattern": [
+      "FSF",
+      "ADA",
+      "FSF"
+    ],
+    "result": {
+      "count": 1,
+      "id": "rftoolsbuilder:shield_block3"
+    }
+  }
+}

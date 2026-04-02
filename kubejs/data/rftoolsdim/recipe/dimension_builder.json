@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "rftoolsbase:machine_frame"
+    },
+    "d": {
+      "tag": "sgcommunity_pack:circuit_advanced"
+    },
+    "e": {
+      "item": "minecraft:emerald"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "o": {
+      "tag": "c:ender_pearls"
+    }
+  },
+  "pattern": [
+    "odo",
+    "dFd",
+    "ggg"
+  ],
+  "result": {
+    "count": 1,
+    "id": "rftoolsdim:dimension_builder"
+  }
+}
