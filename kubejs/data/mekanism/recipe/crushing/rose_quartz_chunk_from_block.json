@@ -7,6 +7,6 @@
     },
     "output": {
         "count": 4,
-        "item": "biomesoplenty:rose_quartz_chunk"
+        "id": "biomesoplenty:rose_quartz_chunk"
     }
 }

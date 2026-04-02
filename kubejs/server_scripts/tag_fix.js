@@ -7,18 +7,18 @@ ServerEvents.tags("fluid", event => {
     }
 });
 
+// Adding Blaze stuff cause mek hates items
+ServerEvents.tags('item', event => {
+    event.add('c:dusts/blaze', 'minecraft:blaze_powder')
+    event.add('c:eggs/blaze', 'minecraft:blaze_spawn_egg')
+})
+
 
 // VERIFY HOW MUCH OF THIS IS EVEN REQUIRED ANYMORE
 
 // // Pams salt is now Mek salt instead
 // ServerEvents.tags('item', event => {
 //     event.add('c:dusts/salt', 'pamhc2foodcore:saltitem')
-// })
-// 
-// // Adding Blaze stuff cause mek hates items
-// ServerEvents.tags('item', event => {
-//     event.add('c:dusts/blaze', 'minecraft:blaze_powder')
-//     event.add('c:eggs/blaze', 'minecraft:blaze_spawn_egg')
 // })
 // 
 // // RFTools Shields can now hold back Oxygen generated from Ad Astra
