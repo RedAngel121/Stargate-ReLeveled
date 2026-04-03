@@ -1,53 +1,106 @@
 ServerEvents.recipes(event => {
+    const INCOMPLETE = 'sgcommunity_pack:incomplete_mosfet_wafer'
+    const FINAL = 'sgcommunity_pack:mosfet_wafer'
+    const START = 'sgcommunity_pack:silicon_wafer'
 
-  const WAFER = 'sgcommunity_pack:incomplete_mosfet_wafer'
-
-  function wafer(step, text) {
-    let stack = Item.of(WAFER)
-
-    // attach modern components (1.21.1 system)
-    stack = stack.withComponent("minecraft:custom_data", { step: step })
-
-    if (text) {
-      stack = stack.withComponent("minecraft:lore", [text])
+    function loreLine(label) {
+        return JSON.stringify({
+            text: String(label),
+            color: 'dark_purple',
+            italic: true
+        })
     }
 
-    return stack
-  }
+    function waferComponents(step, label) {
+        return {
+            'minecraft:custom_data': {
+                sgcommunity_pack: {
+                    mosfet_step: step,
+                    mosfet_label: String(label)
+                }
+            },
+            'minecraft:lore': [
+                loreLine(label)
+            ]
+        }
+    }
 
-  // Step 1 → Step 2
-  event.recipes.mekanism.injecting(
-    wafer(2, "Step 2: Inject Water Vapor (2000mb)"),
-    "sgcommunity_pack:silicon_wafer",
-    Chemical.of("mekanism:silicon", 1)
-  )
+    function stagedWaferInput(step, label) {
+        return {
+            type: 'neoforge:components',
+            items: [INCOMPLETE],
+            components: waferComponents(step, label),
+            strict: false,
+            amount: 1
+        }
+    }
 
-  // Step 2 → Step 3
-  event.recipes.mekanism.injecting(
-    wafer(3, "Step 3: Etch Wafer"),
-    wafer(2, "Step 2: Inject Water Vapor (2000mb)"),
-    Chemical.ofTag("mekanism:water_vapor", 2000)
-  )
+    function stagedWaferOutput(step, label) {
+        return {
+            id: INCOMPLETE,
+            count: 1,
+            components: waferComponents(step, label)
+        }
+    }
 
-  // Step 3 → Step 4
-  event.recipes.mekanism.injecting(
-    wafer(4, "Step 4: Inject Boron"),
-    wafer(3, "Step 3: Etch Wafer"),
-    Chemical.of("mekanism:hydrofluoric_acid", 400)
-  )
+    event.custom({
+        type: "mekanism:injecting",
+        item_input: {
+            item: START,
+            amount: 1
+        },
+        chemical_input: {
+            chemical: "mekanism:silicon",
+            amount: 1
+        },
+        output: stagedWaferOutput(2, "Step 2: Inject Water Vapor"),
+        "per_tick_usage": true
+    })
 
-  // Step 4 → Step 5
-  event.recipes.mekanism.injecting(
-    wafer(5, "Step 5: Inject Phosphorus"),
-    wafer(4, "Step 4: Inject Boron"),
-    Chemical.of("mekanism:boron_trifluoride", 400)
-  )
+    event.custom({
+        type: "mekanism:injecting",
+        item_input: stagedWaferInput(2, "Step 2: Inject Water Vapor"),
+        chemical_input: {
+            tag: "mekanism:water_vapor",
+            amount: 1
+        },
+        output: stagedWaferOutput(3, "Step 3: Etch Wafer"),
+        "per_tick_usage": true
+    })
 
-  // Step 5 → Final
-  event.recipes.mekanism.injecting(
-    "sgcommunity_pack:mosfet_wafer",
-    wafer(5, "Step 5: Inject Phosphorus"),
-    Chemical.of("mekanism:phosphorus", 200)
-  )
+    event.custom({
+        type: "mekanism:injecting",
+        item_input: stagedWaferInput(3, "Step 3: Etch Wafer"),
+        chemical_input: {
+            chemical: "mekanism:hydrofluoric_acid",
+            amount: 1
+        },
+        output: stagedWaferOutput(4, "Step 4: Inject Boron"),
+        "per_tick_usage": true
+    })
 
+    event.custom({
+        type: "mekanism:injecting",
+        item_input: stagedWaferInput(4, "Step 4: Inject Boron"),
+        chemical_input: {
+            chemical: "mekanism:boron_trifluoride",
+            amount: 1
+        },
+        output: stagedWaferOutput(5, "Step 5: Inject Phosphorus"),
+        "per_tick_usage": true
+    })
+
+    event.custom({
+        type: "mekanism:injecting",
+        item_input: stagedWaferInput(5, "Step 5: Inject Phosphorus"),
+        chemical_input: {
+            chemical: "mekanism:phosphorus",
+            amount: 1
+        },
+        output: {
+            id: FINAL,
+            count: 1
+        },
+        "per_tick_usage": true
+    })
 })

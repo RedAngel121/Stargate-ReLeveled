@@ -1,13 +1,13 @@
 name = "Pam's HarvestCraft 2 - Trees"
-filename = "pamhc2trees-NEOFORGE-1.21.1-1.0.8.jar"
+filename = "pamhc2trees-NEOFORGE-1.21.1-1.0.9.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "2e0599be6a7fd8278d0db1f1fb739d9d96562d4c"
+hash = "85d54e1d4d32f669d3f183945dc813360263ca91"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7758071
+file-id = 7847533
 project-id = 365460
