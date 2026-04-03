@@ -1721,26 +1721,6 @@ file = "kubejs/data/sgcommunity_pack/recipe/item/mosfet_chip.json"
 hash = "957ffdaf9d88a853abc83f832759d4329188629024f927a82c46ae18a24627e8"
 
 [[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/item/mosfet_steps/step_1.json"
-hash = "adf2d16643c82318d68fae833a6dcf9f7c1099f965fa484411f71b7a346bb18a"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/item/mosfet_steps/step_2.json"
-hash = "e9149349774ae410722dae4da0ebbcf17d4c1e8b843c669c3ff6961fffd0c778"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/item/mosfet_steps/step_3.json"
-hash = "f8b01082192cfadf3393276acc741f64a0e02627e35532a848b163e2f490b3ba"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/item/mosfet_steps/step_4.json"
-hash = "1e4965cc6eec8adcfbcf653e3b263579ce4b30d9128381cee327e9c3f9e10c20"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/item/mosfet_steps/step_5.json"
-hash = "0213f4f2cb9928c2bdb05ea11e33c1c3b35fcc93e9dae5355ec9086cdad681ed"
-
-[[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/item/phosphorus.json"
 hash = "2dd8030273738ee752dfe8dc21762823343e93998fe9e99dc9d7c871ad8fae0a"
 
@@ -2277,6 +2257,10 @@ file = "kubejs/server_scripts/iris_smithing.js"
 hash = "cede91a6a4be76637442aed28e3f34c87fa577797fb6d7e54ff1fdcd450a6247"
 
 [[files]]
+file = "kubejs/server_scripts/mosfet_chain.js"
+hash = "9b9f1e439956b70914e5998eda5f9396d0502478279be8b970c667f1dc9f4e32"
+
+[[files]]
 file = "kubejs/server_scripts/server.js"
 hash = "54cb31b6b173f01c3b6ca45010f6d08aec40785797aee027a13a369265aad7e0"
 
@@ -2290,7 +2274,11 @@ hash = "e70ff5bbeb4ca77070306957feb56b7cafb7503c604c810c431535b374789e72"
 
 [[files]]
 file = "kubejs/startup_scripts/chems.js"
-hash = "8f28eca561f2ca6efa119fb39c0c2c2d8436f9fb4aafa303fbeccd57df7a4076"
+hash = "cfbc012be9a55e5480e182438a55d444e1ace0f18bade316c16dd256a4c4f028"
+
+[[files]]
+file = "kubejs/startup_scripts/creative_tab.js"
+hash = "ebbc360dfda9215f8c0060ae1e9ce2f456166a1d55213671bf667720f5106d8f"
 
 [[files]]
 file = "kubejs/startup_scripts/fluids.js"

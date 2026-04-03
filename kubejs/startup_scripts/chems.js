@@ -38,8 +38,3 @@ StartupEvents.registry("mekanism:chemical", event => {
         .tint(0x444444);
 
 });
-
-StartupEvents.modifyCreativeTab("kubejs:tab", event => {
-    event.setDisplayName("Stargate: ReLeveled");
-    event.setIcon(Item.INTEGRATED_CIRCUIT.getIdentifier());
-});
