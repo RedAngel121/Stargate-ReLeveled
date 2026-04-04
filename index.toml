@@ -2258,7 +2258,7 @@ hash = "715581e8eb9e597a73e55cb7f6db4cf67515a2af5fac0a6ec63e27855a025ec6"
 
 [[files]]
 file = "kubejs/server_scripts/integrated_curcuit_chain.js"
-hash = "4f004db92816c263ca2be23070b8dcc9eb915e53eeb80a8eac1edfab5358c7bb"
+hash = "d5ec4b6eb9144e0b5d6e6e99d3884847d7bcea7cd7f2cfe530261ac7e5d6e5ea"
 
 [[files]]
 file = "kubejs/server_scripts/iris_smithing.js"
@@ -2266,7 +2266,7 @@ hash = "cede91a6a4be76637442aed28e3f34c87fa577797fb6d7e54ff1fdcd450a6247"
 
 [[files]]
 file = "kubejs/server_scripts/isotopic_decay_oscillator_chain.js"
-hash = "c466aa991878cd8d2aa6a2af454cd7f47046f0fa194a624c2ebac261cc170d5b"
+hash = "c8afc979b602039e0f9767536da358c02257e291f9f4410f23faf4edef9d72fd"
 
 [[files]]
 file = "kubejs/server_scripts/mosfet_chain.js"
@@ -2274,7 +2274,7 @@ hash = "58fc30d8edd6b01e8f764985aead40914279ca7f3f724e278c76d416a94e91b9"
 
 [[files]]
 file = "kubejs/server_scripts/server.js"
-hash = "01f9032e5eb75c7629d5aea3cbff738f6fbc4040b8d7877d607e040ba1d4ff67"
+hash = "8dacb91f49c4bfb49211ddaa994efac7eb901f255baa06edc2b1e447080d2b99"
 
 [[files]]
 file = "kubejs/server_scripts/tag_fix.js"
@@ -2378,6 +2378,11 @@ metafile = true
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
 hash = "afa4f499d946514c51f41f8f2202ac0946052b012570a210ebb31f0d0d627672"
+metafile = true
+
+[[files]]
+file = "mods/applied-kubejs-kjs-ae2.pw.toml"
+hash = "83df5467fdb3640f50ebbb8f018b79162ee90333babfc4ec600345e0306230b6"
 metafile = true
 
 [[files]]

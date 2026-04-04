@@ -61,27 +61,20 @@ ServerEvents.recipes(event => {
         type: "mekanism:injecting",
         item_input: stagedWaferInput(2, "Step 2: Apply Photoresist"),
         chemical_input: {
-            tag: "mekanism:photoresist",
+            chemical: "mekanism:photoresist",
             amount: 2
         },
         output: stagedWaferOutput(3, "Step 3: Expose Photoresist"),
         "per_tick_usage": true
     })
 
-    event.custom({
-        type: "ae2:inscriber",
-        middle: {
-            item: stagedWaferInput(3, "Step 3: Expose Photoresist")
-        },
-        top: {
-            item: "sgcommunity_pack:integrated_circuit_photomask"
-        },
-        mode: "inscribe",
-        result: {
-            count: 1,
-            item: stagedWaferOutput(4, "Step 4: Etch Wafer")
-        }
-    })
+    AE2Recipes.inscriber(
+    event,
+    'inscribe',
+    stagedWaferInput(3, "Step 3: Expose Photoresist"),
+    "sgcommunity_pack:integrated_circuit_photomask",
+    stagedWaferOutput(4, "Step 4: Etch Wafer"),
+    )
 
     event.custom({
         type: "mekanism:injecting",
@@ -98,27 +91,20 @@ ServerEvents.recipes(event => {
         type: "mekanism:injecting",
         item_input: stagedWaferInput(5, "Step 5: Apply Photoresist"),
         chemical_input: {
-            tag: "mekanism:photoresist",
+            chemical: "mekanism:photoresist",
             amount: 2
         },
         output: stagedWaferOutput(6, "Step 6: Expose Photoresist"),
         "per_tick_usage": true
     })
 
-    event.custom({
-        type: "ae2:inscriber",
-        middle: {
-            item: stagedWaferInput(6, "Step 6: Expose Photoresist")
-        },
-        top: {
-            item: "sgcommunity_pack:integrated_circuit_photomask"
-        },
-        mode: "inscribe",
-        result: {
-            count: 1,
-            item: stagedWaferOutput(7, "Step 7: Inject Phosphorus")
-        }
-    })
+    AE2Recipes.inscriber(
+    event,
+    'inscribe',
+    stagedWaferInput(6, "Step 6: Expose Photoresist"),
+    "sgcommunity_pack:integrated_circuit_photomask",
+    stagedWaferOutput(7, "Step 7: Inject Phosphorus"),
+    )
 
     event.custom({
         type: "mekanism:injecting",
@@ -130,7 +116,7 @@ ServerEvents.recipes(event => {
         output: stagedWaferOutput(8, "Step 8: Apply Photoresist"),
         "per_tick_usage": true
     })
-// Good so far
+
     event.custom({
         type: "mekanism:injecting",
         item_input: stagedWaferInput(8, "Step 8: Apply Photoresist"),
@@ -142,20 +128,13 @@ ServerEvents.recipes(event => {
         "per_tick_usage": true
     })
 
-    event.custom({
-        type: "ae2:inscriber",
-        middle: {
-            item: stagedWaferInput(9, "Step 9: Expose Photoresist")
-        },
-        top: {
-            item: "sgcommunity_pack:integrated_circuit_photomask"
-        },
-        mode: "inscribe",
-        result: {
-            count: 1,
-            item: stagedWaferOutput(10, "Step 10: Etch Wafer")
-        }
-    })
+    AE2Recipes.inscriber(
+    event,
+    'inscribe',
+    stagedWaferInput(9, "Step 9: Expose Photoresist"),
+    "sgcommunity_pack:integrated_circuit_photomask",
+    stagedWaferOutput(10, "Step 10: Etch Wafer"),
+    )
 
     event.custom({
         type: "mekanism:injecting",
@@ -190,20 +169,13 @@ ServerEvents.recipes(event => {
         "per_tick_usage": true
     })
 
-    event.custom({
-        type: "ae2:inscriber",
-        middle: {
-            item: stagedWaferInput(13, "Step 13: Expose Photoresist")
-        },
-        top: {
-            item: "sgcommunity_pack:integrated_circuit_photomask"
-        },
-        mode: "inscribe",
-        result: {
-            count: 1,
-            item: stagedWaferOutput(14, "Step 14: Etch Wafer")
-        }
-    })
+    AE2Recipes.inscriber(
+    event,
+    'inscribe',
+    stagedWaferInput(13, "Step 13: Expose Photoresist"),
+    "sgcommunity_pack:integrated_circuit_photomask",
+    stagedWaferOutput(14, "Step 14: Etch Wafer"),
+    )
 
     event.custom({
         type: "mekanism:injecting",
@@ -227,20 +199,13 @@ ServerEvents.recipes(event => {
         "per_tick_usage": true
     })
 
-    event.custom({
-        type: "ae2:inscriber",
-        middle: {
-            item: stagedWaferInput(16, "Step 16: Expose Photoresist")
-        },
-        top: {
-            item: "sgcommunity_pack:integrated_circuit_photomask"
-        },
-        mode: "inscribe",
-        result: {
-            count: 1,
-            item: stagedWaferOutput(17, "Step 17: Inject Boron")
-        }
-    })
+    AE2Recipes.inscriber(
+    event,
+    'inscribe',
+    stagedWaferInput(16, "Step 16: Expose Photoresist"),
+    "sgcommunity_pack:integrated_circuit_photomask",
+    stagedWaferOutput(17, "Step 17: Inject Boron"),
+    )
 
     event.custom({
         type: "mekanism:injecting",
@@ -260,24 +225,17 @@ ServerEvents.recipes(event => {
             chemical: "mekanism:photoresist",
             amount: 2
         },
-        output: stagedWaferOutput(19, "Step 19: Apply Photoresist"),
+        output: stagedWaferOutput(19, "Step 19: Expose Photoresist"),
         "per_tick_usage": true
     })
 
-    event.custom({
-        type: "ae2:inscriber",
-        middle: {
-            item: stagedWaferInput(19, "Step 19: Expose Photoresist")
-        },
-        top: {
-            item: "sgcommunity_pack:integrated_circuit_photomask"
-        },
-        mode: "inscribe",
-        result: {
-            count: 1,
-            item: stagedWaferOutput(20, "Step 20: Inject Phosphorus")
-        }
-    })
+    AE2Recipes.inscriber(
+    event,
+    'inscribe',
+    stagedWaferInput(19, "Step 19: Expose Photoresist"),
+    "sgcommunity_pack:integrated_circuit_photomask",
+    stagedWaferOutput(20, "Step 20: Inject Phosphorus"),
+    )
 
     event.custom({
         type: "mekanism:injecting",
