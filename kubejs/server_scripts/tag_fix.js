@@ -21,10 +21,12 @@ ServerEvents.tags('item', event => {
     event.add('c:eggs/blaze', 'minecraft:blaze_spawn_egg')
 })
 
-// SALT IS SALT
+// PAMS NEEDS TO GET A GRIP
 ServerEvents.tags('item', event => {
     event.add('c:dusts/salt', 'c:salt/salt')
     event.add('c:salt/salt', 'c:dusts/salt')
+    event.add('c:flour/flour', 'c:flours/wheat')
+    event.add('c:flours/wheat', 'c:flour/flour')
 })
 
 // Tagging Limited Barrels

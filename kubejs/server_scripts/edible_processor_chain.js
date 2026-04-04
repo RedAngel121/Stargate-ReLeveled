@@ -1,8 +1,8 @@
+// INCOMPLETE
 ServerEvents.recipes(event => {
     const START = 'sgcommunity_pack:wafer'
     const INCOMPLETE = 'sgcommunity_pack:incomplete_edible_processor_wafer'
     const FINAL = 'sgcommunity_pack:edible_processor_wafer'
-
     function loreLine(label) {
         return JSON.stringify({
             text: String(label),
@@ -10,7 +10,6 @@ ServerEvents.recipes(event => {
             italic: true
         })
     }
-
     function waferComponents(step, label) {
         return {
             'minecraft:custom_data': {
@@ -24,7 +23,6 @@ ServerEvents.recipes(event => {
             ]
         }
     }
-
     function stagedWaferInput(step, label) {
         return {
             type: 'neoforge:components',
@@ -34,7 +32,6 @@ ServerEvents.recipes(event => {
             amount: 1
         }
     }
-
     function stagedWaferOutput(step, label) {
         return {
             id: INCOMPLETE,
@@ -42,65 +39,33 @@ ServerEvents.recipes(event => {
             components: waferComponents(step, label)
         }
     }
+    event.recipes.create.filling(stagedWaferOutput(2, "Step 2: Mix With Maple Syrup"), [Fluid.of('500x create:honey'), START])
+    event.recipes.create.mixing(stagedWaferOutput(3, "Step 3: Harden Syrup"), [Ingredient.of(stagedWaferInput(2, "Step 2: Mix With Maple Syrup")), Ingredient.of("pamhc2trees:maplesyrupitem")])
+    AE2Recipes.inscriber(event,
+        'inscribe',
+        stagedWaferInput(3, "Step 3: Harden Syrup"),
+        "sgcommunity_pack:edible_processor_photomask",
+        stagedWaferOutput(4, "Step 4: Etch Wafer"),
+    )
 
-//    event.custom({
-//        type: "mekanism:injecting",
-//        item_input: {
-//            item: START,
-//            amount: 1
-//        },
-//        chemical_input: {
-//            chemical: "mekanism:silicon",
-//            amount: 1
-//        },
-//        output: stagedWaferOutput(2, "Step 2: Inject Water Vapor"),
-//        "per_tick_usage": true
-//    })
-//
-//    event.custom({
-//        type: "mekanism:injecting",
-//        item_input: stagedWaferInput(2, "Step 2: Inject Water Vapor"),
-//        chemical_input: {
-//            tag: "mekanism:water_vapor",
-//            amount: 1
-//        },
-//        output: stagedWaferOutput(3, "Step 3: Etch Wafer"),
-//        "per_tick_usage": true
-//    })
-//
-//    event.custom({
-//        type: "mekanism:injecting",
-//        item_input: stagedWaferInput(3, "Step 3: Etch Wafer"),
-//        chemical_input: {
-//            chemical: "mekanism:hydrofluoric_acid",
-//            amount: 1
-//        },
-//        output: stagedWaferOutput(4, "Step 4: Inject Boron"),
-//        "per_tick_usage": true
-//    })
-//
-//    event.custom({
-//        type: "mekanism:injecting",
-//        item_input: stagedWaferInput(4, "Step 4: Inject Boron"),
-//        chemical_input: {
-//            chemical: "mekanism:boron_trifluoride",
-//            amount: 1
-//        },
-//        output: stagedWaferOutput(5, "Step 5: Inject Phosphorus"),
-//        "per_tick_usage": true
-//    })
-//
-//    event.custom({
-//        type: "mekanism:injecting",
-//        item_input: stagedWaferInput(5, "Step 5: Inject Phosphorus"),
-//        chemical_input: {
-//            chemical: "mekanism:phosphorus",
-//            amount: 1
-//        },
-//        output: {
-//            id: FINAL,
-//            count: 1
-//        },
-//        "per_tick_usage": true
-//    })
+
+    event.recipes.create.mixing(stagedWaferOutput(6, "Step 6: Harden Syrup"), [Ingredient.of(stagedWaferInput(5, "Step 5: Mix With Maple Syrup")), Ingredient.of("pamhc2trees:maplesyrupitem")])
+    AE2Recipes.inscriber(event,
+        'inscribe',
+        stagedWaferInput(6, "Step 6: Harden Syrup"),
+        "sgcommunity_pack:edible_processor_photomask",
+        stagedWaferOutput(7, "Step 7: Etch Wafer"),
+    )
+
+
+    event.recipes.create.mixing(stagedWaferOutput(9, "Step 9: Harden Syrup"), [Ingredient.of(stagedWaferInput(8, "Step 8: Mix With Maple Syrup")), Ingredient.of("pamhc2trees:maplesyrupitem")])
+    AE2Recipes.inscriber(event,
+        'inscribe',
+        stagedWaferInput(9, "Step 9: Harden Syrup"),
+        "sgcommunity_pack:edible_processor_photomask",
+        stagedWaferOutput(10, "Step 10: Etch Wafer"),
+    )
+
+
+    event.smoking(FINAL, stagedWaferInput(12, "Step 12: Caramelize Sugar"))
 })

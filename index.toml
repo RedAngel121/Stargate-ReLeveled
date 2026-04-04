@@ -2254,7 +2254,7 @@ hash = "1c0441f95179b918edb639d938d303323a19e4b5e5a2a6dfdd1ebcaf1745b710"
 
 [[files]]
 file = "kubejs/server_scripts/edible_processor_chain.js"
-hash = "715581e8eb9e597a73e55cb7f6db4cf67515a2af5fac0a6ec63e27855a025ec6"
+hash = "e8d7365f4e5f3c20689c6a794daa50d06527997eda58d379119e587151175172"
 
 [[files]]
 file = "kubejs/server_scripts/integrated_curcuit_chain.js"
@@ -2278,7 +2278,11 @@ hash = "8dacb91f49c4bfb49211ddaa994efac7eb901f255baa06edc2b1e447080d2b99"
 
 [[files]]
 file = "kubejs/server_scripts/tag_fix.js"
-hash = "84348666e3686cba80a1fa8afbf7f5fe96fbea0c12547b5b99fd5937bc0d397a"
+hash = "24a2255654579fee374c6b40a19933707302f84c1876ab12744fb6819cde948f"
+
+[[files]]
+file = "kubejs/server_scripts/wafer_chain.js"
+hash = "eb0c8ea4df04a5e82a874a6c0fbb06ae66a6947eec3e165451c873aa3414b47a"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
