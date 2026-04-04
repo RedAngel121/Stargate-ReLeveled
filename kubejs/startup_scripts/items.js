@@ -1,4 +1,6 @@
 // priority: 0
+console.info("Loading Items")
+
 const Tags = {
     CIRCUIT: `sgcommunity_pack:circuit`,
     CIRCUIT_BASIC: `sgcommunity_pack:circuit_basic`,

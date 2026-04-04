@@ -51,7 +51,7 @@ const organicCompostItems = Ingredient.of("#c:crops").getItemIds();
 
 
 // ===============================
-// RECIPES / BOTANY POTS
+// RECIPES / BOTANY POTS - WILL MYST AG MAKE THIS USELESS?
 // ===============================
 
 ServerEvents.recipes(event => {
@@ -95,7 +95,9 @@ ServerEvents.recipes(event => {
         }
     });
 
-    // ===== BOTANY SOILS =====
+// ===============================
+// BOTANY POT SOILS - WILL MYST AG MAKE THIS USELESS?
+// ===============================
 
     event.custom({
         type: "botanypots:soil",
@@ -113,6 +115,7 @@ ServerEvents.recipes(event => {
         growthModifier: 4
     });
 
+    // Throwing Error while parsing recipe: Input does not contain a key [type]: MapLike[{"block":"sgcommunity_pack:floral_compost"}]
     event.custom({
         type: "botanypots:soil",
         input: { item: "sgcommunity_pack:floral_compost" },
@@ -130,23 +133,6 @@ ServerEvents.recipes(event => {
     });
 
 });
-
-
-// ===============================
-// TAGS
-// ===============================
-
-ServerEvents.tags("block", event => {
-    event.add("sgjourney:kawoosh_immune", "gravestone:gravestone");
-});
-
-ServerEvents.tags("item", event => {
-    event.add("sgcommunity_pack:convert_mosfet", "minecraft:redstone");
-    event.add("sgcommunity_pack:convert_ic", "mekanism:ingot_osmium");
-    event.add("sgcommunity_pack:convert_computation_core", "mekanism:advanced_control_circuit");
-    event.add("sgcommunity_pack:convert_isotopic_oscillator", "mekanism:ingot_uranium");
-});
-
 
 // ===============================
 // EASY MODE COMMANDS
@@ -193,7 +179,7 @@ ServerEvents.commandRegistry(event => {
 
 
 // ===============================
-// PLAYER LOGIN BOOK
+// PLAYER LOGIN BOOK - PLEASE FIX
 // ===============================
 
 EntityEvents.spawned("minecraft:player", event => {

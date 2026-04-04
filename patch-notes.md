@@ -38,7 +38,7 @@
 - Dairy Peripherals
 - Experimental Settings Disabler
 - MrCrayfish's Furniture Mod (Duplicate)
-- Dimensional Structure Restrict (waiting on 1.21.1 update to re-add it... if needed)
+- Dimensional Structure Restrict (waiting on 1.21.1 update)
 - Game Stages
 - FTB Item Filters
 - Mekanism Covers (Dupe for Cable Facades)
@@ -54,6 +54,7 @@
 - Gauges and Switches (waiting on 1.21.1 update to re-add it)
 
 ### NOTES:
+- DimStruc Restrict mod needs to be updated to handle the Overworld Mirror gates generation/prevention
 - Overlapless Config: Add SGJ stuff to prevent loss of progression
 - Quark/Zeta is causing crash on startup (keybind error resolved:	"Back Button Keybind" = false)
 - Refactor the entire KubeJS folder to accomodate the new mod changes and 1.21.1 update

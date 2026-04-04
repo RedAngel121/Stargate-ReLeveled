@@ -32,7 +32,6 @@ StartupEvents.registry("block", event => {
     })
 
     const blocks = [
-
         {
             id: "phosphorite",
             name: "Phosphorite",
@@ -55,7 +54,6 @@ StartupEvents.registry("block", event => {
             tier: "minecraft:needs_iron_tool",
             tags: ["c:ores", "c:ores/borax"]
         },
-
         {
             id: "floral_compost",
             name: "Floral Compost",
@@ -92,7 +90,6 @@ StartupEvents.registry("block", event => {
             resistance: 0.8,
             tool: "pickaxe"
         },
-
         {
             id: "inactive_naquadria_substrate",
             name: "Inactive Naquadria Substrate",

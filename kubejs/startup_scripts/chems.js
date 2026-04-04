@@ -1,4 +1,6 @@
 // priority: 0
+console.info("Loading Chemicals")
+
 StartupEvents.registry("mekanism:chemical", event => {
 
     event.create("mekanism:blaze_gas")
