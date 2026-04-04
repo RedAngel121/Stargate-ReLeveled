@@ -30,7 +30,10 @@
 - New Immersive Paintings Dependancy: Fzzy Config
 - Gateways to Eternity
 - Structure Overlapless
-- a few more that i probably forgot to add
+- XK's Decoration and Dependancies:
+  - Kiwi
+  - Forgified Fabric API
+- a few more that i probably forgot to add...
 
 ### Removals:
 - Botarium

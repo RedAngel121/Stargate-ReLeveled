@@ -2254,7 +2254,7 @@ hash = "1c0441f95179b918edb639d938d303323a19e4b5e5a2a6dfdd1ebcaf1745b710"
 
 [[files]]
 file = "kubejs/server_scripts/edible_processor_chain.js"
-hash = "e8d7365f4e5f3c20689c6a794daa50d06527997eda58d379119e587151175172"
+hash = "4a55fd7448ec27f68230373153fd9d143530b7e89573082693b7ed8044b30ee9"
 
 [[files]]
 file = "kubejs/server_scripts/integrated_curcuit_chain.js"
@@ -2282,7 +2282,7 @@ hash = "24a2255654579fee374c6b40a19933707302f84c1876ab12744fb6819cde948f"
 
 [[files]]
 file = "kubejs/server_scripts/wafer_chain.js"
-hash = "eb0c8ea4df04a5e82a874a6c0fbb06ae66a6947eec3e165451c873aa3414b47a"
+hash = "9938be25a06aafdc99e8778194c79e2edd2723cb833a3a50d71042987286d0d3"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
@@ -2705,6 +2705,11 @@ hash = "44adbdf3b6e7a7358411f0c60e4f90d9bc3eccbc7e49ef207ef4bf98197c65a4"
 metafile = true
 
 [[files]]
+file = "mods/forgified-fabric-api.pw.toml"
+hash = "e20b20d55b74dc8b3e9c2ff353b9f8788b3221b647cb32845fb53781a0b4684b"
+metafile = true
+
+[[files]]
 file = "mods/framedblocks.pw.toml"
 hash = "fe1a2e5c0b708a8ea8935a17889774446eac3fd2daeea450f02c5806ce7f5cc8"
 metafile = true
@@ -2842,6 +2847,11 @@ metafile = true
 [[files]]
 file = "mods/just-enough-resources-jer.pw.toml"
 hash = "f61a3526d323d232fbac74dedb5d89e07f45981db1c5a705c66dbe5da7507a68"
+metafile = true
+
+[[files]]
+file = "mods/kiwi.pw.toml"
+hash = "610c4f2a6bfdde68483f618819040c55d08df4f0fa1f546416f19fdec9d2e60b"
 metafile = true
 
 [[files]]
@@ -3362,6 +3372,11 @@ metafile = true
 [[files]]
 file = "mods/wunderlib-neoforge.pw.toml"
 hash = "2db6150114a149ac922dda026392b401969e31bd4b93e28c44296a9ec712bd65"
+metafile = true
+
+[[files]]
+file = "mods/xks-decoration.pw.toml"
+hash = "19eb88351b7990d653290d03b1bbb6b3fc5e5706eff0e66e69a8637add886fc1"
 metafile = true
 
 [[files]]
