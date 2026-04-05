@@ -94,19 +94,19 @@
 - Substrate Crux for all ores similar to 1.20.1 version
 - https://blakesmods.com/docs/mysticalcustomization/editing-crops
 
-### PLAYER LOGIN BOOK - Convert to Quests
+### PLAYER LOGIN BOOK - Convert to Quests:
 
 - Page 1 
 - **Info about this Modpack**
 - Welcome to Stargate Releveled! This modpack has quests that will guide you through 5 crafting tiers of circuits. You can either keybind the questbook or open the questbook from the top left corner of your screen while in your inventory. See next page for info about Easy Mode. 
-- 
+
 - Page 2
 - **Easy Mode**
 - Easy mode allows you to skip some of the more ridiculous progression steps of the modpack by getting rid of the requirement for crafting circuits.
 - This makes it more like the default experience for mekanism and create. 
 - When easy mode is enabled, your quest book will be updated to show all the quests, and you will get access to the oredictionificator to convert items.
 - /easymode toggle will toggle easymode on and off
-- 
+
 - Page 3
 - **Oredictionificator**
 - By using /easymode getconverter, you will be given the Oredictionificator
@@ -116,3 +116,11 @@
   - convert:computation_core, converts advanced control circuits into computation cores
   - convert:isotopic_oscillator, converts uranium into isotopic oscillators
 - After you enter a tag, you just need to insert items to convert them!"
+
+### CHECK ALL STRUCTURES:
+- abydos pyramid has some texturing that got lost in translation and needs to be re-applied (check vtech DMs https://discord.com/channels/@me/1318445317724835890/1490218146500706435)
+- Custom Gates need to be adjusted to the MoreGate mod
+- check why Nether Gate never showed up - possible overlapless?
+- check why End Gate never showed up - possible overlapless?
+- check why Undergarden Gate never showed up - possible overlapless?
+- need to double check the rest of them

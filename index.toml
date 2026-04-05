@@ -429,6 +429,10 @@ file = "config/wover/main.json"
 hash = "0d3a7f0f0b4e4658b2c69a696218f5ef7cb9ac453426aff6777031aab942dc10"
 
 [[files]]
+file = "image.png"
+hash = "7f216199282b8045fcb85f4be0ec56d33c4a6b3125b574f564aa74b07561840c"
+
+[[files]]
 file = "instance.png"
 hash = "aea8d874f70c2c44575298899a44aea2c7f1ec72913eba4b3f50306d45c4fd98"
 
@@ -1938,11 +1942,11 @@ hash = "b12e8640431811a3c900aa763264377cad4514585d79ed8b92f7ef3da7d77345"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_corner.nbt"
-hash = "71311eb4be9b82ad7a0be0bdd5922183c92c08b494b1be16b2a4ec70f1cf11b8"
+hash = "0d6dc8f636de011e71e7702494f3437302d9c0d4fb8c834648e9827335dc4269"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_corner_upper.nbt"
-hash = "e1b3711f93fd9be475a348a204dcc8ee209959eca9a0d9948f512dc631717075"
+hash = "b51e4bd14f5f6e9bd596851400b729b0645b19bf33bc78f6b52131b11ace026b"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_entrance.nbt"
@@ -1958,31 +1962,31 @@ hash = "dc12ec242342d1c353f948cad39a83bbd5cbe63301e0e663181c5f937600b6be"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_front.nbt"
-hash = "fd0e0414cc1c058e0895f9434215219395cff4145b1433f460d3b163426ccc3b"
+hash = "724b221a270e08ea1486ea17cf601892201fb27ba5e2fb5c56c7044f47bbd967"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_left_corner.nbt"
-hash = "282233a9501b1c7dad3f871a9ab8338157839fe647edcd3ea74331f874c35282"
+hash = "6e8df274d1935afbab2714585ab801a6eb730377013debf64ae0eb8983dc39b1"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_right_corner.nbt"
-hash = "543796fe015f7e0659cf8e2b2fbaefe6441dcc6739ab0a9021baa518d5dada7a"
+hash = "303bcc641aa5e1c091cbcbc82c3889d61ee07e0c86c3850add5aecfd0ab871da"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_right_side.nbt"
-hash = "f20bfff6d32b955445b0cd3abe4580de72cd6e4bec3663262c7de3db22bf1142"
+hash = "1edfc85b12fbb8e53e5434022fd1b449620d657dbedac91ba0050489e74899e1"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_side.nbt"
-hash = "7b7fdfaebf455771e387b8134203277ab36e56a7d758f902ec397a7a5c0b6660"
+hash = "bf1ff590d7e951af3f6c10ebaa67cfb5b3e91e70abeb1d7000a7f4fb0934a74e"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_side_upper.nbt"
-hash = "a17846cfc5aec18541aa01d8abeb0ea43d22442207f3e2ccf86461b41e66befb"
+hash = "ada7310283de251585ae236eca9a513100ef575e6553e0576fe0bf2d3eeccda3"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_top.nbt"
-hash = "4e2c667e1d48bb0b1b7b872ec5803a72cbdf084250153fe63f2a919a2abbae87"
+hash = "51ed9eae7acfe3550e550dc5928d952d76fab92d692a8929f163bc7f69e4c3be"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/tollan/pedestal/overworld_mirror_pedestal.nbt"
@@ -2405,11 +2409,6 @@ hash = "e1599947a8d78f74c129a8420569bb2453b2ce76fdc76a7151093923ea8366c9"
 metafile = true
 
 [[files]]
-file = "mods/ato.pw.toml"
-hash = "2caa0a932f416d3a6d6dd2921840856395b56b04417292938ddb1796b72bf448"
-metafile = true
-
-[[files]]
 file = "mods/attributefix.pw.toml"
 hash = "a445471ac6843bcf9fb76eabb4357de0357dfa7782be536a7827a26764fe45c1"
 metafile = true
@@ -2827,6 +2826,11 @@ metafile = true
 [[files]]
 file = "mods/iron-furnaces.pw.toml"
 hash = "3f6a27001eb45ce6296829cfa9d7d41a0bd304914217f8dc3196feaa9030f963"
+metafile = true
+
+[[files]]
+file = "mods/jaopca.pw.toml"
+hash = "7d77d5de58bdea8cf0a6f0c849cb3e46e76447b41257801d81041f14996bca55"
 metafile = true
 
 [[files]]
