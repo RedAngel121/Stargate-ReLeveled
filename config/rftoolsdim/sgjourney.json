@@ -1,0 +1,152 @@
+[
+    {
+        "type": "block",
+        "key": "sgjourney:sulfur_sand",
+        "rarity": "common",
+        "create": 10,
+        "maintain": 10,
+        "ticks": 10,
+        "worldgen": true,
+        "dimlet": true
+    },
+    {
+        "type": "block",
+        "key": "sgjourney:sandstone_hieroglyphs",
+        "rarity": "common",
+        "create": 10,
+        "maintain": 10,
+        "ticks": 10,
+        "worldgen": true,
+        "dimlet": true
+    },
+    {
+        "type": "block",
+        "key": "sgjourney:sandstone_with_laips",
+        "rarity": "common",
+        "create": 10,
+        "maintain": 10,
+        "ticks": 10,
+        "worldgen": true,
+        "dimlet": true
+    },
+    {
+        "type": "block",
+        "key": "sgjourney:sandstone_with_gold",
+        "rarity": "common",
+        "create": 10,
+        "maintain": 10,
+        "ticks": 10,
+        "worldgen": true,
+        "dimlet": true
+    },
+    {
+        "type": "block",
+        "key": "sgjourney:red_sandstone_hieroglyphs",
+        "rarity": "common",
+        "create": 10,
+        "maintain": 10,
+        "ticks": 10,
+        "worldgen": true,
+        "dimlet": true
+    },
+    {
+        "type": "block",
+        "key": "sgjourney:red_sandstone_with_laips",
+        "rarity": "common",
+        "create": 10,
+        "maintain": 10,
+        "ticks": 10,
+        "worldgen": true,
+        "dimlet": true
+    },
+    {
+        "type": "block",
+        "key": "sgjourney:red_sandstone_with_gold",
+        "rarity": "common",
+        "create": 10,
+        "maintain": 10,
+        "ticks": 10,
+        "worldgen": true,
+        "dimlet": true
+    },
+    {
+        "type": "block",
+        "key": "sgjourney:naquadah_ore",
+        "rarity": "legendary",
+        "create": 10000,
+        "maintain": 10000,
+        "ticks": 600,
+        "worldgen": true,
+        "dimlet": true
+    },
+    {
+        "type": "block",
+        "key": "sgjourney:deepslate_naquadah_ore",
+        "rarity": "legendary",
+        "create": 10000,
+        "maintain": 10000,
+        "ticks": 600,
+        "worldgen": true,
+        "dimlet": true
+    },
+    {
+        "type": "block",
+        "key": "sgjourney:nether_naquadah_ore",
+        "rarity": "legendary",
+        "create": 10000,
+        "maintain": 10000,
+        "ticks": 600,
+        "worldgen": true,
+        "dimlet": true
+    },
+    {
+        "type": "block",
+        "key": "sgjourney:naquadah_block",
+        "rarity": "legendary",
+        "create": 10000,
+        "maintain": 10000,
+        "ticks": 600,
+        "worldgen": true,
+        "dimlet": true
+    },
+    {
+        "type": "block",
+        "key": "sgjourney:raw_naquadah_block",
+        "rarity": "legendary",
+        "create": 10000,
+        "maintain": 10000,
+        "ticks": 600,
+        "worldgen": true,
+        "dimlet": true
+    },
+    {
+        "type": "block",
+        "key": "sgjourney:pure_naquadah_block",
+        "rarity": "legendary",
+        "create": 10000,
+        "maintain": 10000,
+        "ticks": 600,
+        "worldgen": true,
+        "dimlet": true
+    },
+    {
+        "type": "fluid",
+        "key": "sgjourney:liquid_naquadah",
+        "rarity": "legendary",
+        "create": 10000,
+        "maintain": 10000,
+        "ticks": 600,
+        "worldgen": true,
+        "dimlet": true
+    },
+    {
+        "type": "fluid",
+        "key": "sgjourney:heavy_liquid_naquadah",
+        "rarity": "legendary",
+        "create": 10000,
+        "maintain": 10000,
+        "ticks": 600,
+        "worldgen": true,
+        "dimlet": true
+    }
+]

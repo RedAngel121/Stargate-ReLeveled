@@ -1,12 +1,10 @@
 ### Changes:
-- Fixed the Engine Recipes so only the correct ones are shown
-- Fixed the Common Stargate Quest (had the wrong namespace)
-- Attemped fix for Visit Abydos Quest (You made it!) being uncompleteable if one dependant isnt finished and the other is
+- Fixed the ALU recipe to actually use the incomplete ALU component during crafting instead of the incomplete Control Unit
+- Added SGJourney blocks and fluids to RFTools Dimlets
 
 ### Updates:
+- **Updated Forge to 47.4.18**
 
 ### Additions:
-- Pipez Lag Fix
 
 ### Removals:
-- Design and Decor (Extreme Instability)

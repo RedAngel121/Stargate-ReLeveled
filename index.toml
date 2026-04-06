@@ -385,6 +385,18 @@ file = "config/quark-common.toml"
 hash = "732f7e7e1fbee3511fa385e2bed2079ef8c85050aacb94c00f7d2ec77ebaf8f1"
 
 [[files]]
+file = "config/rftoolsdim-server.toml"
+hash = "d33a7816fd9df6f3c781d39e33310e9573c1725dc46f5406ace11f13d0f37752"
+
+[[files]]
+file = "config/rftoolsdim/mekanism_override.json"
+hash = "3354bff1fb93a4f89c83b5ce4ac4bbc216a1de478268cbe0fabce382a18ff1bd"
+
+[[files]]
+file = "config/rftoolsdim/sgjourney.json"
+hash = "1469f6e98f3b6804d02ed93ab167c0a0c4e3dac3d71234c5b474999fbf034c8c"
+
+[[files]]
 file = "config/sgjourney-common.toml"
 hash = "bc5d9f12272848be0e70c306db677662bf64eb81a8ef09bcabe11fd714728ab7"
 
@@ -2042,7 +2054,7 @@ hash = "81c63f18b319386d98364841d0ecab18151aa932050b031ff1b666e41817ddce"
 
 [[files]]
 file = "kubejs/server_scripts/multistep.js"
-hash = "3467573f12ca52203cd6b0d90e28e8074ad90567cd6c4b61601df9b9cedefb11"
+hash = "5c0a4fe93cc4988e70357053671663f73129146978daadb189749ec6af989781"
 
 [[files]]
 file = "kubejs/server_scripts/randomTagsFix.js"
@@ -2058,7 +2070,7 @@ hash = "fa8b7916c932ff0d571da928e24890930f222ca6a0a60715f874682850324daa"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "910e3e0cb71254388321593a043d89f6d49896d77e0040997e2241189755a704"
+hash = "ec748b54d907ea6dafbe31eec0617185e6889fa24c5dcbe790ec33b95be7b751"
 
 [[files]]
 file = "kubejs/server_scripts/rftools.js"
