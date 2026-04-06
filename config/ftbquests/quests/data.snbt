@@ -9,14 +9,11 @@
 	drop_book_on_death: false
 	drop_loot_crates: false
 	emergency_items_cooldown: 300
+	fallback_locale: ""
 	grid_scale: 0.5d
 	hide_excluded_quests: false
 	icon: {
-		Count: 1
 		id: "ftbquests:custom_icon"
-		tag: {
-			Icon: "sgjourney:item/milky_way_stargate"
-		}
 	}
 	lock_message: ""
 	loot_crate_no_drop: {
@@ -27,6 +24,6 @@
 	pause_game: false
 	progression_mode: "flexible"
 	show_lock_icons: true
-	title: "SGJ Community Pack"
+	verify_on_load: false
 	version: 13
 }

@@ -13,6 +13,8 @@
 - Stellaris (replaces AdAstra)
 - Extra Sponges (replaces simple sponge mod)
 - Corpse (Relpace Gravestones and provides compat)
+- Added SGJourney Blocks and fluids to RFTools Dimlets
+- Discord Chat Integration replaced with https://www.curseforge.com/minecraft/mc-mods/viscord
 
 ### Additions:
 - Veinminer Enchantment
@@ -59,18 +61,13 @@
 ### NOTES:
 - DimStruc Restrict mod needs to be updated to handle the Overworld Mirror gates generation/prevention
 - Overlapless Config: Add SGJ stuff to prevent loss of progression
-- Quark/Zeta is causing crash on startup (keybind error resolved: "Back Button Keybind" = false)
-- Refactor the entire KubeJS folder to accomodate the new mod changes and 1.21.1 update
-  - [ ] fix custom Kubejs scripts
-  - [x] #forge replaced with #c
-  - [x] Extract all standard crafting recipes and make them their own recipe json files
-- Find a replacement for Discord RPC 
-- Discord Chat Integration replaced with https://www.curseforge.com/minecraft/mc-mods/viscord
-- Adjust the configs folder for mod additions/removals
-- Redo the Quests to make use of the updated mods
+- Fix all the custom Kubejs scripts
+- Find a replacement for Discord RPC
+- Redo the Ad Astra Quests to make use of Stellaris
+- Add a mek enriching recipe for sulfur sand to turn it into regular sulfur
 
 ### Look into:
-- https://www.curseforge.com/members/mrtjp/projects (project red)
+- https://www.curseforge.com/members/mrtjp/projects (project red mods)
 - https://www.curseforge.com/minecraft/mc-mods/more-red
 - https://www.curseforge.com/minecraft/mc-mods/little-big-redstone
 
@@ -96,14 +93,14 @@
 
 ### PLAYER LOGIN BOOK - Convert to Quests:
 
-- Page 1 
+- Page 1
 - **Info about this Modpack**
-- Welcome to Stargate Releveled! This modpack has quests that will guide you through 5 crafting tiers of circuits. You can either keybind the questbook or open the questbook from the top left corner of your screen while in your inventory. See next page for info about Easy Mode. 
+- Welcome to Stargate Releveled! This modpack has quests that will guide you through 5 crafting tiers of circuits. You can either keybind the questbook or open the questbook from the top left corner of your screen while in your inventory. See next page for info about Easy Mode.
 
 - Page 2
 - **Easy Mode**
 - Easy mode allows you to skip some of the more ridiculous progression steps of the modpack by getting rid of the requirement for crafting circuits.
-- This makes it more like the default experience for mekanism and create. 
+- This makes it more like the default experience for mekanism and create.
 - When easy mode is enabled, your quest book will be updated to show all the quests, and you will get access to the oredictionificator to convert items.
 - /easymode toggle will toggle easymode on and off
 

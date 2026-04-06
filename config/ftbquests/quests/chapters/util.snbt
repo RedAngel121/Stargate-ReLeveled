@@ -12,11 +12,9 @@
 		invisible: true
 		tasks: [{
 			id: "657C25647BD961B2"
-			title: "Never Completed"
 			type: "checkmark"
 		}]
 		x: -4.0d
 		y: -2.0d
 	}]
-	title: "util"
 }

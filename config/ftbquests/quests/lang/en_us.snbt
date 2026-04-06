@@ -1,0 +1,720 @@
+{
+	chapter.1222006A8A49597D.title: "Progression"
+	chapter.130D8C64768FBA7D.title: "Applied Energistics"
+	chapter.1C4FC52D8793A706.title: "Mekanised III"
+	chapter.1CB3B5E3AA485E19.title: "Kinetic I"
+	chapter.21CB8C2FA5FA441F.title: "Mekanism"
+	chapter.2AB09A34CE1A5FC5.title: "Create"
+	chapter.389F85CCD37EF0BA.title: "Stargate Journey"
+	chapter.4BF19415D1D50DAD.title: "Mekanised I"
+	chapter.4D239CF8E2B220AE.title: "Kinetic II"
+	chapter.565378749F2B93CA.title: "Mekanised II"
+	chapter.5D60483138C53A9C.title: "Tips and Tricks"
+	chapter.625B45DE66DD59BB.title: "util"
+	chapter.64B3D62321648BBE.title: "Stellaris"
+	chapter.698F2A7BF80CDA52.title: "Sophisticated"
+	chapter.7EAC592E39C4CF7B.title: "The Beginnings"
+	chapter_group.0B892AF6A2410D9F.title: "Eras"
+	chapter_group.3553DD7F726AE366.title: "Mods"
+	quest.0037AEAA42C65333.quest_desc: ["Now, slowly mix in your flour"]
+	quest.0037AEAA42C65333.title: "Slowly introduce some flour"
+	quest.0121A93E06C5577B.quest_desc: [
+		"Now that you have all the blocks, you need to build your gate!"
+		""
+		"{image:sgcommunity_pack:textures/quests/classic_stargate.png width:100 height:100 align:1}"
+	]
+	quest.0121A93E06C5577B.title: "Some Assembly Required"
+	quest.0123F1E672CC0B91.quest_desc: ["Inject photoresist"]
+	quest.0123F1E672CC0B91.title: "Step 8: Apply Photoresist"
+	quest.01A11F434A489617.quest_desc: ["The &dWireless Booster&r allows for your &lWireless Access Point&r to reach &lfurther&r. Up to 64 can be stacked inside an Access Point."]
+	quest.024076D5FFC651DA.title: "Apply Honey"
+	quest.026A1F62C8150FEA.quest_desc: ["In order to assemble a rocket, you will need to craft a NASA Workbench."]
+	quest.0298A13EEDA2B865.quest_desc: ["Go exploring with this, and dont forget your map!"]
+	quest.0298A13EEDA2B865.title: "Backpack Backpack!"
+	quest.02D196F734985673.quest_desc: ["There are several types of power generation in the pack that you can easily start early on. Make sure you make more than one cause you are probably going to need it anyway."]
+	quest.02D196F734985673.quest_subtitle: "Trickle Charging at its finest"
+	quest.02D196F734985673.title: "Power Generation"
+	quest.03A86C169C511433.quest_desc: ["Guess what? It's found in the Venus Underground. You can craft a rocket with it. HOWEVER, unlike all the other Ad Astra ores, this one unlocks something cool: The Jet Suit."]
+	quest.03A86C169C511433.title: "Another Ad Astra Ore"
+	quest.040091D32C7039BF.quest_desc: ["Ad Astra is a simple space mod that adds several tiers of rockets and 5 new worlds to visit. It also adds orbit dimensions where you can build space stations! By completing Ad Astra, you get access to powered flight as well."]
+	quest.040091D32C7039BF.title: "About Ad Astra"
+	quest.042B824F2BC728B7.quest_desc: ["Use an inscriber with an Integrated Circuit Photomask in the top slot to expose the photoresist."]
+	quest.042B824F2BC728B7.title: "Step 16: Expose Photoresist"
+	quest.04330436A2FF5A66.quest_desc: ["Phosphorus can be made from Phosphorite which spawns in veins from y 50 to y -10, alongside limestone."]
+	quest.04330436A2FF5A66.title: "Phosphorus"
+	quest.057453950DC5CD3A.quest_desc: ["Now that you have chips and something to put them on, it's time to combine it all."]
+	quest.057453950DC5CD3A.title: "&3Integrated Circuits"
+	quest.06A305B7BD6C9AE3.quest_desc: ["The crusher can be used to make several products as well as process ores."]
+	quest.06A305B7BD6C9AE3.quest_subtitle: "Don't put your hand in it"
+	quest.06A305B7BD6C9AE3.title: "Crushing"
+	quest.073321159B45758E.quest_desc: ["The&d Communication Crystal&r increases the range of DHDs by 16 blocks"]
+	quest.07FACFF9969C84EF.title: "The Rocket"
+	quest.0817B9B5962CA4F0.quest_desc: ["To act as a backing for our circuits, craft some electrum with gold, copper, and iron."]
+	quest.0817B9B5962CA4F0.title: "It's Pretty"
+	quest.08D7A9160CF1D20C.quest_desc: ["In order to make higher quality circuits, you will need high purity quartz glass. Don't worry too much about sheer volume, as you will only need 5 per tier II circuit."]
+	quest.08D7A9160CF1D20C.title: "&3Plain Panes are Overrated"
+	quest.09934CB76FADA45B.quest_desc: ["Glass tubes are the hardest component of the vacuum tube. In order to make them, you need will need sand. Yeah, that's it."]
+	quest.09934CB76FADA45B.title: "&3Glass Tubes"
+	quest.0A42BE3304151ADF.quest_desc: ["Computercraft has the ability to control a major aspect of the dialing sequence on any gate with an interface attached. You can program auto-dialing scripts using LUA or just look for some scripts online instead. (psst... check the discord too!)"]
+	quest.0A42BE3304151ADF.quest_subtitle: "Chevron 1 Locked!"
+	quest.0A42BE3304151ADF.title: "Computer Control"
+	quest.0B833C6EFF418C31.quest_desc: ["Since the moon has no oxygen, you'll need a spacesuit to survive. Make sure to bring extra oxygen, as water will freeze on the moon, preventing you from producing more"]
+	quest.0B833C6EFF418C31.title: "Nobody can hear you scream"
+	quest.0CFE08309EF82343.quest_desc: ["&dApotheosis&r has many features, including potion charms, boss mobs, placeable mob spawners, and a weapon modifier system."]
+	quest.0CFE08309EF82343.quest_subtitle: "Harder, Faster, Better, Stronger"
+	quest.0CFE08309EF82343.title: "Apotheosis"
+	quest.0D1AD978EAFB634C.quest_desc: ["In order to make Edible Processors, we need to first make Wafers! And yes, they are food items."]
+	quest.0D1AD978EAFB634C.title: "Wafer Production"
+	quest.0D81BDD128A6C63E.quest_desc: ["Traveling to Mars is very similar to traveling to the Moon. It takes the same amount of fuel and doesn't have an atmosphere."]
+	quest.0D81BDD128A6C63E.title: "Going to Mars"
+	quest.0EA0FEE22F2F3C35.quest_desc: ["&dNumismatics&r is a currency mod that boasts easy-to-use systems for simple shops as well as leaving room for your wildest redstone-capitalism dreams."]
+	quest.0EA0FEE22F2F3C35.quest_subtitle: "Only 67% APR!"
+	quest.0EA0FEE22F2F3C35.title: "Numismatics"
+	quest.0ED5A4444D858703.quest_desc: ["Boron Trifluoride can be made from Borax which can be found in veins from y 62 to y 50, alongside salt"]
+	quest.0ED5A4444D858703.title: "Boron Trifluoride"
+	quest.0F6208E619E40AB5.quest_desc: ["Have you read the guide and still find channels to be confusing? No worries! Smart cables allow for you to see the paths that channels are taking to the ME Controller. They also come in dense variants."]
+	quest.0F6208E619E40AB5.title: "Smart Cables"
+	quest.112725E86D8D3D75.quest_desc: ["The charger is used for creating, amongst other things, charged certus quartz which is used in many ae2 recipes. Attach the wooden crank and click it to charge items. You can also provide power over ae2 networks or with FE."]
+	quest.112725E86D8D3D75.title: "Do you have a cable I could borrow?"
+	quest.1221A9C5A3B3F1D1.quest_desc: ["MEGA Cells adds MEGA variants of the pattern provider and ME interface. However, the MEGA Pattern Provider can only be used for processing recipes."]
+	quest.1221A9C5A3B3F1D1.title: "MEGA Subparts"
+	quest.12C36B05C19AB3F2.quest_desc: ["The deployed can be used in certain recipes, to place blocks and to interact with mobs and blocks."]
+	quest.12C65A426800BC3F.title: "&3Copper Sheets"
+	quest.13FC6762244F460E.title: "&3A better foundation"
+	quest.140F7A948347A9AF.quest_desc: ["Shift Right click your rocket to open it's inventory and insert fuel. Then, right click it and press space to begin the launch countdown!"]
+	quest.140F7A948347A9AF.title: "Blastoff!"
+	quest.156B8093C4FF95A9.quest_desc: ["In order to launch your rocket, you'll need somewhere to place it! A launchpad will be needed for your return trip from the moon as well."]
+	quest.156B8093C4FF95A9.title: "Solid Foundation"
+	quest.1645802228D598D0.quest_desc: ["Craft any combination of terminals together to make them into one."]
+	quest.1645802228D598D0.quest_subtitle: "And in the darkness bind them... To your ME system"
+	quest.1645802228D598D0.title: "One terminal to rule them all"
+	quest.17013D97CFC43A4D.quest_desc: ["The most basic of Wireless Terminals. Allows you to insert and extract items from your network on the go."]
+	quest.1785914BD68AC89E.quest_desc: ["In order to make more advanced machines and item transportation systems, you will need to make circuits, lots of them. You &3WILL NEED TO AUTOMATE CIRCUITS&r Thankfully, your first circuit is just a single vacuum tube. Even though it's relatively simple, it's still best that you break down the task into logical units."]
+	quest.1785914BD68AC89E.quest_subtitle: "Wait, doesn't create have this?"
+	quest.1785914BD68AC89E.title: "&6Making your first electronic circuit"
+	quest.17DAF9FFD708147B.quest_desc: ["Use an inscriber with an Integrated Circuit Photomask in the top slot to expose the photoresist."]
+	quest.17DAF9FFD708147B.title: "Step 13: Expose Photoresist"
+	quest.17E21A1B48A99E29.quest_desc: ["Since these are very likely to be expensive for you, it is probably wise to use them sparingly"]
+	quest.17E21A1B48A99E29.title: "&3Mother of all Circuits"
+	quest.184B775D4BB72AB8.quest_desc: ["Now, mix in your eggs and vanilla"]
+	quest.184B775D4BB72AB8.title: "Add Eggs and Vanilla"
+	quest.1876697DF3ED680C.quest_desc: ["The Advanced Crystal Interface allows for DHD-like dialing as well as adding a new method for getting the address of a connected gate."]
+	quest.18A433AFDBFFF45C.quest_desc: ["You just completed tier 1 of ore processing. The next tier is a bit harder as it requires at least three more machines."]
+	quest.18A433AFDBFFF45C.title: "Tier II"
+	quest.194423A49785391E.quest_desc: [
+		"To autocraft in ae2, you need three things: Crafting storage, Pattern Providers, and Patterns. To make crafting storage, all you need to do is make a cuboid of Crafting Storage blocks and connect them to your network. Pattern providers atomically output their inventories to an adjacent inventory when they receive a crafting request. They require patterns in order to do this, which can be made using the Pattern Encoding Terminal."
+		""
+		"{@pagebreak}"
+		"When Pattern Providers are adjacent to Molecular Assemblers, they can utilize crafting recipes."
+	]
+	quest.194423A49785391E.title: "Autocrafting"
+	quest.19C73880935B2000.title: "Inscribe Pattern"
+	quest.1A3F23F4F426FD7C.quest_desc: ["Floral compost gives 4x speed to flowers."]
+	quest.1AD45F5A1FB5B74D.title: "&3Control Unit"
+	quest.1B3E348B011762ED.quest_desc: ["To start automating resources, you can use &dBotany Pots&r! You'll need to get some clay to make terracotta and flower pots. Once you have a flower pot and 5 terracotta, you can make your first Botany Pot!"]
+	quest.1B3E348B011762ED.quest_subtitle: "Just add dirt!"
+	quest.1B3E348B011762ED.title: "Getting started with botany pots!"
+	quest.1D92274424B0EDFA.title: "&3Iron Spools"
+	quest.1DEBD297BF2D5EC6.quest_desc: [
+		"This modpack uses a unique growth substrate system for growing ores in botany pots. Each tier of substrates can grow new materials and grow previous materials faster."
+		"(List of substrates on next page)"
+		"{@pagebreak}"
+		"Substrates:"
+		""
+		"Iron: iron, coal, copper"
+		"Gold: + gold"
+		"Diamond: + diamond, lapis, redstone"
+		"Netherite: + ancient debris, emerald"
+		"Kinetic: + certus quartz, nether quartz"
+		"Computational: just faster"
+		"Mekanised: + fluix"
+		"Reactive: + osmium"
+		"Deep Space: + tin, lead, borax"
+		"Naquadria: + uranium, fluorine"
+		"Positronic: + naquadah"
+	]
+	quest.1DEBD297BF2D5EC6.title: "About Substrates"
+	quest.1E2F4F19CEF6BF3E.title: "&3Silicon Wafers"
+	quest.1E5C949246BC1112.quest_desc: ["Using that andesite you gathered earlier and some iron, make Andesite Alloy. Andesite alloy is one of the main materials of create, so you will almost always need more."]
+	quest.1E5C949246BC1112.title: "&6Creation"
+	quest.1EE0035E2D15359A.quest_desc: ["Use an inscriber with an Integrated Circuit Photomask in the top slot to expose the photoresist."]
+	quest.1EE0035E2D15359A.title: "Step 6: Expose Photoresist"
+	quest.1F025FCB42AD2148.title: "Windmill Power"
+	quest.1F7207A92D11C39B.quest_desc: ["Legends speak of a sacred quest that calls upon the chosen few to seek out the bank and acknowledge their own existence. Those who heed the call are bestowed with a single Crown, a shimmering coin forged from the essence of the game itself."]
+	quest.1F7207A92D11C39B.quest_subtitle: "A new hand has touched the Cog"
+	quest.1FD59EC4C3900300.quest_desc: ["Photoresist can be made from Tree Sap or PamHC2 maple syrup, and Glowstone"]
+	quest.1FD59EC4C3900300.title: "Photoresist"
+	quest.20F9FC6DDC25529A.quest_desc: ["Put a silicon wafer inside a chemical injector and inject water vapor to begin the process."]
+	quest.20F9FC6DDC25529A.title: "Step 1: Inject Water Vapor"
+	quest.2135CBD036BFAF94.quest_desc: ["Wafers aren't too useful on their own, you need to slice them into chips and then package them first."]
+	quest.2135CBD036BFAF94.title: "&3Slice and Encase"
+	quest.21C339B78AC8B555.quest_desc: ["Organic compost gives 4x speed on anything not covered by the other composts."]
+	quest.2283E12D506D17D1.quest_desc: ["Welcome to the Kinetic Era! We are now getting into our first tech mod: Create. If you are ever stuck wondering how something works, simply check out the Ponder Index. You can get there by holding W on any create item, or by clicking on the goggle icon in the menu screen."]
+	quest.2283E12D506D17D1.quest_subtitle: "Gear go spinny"
+	quest.2283E12D506D17D1.title: "&6Welcome to the Kinetic Era"
+	quest.23CECA8A94EF424E.quest_desc: ["Inject phosphorus gas"]
+	quest.23CECA8A94EF424E.title: "Step 20: Inject Phosphorus"
+	quest.23DBAFBE136E3B41.quest_desc: ["Want to quickly withdraw items without opening a ui? Then the Conversion Monitor is for you. The &lConversion Monitor&r allows you to insert and extract items from the me network as if it were a barrel. It also will open a crafting prompt if it runs out of items and a corresponding recipe is in the network."]
+	quest.23DBAFBE136E3B41.quest_subtitle: "Just another better monitor attempt"
+	quest.260C678AAF5D3D3A.title: "Mekanised Era"
+	quest.26652039B53CD630.title: "Stop eating them! We need those!"
+	quest.27C91EAAEC3EF997.quest_subtitle: "Stop them from running away"
+	quest.27C91EAAEC3EF997.title: "Ender Inhibitor"
+	quest.284CE559534E3C64.quest_desc: ["Tape your chests shut so you can move them!"]
+	quest.29774781234E32DC.quest_desc: ["Now that you have some shafts, it's time to make them spin! Water wheels will provide full power as long as one side is covered in flowing water."]
+	quest.29774781234E32DC.title: "&6Getting Kinetic Energy"
+	quest.29F9305B091C8FE9.quest_desc: ["HDPE is made from Ethylene and substrate and is used in end-game mekanism gear and equipment."]
+	quest.29F9305B091C8FE9.title: "&3HDPE Pellets"
+	quest.2A17565596861225.title: "Edible Processors"
+	quest.2A3A616F755BB410.quest_desc: ["Interfaces can be used to provide gates with power and to control them via Computers."]
+	quest.2A74BFEACA625BCA.quest_desc: [
+		"Individual MOSFET gates are cool and all, but we aren't going to get anywhere with that. To enable large scale production of Tier II circuits, we are going to need to build a proper foundry. &6Make sure that you build it in a way that you can easily add more types of wafers and slight variations on recipes,&r otherwise you will be building this setup many more times."
+		"{@pagebreak}"
+		"Tip for splitting up large assembly lines into small units:"
+		"AE2 Import and Export Buses can be used to automatically insert necessary gases as well as the correct wafers."
+	]
+	quest.2A74BFEACA625BCA.title: "&6Chip Automation"
+	quest.2AA736C596A9C334.quest_desc: ["The Mekanised Era is the final era. Mekanised I focuses on setting up basic automation and creating MOSFETs that will end up being used for machines like the fission reactor."]
+	quest.2AA736C596A9C334.title: "Welcome to the Mekanised Era!"
+	quest.2BD1231813D33819.quest_desc: ["The Hand Device has two modes. Terror and Knockback. Knockback knocks the clicked entity back while terror inflicts wither, slowness, and blindness."]
+	quest.2C200147352BC46B.quest_desc: ["A Vault block can hold an entire chest worth of items, hooking up 81 of them together should be enough space to keep from going insane with chest walls"]
+	quest.2C200147352BC46B.quest_subtitle: "Itty Bitty Living Space"
+	quest.2C200147352BC46B.title: "Simple Mass Storage"
+	quest.2C2B47C8E207675C.title: "Apply Chocolate"
+	quest.2C7C485B69C7DFDF.quest_desc: [
+		"Make sure to dig up all around the gate so that you don't miss anything. "
+		""
+		"Right click the Cartouche to see that it contains the address for another planet, and then use the DHD and dial there."
+	]
+	quest.2C7C485B69C7DFDF.quest_subtitle: "It's about 7 Meters tall"
+	quest.2C7C485B69C7DFDF.title: "Unearth a Stargate"
+	quest.2CA6B3612193EE50.title: "Inscribe Pattern"
+	quest.2CE0EF19B7FB7784.quest_desc: ["&dStellaris&r is a space exploration mod where you can visit other planets and build space stations."]
+	quest.2CE0EF19B7FB7784.quest_subtitle: "See you later, Space Cowboy"
+	quest.2CE0EF19B7FB7784.title: "Ad Astra"
+	quest.2CFE45BBBCB776F0.quest_desc: ["This is not a trash can"]
+	quest.2CFE45BBBCB776F0.title: "Dump Everything"
+	quest.2D1E28252D69CABA.title: "Kinetic Era"
+	quest.2E0188E3533CE229.quest_desc: ["Use an inscriber with an Integrated Circuit Photomask in the top slot to expose the photoresist."]
+	quest.2E0188E3533CE229.title: "Step 9: Expose Photoresist"
+	quest.31CC3F089AF8C8BA.quest_desc: ["By default, ME Networks have a small internal buffer. However, as your network grows, you may run into small brownouts when your network is unable to draw enough power. That's where &lEnergy Cells&r come in. Energy Cells allow for you to store far more power within the network, preventing shutdowns."]
+	quest.31CC3F089AF8C8BA.title: "Storing Power"
+	quest.31F264A4491B9BE8.quest_subtitle: "I hope you didn't just rush this"
+	quest.31F264A4491B9BE8.title: "Not Worth It"
+	quest.330BC90CB5BD20B0.quest_desc: ["In the lunar underground, you can find desh which is used to make useful technology and better rockets. You will want to bring back a bit to play with, but you will need far more in order to make the next rocket."]
+	quest.330BC90CB5BD20B0.title: "Permanent Space Base?"
+	quest.330F487B82B4444C.quest_desc: [
+		"Using a Glass Bottle at the cloud levels (192-196 by default) will get you a Bottled Cloud."
+		""
+		"The Bottled Cloud can be right clicked to produce a (non-solid) block floating in midair in front of you. The cloud block disappears after a few seconds, but you can right click it with any other block to replace the two. The cloud will go back in the bottle when you do this."
+	]
+	quest.330F487B82B4444C.quest_subtitle: "Is that an Angel?"
+	quest.330F487B82B4444C.title: "Bottled Cloud"
+	quest.3328AF49D13841D5.quest_desc: ["Coral compost give 4x speed to crops that grow in water"]
+	quest.3469D07EB4D14590.quest_desc: ["Mulch gives 4x speed on trees and crops that grow on wood."]
+	quest.3526B63F9A0CD846.quest_desc: ["Now, slowly mix in your flour"]
+	quest.3526B63F9A0CD846.title: "Bake!"
+	quest.3532BD90C944D6E6.quest_desc: ["MEGA item cells behave exactly the same as normal item cells, but they can store up to 2 trillion of a single item."]
+	quest.3532BD90C944D6E6.title: "Storing More Items"
+	quest.35632CE492A7F7C2.quest_desc: ["Start by building a dark 9x9 room, place the mob masher in the corner and a spawner in the middle, use fans or conveyors to move them into the masher and collect your reward!"]
+	quest.35632CE492A7F7C2.quest_subtitle: "Some Assembly Required"
+	quest.35632CE492A7F7C2.title: "Infinite XP"
+	quest.35C92A242C77A205.quest_desc: [
+		"A new tool for mining! The pickarang is a boomerang pickaxe - throw it, it breaks whatever it hits, and comes back to you with the drops."
+		""
+		"The Pickarang is crafted with a Heart of Diamond (from Stonelings, in the Mobs category, or just diamonds if it's disabled), and can be enchanted with Efficiency, Unbreaking, Fortune, Silk Touch, and Piercing."
+	]
+	quest.35C92A242C77A205.quest_subtitle: "Here we go again..."
+	quest.35C92A242C77A205.title: "Pickarang"
+	quest.362C80569525E85A.quest_desc: [
+		"The &dPersonal Shrinking Device&r can easily get you into areas that are nice and small, or make yourself larger than life! "
+		""
+		"Just dont forget to charge it..."
+	]
+	quest.362C80569525E85A.quest_subtitle: "Smaller on the Outside"
+	quest.38B15EC74C314C3A.quest_desc: ["The electrolytic separator uses electrolysis to split fluids into parts. In this case, you will use it to split water into hydrogen and oxygen. To get rid of the excess hydrogen, you can either burn it in a generator or just use the dump feature of the electrolytic separator."]
+	quest.38DC3646EA8F8BDB.quest_subtitle: "Start Excavating!"
+	quest.38DC3646EA8F8BDB.title: "You Found One!"
+	quest.39646520A484643F.quest_desc: ["This pack uses &dMekanism&r and &dCreate&r for resources, &dStargate Journey&r and &dAd Astra&r for exploration, and &dBotany Pots&r + a &ocustom tiered substrate system&r for resources. If a &3quest is cyan&r, that means that you should try your best to automate it."]
+	quest.39646520A484643F.quest_subtitle: "An organized mess..."
+	quest.39ADFC1941826E2E.title: "&6Moving Rotation"
+	quest.39CBECB2C3DFE133.quest_desc: ["The Metallurgic Infuser is used to infuse items with chemicals. Most of the items used to infuse have enriched versions that give around 4x as much material."]
+	quest.39CBECB2C3DFE133.title: "Source of all things Mekanical"
+	quest.39E558233976B7C6.quest_desc: ["Weapons Grade Naquadah is used as an ingredient in all the weapons, tools, and armor from Stargate Journey."]
+	quest.3A6651977FEBF57D.quest_desc: ["Advanced Crystals are needed for Pegasus DHDs, but they can also be used in Milky Way DHDs"]
+	quest.3AACCE98C8B8915D.quest_desc: [
+		"Reacharound Placing allows you to place blocks behind the block you're looking at. This can be done either vertically or horizontally, provided you wouldn't be placing a block given normal rules."
+		""
+		"To do it vertically, sneak over the edge of a block and look at the area directly below it. A &a[]&r will appear around your crosshair if you do it properly."
+		""
+		"To do it horizontally, look in front of a block, where the next block would be. A &a><&r will appear around your crosshair for this one."
+	]
+	quest.3AACCE98C8B8915D.quest_subtitle: "Can I really put it there?"
+	quest.3AACCE98C8B8915D.title: "Reacharound Placing"
+	quest.3B0AA365C22B2922.quest_desc: ["Before we enter the first era, you'll need to gather some supplies for it. Go ahead and gather 64 andesite."]
+	quest.3B0AA365C22B2922.title: "Preparing for Creation"
+	quest.3B2BA44808B21235.quest_desc: ["The enrichment chamber is used to make many different items and convert between different forms of items. It is also used in tier 1 of mekanism ore processing where it turns 1 ore into 2 dusts and 3 raw ore into 4 dusts."]
+	quest.3B2BA44808B21235.title: "Doubling Ores"
+	quest.3B443B9CD916D086.quest_desc: ["Crystal Interfaces have the ability to access more advanced commands that cant be used by basic interfaces."]
+	quest.3BC462BDE65FA837.quest_desc: ["AE2 contains many ways to decorate your base. From fancy display mounts, to hiding cables."]
+	quest.3BC462BDE65FA837.quest_subtitle: "What's the point of automating everything if it isn't stylish?"
+	quest.3BC462BDE65FA837.title: "Aesthetics"
+	quest.3BFA59E014B46583.quest_desc: ["No Tape Required"]
+	quest.3BFA59E014B46583.title: "Easy Moving"
+	quest.3C2F77FB82C01124.quest_desc: [
+		"Now that you are getting into ME Storage, it's time we talked about &lBytes and Types&r. In AE2, every item cell can store up to 63 types. However, each type comes at a cost. For every type you add to a cell, you lose some bytes (up to half the drive for 63 types). But what is a byte? A byte is equivalent to 8 items or 8 buckets of fluid."
+		"{@pagebreak}"
+		"If you want a more in-depth explanation of this or other topics, check out the AE2 in-game guide (hold G while hovering over any AE2 item)"
+	]
+	quest.3C2F77FB82C01124.title: "About storage"
+	quest.3C51ACFA7F2A04E8.quest_desc: ["Applied Energistics 2 is a storage mod based around the idea of energy-mass equivalency. Your items get stored as \"energy\" inside cells which is then converted back to retrieve them. Ultimately, this means you can store a LOT of items."]
+	quest.3C51ACFA7F2A04E8.quest_subtitle: "Mass from energy, energy from mass"
+	quest.3C51ACFA7F2A04E8.title: "e = mc^2"
+	quest.3DD6A6C1196ACD63.quest_desc: ["Inject Hydrofluoric Acid to etch the wafer"]
+	quest.3DD6A6C1196ACD63.title: "Step 14: Etch Wafer"
+	quest.3F0F35DD44D0EE8A.title: "Storing Even More Power"
+	quest.3F5D3448A34C75B4.quest_desc: ["Transfer Crystals increase the amount of energy produced by DHDs to reach the target stargate energy."]
+	quest.3F611B0D076551C7.quest_desc: ["Inject boron trifluoride"]
+	quest.3F611B0D076551C7.title: "Step 4: Inject Boron"
+	quest.4012FAB74A514FCC.quest_desc: ["Use an inscriber with an Integrated Circuit Photomask in the top slot to expose the photoresist."]
+	quest.4012FAB74A514FCC.title: "Step 19: Expose Photoresist"
+	quest.4044025B79CF78BE.quest_desc: ["To ensure your wafers are light, mix in some baking soda."]
+	quest.4044025B79CF78BE.title: "Mix in Sodium Bicarbonate"
+	quest.4127A5F56B05E24D.quest_desc: ["Steel is relatively easy to make. All you need is a blast furnace and some iron and you can have more steel ingots than you will ever need."]
+	quest.4127A5F56B05E24D.title: "Forging Steel"
+	quest.41B6CC48454F92F4.quest_desc: ["&dAdvanced Peripherals&r allows &lComputerCraft&r computers to access far more information than they can in base CC"]
+	quest.41B6CC48454F92F4.quest_subtitle: "Computational Interaction"
+	quest.41B6CC48454F92F4.title: "Advanced Peripherals"
+	quest.41E03B50C0421DD7.quest_desc: ["The staff weapon is fueled with liquid naquadah and can fire plasma bolts that deal 14 damage."]
+	quest.4211165EF22FE2C5.quest_desc: ["Naquadah in found throughout abydos and is used in nearly every part of Stargate Journey."]
+	quest.4211165EF22FE2C5.quest_subtitle: "Welcome To Abydos!"
+	quest.4211165EF22FE2C5.title: "Channeling Energy"
+	quest.430F4F27DC67D1F1.quest_desc: ["While mekanism's metallurgic infuser is good at many things, Stellaris provides a far easier way to get steel than mekanism does."]
+	quest.430F4F27DC67D1F1.title: "Cheaper than Mekanism"
+	quest.43E7ADEBD62B6910.quest_desc: ["You will need to use the&d correct Photomask&r for the&l Isotopic Decay Oscillator&r."]
+	quest.43E7ADEBD62B6910.title: "Inscribing steps"
+	quest.442119BDEDEDE3A1.quest_desc: ["Hydrofluoric acid can be made from sulfuric acid and fluorite."]
+	quest.442119BDEDEDE3A1.title: "Hydrofluoric Acid"
+	quest.449B2D79B4EBA499.quest_desc: ["Inject photoresist"]
+	quest.449B2D79B4EBA499.title: "Step 18: Apply Photoresist"
+	quest.44A01E795C2EF397.quest_desc: ["I mean, if it can make your cookie fall apart, surely it will work well enough"]
+	quest.44A01E795C2EF397.title: "Etch with Milk"
+	quest.44F5A44C5C13627A.quest_desc: ["Now that you have created rudimentary processors, I'm gonna turn you lose to do some exploring throughout our solar system, and maybe even beyond."]
+	quest.44F5A44C5C13627A.quest_subtitle: "Wait till you see Tier 3!"
+	quest.44F5A44C5C13627A.title: "&3Thought that was a lot?"
+	quest.45D542F277B9E385.quest_desc: ["The &oBest&r Storage Solution"]
+	quest.45D542F277B9E385.title: "Storage Galore"
+	quest.45F7FFD50A8143AB.quest_desc: [
+		"By dropping an anvil onto a cow standing on a Milk Jar, you can get the item Cow in a Jar. A Cow in a Jar will produce unlimited milk and can be used in Cooking For Blockheads kitchens."
+		""
+		"{@pagebreak}"
+		"Alternatively, you can use a deployer with a bucket on a cow for more rapid production"
+	]
+	quest.45F7FFD50A8143AB.quest_subtitle: "It's slow, but compact!"
+	quest.45F7FFD50A8143AB.title: "Infinite Milk"
+	quest.462B9ADD52070B7C.quest_desc: ["While water freezes on the moon, if you create an oxygenated atmosphere, it will stick around! In order to kickstart the process, you will need to bring several buckets of water. Consider using a fluid tank or an AE2 fluid cell to make sure you have enough. The &dOxygen Distributer&r can be used fill a room with &lOxygen&r, and the &dWater Pump&r can be used to drain water source blocks for water."]
+	quest.462B9ADD52070B7C.title: "Permanent Space Base"
+	quest.4683E1E82F7377E8.quest_desc: ["While &dStargate Journey&r usually only generates two stargates in the overworld, this modpack uses the Common Stargates config in multiplayer which adds additional buried stargates every 64 chunks. "]
+	quest.4683E1E82F7377E8.quest_subtitle: "Sometimes..."
+	quest.4683E1E82F7377E8.title: "More than Two"
+	quest.46F88139E0CC8428.quest_desc: ["MEGA Cells is an AE2 addon that adds larger cells for AE2."]
+	quest.46F88139E0CC8428.title: "MEGA Cells"
+	quest.47A69061D243A995.quest_desc: ["Cream sugar and butter together to get started on the wafer recipe."]
+	quest.47A69061D243A995.title: "Mix Sugar and Butter"
+	quest.47C818B66D4880FD.quest_desc: ["The Large Control Crystal enables advanced protocols, which currently means that the Stargate will automatically close."]
+	quest.48DE720CF5133F9F.quest_desc: ["The Crystallizer is used to produce crystals which are used in crafting recipes and as well as to augment the power of the DHDs."]
+	quest.48DE720CF5133F9F.title: "The Crystallizer"
+	quest.48FE0CC92C3583B7.title: "Storing 1 Megabyte"
+	quest.494419E2B4AB7E80.title: "&3ALU"
+	quest.49A41F1C874BC5A5.quest_desc: ["Inject photoresist"]
+	quest.49A41F1C874BC5A5.title: "Step 2: Apply Photoresist"
+	quest.49A6CC81BF9908FF.quest_desc: ["Despite its friendlier atmosphere, Glacio's terrain makes it extremely hostile and it lacks any major resources."]
+	quest.49A6CC81BF9908FF.title: "Visit Glacio"
+	quest.4A30584869198FCE.quest_desc: ["Use an inscriber with an Integrated Circuit Photomask in the top slot to expose the photoresist."]
+	quest.4A30584869198FCE.title: "Step 3: Expose Photoresist"
+	quest.4B7991C8ACBEEEA2.quest_desc: ["Unlike in vanilla AE2, you can't just craft processors with printed circuits and redstone. Instead, you need a basic circuit as well. In this case, we'll just be using Vacuum tubes, but later on you might want to consider switching to MOSFETs."]
+	quest.4B7991C8ACBEEEA2.quest_subtitle: "They nerfed that too?"
+	quest.4B7991C8ACBEEEA2.title: "Making Processors"
+	quest.4C6141A2B280D0A6.quest_desc: ["With the upgraded &dWireless Crafting Terminal&r, you can access your storage from afar and &lcraft&r items as well!"]
+	quest.4C6141A2B280D0A6.title: "Crafting Included"
+	quest.4CE0D979E9A5681B.quest_desc: ["This substrate introduces recipes for upgrading. Notice how you can save on gold by using the upgrade recipe."]
+	quest.4D999C0A1E529844.quest_desc: ["Colored cables can influence the color of connected cable subparts. For example, Terminals will turn the color of their cables."]
+	quest.4D999C0A1E529844.title: "Colored Cables"
+	quest.4DE6619EC96EADA3.quest_desc: ["Inject Hydrofluoric Acid to etch the wafer"]
+	quest.4DE6619EC96EADA3.title: "Step 10: Etch Wafer"
+	quest.4E2E67F2610381AF.title: "Do you mind turning down the heat?"
+	quest.4E7FC421B418088B.quest_desc: ["Now that you have made MOSFETs, you are ready to take on the challenge of Integrated Circuits."]
+	quest.4E7FC421B418088B.title: "That's the Basics!"
+	quest.4F1A70A84D97EAB3.quest_desc: ["Time to explore this new planet.. and dont forget your sunscreen!"]
+	quest.4F1A70A84D97EAB3.quest_subtitle: "One Way Trip!"
+	quest.4F1A70A84D97EAB3.title: "You made it!"
+	quest.509DF80304D6AF20.quest_desc: ["Inject Silicon"]
+	quest.509DF80304D6AF20.title: "Step 11: Inject Silicon"
+	quest.50A0EF9624CDF7D6.quest_desc: ["Circuit presses are cool, but they are useless without an inscriber! Craft one up so that you can make circuits and dusts."]
+	quest.50A0EF9624CDF7D6.title: "Write it down"
+	quest.50CF4FDB4145E5D7.quest_desc: ["A Trowel tool can be crafted with Iron and Sticks. The Trowel, when right clicked, will place a random block from your hotbar, making it useful for ruins or paths."]
+	quest.50CF4FDB4145E5D7.quest_subtitle: "Keeping it Random"
+	quest.50CF4FDB4145E5D7.title: "Trowels"
+	quest.515FAE2421519FDE.quest_desc: ["In order to fill your suit and tanks, you will need an &dOxygen Loader&r which produces &lOxygen&r from &lWater"]
+	quest.515FAE2421519FDE.quest_subtitle: "Essential for Life"
+	quest.515FAE2421519FDE.title: "Producing Oxygen"
+	quest.51EBD8AD1947C6D0.title: "Create Wrench"
+	quest.52144F96AAE9844A.quest_desc: [
+		"While the basic ae2 network is easy, it can only have up to 8 devices. In order to have more devices, you will need an ME Controller. ME Controllers can output up to 32 channels per side (or 8 if you use regular cables) and can be joined together to make a larger controller. However, there can only be one controller multiblock per network."
+		""
+		"{@pagebreak}"
+		"Channels are a complicated subject in AE2, as such I would recommend reading their guide page. AE2 Guide > AE2 Mechanics > Channels"
+	]
+	quest.52144F96AAE9844A.title: "Making a Real Network"
+	quest.54B35B245C507076.title: "Rudimentary Processors"
+	quest.5555426613E3B5E7.quest_desc: ["Inject photoresist"]
+	quest.5555426613E3B5E7.title: "Step 5: Apply Photoresist"
+	quest.558D9B481364BBDF.quest_desc: ["In order to ensure you can return home after visiting the moon, you will need a Launchpad and 3 Fuel Buckets. In order to make this easier, the rocket has an inventory for you to store extra fuel and other items in. Once you are on the moon, you can break the landing vehicle to get back your rocket and your items."]
+	quest.558D9B481364BBDF.quest_subtitle: "Read this if you want to come back home"
+	quest.558D9B481364BBDF.title: "Final Checklist"
+	quest.55E72B435EFF8FBE.quest_desc: ["I mean, if it can make your cookie fall apart, surely it will work well enough"]
+	quest.55E72B435EFF8FBE.title: "Etch with Milk"
+	quest.55FA04711F888480.quest_desc: ["You just automated the first of 5 circuits in this modpack! Now that you have Vacuum tubes, you have completed part I of the Kinetic Era. You are now free to explore Applied Energistics. However, I recommend setting up autocrafting and other amenities before crafting the &dComputational Substrate&r as it isn't exactly game-changing."]
+	quest.55FA04711F888480.title: "&6Well Done!"
+	quest.5692D6BC6250B08E.title: "Storage Components"
+	quest.56BEE440D9F4AEC1.quest_desc: ["The &lMEGA Bulk Item Storage Cell&r can store an unlimited number of a single item."]
+	quest.5744700A7274DA60.quest_desc: ["Now that you have a Tier 3 rocket and a Netherite Space Suit, it's time to go to Venus!"]
+	quest.5744700A7274DA60.title: "A Lovely Planet"
+	quest.574B3182847B43C8.quest_desc: ["Now, add in the rest of the flour"]
+	quest.574B3182847B43C8.title: "Add the rest of the flour"
+	quest.57D1B4C1ED535BB0.quest_desc: ["The final tier will require all your previous automation skills for one final item, the Computation Core. Once you have made your first Computation Core, however, you will still need to automate the raw resources needed for it."]
+	quest.57D1B4C1ED535BB0.title: "Welcome to the Final Tier"
+	quest.5822E75A31419923.quest_desc: [
+		"The &dApplied Energistics 2&r Guidebook contains nearly all there is to know about AE2!"
+		"If you hover over an AE2 item and hold G, it will open the guidebook automatically. "
+		""
+		"(This is just here as an option for those who like physical books.)"
+	]
+	quest.5822E75A31419923.quest_subtitle: "Store Everything"
+	quest.5822E75A31419923.title: "Better Than Quests"
+	quest.59808EDCCD6B0790.quest_desc: ["Now that you have completed the main progression of ad astra, you can travel to Alpha Centauri because why not"]
+	quest.59808EDCCD6B0790.title: "Another Rocket?"
+	quest.59E8FE3300D4D830.title: "Build your Own"
+	quest.5A528882B2D313EF.title: "Here we go again..."
+	quest.5A5BC4DABD4FB881.quest_desc: [
+		"In order to construct a Space Station, you will need:"
+		"- 32 Desh Ingots"
+		"- 32 Steel Ingots"
+		"- 64 Iron Sheets"
+		"- 32 Desh Plates"
+		"You might also want to bring a rocket to get back down."
+	]
+	quest.5B1CA6DED2C030F4.quest_desc: [
+		"There are several commands that make everything easier:"
+		"• &a/back&r - takes you back to the last known location after death or teleporting"
+		"• &a/rtp&r - randomly teleports you anywhere in the world"
+		"• &a/sethome&r - sets the exact location you are standing in as your home teleport"
+		"• &a/home&r - teleports you home"
+	]
+	quest.5B1CA6DED2C030F4.quest_subtitle: "Life is easier than you think"
+	quest.5B1CA6DED2C030F4.title: "Classic Commands"
+	quest.5B4E58F775221E6D.quest_desc: ["Inject Water Vapor"]
+	quest.5B4E58F775221E6D.title: "Step 2: Inject Water Vapor"
+	quest.5BD0CF36D88F6820.quest_desc: ["A solid naquadah frame allows for the Computation Core to channel additional energy into its processors."]
+	quest.5BD0CF36D88F6820.title: "Have you been to abydos?"
+	quest.5C938F25D0F5D112.quest_desc: [
+		"Easy Mode allows you to skip some of the more ridiculous progression steps of the modpack by getting rid of the requirement for crafting circuits."
+		""
+		"This makes it more like the default experience for mekanism and create."
+		""
+		"When easy mode is enabled, your quest book will be updated to show all the quests, and you will get access to the oredictionificator to convert items."
+		""
+		"&a/easymode&r toggle will toggle Easy Mode on and off"
+		"{@pagebreak}"
+		"By using &a/easymode getconverter&r, you will be given the Oredictionificator"
+		""
+		"To use it, you need to add a filter. You can use the following tags:"
+		"- &econvert:mosfet&r, converts redstone to MOSFETs"
+		"- &econvert:ic&r, converts osmium ingots to Integrated Circuits"
+		"- &econvert:computation_core&r, converts advanced control circuits into computation cores"
+		"- &econvert:isotopic_oscillator&r, converts uranium into isotopic oscillators"
+		""
+		"After you enter a tag, you just need to insert items to convert them!"
+	]
+	quest.5C938F25D0F5D112.quest_subtitle: "For when it's just too hard..."
+	quest.5C938F25D0F5D112.title: "Easy Mode"
+	quest.5DB3BEC780602A48.title: "An Unpredictable Clock"
+	quest.5DF7C82AAF07676C.title: "MOSFET Wafers"
+	quest.5E28EB3611AC4879.quest_desc: [
+		"While the glass cables are cheap, they lack several features."
+		""
+		"&lCovered Cables&r are the same as glass cables"
+		""
+		"&lDense Cables&r allow for transferring up to 32 channels on 1 cable! They also take priority in network pathfinding."
+		""
+		"&lSmart Cables&r allow you to see the exact places where channels are being used in cables."
+		""
+		"As always, the AE2 Guide can give you more precise explanations."
+	]
+	quest.5E28EB3611AC4879.title: "Better Cables"
+	quest.5E2B4E3EF7D7EB8B.quest_desc: ["A Larger Inventory for Everyone!"]
+	quest.5E2B4E3EF7D7EB8B.title: "UPGRADES PEOPLE!"
+	quest.5E6E8EC306B66113.quest_desc: ["&dIsotopic Decay Oscillators&r are produced in nearly the same way as &lIntegrated Circuits&r. As such, you can utilize your existing factory to produce them."]
+	quest.5E6E8EC306B66113.title: "Isotopic Decay Oscillators"
+	quest.5F155B45118EF013.quest_desc: ["To make rocket fuel, simply put oil into a fuel refinery."]
+	quest.5F155B45118EF013.title: "Making Fuel"
+	quest.5F67525D31BA8C02.quest_desc: ["Tired of not having enough crafting storage to build the entire minecraft world? MEGA cells has you covered. You can craft MEGA Crafting Storage and MEGA Crafting Coprocessors"]
+	quest.5F67525D31BA8C02.title: "Crafting at a New Scale"
+	quest.5F7A5317BF38FEF2.quest_desc: ["Photoresist isn't edible, so we use maple syrup instead!"]
+	quest.5F7A5317BF38FEF2.title: "Toss in Maple Syrup"
+	quest.5F93CD50134E1E32.quest_desc: ["Photoresist isn't edible, so we use maple syrup instead!"]
+	quest.5F93CD50134E1E32.title: "Toss in Maple Syrup"
+	quest.5FBF63288E1EECEB.title: "Now for turning them into processors"
+	quest.5FC5BD879525A286.quest_desc: ["The Purification Chamber takes in ores and oxygen and outputs clumps."]
+	quest.5FDF6458983F6A7A.quest_desc: [
+		"Now that you completed tier two, your setup should look like this:"
+		"Purification Chamber -> Crusher -> Enrichment Chamber -> Furnace."
+		"Tier III requires you to get tier III circuits."
+	]
+	quest.601DFD8DA61EE755.quest_desc: ["Inject Hydrofluoric Acid to etch the wafer"]
+	quest.601DFD8DA61EE755.title: "Step 3: Etch Wafer"
+	quest.619164BE81319331.quest_desc: ["Venus is a planet with a fiery atmosphere. In order to survive, you will need a &dNetherite Space Suit&r. As a bonus, it also comes with a larger oxygen tank and better armor."]
+	quest.61FF8BB395DDB761.quest_desc: ["Place down your ME Drive and connect your terminal to it with the cables. Finally, connect the Energy Acceptor to your ME system and a power source. Congrats, You have an ME system! However, you still need storage cells. Check out the next quest for more information on how that works."]
+	quest.61FF8BB395DDB761.title: "Basic Storage"
+	quest.626D482CA1E17EC5.title: "&3Silicon Boules"
+	quest.633EEBC383BF5CD8.quest_desc: ["&dSponges&r are an easy way to replace liquids with air."]
+	quest.633EEBC383BF5CD8.quest_subtitle: "Mopping up the extra"
+	quest.64B15FE1AE791A07.title: "Integrated Circuits"
+	quest.6525C803A8BD105A.quest_desc: [
+		"Around your world there are meteors which are key to Applied Energistics 2."
+		"Having trouble? Consider creating a meteor compass."
+		"{@pagebreak}"
+		"Once you have found a meteor with certus quartz inside, gather the certus quartz blocks and take some skystone as well."
+	]
+	quest.6525C803A8BD105A.quest_subtitle: "Look out below!"
+	quest.6525C803A8BD105A.title: "Meteor Hunter"
+	quest.65F9BF486152E7B5.quest_desc: ["Instead of&l Boron&r, the&l Isotopic Decay Oscillator&r is injected with&d Uranium Hexafluoride&r at step 17."]
+	quest.65F9BF486152E7B5.title: "Step 17: Inject Uranium Hexafluoride"
+	quest.65FCB72100124810.quest_desc: ["Inject phosphorus gas"]
+	quest.65FCB72100124810.title: "Step 5: Inject Phosphorus"
+	quest.6642CDF5B5D029AC.quest_desc: ["The Rover is a vehicle capable of traversing flat-ish terrain at high speeds and has a large inventory space. It is powered using fuel."]
+	quest.6642CDF5B5D029AC.title: "Zoom"
+	quest.66AC30166E889FD6.quest_desc: ["The Naquadah Liquidizer is used to make liquid naquadah, which is used as a power source for weapons and in the crafting of various crystals."]
+	quest.66EA2C19AFB46F77.quest_desc: [""]
+	quest.66EA2C19AFB46F77.title: "Caramelize Sugar"
+	quest.66FA9D9F8A8C2B8C.quest_desc: ["Make sure to grab enough ancient debris for two ingots so that you can grow more once you get home."]
+	quest.6733B83F91FFE99E.quest_desc: ["Now that you have certus quartz blocks, growing more crystals is easy! Dropping charged certus quartz and certus quartz blocks in water will replenish them. Now, you can place the flawed budding quartz down on the ground to grow certus quartz. Repeat as needed to make lots of certus quartz."]
+	quest.6733B83F91FFE99E.quest_subtitle: "Jesse!"
+	quest.6733B83F91FFE99E.title: "We Need To Crystallize"
+	quest.674A3D8C452C1D56.quest_subtitle: "That seems kinda unbalanced"
+	quest.674A3D8C452C1D56.title: "Infinite Water"
+	quest.691B9DE097A3AFD4.quest_desc: ["As cool as botany pots are, you don't want to watch them grow all day. Hopper botany pots will automatically collect and store your botany pot outputs."]
+	quest.691B9DE097A3AFD4.quest_subtitle: "Watching diamonds grow"
+	quest.691B9DE097A3AFD4.title: "Hop to it"
+	quest.692BC266D99DADE9.quest_desc: ["The goal of Kinetic Era II is to obtain &d&lRudimentary Processors&r which will allow you to create computers, unlock Mekanism, and more! Assuming you have a nice ME network and properly automated &3Vacuum Tubes&r, this shouldn't be too hard."]
+	quest.692BC266D99DADE9.quest_subtitle: "We don't need Surface Mount Technology"
+	quest.692BC266D99DADE9.title: "Where we're going"
+	quest.6939F607B8218B37.quest_desc: ["While I can provide some of the basics of create, the Ponder Index provides far more information about nearly everything. As such, the rest of this chapter will be focused on progressing through the modpack rather than create"]
+	quest.6939F607B8218B37.quest_subtitle: "Just try not to get crushed"
+	quest.6939F607B8218B37.title: "&6Experiment"
+	quest.695A43F3CDC74834.title: "&3Iron Sheets"
+	quest.69CD175DE8CFF0EC.quest_desc: ["Pure Naquadah is useful for creating new things and making Heavy Liquid Naquadah too"]
+	quest.69CD175DE8CFF0EC.quest_subtitle: "Sparkly"
+	quest.69CD175DE8CFF0EC.title: "Crystalized Naquadah"
+	quest.69FBE320CFCDC2A6.quest_desc: ["The Accumulation Processor is the main ingredient of MEGA Cells. It is used in nearly all the recipes. Unlike the other processors, this one requires a Tier III circuit."]
+	quest.6AC133E658CD129F.title: "Naquadah Tools"
+	quest.6BD91191EC16DFAD.title: "Inscribe Pattern"
+	quest.6BDAECDF847B5CE8.quest_desc: ["Pretty simple, just need 4 diamonds to upgrade a gold substrate or 5 to make one from scratch. However, from now on, every substrate will be made by upgrading up from this one."]
+	quest.6BDAECDF847B5CE8.quest_subtitle: "Iced Out!"
+	quest.6BDAECDF847B5CE8.title: "Diamond Substrate"
+	quest.6C1DECF67082392C.quest_desc: ["&dOstrum&r can be found in the Martian underground and can be used to produce a cleaner&l fuel&r source as well as a&l better spacesuit."]
+	quest.6C997F2638D19E7C.title: "Advanced Create Automation"
+	quest.6D63646BB54D20DF.quest_desc: ["Energy Crystals increase the amount of energy a DHD will try to fill a stargate to."]
+	quest.6DAA999CEC7DEDF7.quest_desc: ["Storage monitors allow you to see how much of an item you have in your ME network. They can also be upgraded to allow for barrel-like interaction, although they will consume channels after that."]
+	quest.6DAA999CEC7DEDF7.quest_subtitle: "It glows!"
+	quest.6DD83F5AA8498ECA.quest_desc: ["Put a silicon wafer into a chemical injector and then inject silicon"]
+	quest.6DD83F5AA8498ECA.title: "Step 1: Inject Silicon"
+	quest.6E3C6F4BE6BDFCAA.quest_desc: [""]
+	quest.6E3C6F4BE6BDFCAA.title: "Sprinkle Sugar"
+	quest.6E7B64ACDCF25A03.quest_desc: ["Inject photoresist"]
+	quest.6E7B64ACDCF25A03.title: "Step 12: Apply Photoresist"
+	quest.6EC62B1F9F534FDF.quest_desc: [
+		"In order to return home, you will need to find another cartouche buried in the infinite desert, this time with the Overworld symbols. "
+		""
+		"These can be found in structures that look like small sandstone rocks made out of slabs sticking out of the sand."
+	]
+	quest.6EC62B1F9F534FDF.quest_subtitle: "Where the AC is..."
+	quest.6EC62B1F9F534FDF.title: "Returning Home"
+	quest.6F52F80E88697D95.quest_desc: ["The photomask is used to control the areas in which the photoresist cures. The areas that are covered with photoresist won't get modified by the next step, allowing for the making of detailed patterns of various materials on the wafer."]
+	quest.6F52F80E88697D95.title: "High Precision Light"
+	quest.6FB52619A2C04B0D.quest_desc: ["The &dGravity Normalizer&r can be used to generate a field of overworld gravity in low gravity environments."]
+	quest.6FB52619A2C04B0D.title: "Artificial Gravity"
+	quest.70130F706AC21CA4.quest_desc: ["Mekanised I will help you to manufacture MOSFETs, which are tier I circuits similar to Vacuum Tubes, but able to be produced faster. In addition, the resources for MOSFETs are reused for Mekanised Tiers II and III."]
+	quest.70130F706AC21CA4.title: "Welcome to Mekanised I"
+	quest.7053517E4216FCD1.quest_desc: ["In order to grow iron, copper, and coal, you will need an Iron Substrate. Go ahead and craft one and use it as a botany pot soil."]
+	quest.7053517E4216FCD1.title: "How do I grow ores?"
+	quest.7064AC5CE730629B.title: "Vacuum Tubes"
+	quest.71C4CA73E8FA19A6.quest_desc: ["While you can currently manufacture Tier III circuits, you are not even close to automating them. You must expand into nuclear reactors in order to do so."]
+	quest.71C4CA73E8FA19A6.title: "&6What now?"
+	quest.723CFF1C353C5B85.quest_desc: ["The Create hose allows for extracting or filling large bodies of fluids. It extracts everything at or above the height of it's nozzle and fills up to it's level. However, when the body of fluid is larger than 10000 blocks, the hose considers the pool to be infinite. This works for water, honey, chocolate, and lava. If you want another fluid added to the list, just ask."]
+	quest.723CFF1C353C5B85.quest_subtitle: "Ok, that's definitely not balanced"
+	quest.723CFF1C353C5B85.title: "Infinite Lava"
+	quest.725863D132052C3F.quest_desc: ["The &lPattern Access&r Terminal allows you to quickly move or add patterns to your network."]
+	quest.725863D132052C3F.title: "Managing Patterns"
+	quest.727BFEF5CAE31314.quest_desc: ["The &dInfinity Range Booster&r allows your ME network to have &linfinite range&r."]
+	quest.727BFEF5CAE31314.quest_subtitle: "Just kill the wither"
+	quest.72A7AC9B845231B2.quest_desc: [
+		"While traveling around the world, it is almost guaranteed that you might stumble upon something that may be useful later in the game."
+		"As such, you should look out for:"
+		"• Oil Wells"
+		"• Wizard Towers"
+		"• Fallen Meteors"
+		"• Jungle Pyramids"
+		"• Phosphorite"
+		"• Borax"
+		"• Villages"
+	]
+	quest.72A7AC9B845231B2.quest_subtitle: "Eye Spy"
+	quest.72A7AC9B845231B2.title: "Things to Look Out For"
+	quest.733DDCB7B102F065.quest_desc: ["To make rocket fuel, you will need to find an oil well and extract some oil. Make sure to get at least 6 buckets per rocket launch."]
+	quest.733DDCB7B102F065.title: "Black Gold"
+	quest.738EF626DC5C3C90.quest_desc: ["Create has a large number of multi-faceted mechanisms. As such, it is probably wise for you to check out the &dPonder Index&r. The Ponder Index can be found under the goggle icon in the escape menu, or by holding W while hovering over a create item."]
+	quest.738EF626DC5C3C90.quest_subtitle: "Factory Game"
+	quest.738EF626DC5C3C90.title: "Learning Create"
+	quest.7542A74737AC4408.quest_desc: [
+		"Now that you have all the components automated, you just need to build a sequenced assembly line to complete the vacuum tubes."
+		"{@pagebreak}"
+		"(If you didn't automate this, you are probably pretty mad right now. Too bad, you will need hundreds more just to get to the next era, it's for your own good.)"
+	]
+	quest.7542A74737AC4408.title: "&3Vacuum Tubes"
+	quest.75A4658C0E2E2932.quest_desc: ["Tired of seeing ugly cables everywhere? Facades can be placed on cables to make them appear like other blocks. They can even be placed on faces that already have cable subparts."]
+	quest.75A4658C0E2E2932.quest_subtitle: "The creeper has already breached our defenses"
+	quest.75A4658C0E2E2932.title: "Facades"
+	quest.77083A70517B1321.quest_desc: ["Inject boron trifluoride"]
+	quest.77083A70517B1321.title: "Step 17: Inject Boron"
+	quest.777C55927C4EA7E7.quest_desc: ["The &dCryo Freezer&r allows you to produce &lCryo Fuel&r which can be used in place of &lFuel&r for powering rockets."]
+	quest.777C55927C4EA7E7.title: "Unlimited Fuel"
+	quest.7A971DD8D64507A6.quest_desc: ["Tired of walking to and from your storage system? Using the Wireless Access Point and Wireless Terminals, you no longer have to!"]
+	quest.7A971DD8D64507A6.title: "Subspace Transmissions"
+	quest.7AA20CA2776F5FAB.quest_desc: ["The &dDimension Card&r allows your ME network to have &linfinite&r range and to reach &lacross dimensions&r."]
+	quest.7AA20CA2776F5FAB.quest_subtitle: "Now do it 8 times"
+	quest.7C062A64B6144E35.quest_desc: ["Inject photoresist"]
+	quest.7C062A64B6144E35.title: "Step 15: Apply Photoresist"
+	quest.7C0A2A611D2C1F07.quest_desc: ["Inject phosphorus gas"]
+	quest.7C0A2A611D2C1F07.title: "Step 7: Inject Phosphorus"
+	quest.7C572699F6A6BD33.quest_desc: ["Inject Hydrofluoric Acid to etch the wafer"]
+	quest.7C572699F6A6BD33.title: "Step 4: Etch Wafer"
+	quest.7D5515AB38688F43.quest_desc: [
+		"Stonelings are new passive mobs that spawn in the deep underground and in complete darkness. These little stone fairies will spawn in carrying an item, and will get startled if you get too close to them without sneaking and holding a Glow Shroom to tempt them."
+		""
+		"If startled, they'll run away from you and eventually poof out of existence. If you manage to kill one, you'll get the item its carrying as well as a Heart of Diamond."
+	]
+	quest.7D5515AB38688F43.quest_subtitle: "It's Stoneling Hunting Season"
+	quest.7D5515AB38688F43.title: "Stonelings"
+	quest.7DF2157947E90122.quest_desc: ["Photoresist isn't edible, so we use maple syrup instead!"]
+	quest.7DF2157947E90122.title: "Toss in Maple Syrup"
+	quest.7E26E25094A8FA06.quest_desc: ["&dStargate Journey&r is a mod focused around ancient Stargates left behind by an Ancient race. Craft and activate Stargates to unlock instantaneous, stylish interstellar travel."]
+	quest.7E26E25094A8FA06.quest_subtitle: "Cooler than Waystones!"
+	quest.7E26E25094A8FA06.title: "Welcome to Stargate Journey!"
+	quest.7E6EFAEBC153FC1A.quest_desc: ["The Jet Suit is extremely useful. Not only does offer protection against drowning, fire damage, acid rain, and the void of space, but it also allows you to fly! By pressing space you will fly upwards and sprint key + space allows you to boost."]
+	quest.7E6EFAEBC153FC1A.title: "Powered Flight"
+	quest.7F70CDB4ABE376E8.quest_desc: ["If you come along a cyan &3automation recommended&r quest, you probably should listen. These quests are used for items that you will be using for the rest of the era in nearly everything."]
+	quest.7F70CDB4ABE376E8.quest_subtitle: "Watch for Colors!"
+	quest.7FC523FEA8F868A5.quest_desc: ["Now that you have manufactured your first batch of tier II circuits via mekanism, you are ready to take on tier III. Assuming you listened to my earlier advice of making sure your setup is expandable, you will be fine."]
+	quest.7FC523FEA8F868A5.title: "Hope you listened to my advice"
+	quest.7FFEAEE440BD9D16.quest_desc: ["Steal the golden idol from a pyramid (not just in the desert!) and use it to make the Archaeology Table; a villager workstation for the Archaeologist. Then, you can trade to upgrade that villager to Master and unlock the Map to Chappa'ai."]
+	quest.7FFEAEE440BD9D16.title: "Archaeologist"
+	task.0155F73A47300110.title: "Acknowledge"
+	task.0173E6B03E434CC2.title: "Acknowledge"
+	task.0247EBD081364E20.title: "Acknowledge"
+	task.025CB79FE26AD502.title: "Done!"
+	task.02851F32109D5457.title: "Acknowledge"
+	task.03302A887E14212F.title: "Acknowledge"
+	task.03FAB846074855A5.title: "Acknowledge"
+	task.052ADB4CCB9B787B.title: "Acknowledge"
+	task.05EA6D1596CF3CF0.title: "Done!"
+	task.060E31D1E304F7D0.title: "Welcome to the Kinetic Era"
+	task.0693694DC8DD1B2C.title: "Acknowledge"
+	task.07A911BC043D874A.title: "Acknowledge"
+	task.07CBCE0E4DE73B4D.title: "Acknowledge"
+	task.0BF0F5D641450559.title: "Acknowledge"
+	task.0C493FF23582D551.title: "I see"
+	task.12480A5D3FD71BA5.title: "Acknowledge"
+	task.13123EA1EC6EB6F9.title: "Acknowledge"
+	task.139BDD715C610277.title: "Acknowledge"
+	task.154DF0F06E1834E5.title: "Space Stations"
+	task.1A43017AC8A09236.title: "Done!"
+	task.1C420C34912884BE.title: "Done!"
+	task.1E98A98515EF737D.title: "Item Storage Disks"
+	task.1EC72DAC964170FA.title: "Done!"
+	task.1F62118140D88CC0.title: "Acknowledge"
+	task.21D8AF5890F83EB4.title: "Done!"
+	task.244936FE7A84286F.title: "Done!"
+	task.2500F89E9679E880.title: "AE2 Guidebook"
+	task.25C2BBA1C0F6ADC2.title: "Welcome to the SGJourney Community Pack"
+	task.26684BBFBCA7012E.title: "Acknowledge"
+	task.2C38CAF875CEAF4E.title: "Acknowledge"
+	task.2ECF6CC4D845FA25.title: "Acknowledge"
+	task.2F54C6135C605C6C.title: "Acknowledge"
+	task.310FA93A6E10F757.title: "Acknowledge"
+	task.34DE591CF408C6DE.title: "Acknowledge"
+	task.3639D0A39DBF514C.title: "Done!"
+	task.36CEC38FB52BD29C.title: "Acknowledge"
+	task.38C3A185D5F9FDAD.title: "Acknowledge"
+	task.3AD0E806D507328A.title: "Done!"
+	task.3B65A5D5588C0821.title: "Land on the Moon"
+	task.3BA0348E9F352EFF.title: "Done!"
+	task.3CB0D2A4FFA6B36E.title: "Done!"
+	task.3DD500F6D4DF54B1.title: "Acknowledge"
+	task.3ECC7252CA5917FA.title: "Acknowledge"
+	task.3F6CB2B182E1DF79.title: "Acknowledge"
+	task.456C6721CE2AAF21.title: "Tier III"
+	task.45815E1595E97BE0.title: "Lock it up"
+	task.495E139F9BCBFF58.title: "Hypertubes"
+	task.49774F61C940FE54.title: "Acknowledge"
+	task.4A6AF3D4522E2BE1.title: "Done!"
+	task.4CE42D67345EFC5E.title: "Acknowledge"
+	task.4D620CFA5C7B90F7.title: "Acknowledge"
+	task.4D86878A8EF98EA1.title: "Done!"
+	task.4F38BA6E5AC5C386.title: "Acknowledge"
+	task.5080D2FA013E7994.title: "Done!"
+	task.514DF4667DCB92A6.title: "Done!"
+	task.52DC0453B8847046.title: "Acknowledge"
+	task.549754B464A72C07.title: "Acknowledge"
+	task.55F1EB0AE37D1173.title: "Acknowledge"
+	task.5600081E3DFB3883.title: "Acknowledge"
+	task.5788725D74D7F2C4.title: "Acknowledge"
+	task.57B21BF9EDDF87B6.title: "Acknowledge"
+	task.57BBBAC9B11F3E05.title: "Done!"
+	task.5890A32D19DC58EB.title: "Acknowledge"
+	task.589EADB9E160FE2C.title: "Cogs in the Machine"
+	task.5CAA0975B35E5340.title: "To the Stars!"
+	task.5CD6097BFD5DDA41.title: "Making Circuits"
+	task.5D85369FA6974C0B.title: "Experiment!"
+	task.5E85B05A902BD563.title: "Acknowledge"
+	task.5E91F663D1B529C3.title: "Done!"
+	task.605C7837B49918C3.title: "Acknowledge"
+	task.624FA0652F4DE9C9.title: "We need to Crystalize"
+	task.63048C2FF7399AFF.title: "Acknowledge"
+	task.646BC2C7C5AE58CA.title: "Done!"
+	task.64EAD1CC4F988E8A.title: "Acknowledge"
+	task.657C25647BD961B2.title: "Never Completed"
+	task.6648783E000BCEF1.title: "Done!"
+	task.676458813C0A6E70.title: "Wrench"
+	task.6780D000C5160F2C.title: "Done!"
+	task.69DCFCE11B7CC12D.title: "Onwards!"
+	task.6B6EABA3CA6D65D1.title: "Done!"
+	task.6C23D6A879870788.title: "Done!"
+	task.6C5FAC1AC2258104.title: "Done!"
+	task.6CCB786F00F4D86C.title: "Go Higher!"
+	task.6E72F7FA68152468.title: "Acknowledge"
+	task.6EFE00470385535C.title: "Acknowledge"
+	task.6FF82CD8CF981A58.title: "Acknowledge"
+	task.70680D42DA9C5A26.title: "Acknowledge"
+	task.711EEE1C811AB41C.title: "No Tape Required"
+	task.7330629AF66E52F5.title: "Done!"
+	task.74D716AC833AB0F6.title: "Acknowledge"
+	task.757168EF28526968.title: "Craft Big, Automate Everything"
+	task.75908AC5740C8285.title: "Well done!"
+	task.759F8392D314F749.title: "Acknowledge"
+	task.78F0AD2B88D264DA.title: "Done!"
+	task.7A6CE16DBC66AFE0.title: "Craft Iron Substrate"
+	task.7CA28B0218E80A7C.title: "Acknowledge"
+	task.7D1095E4BD9B1779.title: "Hypertube Entrance"
+	task.7E2F7BBC46116753.title: "Acknowledge"
+}

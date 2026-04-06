@@ -3,13 +3,14 @@
 	default_quest_shape: ""
 	filename: "sophisticated"
 	group: "3553DD7F726AE366"
-	icon: "sophisticatedbackpacks:diamond_backpack"
+	icon: {
+		id: "sophisticatedbackpacks:gold_backpack"
+	}
 	id: "698F2A7BF80CDA52"
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Go exploring with this, and dont forget your map!"]
 			id: "0298A13EEDA2B865"
 			rewards: [{
 				id: "5C4C7FFEF774F679"
@@ -17,47 +18,14 @@
 				xp_levels: 5
 			}]
 			tasks: [{
-				id: "7AF52BB231020430"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "sophisticatedbackpacks:backpack"
-							}
-							{
-								Count: 1b
-								id: "sophisticatedbackpacks:copper_backpack"
-							}
-							{
-								Count: 1b
-								id: "sophisticatedbackpacks:iron_backpack"
-							}
-							{
-								Count: 1b
-								id: "sophisticatedbackpacks:gold_backpack"
-							}
-							{
-								Count: 1b
-								id: "sophisticatedbackpacks:diamond_backpack"
-							}
-							{
-								Count: 1b
-								id: "sophisticatedbackpacks:netherite_backpack"
-							}
-						]
-					}
-				}
+				id: "5BD41653F3847FF3"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
 				type: "item"
 			}]
-			title: "Backpack Backpack!"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			description: ["The &oBest&r Storage Solution"]
 			id: "45D542F277B9E385"
 			rewards: [{
 				id: "193814ECC7638D91"
@@ -65,18 +33,16 @@
 				xp_levels: 5
 			}]
 			tasks: [{
-				id: "48752B29F290E3EE"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "sophisticatedstorage:base_tier_wooden_storage"
+				icon: {
+					components: {
+						"sophisticatedstorage:wood_type": "oak"
 					}
+					id: "sophisticatedstorage:chest"
 				}
-				title: "Sophisticated Chests"
+				id: "0819E40F3853EBF6"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(sophisticatedstorage:all_storage))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			title: "Storage Galore"
 			x: -2.0d
 			y: 0.0d
 		}
@@ -87,12 +53,15 @@
 			rewards: [{
 				count: 2
 				id: "1CAD9DCFAE0341CF"
-				item: "sophisticatedbackpacks:upgrade_base"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:upgrade_base"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "25C996F7ACCA421C"
-				item: "sophisticatedbackpacks:upgrade_base"
+				item: { count: 1, id: "sophisticatedbackpacks:upgrade_base" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -105,12 +74,15 @@
 			rewards: [{
 				count: 2
 				id: "6B9F30CC58602B33"
-				item: "sophisticatedstorage:upgrade_base"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:upgrade_base"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "5BDA2333C60268DE"
-				item: "sophisticatedstorage:upgrade_base"
+				item: { count: 1, id: "sophisticatedstorage:upgrade_base" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -118,32 +90,21 @@
 		}
 		{
 			dependencies: ["45D542F277B9E385"]
-			description: ["No Tape Required"]
 			id: "3BFA59E014B46583"
 			tasks: [{
 				id: "711EEE1C811AB41C"
-				item: "sophisticatedstorage:shulker_box"
-				title: "No Tape Required"
+				item: { count: 1, id: "sophisticatedstorage:shulker_box" }
 				type: "item"
 			}]
-			title: "Easy Moving"
 			x: -2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["45D542F277B9E385"]
-			description: ["Tape your chests shut so you can move them!"]
 			id: "284CE559534E3C64"
 			tasks: [{
 				id: "45815E1595E97BE0"
-				item: {
-					Count: 1
-					id: "sophisticatedstorage:packing_tape"
-					tag: {
-						Damage: 0
-					}
-				}
-				title: "Lock it up"
+				item: { count: 1, id: "sophisticatedstorage:packing_tape" }
 				type: "item"
 			}]
 			x: -3.5d
@@ -155,7 +116,7 @@
 			id: "2C20EAA7DCC9452C"
 			tasks: [{
 				id: "611398CB731F6ABF"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_1" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -167,7 +128,7 @@
 			id: "1A37C392DBFE8799"
 			tasks: [{
 				id: "2BDC8D45CBB8668E"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_2" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -179,7 +140,7 @@
 			id: "68FC25CD912B301A"
 			tasks: [{
 				id: "7D80B6C6AB6075F3"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_3" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -191,7 +152,7 @@
 			id: "4B26EC18F393C672"
 			tasks: [{
 				id: "2196E655FD93DF4B"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_4" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -203,7 +164,7 @@
 			id: "59F95755C323212E"
 			tasks: [{
 				id: "7C27DE5CFC94BD5C"
-				item: "sophisticatedbackpacks:tank_upgrade"
+				item: { count: 1, id: "sophisticatedbackpacks:tank_upgrade" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -215,7 +176,7 @@
 			id: "5C324B3A70CDEE65"
 			tasks: [{
 				id: "54041B548DC9CD4A"
-				item: "sophisticatedbackpacks:battery_upgrade"
+				item: { count: 1, id: "sophisticatedbackpacks:battery_upgrade" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -227,7 +188,7 @@
 			id: "27B512B01F960A86"
 			tasks: [{
 				id: "6229481911B1EA48"
-				item: "sophisticatedbackpacks:xp_pump_upgrade"
+				item: { count: 1, id: "sophisticatedbackpacks:xp_pump_upgrade" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -239,7 +200,7 @@
 			id: "7CD5D4C69324466D"
 			tasks: [{
 				id: "486ADAEAD79CAED3"
-				item: "sophisticatedbackpacks:crafting_upgrade"
+				item: { count: 1, id: "sophisticatedbackpacks:crafting_upgrade" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -251,7 +212,7 @@
 			id: "5BC1B1B8229784FC"
 			tasks: [{
 				id: "5B7C1AAE99A52CE0"
-				item: "sophisticatedbackpacks:stonecutter_upgrade"
+				item: { count: 1, id: "sophisticatedbackpacks:stonecutter_upgrade" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -263,7 +224,7 @@
 			id: "1BC6ACDC913F637D"
 			tasks: [{
 				id: "10C8D7AE9CFEFF8F"
-				item: "sophisticatedbackpacks:anvil_upgrade"
+				item: { count: 1, id: "sophisticatedbackpacks:anvil_upgrade" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -275,7 +236,7 @@
 			id: "665995825689C8F3"
 			tasks: [{
 				id: "0BCE1F900628869C"
-				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+				item: { count: 1, id: "sophisticatedbackpacks:advanced_compacting_upgrade" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -288,17 +249,14 @@
 			rewards: [{
 				id: "70A17C8608E837BE"
 				item: {
-					Count: 1
+					count: 1
 					id: "minecraft:diamond_shovel"
-					tag: {
-						Damage: 0
-					}
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "7DEA86FC72C7EB7A"
-				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+				item: { count: 1, id: "sophisticatedbackpacks:advanced_tool_swapper_upgrade" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -310,7 +268,7 @@
 			id: "3BC4CEDD272890DA"
 			tasks: [{
 				id: "1224641E395EAFB3"
-				item: "sophisticatedbackpacks:jukebox_upgrade"
+				item: { count: 1, id: "sophisticatedbackpacks:jukebox_upgrade" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -322,7 +280,7 @@
 			id: "60F58E0A8E7F3A9C"
 			tasks: [{
 				id: "18AF44E390AC7F0F"
-				item: "sophisticatedbackpacks:auto_blasting_upgrade"
+				item: { count: 1, id: "sophisticatedbackpacks:auto_blasting_upgrade" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -334,12 +292,15 @@
 			id: "767B11A981F87FCA"
 			rewards: [{
 				id: "3F5F4DA76DBABAB5"
-				item: "minecraft:nether_star"
+				item: {
+					count: 1
+					id: "minecraft:nether_star"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "58FD2E9819343F45"
-				item: "sophisticatedbackpacks:everlasting_upgrade"
+				item: { count: 1, id: "sophisticatedbackpacks:everlasting_upgrade" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -351,12 +312,15 @@
 			id: "41A63F401FBA04BD"
 			rewards: [{
 				id: "1DB48B782C8CB592"
-				item: "sophisticatedbackpacks:gold_backpack"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:gold_backpack"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "000DF4F2D8702F68"
-				item: "sophisticatedbackpacks:inception_upgrade"
+				item: { count: 1, id: "sophisticatedbackpacks:inception_upgrade" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -368,7 +332,7 @@
 			id: "74C95C9C7E1EB793"
 			tasks: [{
 				id: "2352A04F8AF2E5F2"
-				item: "sophisticatedstorage:stack_upgrade_tier_1"
+				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_1" }
 				type: "item"
 			}]
 			x: -5.0d
@@ -380,7 +344,7 @@
 			id: "66437A0AED566A2E"
 			tasks: [{
 				id: "0E8A40BFF5EE8977"
-				item: "sophisticatedstorage:stack_upgrade_tier_2"
+				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_2" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -392,7 +356,7 @@
 			id: "77680314FF660A4B"
 			tasks: [{
 				id: "7EE8B66BA5D239E6"
-				item: "sophisticatedstorage:stack_upgrade_tier_3"
+				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_3" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -404,7 +368,7 @@
 			id: "3E4BE066915E4105"
 			tasks: [{
 				id: "3A3A5EC17761C106"
-				item: "sophisticatedstorage:stack_upgrade_tier_4"
+				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_4" }
 				type: "item"
 			}]
 			x: -8.0d
@@ -416,7 +380,7 @@
 			id: "5820C9ED1E7DDD60"
 			tasks: [{
 				id: "779F88C763C85526"
-				item: "sophisticatedstorage:advanced_void_upgrade"
+				item: { count: 1, id: "sophisticatedstorage:advanced_void_upgrade" }
 				type: "item"
 			}]
 			x: -5.0d
@@ -428,7 +392,7 @@
 			id: "26E0C69ED15AAE64"
 			tasks: [{
 				id: "473C31BA26715BF0"
-				item: "sophisticatedstorage:compression_upgrade"
+				item: { count: 1, id: "sophisticatedstorage:compression_upgrade" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -440,7 +404,7 @@
 			id: "2E326AE584C28E7C"
 			tasks: [{
 				id: "060E46BE3B3559F4"
-				item: "sophisticatedstorage:advanced_hopper_upgrade"
+				item: { count: 1, id: "sophisticatedstorage:advanced_hopper_upgrade" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -452,7 +416,7 @@
 			id: "19D19460AD01CB29"
 			tasks: [{
 				id: "314E9D1BC5E170E8"
-				item: "sophisticatedstorage:advanced_magnet_upgrade"
+				item: { count: 1, id: "sophisticatedstorage:advanced_magnet_upgrade" }
 				type: "item"
 			}]
 			x: -8.0d
@@ -464,7 +428,7 @@
 			id: "47C1213A140F2245"
 			tasks: [{
 				id: "09BDC0753A7AF603"
-				item: "sophisticatedstorage:crafting_upgrade"
+				item: { count: 1, id: "sophisticatedstorage:crafting_upgrade" }
 				type: "item"
 			}]
 			x: -5.0d
@@ -476,7 +440,7 @@
 			id: "61714687DCAC629F"
 			tasks: [{
 				id: "73618FF0A903E8CE"
-				item: "sophisticatedstorage:stonecutter_upgrade"
+				item: { count: 1, id: "sophisticatedstorage:stonecutter_upgrade" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -488,7 +452,7 @@
 			id: "168A68F5389801CA"
 			tasks: [{
 				id: "328A3B54318EDCFC"
-				item: "sophisticatedstorage:auto_blasting_upgrade"
+				item: { count: 1, id: "sophisticatedstorage:auto_blasting_upgrade" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -500,7 +464,7 @@
 			id: "42FA5BA034E1BB32"
 			tasks: [{
 				id: "21B7E6656C869559"
-				item: "sophisticatedstorage:advanced_feeding_upgrade"
+				item: { count: 1, id: "sophisticatedstorage:advanced_feeding_upgrade" }
 				type: "item"
 			}]
 			x: -8.0d
@@ -512,12 +476,15 @@
 			id: "2B5C294456018C6F"
 			rewards: [{
 				id: "28577972F7749A0F"
-				item: "minecraft:enchanted_golden_apple"
+				item: {
+					count: 1
+					id: "minecraft:enchanted_golden_apple"
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0FBB56863C7212FC"
-				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				item: { count: 1, id: "sophisticatedbackpacks:advanced_feeding_upgrade" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -525,101 +492,30 @@
 		}
 		{
 			dependencies: ["45D542F277B9E385"]
-			description: ["This is not a trash can"]
 			id: "2CFE45BBBCB776F0"
 			tasks: [
 				{
 					id: "3110BD1D627883A9"
-					item: "sophisticatedstorage:storage_tool"
+					item: { count: 1, id: "sophisticatedstorage:storage_tool" }
 					type: "item"
 				}
 				{
 					id: "7DDDA8953E0A12D5"
-					item: "sophisticatedstorage:controller"
+					item: { count: 1, id: "sophisticatedstorage:controller" }
 					type: "item"
 				}
 			]
-			title: "Dump Everything"
 			x: -2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["45D542F277B9E385"]
-			description: ["A Larger Inventory for Everyone!"]
 			id: "5E2B4E3EF7D7EB8B"
 			tasks: [{
 				id: "3AC1FF67B99F444A"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "sophisticatedstorage:basic_tier_upgrade"
-							}
-							{
-								Count: 1b
-								id: "sophisticatedstorage:basic_to_copper_tier_upgrade"
-							}
-							{
-								Count: 1b
-								id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
-							}
-							{
-								Count: 1b
-								id: "sophisticatedstorage:basic_to_gold_tier_upgrade"
-							}
-							{
-								Count: 1b
-								id: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
-							}
-							{
-								Count: 1b
-								id: "sophisticatedstorage:basic_to_netherite_tier_upgrade"
-							}
-							{
-								Count: 1b
-								id: "sophisticatedstorage:copper_to_iron_tier_upgrade"
-							}
-							{
-								Count: 1b
-								id: "sophisticatedstorage:copper_to_gold_tier_upgrade"
-							}
-							{
-								Count: 1b
-								id: "sophisticatedstorage:copper_to_netherite_tier_upgrade"
-							}
-							{
-								Count: 1b
-								id: "sophisticatedstorage:iron_to_gold_tier_upgrade"
-							}
-							{
-								Count: 1b
-								id: "sophisticatedstorage:iron_to_diamond_tier_upgrade"
-							}
-							{
-								Count: 1b
-								id: "sophisticatedstorage:iron_to_netherite_tier_upgrade"
-							}
-							{
-								Count: 1b
-								id: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
-							}
-							{
-								Count: 1b
-								id: "sophisticatedstorage:gold_to_netherite_tier_upgrade"
-							}
-							{
-								Count: 1b
-								id: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
-							}
-						]
-					}
-				}
+				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedstorage:basic_tier_upgrade)item(sophisticatedstorage:basic_to_copper_tier_upgrade)item(sophisticatedstorage:basic_to_iron_tier_upgrade)item(sophisticatedstorage:basic_to_gold_tier_upgrade)item(sophisticatedstorage:basic_to_diamond_tier_upgrade)item(sophisticatedstorage:basic_to_netherite_tier_upgrade)item(sophisticatedstorage:copper_to_iron_tier_upgrade)item(sophisticatedstorage:copper_to_gold_tier_upgrade)item(sophisticatedstorage:copper_to_diamond_tier_upgrade)item(sophisticatedstorage:copper_to_netherite_tier_upgrade)item(sophisticatedstorage:iron_to_gold_tier_upgrade)item(sophisticatedstorage:iron_to_diamond_tier_upgrade)item(sophisticatedstorage:iron_to_netherite_tier_upgrade)item(sophisticatedstorage:gold_to_diamond_tier_upgrade)item(sophisticatedstorage:gold_to_netherite_tier_upgrade)item(sophisticatedstorage:diamond_to_netherite_tier_upgrade))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			title: "UPGRADES PEOPLE!"
 			x: -3.5d
 			y: 1.5d
 		}
@@ -629,17 +525,14 @@
 			rewards: [{
 				id: "35E25452C5A40BB9"
 				item: {
-					Count: 1
+					count: 1
 					id: "minecraft:netherite_pickaxe"
-					tag: {
-						Damage: 0
-					}
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "2998E2E7549D1BEC"
-				item: "sophisticatedstorage:stack_upgrade_tier_5"
+				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_5" }
 				type: "item"
 			}]
 			x: -9.0d
@@ -651,7 +544,7 @@
 			id: "22411E8C1EBAB0D4"
 			tasks: [{
 				id: "30F3A61B33698819"
-				item: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+				item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_omega_tier" }
 				type: "item"
 			}]
 			x: 7.0d
@@ -663,12 +556,11 @@
 			id: "6D2057901AF99375"
 			tasks: [{
 				id: "4273CECAB12E8DF8"
-				item: "sophisticatedstorage:stack_upgrade_omega_tier"
+				item: { count: 1, id: "sophisticatedstorage:stack_upgrade_omega_tier" }
 				type: "item"
 			}]
 			x: -10.0d
 			y: -1.0d
 		}
 	]
-	title: "Sophisticated"
 }

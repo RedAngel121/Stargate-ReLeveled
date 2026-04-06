@@ -290,79 +290,83 @@ hash = "c10c06139660bf3922fb3547fe187d225911e9a05288ed8fd6a9a4db368e08f0"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "03dd283990f8efaff925aebdc5dda5672ee41c989116c54179a176147c9d5b87"
+hash = "91a58d33dc24923bb745139678a01cee1bb0dfd5a29f914e798f89edf84d9e3d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ad_astra.snbt"
-hash = "d31c1d3e52da6ce85f133edcf068055f46474a1786afbb9484effa175631daf7"
+hash = "8ef2ac68f11498f9c21903a13aa22c2fae80d726674e374d30885f968a7b38f9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae2.snbt"
-hash = "5314074a690eea2d6cb7437f0c0299adeaa33f88c10539df77738c162e8c3426"
+hash = "f2cc7045ee61a4fe8fb4bbdcabe87ea02e6eeafc3b4f45d2c1ad66f2031e5416"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "1e9ee3ead073444016db15947bb136e93433eefe9a58205407afc6e9d32964d2"
+hash = "873b66671c82ee660c7237de79816c643475002106fb56b85305c1155fe104e5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kinetic_era.snbt"
-hash = "a1aa757214456130737f2782c1df6e41e309b6f42b32a7f87c590d23cbb091c5"
+hash = "848d6b08b3fb258e8bc24a5f69b1c8f0e1e61596ee142a52dc8d0a66e60f6fe2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kinetic_era_ii.snbt"
-hash = "ea5251768d81d94edccef350e30447bfab73eb29ce2478ee8670fdbfdfe7f949"
+hash = "4e828757fc74356f7dd7e92a437aa64ba969522bc613e51c720b52744a7bd9ba"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanised_i.snbt"
-hash = "3968da8a8f4d5816106ca07bcbec11c1858e4d84d6c84326dddb3c9f6d2725eb"
+hash = "93904bcef79b53a71cfefcce389167c5d9784198f8ab4faacf276058c1c55b07"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanised_ii.snbt"
-hash = "a1dc5923be7b98b5bb82c869acee890f5e684ecc47c01385f3bc3075317d8ed8"
+hash = "8aa6edaa634aea2567a376a2da45f32632882d38c0dd7046c0ab1b607d7e3468"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanised_iii.snbt"
-hash = "2aa8db3c931bb18631e34a202ff705e436b393a426bc7d8eed0364700240d4eb"
+hash = "2a5811fd57a32d9732677a45143e34d095defac5dbb2bbc26e87b26b0fcb0ec8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
-hash = "b3f09bcfec389bf8a5da87e40f5cc7f7486bda81b77e7ff9f3e0cb425ce8b94a"
+hash = "723821f04521dcfdb619cc2dbe12ee52097e1396839d2e24cc492384a75b0fac"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/progression.snbt"
-hash = "b358f6dd959c969feb9393d479326cef035caecdfb200d26504b72a87a808d51"
+hash = "e8b1702cb8fd06bc1fce90617f407f661412a43b496ee9f0c17fbe41f8ac532c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sophisticated.snbt"
-hash = "cc8b7d574cbe459ae7e2037fdfea0a8441e816a13db8a541b0482d7ee3bc9d9b"
+hash = "7e530bf76ed1c6a1bb7cdd9d04912bbaec5f9dc853214e280c07c05b55830963"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stargate_journey.snbt"
-hash = "932ec07afd63653c151bd72d053da5d99a4fb0d823ada0f6e9e29833b57224d4"
+hash = "cb02968639e371216a3f8e737f2b2e6608a821888a2b1dc1ee6d682b5404ccbc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_beginnings.snbt"
-hash = "f0d4bc37afa636f7f126335c2f54cd436f37cb486fa3d2dea138430fe149efd4"
+hash = "68c2205d4fce564e330313348a16e6bd20fc685195c93d139c004c71394f02fd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks.snbt"
-hash = "4842f8f4a126b90f6f327a414f2e1050475c60fef713d015950b306525a63171"
+hash = "9acfb0aec82289b5b046048c166f81134f58da0c8b6f8d8cf8a1f1fadb2450c0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/util.snbt"
-hash = "864897eb013899a364ca8d76b096581003249c5db2e5ac321370d26f7f6b9ad4"
+hash = "48400b4c9a79c0caf16c54997e4233b5236fa7b7a570b3b42c1b13c65e363fee"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "8517b6d3b50dd3437d9a60ad3d6fcd02b7221989eda07cc74edc4d876bc19bb4"
+hash = "c3e869e2590e2e7564fd934b929387ba6ca0560a9f767ae9162550ae6f562f7f"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us.snbt"
+hash = "976b1f496279de7a001eb0e0dec84601d5332663fba474cba0bb95e607f53245"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/ae2basic.snbt"
-hash = "82996e52495786c2a63b74e87d1f2ccf1a23772e7409dbe159adb96b7afb4a5d"
+hash = "7551c988125934d906693f6986741e5010d0cd1503d25e5f8cddcf7ef972c169"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/kineticerabasic.snbt"
-hash = "c418fe5d459a08deb666565c26447e6d1e7347b1753850b6fb3c2523d7626cb2"
+hash = "64ddf1179bd01bdf868c360a3125d1a1300bed0ee09d5cac9d877093021ec8bf"
 
 [[files]]
 file = "config/incontrol/spawn.json"
