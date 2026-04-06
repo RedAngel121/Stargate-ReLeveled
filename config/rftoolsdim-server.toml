@@ -86,7 +86,7 @@
 #Dimlets settings
 [dimlets]
 	#This is a list of dimlet packages that will be used. Later dimlet packages can override dimlets defined in earlier packages. You can place these packages in the 'config/rftoolsdim' folder
-	dimletPackages = ["base.json", "vanilla_blocks.json", "vanilla_tags.json", "vanilla_fluids.json", "vanilla_biomes.json", "vanilla_structures.json", "rftools.json", "appliedenergistics2.json", "biggerreactors.json", "bigreactors.json", "botania.json", "immersiveengineering.json", "mekanism.json", "powah.json", "quark.json", "tconstruct.json", "thermal.json", "biomesoplenty.json", "emendatusenigmatica.json"]
+	dimletPackages = ["base.json", "vanilla_blocks.json", "vanilla_tags.json", "vanilla_fluids.json", "vanilla_biomes.json", "vanilla_structures.json", "rftools.json", "appliedenergistics2.json", "biggerreactors.json", "bigreactors.json", "botania.json", "immersiveengineering.json", "mekanism_override.json", "powah.json", "quark.json", "tconstruct.json", "thermal.json", "biomesoplenty.json", "emendatusenigmatica.json", "sgjourney.json"]
 
 #Dimlet Workbench settings
 [dimletworkbench]

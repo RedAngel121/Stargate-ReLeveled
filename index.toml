@@ -378,7 +378,7 @@ hash = "c6381a6168e07629d7f4045d1492b30945dca4dfdbabb7b70d4ea6d3d4b028b4"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "8b322632a472f60dda22a84e3fb515c6984619c79793002dc0d9546bd627c494"
+hash = "4e3ef8fa32f8e3a44b3b4f320e8a76d81e8e950eee94e455750fca439c320bbb"
 
 [[files]]
 file = "config/rftoolsbuilder-server.toml"
@@ -386,7 +386,15 @@ hash = "e68b632d984aaefebc37ad083be99be90de384f27d4bfecb5fa1aa09c7230f63"
 
 [[files]]
 file = "config/rftoolsdim-server.toml"
-hash = "1db503fd705092b42fa768ff20b658858c97298b6bab89c2bbb78647610e01aa"
+hash = "d33a7816fd9df6f3c781d39e33310e9573c1725dc46f5406ace11f13d0f37752"
+
+[[files]]
+file = "config/rftoolsdim/mekanism_override.json"
+hash = "3354bff1fb93a4f89c83b5ce4ac4bbc216a1de478268cbe0fabce382a18ff1bd"
+
+[[files]]
+file = "config/rftoolsdim/sgjourney.json"
+hash = "1469f6e98f3b6804d02ed93ab167c0a0c4e3dac3d71234c5b474999fbf034c8c"
 
 [[files]]
 file = "config/rftoolsutility-server.toml"
@@ -398,7 +406,7 @@ hash = "e0f1ea84326c7251cb814988cf94067869046394fbb07165879bb67181a19ba4"
 
 [[files]]
 file = "config/simplebackups-common.toml"
-hash = "fbeb5c55f57afe6693767adcbf5d48d3af425b1ddbb6814f0937b6185fd89f7b"
+hash = "c5addce1aea576ba177b71fab731c2543ba707c53bec0cfce2f88ad9d9d8625d"
 
 [[files]]
 file = "config/staaaaaaaaaaaack-client.toml"
@@ -414,7 +422,7 @@ hash = "4ac6b7cd374d2c15f6095b582eabda9091ca32b107590e7d9d6a4d660ca2129f"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
-hash = "ffb68f3d6f9bdc4ae75be0f309e971dd2959e7ccf0ad6086a659b4a5f42cb4f6"
+hash = "a532225bafe668969fbb8a3d7cb249429d2fd84203d3df3e43c3b32a512baa4e"
 
 [[files]]
 file = "config/wover/cached.json"
@@ -427,10 +435,6 @@ hash = "977ebb131d488090fadc0a05f093eec69c087d217991645f082a7065b4fd3d35"
 [[files]]
 file = "config/wover/main.json"
 hash = "0d3a7f0f0b4e4658b2c69a696218f5ef7cb9ac453426aff6777031aab942dc10"
-
-[[files]]
-file = "image.png"
-hash = "7f216199282b8045fcb85f4be0ec56d33c4a6b3125b574f564aa74b07561840c"
 
 [[files]]
 file = "instance.png"
@@ -2282,7 +2286,7 @@ hash = "8dacb91f49c4bfb49211ddaa994efac7eb901f255baa06edc2b1e447080d2b99"
 
 [[files]]
 file = "kubejs/server_scripts/tag_fix.js"
-hash = "24a2255654579fee374c6b40a19933707302f84c1876ab12744fb6819cde948f"
+hash = "8e4c67ab31d6414781075983511293b4d44f4f7096b4ffb6a3dff5fd0dfe2feb"
 
 [[files]]
 file = "kubejs/server_scripts/wafer_chain.js"

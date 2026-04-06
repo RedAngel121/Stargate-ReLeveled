@@ -4,7 +4,7 @@
 
 ### Changes:
 - Updated MC to 1.21.1
-- Swapped to Neoforge 21.1.219
+- Swapped to Neoforge 21.1.224
 - Create: Steam and Rails (replaced with unofficial version for 1.21.1)
 - Replaced Terrablender Forge with Terrablender Neoforge
 - Replaced Yungs Forge mods with Yungs Neoforge mods for 1.21.1
@@ -33,7 +33,7 @@
 - XK's Decoration and Dependancies:
   - Kiwi
   - Forgified Fabric API
-- a few more that i probably forgot to add...
+- a few more that i probably forgot to list...
 
 ### Removals:
 - Botarium
@@ -59,7 +59,7 @@
 ### NOTES:
 - DimStruc Restrict mod needs to be updated to handle the Overworld Mirror gates generation/prevention
 - Overlapless Config: Add SGJ stuff to prevent loss of progression
-- Quark/Zeta is causing crash on startup (keybind error resolved:	"Back Button Keybind" = false)
+- Quark/Zeta is causing crash on startup (keybind error resolved: "Back Button Keybind" = false)
 - Refactor the entire KubeJS folder to accomodate the new mod changes and 1.21.1 update
   - [ ] fix custom Kubejs scripts
   - [x] #forge replaced with #c
@@ -80,7 +80,7 @@
 - Replace the botany growing pots with Myst Ag and replace ALL the recipes with our own stuff
   - This requires a complete rewrite of the kubejs scripts to seperate out the growing from manufacturing
 - ZPM replication options for endgame (talk to cookta)
-- SGJ Configs: regen with correct values
+- SGJ Configs: regen with correct protection values?
 - Add Expanded, Extended, and Advanced AE mods
 - Mekanism More Machines mod
 
@@ -118,9 +118,9 @@
 - After you enter a tag, you just need to insert items to convert them!"
 
 ### CHECK ALL STRUCTURES:
-- abydos pyramid has some texturing that got lost in translation and needs to be re-applied (check vtech DMs https://discord.com/channels/@me/1318445317724835890/1490218146500706435)
+- abydos pyramid has some texturing that got lost in translation and needs to be re-applied (vtech DMs https://discord.com/channels/@me/1318445317724835890/1490218146500706435)
 - Custom Gates need to be adjusted to the MoreGate mod
-- check why Nether Gate never showed up - possible overlapless?
-- check why End Gate never showed up - possible overlapless?
-- check why Undergarden Gate never showed up - possible overlapless?
+- check why Nether Gate never showed up - overlapless killed it lol
+- check why End Gate never showed up - overlapless killed it lol
+- check why Undergarden Gate never showed up - overlapless killed it lol
 - need to double check the rest of them

@@ -56,6 +56,8 @@ createSubDirs = true
 #Use an internal tick counter instead of the real world time. The value of the timer will be converted to ticks. When the timer is over, the backup will be created.
 #Keep in mind that lagging servers will result in larger gaps between two backups, e.g. 10 FPS in average will result in double the time set between backups.
 useTickCounter = false
+#Should log lines written to logs/latest.log during backup be stored inside the backup archive as latest.log?
+captureLatestLog = true
 
 #WARNING This configuration should stay as default if backups are not monitored properly.
 [error_handling]
