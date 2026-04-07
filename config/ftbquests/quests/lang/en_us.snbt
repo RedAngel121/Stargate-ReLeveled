@@ -28,16 +28,16 @@
 	quest.0123F1E672CC0B91.title: "Step 8: Apply Photoresist"
 	quest.01A11F434A489617.quest_desc: ["The &dWireless Booster&r allows for your &lWireless Access Point&r to reach &lfurther&r. Up to 64 can be stacked inside an Access Point."]
 	quest.024076D5FFC651DA.title: "Apply Honey"
-	quest.026A1F62C8150FEA.quest_desc: ["In order to assemble a rocket, you will need to craft a NASA Workbench."]
+	quest.026A1F62C8150FEA.quest_desc: ["In order to assemble a rocket, you will need to craft a Rocket Station."]
 	quest.0298A13EEDA2B865.quest_desc: ["Go exploring with this, and dont forget your map!"]
 	quest.0298A13EEDA2B865.title: "Backpack Backpack!"
 	quest.02D196F734985673.quest_desc: ["There are several types of power generation in the pack that you can easily start early on. Make sure you make more than one cause you are probably going to need it anyway."]
 	quest.02D196F734985673.quest_subtitle: "Trickle Charging at its finest"
 	quest.02D196F734985673.title: "Power Generation"
-	quest.03A86C169C511433.quest_desc: ["Guess what? It's found in the Venus Underground. You can craft a rocket with it. HOWEVER, unlike all the other Ad Astra ores, this one unlocks something cool: The Jet Suit."]
-	quest.03A86C169C511433.title: "Another Ad Astra Ore"
-	quest.040091D32C7039BF.quest_desc: ["Ad Astra is a simple space mod that adds several tiers of rockets and 5 new worlds to visit. It also adds orbit dimensions where you can build space stations! By completing Ad Astra, you get access to powered flight as well."]
-	quest.040091D32C7039BF.title: "About Ad Astra"
+	quest.03A86C169C511433.quest_desc: ["Guess what? It's found in the Venus Underground. You can craft a rocket with it. HOWEVER, unlike all the other Stellaris ores, this one unlocks something cool: The Jet Suit."]
+	quest.03A86C169C511433.title: "Another Stellaris Ore"
+	quest.040091D32C7039BF.quest_desc: ["Stellaris is a simple space mod that adds several tiers of rockets and 5 new worlds to visit. It also adds orbit dimensions where you can build space stations! "]
+	quest.040091D32C7039BF.title: "About Stellaris"
 	quest.042B824F2BC728B7.quest_desc: ["Use an inscriber with an Integrated Circuit Photomask in the top slot to expose the photoresist."]
 	quest.042B824F2BC728B7.title: "Step 16: Expose Photoresist"
 	quest.04330436A2FF5A66.quest_desc: ["Phosphorus can be made from Phosphorite which spawns in veins from y 50 to y -10, alongside limestone."]
@@ -191,7 +191,7 @@
 	quest.2CA6B3612193EE50.title: "Inscribe Pattern"
 	quest.2CE0EF19B7FB7784.quest_desc: ["&dStellaris&r is a space exploration mod where you can visit other planets and build space stations."]
 	quest.2CE0EF19B7FB7784.quest_subtitle: "See you later, Space Cowboy"
-	quest.2CE0EF19B7FB7784.title: "Ad Astra"
+	quest.2CE0EF19B7FB7784.title: "Stellaris"
 	quest.2CFE45BBBCB776F0.quest_desc: ["This is not a trash can"]
 	quest.2CFE45BBBCB776F0.title: "Dump Everything"
 	quest.2D1E28252D69CABA.title: "Kinetic Era"
@@ -211,6 +211,18 @@
 	quest.330F487B82B4444C.quest_subtitle: "Is that an Angel?"
 	quest.330F487B82B4444C.title: "Bottled Cloud"
 	quest.3328AF49D13841D5.quest_desc: ["Coral compost give 4x speed to crops that grow in water"]
+	quest.333C93B2D1DBACA8.quest_desc: [
+		"While traveling around the world, it is almost guaranteed that you might stumble upon something that may be useful later in the game."
+		"As such, you should look out for:"
+		"• Wizard Towers"
+		"• Fallen Meteors"
+		"• Jungle Pyramids"
+		"• Phosphorite"
+		"• Borax"
+		"• Villages"
+	]
+	quest.333C93B2D1DBACA8.quest_subtitle: "Eye Spy"
+	quest.333C93B2D1DBACA8.title: "Things to Look Out For"
 	quest.3469D07EB4D14590.quest_desc: ["Mulch gives 4x speed on trees and crops that grow on wood."]
 	quest.3526B63F9A0CD846.quest_desc: ["Now, slowly mix in your flour"]
 	quest.3526B63F9A0CD846.title: "Bake!"
@@ -235,7 +247,7 @@
 	quest.38B15EC74C314C3A.quest_desc: ["The electrolytic separator uses electrolysis to split fluids into parts. In this case, you will use it to split water into hydrogen and oxygen. To get rid of the excess hydrogen, you can either burn it in a generator or just use the dump feature of the electrolytic separator."]
 	quest.38DC3646EA8F8BDB.quest_subtitle: "Start Excavating!"
 	quest.38DC3646EA8F8BDB.title: "You Found One!"
-	quest.39646520A484643F.quest_desc: ["This pack uses &dMekanism&r and &dCreate&r for resources, &dStargate Journey&r and &dAd Astra&r for exploration, and &dBotany Pots&r + a &ocustom tiered substrate system&r for resources. If a &3quest is cyan&r, that means that you should try your best to automate it."]
+	quest.39646520A484643F.quest_desc: ["This pack uses &dMekanism&r and &dCreate&r for resources, &dStargate Journey&r and &dStellaris&r for exploration, and &dBotany Pots&r + a &ocustom tiered substrate system&r for resources. If a &3quest is cyan&r, that means that you should try your best to automate it."]
 	quest.39646520A484643F.quest_subtitle: "An organized mess..."
 	quest.39ADFC1941826E2E.title: "&6Moving Rotation"
 	quest.39CBECB2C3DFE133.quest_desc: ["The Metallurgic Infuser is used to infuse items with chemicals. Most of the items used to infuse have enriched versions that give around 4x as much material."]
@@ -282,15 +294,17 @@
 	quest.4044025B79CF78BE.title: "Mix in Sodium Bicarbonate"
 	quest.4127A5F56B05E24D.quest_desc: ["Steel is relatively easy to make. All you need is a blast furnace and some iron and you can have more steel ingots than you will ever need."]
 	quest.4127A5F56B05E24D.title: "Forging Steel"
-	quest.41B6CC48454F92F4.quest_desc: ["&dAdvanced Peripherals&r allows &lComputerCraft&r computers to access far more information than they can in base CC"]
+	quest.41B6CC48454F92F4.quest_desc: [
+		"&dAdvanced Peripherals&r allows &lComputerCraft&r computers to access far more information than they can in base CC"
+		""
+		"The book that usually comes with this mod has been removed in favor of subtext on the items themselves... "
+	]
 	quest.41B6CC48454F92F4.quest_subtitle: "Computational Interaction"
 	quest.41B6CC48454F92F4.title: "Advanced Peripherals"
 	quest.41E03B50C0421DD7.quest_desc: ["The staff weapon is fueled with liquid naquadah and can fire plasma bolts that deal 14 damage."]
 	quest.4211165EF22FE2C5.quest_desc: ["Naquadah in found throughout abydos and is used in nearly every part of Stargate Journey."]
 	quest.4211165EF22FE2C5.quest_subtitle: "Welcome To Abydos!"
 	quest.4211165EF22FE2C5.title: "Channeling Energy"
-	quest.430F4F27DC67D1F1.quest_desc: ["While mekanism's metallurgic infuser is good at many things, Stellaris provides a far easier way to get steel than mekanism does."]
-	quest.430F4F27DC67D1F1.title: "Cheaper than Mekanism"
 	quest.43E7ADEBD62B6910.quest_desc: ["You will need to use the&d correct Photomask&r for the&l Isotopic Decay Oscillator&r."]
 	quest.43E7ADEBD62B6910.title: "Inscribing steps"
 	quest.442119BDEDEDE3A1.quest_desc: ["Hydrofluoric acid can be made from sulfuric acid and fluorite."]
@@ -392,7 +406,7 @@
 	]
 	quest.5822E75A31419923.quest_subtitle: "Store Everything"
 	quest.5822E75A31419923.title: "Better Than Quests"
-	quest.59808EDCCD6B0790.quest_desc: ["Now that you have completed the main progression of ad astra, you can travel to Alpha Centauri because why not"]
+	quest.59808EDCCD6B0790.quest_desc: ["Now that you have completed the main progression of Stellaris, you can travel to Alpha Centauri because why not"]
 	quest.59808EDCCD6B0790.title: "Another Rocket?"
 	quest.59E8FE3300D4D830.title: "Build your Own"
 	quest.5A528882B2D313EF.title: "Here we go again..."
@@ -559,18 +573,12 @@
 	quest.727BFEF5CAE31314.quest_desc: ["The &dInfinity Range Booster&r allows your ME network to have &linfinite range&r."]
 	quest.727BFEF5CAE31314.quest_subtitle: "Just kill the wither"
 	quest.72A7AC9B845231B2.quest_desc: [
-		"While traveling around the world, it is almost guaranteed that you might stumble upon something that may be useful later in the game."
-		"As such, you should look out for:"
-		"• Oil Wells"
-		"• Wizard Towers"
-		"• Fallen Meteors"
-		"• Jungle Pyramids"
-		"• Phosphorite"
-		"• Borax"
-		"• Villages"
+		"This modpack has quests that will guide you through 5 crafting tiers of circuits. You can either keybind the questbook or open the questbook from the top left corner of your screen while in your inventory. "
+		""
+		"If you dont like the complex and carefully crafted recipe chains I made, you can wimp out and use Easy Mode by using the chat command \"/easymode\". This will enable the Easy Mode options and a quest that explains how to use the Oredictionificator."
 	]
-	quest.72A7AC9B845231B2.quest_subtitle: "Eye Spy"
-	quest.72A7AC9B845231B2.title: "Things to Look Out For"
+	quest.72A7AC9B845231B2.quest_subtitle: "Not for Wimps"
+	quest.72A7AC9B845231B2.title: "Welcome to Stargate Releveled!"
 	quest.733DDCB7B102F065.quest_desc: ["To make rocket fuel, you will need to find an oil well and extract some oil. Make sure to get at least 6 buckets per rocket launch."]
 	quest.733DDCB7B102F065.title: "Black Gold"
 	quest.738EF626DC5C3C90.quest_desc: ["Create has a large number of multi-faceted mechanisms. As such, it is probably wise for you to check out the &dPonder Index&r. The Ponder Index can be found under the goggle icon in the escape menu, or by holding W while hovering over a create item."]
@@ -657,7 +665,6 @@
 	task.36CEC38FB52BD29C.title: "Acknowledge"
 	task.38C3A185D5F9FDAD.title: "Acknowledge"
 	task.3AD0E806D507328A.title: "Done!"
-	task.3B65A5D5588C0821.title: "Land on the Moon"
 	task.3BA0348E9F352EFF.title: "Done!"
 	task.3CB0D2A4FFA6B36E.title: "Done!"
 	task.3DD500F6D4DF54B1.title: "Acknowledge"

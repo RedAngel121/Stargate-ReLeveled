@@ -4,7 +4,7 @@
 	filename: "create"
 	group: "3553DD7F726AE366"
 	icon: {
-		id: "dndecor:industrial_cogwheel"
+		id: "copycats:copycat_large_cogwheel"
 	}
 	id: "2AB09A34CE1A5FC5"
 	order_index: 0

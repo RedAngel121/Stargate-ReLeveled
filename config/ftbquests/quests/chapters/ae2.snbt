@@ -4,7 +4,7 @@
 	filename: "ae2"
 	group: "3553DD7F726AE366"
 	icon: {
-		id: "ae2:controller"
+		id: "chisel_chipped_integration:futura_me_controller_ae_2"
 	}
 	id: "130D8C64768FBA7D"
 	order_index: 3

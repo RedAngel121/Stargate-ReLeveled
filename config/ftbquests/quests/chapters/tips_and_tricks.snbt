@@ -161,7 +161,7 @@
 			size: 1.5d
 			tasks: [{
 				dimension: "minecraft:overworld"
-				id: "7320043129074AF8"
+				id: "13A0C57532D2C000"
 				type: "dimension"
 			}]
 			x: 0.0d
@@ -269,6 +269,7 @@
 			hide_dependent_lines: true
 			id: "1F7207A92D11C39B"
 			invisible: true
+			optional: true
 			rewards: [{
 				id: "5DD53A02684112CE"
 				item: {
@@ -352,6 +353,21 @@
 			dependencies: ["72A7AC9B845231B2"]
 			hide_dependent_lines: true
 			id: "35C92A242C77A205"
+			rewards: [{
+				id: "327B612D48F91531"
+				item: {
+					components: {
+						"quark:tome_enchantments": {
+							levels: {
+								"minecraft:fortune": 8
+							}
+						}
+					}
+					count: 1
+					id: "quark:ancient_tome"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "12268B84B8931F06"
 				item: { count: 1, id: "quark:pickarang" }
@@ -366,6 +382,7 @@
 			id: "50CF4FDB4145E5D7"
 			rewards: [
 				{
+					count: 32
 					id: "693B42B80A83D7D0"
 					item: {
 						count: 1
@@ -374,6 +391,7 @@
 					type: "item"
 				}
 				{
+					count: 32
 					id: "75FA4602FBB8D9B5"
 					item: {
 						count: 1
@@ -382,10 +400,20 @@
 					type: "item"
 				}
 				{
+					count: 32
 					id: "3D9C75FABEA2FA50"
 					item: {
 						count: 1
 						id: "quark:chiseled_diorite_bricks"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5CA19809E363A157"
+					item: {
+						count: 1
+						id: "xkdeco:stone_brick_pavement"
 					}
 					type: "item"
 				}
@@ -402,6 +430,14 @@
 			dependencies: ["72A7AC9B845231B2"]
 			hide_dependent_lines: true
 			id: "3AACCE98C8B8915D"
+			rewards: [{
+				id: "110FDCE0FE689310"
+				item: {
+					count: 1
+					id: "minecraft:cow_spawn_egg"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0C493FF23582D551"
 				type: "checkmark"
@@ -590,6 +626,14 @@
 				id: "extrasponges:diamond_sponge"
 			}
 			id: "633EEBC383BF5CD8"
+			rewards: [{
+				id: "3F76A1B577BE0D3F"
+				item: {
+					count: 1
+					id: "mekanism:basic_fluid_tank"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "06B2489C63C958BD"
@@ -624,6 +668,74 @@
 			]
 			x: 4.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["72A7AC9B845231B2"]
+			icon: {
+				id: "minecraft:bookshelf"
+			}
+			id: "333C93B2D1DBACA8"
+			rewards: [{
+				id: "643623454094CC49"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [
+				{
+					icon: {
+						components: {
+							"framedblocks:camo_list": [{
+								state: {
+									Name: "minecraft:diorite"
+								}
+								type: "framedblocks:block"
+							}]
+						}
+						id: "framedblocks:framed_bookshelf"
+					}
+					id: "4DCC835A690A6835"
+					optional_task: true
+					structure: "apotheosis:tower_leaf"
+					type: "structure"
+				}
+				{
+					icon: {
+						id: "minecraft:bookshelf"
+					}
+					id: "1DDAA2AED93A0C51"
+					optional_task: true
+					structure: "apotheosis:tower_main"
+					type: "structure"
+				}
+				{
+					icon: {
+						components: {
+							"framedblocks:camo_list": [{
+								state: {
+									Name: "minecraft:smooth_sandstone"
+								}
+								type: "framedblocks:block"
+							}]
+						}
+						id: "framedblocks:framed_bookshelf"
+					}
+					id: "279E4FEF6F980DF2"
+					optional_task: true
+					structure: "apotheosis:tower_sand"
+					type: "structure"
+				}
+				{
+					icon: {
+						id: "quark:spruce_bookshelf"
+					}
+					id: "1D0224CA4D51055C"
+					optional_task: true
+					structure: "apotheosis:tower_spruce"
+					type: "structure"
+				}
+			]
+			x: 4.5d
+			y: -1.5d
 		}
 	]
 }

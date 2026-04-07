@@ -36,18 +36,6 @@
 		}
 		{
 			dependencies: ["39CBECB2C3DFE133"]
-			id: "430F4F27DC67D1F1"
-			tasks: [{
-				count: 32L
-				id: "0160B39E99473315"
-				item: { count: 1, id: "stellaris:steel_ingot" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["39CBECB2C3DFE133"]
 			id: "49B02F5A03D703B3"
 			tasks: [{
 				id: "0D535333CB73CEDE"

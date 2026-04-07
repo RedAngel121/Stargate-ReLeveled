@@ -1,0 +1,13 @@
+name = "Expanded AE"
+filename = "expandedae-2.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c4db013f83e569b016da329b3ddc9c14acc75d7d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6910849
+project-id = 1213351

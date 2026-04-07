@@ -1,14 +1,8 @@
-// priority: 1
-// Define materials and their corresponding item and block names
-// Listen for the ServerEvents.recipes event to add custom recipes
 ServerEvents.recipes(event => {
-    let smithing_template_item = 'minecraft:paper' //This must be an item
-
-    // Function to generate the texture file path based on the material name
+    let smithing_template_item = 'minecraft:paper'
     function getSGJourneyTexturePath(materialName) {
         return `sgjourney:textures/entity/stargate/iris/${materialName.toLowerCase().replace(/ /g, '_')}_iris.png`
     }
-
     let iris_materials = {
         "Copper": { "block": "c:ingots/copper", "item": "sgjourney:copper_iris" },
         "Iron": { "block": "c:ingots/iron", "item": "sgjourney:iron_iris" },
@@ -19,8 +13,6 @@ ServerEvents.recipes(event => {
         "Bronze": { "block": "c:ingots/bronze", "item": "sgjourney:bronze_iris" },
         "Steel": { "block": "c:ingots/steel", "item": "sgjourney:steel_iris" }
     }
-
-    // Generate all combinations of smithing recipes
     Object.entries(iris_materials).forEach(([baseMaterial, baseData]) => {
         console.log("----- STARTING NEW SUBSET -----")
         console.log(iris_materials[baseMaterial])
@@ -28,26 +20,20 @@ ServerEvents.recipes(event => {
             console.log(iris_materials[additionMaterial])
             if (baseMaterial === additionMaterial) return
             let textureFile = getSGJourneyTexturePath(additionMaterial)
-            let nbtData = {
-                texture: textureFile,
-                display: {
-                    Name: JSON.stringify({
-                        text: `${additionMaterial} Clad ${baseMaterial} Iris`,
-                        italic: false
-                    })
-                }
-            }
-
             let additionItem = { tag: additionData.block }
-
             event.custom({
                 type: 'minecraft:smithing_transform',
                 template: { item: smithing_template_item },
-                base: baseData.item,
+                base: { item: baseData.item },
                 addition: additionItem,
                 result: {
-                    item: baseData.item,
-                    nbt: nbtData
+                    id: baseData.item,
+                    components: {
+                        "minecraft:custom_name": JSON.stringify({
+                            text: `${additionMaterial} Clad ${baseMaterial} Iris`,
+                            italic: false
+                        })
+                    }
                 },
             }).id(`kubejs:smithing_${baseData.item.replace(':', '_')}_with_${additionMaterial.toLowerCase().replace(/ /g, '_')}`)
         })

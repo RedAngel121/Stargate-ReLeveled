@@ -159,6 +159,14 @@
 			dependencies: ["3C65F3AFDFFCDA5A"]
 			hide_dependent_lines: true
 			id: "6CF4F16FCE4806E3"
+			rewards: [{
+				id: "3FA307A6E8CA8E4F"
+				item: {
+					count: 1
+					id: "ae2:color_applicator"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "246B9760A27CD276"
 				item: { count: 1, id: "sgcommunity_pack:computational_substrate" }
@@ -171,6 +179,14 @@
 			dependencies: ["6CF4F16FCE4806E3"]
 			hide_dependent_lines: true
 			id: "0F3C45B126154562"
+			rewards: [{
+				id: "171D9D45FCCB6238"
+				item: {
+					count: 1
+					id: "mekanism:gauge_dropper"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "53F5C31AC6A8F50B"
 				item: { count: 1, id: "sgcommunity_pack:mekanised_substrate" }
@@ -183,6 +199,17 @@
 			dependencies: ["0F3C45B126154562"]
 			hide_dependent_lines: true
 			id: "05C460C19A9AE285"
+			rewards: [{
+				id: "1F064D3D71922DB9"
+				item: {
+					components: {
+						"nomowanderer:enabled": 1b
+					}
+					count: 1
+					id: "nomowanderer:no_mo_wanderer_totem"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3FFBE720E0954A3E"
 				item: { count: 1, id: "sgcommunity_pack:reactive_substrate" }
@@ -195,6 +222,14 @@
 			dependencies: ["05C460C19A9AE285"]
 			hide_dependent_lines: true
 			id: "231AB7EA433756D2"
+			rewards: [{
+				id: "05A98387C3620D04"
+				item: {
+					count: 1
+					id: "stellaris:skin_galaxy"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "72338A7DAC2450FB"
 				item: { count: 1, id: "sgcommunity_pack:deep_space_substrate" }
@@ -207,6 +242,14 @@
 			dependencies: ["231AB7EA433756D2"]
 			hide_dependent_lines: true
 			id: "2C52A6ABB40ED858"
+			rewards: [{
+				id: "442668BD0457C633"
+				item: {
+					count: 1
+					id: "sgjourney:advanced_crystal_interface"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "68AC7BD738D562D9"
 				item: { count: 1, id: "sgcommunity_pack:naquadria_substrate" }
@@ -219,6 +262,14 @@
 			dependencies: ["2C52A6ABB40ED858"]
 			hide_dependent_lines: true
 			id: "49936745B787796E"
+			rewards: [{
+				id: "26DAE58941CD3D34"
+				item: {
+					count: 1
+					id: "advanced_ae:quantum_core"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "688964810E1DD0CD"
 				item: { count: 1, id: "sgcommunity_pack:positronic_substrate" }
@@ -259,10 +310,6 @@
 			id: "2D1E28252D69CABA"
 			optional: true
 			shape: "square"
-			tasks: [{
-				id: "22664F48683B7F0D"
-				type: "custom"
-			}]
 			x: -3.0d
 			y: 2.0d
 		}
@@ -275,10 +322,6 @@
 			id: "260C678AAF5D3D3A"
 			optional: true
 			shape: "square"
-			tasks: [{
-				id: "729DB562A909E715"
-				type: "custom"
-			}]
 			x: -3.0d
 			y: 3.0d
 		}

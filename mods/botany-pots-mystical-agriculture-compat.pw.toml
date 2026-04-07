@@ -1,0 +1,13 @@
+name = "Botany Pots - Mystical Agriculture Compat"
+filename = "botanypotsmystical-neoforge-1.21.1-21.1.11.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c9f09d5194b3aa36bc55eb6fd621f6527ef046fc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7208646
+project-id = 1329409

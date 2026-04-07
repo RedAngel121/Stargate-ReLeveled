@@ -293,16 +293,12 @@ file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "91a58d33dc24923bb745139678a01cee1bb0dfd5a29f914e798f89edf84d9e3d"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/ad_astra.snbt"
-hash = "8ef2ac68f11498f9c21903a13aa22c2fae80d726674e374d30885f968a7b38f9"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/ae2.snbt"
-hash = "f2cc7045ee61a4fe8fb4bbdcabe87ea02e6eeafc3b4f45d2c1ad66f2031e5416"
+hash = "7e6a4904b8fe74713bd3da538bbb81a05b7ecb61bed690db0e61d6a5649f05b7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "873b66671c82ee660c7237de79816c643475002106fb56b85305c1155fe104e5"
+hash = "8fc2587395a1e89d18ddf7edbf57f1ccb4909f24135574844c1c8b3829f07847"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kinetic_era.snbt"
@@ -326,11 +322,11 @@ hash = "2a5811fd57a32d9732677a45143e34d095defac5dbb2bbc26e87b26b0fcb0ec8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
-hash = "723821f04521dcfdb619cc2dbe12ee52097e1396839d2e24cc492384a75b0fac"
+hash = "856913ba3e5fa0187d3ba7d1cfcef47ae891f029ee04dad8edbbe13d669d4816"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/progression.snbt"
-hash = "e8b1702cb8fd06bc1fce90617f407f661412a43b496ee9f0c17fbe41f8ac532c"
+hash = "2a15036605858b438877a4470e5db9a97ab34accea11d4564378657d172e931c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sophisticated.snbt"
@@ -341,12 +337,16 @@ file = "config/ftbquests/quests/chapters/stargate_journey.snbt"
 hash = "cb02968639e371216a3f8e737f2b2e6608a821888a2b1dc1ee6d682b5404ccbc"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/stellaris.snbt"
+hash = "014f05f6a85b1ba05f25d6357b479d64b15899a44dd3cc0a7c20c27f5e16933c"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/the_beginnings.snbt"
 hash = "68c2205d4fce564e330313348a16e6bd20fc685195c93d139c004c71394f02fd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks.snbt"
-hash = "9acfb0aec82289b5b046048c166f81134f58da0c8b6f8d8cf8a1f1fadb2450c0"
+hash = "b90ccc141ca61d0b382613adda153bff70578871fddf1955b85f94a14b57fe2e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/util.snbt"
@@ -358,7 +358,7 @@ hash = "c3e869e2590e2e7564fd934b929387ba6ca0560a9f767ae9162550ae6f562f7f"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "976b1f496279de7a001eb0e0dec84601d5332663fba474cba0bb95e607f53245"
+hash = "bb645f001c80880ffe0f43e3a15014af9c8bedbc5ce11070d4df5761f4939dee"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/ae2basic.snbt"
@@ -378,7 +378,7 @@ hash = "83f8e9c56758b676e70ae3695523129170ac930b9ceb23618c898fa0906012cc"
 
 [[files]]
 file = "config/overlapless-common.toml"
-hash = "c6381a6168e07629d7f4045d1492b30945dca4dfdbabb7b70d4ea6d3d4b028b4"
+hash = "5c2d7db51e923ef9708dfe32634e0877c3e969516cc7a7f20e7e04e1df3642b5"
 
 [[files]]
 file = "config/quark-common.toml"
@@ -1897,6 +1897,10 @@ file = "kubejs/data/sgcommunity_pack/recipe/substrate/reactive_substrate.json"
 hash = "895c9e8b183b64cd52793344d314724437cbe38b3cfa95130dcb8c605dd8c202"
 
 [[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/sulfur_from_sand.json"
+hash = "507700d73981b09f6f88ab53a8dad5b3a61ed7ebe16608e4910e07e6a61642ec"
+
+[[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/classic/buried/badlands_template.nbt"
 hash = "cd6273840908e46a772e39468d1c52f14ca4e39ac6dad60587915f46a37450c1"
 
@@ -1991,10 +1995,6 @@ hash = "bf1ff590d7e951af3f6c10ebaa67cfb5b3e91e70abeb1d7000a7f4fb0934a74e"
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_side_upper.nbt"
 hash = "ada7310283de251585ae236eca9a513100ef575e6553e0576fe0bf2d3eeccda3"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/structure/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_top.nbt"
-hash = "51ed9eae7acfe3550e550dc5928d952d76fab92d692a8929f163bc7f69e4c3be"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/tollan/pedestal/overworld_mirror_pedestal.nbt"
@@ -2274,7 +2274,7 @@ hash = "d5ec4b6eb9144e0b5d6e6e99d3884847d7bcea7cd7f2cfe530261ac7e5d6e5ea"
 
 [[files]]
 file = "kubejs/server_scripts/iris_smithing.js"
-hash = "cede91a6a4be76637442aed28e3f34c87fa577797fb6d7e54ff1fdcd450a6247"
+hash = "56ffecf7f279b32aff8e48e45295c39f57dd5fdd881509811e7c515b525b613d"
 
 [[files]]
 file = "kubejs/server_scripts/isotopic_decay_oscillator_chain.js"
@@ -2319,6 +2319,11 @@ hash = "c3b1e5a863b167c5791515a0a8c7d8348b7d2cd546961b529f4d91940bffbddd"
 [[files]]
 file = "mods/advanced-peripherals.pw.toml"
 hash = "4832374d2149e53968b68a4dd8499ef078f600cf3ad5491d23777e9e83140493"
+metafile = true
+
+[[files]]
+file = "mods/advancedae.pw.toml"
+hash = "a2aafa3ac24eef1aad644a9633f9f856271ed97c8da6a6855627f9eaea6e44f4"
 metafile = true
 
 [[files]]
@@ -2464,6 +2469,11 @@ metafile = true
 [[files]]
 file = "mods/bookshelf.pw.toml"
 hash = "cf914684c4151076b726116a66f7bc81a6116655551bcce70a9e64e34e5aa308"
+metafile = true
+
+[[files]]
+file = "mods/botany-pots-mystical-agriculture-compat.pw.toml"
+hash = "5d7250805b3a225b2cb1dd7dc7cb51f876a2a9065de678fd02d3c1f80345f778"
 metafile = true
 
 [[files]]
@@ -2627,6 +2637,11 @@ hash = "09f8e2af6cb0a5151a44390389ec62012296ec069dd21eb418079e17b48c2f18"
 metafile = true
 
 [[files]]
+file = "mods/cucumber.pw.toml"
+hash = "1cb2c004ea6d9750b2c9f399ddb58be0335adc710e63b9cdae5d620ad86dbd5b"
+metafile = true
+
+[[files]]
 file = "mods/curios.pw.toml"
 hash = "f92e7a06645e41ea1934dc420eb2772edb1708c0d71cb427baef8cf753acb934"
 metafile = true
@@ -2669,6 +2684,16 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "7d4e9488d8bc3e71c263d2af53bf2457ccda5be68d059a44a4fa882d0572d24b"
+metafile = true
+
+[[files]]
+file = "mods/ex-pattern-provider.pw.toml"
+hash = "9db847b1635071f5d318ee4d1afb4396614edde606ee0e3c7cfe35ffc22bc079"
+metafile = true
+
+[[files]]
+file = "mods/expanded-ae.pw.toml"
+hash = "11eb9b7e512837a8c14136c04bd1597c0adc15856b25577a26993c0824029b7a"
 metafile = true
 
 [[files]]
@@ -2789,6 +2814,11 @@ metafile = true
 [[files]]
 file = "mods/glitchcore.pw.toml"
 hash = "3d38d89c5adddec6a9c1352e3c4ced3f0c80639f1f11da237aac883e629998e8"
+metafile = true
+
+[[files]]
+file = "mods/glodium.pw.toml"
+hash = "9aafdd83668c1b903caf0245b0bf2de3bb743befaa78d39e74a95c9933d624ac"
 metafile = true
 
 [[files]]
@@ -2932,6 +2962,11 @@ hash = "db61631c8c246b912bab70f1b240c7ac95f98a0ad56f008a2698dcc62171d161"
 metafile = true
 
 [[files]]
+file = "mods/mekanism-more-machine.pw.toml"
+hash = "d70f8345b5718a93310429e77bb16ff139199f6905e4ef8eae21d7e898086ae2"
+metafile = true
+
+[[files]]
 file = "mods/mekanism.pw.toml"
 hash = "70b92dfd9bdbc96723862acaf4589fefd38c230332cc1bcb5e3027f07cda9820"
 metafile = true
@@ -2984,6 +3019,21 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "2bdee19bd39b4bd411d7c858a7978ca9d2bdda41c1cf15920ea6be0014663f79"
+metafile = true
+
+[[files]]
+file = "mods/mystical-agradditions.pw.toml"
+hash = "6f039a40753e0975d77a3d2f08a84637c57f6beae9ff4018db9ca15ab68ead25"
+metafile = true
+
+[[files]]
+file = "mods/mystical-agriculture.pw.toml"
+hash = "2756c1f18497c3ba184ab9129014f964be4088e2f0ef1e899bd40f000f9602e6"
+metafile = true
+
+[[files]]
+file = "mods/mystical-customization.pw.toml"
+hash = "356febd0e1611778016cbaada29fe291b8a867aae530e23e1d005a7cf35040a1"
 metafile = true
 
 [[files]]
