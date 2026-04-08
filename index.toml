@@ -1681,6 +1681,10 @@ file = "kubejs/data/sgcommunity_pack/recipes/sandstone_cartouche.json"
 hash = "3902bfc491d5068e811e3c3bbab88e2a41788d9927b5b49bf7684fde68a8c352"
 
 [[files]]
+file = "kubejs/data/sgcommunity_pack/recipes/sulfur_from_sand.json"
+hash = "63d948c698b93609dbe2f589cf9563fda53d704895c7e6abf54962c8762a4a61"
+
+[[files]]
 file = "kubejs/data/sgcommunity_pack/structures/stargate/classic/buried/badlands_template.nbt"
 hash = "cd6273840908e46a772e39468d1c52f14ca4e39ac6dad60587915f46a37450c1"
 
