@@ -1997,6 +1997,10 @@ file = "kubejs/data/sgcommunity_pack/structure/stargate/milky_way/temple/abydos_
 hash = "ada7310283de251585ae236eca9a513100ef575e6553e0576fe0bf2d3eeccda3"
 
 [[files]]
+file = "kubejs/data/sgcommunity_pack/structure/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_top.nbt"
+hash = "96e1c87b6ed5f360f099014b350df123ed029d5ffc2b5adab8e95c8efd495ca5"
+
+[[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/tollan/pedestal/overworld_mirror_pedestal.nbt"
 hash = "eea484c38b2f02d47bdfd98851607d355d7bbe99c5e82e4b1bc115f01994e11d"
 
