@@ -7,5 +7,7 @@
 - **Updated Forge to 47.4.18**
 
 ### Additions:
+- Polymorph
+- Polymorphic Energistics
 
 ### Removals:
