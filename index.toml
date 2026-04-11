@@ -378,7 +378,7 @@ hash = "83f8e9c56758b676e70ae3695523129170ac930b9ceb23618c898fa0906012cc"
 
 [[files]]
 file = "config/overlapless-common.toml"
-hash = "5c2d7db51e923ef9708dfe32634e0877c3e969516cc7a7f20e7e04e1df3642b5"
+hash = "32df3fd899e2c7be1b9cdbac299f76adea23a7861697a7e08e84a5e0a220fde8"
 
 [[files]]
 file = "config/quark-common.toml"
@@ -1149,10 +1149,6 @@ file = "kubejs/data/computercraft/recipe/pocket_computer_normal.json"
 hash = "71a9eefd6ded1f271154a54c93bf024f4e5eabd797199c39d3f9b93ce124b2c5"
 
 [[files]]
-file = "kubejs/data/computercraft/recipe/wired_modem.json"
-hash = "97d265fdda3aa339b26dc26957d8bdad613da0738840c9dc189137945de7bfd8"
-
-[[files]]
 file = "kubejs/data/create_hypertube/recipe/hypertube_entrance.json"
 hash = "e57bbe1c217d20106e4d871574350f377a25bebb649c3bb3b8b19423d3cf6485"
 
@@ -1246,7 +1242,7 @@ hash = "a91c34356589d7b5f2f6d153a7ee24f7a8dab4a4b2e38c43b1d06a27eb9975d0"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/creeper.json"
-hash = "dc46e4b6b63c597ca8882c85d144eeef2f8ee41e0848531167c4b42852f0e745"
+hash = "83aff6e9bc9a29fca24c4b48c6de3341952e064fcdc5570ad15d1c19fc409961"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/ender_dragon.json"
@@ -2277,10 +2273,6 @@ file = "kubejs/server_scripts/integrated_curcuit_chain.js"
 hash = "d5ec4b6eb9144e0b5d6e6e99d3884847d7bcea7cd7f2cfe530261ac7e5d6e5ea"
 
 [[files]]
-file = "kubejs/server_scripts/iris_smithing.js"
-hash = "56ffecf7f279b32aff8e48e45295c39f57dd5fdd881509811e7c515b525b613d"
-
-[[files]]
 file = "kubejs/server_scripts/isotopic_decay_oscillator_chain.js"
 hash = "c8afc979b602039e0f9767536da358c02257e291f9f4410f23faf4edef9d72fd"
 
@@ -3136,6 +3128,16 @@ hash = "bb53e2c30a71e477476f8964b9a8c5294207969659c755b5c9993bca94139385"
 metafile = true
 
 [[files]]
+file = "mods/polymorph.pw.toml"
+hash = "8b725f1822c0feab9e51bef600f2ee6f4c26efbb55aa3ee9073a027f1f134202"
+metafile = true
+
+[[files]]
+file = "mods/polymorphic-energistics.pw.toml"
+hash = "330eae6dd751b70d4761f5fb556bc476f693549f3eb42ff7f441e1cd5bfe3cfb"
+metafile = true
+
+[[files]]
 file = "mods/potentials.pw.toml"
 hash = "b484f15d3353a7d4b3baf14b9da340c922299aead74f7f052dd886f49489d7fd"
 metafile = true
@@ -3373,6 +3375,16 @@ metafile = true
 [[files]]
 file = "mods/the-undergarden.pw.toml"
 hash = "589b0a221074fcc182839eb75bfc9d50c25a1bdb05c6f6d53099e6e5d84921e6"
+metafile = true
+
+[[files]]
+file = "mods/tiny-gates.pw.toml"
+hash = "16921f1f4fafddb65e2afec03ea1b76d445b3581cfff62daa15c9a534beb6582"
+metafile = true
+
+[[files]]
+file = "mods/tiny-redstone.pw.toml"
+hash = "f1f3ff3b882a0e9a3562422c50a383ce506df169d6d733d2a21247760305cc2b"
 metafile = true
 
 [[files]]

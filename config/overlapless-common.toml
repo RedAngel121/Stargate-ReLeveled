@@ -1,6 +1,25 @@
 [Overlapless]
 	#These will always generate even if there are existing structures that occupy the chunk sections.
-	UnskippableStructures = ["sgjourney","sgcommunity_pack"]
+	UnskippableStructures = [
+        "sgjourney:stargate/milky_way/terra_stargate",
+        "sgjourney:stargate/milky_way/buried/buried_stargate",
+        "sgjourney:stargate/milky_way/buried/buried_stargate_badlands",
+        "sgjourney:stargate/milky_way/buried/buried_stargate_desert",
+        "sgjourney:stargate/milky_way/temple/stargate_temple_nether",
+        "sgjourney:stargate/milky_way/temple/abydos_pyramid",
+        "sgjourney:stargate/milky_way/pedestal/stargate_pedestal",
+        "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_cavum_tenebrae",
+        "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_chulak",
+        "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_rima",
+        "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_unitas",
+        "sgjourney:stargate/pegasus/outpost/lantean_outpost_ocean",
+        "sgjourney:stargate/pegasus/pegasus_stargate",
+        "sgjourney:stargate/universe/destiny",
+        "sgjourney:stargate/universe/pedestal/universe_stargate_pedestal_island_end",
+        "sgcommunity_pack:stargate/milky_way/pedestal/stargate_pedestal_deeper_darker",
+        "sgcommunity_pack:stargate/milky_way/pedestal/stargate_pedestal_undergarden",
+        "sgcommunity_pack:stargate/tollan/pedestal/stargate_pedestal_mirror"
+    ]
 	#If you still find overlapping generated structures in your world, they are most likely Features rather than Structures. For example, Desert Well and Amethyst Geode
 	#You can write down the features' registry names here so they will not get overlapped with existing structures.
 	#It's not acceptable to prevent all the features from getting overlapped with structures. Because trees/ores/flowers/etc small things are also features lol.

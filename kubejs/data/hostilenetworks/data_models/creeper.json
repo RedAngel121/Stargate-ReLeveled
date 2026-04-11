@@ -1,7 +1,6 @@
 {
     "entity": "minecraft:creeper",
     "variants": [
-        "ad_astra:sulfur_creeper",
         "creeperoverhaul:badlands_creeper",
         "creeperoverhaul:bamboo_creeper",
         "creeperoverhaul:beach_creeper",

@@ -6,11 +6,8 @@
 - Updated MC to 1.21.1
 - Swapped to Neoforge 21.1.224
 - Create: Steam and Rails (replaced with unofficial version for 1.21.1)
-- Replaced Terrablender Forge with Terrablender Neoforge
-- Replaced Yungs Forge mods with Yungs Neoforge mods for 1.21.1
 - Replace Chat Heads with ChatPlus
-- Replace Jaopca with ATO (double check that it works)
-- Stellaris (replaces AdAstra)
+- Stellaris (replaces Ad Astra)
 - Extra Sponges (replaces simple sponge mod)
 - Corpse (Relpace Gravestones and provides compat)
 - Added SGJourney Blocks and fluids to RFTools Dimlets
@@ -60,26 +57,19 @@
 - Numismatics - replaced with default create trading mechanics
 - kubejs-botany-pots (replaced with Myst AG + custom recipes)
 
+====================================================================================================
+
 ### Still Missing:
 - SGJ Deco (is this even required?)
 - SGJ Ponder (waiting on 1.21.1 update to re-add it)
-- Tiny Redstone/Gates (replace with little_big_redstone?)
 - unlimitedperipheralworks (drop until update, talk to author about update timeframe)
 - Gauges and Switches (waiting on 1.21.1 update to re-add it)
 
-====================================================================================================
-
 ### NOTES:
 - DimStruc Restrict mod needs to be updated to handle the Overworld Mirror gates generation/prevention
-- Overlapless Config: Add SGJ gate scrucs to prevent loss of progression
-- Fix custom iris smithing Kubejs script
+- Fix custom iris smithing Kubejs script - Cookta's Job
 - Find a replacement for Discord RPC
 - Redo the Ad Astra Quests to make use of Stellaris
-
-### Look into:
-- https://www.curseforge.com/members/mrtjp/projects (project red mods)
-- https://www.curseforge.com/minecraft/mc-mods/more-red
-- https://www.curseforge.com/minecraft/mc-mods/little-big-redstone
 
 ### Long Term Goals:
 - Integrate PnumaticCraft
@@ -92,7 +82,23 @@
 - https://blakesmods.com/docs/mysticalcustomization/editing-crops
 
 ### CHECK ALL STRUCTURES:
-- abydos pyramid has some texturing that got lost in translation and needs to be re-applied (vtech DMs https://discord.com/channels/@me/1318445317724835890/1490218146500706435)
 - Custom Gate Spawns need to be adjusted to the MoreGate mod instead of the old datapack
-- Check why Nether/End/Undergarden Gate never showed up - overlapless killed it lol
 - need to double check the rest of them
+
+====================================================================================================
+
+# FTB Replacements:
+### Quests:
+- https://modrinth.com/mod/odyssey-quests wait on 1.21.1 update
+- https://modrinth.com/mod/questlog an option that works well with vanilla
+- https://www.curseforge.com/minecraft/mc-mods/hardcore-questing-mode oldschool quest tree
+
+### Claims:
+- https://modrinth.com/mod/odyssey-claims wait on 1.21.1 update
+- https://www.curseforge.com/minecraft/mc-mods/open-parties-and-claims is extremely powerful and easy to use (add Xaero's World Map/Minimap)
+- Keep FLAN but dont make it the primary way to claim
+
+### Essentials:
+- Do I even want these commands? /back would be useful but most of these would be useless once the transport rings rewrite is completed
+- https://modrinth.com/mod/odyssey-roles potentially too powerful
+- https://modrinth.com/mod/solstice-essentials i havent even looked at this yet
