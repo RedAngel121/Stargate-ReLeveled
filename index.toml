@@ -421,10 +421,6 @@ file = "config/staaaaaaaaaaaack-common.toml"
 hash = "2e54b9ecf86a3300fab09424b83d9910e6cac05ef767f9322bbc939601ac543b"
 
 [[files]]
-file = "config/theoneprobe-common.toml"
-hash = "4ac6b7cd374d2c15f6095b582eabda9091ca32b107590e7d9d6a4d660ca2129f"
-
-[[files]]
 file = "config/voicechat/voicechat-server.properties"
 hash = "a532225bafe668969fbb8a3d7cb249429d2fd84203d3df3e43c3b32a512baa4e"
 
@@ -2863,6 +2859,16 @@ hash = "3f6a27001eb45ce6296829cfa9d7d41a0bd304914217f8dc3196feaa9030f963"
 metafile = true
 
 [[files]]
+file = "mods/jade-addons.pw.toml"
+hash = "89420f657cec1038646f75531ae388e92d27c51c84b1f121e935ae5aecf995be"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+hash = "e739b7355ab3cfba2e729f8f0b51eafc3d9c3afb19ee30ac7b311631610c5e66"
+metafile = true
+
+[[files]]
 file = "mods/jaopca.pw.toml"
 hash = "7d77d5de58bdea8cf0a6f0c849cb3e46e76447b41257801d81041f14996bca55"
 metafile = true
@@ -2945,6 +2951,11 @@ metafile = true
 [[files]]
 file = "mods/mega-cells.pw.toml"
 hash = "f8f5475c18e458f03ac0e8a883698e83d25c68e7b37cb40ba6744cd65df58623"
+metafile = true
+
+[[files]]
+file = "mods/mekajadeupgrades.pw.toml"
+hash = "20ba1021bb3047a3c56ffa39b40c97638211934b3fb129b9ee9b66e99387822d"
 metafile = true
 
 [[files]]
@@ -3365,11 +3376,6 @@ metafile = true
 [[files]]
 file = "mods/terralith.pw.toml"
 hash = "0e02e93b9468dca005f7fea385e92612e38bb6807f4dcd64ce7a4b22fac78581"
-metafile = true
-
-[[files]]
-file = "mods/the-one-probe.pw.toml"
-hash = "1f1a3f75990ef53c075ae0b31855f170f21c7b0ce7321438971dca3eb3965fce"
 metafile = true
 
 [[files]]

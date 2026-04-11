@@ -79,7 +79,8 @@
 
 ### Things to do when Myst-Ag is installed:
 - Substrate Crux for all ores similar to 1.20.1 version
-- https://blakesmods.com/docs/mysticalcustomization/editing-crops
+- https://blakesmods.com/docs/mysticalcustomization/
+- Iron
 
 ### CHECK ALL STRUCTURES:
 - Custom Gate Spawns need to be adjusted to the MoreGate mod instead of the old datapack
