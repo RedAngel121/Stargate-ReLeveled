@@ -12,7 +12,7 @@
 - Corpse (Relpace Gravestones and provides compat)
 - Added SGJourney Blocks and fluids to RFTools Dimlets
 - Discord Chat Integration replaced with https://www.curseforge.com/minecraft/mc-mods/viscord
-- Converted the login book into a quest
+- Converted the login book into a quest cause no one reads anyway
 
 ### Additions:
 - Veinminer Enchantment

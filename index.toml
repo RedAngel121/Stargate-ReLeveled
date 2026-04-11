@@ -1238,19 +1238,19 @@ hash = "8bdb2e743efc3ced1d3ebd782d304b55731a44cd13f73a3bc4a16b4d2b12c94a"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/chicken.json"
-hash = "a91c34356589d7b5f2f6d153a7ee24f7a8dab4a4b2e38c43b1d06a27eb9975d0"
+hash = "3c739e19ddbcef2ec5bddaea3ba5661aa1d110bece23f539f2c4821676e37f9e"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/creeper.json"
-hash = "83aff6e9bc9a29fca24c4b48c6de3341952e064fcdc5570ad15d1c19fc409961"
+hash = "db67a1379626910944a19e3da2e1aa0ebe84d39b8c3682c4005ffdf5bbf92d08"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/ender_dragon.json"
-hash = "a4bf9a564a14738723c52cdf167ee2a6db14b6ce390568c4208d69cc0fec7546"
+hash = "70c68b4e006762f2d724d314bfd7940500ed03904ceff0f76d9e4221921141fb"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/enderman.json"
-hash = "7d3918075813690229e7796e86bc46a3a416ef287fee50dbd4e7187835632266"
+hash = "61f753d4a198a83d0e396b030ffe6482d92b376de6c8246926a708453ef71f60"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/recipe/deep_learner.json"

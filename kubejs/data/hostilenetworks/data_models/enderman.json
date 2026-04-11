@@ -20,97 +20,98 @@
         "endermanoverhaul:warped_forest_enderman",
         "endermanoverhaul:windswept_hills_enderman"
     ],
-    "name": "entity.minecraft.enderman",
-    "name_color": "#161616",
-    "gui_scale": 0.75,
-    "gui_x_offset": 0,
-    "gui_y_offset": 0,
-    "gui_z_offset": 0,
+    "name": {
+        "translate": "entity.minecraft.enderman",
+        "color": "#161616"
+    },
+    "display": {
+        "scale": 0.75
+    },
     "sim_cost": 512,
     "input": {
         "item": "hostilenetworks:prediction_matrix"
     },
     "base_drop": {
-        "item": "hostilenetworks:end_prediction"
+        "id": "hostilenetworks:end_prediction"
     },
     "trivia": "hostilenetworks.trivia.enderman",
     "fabricator_drops": [
         {
-            "item": "minecraft:ender_pearl",
+            "id": "minecraft:ender_pearl",
             "count": 16
         },
         {
-            "item": "minecraft:end_crystal",
+            "id": "minecraft:end_crystal",
             "count": 1
         },
         {
+            "id": "endermanoverhaul:corrupted_pearl",
             "optional": true,
-            "item": "endermanoverhaul:corrupted_pearl",
             "count": 16
         },
         {
+            "id": "endermanoverhaul:soul_pearl",
             "optional": true,
-            "item": "endermanoverhaul:soul_pearl",
             "count": 16
         },
         {
+            "id": "endermanoverhaul:ancient_pearl",
             "optional": true,
-            "item": "endermanoverhaul:ancient_pearl",
             "count": 16
         },
         {
+            "id": "endermanoverhaul:bubble_pearl",
             "optional": true,
-            "item": "endermanoverhaul:bubble_pearl",
             "count": 16
         },
         {
+            "id": "endermanoverhaul:summoner_pearl",
             "optional": true,
-            "item": "endermanoverhaul:summoner_pearl",
             "count": 16
         },
         {
+            "id": "endermanoverhaul:icy_pearl",
             "optional": true,
-            "item": "endermanoverhaul:icy_pearl",
             "count": 16
         },
         {
+            "id": "endermanoverhaul:crimson_pearl",
             "optional": true,
-            "item": "endermanoverhaul:crimson_pearl",
             "count": 16
         },
         {
+            "id": "endermanoverhaul:warped_pearl",
             "optional": true,
-            "item": "endermanoverhaul:warped_pearl",
             "count": 16
         },
         {
+            "id": "endermanoverhaul:enderman_tooth",
             "optional": true,
-            "item": "endermanoverhaul:enderman_tooth",
             "count": 16
         },
         {
+            "id": "endermanoverhaul:badlands_hood",
             "optional": true,
-            "item": "endermanoverhaul:badlands_hood",
             "count": 1
         },
         {
+            "id": "endermanoverhaul:savanna_hood",
             "optional": true,
-            "item": "endermanoverhaul:savanna_hood",
             "count": 1
         },
         {
+            "id": "endermanoverhaul:snowy_hood",
             "optional": true,
-            "item": "endermanoverhaul:snowy_hood",
             "count": 1
         },
         {
+            "id": "evilcraft:ender_tear",
             "optional": true,
-            "item": "evilcraft:ender_tear",
             "count": 4
         },
         {
+            "id": "reliquary:nebulous_heart",
             "optional": true,
-            "item": "reliquary:nebulous_heart",
             "count": 2
         }
     ]
