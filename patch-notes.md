@@ -64,17 +64,17 @@
 - SGJ Ponder (waiting on 1.21.1 update to re-add it)
 - unlimitedperipheralworks (drop until update, talk to author about update timeframe)
 - Gauges and Switches (waiting on 1.21.1 update to re-add it)
+- DimStruc Restrict mod needs to be updated to handle the Overworld Mirror Stargate generation/prevention
+- Fix custom iris smithing Kubejs script - Cookta's Job
+- Fix the configs for Simple Discord RPC
 
 ### NOTES:
-- DimStruc Restrict mod needs to be updated to handle the Overworld Mirror gates generation/prevention
-- Fix custom iris smithing Kubejs script - Cookta's Job
-- Find a replacement for Discord RPC
 - Redo the Ad Astra Quests to make use of Stellaris
 - Custom Gate Spawns need to be adjusted to the MoreGate mod instead of the old datapack
 
 ### Long Term Goals:
-- Integrate PnumaticCraft
-- Integrate Oritech
+- Integrate PnumaticCraft - should I add this at all?
+- Integrate Oritech - this would be amazing to add compat for, make even more complex circuits and recipe chains
 - Endgame Quests - ZPM Reward?
 - ZPM replication options for endgame (talk to cookta)
 

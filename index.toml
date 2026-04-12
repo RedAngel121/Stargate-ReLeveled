@@ -2681,6 +2681,11 @@ hash = "4e2218676bd36fad639aaa9287850fe06a316f81c9f94d947085bf2cfbb07d31"
 metafile = true
 
 [[files]]
+file = "mods/craterlib.pw.toml"
+hash = "b8b53f9c89ed90101c100d4ffb1e606c8437e5b857e963cf0dfc44941e240d6c"
+metafile = true
+
+[[files]]
 file = "mods/create-cardboarded-conveynience.pw.toml"
 hash = "853a3c898d0beef5c3c1e51553a15e82aaf26d4783d603a9b2f5e9d789828bd7"
 metafile = true
@@ -3343,6 +3348,11 @@ metafile = true
 [[files]]
 file = "mods/simple-backups.pw.toml"
 hash = "f5d4c52a88ab0395e6510e2762c376bc2c950803ea874017d0913f3fa9b23de0"
+metafile = true
+
+[[files]]
+file = "mods/simple-discord-rpc.pw.toml"
+hash = "2b547e3919a3c189f87b227d3a2c32d39fe934ed4b2ee69ae5234b18953f7b29"
 metafile = true
 
 [[files]]
