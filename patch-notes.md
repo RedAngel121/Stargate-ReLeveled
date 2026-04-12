@@ -59,14 +59,12 @@
 
 ====================================================================================================
 
-### Still Missing:
-- SGJ Deco (is this even required?)
+### Cookta's List:
 - SGJ Ponder (waiting on 1.21.1 update to re-add it)
 - unlimitedperipheralworks (drop until update, talk to author about update timeframe)
 - Gauges and Switches (waiting on 1.21.1 update to re-add it)
 - DimStruc Restrict mod needs to be updated to handle the Overworld Mirror Stargate generation/prevention
-- Fix custom iris smithing Kubejs script - Cookta's Job
-- Fix the configs for Simple Discord RPC
+- Fix custom iris smithing Kubejs script
 
 ### NOTES:
 - Redo the Ad Astra Quests to make use of Stellaris
