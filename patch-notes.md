@@ -55,7 +55,7 @@
 - FTB Item Filters
 - Mekanism Covers (Dupe for Cable Facades)
 - Numismatics - replaced with default create trading mechanics
-- kubejs-botany-pots (replaced with Myst AG + custom recipes)
+- kubejs-botany-pots (replaced with Myst AG + custom seeds/recipes)
 
 ====================================================================================================
 
@@ -70,16 +70,13 @@
 - Fix custom iris smithing Kubejs script - Cookta's Job
 - Find a replacement for Discord RPC
 - Redo the Ad Astra Quests to make use of Stellaris
+- Custom Gate Spawns need to be adjusted to the MoreGate mod instead of the old datapack
 
 ### Long Term Goals:
 - Integrate PnumaticCraft
 - Integrate Oritech
 - Endgame Quests - ZPM Reward?
 - ZPM replication options for endgame (talk to cookta)
-
-### CHECK ALL STRUCTURES:
-- Custom Gate Spawns need to be adjusted to the MoreGate mod instead of the old datapack
-- need to double check the rest of them
 
 ====================================================================================================
 
