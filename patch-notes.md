@@ -1,6 +1,5 @@
 ### Changes:
 - Fixed the ALU recipe to actually use the incomplete ALU component during crafting instead of the incomplete Control Unit
-- Added SGJourney blocks and fluids to RFTools Dimlets
 - Added an enriching recipe for sulfur sand to turn it into mekanism sulfur dust
 - Attempted to fix the Discord RPC config
 
