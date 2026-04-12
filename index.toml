@@ -478,7 +478,7 @@ hash = "17b07ca5f6758448c4c2effbe9cb9f7b2b534c83b1287b5b751c3bbe4f74f2d0"
 
 [[files]]
 file = "config/simple-rpc/simple-rpc.toml"
-hash = "1bf959abfc08eb2cdbd6e66e0b1cb9fe338a849a1ad14c73cdaf2926b4dd5937"
+hash = "4709434bf7796fc0a3ff8a74bada9bd10e14275182c12a532901c0b7e14ae70e"
 
 [[files]]
 file = "config/simplebackups-common.toml"
