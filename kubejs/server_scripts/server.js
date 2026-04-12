@@ -41,6 +41,23 @@ ServerEvents.recipes(event => {
 })
 
 // ===============================
+// REMOVE GAME BREAKERS
+// ===============================
+
+ServerEvents.recipes(event => {
+    event.remove("ae2wtlib:quantum_bridge_card")
+    event.remove("mekanism:portable_teleporter")
+    event.remove("mekanism:teleporter")
+    event.remove("mekanism:teleporter_frame")
+    event.remove("pipez:energy_pipe")
+    event.remove("rftools_utility:charged_porter")
+    event.remove("rftools_utility:advanced_charged_porter")
+    event.remove("rftools_utility:destination_analyzer")
+    event.remove("rftools_utility:matter_booster")
+    event.remove("rftools_utility:simple_dialer")
+})
+
+// ===============================
 // EASY MODE COMMANDS
 // ===============================
 

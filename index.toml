@@ -1129,10 +1129,6 @@ file = "kubejs/data/ae2/recipe/transform/entangled_singularity_from_pearl.json"
 hash = "9de91f71f4f2df11409868de89165460c0f4efad9e38263ab8c6dff026278f16"
 
 [[files]]
-file = "kubejs/data/ae2wtlib/recipe/quantum_bridge_card.json"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "kubejs/data/aeinfinitybooster/recipe/dimension_card.json"
 hash = "3d9e8d4bb72ed6b8e65c0456e8875645a03eb7aa2263a2dc418dc2143ec2788b"
 
@@ -1449,18 +1445,6 @@ file = "kubejs/data/mekanism/recipe/metallurgic_infuser.json"
 hash = "91821ed1122f93e114efdb5dfbdddeddfb20d68df10ac2c3e0e8c31e18f5a147"
 
 [[files]]
-file = "kubejs/data/mekanism/recipe/portable_teleporter.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
-file = "kubejs/data/mekanism/recipe/teleporter.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
-file = "kubejs/data/mekanism/recipe/teleporter_frame.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
 file = "kubejs/data/mob_grinding_utils/recipe/recipe_absorption_hopper.json"
 hash = "ee1ebb60130ccb90dc9930813287ee143685020744a4d1648f8c7c592f393535"
 
@@ -1479,10 +1463,6 @@ hash = "4acc7108b4cf8ec17237af830a7af230ca446c960caf5231e70e6e462eb4533b"
 [[files]]
 file = "kubejs/data/overworldmirror/dimension/overworld.json"
 hash = "2c0a254add3ce491588ea687296b39247560375947bd44052739b1b0d60c52e3"
-
-[[files]]
-file = "kubejs/data/pipez/recipe/energy_pipe.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "kubejs/data/pipez/recipe/universal_pipe.json"
@@ -1533,28 +1513,8 @@ file = "kubejs/data/rftoolsdim/recipe/phased_field_generator.json"
 hash = "7a273e95ad3a20ed2de451a652ab5231cb4eeaf990cadda9ddded9d35d9cd844"
 
 [[files]]
-file = "kubejs/data/rftoolsutility/recipe/advanced_charged_porter.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
-file = "kubejs/data/rftoolsutility/recipe/charged_porter.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
-file = "kubejs/data/rftoolsutility/recipe/destination_analyzer.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
 file = "kubejs/data/rftoolsutility/recipe/environmental_controller.json"
 hash = "74ba1dcf7c785dc552f92a4a8060127249576457fd2912ab278ee3605d2b9ce1"
-
-[[files]]
-file = "kubejs/data/rftoolsutility/recipe/matter_booster.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
-file = "kubejs/data/rftoolsutility/recipe/simple_dialer.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "kubejs/data/rftoolsutility/recipe/spawner.json"
@@ -2410,7 +2370,7 @@ hash = "58fc30d8edd6b01e8f764985aead40914279ca7f3f724e278c76d416a94e91b9"
 
 [[files]]
 file = "kubejs/server_scripts/server.js"
-hash = "7b9068fc214d7402f43df337525cc626c8688275cb13c2d3ab671cfd94dd7d34"
+hash = "711322331c72db95a71af664202eade404dabd3cbd993f936a0f03878f3cd385"
 
 [[files]]
 file = "kubejs/server_scripts/tag_fix.js"
