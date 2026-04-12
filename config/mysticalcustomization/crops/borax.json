@@ -1,0 +1,14 @@
+{
+    "name": "Borax",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:4",
+    "ingredient": {
+        "item": "sgcommunity_pack:borax"
+    },
+    "color": "eeeeee",
+    "textures": {
+        "flower": "mysticalagriculture:block/flower_rock",
+        "essence": "mysticalagriculture:item/essence_rock"
+    },
+    "crux": "sgcommunity_pack:deep_space_substrate"
+}

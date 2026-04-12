@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        " E ",
+        "EIE",
+        " E "
+    ],
+    "key": {
+        "E": {
+            "item": "mysticalagriculture:naquadah_essence"
+        },
+        "I": {
+            "tag": "c:ingots/iron"
+        }
+    },
+    "result": {
+        "id": "sgjourney:naquadah_alloy",
+        "count": 1
+    }
+}

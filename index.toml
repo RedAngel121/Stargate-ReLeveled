@@ -377,6 +377,30 @@ file = "config/jei/jei-client.ini"
 hash = "83f8e9c56758b676e70ae3695523129170ac930b9ceb23618c898fa0906012cc"
 
 [[files]]
+file = "config/mysticalcustomization/configure-crops.json"
+hash = "5bd9e2ad61117d4fed0bb47ffba197673a73855f85964c77d1c2b773baad3e8c"
+
+[[files]]
+file = "config/mysticalcustomization/crops/borax.json"
+hash = "2638f27e2c5b9ef93d277a8ea643b516f18d79b9e4b9fc2558946c39f514752e"
+
+[[files]]
+file = "config/mysticalcustomization/crops/corronium.json"
+hash = "563c31b485d4f6b05412fb59058a73d1a0c94ac883828543087391782044c9ce"
+
+[[files]]
+file = "config/mysticalcustomization/crops/desh.json"
+hash = "9e6ea5e3b1c5984e8676242a59a41cf74a31800e14ff0653a1690c567a90ec0a"
+
+[[files]]
+file = "config/mysticalcustomization/crops/naquadah.json"
+hash = "692615f2c5815dddab55f961652bd3663e3e263a43fa7081723efe9ee1e5f8b3"
+
+[[files]]
+file = "config/mysticalcustomization/crops/tharsite.json"
+hash = "a771f6b142ad8c0cc4b45f2e07c42714d15851aba9bbbb07a0945a4956f86db1"
+
+[[files]]
 file = "config/overlapless-common.toml"
 hash = "32df3fd899e2c7be1b9cdbac299f76adea23a7861697a7e08e84a5e0a220fde8"
 
@@ -1629,6 +1653,50 @@ file = "kubejs/data/sgcommunity_pack/recipe/compost/organic_compost.json"
 hash = "ab57379223a2c35e404be2205852cbb8e08e6cf36739766ee9974baa1497f8de"
 
 [[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/crop/borax_seeds.json"
+hash = "859037bd3b489766fd0202b233d60305994df7a71605930e2e2474aac585cf94"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/crop/corronium_seeds.json"
+hash = "704b4c02755a9bef7bf72b9a41e951981d2675208c65297eff006819916bb797"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/crop/desh_seeds.json"
+hash = "147b6209768d50cebdcbed29d58be713be2ff1ae87df58f98d78fe7e1e5fca88"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/crop/naquadah_seeds.json"
+hash = "4df811af824fa2eb8130ca73a76b1e22f67d2a29c669af707fd2033fb6681790"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/crop/tharsite_seeds.json"
+hash = "6443ade1dd94052de92e2fba7a284a04bd36ed6eec76787595e7de34d2f6484d"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/essence/borax.json"
+hash = "81aa4aca5fa604feb2b9844fb19a8dc322d25e42e5da1df82c1f245678ba10d5"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/essence/corronium.json"
+hash = "07f37035af83f0b40a3db23ce42a5b725f4b31dd9f1614ff30f373236d3745c8"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/essence/desh.json"
+hash = "c02d080b823627376e8d7e1aa0988b1fa6e92ca55c0b80cdfd3d3fa942ca4bf9"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/essence/naquadah.json"
+hash = "157caa4f7a115a7d9d2d2df9246ae940a5186bea37283422e85e490657652d1c"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/essence/naquadah_alloy.json"
+hash = "37acb00b847759bdb3c5106cccfa010008215ef444400608f705a7d2d00e4387"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/essence/tharsite.json"
+hash = "8a0038bf1a0c67f87af88d372746c12e0879ba82e0fa53dcd4469a3522972b3c"
+
+[[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/item/advanced_pcb_substrate.json"
 hash = "16354804cd143748c45014265e76d120836a0fe54108f732c02b179b4176792e"
 
@@ -1797,6 +1865,26 @@ file = "kubejs/data/sgcommunity_pack/recipe/personal_shield_emitter.json"
 hash = "2906a1479304546131a35ce8d0b13bc320d66e6b8f186ec61634208f005c4188"
 
 [[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/planting/borax.json"
+hash = "a5ec5cf9d867096839efe15daac24d6aa21e4b2bb348d5cb1f8f745954602b54"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/planting/corronium.json"
+hash = "548df6fd2e99ed34d30b1c7f6254353485e4d2fbb364a3e2e2a48b14d2183af1"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/planting/desh.json"
+hash = "2366dd12c1e565864cf0748c790de3887dbf33ad6ede856d4a25230f071983ec"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/planting/naquadah.json"
+hash = "6329f653e76779461d670fb03540c597971660ffb6eb3fd19fd2a6e18016a9a5"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/planting/tharsite.json"
+hash = "ef845e85b6e04d4e0269aa257baf50511aa4963adb78fa7c609bc168116edbe7"
+
+[[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/pure_naq_mixing.json"
 hash = "5ad942c6a4d0dd3e40e972614d3add6cbae4c9fe9eb96b11e519b956810b2526"
 
@@ -1831,6 +1919,50 @@ hash = "d0fb7994e889e2fa09e80cb30a1a2f6be9d4909a25cee423952886ac7f966226"
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sandstone_cartouche.json"
 hash = "088461b6b6bcc3a4eda178fabf731c1faae6686030f30b7587f139a55a4ef35a"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/soil/computational_substrate.json"
+hash = "23e533261a7c735f37deae6f4fb8ddc08c54cab785f9c1b53ceb06af33a072df"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/soil/deep_space_substrate.json"
+hash = "ea553bdcec9a1b976b459db7a1632eaf5ca40f6958239e0010c59c2cb9266b11"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/soil/diamond_substrate.json"
+hash = "512aa3c3aa70046f519ccb884a5cbbd7750f6fd538f8827b12bc79a2f38c3194"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/soil/gold_substrate.json"
+hash = "11ff77b649ce52b10a9fe9a31d8430fb8f8df4d77f11a085dffd98a6b48d2675"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/soil/iron_substrate.json"
+hash = "9853c849d7270d6e420839953338cf92f8c06cba835c399ed0e5738257b570c6"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/soil/kinetic_substrate.json"
+hash = "92b0975ea8b3a1797f39d1802530eed84898a6037ceed7fb8e20d11dd59f03ec"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/soil/mekanised_substrate.json"
+hash = "316e60fa797647b78e70e2ab27a9b650528cc04e59caf78c4d90444c1703181b"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/soil/naquadria_substrate.json"
+hash = "519819ea678a99a177f72efa63ac6b95dcea340073930dd2f7f9092eb854d528"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/soil/netherite_substrate.json"
+hash = "501503446481a4c532b3bff38a071d1b8fc38c80ea9d91c8f072318353a64fa2"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/soil/positronic_substrate.json"
+hash = "11f40d48afe44d828a5d6eb7f85230639e06a70350eefb6b1b0751515405891e"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/soil/reactive_substrate.json"
+hash = "acb22384fd9f6a55847ebe9b48cee86965df13c225ef02d793e9f355e21ceade"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/substrate/computational_substrate.json"
@@ -2278,11 +2410,11 @@ hash = "58fc30d8edd6b01e8f764985aead40914279ca7f3f724e278c76d416a94e91b9"
 
 [[files]]
 file = "kubejs/server_scripts/server.js"
-hash = "8dacb91f49c4bfb49211ddaa994efac7eb901f255baa06edc2b1e447080d2b99"
+hash = "7b9068fc214d7402f43df337525cc626c8688275cb13c2d3ab671cfd94dd7d34"
 
 [[files]]
 file = "kubejs/server_scripts/tag_fix.js"
-hash = "8e4c67ab31d6414781075983511293b4d44f4f7096b4ffb6a3dff5fd0dfe2feb"
+hash = "0844e7f7b235fca77edbc692d90289bad82bd928ec636b6830209f91602410da"
 
 [[files]]
 file = "kubejs/server_scripts/wafer_chain.js"

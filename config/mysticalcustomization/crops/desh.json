@@ -1,0 +1,14 @@
+{
+    "name": "Desh",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:4",
+    "ingredient": {
+        "item": "stellaris:desh_ingot"
+    },
+    "color": "dea554",
+    "textures": {
+        "flower": "mysticalagriculture:block/flower_ingot",
+        "essence": "mysticalagriculture:item/essence_ingot"
+    },
+    "crux": "sgcommunity_pack:reactive_substrate"
+}

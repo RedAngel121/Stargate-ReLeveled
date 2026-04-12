@@ -14,6 +14,33 @@ MoreJS.villagerTrades(event => {
 });
 
 // ===============================
+// REMOVE MYST AG SOILS
+// ===============================
+
+RecipeViewerEvents.removeEntries("item", event => {
+    event.remove("mysticalagriculture:inferium_farmland")
+    event.remove("mysticalagriculture:prudentium_farmland")
+    event.remove("mysticalagriculture:tertium_farmland")
+    event.remove("mysticalagriculture:imperium_farmland")
+    event.remove("mysticalagriculture:supremium_farmland")
+    event.remove("mysticalagradditions:insanium_farmland")
+})
+ServerEvents.recipes(event => {
+    event.remove("mysticalagriculture:inferium_farmland")
+    event.remove("mysticalagriculture:inferium_farmland_till")
+    event.remove("mysticalagriculture:prudentium_farmland")
+    event.remove("mysticalagriculture:prudentium_farmland_till")
+    event.remove("mysticalagriculture:tertium_farmland")
+    event.remove("mysticalagriculture:tertium_farmland_till")
+    event.remove("mysticalagriculture:imperium_farmland")
+    event.remove("mysticalagriculture:imperium_farmland_till")
+    event.remove("mysticalagriculture:supremium_farmland")
+    event.remove("mysticalagriculture:supremium_farmland_till")
+    event.remove("mysticalagradditions:insanium_farmland")
+    event.remove("mysticalagradditions:insanium_farmland_till")
+})
+
+// ===============================
 // EASY MODE COMMANDS
 // ===============================
 
@@ -54,13 +81,4 @@ ServerEvents.commandRegistry(event => {
             .then(Commands.literal("toggle").executes(c => toggleEasyMode(c.getSource())))
             .then(Commands.literal("getconverter").executes(c => giveConverter(c.getSource())))
     );
-});
-
-// ===============================
-// DISABLE HOPPERS
-// ===============================
-
-BlockEvents.placed("minecraft:hopper", event => {
-    event.player.sendSystemMessage(Text.of("Hoppers disabled. Use pipez."));
-    event.cancel();
 });

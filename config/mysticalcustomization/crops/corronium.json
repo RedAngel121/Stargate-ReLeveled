@@ -1,0 +1,14 @@
+{
+    "name": "Corronium",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+        "item": "stellaris:corronium_ingot"
+    },
+    "color": "00ff00",
+    "textures": {
+        "flower": "mysticalagriculture:block/flower_ingot",
+        "essence": "mysticalagriculture:item/essence_ingot"
+    },
+    "crux": "sgcommunity_pack:naquadria_substrate"
+}

@@ -71,3 +71,10 @@ ServerEvents.tags("item", event => {
         event.add("sophisticatedstorage:limited_barrels", "sophisticatedstorage:limited" + each + "_barrel_4")
     }
 })
+ServerEvents.tags("item", event => {
+        event.add("c:seeds", "mysticalagriculture:borax_seeds")
+        event.add("c:seeds", "mysticalagriculture:corronium_seeds")
+        event.add("c:seeds", "mysticalagriculture:desh_seeds")
+        event.add("c:seeds", "mysticalagriculture:naquadah_seeds")
+        event.add("c:seeds", "mysticalagriculture:tharsite_seeds")
+})

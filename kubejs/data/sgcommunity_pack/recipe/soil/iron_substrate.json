@@ -1,0 +1,13 @@
+{
+    "bookshelf:load_conditions": [
+        {
+            "type": "bookshelf:block_exists",
+            "values": [
+                "sgcommunity_pack:iron_substrate"
+            ]
+        }
+    ],
+    "type": "botanypots:block_derived_soil",
+    "block": "sgcommunity_pack:iron_substrate",
+    "growth_modifier": 0.50
+}

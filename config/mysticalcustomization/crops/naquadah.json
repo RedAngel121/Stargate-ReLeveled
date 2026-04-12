@@ -1,0 +1,14 @@
+{
+    "name": "Naquadah",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+        "item": "sgjourney:naquadah"
+    },
+    "color": "5a5756",
+    "textures": {
+        "flower": "mysticalagriculture:block/flower_rock",
+        "essence": "mysticalagriculture:item/essence_rock"
+    },
+    "crux": "sgcommunity_pack:positronic_substrate"
+}
