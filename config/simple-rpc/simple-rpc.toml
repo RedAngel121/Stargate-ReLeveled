@@ -1,0 +1,608 @@
+
+#General Config Section. See https://srpc.fdd-docs.com/introduction/
+[general]
+	#The Application ID of the Discord App to use
+	applicationID = "762726289341677668"
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = false
+	#Allow using local image files, as RPC icons
+	rpcImageServer = false
+	#The URL of the RPC image server that will be used for local images. Restart required when changed
+	rpcImageServerUrl = "https://rpcavatar.firstdark.dev"
+	#Internal Version Number. NO TOUCHY!
+	version = 26
+
+#The Game Loading event
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+
+	#List of RPCs that will be displayed at random
+	[[init.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "Minecraft is loading"
+		#The second line of text under the app name
+		state = "Game Starting..."
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["mclogonew"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["mclogo"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{game.mods}} mods installed"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
+		buttons = []
+
+#The Main Menu event
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+
+	#List of RPCs that will be displayed at random
+	[[main_menu.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "{{player.name}} is currently lazy"
+		#The second line of text under the app name
+		state = "Chilling in the menu"
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["mclogonew"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
+		buttons = []
+
+#The Server List event
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+
+	#List of RPCs that will be displayed at random
+	[[server_list.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "{{player.name}} is looking for a server"
+		#The second line of text under the app name
+		state = "Searching for friends"
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["mclogonew"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
+		buttons = []
+
+#The Realms Screen event
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = true
+
+	#List of RPCs that will be displayed at random
+	[[realms_list.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "{{player.name}} is looking for a Realm"
+		#The second line of text under the app name
+		state = "Browsing Realms"
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["mclogonew"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
+		buttons = []
+
+#The Join Game Event
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+
+	#List of RPCs that will be displayed at random
+	[[join_game.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "{{player.name}} is joining a game"
+		#The second line of text under the app name
+		state = "Joining Game"
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["mclogonew"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
+		buttons = []
+
+#The Single Player Event
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+
+	#List of RPCs that will be displayed at random
+	[[single_player.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "Currently In {{world.name}}"
+		#The second line of text under the app name
+		state = "Playing lonely mode"
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["mclogonew"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
+		buttons = []
+
+#The Multi Player Event
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+
+	#List of RPCs that will be displayed at random
+	[[multi_player.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "Playing on {{server.name}} with {{server.players.count}} players"
+		#The second line of text under the app name
+		state = "Playing online"
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["mclogonew"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
+		buttons = []
+
+#The Realms Game Event
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = true
+
+	#List of RPCs that will be displayed at random
+	[[realms.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "Playing on {{realm.name}}"
+		#The second line of text under the app name
+		state = "Playing on a Realm"
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["mclogonew"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
+		buttons = []
+
+#The Paused Event
+[paused]
+	#Enable/Disable the Pause Event
+	enabled = true
+
+	#List of RPCs that will be displayed at random
+	[[paused.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "In the Pause Menu"
+		#The second line of text under the app name
+		state = "Game Paused"
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["mclogonew"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["{{images.player}}"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{player.name}}"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
+		buttons = []
+
+#Fallback event for disabled events
+[generic]
+
+	#List of RPCs that will be displayed at random
+	[[generic.presence]]
+		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
+		type = "PLAYING"
+		#The first line of text under the app name
+		description = "Playing Minecraft"
+		#The second line of text under the app name
+		state = ""
+		#The Asset ID or URLs of images to randomly use for the large image
+		largeImageKey = ["mclogonew"]
+		#The text to show when someone hovers over the largeImage
+		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		#The Asset ID or URLs of images to randomly use for the small image
+		smallImageKey = ["mclogo"]
+		#The text to show when someone hovers over the smallImage
+		smallImageText = "{{game.mods}} mods installed"
+		#The Twitch or Youtube URL to use when type is set to STREAMING
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		#List of buttons (max 2) to show on the RPC
+		buttons = []
+
+#Custom Config Variables that you can use
+[custom]
+	#Must these variables be parsed along with other variables
+	enabled = true
+	#Your custom variables to add
+	variables = []
+
+#Dimension Information Overrides
+[dimension_overrides]
+	#Allows you to override the displayed values for dimensions
+	enabled = true
+
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is in The Overworld"
+			state = ""
+			largeImageKey = ["overworld"]
+			largeImageText = "In the Overworld"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is in The Nether"
+			state = ""
+			largeImageKey = ["nether"]
+			largeImageText = "In the Nether"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is in The End"
+			state = ""
+			largeImageKey = ["end"]
+			largeImageText = "In the End"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+
+	[[dimension_overrides.dimensions]]
+		name = "overworldmirror:overworld"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is in the Overworld Mirror"
+			state = ""
+			largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/mirror.png"]
+			largeImageText = "Exploring The Amplified Overworld Mirror"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+
+	[[dimension_overrides.dimensions]]
+		name = "stellaris:glacio"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is on Glacio"
+			state = ""
+			largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/glacio.png"]
+			largeImageText = "Exploring Glacio"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+
+	[[dimension_overrides.dimensions]]
+		name = "stellaris:mars"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is on Mars"
+			state = ""
+			largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/mars.png"]
+			largeImageText = "Exploring Mars"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+
+	[[dimension_overrides.dimensions]]
+		name = "stellaris:moon"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is on Luna"
+			state = ""
+			largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/moon.png"]
+			largeImageText = "Exploring Luna"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+
+	[[dimension_overrides.dimensions]]
+		name = "stellaris:mercury"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is on Mercury"
+			state = ""
+			largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/mercury.png"]
+			largeImageText = "Exploring Mercury"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+
+	[[dimension_overrides.dimensions]]
+		name = "stellaris:venus"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is on Venus"
+			state = ""
+			largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/venus.png"]
+			largeImageText = "Exploring Venus"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+
+	[[dimension_overrides.dimensions]]
+		name = "stellaris:glacio_orbit"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is in orbit over Glacio"
+			state = ""
+			largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/orbit.png"]
+			largeImageText = "In Space"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+
+	[[dimension_overrides.dimensions]]
+		name = "stellaris:mars_orbit"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is in orbit over Mars"
+			state = ""
+			largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/orbit.png"]
+			largeImageText = "In Space"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+
+	[[dimension_overrides.dimensions]]
+		name = "stellaris:moon_orbit"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is in orbit over Luna"
+			state = ""
+			largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/orbit.png"]
+			largeImageText = "In Space"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+
+	[[dimension_overrides.dimensions]]
+		name = "stellaris:mercury_orbit"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is in orbit over Mercury"
+			state = ""
+			largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/orbit.png"]
+			largeImageText = "In Space"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+
+	[[dimension_overrides.dimensions]]
+		name = "stellaris:venus_orbit"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is in orbit over Venus"
+			state = ""
+			largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/orbit.png"]
+			largeImageText = "In Space"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+
+	[[dimension_overrides.dimensions]]
+		name = "stellaris:earth_orbit"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is in orbit over Earth"
+			state = ""
+			largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/orbit.png"]
+			largeImageText = "In Space"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+
+	[[dimension_overrides.dimensions]]
+		name = "deeperdarker:otherside"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is in the Deep Dark"
+			state = ""
+			largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/deepdark.png"]
+			largeImageText = "Exploring The Otherside"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+
+	[[dimension_overrides.dimensions]]
+		name = "undergarden:undergarden"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is in the Undergarden"
+			state = ""
+			largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/undergarden.png"]
+			largeImageText = "Exploring the Undergarden"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+
+	[[dimension_overrides.dimensions]]
+		name = "sgjourney:abydos"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is on Abydos"
+			state = ""
+			largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/abydos.png"]
+			largeImageText = "Exploring Abydos"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+
+	[[dimension_overrides.dimensions]]
+		name = "sgjourney:athos"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is on Athos"
+			state = ""
+			largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/athos.png"]
+			largeImageText = "Exploring Athos"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+
+	[[dimension_overrides.dimensions]]
+		name = "sgjourney:cavum_tenebrae"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is on Cavum Tenebrae"
+			state = ""
+			largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/cavum_tenebrae.png"]
+			largeImageText = "Exploring a Black Hole"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+
+	[[dimension_overrides.dimensions]]
+		name = "sgjourney:chulak"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is on Chulak"
+			state = ""
+			largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/chulak.png"]
+			largeImageText = "Exploring Chulak"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+
+	[[dimension_overrides.dimensions]]
+		name = "sgjourney:rima"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is on Rima"
+			state = ""
+			largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/rima.png"]
+			largeImageText = "Exploring Rima"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+
+	[[dimension_overrides.dimensions]]
+		name = "sgjourney:lantea"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is in Atlantis"
+			state = ""
+			largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/lantea.png"]
+			largeImageText = "Exploring Lantea"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+
+	[[dimension_overrides.dimensions]]
+		name = "sgjourney:unitas"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is on Unitas"
+			state = ""
+			largeImageKey = ["https://raw.githubusercontent.com/RedAngel121/Stargate-ReLeveled/refs/heads/main/config/simple-rpc/assets/unitas.png"]
+			largeImageText = "Exploring Unitas"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+
+	[[dimension_overrides.buttons]]
+		label = "Curseforge"
+		url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
+
+	[[dimension_overrides.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/vDUGsWUKk8"
+

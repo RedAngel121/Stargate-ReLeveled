@@ -433,6 +433,10 @@ file = "config/sgjourney-common.toml"
 hash = "e0f1ea84326c7251cb814988cf94067869046394fbb07165879bb67181a19ba4"
 
 [[files]]
+file = "config/simple-rpc/simple-rpc.toml"
+hash = "9597814801e4bc32c8ebfd5bf87ddf0e61a5bdbf6c644e337948e2ca930b3481"
+
+[[files]]
 file = "config/simplebackups-common.toml"
 hash = "c5addce1aea576ba177b71fab731c2543ba707c53bec0cfce2f88ad9d9d8625d"
 
