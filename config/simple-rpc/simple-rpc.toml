@@ -9,14 +9,19 @@
 	debugging = false
 	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
 	launcherIntegration = false
+	#Allow using local image files, as RPC icons
+	rpcImageServer = false
+	#The URL of the RPC image server that will be used for local images. Restart required when changed
+	rpcImageServerUrl = "https://rpcavatar.firstdark.dev"
 	#Internal Version Number. NO TOUCHY!
-	version = 25
+	version = 26
 
 #The Game Loading event
 [init]
 	#Enable/Disable the Game Loading Event
 	enabled = true
 
+	#List of RPCs that will be displayed at random
 	[[init.presence]]
 		type = "PLAYING"
 		description = "Minecraft is loading"
@@ -27,19 +32,12 @@
 		smallImageText = "{{game.mods}} mods installed"
 		streamingActivityUrl = "https://twitch.tv/twitch"
 
-	[[init.buttons]]
-		label = "Curseforge"
-		url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
-
-	[[init.buttons]]
-		label = "Discord"
-		url = "https://discord.gg/vDUGsWUKk8"
-
 #The Main Menu event
 [main_menu]
 	#Enable/Disable the Main Menu Event
 	enabled = true
 
+	#List of RPCs that will be displayed at random
 	[[main_menu.presence]]
 		type = "PLAYING"
 		description = "{{player.name}} is currently lazy"
@@ -50,19 +48,12 @@
 		smallImageText = "{{player.name}}"
 		streamingActivityUrl = "https://twitch.tv/twitch"
 
-	[[main_menu.buttons]]
-		label = "Curseforge"
-		url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
-
-	[[main_menu.buttons]]
-		label = "Discord"
-		url = "https://discord.gg/vDUGsWUKk8"
-
 #The Server List event
 [server_list]
 	#Enable/Disable the Server List Event
 	enabled = true
 
+	#List of RPCs that will be displayed at random
 	[[server_list.presence]]
 		type = "PLAYING"
 		description = "{{player.name}} is looking for a server"
@@ -73,19 +64,12 @@
 		smallImageText = "{{player.name}}"
 		streamingActivityUrl = "https://twitch.tv/twitch"
 
-	[[server_list.buttons]]
-		label = "Curseforge"
-		url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
-
-	[[server_list.buttons]]
-		label = "Discord"
-		url = "https://discord.gg/vDUGsWUKk8"
-
 #The Realms Screen event
 [realms_list]
 	#Enable/Disable the Realms Screen Event
 	enabled = true
 
+	#List of RPCs that will be displayed at random
 	[[realms_list.presence]]
 		type = "PLAYING"
 		description = "{{player.name}} is looking for a Realm"
@@ -96,19 +80,12 @@
 		smallImageText = "{{player.name}}"
 		streamingActivityUrl = "https://twitch.tv/twitch"
 
-	[[realms_list.buttons]]
-		label = "Curseforge"
-		url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
-
-	[[realms_list.buttons]]
-		label = "Discord"
-		url = "https://discord.gg/vDUGsWUKk8"
-
 #The Join Game Event
 [join_game]
 	#Enable/Disable the Join Game Event
 	enabled = true
 
+	#List of RPCs that will be displayed at random
 	[[join_game.presence]]
 		type = "PLAYING"
 		description = "{{player.name}} is joining a game"
@@ -119,19 +96,12 @@
 		smallImageText = "{{player.name}}"
 		streamingActivityUrl = "https://twitch.tv/twitch"
 
-	[[join_game.buttons]]
-		label = "Curseforge"
-		url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
-
-	[[join_game.buttons]]
-		label = "Discord"
-		url = "https://discord.gg/vDUGsWUKk8"
-
 #The Single Player Event
 [single_player]
 	#Enable/Disable the Single Player Event
 	enabled = true
 
+	#List of RPCs that will be displayed at random
 	[[single_player.presence]]
 		type = "PLAYING"
 		description = "Currently In {{world.name}}"
@@ -142,19 +112,12 @@
 		smallImageText = "{{player.name}}"
 		streamingActivityUrl = "https://twitch.tv/twitch"
 
-	[[single_player.buttons]]
-		label = "Curseforge"
-		url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
-
-	[[single_player.buttons]]
-		label = "Discord"
-		url = "https://discord.gg/vDUGsWUKk8"
-
 #The Multi Player Event
 [multi_player]
 	#Enable/Disable the Multi Player Event
 	enabled = true
 
+	#List of RPCs that will be displayed at random
 	[[multi_player.presence]]
 		type = "PLAYING"
 		description = "Playing on {{server.name}} with {{server.players.count}} players"
@@ -165,19 +128,12 @@
 		smallImageText = "{{player.name}}"
 		streamingActivityUrl = "https://twitch.tv/twitch"
 
-	[[multi_player.buttons]]
-		label = "Curseforge"
-		url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
-
-	[[multi_player.buttons]]
-		label = "Discord"
-		url = "https://discord.gg/vDUGsWUKk8"
-
 #The Realms Game Event
 [realms]
 	#Enable/Disable the Realms Game Event
 	enabled = true
 
+	#List of RPCs that will be displayed at random
 	[[realms.presence]]
 		type = "PLAYING"
 		description = "Playing on {{realm.name}}"
@@ -188,19 +144,12 @@
 		smallImageText = "{{player.name}}"
 		streamingActivityUrl = "https://twitch.tv/twitch"
 
-	[[realms.buttons]]
-		label = "Curseforge"
-		url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
-
-	[[realms.buttons]]
-		label = "Discord"
-		url = "https://discord.gg/vDUGsWUKk8"
-
 #The Paused Event
 [paused]
 	#Enable/Disable the Pause Event
 	enabled = true
 
+	#List of RPCs that will be displayed at random
 	[[paused.presence]]
 		type = "PLAYING"
 		description = "In the Pause Menu"
@@ -211,17 +160,10 @@
 		smallImageText = "{{player.name}}"
 		streamingActivityUrl = "https://twitch.tv/twitch"
 
-	[[paused.buttons]]
-		label = "Curseforge"
-		url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
-
-	[[paused.buttons]]
-		label = "Discord"
-		url = "https://discord.gg/vDUGsWUKk8"
-
 #Fallback event for disabled events
 [generic]
 
+	#List of RPCs that will be displayed at random
 	[[generic.presence]]
 		type = "PLAYING"
 		description = "Playing Minecraft"
@@ -231,14 +173,6 @@
 		smallImageKey = ["mclogo"]
 		smallImageText = "{{game.mods}} mods installed"
 		streamingActivityUrl = "https://twitch.tv/twitch"
-
-	[[generic.buttons]]
-		label = "Curseforge"
-		url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
-
-	[[generic.buttons]]
-		label = "Discord"
-		url = "https://discord.gg/vDUGsWUKk8"
 
 #Custom Config Variables that you can use
 [custom]
@@ -252,6 +186,7 @@
 	#Allows you to override the displayed values for dimensions
 	enabled = true
 
+	#The Dimensions to override
 	[[dimension_overrides.dimensions]]
 		name = "overworld"
 
@@ -264,6 +199,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
 
 	[[dimension_overrides.dimensions]]
 		name = "the_nether"
@@ -277,6 +213,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
 
 	[[dimension_overrides.dimensions]]
 		name = "the_end"
@@ -290,6 +227,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
 
 	[[dimension_overrides.dimensions]]
 		name = "overworldmirror:overworld"
@@ -303,6 +241,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
 
 	[[dimension_overrides.dimensions]]
 		name = "ad_astra:glacio"
@@ -316,6 +255,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
 
 	[[dimension_overrides.dimensions]]
 		name = "ad_astra:mars"
@@ -329,6 +269,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
 
 	[[dimension_overrides.dimensions]]
 		name = "ad_astra:moon"
@@ -342,6 +283,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
 
 	[[dimension_overrides.dimensions]]
 		name = "ad_astra:mercury"
@@ -355,6 +297,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
 
 	[[dimension_overrides.dimensions]]
 		name = "ad_astra:venus"
@@ -368,6 +311,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
 
 	[[dimension_overrides.dimensions]]
 		name = "ad_astra:glacio_orbit"
@@ -381,6 +325,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
 
 	[[dimension_overrides.dimensions]]
 		name = "ad_astra:mars_orbit"
@@ -394,6 +339,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
 
 	[[dimension_overrides.dimensions]]
 		name = "ad_astra:moon_orbit"
@@ -407,6 +353,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
 
 	[[dimension_overrides.dimensions]]
 		name = "ad_astra:mercury_orbit"
@@ -420,6 +367,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
 
 	[[dimension_overrides.dimensions]]
 		name = "ad_astra:venus_orbit"
@@ -433,6 +381,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
 
 	[[dimension_overrides.dimensions]]
 		name = "ad_astra:earth_orbit"
@@ -446,6 +395,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
 
 	[[dimension_overrides.dimensions]]
 		name = "deeperdarker:otherside"
@@ -459,6 +409,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
 
 	[[dimension_overrides.dimensions]]
 		name = "undergarden:undergarden"
@@ -472,6 +423,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
 
 	[[dimension_overrides.dimensions]]
 		name = "sgjourney:abydos"
@@ -485,6 +437,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
 
 	[[dimension_overrides.dimensions]]
 		name = "sgjourney:athos"
@@ -498,6 +451,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
 
 	[[dimension_overrides.dimensions]]
 		name = "sgjourney:cavum_tenebrae"
@@ -511,6 +465,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
 
 	[[dimension_overrides.dimensions]]
 		name = "sgjourney:chulak"
@@ -524,6 +479,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
 
 	[[dimension_overrides.dimensions]]
 		name = "sgjourney:rima"
@@ -537,6 +493,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
 
 	[[dimension_overrides.dimensions]]
 		name = "sgjourney:lantea"
@@ -550,6 +507,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
 
 	[[dimension_overrides.dimensions]]
 		name = "sgjourney:unitas"
@@ -563,12 +521,5 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
-
-	[[dimension_overrides.buttons]]
-		label = "Curseforge"
-		url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
-
-	[[dimension_overrides.buttons]]
-		label = "Discord"
-		url = "https://discord.gg/vDUGsWUKk8"
+			buttons = []
 

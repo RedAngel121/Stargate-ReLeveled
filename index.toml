@@ -462,11 +462,11 @@ hash = "43fbedf0664ab5e40c181588e58946dcdc972d2981475dff8b50c85c9edc4198"
 
 [[files]]
 file = "config/simple-rpc/server-entries.toml"
-hash = "17b07ca5f6758448c4c2effbe9cb9f7b2b534c83b1287b5b751c3bbe4f74f2d0"
+hash = "6dfd7e6dfd8bb89d93c9eadc92716a7d8cd05005f526beec8174db4ca3ebb019"
 
 [[files]]
 file = "config/simple-rpc/simple-rpc.toml"
-hash = "4709434bf7796fc0a3ff8a74bada9bd10e14275182c12a532901c0b7e14ae70e"
+hash = "9634f0cc1a28fbbc8af274662fc69391b4e86412454dc26a8d4400fc500818dd"
 
 [[files]]
 file = "config/simplebackups-common.toml"
