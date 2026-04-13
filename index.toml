@@ -25,6 +25,10 @@ file = "config/cookingforblockheads-common.toml"
 hash = "d676304d60b0e1a95f88ca65c1a2ce968a3051d0df2b572d964b9836ad379494"
 
 [[files]]
+file = "config/corpse-server.toml"
+hash = "2cccc55f0ae0062193778cfa4f6311fa732e1561e356a97aad52b7c9b4be64d0"
+
+[[files]]
 file = "config/create-server.toml"
 hash = "8d9b5dd5179d80d843100543b380d71cc42c120e8c76c9f6b52627631ae6d2b9"
 
