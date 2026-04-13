@@ -4,17 +4,18 @@
 
 ### Changes:
 - Updated MC to 1.21.1
-- Swapped to Neoforge 21.1.224
-- Create: Steam and Rails (replaced with unofficial version for 1.21.1)
+- Swapped to Neoforge 21.1.226
+- Create: Steam and Rails (Replaced with unofficial version for 1.21.1)
 - Replace Chat Heads with ChatPlus
-- Stellaris (replaces Ad Astra)
-- Extra Sponges (replaces simple sponge mod)
-- Corpse (Relpace Gravestones and provides compat)
+- Stellaris (Replaces Ad Astra)
+- Extra Sponges (Replaces simple sponge mod)
+- Corpse (Replaces Gravestones and provides curios compat)
 - Added SGJourney Blocks and fluids to RFTools Dimlets
 - Discord Chat Integration replaced with https://www.curseforge.com/minecraft/mc-mods/viscord
-- Converted the login book into a quest cause no one reads anyway
+- Converted the login book into a quest ~~cause no one reads anyway~~
 
 ### Additions:
+- Construction Sticks
 - Veinminer Enchantment
 - Nullscape
 - BetterEnd and Dependancies:
