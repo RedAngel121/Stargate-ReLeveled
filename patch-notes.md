@@ -9,3 +9,4 @@
 - Added Schematic Energistics
 
 ### Removals:
+- Auto Restart
