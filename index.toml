@@ -2630,7 +2630,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "29b62d42548542296d9932bcbb8a93ffba0b75b7cc859a67e596aeb1e048ace2"
+hash = "7462fac47d19eab330cdf24eb07c65a5c421ded2d94675fb8ef21cdbbb034c13"
 metafile = true
 
 [[files]]
@@ -2750,7 +2750,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "dc0d55e51b5344c84fe5fea6d88f7443364d5d1e0ee5b16fce76718cd4404b1c"
+hash = "a14017776e5de212cb3f6a95f8c6ec203c62c0642cccd2b4ec5285b3910f748d"
 metafile = true
 
 [[files]]
@@ -2949,6 +2949,11 @@ hash = "f9be8361c39f91dce80420324ac45290a990e8178b83df6bdaa8d69f2c7aa8d4"
 metafile = true
 
 [[files]]
+file = "mods/schematic-energistics.pw.toml"
+hash = "d98c9c292b18a63777c37db0f39b8d4f034ee6d8a1f77b3c42836dd40cdea95d"
+metafile = true
+
+[[files]]
 file = "mods/sculk-horn.pw.toml"
 hash = "5f205b58acbb7134ff72c0f03d222c9cadbab7171645b949cf4977d829533469"
 metafile = true
@@ -3035,7 +3040,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-item-actions.pw.toml"
-hash = "239c14fc6547c83619d25b0f828419a50f6b53c419403c32a233f3376f8e7e1e"
+hash = "7b5e712404cdecf1112eef2e4f336cead2ce69239e7bf3e7963be4d6686ea2c0"
 metafile = true
 
 [[files]]
