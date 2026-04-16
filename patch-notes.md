@@ -81,12 +81,12 @@
 
 # FTB Replacements:
 ### Quests:
-- https://modrinth.com/mod/odyssey-quests wait on 1.21.1 update
+- https://modrinth.com/mod/odyssey-quests wait on 1.21.1 update?
 - https://modrinth.com/mod/questlog an option that works well with vanilla
 - https://www.curseforge.com/minecraft/mc-mods/hardcore-questing-mode oldschool quest tree
 
 ### Claims:
-- https://modrinth.com/mod/odyssey-claims wait on 1.21.1 update
+- https://modrinth.com/mod/odyssey-claims wait on 1.21.1 update?
 - https://www.curseforge.com/minecraft/mc-mods/open-parties-and-claims is extremely powerful and easy to use (add Xaero's World Map/Minimap)
 - Keep FLAN but dont make it the primary way to claim
 

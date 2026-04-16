@@ -374,7 +374,7 @@ hash = "64ddf1179bd01bdf868c360a3125d1a1300bed0ee09d5cac9d877093021ec8bf"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "44990041b8433696dea0307c7cae1123ee5b362c96817da45b916d3a485d2b2a"
+hash = "b6a859f2029aee145dfe5686611bf785a8089889aafb7fbd4f9da6ce99e67d80"
 
 [[files]]
 file = "config/jei/jei-client.ini"
@@ -1453,6 +1453,10 @@ file = "kubejs/data/mekanism/recipe/metallurgic_infuser.json"
 hash = "91821ed1122f93e114efdb5dfbdddeddfb20d68df10ac2c3e0e8c31e18f5a147"
 
 [[files]]
+file = "kubejs/data/mekmm/recipe/planting_station.json"
+hash = "2497e4c229504c7a4f997c4c4fbceffafdc5329ce9b5019ceeb0e9a9efe7905e"
+
+[[files]]
 file = "kubejs/data/mob_grinding_utils/recipe/recipe_absorption_hopper.json"
 hash = "ee1ebb60130ccb90dc9930813287ee143685020744a4d1648f8c7c592f393535"
 
@@ -2382,7 +2386,7 @@ hash = "b1da34581dae6fa5093305cca17ae8f23627f3e211b465d32f121e458a78e133"
 
 [[files]]
 file = "kubejs/server_scripts/tag_fix.js"
-hash = "0844e7f7b235fca77edbc692d90289bad82bd928ec636b6830209f91602410da"
+hash = "accb8285ba0c6391028c6bea9f5ee3a1820afa1bcbbbbe896344ab099904c4bc"
 
 [[files]]
 file = "kubejs/server_scripts/wafer_chain.js"
@@ -2481,6 +2485,11 @@ metafile = true
 [[files]]
 file = "mods/appleskin.pw.toml"
 hash = "3f910a2722d6884203aba5eee8f5c129ea3c2e0b78bc683b2d7b5604fec755f5"
+metafile = true
+
+[[files]]
+file = "mods/applied-construction-sticks.pw.toml"
+hash = "6a47b491d7685a7a32f15f410a9c353d07b301cea9f434afd31471f3b974704a"
 metafile = true
 
 [[files]]
@@ -3326,6 +3335,11 @@ metafile = true
 [[files]]
 file = "mods/runelic.pw.toml"
 hash = "ece6606ae5a408eb1683f68596db5f4ff1ee28bd0293043ed99794ffa6e33d64"
+metafile = true
+
+[[files]]
+file = "mods/schematic-energistics.pw.toml"
+hash = "e944fd74f568de36ac4686af0d9abbb19a4af081e3db018f9adde3d0dc3675a3"
 metafile = true
 
 [[files]]

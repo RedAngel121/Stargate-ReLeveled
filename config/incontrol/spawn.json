@@ -3,7 +3,7 @@
     "mod": "endermanoverhaul",
     "spawner": false,
     "mincount": {
-      "amount": 0,
+      "amount": 2,
       "mod": "endermanoverhaul",
       "perplayer": true
     },

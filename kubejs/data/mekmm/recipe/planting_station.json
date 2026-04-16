@@ -1,0 +1,27 @@
+{
+  "type": "mekanism:mek_data",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "c:fuels/bio"
+    },
+    "A": {
+      "tag": "c:alloys/elite"
+    },
+    "C": {
+      "tag": "c:circuits/elite"
+    },
+    "X": {
+      "item": "sgcommunity_pack:positronic_substrate"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "#X#",
+    "ACA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekmm:planting_station"
+  }
+}

@@ -33,7 +33,7 @@ ServerEvents.tags("block", event => {
     event.add("c:ores_in_ground/netherrack", "sgjourney:nether_naquadah_ore")
 })
 
-// Adding Blaze stuff cause mek hates items
+// Adding Blaze stuff cause mek recipes hate items
 ServerEvents.tags("item", event => {
     event.add("c:dusts/blaze", "minecraft:blaze_powder")
     event.add("c:eggs/blaze", "minecraft:blaze_spawn_egg")
@@ -50,6 +50,19 @@ ServerEvents.tags("item", event => {
     for (let each of wheat_flours) {
         event.add("c:flour/flour", each)
         event.add("c:flours/wheat", each)
+    }
+})
+
+// Stellaris doesnt like tags
+let sands = ["stellaris:moon_sand", "stellaris:mars_sand", "stellaris:venus_sand"]
+ServerEvents.tags("item", event => {
+    for (let each of sands) {
+        event.add("c:sands", each)
+    }
+})
+ServerEvents.tags("block", event => {
+    for (let each of sands) {
+        event.add("c:sands", each)
     }
 })
 
@@ -71,6 +84,8 @@ ServerEvents.tags("item", event => {
         event.add("sophisticatedstorage:limited_barrels", "sophisticatedstorage:limited" + each + "_barrel_4")
     }
 })
+
+// My new seeds need tags too...
 ServerEvents.tags("item", event => {
         event.add("c:seeds", "mysticalagriculture:borax_seeds")
         event.add("c:seeds", "mysticalagriculture:corronium_seeds")
