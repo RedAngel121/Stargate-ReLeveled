@@ -1621,6 +1621,10 @@ file = "kubejs/data/sgcommunity_pack/recipes/cobbled_deepslate.json"
 hash = "411d9096f95f53b540537f11e5190bb261aebb718061509c40e0371c042c5f97"
 
 [[files]]
+file = "kubejs/data/sgcommunity_pack/recipes/ender_eye_overhaul.json"
+hash = "3d0e16aafc76ce650fb917e19de6d3401ebe6786e78b79cbf4220eb493c5b4f7"
+
+[[files]]
 file = "kubejs/data/sgcommunity_pack/recipes/honeycomb_from_block.json"
 hash = "10592c53a402e9cacb4f478d48308dcf8f0036963fa91ca92ae2b73ce357829e"
 
