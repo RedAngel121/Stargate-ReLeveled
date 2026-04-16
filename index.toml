@@ -366,7 +366,7 @@ hash = "c418fe5d459a08deb666565c26447e6d1e7347b1753850b6fb3c2523d7626cb2"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "44990041b8433696dea0307c7cae1123ee5b362c96817da45b916d3a485d2b2a"
+hash = "b6a859f2029aee145dfe5686611bf785a8089889aafb7fbd4f9da6ce99e67d80"
 
 [[files]]
 file = "config/jei/jei-client.ini"
