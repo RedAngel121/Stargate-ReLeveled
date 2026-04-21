@@ -7,7 +7,7 @@
 - Swapped to Neoforge 21.1.226
 - Create: Steam and Rails (Replaced with unofficial version for 1.21.1)
 - Replace Chat Heads with ChatPlus
-- Stellaris (Replaces Ad Astra)
+- Stellaris (Replaces Ad Astra and Questline)
 - Extra Sponges (Replaces simple sponge mod)
 - Corpse (Replaces Gravestones and provides curios compat)
 - Added SGJourney Blocks and fluids to RFTools Dimlets
@@ -67,12 +67,7 @@
 - DimStruc Restrict mod needs to be updated to handle the Overworld Mirror Stargate generation/prevention
 - Fix custom iris smithing Kubejs script
 
-### NOTES:
-- Redo the Ad Astra Quests to make use of Stellaris
-- Custom Gate Spawns need to be adjusted to the MoreGate mod instead of the old datapack
-
 ### Long Term Goals:
-- Integrate PnumaticCraft - should I add this at all?
 - Integrate Oritech - this would be amazing to add compat for, make even more complex circuits and recipe chains
 - Endgame Quests - ZPM Reward?
 - ZPM replication options for endgame (talk to cookta)

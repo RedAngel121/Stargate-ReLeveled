@@ -34,9 +34,9 @@
 	quest.02D196F734985673.quest_desc: ["There are several types of power generation in the pack that you can easily start early on. Make sure you make more than one cause you are probably going to need it anyway."]
 	quest.02D196F734985673.quest_subtitle: "Trickle Charging at its finest"
 	quest.02D196F734985673.title: "Power Generation"
-	quest.03A86C169C511433.quest_desc: ["Guess what? It's found in the Venus Underground. You can craft a rocket with it. HOWEVER, unlike all the other Stellaris ores, this one unlocks something cool: The Jet Suit."]
+	quest.03A86C169C511433.quest_desc: ["Guess what? It's found in the Mercury Underground. Like all the other Stellaris ores, this one unlocks something new: Upgraded Power Banks"]
 	quest.03A86C169C511433.title: "Another Stellaris Ore"
-	quest.040091D32C7039BF.quest_desc: ["Stellaris is a simple space mod that adds several tiers of rockets and 5 new worlds to visit. It also adds orbit dimensions where you can build space stations! "]
+	quest.040091D32C7039BF.quest_desc: ["Stellaris is a simple space mod that adds rockets and 5 new worlds to visit. It also adds orbit dimensions where you can build space stations! "]
 	quest.040091D32C7039BF.title: "About Stellaris"
 	quest.042B824F2BC728B7.quest_desc: ["Use an inscriber with an Integrated Circuit Photomask in the top slot to expose the photoresist."]
 	quest.042B824F2BC728B7.title: "Step 16: Expose Photoresist"
@@ -201,7 +201,7 @@
 	quest.31CC3F089AF8C8BA.title: "Storing Power"
 	quest.31F264A4491B9BE8.quest_subtitle: "I hope you didn't just rush this"
 	quest.31F264A4491B9BE8.title: "Not Worth It"
-	quest.330BC90CB5BD20B0.quest_desc: ["In the lunar underground, you can find desh which is used to make useful technology and better rockets. You will want to bring back a bit to play with, but you will need far more in order to make the next rocket."]
+	quest.330BC90CB5BD20B0.quest_desc: ["In the lunar underground, you can find desh which is used to make useful technology and better rocket parts. You will want to bring back a bit to play with, but you will need far more in order to make the next rocket upgrade."]
 	quest.330BC90CB5BD20B0.title: "Permanent Space Base?"
 	quest.330F487B82B4444C.quest_desc: [
 		"Using a Glass Bottle at the cloud levels (192-196 by default) will get you a Bottled Cloud."
@@ -292,7 +292,11 @@
 	quest.4012FAB74A514FCC.title: "Step 19: Expose Photoresist"
 	quest.4044025B79CF78BE.quest_desc: ["To ensure your wafers are light, mix in some baking soda."]
 	quest.4044025B79CF78BE.title: "Mix in Sodium Bicarbonate"
-	quest.4127A5F56B05E24D.quest_desc: ["Steel is relatively easy to make. All you need is a blast furnace and some iron and you can have more steel ingots than you will ever need."]
+	quest.4127A5F56B05E24D.quest_desc: [
+		"Stellaris adds Steel Ore to the mix, smelting Raw Steel Ore can be lucrative if you know where to look for it."
+		""
+		"Alternatively you can make steel using Iron and Coal in a Mekanism Enricher"
+	]
 	quest.4127A5F56B05E24D.title: "Forging Steel"
 	quest.41B6CC48454F92F4.quest_desc: [
 		"&dAdvanced Peripherals&r allows &lComputerCraft&r computers to access far more information than they can in base CC"
@@ -326,7 +330,7 @@
 	]
 	quest.45F7FFD50A8143AB.quest_subtitle: "It's slow, but compact!"
 	quest.45F7FFD50A8143AB.title: "Infinite Milk"
-	quest.462B9ADD52070B7C.quest_desc: ["While water freezes on the moon, if you create an oxygenated atmosphere, it will stick around! In order to kickstart the process, you will need to bring several buckets of water. Consider using a fluid tank or an AE2 fluid cell to make sure you have enough. The &dOxygen Distributer&r can be used fill a room with &lOxygen&r, and the &dWater Pump&r can be used to drain water source blocks for water."]
+	quest.462B9ADD52070B7C.quest_desc: ["While water freezes on the moon, if you create an oxygenated atmosphere, it will stick around! In order to kickstart the process, you will need to bring several buckets of water. Consider using a Mekanism Fluid Tank or an AE2 Fluid Cell to make sure you have enough. The &dOxygen Distributer&r can be used fill a room with &lOxygen&r, and the &dWater Pump&r can be used to drain water source blocks for water."]
 	quest.462B9ADD52070B7C.title: "Permanent Space Base"
 	quest.4683E1E82F7377E8.quest_desc: ["While &dStargate Journey&r usually only generates two stargates in the overworld, this modpack uses the Common Stargates config in multiplayer which adds additional buried stargates every 64 chunks. "]
 	quest.4683E1E82F7377E8.quest_subtitle: "Sometimes..."
@@ -342,8 +346,8 @@
 	quest.494419E2B4AB7E80.title: "&3ALU"
 	quest.49A41F1C874BC5A5.quest_desc: ["Inject photoresist"]
 	quest.49A41F1C874BC5A5.title: "Step 2: Apply Photoresist"
-	quest.49A6CC81BF9908FF.quest_desc: ["Despite its friendlier atmosphere, Glacio's terrain makes it extremely hostile and it lacks any major resources."]
-	quest.49A6CC81BF9908FF.title: "Visit Glacio"
+	quest.49A6CC81BF9908FF.quest_desc: ["Despite its friendlier atmosphere, Venus' terrain makes it extremely hostile and it lacks any major resources."]
+	quest.49A6CC81BF9908FF.title: "Visit Venus"
 	quest.4A30584869198FCE.quest_desc: ["Use an inscriber with an Integrated Circuit Photomask in the top slot to expose the photoresist."]
 	quest.4A30584869198FCE.title: "Step 3: Expose Photoresist"
 	quest.4B7991C8ACBEEEA2.quest_desc: ["Unlike in vanilla AE2, you can't just craft processors with printed circuits and redstone. Instead, you need a basic circuit as well. In this case, we'll just be using Vacuum tubes, but later on you might want to consider switching to MOSFETs."]
@@ -369,7 +373,11 @@
 	quest.50CF4FDB4145E5D7.quest_desc: ["A Trowel tool can be crafted with Iron and Sticks. The Trowel, when right clicked, will place a random block from your hotbar, making it useful for ruins or paths."]
 	quest.50CF4FDB4145E5D7.quest_subtitle: "Keeping it Random"
 	quest.50CF4FDB4145E5D7.title: "Trowels"
-	quest.515FAE2421519FDE.quest_desc: ["In order to fill your suit and tanks, you will need an &dOxygen Loader&r which produces &lOxygen&r from &lWater"]
+	quest.515FAE2421519FDE.quest_desc: [
+		"In order to fill your suit and tanks, you will need an &dWater Separator&r which takes &lWater&r and produces &lOxygen&r and  &lHydrogen&r"
+		""
+		"These can be converted into Mekanism &lOxygen&r and  &lHydrogen&r but cannot be converted back for use in Stellaris machines"
+	]
 	quest.515FAE2421519FDE.quest_subtitle: "Essential for Life"
 	quest.515FAE2421519FDE.title: "Producing Oxygen"
 	quest.51EBD8AD1947C6D0.title: "Create Wrench"
@@ -383,7 +391,7 @@
 	quest.54B35B245C507076.title: "Rudimentary Processors"
 	quest.5555426613E3B5E7.quest_desc: ["Inject photoresist"]
 	quest.5555426613E3B5E7.title: "Step 5: Apply Photoresist"
-	quest.558D9B481364BBDF.quest_desc: ["In order to ensure you can return home after visiting the moon, you will need a Launchpad and 3 Fuel Buckets. In order to make this easier, the rocket has an inventory for you to store extra fuel and other items in. Once you are on the moon, you can break the landing vehicle to get back your rocket and your items."]
+	quest.558D9B481364BBDF.quest_desc: ["In order to ensure you can return home after visiting the moon, you will need an extra set of Launchpad blocks and 3 extra Fuel Buckets. In order to make this easier, the rocket has an inventory for you to store extra fuel and other items in. Once you are on the moon, you can shift+right-click the landing vehicle to get back your rocket and your items."]
 	quest.558D9B481364BBDF.quest_subtitle: "Read this if you want to come back home"
 	quest.558D9B481364BBDF.title: "Final Checklist"
 	quest.55E72B435EFF8FBE.quest_desc: ["I mean, if it can make your cookie fall apart, surely it will work well enough"]
@@ -392,7 +400,7 @@
 	quest.55FA04711F888480.title: "&6Well Done!"
 	quest.5692D6BC6250B08E.title: "Storage Components"
 	quest.56BEE440D9F4AEC1.quest_desc: ["The &lMEGA Bulk Item Storage Cell&r can store an unlimited number of a single item."]
-	quest.5744700A7274DA60.quest_desc: ["Now that you have a Tier 3 rocket and a Netherite Space Suit, it's time to go to Venus!"]
+	quest.5744700A7274DA60.quest_desc: ["Now that you have a rocket and an upgraded Space Suit, it's time to go to Mercury!"]
 	quest.5744700A7274DA60.title: "A Lovely Planet"
 	quest.574B3182847B43C8.quest_desc: ["Now, add in the rest of the flour"]
 	quest.574B3182847B43C8.title: "Add the rest of the flour"
@@ -406,17 +414,15 @@
 	]
 	quest.5822E75A31419923.quest_subtitle: "Store Everything"
 	quest.5822E75A31419923.title: "Better Than Quests"
-	quest.59808EDCCD6B0790.quest_desc: ["Now that you have completed the main progression of Stellaris, you can travel to Alpha Centauri because why not"]
+	quest.59808EDCCD6B0790.quest_desc: ["Now that you have completed the main progression of Stellaris, you can travel to Venus because why not"]
 	quest.59808EDCCD6B0790.title: "Another Rocket?"
 	quest.59E8FE3300D4D830.title: "Build your Own"
 	quest.5A528882B2D313EF.title: "Here we go again..."
 	quest.5A5BC4DABD4FB881.quest_desc: [
-		"In order to construct a Space Station, you will need:"
-		"- 32 Desh Ingots"
-		"- 32 Steel Ingots"
-		"- 64 Iron Sheets"
-		"- 32 Desh Plates"
-		"You might also want to bring a rocket to get back down."
+		"In order to construct a Large Space Station, you will need:"
+		"- 200 Steel Ingots"
+		"- 200 Heavy Metal Ingots"
+		"Make sure you bring extra fuel to get back"
 	]
 	quest.5B1CA6DED2C030F4.quest_desc: [
 		"There are several commands that make everything easier:"
@@ -470,7 +476,7 @@
 	quest.5E2B4E3EF7D7EB8B.title: "UPGRADES PEOPLE!"
 	quest.5E6E8EC306B66113.quest_desc: ["&dIsotopic Decay Oscillators&r are produced in nearly the same way as &lIntegrated Circuits&r. As such, you can utilize your existing factory to produce them."]
 	quest.5E6E8EC306B66113.title: "Isotopic Decay Oscillators"
-	quest.5F155B45118EF013.quest_desc: ["To make rocket fuel, simply put oil into a fuel refinery."]
+	quest.5F155B45118EF013.quest_desc: ["To make rocket fuel, simply put oil into a Fuel Refinery."]
 	quest.5F155B45118EF013.title: "Making Fuel"
 	quest.5F67525D31BA8C02.quest_desc: ["Tired of not having enough crafting storage to build the entire minecraft world? MEGA cells has you covered. You can craft MEGA Crafting Storage and MEGA Crafting Coprocessors"]
 	quest.5F67525D31BA8C02.title: "Crafting at a New Scale"
@@ -487,7 +493,7 @@
 	]
 	quest.601DFD8DA61EE755.quest_desc: ["Inject Hydrofluoric Acid to etch the wafer"]
 	quest.601DFD8DA61EE755.title: "Step 3: Etch Wafer"
-	quest.619164BE81319331.quest_desc: ["Venus is a planet with a fiery atmosphere. In order to survive, you will need a &dNetherite Space Suit&r. As a bonus, it also comes with a larger oxygen tank and better armor."]
+	quest.619164BE81319331.quest_desc: ["Mercury is a planet with a fiery atmosphere. In order to survive, you will need an upgraded &dSpace Suit&r. "]
 	quest.61FF8BB395DDB761.quest_desc: ["Place down your ME Drive and connect your terminal to it with the cables. Finally, connect the Energy Acceptor to your ME system and a power source. Congrats, You have an ME system! However, you still need storage cells. Check out the next quest for more information on how that works."]
 	quest.61FF8BB395DDB761.title: "Basic Storage"
 	quest.626D482CA1E17EC5.title: "&3Silicon Boules"
@@ -506,7 +512,7 @@
 	quest.65F9BF486152E7B5.title: "Step 17: Inject Uranium Hexafluoride"
 	quest.65FCB72100124810.quest_desc: ["Inject phosphorus gas"]
 	quest.65FCB72100124810.title: "Step 5: Inject Phosphorus"
-	quest.6642CDF5B5D029AC.quest_desc: ["The Rover is a vehicle capable of traversing flat-ish terrain at high speeds and has a large inventory space. It is powered using fuel."]
+	quest.6642CDF5B5D029AC.quest_desc: ["The Rover is a vehicle capable of traversing flat-ish terrain at high speeds and has a small inventory space. It is powered using only a single bucket of diesel"]
 	quest.6642CDF5B5D029AC.title: "Zoom"
 	quest.66AC30166E889FD6.quest_desc: ["The Naquadah Liquidizer is used to make liquid naquadah, which is used as a power source for weapons and in the crafting of various crystals."]
 	quest.66EA2C19AFB46F77.quest_desc: [""]
@@ -536,7 +542,7 @@
 	quest.6BDAECDF847B5CE8.quest_desc: ["Pretty simple, just need 4 diamonds to upgrade a gold substrate or 5 to make one from scratch. However, from now on, every substrate will be made by upgrading up from this one."]
 	quest.6BDAECDF847B5CE8.quest_subtitle: "Iced Out!"
 	quest.6BDAECDF847B5CE8.title: "Diamond Substrate"
-	quest.6C1DECF67082392C.quest_desc: ["&dOstrum&r can be found in the Martian underground and can be used to produce a cleaner&l fuel&r source as well as a&l better spacesuit."]
+	quest.6C1DECF67082392C.quest_desc: ["&dTharsite&r can be found in the Martian underground and can be used to produce tier 2 pipe as well as &lbetter equipment"]
 	quest.6C997F2638D19E7C.title: "Advanced Create Automation"
 	quest.6D63646BB54D20DF.quest_desc: ["Energy Crystals increase the amount of energy a DHD will try to fill a stargate to."]
 	quest.6DAA999CEC7DEDF7.quest_desc: ["Storage monitors allow you to see how much of an item you have in your ME network. They can also be upgraded to allow for barrel-like interaction, although they will consume channels after that."]
@@ -579,7 +585,11 @@
 	]
 	quest.72A7AC9B845231B2.quest_subtitle: "Not for Wimps"
 	quest.72A7AC9B845231B2.title: "Welcome to Stargate Releveled!"
-	quest.733DDCB7B102F065.quest_desc: ["To make rocket fuel, you will need to find an oil well and extract some oil. Make sure to get at least 6 buckets per rocket launch."]
+	quest.733DDCB7B102F065.quest_desc: [
+		"To make fuel, you will need to make an oil finder and a pumpjack to extract some oil out of the ground. Use the Oil Finder to right click any block to find out how much oil is in that area."
+		""
+		"Make sure to get at least 6 buckets of fuel per rocket launch."
+	]
 	quest.733DDCB7B102F065.title: "Black Gold"
 	quest.738EF626DC5C3C90.quest_desc: ["Create has a large number of multi-faceted mechanisms. As such, it is probably wise for you to check out the &dPonder Index&r. The Ponder Index can be found under the goggle icon in the escape menu, or by holding W while hovering over a create item."]
 	quest.738EF626DC5C3C90.quest_subtitle: "Factory Game"

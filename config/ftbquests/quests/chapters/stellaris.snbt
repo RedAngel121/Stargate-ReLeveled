@@ -211,6 +211,7 @@
 				{
 					id: "0F216A79142B9F54"
 					item: { count: 1, id: "stellaris:water_pump" }
+					optional_task: true
 					type: "item"
 				}
 			]
