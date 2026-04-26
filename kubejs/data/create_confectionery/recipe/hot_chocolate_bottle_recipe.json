@@ -1,0 +1,19 @@
+{
+    "group": "create_confectionery",
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "type": "neoforge:single",
+            "amount": 250,
+            "fluid": "create_confectionery:hot_chocolate"
+        }
+    ],
+    "results": [
+        {
+            "id": "create_confectionery:hot_chocolate_bottle"
+        }
+    ]
+}

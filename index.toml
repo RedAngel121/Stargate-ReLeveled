@@ -1145,6 +1145,18 @@ file = "kubejs/data/aeinfinitybooster/recipe/infinity_card.json"
 hash = "fcdd623e351703a067338b6ddbcbbcd7cae99b5937462e85bae93e8b3a8d0d45"
 
 [[files]]
+file = "kubejs/data/betterend/recipe/blossom_berry_jelly.json"
+hash = "91acf1197bd79b9974c49fcc02a60b45f8707ea2c6a32530918151eff1986acc"
+
+[[files]]
+file = "kubejs/data/betterend/recipe/shadow_berry_jelly.json"
+hash = "fec341fa73019278baa1d8695b3426cc02224c0b22b4370eeed23405c40d9c95"
+
+[[files]]
+file = "kubejs/data/betterend/recipe/sweet_berry_jelly.json"
+hash = "146cfb294bc72b04e2723a3a85b21b17c93d27d3b73d0d4a5d042b7c551e3a0a"
+
+[[files]]
 file = "kubejs/data/common_stargates/tags/worldgen/structure/common_stargate.json"
 hash = "b43b1c343dd5094dd3e97f79694b47d8213f8ef8fc945fcc7257b899f31905af"
 
@@ -1173,8 +1185,260 @@ file = "kubejs/data/computercraft/recipe/pocket_computer_normal.json"
 hash = "71a9eefd6ded1f271154a54c93bf024f4e5eabd797199c39d3f9b93ce124b2c5"
 
 [[files]]
+file = "kubejs/data/create/recipe/sequenced_assembly/black_and_white_film_developing.json"
+hash = "ff1f0363cb6db007e027969219966a1088e1390a40a6ab60e4ae4aa469c8c3a7"
+
+[[files]]
+file = "kubejs/data/create/recipe/sequenced_assembly/color_film_developing.json"
+hash = "bead850d523e5202cccfc92a1c76a03b956b7fc69ad9ab4d071d58b42a935b65"
+
+[[files]]
+file = "kubejs/data/create/recipe/sequenced_assembly/high_sensitivity_black_and_white_film_developing.json"
+hash = "e8c698837241cff3fc885ef940a463d8ea2ec26cb7deee60bee2bd77914a406d"
+
+[[files]]
+file = "kubejs/data/create/recipe/sequenced_assembly/high_sensitivity_color_film_developing.json"
+hash = "dbb09c70081d81615ae23262306ae23861d1397dbefabc82befc9b1d6bf5e263"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/bar_of_black_chocolate_recipe.json"
+hash = "3be14e5b8eb85b0d12caf794b9f7150fc128e86255da55f80ab1a8f8701635eb"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/bar_of_caramel_recipe.json"
+hash = "0f298f8e53071436ddf92430810926c44b4d42436aa9234cca2dbadac841a71a"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/bar_of_ruby_chocolate_recipe.json"
+hash = "143e4b8a5b055687b60d36c2f91ae3f73a155af862ecd8c52b009e9d6d70437a"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/bar_of_white_chocolate_recipe.json"
+hash = "5ffc3e9fce5d416c1b2a31a6070c98dfd751857f12d71c22ed5f1af88217bb72"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/black_chocolate_candy_1_recipe.json"
+hash = "17904d908bf864feea14c76f697aa07c6e33c81d273c54d12d2164fbafa77554"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/black_chocolate_candy_2_recipe.json"
+hash = "b3bd16196fc54a3be28052264910d566ec43c8a0515bd61184a9f23888895ae8"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/black_chocolate_candy_3_recipe.json"
+hash = "3000c99fefcc962c908293df076daaa94dd9a98227939b7ece15d25702e6d250"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/black_chocolate_candy_recipe.json"
+hash = "0042f417c8792b80eedf3df13705a31cef0962718bc87a492f42445e6f8b6b7d"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/black_chocolate_emptying.json"
+hash = "79215571211193c32e9be4d93cb8e9fd29f31ddff83114e8671cca036befa184"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/black_chocolate_glazed_berries_recipe.json"
+hash = "52ca1b02df3e86c9c2bb68c71cb6a73e710362af09a5e3afecce916dc1b12cf0"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/black_chocolate_glazed_marshmallow_recipe.json"
+hash = "ce2277433290f9b835ae55dcbb74f031ed17e645df67deaf7e9a5e5cc0139c57"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/black_chocolate_recipe.json"
+hash = "7af2088147ec0f7209fd295a8402574562397bb82b6f97fc8e4289600221009c"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/candy_cane_recipe.json"
+hash = "7594ead2a799f7c9bc53adbcf66882b1f085c30c8fb6402c19090cf0ab7eaa6e"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/caramel_emptying.json"
+hash = "d5b92601b24da4d3aff62429c56b044a334ad2aeffa7289eefc63dec6c536050"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/caramel_glazed_berries_recipe.json"
+hash = "7ab2617948ea1ba8352d3278861929c9115b1e17654132962812181e3d4b7adc"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/caramel_recipe.json"
+hash = "329a4212444ac13c7f9b13c20027ded202cece013dda0734e2a14efa5232cfd4"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/chocolate_candy_1_recipe.json"
+hash = "31e16177c9955335e7098b0cb98cdfa1a0fa1de39fdb5c34324a9d61f20971ed"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/chocolate_candy_2_recipe.json"
+hash = "9b211d37b96e383ada9bb226673326cee559f7ee52f41daf70ab753efc293298"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/chocolate_candy_3_recipe.json"
+hash = "abb719a8b218bd6f4dabe7089b38e4039c626770f4f217f087e508fb6ffafddf"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/chocolate_candy_recipe.json"
+hash = "6492c1be4e06ae8cd3767a451a1311e7ec5f4f07f0e3461e12041e7f519b3b53"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/chocolate_glazed_marshmallow_recipe.json"
+hash = "ce2277433290f9b835ae55dcbb74f031ed17e645df67deaf7e9a5e5cc0139c57"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/cocoa_powder_and_butter_recipe.json"
+hash = "e8ac7d4d365c6de7476d8d36cb1efff30863579b85aab6d9b920cb89010e84dc"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/crushed_cocoa_recipe.json"
+hash = "240a2f30ee2af355acc1a31d12c499b4eb02ec7b55fd34f639822f62b064069b"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/gingerbread_man_recipe.json"
+hash = "c2e665224bd0c4a2e4a8984de9625f65f7b488ebb97169e993a04d17dc891869"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/gingerdough_recipe.json"
+hash = "66e281c850aaf265ac2a5c99eb546c13e85530ad966e5e392aa89165aa48f3ef"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/honey_candy_recipe.json"
+hash = "30f8ad2c8d32e17646165ca464fc45edc475858cc1f37ee94ffc4b4a7a7df1b2"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/hot_chocolate_bottle_recipe.json"
+hash = "a785d5dd8eff3be73cece148676c27e1d081f215c51fbfe9334618501b04bbef"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/hot_chocolate_drain.json"
+hash = "5e55b201d4170d753945dcf023202c7c413f5f2438a48acec71ce1445523d2ad"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/hot_chocolate_recipe.json"
+hash = "5f22758caddd1cd2da091aa71724140066ff4838ee34811f879b165fe1b42852"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/marshmallow_recipe.json"
+hash = "83143b86b522801eea86702ca226878a3046bf46229afa4a531cdaa5652a424f"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/ruby_chocolate_candy_1_recipe.json"
+hash = "f0ddf990977b027c258c3513f5eece2a383139b63a1e502fb0f7c7efe8f9bc95"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/ruby_chocolate_candy_2_recipe.json"
+hash = "ff208bd6dd7e04fdf88c0b0725fd60d0171e71b81d0330ce769c99e3daf211b3"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/ruby_chocolate_candy_3_recipe.json"
+hash = "510a0ff8d5ac4bd13aba4feed6efe57242bddb06d2f11d2452d0b0857049881f"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/ruby_chocolate_candy_recipe.json"
+hash = "ae7dd40f9db6891b916654bdd26219a9712005a8090aeb15493be15b07cd31da"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/ruby_chocolate_emptying.json"
+hash = "ee737c21939f8d47086a594ae52ac0bee244166b394ee66dcf0cb038ab620614"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/ruby_chocolate_glazed_berries_recipe.json"
+hash = "4ac46c3b27c6dd816652757084324c25499c9709bbadd74c2bd140ef60c88d32"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/ruby_chocolate_glazed_marshmallow_recipe.json"
+hash = "7bdd843dda8242e6ed3b8b4a2e81221196f140e2777cc0e0bc8e9637bc96d039"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/ruby_chocolate_recipe.json"
+hash = "3d037ebf8314d73838329c5a792b8f5dc7e28f2f965988ce654ed1fb32bed136"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/white_chocolate_candy_1_recipe.json"
+hash = "ad816305a15bcb1c0f5b7430661a9a362d5cd9beb803ab30f1d8f4d97d4dcfc8"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/white_chocolate_candy_2_recipe.json"
+hash = "eeeaa584e2ddd8fe480329dd8ab835c506dd994be99a2c9ecd271583a75bdda5"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/white_chocolate_candy_3_recipe.json"
+hash = "5972b0984a0165e311da5cf7107f95a82e97a59d708173e931f3fc398431d121"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/white_chocolate_candy_recipe.json"
+hash = "618958851e23ebbe5ec9971d5033e4b37ab621a6511fca4c5d69bbe1fa404d22"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/white_chocolate_emptying.json"
+hash = "61f35ff31b3fdeac83e243033cff9c8a5007b7e837a80cfce4f10c50edbc125d"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/white_chocolate_glazed_berries_recipe.json"
+hash = "6a9427ac2a7039fd31f0260588a5ef7e706c0a874fd6759abf67038f17e8ef9d"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/white_chocolate_glazed_marshmallow_recipe.json"
+hash = "c4302367a5eeb0e7cb6da5a24ed468cb6b03af9717ea3f3732a79109b812173f"
+
+[[files]]
+file = "kubejs/data/create_confectionery/recipe/white_chocolate_recipe.json"
+hash = "8002867c5e1d137aa9cf3ad278bd034b9bdca8447fe3659e65a37c34191d4977"
+
+[[files]]
 file = "kubejs/data/create_hypertube/recipe/hypertube_entrance.json"
 hash = "e57bbe1c217d20106e4d871574350f377a25bebb649c3bb3b8b19423d3cf6485"
+
+[[files]]
+file = "kubejs/data/createaddition/recipe/filling/cake.json"
+hash = "d73d84f9177b91aba32129804e676519b63df7e76638bdb10980d01064b34322"
+
+[[files]]
+file = "kubejs/data/createaddition/recipe/filling/chocolate_cake.json"
+hash = "93a32a70147f83e25c61cb98e7ecb61984b516d092efcfefaebfb51a964f8ce4"
+
+[[files]]
+file = "kubejs/data/createaddition/recipe/filling/honey_cake.json"
+hash = "36d3a671fb335e5c22c70a125fef6bd8da6093d53c52ae10f1a27eddc6370377"
+
+[[files]]
+file = "kubejs/data/createaddition/recipe/mixing/biomass_from_crops.json"
+hash = "a7ab849740cf454519fc14fd60aea85af95fb8fc47562316c2f72f6976c13be9"
+
+[[files]]
+file = "kubejs/data/createaddition/recipe/mixing/biomass_from_flowers.json"
+hash = "1874a8eae143f906515879b92e92a4ae31ea9b12c7a8670a57415c34dd1b75e8"
+
+[[files]]
+file = "kubejs/data/createaddition/recipe/mixing/biomass_from_honeycomb.json"
+hash = "0328ff2e1180e81f581604ad4900cf621c8c195400a165946b87197111bf24c6"
+
+[[files]]
+file = "kubejs/data/createaddition/recipe/mixing/biomass_from_leaves.json"
+hash = "8a7515bfcf6d362708c8a48c40ebd2f16027c74534e7618822dd15763a473ff4"
+
+[[files]]
+file = "kubejs/data/createaddition/recipe/mixing/biomass_from_plant_foods.json"
+hash = "e9cd3dd0092e170462f03e39b38c998f718cdd8f92203195fdc2f3e76dc1c3ca"
+
+[[files]]
+file = "kubejs/data/createaddition/recipe/mixing/biomass_from_plants.json"
+hash = "df0f9de0a56f94f1719725ba15e6151907805c93e530d6594b3d050f5f32dfb1"
+
+[[files]]
+file = "kubejs/data/createaddition/recipe/mixing/biomass_from_saplings.json"
+hash = "8d6e34096758a0357ba962376791f1aabb5b0332b3e5dced7f46cee589bb17e4"
+
+[[files]]
+file = "kubejs/data/createaddition/recipe/mixing/biomass_from_stricks.json"
+hash = "53f03b7419e9675485c8ab8ef4a53e25cfb523796b490b58bd3145ad992cea80"
+
+[[files]]
+file = "kubejs/data/createaddition/recipe/mixing/netherrack.json"
+hash = "067ac2e4eaaab73852a5b1286e9066289efa8a9641b205f8d510cac572d5ad25"
+
+[[files]]
+file = "kubejs/data/createdeco/recipe/placard.json"
+hash = "a7f7b202539095466ee8e4a15150a58a11f66d9b47968e2170834e0ffd156f29"
 
 [[files]]
 file = "kubejs/data/endermanoverhaul/recipe/eggs/ancient_enderman.json"
@@ -1317,18 +1581,6 @@ file = "kubejs/data/ironfurnaces/recipe/furnaces/silver_furnace.json"
 hash = "e272d837ffa2ad6cf862c8973e5c77fc8c1f4400c318374e878d655856c3a106"
 
 [[files]]
-file = "kubejs/data/ironfurnaces/recipe/generator_blasting/ingot_lead.json"
-hash = "b36362246e46e3d702415e7f3076b277cdef0976468c2609fbb4ff9f1bdc56ae"
-
-[[files]]
-file = "kubejs/data/ironfurnaces/recipe/generator_blasting/raw_naquadah.json"
-hash = "c9f1cb25bf7cbe4ff655997065f916c5cebf1a085a456011b17e31c4a699f6d7"
-
-[[files]]
-file = "kubejs/data/ironfurnaces/recipe/generator_blasting/zinc_ingot.json"
-hash = "c6c4d5080ac55636b539e92a458eafd60ea0b6f9123bc2b7aa39ce7ce0e885a4"
-
-[[files]]
 file = "kubejs/data/ironfurnaces/recipe/heater.json"
 hash = "35c4ab98de7239fa68ba72728c7dba1b3d6e8c077810f854aa3a08225380ef06"
 
@@ -1354,27 +1606,27 @@ hash = "cfadf5d52139d3dc5b5b225ba913843b447cfe50eda9ed51c53bfe7057f9f9f8"
 
 [[files]]
 file = "kubejs/data/jajasgates/recipe/crystallizing/cl_xtreme_variant_crystal.json"
-hash = "d75a93f14df1c182cba593e34ec5309cc554834e25bffe66dbabeea34e7bf88b"
+hash = "0a3b0daa4dfa0f9ed93c2ea67aef21cb7e09c5062aff2a25798dcbf47d705f32"
 
 [[files]]
 file = "kubejs/data/jajasgates/recipe/crystallizing/mw_darkmetal_variant_crystal.json"
-hash = "00e4c220b9dc726629a8077d3b4be71eb18eaa0c9ced15f844bb0c061a7ab063"
+hash = "049f031b3408de9aaa45e9bcc2a34a848ac3fa86210592f55fd0d3a6afebd2b6"
 
 [[files]]
 file = "kubejs/data/jajasgates/recipe/crystallizing/mw_nether_variant_crystal.json"
-hash = "a2ec6beec8849e40ceb57d75f0f68c9fb40ad03c1839526a6ad9aa18891bdf9f"
+hash = "dfb0d73a48afff869cde6bca3565dd11677830bf36c449bea92e1789fe8116e5"
 
 [[files]]
 file = "kubejs/data/jajasgates/recipe/crystallizing/mw_oak_variant_crystal.json"
-hash = "eec3f19141c4d15c43666d2f8c0b0d6d3db93d64049b5c043b713c9490b31a5e"
+hash = "b660095fef1b0ca101739bbdb4dbd311c9ee7ca45f70da10d5996fae9be490e9"
 
 [[files]]
 file = "kubejs/data/jajasgates/recipe/crystallizing/mw_stone_variant_crystal.json"
-hash = "02c452cf6c9379bcd9c796b85e7195708b4b243c3a2286f46ab7f5cce04a3df7"
+hash = "6afde00a94bae7c52f319e56f695c8247d5357dd9cc7a121558f679fbaf94d7f"
 
 [[files]]
 file = "kubejs/data/jajasgates/recipe/crystallizing/tl_gallifrey_variant_crystal.json"
-hash = "dfadd8cac4a7ed07a5f2e24fd2ba33a9452f91790396d876bdc0e4538fb9a774"
+hash = "166dd9dd2573a7b770d78e79f05e614135d3858fa882e96b2b376ae7743ccb82"
 
 [[files]]
 file = "kubejs/data/jajasgates/sgjourney/point_of_origin/cl_xtreme.json"
@@ -1445,10 +1697,6 @@ file = "kubejs/data/mekanism/recipe/control_circuit/infused_elite.json"
 hash = "bf45d6aa3b2feecd1de4c1d99aedb9b8f357281ad5886d8d7ee9bbe2a2feb70e"
 
 [[files]]
-file = "kubejs/data/mekanism/recipe/crushing/rose_quartz_chunk_from_block.json"
-hash = "80666294e02582dc01ee02cbf6412bcc8aa9c2c57d352f1fed2eef34a8abcda1"
-
-[[files]]
 file = "kubejs/data/mekanism/recipe/metallurgic_infuser.json"
 hash = "91821ed1122f93e114efdb5dfbdddeddfb20d68df10ac2c3e0e8c31e18f5a147"
 
@@ -1466,11 +1714,11 @@ hash = "d8afda331f49eaef8d2afef8cf51366ec7a63d97d953b9d638a26ab3fcef0216"
 
 [[files]]
 file = "kubejs/data/modularrouters/recipe/blank_module.json"
-hash = "eb565a0bf6a8d96ef4a1b9ed57b7042a280cae5610c88d3c39606c6700988e0d"
+hash = "9312b4ce5135086eb8da858c803a1ee3245884653fced14a766a555fe314925a"
 
 [[files]]
 file = "kubejs/data/modularrouters/recipe/blank_upgrade.json"
-hash = "4acc7108b4cf8ec17237af830a7af230ca446c960caf5231e70e6e462eb4533b"
+hash = "9d3ad085853959daa7326c6036afa63e0f9c3ec25bdff77eb4a147bcd69c5956"
 
 [[files]]
 file = "kubejs/data/overworldmirror/dimension/overworld.json"
@@ -1510,15 +1758,15 @@ hash = "db6d2b5c0c5ac964e20865c46688e68e8a7cce9325458c6c8d9a8dea9520434a"
 
 [[files]]
 file = "kubejs/data/rftoolsbuilder/recipe/shield_block4.json"
-hash = "1df4e52791c19415a579505d5dce171ef18256e2198e94560479fc6024dc939c"
+hash = "583090486b5a8b55d116872c5e7ee6fe81035d18b8c31121d68af071ff2d8adf"
 
 [[files]]
 file = "kubejs/data/rftoolsdim/recipe/dimension_builder.json"
-hash = "0e87bb2ea46c0302f7c3edf3f67d1a5c1ebf2a50cce67e13a74891bddefada62"
+hash = "918fd0e20ed70285d646b8f659a515d4c40d0cad35298a97e4a9dd5c96a2e9f1"
 
 [[files]]
 file = "kubejs/data/rftoolsdim/recipe/dimension_editor.json"
-hash = "32f3e02ac9b33bec8298f81bad1ee76c5dc49725d7878e93f4a08d70bbe6ecf8"
+hash = "d0949566598832d21ea33e875dfaf656bbff7c12286e52b235e91361d8898ad1"
 
 [[files]]
 file = "kubejs/data/rftoolsdim/recipe/phased_field_generator.json"
@@ -1551,6 +1799,10 @@ hash = "f8b227724658e33397eee430ba05be59220ff01abe86a8b2ce98171826abcba2"
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/bop_rose_quartz_enriching.json"
 hash = "029541746446b769ed34fbd0f0d952bb7a6bdaf78874382bc9c264ee3c22e7f6"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/bop_rose_quartz_from_block.json"
+hash = "e02dfd4e9b07cbcfe91d133ce5e47c9bf944aa52c23089a620145e1faac2e160"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/chemical/boron_trifluoride.json"
@@ -1858,7 +2110,7 @@ hash = "ef845e85b6e04d4e0269aa257baf50511aa4963adb78fa7c609bc168116edbe7"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/pure_naq_mixing.json"
-hash = "5ad942c6a4d0dd3e40e972614d3add6cbae4c9fe9eb96b11e519b956810b2526"
+hash = "42e5f7e90feb31418d734d3666f60e4c292b629be51723b823afd142e07974ee"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/region_claiming_stick.json"
@@ -2599,7 +2851,7 @@ metafile = true
 
 [[files]]
 file = "mods/cable-facades.pw.toml"
-hash = "5b2fe3a792c5779d88025067a52c1e37d53c85615c5769686dbf4b007e5c7e4f"
+hash = "20cc6a015da793eb448c94a63f5637cad8b5c335da98ca35087db61ff113354b"
 metafile = true
 
 [[files]]
@@ -2664,7 +2916,7 @@ metafile = true
 
 [[files]]
 file = "mods/cooking-for-blockheads.pw.toml"
-hash = "ccaf234ff016baae7f4f7336b4a4972f1d509e3b3578c60726982cc3f78ade63"
+hash = "0cbbb21c0818764290f78554e22aace4223885f8410e7cad81b0942060618a56"
 metafile = true
 
 [[files]]
@@ -2699,7 +2951,7 @@ metafile = true
 
 [[files]]
 file = "mods/crafting-tweaks.pw.toml"
-hash = "4e8cb3d6214fd285c2c00ff408a877695d8bc452166d131b752a72c25385709b"
+hash = "c75aedbd8100e2a60f270eb1f52d7b9ec219092a318fa113a31a384378e145d9"
 metafile = true
 
 [[files]]
@@ -2709,7 +2961,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-cardboarded-conveynience.pw.toml"
-hash = "853a3c898d0beef5c3c1e51553a15e82aaf26d4783d603a9b2f5e9d789828bd7"
+hash = "9f3b847913725457cb194b65a559c2555b82975667d224a590e16a4a17119ca6"
 metafile = true
 
 [[files]]
@@ -2734,7 +2986,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "779974fc6c7b273a38bd93a26c21c2b8f5e06384516ad8ba29b6bf5fe18514cd"
+hash = "4b0ca63279620ec9ba4c63820a9d4f9ceea9b717227137ea19e5c420c820f858"
 metafile = true
 
 [[files]]
@@ -2765,11 +3017,6 @@ metafile = true
 [[files]]
 file = "mods/deeperdarker.pw.toml"
 hash = "f7c1ced1b6c40a24ddb8c630c5ac906e4cecbd1039cea8cfe6992d899350514f"
-metafile = true
-
-[[files]]
-file = "mods/distant-horizons.pw.toml"
-hash = "ba0adb595c1abd57e51eef4c7944d65e3e54d34815383e839c4cc49af829d7b0"
 metafile = true
 
 [[files]]
@@ -3004,7 +3251,7 @@ metafile = true
 
 [[files]]
 file = "mods/journeymap.pw.toml"
-hash = "47eb5051cdea35291e8747d83a6eabc212590af03a7e1eb8a16efdc0daa32ecf"
+hash = "e275e7c61f9ff2bc2e5b33cc90e7f02500979f7c6fab82f4826f6be7d9a73be5"
 metafile = true
 
 [[files]]
@@ -3054,7 +3301,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "0c92a3670d2a7a0f013ca6741b75bd8b87c363eb3595d0d43a750b5fb09bf210"
+hash = "daae831820f5b1c8ac4618fc8c44bc6336809e9889bce7c184eaf6c7d927f14f"
 metafile = true
 
 [[files]]
@@ -3124,7 +3371,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "505e3f1baaa94149d39b637c87253893477ef5168fd1b9e9f9270bf4a9c5ca8d"
+hash = "67a1f2166177db175eeb9dbd8dd085c6180fbaac6669f07c2cdb9c10efe8da9a"
 metafile = true
 
 [[files]]
@@ -3279,7 +3526,7 @@ metafile = true
 
 [[files]]
 file = "mods/quark.pw.toml"
-hash = "3b701ee3561dcbcd81d7b73695e515d302d87a0944218c340f5ccc8e1b390152"
+hash = "7ae13b171ccba24c8ab09da63389eadada6bc902db9b957e9b9acd46605a17f6"
 metafile = true
 
 [[files]]
@@ -3374,7 +3621,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-backups.pw.toml"
-hash = "f5d4c52a88ab0395e6510e2762c376bc2c950803ea874017d0913f3fa9b23de0"
+hash = "0d76b6f0f8b2cbe44931c7094c416aab1d1534c47cbee499f01c546e5e09b42b"
 metafile = true
 
 [[files]]
@@ -3419,17 +3666,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "36f797c137ff0a6b652d308a37a07bab9eac036be65c6aae0116174e62740097"
+hash = "c8d0ae09d7edfe045cf8e59b52f3247089b422df39faa420657803119e906cc0"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-item-actions.pw.toml"
-hash = "3643247580a27ca171635ea070730b373df859ecbf3d9f2401089b83cf51ee85"
+hash = "adf237bb4a3d66b29de73eaabfe08e9322c1af7d008c41b2aec181d0afb92131"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-create-integration.pw.toml"
-hash = "e85223bf059269d87e39b61d9af56071639ccab98fdf4ce1d5258a7fde106184"
+hash = "c66a21cc5dcab2ba241b47c42544cf0ca1bccdf8e6605c6d332837fb2dbe98ca"
 metafile = true
 
 [[files]]
@@ -3439,7 +3686,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "52a3fac02c444ec095636d96f2a1e4e67c3b9cba2de8243f7e76ec4ed435163f"
+hash = "c72d6ed17e2eb9c8658675a3388584d0b90473b7c351fce9274cf1e098afe421"
 metafile = true
 
 [[files]]
@@ -3659,7 +3906,7 @@ metafile = true
 
 [[files]]
 file = "mods/zeta.pw.toml"
-hash = "dd9eb796545bbc04a65a67224095336c360b6a7733767283215abc201d0c1ecf"
+hash = "d1baffd370868590fcb2785146c278df5781d20994022749c53c0f9b2bffc7fc"
 metafile = true
 
 [[files]]

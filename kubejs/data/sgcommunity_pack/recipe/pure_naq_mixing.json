@@ -9,6 +9,7 @@
             "item": "sgjourney:raw_naquadah_block"
         },
         {
+            "type": "neoforge:single",
             "amount": 100,
             "fluid": "sgjourney:liquid_naquadah"
         }

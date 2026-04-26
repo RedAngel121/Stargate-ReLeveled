@@ -6,7 +6,7 @@
       "item": "rftoolsbase:machine_frame"
     },
     "g": {
-      "item": "c:ingots/iron"
+      "tag": "c:ingots/iron"
     },
     "i": {
       "tag": "sgcommunity_pack:circuit_advanced"

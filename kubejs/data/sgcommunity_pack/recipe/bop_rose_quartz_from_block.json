@@ -1,11 +1,11 @@
 {
-    "type": "mekanism:crushing",
-    "input": {
-        "ingredient": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
             "item": "biomesoplenty:rose_quartz_block"
         }
-    },
-    "output": {
+    ],
+    "result": {
         "count": 4,
         "id": "biomesoplenty:rose_quartz_chunk"
     }

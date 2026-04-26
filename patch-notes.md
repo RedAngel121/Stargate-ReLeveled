@@ -4,7 +4,7 @@
 
 ### Changes:
 - Updated MC to 1.21.1
-- Swapped to Neoforge 21.1.226
+- Swapped to Neoforge 21.1.228
 - Create: Steam and Rails (Replaced with unofficial version for 1.21.1)
 - Replace Chat Heads with ChatPlus
 - Stellaris (Replaces Ad Astra and Questline)
@@ -51,7 +51,6 @@
 - Dairy Peripherals
 - Experimental Settings Disabler
 - MrCrayfish's Furniture Mod (Duplicate)
-- Dimensional Structure Restrict (waiting on 1.21.1 update)
 - Game Stages
 - FTB Item Filters
 - Mekanism Covers (Dupe for Cable Facades)

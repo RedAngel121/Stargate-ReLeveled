@@ -1,0 +1,19 @@
+{
+    "group": "create_confectionery",
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "item": "minecraft:sweet_berries"
+        },
+        {
+            "type": "neoforge:single",
+            "amount": 250,
+            "fluid": "create_confectionery:caramel"
+        }
+    ],
+    "results": [
+        {
+            "id": "create_confectionery:caramel_glazed_berries"
+        }
+    ]
+}

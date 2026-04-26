@@ -1,0 +1,34 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "item": "exposure:black_and_white_film"
+    },
+    "results": [
+        {
+            "id": "exposure:developed_black_and_white_film"
+        }
+    ],
+    "sequence": [
+        {
+            "type": "create:filling",
+            "ingredients": [
+                {
+                    "item": "exposure:black_and_white_film"
+                },
+                {
+                    "type": "neoforge:single",
+                    "amount": 250,
+                    "fluid": "minecraft:water"
+                }
+            ],
+            "results": [
+                {
+                    "id": "exposure:black_and_white_film"
+                }
+            ]
+        }
+    ],
+    "transitional_item": {
+        "id": "exposure:black_and_white_film"
+    }
+}

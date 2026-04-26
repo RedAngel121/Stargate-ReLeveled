@@ -1,0 +1,34 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "item": "exposure:high_sensitivity_black_and_white_film"
+    },
+    "results": [
+        {
+            "id": "exposure:developed_black_and_white_film"
+        }
+    ],
+    "sequence": [
+        {
+            "type": "create:filling",
+            "ingredients": [
+                {
+                    "item": "exposure:high_sensitivity_black_and_white_film"
+                },
+                {
+                    "type": "neoforge:tag",
+                    "amount": 250,
+                    "tag": "c:water"
+                }
+            ],
+            "results": [
+                {
+                    "id": "exposure:high_sensitivity_black_and_white_film"
+                }
+            ]
+        }
+    ],
+    "transitional_item": {
+        "id": "exposure:high_sensitivity_black_and_white_film"
+    }
+}
