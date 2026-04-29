@@ -2286,7 +2286,7 @@ hash = "11f1b3ed413016b5229854376ec007beda3fb371b4b4d670af87fe726b36f930"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/milky_way/pedestal/deeper_darker_pedestal.nbt"
-hash = "a085bfb7bc2ba2a9f4a71ede3a57f245a6f4d104019f48f28a1d85785346a8d0"
+hash = "f233833cc790d5880b0df9e571526628d40d6ff88cdfbd3d32736405be943431"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/milky_way/pedestal/deepslate/deepslate_stargate_pedestal_1.nbt"
@@ -2350,7 +2350,7 @@ hash = "96e1c87b6ed5f360f099014b350df123ed029d5ffc2b5adab8e95c8efd495ca5"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/tollan/pedestal/overworld_mirror_pedestal.nbt"
-hash = "e554a807c74c437cfa3721a4afdd698a88114a68d2adec3bda836b77fadee8af"
+hash = "c3ea969140503bd1b76d3defc14504245a848e8b189df6117e49c826b2e85760"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/universe--future-use/pedestal/end/universe_stargate_pedestal_end_1.nbt"
@@ -2634,7 +2634,7 @@ hash = "58fc30d8edd6b01e8f764985aead40914279ca7f3f724e278c76d416a94e91b9"
 
 [[files]]
 file = "kubejs/server_scripts/server.js"
-hash = "b1da34581dae6fa5093305cca17ae8f23627f3e211b465d32f121e458a78e133"
+hash = "5d399cc6754534104e5a2e233d3d54bb1f022fd4dd53ef654ee30653f61f2903"
 
 [[files]]
 file = "kubejs/server_scripts/tag_fix.js"

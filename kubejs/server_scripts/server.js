@@ -88,13 +88,20 @@ function easyModeOff(source) {
 
 function toggleEasyMode(source) {
     let player = source.player;
-    if (player.stages.has("easymode")) easyModeOff(source);
-    else easyModeOn(source);
+    if (player.stages.has("easymode")) {
+        easyModeOff(source);
+    } else {
+        easyModeOn(source);
+    }
     return 1;
 }
 
 function giveConverter(source) {
     let player = source.player;
+    if (!player.stages.has("easymode")) {
+        source.sendFailure(Text.of("Easy mode is not enabled"));
+        return 0;
+    }
     player.give("mekanism:oredictionificator");
     source.sendSuccess(Text.of("Gave Oredictionificator"), true);
     return 1;
@@ -107,7 +114,14 @@ ServerEvents.commandRegistry(event => {
         Commands.literal("easymode")
             .requires(s => s.isPlayer())
             .executes(c => toggleEasyMode(c.getSource()))
-            .then(Commands.literal("toggle").executes(c => toggleEasyMode(c.getSource())))
-            .then(Commands.literal("getconverter").executes(c => giveConverter(c.getSource())))
+            .then(Commands.literal("toggle")
+                .executes(c => toggleEasyMode(c.getSource()))
+            )
+            .then(Commands.literal("getconverter")
+                .requires(s => {
+                    return s.isPlayer() && s.player.stages.has("easymode");
+                })
+                .executes(c => giveConverter(c.getSource()))
+            )
     );
 });

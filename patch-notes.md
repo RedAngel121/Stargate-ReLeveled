@@ -59,6 +59,12 @@
 
 ====================================================================================================
 
+# MAKE COMPOST USEFUL
+- right now they dont have a use, make them useful by making them cruxes for certain myst ag plants 
+
+# Consider Evolved Mekanism:
+- https://www.curseforge.com/minecraft/mc-mods/evolved-mekanism
+
 ### Cookta's List:
 - SGJ Ponder (waiting on 1.21.1 update to re-add it)
 - unlimitedperipheralworks (drop until update, talk to author about update timeframe)
@@ -88,3 +94,4 @@
 - Do I even want these commands? /back would be useful but most of these would be useless once the transport rings rewrite is completed
 - https://modrinth.com/mod/odyssey-roles potentially too powerful
 - https://modrinth.com/mod/solstice-essentials i havent even looked at this yet
+
