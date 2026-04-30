@@ -13,9 +13,6 @@
 
 ====================================================================================================
 
-### Crashes on Startup:
-- Immersive Armors - Unknown Crash
-
 ### Changes:
 - Updated MC to 1.21.1
 - Swapped to Neoforge 21.1.228
