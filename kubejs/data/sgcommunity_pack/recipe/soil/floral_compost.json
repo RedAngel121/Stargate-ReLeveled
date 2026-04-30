@@ -1,0 +1,13 @@
+{
+    "bookshelf:load_conditions": [
+        {
+            "type": "bookshelf:block_exists",
+            "values": [
+                "sgcommunity_pack:floral_compost"
+            ]
+        }
+    ],
+    "type": "botanypots:block_derived_soil",
+    "block": "sgcommunity_pack:floral_compost",
+    "growth_modifier": 0.50
+}

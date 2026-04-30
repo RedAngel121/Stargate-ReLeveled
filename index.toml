@@ -382,7 +382,7 @@ hash = "83f8e9c56758b676e70ae3695523129170ac930b9ceb23618c898fa0906012cc"
 
 [[files]]
 file = "config/mysticalcustomization/configure-crops.json"
-hash = "5bd9e2ad61117d4fed0bb47ffba197673a73855f85964c77d1c2b773baad3e8c"
+hash = "e5743e4a638decd6937b7a1b003a3a04d32996be326170a1986de16c80cbb843"
 
 [[files]]
 file = "config/mysticalcustomization/crops/borax.json"
@@ -2149,12 +2149,20 @@ file = "kubejs/data/sgcommunity_pack/recipe/soil/computational_substrate.json"
 hash = "23e533261a7c735f37deae6f4fb8ddc08c54cab785f9c1b53ceb06af33a072df"
 
 [[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/soil/coral_compost.json"
+hash = "401e82b8ad9661637f9c44ae08ada5de27f036118638d09aeb3ad2dff2c34d37"
+
+[[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/deep_space_substrate.json"
 hash = "ea553bdcec9a1b976b459db7a1632eaf5ca40f6958239e0010c59c2cb9266b11"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/diamond_substrate.json"
 hash = "512aa3c3aa70046f519ccb884a5cbbd7750f6fd538f8827b12bc79a2f38c3194"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/soil/floral_compost.json"
+hash = "68000edadaa48314c9fab928e25615a06814f88cc17e3327a0310395336907ec"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/gold_substrate.json"
@@ -2173,12 +2181,20 @@ file = "kubejs/data/sgcommunity_pack/recipe/soil/mekanised_substrate.json"
 hash = "316e60fa797647b78e70e2ab27a9b650528cc04e59caf78c4d90444c1703181b"
 
 [[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/soil/mulch_compost.json"
+hash = "884b179e81054af456fddf87ad79c895495eabc82302920e2a2ef273624bf098"
+
+[[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/naquadria_substrate.json"
 hash = "519819ea678a99a177f72efa63ac6b95dcea340073930dd2f7f9092eb854d528"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/netherite_substrate.json"
 hash = "501503446481a4c532b3bff38a071d1b8fc38c80ea9d91c8f072318353a64fa2"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/soil/organic_compost.json"
+hash = "4691425412c7128a61cbd1a1b557665a951dbd911be50e5b294c376e3e7ec6a9"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/positronic_substrate.json"

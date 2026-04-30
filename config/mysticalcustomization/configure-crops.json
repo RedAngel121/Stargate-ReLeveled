@@ -1,19 +1,31 @@
 {
+    "mysticalagriculture:coral": {
+        "tier": "mysticalagriculture:1",
+        "crux": "sgcommunity_pack:coral_compost"
+    },
+    "mysticalagriculture:wood": {
+        "tier": "mysticalagriculture:1",
+        "crux": "sgcommunity_pack:mulch_compost"
+    },
+    "mysticalagriculture:nature": {
+        "tier": "mysticalagriculture:1",
+        "crux": "sgcommunity_pack:floral_compost"
+    },
     "mysticalagriculture:air": {
         "tier": "mysticalagriculture:1",
-        "crux": "sgcommunity_pack:iron_substrate"
+        "crux": "sgcommunity_pack:organic_compost"
     },
     "mysticalagriculture:water": {
         "tier": "mysticalagriculture:1",
-        "crux": "sgcommunity_pack:iron_substrate"
+        "crux": "sgcommunity_pack:organic_compost"
     },
     "mysticalagriculture:fire": {
         "tier": "mysticalagriculture:1",
-        "crux": "sgcommunity_pack:iron_substrate"
+        "crux": "sgcommunity_pack:organic_compost"
     },
     "mysticalagriculture:earth": {
         "tier": "mysticalagriculture:1",
-        "crux": "sgcommunity_pack:iron_substrate"
+        "crux": "sgcommunity_pack:organic_compost"
     },
     "mysticalagriculture:inferium": {
         "tier": "mysticalagriculture:1",
@@ -24,10 +36,6 @@
         "crux": "sgcommunity_pack:iron_substrate"
     },
     "mysticalagriculture:dirt": {
-        "tier": "mysticalagriculture:1",
-        "crux": "sgcommunity_pack:iron_substrate"
-    },
-    "mysticalagriculture:wood": {
         "tier": "mysticalagriculture:1",
         "crux": "sgcommunity_pack:iron_substrate"
     },
@@ -43,8 +51,6 @@
         "tier": "mysticalagriculture:1",
         "crux": "sgcommunity_pack:iron_substrate"
     },
-    
-    
     "mysticalagriculture:amethyst": {
         "tier": "mysticalagriculture:1",
         "crux": "sgcommunity_pack:gold_substrate"
@@ -65,21 +71,11 @@
         "tier": "mysticalagriculture:1",
         "crux": "sgcommunity_pack:gold_substrate"
     },
-    "mysticalagriculture:nature": {
-        "tier": "mysticalagriculture:1",
-        "crux": "sgcommunity_pack:gold_substrate"
-    },
-    
-    
     "mysticalagriculture:nether": {
         "tier": "mysticalagriculture:2",
         "crux": "sgcommunity_pack:diamond_substrate"
     },
     "mysticalagriculture:limestone": {
-        "tier": "mysticalagriculture:2",
-        "crux": "sgcommunity_pack:diamond_substrate"
-    },
-    "mysticalagriculture:coral": {
         "tier": "mysticalagriculture:2",
         "crux": "sgcommunity_pack:diamond_substrate"
     },
@@ -99,8 +95,6 @@
         "tier": "mysticalagriculture:2",
         "crux": "sgcommunity_pack:diamond_substrate"
     },
-    
-    
     "mysticalagriculture:squid": {
         "tier": "mysticalagriculture:2",
         "crux": "sgcommunity_pack:netherite_substrate"
@@ -153,8 +147,6 @@
         "tier": "mysticalagriculture:2",
         "crux": "sgcommunity_pack:netherite_substrate"
     },
-    
-    
     "mysticalagriculture:bronze": {
         "tier": "mysticalagriculture:3",
         "crux": "sgcommunity_pack:kinetic_substrate"
@@ -183,8 +175,6 @@
         "tier": "mysticalagriculture:3",
         "crux": "sgcommunity_pack:kinetic_substrate"
     },
-    
-    
     "mysticalagriculture:zombie": {
         "tier": "mysticalagriculture:3",
         "crux": "sgcommunity_pack:computational_substrate"
@@ -217,8 +207,6 @@
         "tier": "mysticalagriculture:3",
         "crux": "sgcommunity_pack:computational_substrate"
     },
-    
-    
     "mysticalagriculture:soulium": {
         "tier": "mysticalagriculture:4",
         "crux": "sgcommunity_pack:mekanised_substrate"
@@ -239,8 +227,6 @@
         "tier": "mysticalagriculture:4",
         "crux": "sgcommunity_pack:mekanised_substrate"
     },
-    
-    
     "mysticalagriculture:breeze": {
         "tier": "mysticalagriculture:4",
         "crux": "sgcommunity_pack:reactive_substrate"
@@ -269,8 +255,6 @@
         "tier": "mysticalagriculture:4",
         "crux": "sgcommunity_pack:reactive_substrate"
     },
-    
-    
     "mysticalagriculture:tin": {
         "tier": "mysticalagriculture:5",
         "crux": "sgcommunity_pack:deep_space_substrate"
@@ -283,8 +267,6 @@
         "tier": "mysticalagriculture:5",
         "crux": "sgcommunity_pack:deep_space_substrate"
     },
-    
-    
     "mysticalagriculture:fluorite": {
         "tier": "mysticalagriculture:5",
         "crux": "sgcommunity_pack:naquadria_substrate"
@@ -293,8 +275,6 @@
         "tier": "mysticalagriculture:5",
         "crux": "sgcommunity_pack:naquadria_substrate"
     },
-    
-    
     "mysticalagriculture:experience": {
         "tier": "mysticalagradditions:6",
         "crux": "sgcommunity_pack:positronic_substrate"
