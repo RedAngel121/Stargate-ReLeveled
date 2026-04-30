@@ -1,13 +1,13 @@
 name = "Schematic Energistics"
-filename = "schematicenergistics-1.21.1-1.5.0.jar"
+filename = "schematicenergistics-1.21.1-1.5.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "2e00d512603bb7d9b5012a5b017f0607baab7983"
+hash = "f1886c1ff111bec1cec121c4be349585011c8438"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7676851
+file-id = 8012530
 project-id = 1283481

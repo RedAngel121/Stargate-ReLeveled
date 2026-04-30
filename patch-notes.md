@@ -1,5 +1,19 @@
+# MAKE COMPOST USEFUL
+- right now they dont have a use, make them useful by making them cruxes for certain myst ag plants 
+
+# Consider Evolved Mekanism:
+- https://www.curseforge.com/minecraft/mc-mods/evolved-mekanism
+
+### Cookta's List:
+- SGJ Ponder (waiting on 1.21.1 update to re-add it)
+- unlimitedperipheralworks (drop until update, talk to author about update timeframe)
+- Gauges and Switches (waiting on 1.21.1 update to re-add it)
+- DimStruc Restrict mod needs to be updated to handle the Overworld Mirror Stargate generation/prevention
+- Fix custom iris smithing Kubejs script
+
+====================================================================================================
+
 ### Crashes on Startup:
-- WATUT - https://github.com/Corosauce/WATUT/issues/95
 - Immersive Armors - Unknown Crash
 
 ### Changes:
@@ -12,7 +26,7 @@
 - Corpse (Replaces Gravestones and provides curios compat)
 - Added SGJourney Blocks and fluids to RFTools Dimlets
 - Discord Chat Integration replaced with https://www.curseforge.com/minecraft/mc-mods/viscord
-- Converted the login book into a quest ~~cause no one reads anyway~~
+- Converted the login book into a quest ~~cause no one really reads it anyway~~
 
 ### Additions:
 - Construction Sticks
@@ -58,19 +72,6 @@
 - kubejs-botany-pots (replaced with Myst AG + custom seeds/recipes)
 
 ====================================================================================================
-
-# MAKE COMPOST USEFUL
-- right now they dont have a use, make them useful by making them cruxes for certain myst ag plants 
-
-# Consider Evolved Mekanism:
-- https://www.curseforge.com/minecraft/mc-mods/evolved-mekanism
-
-### Cookta's List:
-- SGJ Ponder (waiting on 1.21.1 update to re-add it)
-- unlimitedperipheralworks (drop until update, talk to author about update timeframe)
-- Gauges and Switches (waiting on 1.21.1 update to re-add it)
-- DimStruc Restrict mod needs to be updated to handle the Overworld Mirror Stargate generation/prevention
-- Fix custom iris smithing Kubejs script
 
 ### Long Term Goals:
 - Integrate Oritech - this would be amazing to add compat for, make even more complex circuits and recipe chains

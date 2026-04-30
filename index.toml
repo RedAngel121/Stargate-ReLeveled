@@ -10,7 +10,7 @@ hash = "48e2db48cc938225add13bd71ab5fb86bdb13d3c0ce25f591a14ea5e5ca673f0"
 
 [[files]]
 file = "config/ae2-client.toml"
-hash = "44ef758c12d31f42aba3a158747a478d5c1879e8bff9700744f4238294caeb33"
+hash = "b2f6a85006ab689770e2e73dd61a1231ed33072b1cccf8da8e5407d49056f62b"
 
 [[files]]
 file = "config/ae2-common.toml"
@@ -2856,7 +2856,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "0620370193cd76f48ebf81bd0d213cdc3adb5c640d8e39d5758d6f166c0c5036"
+hash = "d18f00631377bb11109c6cf3c67261aeedec73e79727e50019e91a913ec88183"
 metafile = true
 
 [[files]]
@@ -2966,12 +2966,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-confectionery.pw.toml"
-hash = "39d487bdf8979cc0b63a0d34ace0477e9aae5835e33fd9213aecca994025eca1"
+hash = "7548dc0c2e116da29af3b05386ced58f30a95c3832de876910399a149aa49d27"
 metafile = true
 
 [[files]]
 file = "mods/create-connected.pw.toml"
-hash = "3193eadd1b5129f83987593b5abc03a301b962e7da217a15d5e575646711db46"
+hash = "3b12e639fef9a821167533b31a54df9af083fd89a8a30e36607cbb24015c79e7"
 metafile = true
 
 [[files]]
@@ -3210,6 +3210,11 @@ hash = "317890a10a1ccd7d28cfbcdce16708e133a97c3a49d5f8c86a095e324e044a97"
 metafile = true
 
 [[files]]
+file = "mods/immersive-armors.pw.toml"
+hash = "be345dd7f27822ede8ff64a972e36e12befef5b0c0283dd45b683475cf6ca6df"
+metafile = true
+
+[[files]]
 file = "mods/immersive-paintings.pw.toml"
 hash = "d480787d9c86b5abe27284195ace63101ac1ccea7f2cb39649b4dcd172932e7e"
 metafile = true
@@ -3251,7 +3256,7 @@ metafile = true
 
 [[files]]
 file = "mods/journeymap.pw.toml"
-hash = "e275e7c61f9ff2bc2e5b33cc90e7f02500979f7c6fab82f4826f6be7d9a73be5"
+hash = "88ade51ab68390de1ffbb38ae03d1fed16a8f5018e4437cf2878395b8d17cc84"
 metafile = true
 
 [[files]]
@@ -3286,7 +3291,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "395ed890024bdb90e7c0fed1edf8b3905a367942ded954fca92384c76a7e5601"
+hash = "aef79b9deb5d4f2921ef8e4d58df69d8b71eaaded52149ed6aca41f0cf225be9"
 metafile = true
 
 [[files]]
@@ -3371,7 +3376,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "67a1f2166177db175eeb9dbd8dd085c6180fbaac6669f07c2cdb9c10efe8da9a"
+hash = "a0ace741bcbe76bfa3c8bfefd042a1aee7583b32039cb48aa381a8ace956a359"
 metafile = true
 
 [[files]]
@@ -3586,7 +3591,7 @@ metafile = true
 
 [[files]]
 file = "mods/schematic-energistics.pw.toml"
-hash = "e944fd74f568de36ac4686af0d9abbb19a4af081e3db018f9adde3d0dc3675a3"
+hash = "772383f6f381f7a1535d1dbfb2120885468b320bd8b408828393cbcb0ea509de"
 metafile = true
 
 [[files]]
@@ -3661,17 +3666,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "2005910c6e285434a7805a7b93c6c1a125594382f8e542711f2fc655ba1209d6"
+hash = "18a3499316fb5bdc110a6dcad55307c1256db8308244f93e71dc8a282b2e27a7"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "c8d0ae09d7edfe045cf8e59b52f3247089b422df39faa420657803119e906cc0"
+hash = "f926211fa1db6b5d730b8f41f4d1481c7b634b99eaca36c01cce70b0d8d6b0c7"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-item-actions.pw.toml"
-hash = "adf237bb4a3d66b29de73eaabfe08e9322c1af7d008c41b2aec181d0afb92131"
+hash = "738a6d4d5ee97b2a148651292efc77145e9f86f637a8beb9972dfefc9a7f7021"
 metafile = true
 
 [[files]]
@@ -3686,7 +3691,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "c72d6ed17e2eb9c8658675a3388584d0b90473b7c351fce9274cf1e098afe421"
+hash = "3df084e1f3f30706e76d3230619bb3ebcf42c5ff709f74469b9a5dbfb1ec9030"
 metafile = true
 
 [[files]]
@@ -3812,6 +3817,11 @@ metafile = true
 [[files]]
 file = "mods/viscord.pw.toml"
 hash = "cb87a7b211d23342bdfa15a7a8cb34c93ecb47b501cca9e119e1901c3ee74bed"
+metafile = true
+
+[[files]]
+file = "mods/what-are-they-up-to.pw.toml"
+hash = "61387d427f7c5bfd71df275f731384b70ae12f6b1e520ee9e232ae8c175d42bd"
 metafile = true
 
 [[files]]
