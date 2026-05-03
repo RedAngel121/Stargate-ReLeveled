@@ -1569,6 +1569,10 @@ file = "kubejs/data/hostilenetworks/recipe/sim_chamber.json"
 hash = "b6f7ead90d14e409e633bf4e4f51c2ae58548d573abf01d330b21dfcb4431869"
 
 [[files]]
+file = "kubejs/data/incendium/function/technical/toast.mcfunction"
+hash = "3a462c97d2c226cd510d970bc821d97be5fb85cc7ac2be2beb7a6754d4ca858a"
+
+[[files]]
 file = "kubejs/data/ironfurnaces/recipe/augments/augment_generator.json"
 hash = "1aaa5da45fae9bcabda0605f7fd5058be1077d2cc8f9b99b494131c20efad00d"
 
@@ -1731,6 +1735,10 @@ hash = "9312b4ce5135086eb8da858c803a1ee3245884653fced14a766a555fe314925a"
 [[files]]
 file = "kubejs/data/modularrouters/recipe/blank_upgrade.json"
 hash = "9d3ad085853959daa7326c6036afa63e0f9c3ec25bdff77eb4a147bcd69c5956"
+
+[[files]]
+file = "kubejs/data/nullscape/function/toast.mcfunction"
+hash = "3a462c97d2c226cd510d970bc821d97be5fb85cc7ac2be2beb7a6754d4ca858a"
 
 [[files]]
 file = "kubejs/data/overworldmirror/dimension/overworld.json"
@@ -2635,6 +2643,14 @@ hash = "a01cf7d89520c7ee9f7a139964722203e1378798a06336f49d8701c1c0dd69f0"
 [[files]]
 file = "kubejs/data/stellaris/recipe/misc/rocket_fin.json"
 hash = "93396e4b0ec257e3da0ceb2faadfbc527f1d7856151fec2fc5b4abc67bb44e42"
+
+[[files]]
+file = "kubejs/data/terralith/function/toast.mcfunction"
+hash = "3a462c97d2c226cd510d970bc821d97be5fb85cc7ac2be2beb7a6754d4ca858a"
+
+[[files]]
+file = "kubejs/data/terralith/functions/toast.mcfunction"
+hash = "2c1a8ed46ad46c439368a00480c1be36801c6858cd5c28524e2dc0271c048e8d"
 
 [[files]]
 file = "kubejs/data/travelanchors/recipe/travel_anchor.json"
