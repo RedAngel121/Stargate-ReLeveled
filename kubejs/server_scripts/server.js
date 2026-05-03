@@ -3,11 +3,9 @@
 // ===============================
 // REMOVE TRADES
 // ===============================
-MoreJS.wandererTrades(event => {
-    event.removeTrades({
-        outputItem: "minecraft:beacon"
-    });
-});
+
+MoreJS.wandererTrades(event => {event.removeTrades({outputItem: "minecraft:beacon"});});
+
 MoreJS.villagerTrades(event => {
     event.removeVanillaTypedTrades(["advancedperipherals:computer_scientist"]);
     event.removeModdedTypedTrades(["advancedperipherals:computer_scientist"]);
@@ -31,6 +29,7 @@ ServerEvents.recipes(event => {
     event.remove("mysticalagradditions:insanium_farmland")
     event.remove("mysticalagradditions:insanium_farmland_till")
 })
+
 RecipeViewerEvents.removeEntries("item", event => {
     event.remove("mysticalagriculture:inferium_farmland")
     event.remove("mysticalagriculture:prudentium_farmland")
@@ -56,6 +55,7 @@ ServerEvents.recipes(event => {
     event.remove("rftoolsutility:matter_booster")
     event.remove("rftoolsutility:simple_dialer")
 })
+
 RecipeViewerEvents.removeEntries("item", event => {
     event.remove("ae2wtlib:quantum_bridge_card")
     event.remove("mekanism:portable_teleporter")

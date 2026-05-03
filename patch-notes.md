@@ -1,3 +1,26 @@
+### See how hard this is:
+RedΛngel: I want to expand the sgj dims and add more ores and stuff
+PheWitch: Can we just get a giant cave dim
+RedΛngel: Like the Nether but with overworld blocks?
+PheWitch: Yee
+RedΛngel: I can agree with that, adding a new dimension isn't easy, biomes and ores need to be accounted for... I would have to add a new Stargate structure too...
+
+# FTB Replacements:
+### Quests:
+- https://modrinth.com/mod/odyssey-quests wait on 1.21.1 update?
+- https://modrinth.com/mod/questlog an option that works well with vanilla
+- https://www.curseforge.com/minecraft/mc-mods/hardcore-questing-mode oldschool quest tree
+
+### Claims:
+- https://modrinth.com/mod/odyssey-claims wait on 1.21.1 update?
+- https://www.curseforge.com/minecraft/mc-mods/open-parties-and-claims is extremely powerful and easy to use (add Xaero's World Map/Minimap)
+- Keep FLAN but dont make it the primary way to claim
+
+### Essentials:
+- Do I even want these commands? /back would be useful but most of these would be useless once the transport rings rewrite is completed
+- https://modrinth.com/mod/odyssey-roles potentially too powerful
+- https://modrinth.com/mod/solstice-essentials i havent even looked at this yet
+
 ### Cookta's List:
 - SGJ Ponder (waiting on 1.21.1 update to re-add it)
 - unlimitedperipheralworks (drop until update, talk to author about update timeframe)
@@ -49,6 +72,7 @@
 - ExtendedAE
   - Glodium
 - Mekanism: More Machine
+- InvMove
 
 ### Removals:
 - Botarium
@@ -68,22 +92,3 @@
 - Integrate Oritech - this would be amazing to add compat for, make even more complex circuits and recipe chains
 - Endgame Quests - ZPM Reward?
 - ZPM replication options for endgame (talk to cookta)
-
-====================================================================================================
-
-# FTB Replacements:
-### Quests:
-- https://modrinth.com/mod/odyssey-quests wait on 1.21.1 update?
-- https://modrinth.com/mod/questlog an option that works well with vanilla
-- https://www.curseforge.com/minecraft/mc-mods/hardcore-questing-mode oldschool quest tree
-
-### Claims:
-- https://modrinth.com/mod/odyssey-claims wait on 1.21.1 update?
-- https://www.curseforge.com/minecraft/mc-mods/open-parties-and-claims is extremely powerful and easy to use (add Xaero's World Map/Minimap)
-- Keep FLAN but dont make it the primary way to claim
-
-### Essentials:
-- Do I even want these commands? /back would be useful but most of these would be useless once the transport rings rewrite is completed
-- https://modrinth.com/mod/odyssey-roles potentially too powerful
-- https://modrinth.com/mod/solstice-essentials i havent even looked at this yet
-

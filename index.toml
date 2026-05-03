@@ -33,6 +33,10 @@ file = "config/create-server.toml"
 hash = "8d9b5dd5179d80d843100543b380d71cc42c120e8c76c9f6b52627631ae6d2b9"
 
 [[files]]
+file = "config/explorerscompass-common.toml"
+hash = "c5c647262e2217a55f39f3ebb65fbcc994c92273f1727a053d14da06e68ca2d3"
+
+[[files]]
 file = "config/fancymenu/assets/HVbTxLf.png"
 hash = "3d10c9672b4f4fbb6d1ccffa6b01eb42073e29f7a3cde7bd880ef05227291b82"
 
@@ -381,6 +385,10 @@ file = "config/jei/jei-client.ini"
 hash = "83f8e9c56758b676e70ae3695523129170ac930b9ceb23618c898fa0906012cc"
 
 [[files]]
+file = "config/mysticalagriculture-common.toml"
+hash = "c1b43c72c9f14569fda0442a4be2814d25c8407fa0247b9e6b3626aba58b27cc"
+
+[[files]]
 file = "config/mysticalcustomization/configure-crops.json"
 hash = "e5743e4a638decd6937b7a1b003a3a04d32996be326170a1986de16c80cbb843"
 
@@ -403,6 +411,10 @@ hash = "692615f2c5815dddab55f961652bd3663e3e263a43fa7081723efe9ee1e5f8b3"
 [[files]]
 file = "config/mysticalcustomization/crops/tharsite.json"
 hash = "a771f6b142ad8c0cc4b45f2e07c42714d15851aba9bbbb07a0945a4956f86db1"
+
+[[files]]
+file = "config/naturescompass-common.toml"
+hash = "372ab38fb4d3bf5becf71dbd19c4eb3fd4c1132a39786805ae66da36fad3a183"
 
 [[files]]
 file = "config/overlapless-common.toml"
@@ -2246,7 +2258,7 @@ hash = "ca68312ba06626f419e1dce8454506c102aa492555b185a07d5d225c97487155"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/substrate/naquadria_substrate.json"
-hash = "4b718dffc3152ff024a4a57838e64134c7fdb5cff7804290ac34b845fe68f20f"
+hash = "275556f782364332503d286eb32ffd0e7b703e2a41ccc49097c2efddb6798279"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/substrate/netherite_substrate_smithing.json"
@@ -2254,7 +2266,7 @@ hash = "363e256bb856cd927158542417be7bcee01caaf68e188272c4bb3d693f857f4a"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/substrate/positronic_substrate.json"
-hash = "84eff2fd7e9c061b9c267daeaf34de14b16cc9b321cd2f28a17adc35bba9a31a"
+hash = "470f31433e31f0ab907f1bbd4b22dc65bec2671a9f9205cf7aa1f0af508bb8b6"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/substrate/reactive_substrate.json"
@@ -2650,7 +2662,7 @@ hash = "58fc30d8edd6b01e8f764985aead40914279ca7f3f724e278c76d416a94e91b9"
 
 [[files]]
 file = "kubejs/server_scripts/server.js"
-hash = "5d399cc6754534104e5a2e233d3d54bb1f022fd4dd53ef654ee30653f61f2903"
+hash = "3aff1b8d3bc0aee190b1bbdac36fee9d586ef36f34e988a339fd3a5356b18016"
 
 [[files]]
 file = "kubejs/server_scripts/tag_fix.js"
@@ -2967,7 +2979,7 @@ metafile = true
 
 [[files]]
 file = "mods/crafting-tweaks.pw.toml"
-hash = "c75aedbd8100e2a60f270eb1f52d7b9ec219092a318fa113a31a384378e145d9"
+hash = "6ad424af2b8614fe9547f622a5b3d84d003eeffc6284a517aea90e377958a17a"
 metafile = true
 
 [[files]]
@@ -3062,7 +3074,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "9db847b1635071f5d318ee4d1afb4396614edde606ee0e3c7cfe35ffc22bc079"
+hash = "f8bff302408f68c7e3dc004cef9e9f63e9cc281defe174fcefd623d5b99f86cf"
 metafile = true
 
 [[files]]
@@ -3238,6 +3250,16 @@ metafile = true
 [[files]]
 file = "mods/in-control.pw.toml"
 hash = "38ad3e2d199cc5185c5f93031ad9c7f045453b61b35639ae03e62306df215588"
+metafile = true
+
+[[files]]
+file = "mods/invmove.pw.toml"
+hash = "7f490cefaf85f70b2c0ef3b3ecf73fec1d357ac6786e593298e0240541b34f05"
+metafile = true
+
+[[files]]
+file = "mods/invmovecompats.pw.toml"
+hash = "34ec4ff01c9986d737016722ab82bf8bcb6e9c275423fbe9ee906cbbe846a314"
 metafile = true
 
 [[files]]
@@ -3617,7 +3639,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "96e5c52b0fafd54183e29b3ab1d8df8f1e09a46045afe0d35d19274c07c59d80"
+hash = "2542119f36f9da97055af35664aff60923772866a4a63b617836b2a0a74ea12b"
 metafile = true
 
 [[files]]
@@ -3687,7 +3709,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "f926211fa1db6b5d730b8f41f4d1481c7b634b99eaca36c01cce70b0d8d6b0c7"
+hash = "fa00dab19c0efccbe6ba767dd32e9affba3b6b56a914f6beebc0f22c184dc248"
 metafile = true
 
 [[files]]
@@ -3787,7 +3809,7 @@ metafile = true
 
 [[files]]
 file = "mods/tiny-redstone.pw.toml"
-hash = "f1f3ff3b882a0e9a3562422c50a383ce506df169d6d733d2a21247760305cc2b"
+hash = "c4e455f7a02265fc380989f0d35214b8f33c294fc75add6f83f4a689d0da560b"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "InvMove"
+filename = "InvMove-0.9.3+1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "536c78c3b97beb0f947b9f3765842ec990a873d8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7418949
+project-id = 581854

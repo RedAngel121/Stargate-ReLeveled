@@ -1,0 +1,13 @@
+name = "InvMoveCompats"
+filename = "InvMoveCompats-0.5.0+1.21.8-NeoForge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6cd72da74b8af439c3240e95ae9b0989a2509af1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7219799
+project-id = 581875
