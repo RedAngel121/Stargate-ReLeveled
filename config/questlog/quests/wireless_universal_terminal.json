@@ -1,0 +1,37 @@
+{
+  "title": "One Terminal to Rule Them All",
+  "sort_order": 27,
+  "chapter": "questlog:ae2",
+  "description": "And in the darkness bind them... To your ME system.\n\nCraft any combination of terminals together to make them into a Wireless Universal Terminal.",
+  "icon": {
+    "item": "ae2:wireless_universal_terminal"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:wireless_crafting_terminal"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ae2:wireless_universal_terminal",
+      "item": "ae2:wireless_universal_terminal"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ae2:cell_component_16k",
+      "item": "ae2:cell_component_16k",
+      "count": 2
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

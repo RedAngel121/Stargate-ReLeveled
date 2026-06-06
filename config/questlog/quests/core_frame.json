@@ -1,0 +1,36 @@
+{
+  "title": "What is Abydos?",
+  "sort_order": 9,
+  "chapter": "questlog:mekanised_circuits",
+  "description": "Encased within a reinforced Naquadah frame, the Computation Core can safely channel immense quantities of energy directly into its processing matrix. The result is a dramatic increase in computational throughput, assuming the surrounding infrastructure survives the experience.\n\nMake the Computation Core Frame.",
+  "icon": {
+    "item": "sgcommunity_pack:computation_core_frame"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:integrated_circuit"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:computation_core_frame",
+      "item": "sgcommunity_pack:computation_core_frame"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "mekanism:block_lead",
+      "item": "mekanism:block_lead"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+15 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 345
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "title": "One Way Trip...",
+  "sort_order": 2,
+  "chapter": "questlog:sgj",
+  "description": "Abydos is your first offworld destination, and unfortunately the trip is one-way. Pack several pickaxes, plenty of supplies, and prepare for an unhealthy amount of sand. Somewhere beneath the dunes lies the address needed to return home.",
+  "icon": {
+    "item": "minecraft:sand"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:finding_the_stargate"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:visit_dimension",
+      "name": "Travel to Abydos",
+      "icon": "minecraft:sand",
+      "dimension": "sgjourney:abydos"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "name": "+10 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 180
+    }
+  ]
+}

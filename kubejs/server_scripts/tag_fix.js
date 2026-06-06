@@ -1,9 +1,8 @@
 // Bottomless Fluid Tagging
-let bottomless = ["create:honey", "create:chocolate", "c:experience", "mekanismgenerators:fusion_fuel"];
-
+let bottomless = ["create:honey", "create:chocolate", "create_confectionery:black_chocolate", "create_confectionery:white_chocolate", "create_confectionery:ruby_chocolate", "c:experience", "mekanismgenerators:fusion_fuel"];
 ServerEvents.tags("fluid", event => {
-    for (let tag of bottomless) {
-        event.add("create:bottomless/allow", tag);
+    for (let fluids of bottomless) {
+        event.add("create:bottomless/allow", fluids);
     }
 });
 
@@ -33,27 +32,36 @@ ServerEvents.tags("block", event => {
     event.add("c:ores_in_ground/netherrack", "sgjourney:nether_naquadah_ore")
 })
 
-// Adding Blaze stuff cause mek recipes hate items
+// Adding Blaze stuff to tags cause mek recipes hate items
 ServerEvents.tags("item", event => {
     event.add("c:dusts/blaze", "minecraft:blaze_powder")
     event.add("c:eggs/blaze", "minecraft:blaze_spawn_egg")
 })
 
-// PAM NEEDS TO GET A GRIP
-let salts = ["mekanism:salt", "refurbished_furniture:sea_salt", "pamhc2foodcore:saltitem"]
-let wheat_flours = ["create:wheat_flour", "refurbished_furniture:wheat_flour", "pamhc2foodcore:flouritem"]
 ServerEvents.tags("item", event => {
-    for (let each of salts) {
-        event.add("c:salt/salt", each)
-        event.add("c:dusts/salt", each)
-    }
+
+    // PAM NEEDS TO GET A GRIP
+    let wheat_flours = ["create:wheat_flour", "refurbished_furniture:wheat_flour", "pamhc2foodcore:flouritem"]
     for (let each of wheat_flours) {
         event.add("c:flour/flour", each)
         event.add("c:flours/wheat", each)
     }
+
+    // SALT IS SALT PAM
+    let salts = ["mekanism:salt", "refurbished_furniture:sea_salt", "pamhc2foodcore:saltitem"]
+    for (let each of salts) {
+        event.add("c:salt/salt", each)
+        event.add("c:dusts/salt", each)
+    }
+
+    // Apperently Create Confec doesnt like using tags either
+    let chocolates = ["create_confectionery:bar_of_white_chocolate", "create_confectionery:bar_of_ruby_chocolate", "create_confectionery:bar_of_black_chocolate"]
+    for (let each of chocolates) {
+        event.add("c:foods/chocolate", each)
+    }
 })
 
-// Stellaris doesnt like tags
+// Stellaris doesnt like using tags
 let sands = ["stellaris:moon_sand", "stellaris:mars_sand", "stellaris:venus_sand"]
 ServerEvents.tags("item", event => {
     for (let each of sands) {
@@ -87,9 +95,18 @@ ServerEvents.tags("item", event => {
 
 // My new seeds need tags too...
 ServerEvents.tags("item", event => {
-        event.add("c:seeds", "mysticalagriculture:borax_seeds")
-        event.add("c:seeds", "mysticalagriculture:corronium_seeds")
-        event.add("c:seeds", "mysticalagriculture:desh_seeds")
-        event.add("c:seeds", "mysticalagriculture:naquadah_seeds")
-        event.add("c:seeds", "mysticalagriculture:tharsite_seeds")
+    event.add("c:seeds", "mysticalagriculture:borax_seeds")
+    event.add("c:seeds", "mysticalagriculture:corronium_seeds")
+    event.add("c:seeds", "mysticalagriculture:desh_seeds")
+    event.add("c:seeds", "mysticalagriculture:naquadah_seeds")
+    event.add("c:seeds", "mysticalagriculture:tharsite_seeds")
+})
+
+// My new essences need tags too...
+ServerEvents.tags("item", event => {
+    event.add("mysticalagriculture:essences", "mysticalagriculture:borax_essence")
+    event.add("mysticalagriculture:essences", "mysticalagriculture:corronium_essence")
+    event.add("mysticalagriculture:essences", "mysticalagriculture:desh_essence")
+    event.add("mysticalagriculture:essences", "mysticalagriculture:naquadah_essence")
+    event.add("mysticalagriculture:essences", "mysticalagriculture:tharsite_essence")
 })

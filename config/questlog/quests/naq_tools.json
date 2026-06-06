@@ -1,0 +1,57 @@
+{
+  "title": "Overengineered Implements",
+  "sort_order": 8,
+  "chapter": "questlog:sgj",
+  "description": "Naquadah Tools are an advanced upgrade to diamond tools, similar in concept to netherite enhancements. Infused with Naquadah, these tools offer increased durability and efficiency, making them ideal for demanding excavation and offworld resource gathering.",
+  "icon": {
+    "item": "sgjourney:naquadah_pickaxe"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:weap_naquadah"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgjourney:naquadah_sword",
+      "item": "sgjourney:naquadah_sword"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgjourney:naquadah_pickaxe",
+      "item": "sgjourney:naquadah_pickaxe"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgjourney:naquadah_axe",
+      "item": "sgjourney:naquadah_axe"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgjourney:naquadah_shovel",
+      "item": "sgjourney:naquadah_shovel"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgjourney:naquadah_hoe",
+      "item": "sgjourney:naquadah_hoe"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "sgjourney:naquadah_alloy",
+      "item": "sgjourney:naquadah_alloy",
+      "count": 8
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Ultimate Parellel Processing",
+  "sort_order": 13,
+  "chapter": "questlog:mekanised_circuits",
+  "description": "You are so close to the end of the Mekanised Circuits, just one last step to create The Computation Core and its done!\n\nMake a Computation Core.",
+  "description_completed": "Well Done! You finally got the fabled Computation Core and you can finally start making higher tier Mekanism Machines. The Ultimate Control Circuit grants access to most of the MekMM Large Machines so you can start making things even faster than ever before.",
+  "icon": {
+    "item": "sgcommunity_pack:computation_core"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:edible_processor_chip"
+    },
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:isotopic_decay_oscilliator"
+    },
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:comp_core_parts"
+    },
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:core_frame"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:computation_core",
+      "item": "sgcommunity_pack:computation_core"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ae2wtlib:wireless_pattern_encoding_terminal",
+      "item": "ae2wtlib:wireless_pattern_encoding_terminal"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+30 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 1497
+    }
+  ]
+}

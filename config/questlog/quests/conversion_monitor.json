@@ -1,0 +1,37 @@
+{
+  "title": "Digital Barrels",
+  "sort_order": 11,
+  "chapter": "questlog:ae2",
+  "description": "The ME Conversion Monitor lets you instantly transfer items into your AE2 network simply by inserting them into the block. It acts as a direct input point, automatically converting and routing items into storage without needing terminals or manual sorting. It will also request crafts of the item if you have a pattern for it.\n\nMake a Conversion Monitor.",
+  "icon": {
+    "item": "ae2:conversion_monitor"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:storage_monitor"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ae2:conversion_monitor",
+      "item": "ae2:conversion_monitor"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ae2:speed_card",
+      "item": "ae2:speed_card",
+      "count": 4
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

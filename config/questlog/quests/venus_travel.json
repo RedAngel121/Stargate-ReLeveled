@@ -1,0 +1,32 @@
+{
+  "title": "The Morning Star",
+  "sort_order": 40,
+  "chapter": "questlog:stellaris",
+  "description": "Beneath its brilliant clouds lies a planet of crushing pressure, toxic atmosphere, and relentless heat. Venus is not a world that welcomes visitors. Advanced equipment and careful planning are essential, but the rare materials hidden within its hostile environment make the risk worthwhile.",
+  "icon": {
+    "item": "stellaris:venus_globe"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:rocket"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:visit_dimension",
+      "name": "Travel to Venus",
+      "icon": "stellaris:venus_globe",
+      "dimension": "stellaris:venus"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "name": "+15 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 345
+    }
+  ]
+}

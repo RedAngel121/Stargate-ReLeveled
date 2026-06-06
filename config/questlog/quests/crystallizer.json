@@ -1,0 +1,37 @@
+{
+  "title": "Crystallizing Now",
+  "sort_order": 13,
+  "chapter": "questlog:sgj",
+  "description": "The Crystallizer is used to grow and refine specialized crystals used in crafting recipes. These crystals also enhance the power output of DHD systems, improving Stargate performance. It can also be used to manufacture Stargate Variant Crystals to change the textures of the Stargate. Ponder them to learn more",
+  "icon": {
+    "item": "sgjourney:crystallizer"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:liquidizer"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgjourney:crystallizer",
+      "item": "sgjourney:crystallizer"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "sgjourney:refined_naquadah",
+      "item": "sgjourney:refined_naquadah",
+      "count": 2
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

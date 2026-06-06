@@ -1,0 +1,37 @@
+{
+  "title": "A Dash of Desh",
+  "sort_order": 11,
+  "chapter": "questlog:stellaris",
+  "description": "Collect Desh Ore",
+  "icon": {
+    "item": "stellaris:moon_desh_ore"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:moon_travel"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:block_mine",
+      "name": "Mine Desh Ore",
+      "icon": "stellaris:moon_desh_ore",
+      "block": "stellaris:moon_desh_ore"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "stellaris:jet_suit_helmet",
+      "item": "stellaris:jet_suit_helmet"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Power Generation",
+  "sort_order": 1,
+  "chapter": "questlog:tips_tricks",
+  "description": "There are several types of power generation in the pack that you can easily start early on. Solar Flux is what you really should focus on until you get your first circuit. Make sure you make more than one cause you are probably going to need it anyway.",
+  "icon": {
+    "item": "ironfurnaces:augment_generator"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:welcome"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "solarflux:sp_1",
+      "item": "solarflux:sp_1"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:piston",
+      "item": "minecraft:piston"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

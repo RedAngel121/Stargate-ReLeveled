@@ -1,0 +1,31 @@
+{
+  "title": "Structured Command",
+  "sort_order": 18,
+  "chapter": "questlog:sgj",
+  "description": "The Crystal Interface refines your control over Stargate systems, exposing deeper functionality including Milky Way dialing control, energy management, and improved feedback handling. With ComputerCraft integration, it becomes possible to automate gate operations and react to system states in real time. Less shouting, more actual communication.",
+  "icon": {
+    "item": "sgjourney:crystal_interface"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:interface"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgjourney:crystal_interface",
+      "item": "sgjourney:crystal_interface"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Crystalized Naquadah",
+  "sort_order": 5,
+  "chapter": "questlog:sgj",
+  "description": "Pure Naquadah is a crystalized form of the Ancient metal used in advanced Stargate components and power systems.\n\nIt is also a key ingredient in the production of Heavy Liquid Naquadah, a dense and energy-rich fluid required for more sophisticated Stargate technologies. As usual, if a recipe looks expensive, it probably wants more Naquadah.",
+  "icon": {
+    "item": "sgjourney:pure_naquadah"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:raw_naquadah"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgjourney:pure_naquadah",
+      "item": "sgjourney:pure_naquadah"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "sgjourney:pure_naquadah",
+      "item": "sgjourney:pure_naquadah",
+      "count": 8
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

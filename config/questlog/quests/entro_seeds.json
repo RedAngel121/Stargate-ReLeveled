@@ -1,0 +1,36 @@
+{
+  "title": "Entropy Manifest",
+  "sort_order": 39,
+  "chapter": "questlog:ae2",
+  "description": "Entro Seeds are the starting point of Extended AE’s Entro Crystal production chain. When applied to a valid Fluix Block, an Entro Seed converts it into a Budding Entro Crystal Block. From there, the block will slowly generate Entro Crystal growths over time, similar to Certus Quartz budding mechanics.\n\nMake some Entro Seeds.",
+  "icon": {
+    "item": "extendedae:entro_seed"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:controller"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "extendedae:entro_seed",
+      "item": "extendedae:entro_seed"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ae2:fluix_block",
+      "item": "ae2:fluix_block"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Gettin Crafty",
+  "sort_order": 11,
+  "chapter": "questlog:kinetic_curcuits",
+  "description": "Mechanical Crafters are the backbone of the crazy side of Create. You will be using them quite a bit to create the things needed to keep your factory automated. \n\nMake a few Crafters and power them up.",
+  "icon": {
+    "item": "create:mechanical_crafter"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:rose_quartz"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "create:mechanical_crafter",
+      "required_amount": 12,
+      "item": "create:mechanical_crafter"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "create:brass_ingot",
+      "item": "create:brass_ingot",
+      "count": 2
+    },
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:iron_ingot",
+      "item": "minecraft:iron_ingot",
+      "count": 2
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+5 Levels",
+      "experience": 65
+    }
+  ]
+}

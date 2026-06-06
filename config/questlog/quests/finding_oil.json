@@ -1,0 +1,42 @@
+{
+  "title": "Striking Black Gold",
+  "sort_order": 1,
+  "chapter": "questlog:stellaris",
+  "description": "To find Oil, you will need to make an Oil Finder and a Pumpjack to extract some oil out of the ground. Use the Oil Finder to right click any block to find out how much oil is in that area. Make sure to get at least 6 buckets of oil.\n\nMake a Pumpjack and a Oil Finder.",
+  "icon": {
+    "item": "stellaris:pumpjack"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:leaving_planet"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "stellaris:pumpjack",
+      "item": "stellaris:pumpjack"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "stellaris:oil_finder",
+      "item": "stellaris:oil_finder"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:bucket",
+      "item": "minecraft:bucket",
+      "count": 6
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

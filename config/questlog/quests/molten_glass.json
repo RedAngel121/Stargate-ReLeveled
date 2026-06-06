@@ -1,0 +1,42 @@
+{
+  "title": "A New Liquid! (+ Brass)",
+  "sort_order": 6,
+  "chapter": "questlog:kinetic_curcuits",
+  "description": "Congrats! You caught your first blaze, and now you can use it to make Brass Ingots and Molten Glass, place it under the Basin and add your favorite fuel source; coal, lava, even biofuel!\n\nAdd your ingredients to the Basin and start mixing!.",
+  "icon": {
+    "item": "create:blaze_burner"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:mixer"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "create:blaze_burner"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "create:brass_ingot",
+      "required_amount": 2,
+      "item": "create:brass_ingot"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "create:brass_ingot",
+      "item": "create:brass_ingot",
+      "count": 2
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+5 Levels",
+      "experience": 65
+    }
+  ]
+}

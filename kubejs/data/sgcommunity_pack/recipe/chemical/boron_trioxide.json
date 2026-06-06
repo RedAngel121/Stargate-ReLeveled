@@ -10,7 +10,7 @@
     },
     "output": {
         "amount": 5000,
-        "id": "mekanism:boron_trioxide"
+        "id": "sgcommunity_pack:boron_trioxide"
     },
     "per_tick_usage": true
 }

@@ -1,0 +1,16 @@
+{
+    "type": "mekanism:metallurgic_infusing",
+    "chemical_input": {
+        "amount": 320,
+        "tag": "mekanism:refined_obsidian"
+    },
+    "item_input": {
+        "count": 1,
+        "item": "sgcommunity_pack:computational_crux"
+    },
+    "output": {
+        "count": 1,
+        "id": "sgcommunity_pack:mekanised_crux"
+    },
+    "per_tick_usage": false
+}

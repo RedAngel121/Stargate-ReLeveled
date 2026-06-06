@@ -1,0 +1,36 @@
+{
+  "title": "Micro Factory",
+  "sort_order": 3,
+  "chapter": "questlog:stellaris",
+  "description": "The Rocket Station is the heart of spacecraft construction and your gateway to the stars. Begin by crafting Iron Blocks into Iron Plating, then combine the plating with Heavy Metal Ingots and Lapis Lazuli to assemble the station. Once completed, the Rocket Station can be used to construct and configure rockets capable of carrying you beyond the atmosphere.\n\nMake a Rocket Station.",
+  "icon": {
+    "item": "stellaris:rocket_station"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:leaving_planet"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "stellaris:rocket_station",
+      "item": "stellaris:rocket_station"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "stellaris:base_module_tier_1",
+      "item": "stellaris:base_module_tier_1"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

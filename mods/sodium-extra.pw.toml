@@ -1,0 +1,13 @@
+name = "Sodium Extra"
+filename = "sodium-extra-neoforge-0.8.7+mc1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5f17ccb47f77d498c36d3179c8ca3f320a7f50e3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8189182
+project-id = 447673

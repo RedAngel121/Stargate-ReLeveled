@@ -1,0 +1,13 @@
+{
+    "bookshelf:load_conditions": [
+        {
+            "type": "bookshelf:block_exists",
+            "values": [
+                "sgcommunity_pack:deep_space_crux"
+            ]
+        }
+    ],
+    "type": "botanypots:block_derived_soil",
+    "block": "sgcommunity_pack:deep_space_crux",
+    "growth_modifier": 0.50
+}

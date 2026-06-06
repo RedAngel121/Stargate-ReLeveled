@@ -1,0 +1,37 @@
+{
+  "title": "Network Connections",
+  "sort_order": 8,
+  "chapter": "questlog:ae2",
+  "description": "Glass cables are cheap but limited. Covered cables function the same as standard glass cables. Dense cables can carry up to 32 channels and are prioritized in network routing. Smart cables display channel usage visually, helping you track network paths to the ME Controller. Dense smart variants combine both features for advanced debugging.\n\nMake a Smart Cable.",
+  "icon": {
+    "item": "ae2:fluix_smart_cable"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:controller"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ae2:fluix_smart_cable",
+      "item": "ae2:fluix_smart_cable"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ae2:fluix_smart_dense_cable",
+      "item": "ae2:fluix_smart_dense_cable",
+      "count": 4
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

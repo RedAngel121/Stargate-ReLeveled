@@ -1,0 +1,37 @@
+{
+  "title": "Basic Electronics",
+  "sort_order": 13,
+  "chapter": "questlog:kinetic_curcuits",
+  "description": "Electrum Sheets are the next big thing to get you started on your way to Rudimentary Processors. They are needed to make new components and to combine those new components into the Rudimentary Processor. You can either electrify gold ingots, or make sheets first and then apply the current, either way it makes the same thing.\n\nMake a few Electrum Sheets, but make sure you have automated everything up to this point, you will need a minimum of 3 Electrum Sheets to create one Rudimentary Processor.",
+  "icon": {
+    "item": "createaddition:electrum_sheet"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:tesla_coil"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "createaddition:electrum_sheet",
+      "item": "createaddition:electrum_sheet"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "createaddition:electrum_sheet",
+      "item": "createaddition:electrum_sheet",
+      "count": 2
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+5 Levels",
+      "experience": 65
+    }
+  ]
+}

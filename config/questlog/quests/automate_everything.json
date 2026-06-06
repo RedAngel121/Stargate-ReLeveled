@@ -1,0 +1,42 @@
+{
+  "title": "Automate Everything!",
+  "chapter": "questlog:tips_tricks",
+  "include_in_main": true,
+  "description": "At the bottom of the Questbook is the Chapter Tabs. They are color coded to tell you what needs to be automated and what doesn't.\n\nCyan Tabs will need to be automated.\nGreen Tabs are mod highlights to aid in progression.",
+  "icon": {
+    "item": "minecraft:crafter"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:welcome"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "quest": "questlog:automate_everything"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "create:zinc_nugget",
+      "item": "create:zinc_nugget",
+      "count": 8
+    },
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:andesite",
+      "item": "minecraft:andesite",
+      "count": 8
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "title": "Stonelings",
+  "sort_order": 1,
+  "chapter": "questlog:tips_tricks",
+  "description": "Stonelings are new passive mobs that spawn in the deep underground and in complete darkness. These little stone fairies will spawn in carrying an item, and will get startled if you get too close to them without sneaking and holding a Glow Shroom to tempt them.\n\nIf startled, they'll run away from you and eventually poof out of existence. If you manage to kill one, you'll get the item its carrying as well as a Heart of Diamond.",
+  "icon": {
+    "item": "quark:diamond_heart"
+  },
+  "requirements": [
+    {
+      "type": "questlog:entity_approach",
+      "entity": "quark:stoneling",
+      "range": 12
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "quark:diamond_heart",
+      "item": "quark:diamond_heart"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:diamond",
+      "item": "minecraft:diamond",
+      "count": 2
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

@@ -50,7 +50,7 @@ ServerEvents.recipes(event => {
             amount: 1
         },
         chemical_input: {
-            chemical: "mekanism:silicon",
+            chemical: "sgcommunity_pack:silicon",
             amount: 5
         },
         output: stagedWaferOutput(2, "Step 2: Inject Water Vapor"),
@@ -83,7 +83,7 @@ ServerEvents.recipes(event => {
         type: "mekanism:injecting",
         item_input: stagedWaferInput(4, "Step 4: Inject Boron"),
         chemical_input: {
-            chemical: "mekanism:boron_trifluoride",
+            chemical: "sgcommunity_pack:boron_trifluoride",
             amount: 2
         },
         output: stagedWaferOutput(5, "Step 5: Inject Phosphorus"),
@@ -94,7 +94,7 @@ ServerEvents.recipes(event => {
         type: "mekanism:injecting",
         item_input: stagedWaferInput(5, "Step 5: Inject Phosphorus"),
         chemical_input: {
-            chemical: "mekanism:phosphorus",
+            chemical: "sgcommunity_pack:phosphorus",
             amount: 1
         },
         output: {

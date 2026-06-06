@@ -1,0 +1,52 @@
+{
+  "title": "Alternative to Netherite",
+  "sort_order": 7,
+  "chapter": "questlog:sgj",
+  "description": "Naquadah Armor is a powerful upgrade to diamond equipment, functioning similarly to netherite enhancements. Forged with Naquadah-infused materials, it significantly improves durability and protection, making it suitable for offworld exploration and hostile environments.",
+  "icon": {
+    "item": "sgjourney:naquadah_chestplate"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:weap_naquadah"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgjourney:naquadah_helmet",
+      "item": "sgjourney:naquadah_helmet"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgjourney:naquadah_chestplate",
+      "item": "sgjourney:naquadah_chestplate"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgjourney:naquadah_leggings",
+      "item": "sgjourney:naquadah_leggings"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgjourney:naquadah_boots",
+      "item": "sgjourney:naquadah_boots"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:amethyst_shard",
+      "item": "minecraft:amethyst_shard",
+      "count": 4
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

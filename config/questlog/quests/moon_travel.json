@@ -1,0 +1,32 @@
+{
+  "title": "Over the Moon",
+  "sort_order": 10,
+  "chapter": "questlog:stellaris",
+  "description": "Humanity's first step beyond Earth remains an important milestone. While the Moon lacks a breathable atmosphere and abundant resources, it serves as the perfect proving ground for offworld exploration. Establish a foothold, gather resources, and prepare for the much longer journeys that lie ahead.",
+  "icon": {
+    "item": "stellaris:moon_globe"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:rocket"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:visit_dimension",
+      "name": "Travel to the Moon",
+      "icon": "stellaris:moon_globe",
+      "dimension": "stellaris:moon"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "name": "+15 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 345
+    }
+  ]
+}

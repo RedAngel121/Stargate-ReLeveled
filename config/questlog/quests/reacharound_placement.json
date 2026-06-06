@@ -1,0 +1,35 @@
+{
+  "title": "Reacharound Placement",
+  "sort_order": 1,
+  "chapter": "questlog:tips_tricks",
+  "description": "Reacharound Placing allows you to place blocks behind the block you're looking at. This can be done either vertically or horizontally, provided you wouldn't be placing a block given normal rules.\n\nTo do it vertically, sneak over the edge of a block and look at the area directly below it. A [] will appear around your crosshair if you do it properly.\n\nTo do it horizontally, look in front of a block, where the next block would be. A >< will appear around your crosshair for this one.",
+  "icon": {
+    "item": "modularrouters:filter_round_robin_augment"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:welcome"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "quest": "questlog:reacharound_placement"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:cow_spawn_egg",
+      "item": "minecraft:cow_spawn_egg"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

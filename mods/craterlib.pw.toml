@@ -1,13 +1,13 @@
 name = "CraterLib"
-filename = "CraterLib-Neoforge-1.21-3.1.1.jar"
+filename = "CraterLib-Neoforge-1.21-3.1.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "17a164b323369f3e0636737fab0ce58a00d65bc9"
+hash = "b1146bec9b6ee6acd07d41d2666beffd1805cc19"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7949736
+file-id = 8117841
 project-id = 867099

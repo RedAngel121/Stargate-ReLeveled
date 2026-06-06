@@ -1,0 +1,39 @@
+{
+  "title": "Bottled Clouds",
+  "sort_order": 1,
+  "chapter": "questlog:tips_tricks",
+  "description": "Using a Glass Bottle at the cloud levels will get you a Bottled Cloud.\n\nThe Bottled Cloud can be right clicked to produce a (non-solid) block floating in midair in front of you. The cloud block disappears after a few seconds, but you can right click it with any other block to replace the two. The cloud will go back in the bottle when you do this.",
+  "icon": {
+    "item": "quark:bottled_cloud"
+  },
+  "requirements": [
+    {
+      "type": "questlog:visit_position",
+      "bounds": {
+        "minY": 192,
+        "maxY": 196
+      }
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "quark:bottled_cloud",
+      "item": "quark:bottled_cloud"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:bundle",
+      "item": "minecraft:bundle"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

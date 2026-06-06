@@ -1,0 +1,36 @@
+{
+  "title": "Learning Create",
+  "sort_order": 1,
+  "chapter": "questlog:kinetic_curcuits",
+  "description": "Create has a large number of multi-faceted mechanisms. As such, it is probably wise for you to check out the Ponder Index. The Ponder Index can be found under the goggle icon in the escape menu, or by holding W while hovering over a create item.",
+  "icon": {
+    "item": "create:goggles"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:automate_everything"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "create:andesite_alloy",
+      "item": "create:andesite_alloy"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "create:wrench",
+      "item": "create:wrench"
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+5 Levels",
+      "experience": 65
+    }
+  ]
+}

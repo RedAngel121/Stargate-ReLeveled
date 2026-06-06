@@ -1,0 +1,36 @@
+{
+  "title": "Infinite Lava",
+  "sort_order": 1,
+  "chapter": "questlog:tips_tricks",
+  "description": "The Create hose allows for extracting or filling large bodies of fluids. It extracts everything at or above the height of it's nozzle and fills up to it's level. However, when the body of fluid is larger than 10000 blocks, the hose considers the pool to be infinite. This works for water, honey, chocolate, and lava. If you want another fluid added to the list, just ask.",
+  "icon": {
+    "item": "create:hose_pulley"
+  },
+  "requirements": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "create:copper_sheet"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "create:hose_pulley",
+      "item": "create:hose_pulley"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:lava_bucket",
+      "item": "minecraft:lava_bucket"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

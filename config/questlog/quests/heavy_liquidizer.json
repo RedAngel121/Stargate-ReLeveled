@@ -1,0 +1,31 @@
+{
+  "title": "Heavy Liquid Naquadah",
+  "sort_order": 12,
+  "chapter": "questlog:sgj",
+  "description": "The Heavy Liquidizer refines Liquid Naquadah into Heavy Liquid Naquadah, an even denser and more unstable energy medium. This material is required for crafting highly advanced crystals and a range of unique, late-game components. It's what happens when Naquadah starts being “legally questionable to store in large quantities.”",
+  "icon": {
+    "item": "sgjourney:heavy_naquadah_liquidizer"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:liquidizer"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgjourney:heavy_naquadah_liquidizer",
+      "item": "sgjourney:heavy_naquadah_liquidizer"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

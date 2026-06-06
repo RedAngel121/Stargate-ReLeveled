@@ -1,0 +1,42 @@
+{
+  "title": "Strategic Planning",
+  "sort_order": 11,
+  "chapter": "questlog:mekanised_circuits",
+  "description": "Remember that Create setup you (probably) dismantled? Well you need to set it up again, but differently now. The Edible Processors require new edible ingredients to create the coolest cookies in the cosmos. You will need an ample supply of Milk, Honey, and liquid Chocolate, Sugar, and Maple Syrup.\n\nMake the Edible Processor Wafer.",
+  "icon": {
+    "item": "sgcommunity_pack:edible_processor_wafer"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:edible_wafer"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:edible_processor_photomask",
+      "item": "sgcommunity_pack:edible_processor_photomask"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:edible_processor_wafer",
+      "item": "sgcommunity_pack:edible_processor_wafer"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "pamhc2foodextended:chocolatestrawberryitem",
+      "item": "pamhc2foodextended:chocolatestrawberryitem",
+      "count": 4
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+10 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 180
+    }
+  ]
+}

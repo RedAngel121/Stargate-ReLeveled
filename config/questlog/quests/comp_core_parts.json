@@ -1,0 +1,43 @@
+{
+  "title": "Extra Parts",
+  "sort_order": 10,
+  "chapter": "questlog:mekanised_circuits",
+  "description": "Automating these resources isn't hard, since you already made them before, but you need a lot of them to make the Computation Core.\n\nMake 12x 4k Storage Components and 9x Integrated Circuits for the Computation Core.",
+  "icon": {
+    "item": "ae2:cell_component_4k"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:integrated_circuit"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ae2:cell_component_4k",
+      "required_amount": 12,
+      "item": "ae2:cell_component_4k"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:integrated_circuit",
+      "required_amount": 9,
+      "item": "sgcommunity_pack:integrated_circuit"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "mekanism:block_lead",
+      "item": "mekanism:block_lead"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+15 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 345
+    }
+  ]
+}

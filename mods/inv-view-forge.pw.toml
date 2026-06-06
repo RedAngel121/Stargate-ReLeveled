@@ -1,0 +1,13 @@
+name = "Inv View Forge/NeoForge"
+filename = "inv_view_neoforge-3.0.2-1.21.(5).jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "84e2e49784896cd38e2bc082a62c0e632e12b575"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6754767
+project-id = 997252

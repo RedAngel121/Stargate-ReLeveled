@@ -1,0 +1,36 @@
+{
+  "title": "Naquadria Crux",
+  "sort_order": 10,
+  "chapter": "questlog:progression",
+  "description": "Exotic materials demand exotic foundations.\n\nNaquadria Cruxes can sustain dangerous and highly refined crops such as Corronium, Fluorite, and Uranium Essence. Handle responsibly. Or don't. Minecraft has no OSHA.",
+  "icon": {
+    "item": "sgcommunity_pack:naquadria_crux"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:deep_space_crux"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:naquadria_crux",
+      "item": "sgcommunity_pack:naquadria_crux"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "sgjourney:advanced_crystal_interface",
+      "item": "sgjourney:advanced_crystal_interface"
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+14 Levels",
+      "experience": 308
+    }
+  ]
+}

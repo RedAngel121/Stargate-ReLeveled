@@ -1,0 +1,31 @@
+{
+  "title": "Call of the Immaterium",
+  "sort_order": 24,
+  "chapter": "questlog:ae2",
+  "description": "Quantum Bridges connect AE2 networks instantly across any distance or dimension, allowing massive systems to operate as a single unified network without traditional cable connections. It also keeps your terminal powered!\n\nMake a Quantum Bridge Card.",
+  "icon": {
+    "item": "ae2wtlib:quantum_bridge_card"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:wireless_dimension"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ae2wtlib:quantum_bridge_card",
+      "item": "ae2wtlib:quantum_bridge_card"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "name": "+30 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 1497
+    }
+  ]
+}

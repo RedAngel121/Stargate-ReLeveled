@@ -1,0 +1,36 @@
+{
+  "title": "Kinetic Crux",
+  "sort_order": 5,
+  "chapter": "questlog:progression",
+  "description": "Industrial momentum changes everything.\n\nKinetic Cruxes unlock crops tied to mechanical progression, including Brass, Bronze, Quartz, Glowstone, and Prismarine Essence. The machines are getting louder, which usually means progress.",
+  "icon": {
+    "item": "sgcommunity_pack:kinetic_crux"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:netherite_crux"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:kinetic_crux",
+      "item": "sgcommunity_pack:kinetic_crux"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "pamhc2foodextended:chocolatesprinklecakeitem",
+      "item": "pamhc2foodextended:chocolatesprinklecakeitem"
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+9 Levels",
+      "experience": 153
+    }
+  ]
+}

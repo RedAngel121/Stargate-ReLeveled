@@ -1,0 +1,31 @@
+{
+  "title": "Kara Kesh",
+  "sort_order": 9,
+  "chapter": "questlog:sgj",
+  "description": "The Hand Device is a versatile Ancient weapon with two selectable operating modes.\n\n- Knockback Mode launches targets away from you, creating distance between yourself and anything attempting to make your day worse. \n\n- Terror Mode inflicts Wither, Slowness, and Blindness, leaving enemies weakened, disoriented, and significantly less confident about their life choices.",
+  "icon": {
+    "item": "sgjourney:kara_kesh"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:weap_naquadah"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgjourney:kara_kesh",
+      "item": "sgjourney:kara_kesh"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

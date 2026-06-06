@@ -1,0 +1,42 @@
+{
+  "title": "HDPE Sheets",
+  "sort_order": 6,
+  "chapter": "questlog:mekanised_circuits",
+  "description": "Substrate pellets are halfway to the goal, next is making HDPE Pellets and converting those into HDPE Sheets. You still need to use the Pressurized Reaction Chamber to make the HDPE Pellets, then throw them into an Enrichment Chamber to get HDPE Sheets.\n\nMake an Enrichment Chamber and use that to make some HDPE Sheets.",
+  "icon": {
+    "item": "mekanism:hdpe_sheet"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:substrate"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "mekanism:enrichment_chamber",
+      "item": "mekanism:enrichment_chamber"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "mekanism:hdpe_sheet",
+      "item": "mekanism:hdpe_sheet"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "mekanism:hdpe_pellet",
+      "item": "mekanism:hdpe_pellet",
+      "count": 63
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

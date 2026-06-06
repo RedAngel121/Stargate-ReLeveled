@@ -1,0 +1,38 @@
+{
+  "title": "Player Trades",
+  "sort_order": 1,
+  "chapter": "questlog:tips_tricks",
+  "description": "Not all markets are built of stone. Some begin with nothing more than cloth and intent. Lay down a tablecloth, offer something of value, and wait.",
+  "icon": {
+    "item": "minecraft:emerald"
+  },
+  "requirements": [
+    {
+      "type": "questlog:entity_approach",
+      "entity": "minecraft:player",
+      "range": 32
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "name": "Table Cloths",
+      "icon": "create:red_table_cloth",
+      "item": "#create:table_cloths"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:emerald",
+      "item": "minecraft:emerald"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

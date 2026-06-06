@@ -1,0 +1,36 @@
+{
+  "title": "Leaving the Planet",
+  "chapter": "questlog:stellaris",
+  "description": "Stellaris is a simple space mod that adds rockets and 5 new worlds to visit. It also adds orbit dimensions where you can build space stations! You will need a lot of resources to make a space station so its best to start small.\n\nMake some Steel Ingots.",
+  "icon": {
+    "item": "stellaris:earth_globe"
+  },
+  "requirements": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "mekanism:ingot_steel",
+      "item": "mekanism:ingot_steel"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "mekanism:ingot_steel",
+      "item": "mekanism:ingot_steel",
+      "count": 4
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

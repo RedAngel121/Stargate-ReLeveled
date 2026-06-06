@@ -1,0 +1,62 @@
+{
+  "title": "The Art of Baking",
+  "sort_order": 9,
+  "chapter": "questlog:mekanised_circuits",
+  "description": "Its time to put your baking skills to the test. You need to create an Edible Wafer as the base for the Edible Processor. Can you eat them? Yes! Should you eat them? Only if you want to waste your time making them, just like real baking! First things first, mix the dough in a Create Mixer, one step at a time.\n\nGather the ingredients to make Wafer Dough.",
+  "icon": {
+    "item": "sgcommunity_pack:wafer_dough"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:integrated_circuit"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "pamhc2foodcore:butteritem",
+      "item": "pamhc2foodcore:butteritem"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "minecraft:sugar",
+      "item": "minecraft:sugar"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "#c:flours/wheat",
+      "item": "#c:flours/wheat"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:sodium_bicarbonate",
+      "item": "sgcommunity_pack:sodium_bicarbonate"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "pamhc2foodextended:vanillaitem",
+      "item": "pamhc2foodextended:vanillaitem"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "minecraft:egg",
+      "item": "minecraft:egg"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "pamhc2foodextended:buttertartitem",
+      "item": "pamhc2foodextended:buttertartitem",
+      "count": 4
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

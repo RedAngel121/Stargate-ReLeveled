@@ -1,0 +1,37 @@
+{
+  "title": "My First Crux",
+  "sort_order": 1,
+  "chapter": "questlog:progression",
+  "description": "Every empire begins with dirt. In your case, highly engineered dirt.\n\nIron Cruxes are the foundation of automated resource growth and can be used as soil inside Botany Pots. Craft one and begin cultivating materials instead of scavenging for them.\n\nThis modpack uses a custom Crux system. Each Crux tier unlocks new crops and resources, and they are not interchangeable.",
+  "icon": {
+    "item": "sgcommunity_pack:iron_crux"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:botany_pots"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:iron_crux",
+      "item": "sgcommunity_pack:iron_crux"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:bookshelf",
+      "item": "minecraft:bookshelf",
+      "count": 15
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+5 Levels",
+      "experience": 65
+    }
+  ]
+}

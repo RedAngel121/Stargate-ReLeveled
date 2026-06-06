@@ -1,0 +1,36 @@
+{
+  "title": "Ender Inhibitor",
+  "sort_order": 1,
+  "chapter": "questlog:tips_tricks",
+  "description": "Some mobs can just teleport themselves out of harms way. The Ender Inhibitor will prevent them from running away.",
+  "icon": {
+    "item": "mob_grinding_utils:ender_inhibitor_on"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:infinite_xp"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "mob_grinding_utils:ender_inhibitor_on",
+      "item": "mob_grinding_utils:ender_inhibitor_on"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:ender_eye",
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

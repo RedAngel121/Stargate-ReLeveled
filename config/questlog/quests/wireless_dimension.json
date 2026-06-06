@@ -1,0 +1,36 @@
+{
+  "title": "Intergalactic Networking",
+  "sort_order": 23,
+  "chapter": "questlog:ae2",
+  "description": "The Dimension Card allows wireless terminals to access your AE2 network across dimensions, because even interdimensional travel requires inventory management.\n\nMake a Dimension Card.",
+  "icon": {
+    "item": "aeinfinitybooster:dimension_card"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:wireless_infinity"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "aeinfinitybooster:dimension_card",
+      "item": "aeinfinitybooster:dimension_card"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ae2:item_storage_cell_256k",
+      "item": "ae2:item_storage_cell_256k"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+20 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 602
+    }
+  ]
+}

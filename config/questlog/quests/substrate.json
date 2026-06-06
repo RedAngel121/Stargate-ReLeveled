@@ -1,0 +1,42 @@
+{
+  "title": "Substrate (not for pots)",
+  "sort_order": 5,
+  "chapter": "questlog:mekanised_circuits",
+  "description": "Biomass is one of the few things that can be made very easily with Create or Mekanism, you will be making a lot of it to create the Mekanism Substrate pellets. The Pressurized Reaction Chamber is perfect for this and as a byproduct of this process you are making Ethene, a combustible gas, that can be used to generate power or recycle it back into making more substrate pellets.\n\nMake the Pressurized Reaction Chamber and some Substrate.",
+  "icon": {
+    "item": "mekanism:substrate"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:mosfet"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "mekanism:pressurized_reaction_chamber",
+      "item": "mekanism:pressurized_reaction_chamber"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "mekanism:substrate",
+      "item": "mekanism:substrate"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:egg",
+      "item": "minecraft:egg",
+      "count": 16
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

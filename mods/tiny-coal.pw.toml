@@ -1,0 +1,13 @@
+name = "Tiny Coal"
+filename = "tinycoal-neoforge-1.21.1-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a67a2c929df025ec1be85f5ab19f6e758eb17ba2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5609019
+project-id = 395272

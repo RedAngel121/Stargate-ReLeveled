@@ -1,0 +1,43 @@
+{
+  "title": "How To Build Your Own",
+  "sort_order": 21,
+  "chapter": "questlog:sgj",
+  "description": "With Naquadah now available from Abydos, you finally have the materials needed to construct your own Stargate. Start with the Classic Stargate framework, the most primitive operational design still capable of interstellar travel. Assemble the base structure first, then prepare the Chevron system and ring segments required to complete the mechanism. Once built, this machine will become your first real doorway into the wider universe... and all the problems that come with it.",
+  "icon": {
+    "item": "sgjourney:classic_stargate_base_block"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:interface"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgjourney:classic_stargate_base_block",
+      "item": "sgjourney:classic_stargate_base_block"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgjourney:classic_stargate_chevron_block",
+      "required_amount": 9,
+      "item": "sgjourney:classic_stargate_chevron_block"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgjourney:classic_stargate_ring_block",
+      "required_amount": 14,
+      "item": "sgjourney:classic_stargate_ring_block"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "name": "+15 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 345
+    }
+  ]
+}

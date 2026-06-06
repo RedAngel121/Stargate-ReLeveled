@@ -1,0 +1,38 @@
+{
+  "title": "Leaving the Solar System",
+  "chapter": "questlog:sgj",
+  "description": "Stargate Journey centers around the discovery and restoration of Stargates left behind by the Ancients, a long-lost civilization whose technology far surpassed anything found on Earth. Construct and activate Stargates to establish stable wormholes between worlds, enabling near-instantaneous travel across vast interstellar distances. What once required rockets, fuel, and careful planning can eventually be accomplished with a single trip through the Stargate.",
+  "icon": {
+    "item": "sgjourney:milky_way_stargate"
+  },
+  "requirements": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:dirt"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:sand"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "quest": "questlog:leaving_solar_system"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:iron_shovel",
+      "item": "minecraft:iron_shovel"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

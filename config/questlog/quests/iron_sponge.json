@@ -1,0 +1,36 @@
+{
+  "title": "Upgraded Sponges",
+  "sort_order": 1,
+  "chapter": "questlog:tips_tricks",
+  "description": "You found a Sponge! But did you know you can upgrade them? Make an Iron Sponge to clear larger areas of water.",
+  "icon": {
+    "item": "extrasponges:iron_sponge"
+  },
+  "requirements": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:sponge"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "extrasponges:iron_sponge",
+      "item": "extrasponges:iron_sponge"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "mekanism:basic_fluid_tank",
+      "item": "mekanism:basic_fluid_tank"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+10 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 180
+    }
+  ]
+}

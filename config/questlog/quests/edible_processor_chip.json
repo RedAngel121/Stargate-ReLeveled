@@ -1,0 +1,37 @@
+{
+  "title": "Just like Grandma used to make",
+  "sort_order": 12,
+  "chapter": "questlog:mekanised_circuits",
+  "description": "Cut the Edible Processor Wafers into Edible Processor Chips. Then Put them into an Inscriber with some chocolate bars to make the Most delicious part of the Computation Core.\n\nMake an Edible Processor.",
+  "icon": {
+    "item": "sgcommunity_pack:edible_processor"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:edible_processor_wafer"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:edible_processor",
+      "item": "sgcommunity_pack:edible_processor"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "pamhc2foodextended:keylimepieitem",
+      "item": "pamhc2foodextended:keylimepieitem",
+      "count": 4
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Weapons Grade Naquadah",
+  "sort_order": 6,
+  "chapter": "questlog:sgj",
+  "description": "Weapons Grade Naquadah is a specialized refinement of Naquadah used in the construction of Stargate Journey weapons, tools, and armor.\n\nWhether you're building advanced equipment or arming yourself for offworld expeditions, a steady supply of Weapons Grade Naquadah is essential.",
+  "icon": {
+    "item": "sgjourney:naquadah"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:pure_naquadah"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgjourney:naquadah",
+      "item": "sgjourney:naquadah"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "sgjourney:pure_naquadah_block",
+      "item": "sgjourney:pure_naquadah_block",
+      "count": 4
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

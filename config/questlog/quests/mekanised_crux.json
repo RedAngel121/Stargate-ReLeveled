@@ -1,0 +1,36 @@
+{
+  "title": "Mekanised Crux",
+  "sort_order": 7,
+  "chapter": "questlog:progression",
+  "description": "This Crux marks the transition from industry to technological dominance.\n\nGrow advanced materials such as Steel, Soulium, Sky Stone, Fluix, and End Essence. Entire supply chains can now fit inside a greenhouse.",
+  "icon": {
+    "item": "sgcommunity_pack:mekanised_crux"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:computational_crux"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:mekanised_crux",
+      "item": "sgcommunity_pack:mekanised_crux"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "mekanism:gauge_dropper",
+      "item": "mekanism:gauge_dropper"
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+11 Levels",
+      "experience": 209
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "title": "All for One",
+  "sort_order": 32,
+  "chapter": "questlog:ae2",
+  "description": "The Bulk Storage Cell is designed to store enormous quantities of a single item type, making it ideal for resources you have so much of that normal storage systems give up trying to count.\n\nMake the Bulk Storage Cell.",
+  "icon": {
+    "item": "megacells:bulk_item_cell"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:megacells"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "megacells:bulk_item_cell",
+      "item": "megacells:bulk_item_cell"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "megacells:bulk_item_cell",
+      "item": "megacells:bulk_item_cell"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

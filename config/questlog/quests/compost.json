@@ -1,0 +1,44 @@
+{
+  "title": "Composts",
+  "chapter": "questlog:progression",
+  "description": "In addition to Substrates, there are Compost blocks that are needed to grow very specific types of essence, for example:\n\nOrganic Compost = Elemental Essences\nMulch Compost = Wood Essence\nFloral Compost = Nature Essence\nCoral Compost = Coral Essence.",
+  "icon": {
+    "item": "sgcommunity_pack:coral_compost"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:botany_pots"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:organic_compost",
+      "item": "sgcommunity_pack:organic_compost"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:mulch_compost",
+      "item": "sgcommunity_pack:mulch_compost"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:floral_compost",
+      "item": "sgcommunity_pack:floral_compost"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:stone"
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+5 Levels",
+      "experience": 65
+    }
+  ]
+}

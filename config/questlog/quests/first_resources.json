@@ -1,0 +1,52 @@
+{
+  "title": "My First Essence",
+  "chapter": "questlog:progression",
+  "description": "Mystical Agriculture does not believe in simple crafting tables. Naturally, it requires a magical ritual platform instead.\n\nThe Infusion Altar uses surrounding pedestals to channel ingredients into powerful seeds and materials. When placed, the altar will display the proper pedestal layout.\n\nPlace the required items on the pedestals, then activate the ritual with a redstone signal or an Infusion Wand. Science continues to make increasingly questionable decisions.",
+  "icon": {
+    "item": "mysticalagriculture:iron_seeds"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:inferium_essence"
+    },
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:botany_pots"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "name": "Any Mystical Seed",
+      "icon": "mysticalagriculture:iron_seeds",
+      "item": "#mysticalagriculture:seeds"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "mysticalagriculture:infusion_altar",
+      "item": "mysticalagriculture:infusion_altar"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "mysticalagriculture:infusion_pedestal",
+      "required_amount": 8,
+      "item": "mysticalagriculture:infusion_pedestal"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "mysticalagriculture:inferium_essence",
+      "item": "mysticalagriculture:inferium_essence",
+      "count": 8
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+5 Levels",
+      "experience": 65
+    }
+  ]
+}

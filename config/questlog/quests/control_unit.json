@@ -1,0 +1,40 @@
+{
+  "title": "Controlling the Units",
+  "sort_order": 14,
+  "chapter": "questlog:kinetic_curcuits",
+  "description": "A control unit is a component of a Rudimentary Processor that manages the flow of data and instructions. This also needs lots of Vacuum Tubes for some reason... with a few extra things too.\n\nAutomate the Control Unit, and keep them handy for the next step.",
+  "icon": {
+    "item": "sgcommunity_pack:control_unit"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:silica_to_glass"
+    },
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:electrum_sheets"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:control_unit",
+      "item": "sgcommunity_pack:control_unit"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:golden_apple",
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+10 Levels",
+      "experience": 180
+    }
+  ]
+}

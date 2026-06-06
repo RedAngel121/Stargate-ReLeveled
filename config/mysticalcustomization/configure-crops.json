@@ -29,267 +29,271 @@
     },
     "mysticalagriculture:inferium": {
         "tier": "mysticalagriculture:1",
-        "crux": "sgcommunity_pack:iron_substrate"
+        "crux": "sgcommunity_pack:iron_crux"
     },
     "mysticalagriculture:stone": {
         "tier": "mysticalagriculture:1",
-        "crux": "sgcommunity_pack:iron_substrate"
+        "crux": "sgcommunity_pack:iron_crux"
     },
     "mysticalagriculture:dirt": {
         "tier": "mysticalagriculture:1",
-        "crux": "sgcommunity_pack:iron_substrate"
+        "crux": "sgcommunity_pack:iron_crux"
     },
     "mysticalagriculture:coal": {
         "tier": "mysticalagriculture:1",
-        "crux": "sgcommunity_pack:iron_substrate"
+        "crux": "sgcommunity_pack:iron_crux"
     },
     "mysticalagriculture:copper": {
         "tier": "mysticalagriculture:1",
-        "crux": "sgcommunity_pack:iron_substrate"
+        "crux": "sgcommunity_pack:iron_crux"
     },
     "mysticalagriculture:iron": {
         "tier": "mysticalagriculture:1",
-        "crux": "sgcommunity_pack:iron_substrate"
+        "crux": "sgcommunity_pack:iron_crux"
     },
     "mysticalagriculture:amethyst": {
         "tier": "mysticalagriculture:1",
-        "crux": "sgcommunity_pack:gold_substrate"
+        "crux": "sgcommunity_pack:gold_crux"
     },
     "mysticalagriculture:ice": {
         "tier": "mysticalagriculture:1",
-        "crux": "sgcommunity_pack:gold_substrate"
+        "crux": "sgcommunity_pack:gold_crux"
     },
     "mysticalagriculture:deepslate": {
         "tier": "mysticalagriculture:1",
-        "crux": "sgcommunity_pack:gold_substrate"
+        "crux": "sgcommunity_pack:gold_crux"
     },
     "mysticalagriculture:gold": {
         "tier": "mysticalagriculture:1",
-        "crux": "sgcommunity_pack:gold_substrate"
+        "crux": "sgcommunity_pack:gold_crux"
     },
     "mysticalagriculture:zinc": {
         "tier": "mysticalagriculture:1",
-        "crux": "sgcommunity_pack:gold_substrate"
+        "crux": "sgcommunity_pack:gold_crux"
     },
     "mysticalagriculture:nether": {
         "tier": "mysticalagriculture:2",
-        "crux": "sgcommunity_pack:diamond_substrate"
+        "crux": "sgcommunity_pack:diamond_crux"
     },
     "mysticalagriculture:limestone": {
         "tier": "mysticalagriculture:2",
-        "crux": "sgcommunity_pack:diamond_substrate"
+        "crux": "sgcommunity_pack:diamond_crux"
     },
     "mysticalagriculture:dye": {
         "tier": "mysticalagriculture:2",
-        "crux": "sgcommunity_pack:diamond_substrate"
+        "crux": "sgcommunity_pack:diamond_crux"
     },
     "mysticalagriculture:diamond": {
         "tier": "mysticalagriculture:2",
-        "crux": "sgcommunity_pack:diamond_substrate"
+        "crux": "sgcommunity_pack:diamond_crux"
     },
     "mysticalagriculture:lapis_lazuli": {
         "tier": "mysticalagriculture:2",
-        "crux": "sgcommunity_pack:diamond_substrate"
+        "crux": "sgcommunity_pack:diamond_crux"
     },
     "mysticalagriculture:redstone": {
         "tier": "mysticalagriculture:2",
-        "crux": "sgcommunity_pack:diamond_substrate"
+        "crux": "sgcommunity_pack:diamond_crux"
     },
     "mysticalagriculture:squid": {
         "tier": "mysticalagriculture:2",
-        "crux": "sgcommunity_pack:netherite_substrate"
+        "crux": "sgcommunity_pack:netherite_crux"
     },
     "mysticalagriculture:fish": {
         "tier": "mysticalagriculture:2",
-        "crux": "sgcommunity_pack:netherite_substrate"
+        "crux": "sgcommunity_pack:netherite_crux"
     },
     "mysticalagriculture:slime": {
         "tier": "mysticalagriculture:2",
-        "crux": "sgcommunity_pack:netherite_substrate"
+        "crux": "sgcommunity_pack:netherite_crux"
     },
     "mysticalagriculture:turtle": {
         "tier": "mysticalagriculture:2",
-        "crux": "sgcommunity_pack:netherite_substrate"
+        "crux": "sgcommunity_pack:netherite_crux"
     },
     "mysticalagriculture:armadillo": {
         "tier": "mysticalagriculture:2",
-        "crux": "sgcommunity_pack:netherite_substrate"
+        "crux": "sgcommunity_pack:netherite_crux"
     },
     "mysticalagriculture:pig": {
         "tier": "mysticalagriculture:2",
-        "crux": "sgcommunity_pack:netherite_substrate"
+        "crux": "sgcommunity_pack:netherite_crux"
     },
     "mysticalagriculture:chicken": {
         "tier": "mysticalagriculture:2",
-        "crux": "sgcommunity_pack:netherite_substrate"
+        "crux": "sgcommunity_pack:netherite_crux"
     },
     "mysticalagriculture:cow": {
         "tier": "mysticalagriculture:2",
-        "crux": "sgcommunity_pack:netherite_substrate"
+        "crux": "sgcommunity_pack:netherite_crux"
     },
     "mysticalagriculture:rabbit": {
         "tier": "mysticalagriculture:2",
-        "crux": "sgcommunity_pack:netherite_substrate"
+        "crux": "sgcommunity_pack:netherite_crux"
     },
     "mysticalagriculture:sheep": {
         "tier": "mysticalagriculture:2",
-        "crux": "sgcommunity_pack:netherite_substrate"
+        "crux": "sgcommunity_pack:netherite_crux"
     },
     "mysticalagriculture:honey": {
         "tier": "mysticalagriculture:2",
-        "crux": "sgcommunity_pack:netherite_substrate"
+        "crux": "sgcommunity_pack:netherite_crux"
     },
     "mysticalagriculture:netherite": {
         "tier": "mysticalagriculture:2",
-        "crux": "sgcommunity_pack:netherite_substrate"
+        "crux": "sgcommunity_pack:netherite_crux"
     },
     "mysticalagriculture:emerald": {
         "tier": "mysticalagriculture:2",
-        "crux": "sgcommunity_pack:netherite_substrate"
+        "crux": "sgcommunity_pack:netherite_crux"
     },
     "mysticalagriculture:bronze": {
         "tier": "mysticalagriculture:3",
-        "crux": "sgcommunity_pack:kinetic_substrate"
+        "crux": "sgcommunity_pack:kinetic_crux"
     },
     "mysticalagriculture:brass": {
         "tier": "mysticalagriculture:3",
-        "crux": "sgcommunity_pack:kinetic_substrate"
+        "crux": "sgcommunity_pack:kinetic_crux"
     },
     "mysticalagriculture:certus_quartz": {
         "tier": "mysticalagriculture:3",
-        "crux": "sgcommunity_pack:kinetic_substrate"
+        "crux": "sgcommunity_pack:kinetic_crux"
     },
     "mysticalagriculture:nether_quartz": {
         "tier": "mysticalagriculture:3",
-        "crux": "sgcommunity_pack:kinetic_substrate"
+        "crux": "sgcommunity_pack:kinetic_crux"
     },
     "mysticalagriculture:glowstone": {
         "tier": "mysticalagriculture:3",
-        "crux": "sgcommunity_pack:kinetic_substrate"
+        "crux": "sgcommunity_pack:kinetic_crux"
     },
     "mysticalagriculture:prismarine": {
         "tier": "mysticalagriculture:3",
-        "crux": "sgcommunity_pack:kinetic_substrate"
+        "crux": "sgcommunity_pack:kinetic_crux"
     },
     "mysticalagriculture:sculk": {
         "tier": "mysticalagriculture:3",
-        "crux": "sgcommunity_pack:kinetic_substrate"
+        "crux": "sgcommunity_pack:kinetic_crux"
     },
     "mysticalagriculture:zombie": {
         "tier": "mysticalagriculture:3",
-        "crux": "sgcommunity_pack:computational_substrate"
+        "crux": "sgcommunity_pack:computational_crux"
     },
     "mysticalagriculture:skeleton": {
         "tier": "mysticalagriculture:3",
-        "crux": "sgcommunity_pack:computational_substrate"
+        "crux": "sgcommunity_pack:computational_crux"
     },
     "mysticalagriculture:creeper": {
         "tier": "mysticalagriculture:3",
-        "crux": "sgcommunity_pack:computational_substrate"
+        "crux": "sgcommunity_pack:computational_crux"
     },
     "mysticalagriculture:spider": {
         "tier": "mysticalagriculture:3",
-        "crux": "sgcommunity_pack:computational_substrate"
+        "crux": "sgcommunity_pack:computational_crux"
     },
     "mysticalagriculture:phantom": {
         "tier": "mysticalagriculture:3",
-        "crux": "sgcommunity_pack:computational_substrate"
+        "crux": "sgcommunity_pack:computational_crux"
     },
     "mysticalagriculture:silicon": {
         "tier": "mysticalagriculture:3",
-        "crux": "sgcommunity_pack:computational_substrate"
+        "crux": "sgcommunity_pack:computational_crux"
     },
     "mysticalagriculture:obsidian": {
         "tier": "mysticalagriculture:3",
-        "crux": "sgcommunity_pack:computational_substrate"
+        "crux": "sgcommunity_pack:computational_crux"
     },
     "mysticalagriculture:electrum": {
         "tier": "mysticalagriculture:3",
-        "crux": "sgcommunity_pack:computational_substrate"
+        "crux": "sgcommunity_pack:computational_crux"
     },
     "mysticalagriculture:soulium": {
         "tier": "mysticalagriculture:4",
-        "crux": "sgcommunity_pack:mekanised_substrate"
+        "crux": "sgcommunity_pack:mekanised_crux"
     },
     "mysticalagriculture:end": {
         "tier": "mysticalagriculture:4",
-        "crux": "sgcommunity_pack:mekanised_substrate"
+        "crux": "sgcommunity_pack:mekanised_crux"
     },
     "mysticalagriculture:sky_stone": {
         "tier": "mysticalagriculture:4",
-        "crux": "sgcommunity_pack:mekanised_substrate"
+        "crux": "sgcommunity_pack:mekanised_crux"
     },
     "mysticalagriculture:fluix": {
         "tier": "mysticalagriculture:4",
-        "crux": "sgcommunity_pack:mekanised_substrate"
+        "crux": "sgcommunity_pack:mekanised_crux"
     },
     "mysticalagriculture:steel": {
         "tier": "mysticalagriculture:4",
-        "crux": "sgcommunity_pack:mekanised_substrate"
+        "crux": "sgcommunity_pack:mekanised_crux"
     },
     "mysticalagriculture:breeze": {
         "tier": "mysticalagriculture:4",
-        "crux": "sgcommunity_pack:reactive_substrate"
+        "crux": "sgcommunity_pack:reactive_crux"
     },
     "mysticalagriculture:blaze": {
         "tier": "mysticalagriculture:4",
-        "crux": "sgcommunity_pack:reactive_substrate"
+        "crux": "sgcommunity_pack:reactive_crux"
     },
     "mysticalagriculture:ghast": {
         "tier": "mysticalagriculture:4",
-        "crux": "sgcommunity_pack:reactive_substrate"
+        "crux": "sgcommunity_pack:reactive_crux"
     },
     "mysticalagriculture:enderman": {
         "tier": "mysticalagriculture:4",
-        "crux": "sgcommunity_pack:reactive_substrate"
+        "crux": "sgcommunity_pack:reactive_crux"
     },
     "mysticalagriculture:wither_skeleton": {
         "tier": "mysticalagriculture:4",
-        "crux": "sgcommunity_pack:reactive_substrate"
+        "crux": "sgcommunity_pack:reactive_crux"
     },
     "mysticalagriculture:osmium": {
         "tier": "mysticalagriculture:4",
-        "crux": "sgcommunity_pack:reactive_substrate"
+        "crux": "sgcommunity_pack:reactive_crux"
     },
     "mysticalagriculture:sulfur": {
         "tier": "mysticalagriculture:4",
-        "crux": "sgcommunity_pack:reactive_substrate"
+        "crux": "sgcommunity_pack:reactive_crux"
     },
     "mysticalagriculture:tin": {
         "tier": "mysticalagriculture:5",
-        "crux": "sgcommunity_pack:deep_space_substrate"
+        "crux": "sgcommunity_pack:deep_space_crux"
     },
     "mysticalagriculture:lead": {
         "tier": "mysticalagriculture:5",
-        "crux": "sgcommunity_pack:deep_space_substrate"
+        "crux": "sgcommunity_pack:deep_space_crux"
     },
     "mysticalagriculture:platinum": {
         "tier": "mysticalagriculture:5",
-        "crux": "sgcommunity_pack:deep_space_substrate"
+        "crux": "sgcommunity_pack:deep_space_crux"
     },
     "mysticalagriculture:fluorite": {
         "tier": "mysticalagriculture:5",
-        "crux": "sgcommunity_pack:naquadria_substrate"
+        "crux": "sgcommunity_pack:naquadria_crux"
     },
     "mysticalagriculture:uranium": {
         "tier": "mysticalagriculture:5",
-        "crux": "sgcommunity_pack:naquadria_substrate"
+        "crux": "sgcommunity_pack:naquadria_crux"
     },
     "mysticalagriculture:experience": {
         "tier": "mysticalagradditions:6",
-        "crux": "sgcommunity_pack:positronic_substrate"
+        "crux": "sgcommunity_pack:positronic_crux"
     },
     "mysticalagriculture:refined_glowstone": {
         "tier": "mysticalagradditions:6",
-        "crux": "sgcommunity_pack:positronic_substrate"
+        "crux": "sgcommunity_pack:positronic_crux"
     },
     "mysticalagriculture:refined_obsidian": {
         "tier": "mysticalagradditions:6",
-        "crux": "sgcommunity_pack:positronic_substrate"
+        "crux": "sgcommunity_pack:positronic_crux"
     },
     "mysticalagradditions:nether_star": {
         "tier": "mysticalagradditions:6",
-        "crux": "sgcommunity_pack:positronic_substrate"
+        "crux": "sgcommunity_pack:positronic_crux"
+    },
+    "mysticalagradditions:dragon_egg": {
+        "tier": "mysticalagradditions:6",
+        "crux": "sgcommunity_pack:positronic_crux"
     },
     "mysticalagriculture:rubber": {
         "enabled": false

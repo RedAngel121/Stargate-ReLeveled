@@ -1,0 +1,69 @@
+{
+  "title": "Not So Fast",
+  "sort_order": 4,
+  "chapter": "questlog:ae2",
+  "description": "Unlike standard AE2 progression, processors cannot be crafted using only printed circuits and redstone. Additional electronic components are required to complete the assembly process. Early on, Vacuum Tubes provide a simple and reliable solution, though more advanced options such as MOSFETs become worthwhile as your infrastructure grows.\n\nMake an AE2 Processor.",
+  "icon": {
+    "item": "ae2:engineering_processor"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:making_crystals"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "name": "Obtain any AE2 Processor",
+      "icon": "ae2:logic_processor",
+      "objectives": [
+        {
+          "type": "questlog:item_obtain",
+          "name": "Logic Processor",
+          "icon": "ae2:logic_processor",
+          "item": "ae2:logic_processor"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "name": "Calculation Processor",
+          "icon": "ae2:calculation_processor",
+          "item": "ae2:calculation_processor"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "name": "Engineering Processor",
+          "icon": "ae2:engineering_processor",
+          "item": "ae2:engineering_processor"
+        }
+      ]
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ae2:logic_processor",
+      "item": "ae2:logic_processor",
+      "count": 8
+    },
+    {
+      "type": "questlog:item",
+      "icon": "ae2:calculation_processor",
+      "item": "ae2:calculation_processor",
+      "count": 4
+    },
+    {
+      "type": "questlog:item",
+      "icon": "ae2:engineering_processor",
+      "item": "ae2:engineering_processor",
+      "count": 2
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

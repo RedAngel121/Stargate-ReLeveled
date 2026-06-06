@@ -1,42 +1,42 @@
 // priority: 0
 console.info("Loading Chemicals")
 
-StartupEvents.registry("mekanism:chemical", event => {
+StartupEvents.registry("mekanism:chemical", chem => {
 
-    event.create("mekanism:blaze_gas")
+    chem.create("sgcommunity_pack:blaze_gas")
         .displayName("Blaze Gas")
-        .tint(0xF18A22);
+        .tint(0xF18A22)
 
-    event.create("mekanism:phosphorus")
+    chem.create("sgcommunity_pack:phosphorus")
         .displayName("Phosphorus Gas")
-        .tint(0xFFFFDD);
+        .tint(0xFFFFDD)
 
-    event.create("mekanism:silicon")
+    chem.create("sgcommunity_pack:silicon")
         .displayName("Molten Silicon")
-        .tint(0xEECCCC);
+        .tint(0xEECCCC)
 
-    event.create("mekanism:doped_silicon")
+    chem.create("sgcommunity_pack:doped_silicon")
         .displayName("Doped Molten Silicon")
-        .tint(0xFFCCDD);
+        .tint(0xFFCCDD)
 
-    event.create("mekanism:photoresist")
+    chem.create("sgcommunity_pack:photoresist")
         .displayName("Photoresist")
-        .tint(0xFF643C);
+        .tint(0xFF643C)
 
-    event.create("mekanism:boron_trifluoride")
+    chem.create("sgcommunity_pack:boron_trifluoride")
         .displayName("Boron Trifluoride")
-        .tint(0xFFFFFF);
+        .tint(0xFFFFFF)
 
-    event.create("mekanism:boron_trioxide")
+    chem.create("sgcommunity_pack:boron_trioxide")
         .displayName("Boron Trioxide")
-        .tint(0xFFFFFF);
+        .tint(0xFFFFFF)
 
-    event.create("mekanism:tree_sap")
+    chem.create("sgcommunity_pack:tree_sap")
         .displayName("Tree Sap")
-        .tint(0xc06000);
+        .tint(0xc06000)
 
-    event.create("mekanism:naquadria")
+    chem.create("sgcommunity_pack:naquadria")
         .displayName("Naquadria")
-        .tint(0x444444);
+        .tint(0x444444)
 
-});
+})

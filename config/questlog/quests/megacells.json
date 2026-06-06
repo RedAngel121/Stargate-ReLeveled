@@ -1,0 +1,35 @@
+{
+  "title": "Smaller on the Outside",
+  "sort_order": 31,
+  "chapter": "questlog:ae2",
+  "description": "The 1M Storage Component is an advanced storage core used in the creation of high-capacity MEGA Cells, capable of holding absurd quantities of items within a single digital structure.\n\nMake the 1M Component.",
+  "icon": {
+    "item": "megacells:cell_component_1m"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:accumulation_processor"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "megacells:cell_component_1m",
+      "item": "megacells:cell_component_1m"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:stone"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

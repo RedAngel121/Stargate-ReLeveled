@@ -1,0 +1,35 @@
+{
+  "title": "Crafting Resources",
+  "chapter": "questlog:progression",
+  "description": "Ore veins are temporary. Agriculture is forever.\n\nMystical Agriculture allows you to grow the materials you need rather than hunting them down across dimensions.\n\nCraft your first Mystical Seeds and begin turning farmland into industrial production.",
+  "icon": {
+    "item": "mysticalagriculture:inferium_essence"
+  },
+  "requirements": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "mysticalagriculture:inferium_essence"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "mysticalagriculture:prosperity_seed_base",
+      "icon": "mysticalagriculture:prosperity_seed_base"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "mysticalagriculture:infusion_crystal",
+      "icon": "mysticalagriculture:infusion_crystal"
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+5 Levels",
+      "experience": 65
+    }
+  ]
+}

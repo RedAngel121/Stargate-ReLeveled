@@ -1,0 +1,39 @@
+{
+  "title": "Experience Storage",
+  "sort_order": 1,
+  "chapter": "questlog:tips_tricks",
+  "description": "Start by building a dark 9x9 room, place the mob masher in the corner and a spawner in the middle, use fans or conveyors to move them into the masher and collect your reward!\n\nPro Tip: Experience is actually a fluid.",
+  "icon": {
+    "item": "cognition:memory_tablet"
+  },
+  "requirements": [
+    {
+      "type": "questlog:stat",
+      "name": "BROKEN - MINIMUM XP LEVEL 15",
+      "icon": "create:experience_nugget",
+      "stat": "minecraft:walk_one_cm",
+      "retroactive": false
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "cognition:experience_obelisk",
+      "item": "cognition:experience_obelisk"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "cognition:calcarine_matrix",
+      "item": "cognition:calcarine_matrix"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

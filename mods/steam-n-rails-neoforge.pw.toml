@@ -1,13 +1,13 @@
 name = "Steam 'n' Rails Neoforge"
-filename = "railways-0.2.0-beta.2+neoforge-mc1.21.1.jar"
+filename = "railways-0.2.0+neoforge-mc1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "2767bb73a33358b7796239310416b13db476f0b4"
+hash = "9d52eef0772b81de397271b98c0201a59733f9c6"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7919366
+file-id = 8095851
 project-id = 1414670

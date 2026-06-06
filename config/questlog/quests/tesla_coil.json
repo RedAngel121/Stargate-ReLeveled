@@ -1,0 +1,42 @@
+{
+  "title": "Electification",
+  "sort_order": 12,
+  "chapter": "questlog:kinetic_curcuits",
+  "description": "The Tesla Coil can charge items on a depot underneath it, like Certus Quartz or Gold. It can also charge items that need power to function! its not very fast... but it works in a pinch...\n\nMake your first Tesla Coil and get chargin!.",
+  "icon": {
+    "item": "createaddition:tesla_coil"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:crafters"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "createaddition:tesla_coil",
+      "item": "createaddition:tesla_coil"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ae2:charged_certus_quartz_crystal",
+      "item": "ae2:charged_certus_quartz_crystal",
+      "count": 8
+    },
+    {
+      "type": "questlog:item",
+      "icon": "create:depot",
+      "item": "create:depot"
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+5 Levels",
+      "experience": 65
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Hard Paper",
+  "sort_order": 6,
+  "chapter": "questlog:kinetic_curcuits",
+  "description": "Cardboard is the next big thing, and its got some really awesome uses. You can make an automatic inventory system if you want and even an entirely automated crafting setup. It all starts with cardboard and a few extras.\n\nMake some cardboard.",
+  "icon": {
+    "item": "create:cardboard"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:mixer"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "create:cardboard",
+      "required_amount": 4,
+      "item": "create:cardboard"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "create:item_hatch",
+      "item": "create:item_hatch"
+    },
+    {
+      "type": "questlog:item",
+      "icon": "create:cardboard_sword",
+      "item": "create:cardboard_sword"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

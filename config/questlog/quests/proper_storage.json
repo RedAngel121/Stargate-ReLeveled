@@ -1,0 +1,53 @@
+{
+  "title": "This is the Way",
+  "sort_order": 5,
+  "chapter": "questlog:ae2",
+  "description": "Place down your ME Drive and connect it to your terminal using Fluix Cables. Then attach an Energy Acceptor and provide power to bring the network online. Unfortunately, an empty storage network is just an extremely expensive light show, so you will still need Storage Cells to actually store items.\n\nMake a Drive, Terminal, and Energy Acceptor.",
+  "icon": {
+    "item": "ae2:drive"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:making_processors"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ae2:drive",
+      "item": "ae2:drive"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ae2:energy_acceptor",
+      "item": "ae2:energy_acceptor"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ae2:terminal",
+      "item": "ae2:terminal"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ae2:certus_quartz_crystal",
+      "item": "ae2:certus_quartz_crystal",
+      "count": 16
+    },
+    {
+      "type": "questlog:item",
+      "icon": "ae2:sky_stone_block",
+      "item": "ae2:sky_stone_block",
+      "count": 16
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

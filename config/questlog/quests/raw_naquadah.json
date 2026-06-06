@@ -1,0 +1,39 @@
+{
+  "title": "Channeling Energy",
+  "sort_order": 4,
+  "chapter": "questlog:sgj",
+  "description": "Naquadah can be found throughout Abydos and serves as the foundation of nearly every piece of Stargate technology. You'll need it for gates, power systems, components, and countless future projects. If you're unsure how much to collect, the answer is more. It's always more. Future-you will inevitably discover another machine demanding a suspicious amount of Naquadah.",
+  "icon": {
+    "item": "sgjourney:raw_naquadah"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:travel_to_abydos"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "name": "Mine Naquadah",
+      "icon": "sgjourney:naquadah_ore",
+      "required_amount": 64,
+      "item": "sgjourney:raw_naquadah"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "sgjourney:raw_naquadah",
+      "item": "sgjourney:raw_naquadah",
+      "count": 64
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

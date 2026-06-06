@@ -1,0 +1,37 @@
+{
+  "title": "Infinite Milk",
+  "sort_order": 1,
+  "chapter": "questlog:tips_tricks",
+  "description": "By dropping an anvil onto a cow standing on a Milk Jar, you can get the item Cow in a Jar. A Cow in a Jar will produce unlimited milk and can be used in Cooking For Blockheads kitchens.\n\nAlternatively, you can use a deployer with a bucket on a cow for more rapid production.",
+  "icon": {
+    "item": "cookingforblockheads:cow_jar"
+  },
+  "requirements": [
+    {
+      "type": "questlog:entity_approach",
+      "entity": "minecraft:cow",
+      "range": 5
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "cookingforblockheads:cow_jar",
+      "item": "cookingforblockheads:cow_jar"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:milk_bucket",
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

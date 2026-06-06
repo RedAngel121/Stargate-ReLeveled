@@ -1,0 +1,37 @@
+{
+  "title": "Big Multi-Steppy",
+  "sort_order": 6,
+  "chapter": "questlog:mekanised_circuits",
+  "description": "Put a silicon wafer inside a chemical injector and inject water vapor to begin the process. After that apply some Photoresist and use the Photomask in an Inscriber to setup the next series. You will need an ample supply of Water Vapor, Photoresist, Boron Trifluoride, Hydrofluoric Acid, Phosphorus, and Molten Silicon. This is a 20 step process, you cannot skip ahead or bypass this, I've checked.\n\nMake 14 Injectors and 6 Inscribers to automate this end to end. OR you can automate it using AE2 if you have that setup already.",
+  "icon": {
+    "item": "sgcommunity_pack:integrated_circuit_wafer"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:photomask"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:integrated_circuit_wafer",
+      "item": "sgcommunity_pack:integrated_circuit_wafer"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ae2:blank_pattern",
+      "item": "ae2:blank_pattern",
+      "count": 32
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+15 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 345
+    }
+  ]
+}

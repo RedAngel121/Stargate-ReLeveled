@@ -61,7 +61,7 @@ ServerEvents.recipes(event => {
         type: "mekanism:injecting",
         item_input: stagedWaferInput(2, "Step 2: Apply Photoresist"),
         chemical_input: {
-            chemical: "mekanism:photoresist",
+            chemical: "sgcommunity_pack:photoresist",
             amount: 2
         },
         output: stagedWaferOutput(3, "Step 3: Expose Photoresist"),
@@ -91,7 +91,7 @@ ServerEvents.recipes(event => {
         type: "mekanism:injecting",
         item_input: stagedWaferInput(5, "Step 5: Apply Photoresist"),
         chemical_input: {
-            chemical: "mekanism:photoresist",
+            chemical: "sgcommunity_pack:photoresist",
             amount: 2
         },
         output: stagedWaferOutput(6, "Step 6: Expose Photoresist"),
@@ -110,7 +110,7 @@ ServerEvents.recipes(event => {
         type: "mekanism:injecting",
         item_input: stagedWaferInput(7, "Step 7: Inject Phosphorus"),
         chemical_input: {
-            chemical: "mekanism:phosphorus",
+            chemical: "sgcommunity_pack:phosphorus",
             amount: 1
         },
         output: stagedWaferOutput(8, "Step 8: Apply Photoresist"),
@@ -121,7 +121,7 @@ ServerEvents.recipes(event => {
         type: "mekanism:injecting",
         item_input: stagedWaferInput(8, "Step 8: Apply Photoresist"),
         chemical_input: {
-            chemical: "mekanism:photoresist",
+            chemical: "sgcommunity_pack:photoresist",
             amount: 2
         },
         output: stagedWaferOutput(9, "Step 9: Expose Photoresist"),
@@ -151,7 +151,7 @@ ServerEvents.recipes(event => {
         type: "mekanism:injecting",
         item_input: stagedWaferInput(11, "Step 11: Inject Silicon"),
         chemical_input: {
-            chemical: "mekanism:silicon",
+            chemical: "sgcommunity_pack:silicon",
             amount: 5
         },
         output: stagedWaferOutput(12, "Step 12: Apply Photoresist"),
@@ -162,7 +162,7 @@ ServerEvents.recipes(event => {
         type: "mekanism:injecting",
         item_input: stagedWaferInput(12, "Step 12: Apply Photoresist"),
         chemical_input: {
-            chemical: "mekanism:photoresist",
+            chemical: "sgcommunity_pack:photoresist",
             amount: 2
         },
         output: stagedWaferOutput(13, "Step 13: Expose Photoresist"),
@@ -192,7 +192,7 @@ ServerEvents.recipes(event => {
         type: "mekanism:injecting",
         item_input: stagedWaferInput(15, "Step 15: Apply Photoresist"),
         chemical_input: {
-            chemical: "mekanism:photoresist",
+            chemical: "sgcommunity_pack:photoresist",
             amount: 2
         },
         output: stagedWaferOutput(16, "Step 16: Expose Photoresist"),
@@ -211,7 +211,7 @@ ServerEvents.recipes(event => {
         type: "mekanism:injecting",
         item_input: stagedWaferInput(17, "Step 17: Inject Boron"),
         chemical_input: {
-            chemical: "mekanism:boron_trifluoride",
+            chemical: "sgcommunity_pack:boron_trifluoride",
             amount: 2
         },
         output: stagedWaferOutput(18, "Step 18: Apply Photoresist"),
@@ -222,7 +222,7 @@ ServerEvents.recipes(event => {
         type: "mekanism:injecting",
         item_input: stagedWaferInput(18, "Step 18: Apply Photoresist"),
         chemical_input: {
-            chemical: "mekanism:photoresist",
+            chemical: "sgcommunity_pack:photoresist",
             amount: 2
         },
         output: stagedWaferOutput(19, "Step 19: Expose Photoresist"),
@@ -241,7 +241,7 @@ ServerEvents.recipes(event => {
         type: "mekanism:injecting",
         item_input: stagedWaferInput(20, "Step 20: Inject Phosphorus"),
         chemical_input: {
-            chemical: "mekanism:phosphorus",
+            chemical: "sgcommunity_pack:phosphorus",
             amount: 2
         },
         output: {

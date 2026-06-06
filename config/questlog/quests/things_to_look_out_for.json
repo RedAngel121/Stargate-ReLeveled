@@ -1,0 +1,79 @@
+{
+  "title": "Things to look out for",
+  "sort_order": -1,
+  "chapter": "questlog:tips_tricks",
+  "include_in_main": true,
+  "description": "While traveling around the world, it is almost guaranteed that you might stumble upon something that may be useful later in the game.\n\nAs such, you should look out for:\n• Wizard Towers\n• Fallen Meteors\n• Jungle Pyramids\n• Phosphorite\n• Borax\n• Villages.",
+  "icon": {
+    "item": "minecraft:bookshelf"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:welcome"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "name": "Visit A Point of Interest",
+      "objectives": [
+        {
+          "type": "questlog:visit_structure",
+          "name": "Visit a Wizard Tower",
+          "structure": "apotheosis:tower_main"
+        },
+        {
+          "type": "questlog:visit_structure",
+          "name": "Visit a Wizard Tower",
+          "structure": "apotheosis:tower_leaf"
+        },
+        {
+          "type": "questlog:visit_structure",
+          "name": "Visit a Wizard Tower",
+          "structure": "apotheosis:tower_sand"
+        },
+        {
+          "type": "questlog:visit_structure",
+          "name": "Visit a Wizard Tower",
+          "structure": "apotheosis:tower_spruce"
+        },
+        {
+          "type": "questlog:visit_structure",
+          "name": "Visit a Meteor",
+          "structure": "ae2:meteorite"
+        },
+        {
+          "type": "questlog:visit_structure",
+          "name": "Visit a Pyramid",
+          "structure": "sgjourney:goauld_temple/jungle_pyramid/jungle_pyramid"
+        },
+        {
+          "type": "questlog:visit_structure",
+          "name": "Visit a Pyramid",
+          "structure": "sgjourney:goauld_temple/desert_pyramid/desert_pyramid"
+        },
+        {
+          "type": "questlog:visit_structure",
+          "name": "Visit a Pyramid",
+          "structure": "sgjourney:goauld_temple/desert_pyramid/abandoned/desert_pyramid_abandoned"
+        }
+      ]
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "apotheosis:gem_dust",
+      "item": "apotheosis:gem_dust",
+      "count": 2
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+10 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 180
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Apotheosis",
+  "sort_order": 1,
+  "chapter": "questlog:tips_tricks",
+  "description": "Apotheosis has many features, including potion charms, mini-boss mobs with amazing loot, placeable and adjustable mob spawners, and a complete weapon and armor modification system. You may notice that every quest gives some experience, this is because you need a lot of XP to use Apotheosis to its full potential!\n\nWithout any menus open, press CTRL + T to get started.",
+  "icon": {
+    "item": "apotheosis:gem"
+  },
+  "requirements": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "#c:tools"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "#c:armors"
+    },
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:things_to_look_out_for"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "quest": "questlog:apotheosis"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "apotheosis:iron_upgrade_smithing_template",
+      "item": "apotheosis:iron_upgrade_smithing_template"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ],
+  "overlay_height": 200
+}

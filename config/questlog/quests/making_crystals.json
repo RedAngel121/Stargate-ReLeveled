@@ -1,0 +1,57 @@
+{
+  "title": "Quartz by the Dozen",
+  "sort_order": 3,
+  "chapter": "questlog:ae2",
+  "description": "Now that you have created Charged Certus Quartz, expanding your crystal supply becomes much easier. Dropping Charged Certus Quartz together with Certus Quartz Blocks into water will produce Budding Certus Quartz Blocks. When placed in the world, these blocks slowly grow new Certus Quartz clusters over time. Harvest and repeat the process as needed to maintain a steady supply of Certus Quartz Crystals and Dust.",
+  "icon": {
+    "item": "ae2:flawless_budding_quartz"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:applied_machines"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "name": "Obtain any Budding Quartz Block",
+      "icon": "ae2:damaged_budding_quartz",
+      "objectives": [
+        {
+          "type": "questlog:item_obtain",
+          "name": "Damaged Budding Quartz",
+          "icon": "ae2:damaged_budding_quartz",
+          "item": "ae2:damaged_budding_quartz"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "name": "Chipped Budding Quartz",
+          "icon": "ae2:chipped_budding_quartz",
+          "item": "ae2:chipped_budding_quartz"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "name": "Flawed Budding Quartz",
+          "icon": "ae2:flawed_budding_quartz",
+          "item": "ae2:flawed_budding_quartz"
+        }
+      ]
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ae2:charged_certus_quartz_crystal",
+      "item": "ae2:charged_certus_quartz_crystal",
+      "count": 64
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

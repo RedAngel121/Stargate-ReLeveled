@@ -1,0 +1,31 @@
+{
+  "title": "Crystallizing the Future",
+  "sort_order": 14,
+  "chapter": "questlog:sgj",
+  "description": "The Advanced Crystallizer produces a variety of complex, high-tier crystals used in Stargate construction. These advanced materials form the core components of Stargate interfaces and the gates themselves, enabling stable wormhole creation and control. At this stage, you are no longer “crafting materials” so much as carefully arranging controlled energy lattices into 4D shapes.",
+  "icon": {
+    "item": "sgjourney:advanced_crystallizer"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:crystallizer"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgjourney:advanced_crystallizer",
+      "item": "sgjourney:advanced_crystallizer"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

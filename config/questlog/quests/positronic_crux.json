@@ -1,0 +1,36 @@
+{
+  "title": "Positronic Crux",
+  "sort_order": 11,
+  "chapter": "questlog:progression",
+  "description": "The pinnacle of synthetic cultivation.\n\nPositronic Cruxes enable growth of some of the rarest resources imaginable, including Refined Obsidian, Refined Glowstone, Naquadah, Nether Star, and Experience Essence.\n\nYou are no longer farming. You are manufacturing reality.",
+  "icon": {
+    "item": "sgcommunity_pack:positronic_crux"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:naquadria_crux"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:positronic_crux",
+      "item": "sgcommunity_pack:positronic_crux"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "advanced_ae:quantum_core",
+      "item": "advanced_ae:quantum_core"
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+15 Levels",
+      "experience": 345
+    }
+  ]
+}

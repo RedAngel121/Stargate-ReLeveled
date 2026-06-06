@@ -1,0 +1,37 @@
+{
+  "title": "Digital Barrels",
+  "sort_order": 12,
+  "chapter": "questlog:ae2",
+  "description": "Cable Facades allow AE2 cables to be covered with blocks, hiding messy network wiring while preserving full functionality. Your machines still connect normally, but your base finally stops looking like it was built inside a fluorescent spaghetti factory.\n\nMake some Facades",
+  "icon": {
+    "item": "cable_facades:facade"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:smart_cables"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "cable_facades:facade",
+      "item": "cable_facades:facade"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "cable_facades:directional_facade",
+      "item": "cable_facades:directional_facade",
+      "count": 12
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

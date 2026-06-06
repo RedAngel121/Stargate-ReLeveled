@@ -1,0 +1,37 @@
+{
+  "title": "The Whole Planet",
+  "sort_order": 22,
+  "chapter": "questlog:ae2",
+  "description": "The Infinity Booster Card dramatically increases the range of wireless terminals, allowing access to your AE2 network from virtually anywhere within the same dimension.\n\nMake an Infinity Range Booster",
+  "icon": {
+    "item": "aeinfinitybooster:infinity_card"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:wireless_booster"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "aeinfinitybooster:infinity_card",
+      "item": "aeinfinitybooster:infinity_card"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:ender_eye",
+      "item": "minecraft:ender_eye",
+      "count": 4
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+10 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 180
+    }
+  ]
+}

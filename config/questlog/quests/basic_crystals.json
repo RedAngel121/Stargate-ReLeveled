@@ -1,0 +1,32 @@
+{
+  "title": "Simplicity is Key",
+  "sort_order": 15,
+  "chapter": "questlog:sgj",
+  "description": "A Basic Crystal is created by combining Liquid Naquadah with a Crystal Base in the Crystallizer. It serves as the foundational component for early Stargate systems and is required in a wide range of introductory crafting recipes. It is, essentially, the point where raw energy and structured material agree to cooperate... reluctantly.",
+  "icon": {
+    "item": "sgjourney:large_control_crystal"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:crystallizer"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "name": "Obtain any Basic Crystal",
+      "icon": "sgjourney:control_crystal",
+      "item": "#sgjourney:crystal"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

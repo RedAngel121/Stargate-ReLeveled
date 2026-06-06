@@ -1,64 +1,76 @@
+### Quest Notes:
+- Misc Mekanism Quests added to the Mekanised Chapter
+- AE2 Quests: Add Rewards + setup
+- Stellaris Start Quest: Get Steel? somthn else?
+- SGJ Start Quest: Visit Village? OW Pyramid? Golden Idol? Read Text?
+
+### STILL TODO:
+- Myst Ag Tools require Naq Tools as base items 
+- PAXEL REQ FOR MEKATOOL
+- Disable Transport Terminal and Transport Chip from Gauges and Switches
+- AE2 concurrent processor and quantum processor need to be updated to include endgame items
+- Configure Spice of Life Onion Edition
+- Figure out how Solstice Essentials works
+- Add /surface command that takes you to the surface of your current location?
+- Increase the difficulty of making MekMM Planters
+- Increase the output numbers for naq generators
+- TAGS: CreateAdditions bio pellet and pellet block need to be adjusted to be bio-fuels compatable
+- Chisel Blocks: Aluminum, Cobalt, Invar, Nickel, Platinum, and Silver - These have no recipe and need to be added to the chisel workbench somehow
+- find a way to do easymode questlines instead of the command
+- Oredictionificator replacement?
+- ~~ADD DTN+POP~~
+
 ### See how hard this is:
-RedΛngel: I want to expand the sgj dims and add more ores and stuff
-PheWitch: Can we just get a giant cave dim
-RedΛngel: Like the Nether but with overworld blocks?
-PheWitch: Yee
-RedΛngel: I can agree with that, adding a new dimension isn't easy, biomes and ores need to be accounted for... I would have to add a new Stargate structure too...
+Me       : I want to expand the sgj dims and add more ores and stuff
+Request  : Can we just get a giant cave dim?
+Me       : Like the Nether but with overworld blocks?
+Request  : Yee
+Me       : I can agree with that, adding a new dimension isn't easy, biomes and ores need to be accounted for... I would have to add a new Stargate structure too...
+Me       : oh maybe i could look into adding that city mod that adds houses and skyscrapers and whatnot for a new vacated city dim... its a lot but its not a bad idea
 
-# FTB Replacements:
-### Quests:
-- https://modrinth.com/mod/odyssey-quests wait on 1.21.1 update?
-- https://modrinth.com/mod/questlog an option that works well with vanilla
-- https://www.curseforge.com/minecraft/mc-mods/hardcore-questing-mode oldschool quest tree
-
-### Claims:
-- https://modrinth.com/mod/odyssey-claims wait on 1.21.1 update?
-- https://www.curseforge.com/minecraft/mc-mods/open-parties-and-claims is extremely powerful and easy to use (add Xaero's World Map/Minimap)
-- Keep FLAN but dont make it the primary way to claim
-
-### Essentials:
-- Do I even want these commands? /back would be useful but most of these would be useless once the transport rings rewrite is completed
-- https://modrinth.com/mod/odyssey-roles potentially too powerful
-- https://modrinth.com/mod/solstice-essentials i havent even looked at this yet
-
-### Cookta's List:
-- SGJ Ponder (waiting on 1.21.1 update to re-add it)
-- unlimitedperipheralworks (drop until update, talk to author about update timeframe)
-- Gauges and Switches (waiting on 1.21.1 update to re-add it)
-- DimStruc Restrict mod needs to be updated to handle the Overworld Mirror Stargate generation/prevention
-- Fix custom iris smithing Kubejs script
+### Unfinished Mods:
 
 ====================================================================================================
 
+# THIS UPDATE IS NOT COMPATABLE WITH 1.20.1 WORLDS
 ### Changes:
 - Updated MC to 1.21.1
-- Swapped to Neoforge 21.1.228
-- Create: Steam and Rails (Replaced with unofficial version for 1.21.1)
-- Replace Chat Heads with ChatPlus
-- Stellaris (Replaces Ad Astra and Questline)
+- Swapped to Neoforge 21.1.230
+- Updated ModPack Thumbnail
+
+- ChatPlus (Replaces Chat Heads)
+- Stellaris (Replaces Ad Astra)
 - Extra Sponges (Replaces simple sponge mod)
 - Corpse (Replaces Gravestones and provides curios compat)
+- Viscord (Replaces Discord Chat Integration)
+- Xaero's Map (Replaces JourneyMap)
+- Questlog (Replaces FTB Quests)
+- Open Parties and Claims (Replaces FTB Chunks)
+- Command Replacement Mods (Replaces FTB Essentials):
+  - Telepass (Replaces `/tpa` Command)
+  - Inv View (Replaces `/invsee` Command)
+
+- Updated SGCommunity Pack Items to display proper mod name instead of sgcommunity_pack
+- Added Level Consumption to Natures/Explorers Compass usage
 - Added SGJourney Blocks and fluids to RFTools Dimlets
-- Discord Chat Integration replaced with https://www.curseforge.com/minecraft/mc-mods/viscord
 - Converted the login book into a quest ~~cause no one really reads it anyway~~
+- And probably a lot more things I forgot to write down
 
 ### Additions:
 - Construction Sticks
+- Tiny Coal
+- Cognition
 - Veinminer Enchantment
+- Potions Master
 - Nullscape
 - BetterEnd and Dependancies:
   - BCLib
   - WunderLib
   - WorldWeaver
-- New DarkHax Dependancies:
-  - Prickle
-  - Nyctography
-- New Apotheosis Dependancies:
-  - Apothic Spawners
-  - Apothic Enchanting
-- New Immersive Paintings Dependancy: Fzzy Config
 - Gateways to Eternity
 - Structure Overlapless
+- Spice of Life: Onion Edition
+  - Creative Core
 - XK's Decoration and Dependancies:
   - Kiwi
   - Forgified Fabric API
@@ -72,23 +84,35 @@ RedΛngel: I can agree with that, adding a new dimension isn't easy, biomes and 
 - ExtendedAE
   - Glodium
 - Mekanism: More Machine
-- InvMove
+
+- New DarkHax Dependancies:
+  - Prickle
+  - Nyctography
+- New Apotheosis Dependancies:
+  - Apothic Spawners
+  - Apothic Enchanting
+- New Immersive Paintings Dependancy: Fzzy Config
 
 ### Removals:
+- The Entire FTB Suite
 - Botarium
 - Canary
 - Dairy Peripherals
 - Experimental Settings Disabler
 - MrCrayfish's Furniture Mod (Duplicate)
 - Game Stages
-- FTB Item Filters
+- Utilitix
 - Mekanism Covers (Dupe for Cable Facades)
 - Numismatics - replaced with default create trading mechanics
-- kubejs-botany-pots (replaced with Myst AG + custom seeds/recipes)
+- KubeJS Botany Pots (replaced with Myst AG + custom seeds/recipes)
+- unlimitedperipheralworks (Mod not Updated... Author says: "I have plans for this, but I honestly can't give any deadline for when it happen.")
 
 ====================================================================================================
 
 ### Long Term Goals:
-- Integrate Oritech - this would be amazing to add compat for, make even more complex circuits and recipe chains
-- Endgame Quests - ZPM Reward?
-- ZPM replication options for endgame (talk to cookta)
+- Possible integration? https://www.curseforge.com/minecraft/mc-mods/power-grid
+- Add Ars Elixirum for Potion Making after it gets properly updated > then check apoth charms compat
+- Integrate Oritech - this would be amazing to add compat for, make even more complex circuits and recipe chains... make a ZPM with it?
+- Super Endgame Quests - ZPM hub Reward?
+- ZPM replication options for endgame (talk to cookta) > use the Antiprotonic Nucleosynthesizer
+- Add Tempad as an After-Oritech endgame TP item that can(t?) travel between dims - requires ZPM?

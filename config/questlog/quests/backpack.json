@@ -1,0 +1,39 @@
+{
+  "title": "Backpack Backpack!",
+  "sort_order": 1,
+  "chapter": "questlog:tips_tricks",
+  "description": "Getting Leather, String, a Chest, and throwing them together in the crafting table makes the most OP item in the modpack, A Backpack! Carry everything with you all the time!\n\nAnd they have upgrades to increase capacity, hold Fluids/XP/Energy, as well as put a variety of workstations in them... it can even feed you!.",
+  "icon": {
+    "item": "sophisticatedbackpacks:diamond_backpack"
+  },
+  "requirements": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:leather"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "name": "Obtain a Backpack",
+      "icon": "sophisticatedbackpacks:diamond_backpack",
+      "item": "#curios:back"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "name": "Make some chests too",
+      "icon": "minecraft:lever",
+      "item": "minecraft:lever",
+      "count": 8
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

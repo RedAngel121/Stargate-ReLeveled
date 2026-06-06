@@ -1,0 +1,37 @@
+{
+  "title": "Is it supposed to look like that?",
+  "sort_order": 41,
+  "chapter": "questlog:stellaris",
+  "description": "Collect Corronium Ore",
+  "icon": {
+    "item": "stellaris:venus_corrunium_ore"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:venus_travel"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:block_mine",
+      "name": "Mine Corronium Ore",
+      "icon": "stellaris:venus_corrunium_ore",
+      "block": "stellaris:venus_corrunium_ore"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "stellaris:jet_suit_boots",
+      "item": "stellaris:jet_suit_boots"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Mixing Things Up",
+  "sort_order": 5,
+  "chapter": "questlog:kinetic_curcuits",
+  "description": "You are well on the way to being a master of the basics, time to make a Mixer and Basin to start making Molten Glass... But first, you have to make a trip to the Nether.",
+  "icon": {
+    "item": "create:mechanical_mixer"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:getting_smashed"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "create:mechanical_mixer",
+      "item": "create:mechanical_mixer"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "create:basin",
+      "item": "create:basin"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "create:empty_blaze_burner",
+      "item": "create:empty_blaze_burner"
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+5 Levels",
+      "experience": 65
+    }
+  ]
+}

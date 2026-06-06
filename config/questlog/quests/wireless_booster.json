@@ -1,0 +1,38 @@
+{
+  "title": "Range Extender",
+  "sort_order": 21,
+  "chapter": "questlog:ae2",
+  "description": "Wireless Boosters increase the range of Wireless Access Points, allowing wireless terminals to function farther from your AE2 network and reducing the chances of suddenly losing access mid-craft.\n\nMake a Wireless Booster.",
+  "icon": {
+    "item": "ae2:wireless_booster"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:wireless_access"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ae2:wireless_booster",
+      "required_amount": 2,
+      "item": "ae2:wireless_booster"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ae2:wireless_booster",
+      "item": "ae2:wireless_booster",
+      "count": 2
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

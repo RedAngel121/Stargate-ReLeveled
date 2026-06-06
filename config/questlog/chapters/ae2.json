@@ -1,0 +1,7 @@
+{
+  "name": "Applied Energistics",
+  "icon": {
+    "item": "chisel_chipped_integration:futura_me_controller"
+  },
+  "order": 5
+}

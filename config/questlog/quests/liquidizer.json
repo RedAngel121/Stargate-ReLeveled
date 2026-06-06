@@ -1,0 +1,37 @@
+{
+  "title": "Liquid Naquadah",
+  "sort_order": 11,
+  "chapter": "questlog:sgj",
+  "description": "The Naquadah Liquidizer converts solid Naquadah into its liquid form, producing a highly unstable but extremely energy-dense resource. Liquid Naquadah is used as a power source for advanced weapons and plays a key role in the creation of various crystalline components. In short, it turns valuable metal into something even more expensive and slightly more dangerous.",
+  "icon": {
+    "item": "sgjourney:naquadah_liquidizer"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:raw_naquadah"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgjourney:naquadah_liquidizer",
+      "item": "sgjourney:naquadah_liquidizer"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:lava_bucket",
+      "item": "minecraft:lava_bucket",
+      "count": 2
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

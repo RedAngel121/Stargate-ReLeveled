@@ -1,0 +1,30 @@
+{
+  "title": "Classic Commands",
+  "sort_order": 1,
+  "chapter": "questlog:tips_tricks",
+  "description": "This modpack has commands! i just dont know how to use them yet, but when i do... WATCH OUT WORLD! I'VE GOT A STUFF!.",
+  "icon": {
+    "item": "minecraft:command_block"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:welcome"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "quest": "questlog:commands"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

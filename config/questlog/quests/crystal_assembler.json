@@ -1,0 +1,43 @@
+{
+  "title": "Making More Than One",
+  "sort_order": 41,
+  "chapter": "questlog:ae2",
+  "description": "The Crystal Assembler processes charged crystals and materials into both AE2 components and advanced machine parts, acting as a compact fabrication unit for building and upgrading network infrastructure.\n\nMake a Crystal Assembler.",
+  "icon": {
+    "item": "extendedae:crystal_assembler"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:entro_seeds"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "extendedae:crystal_assembler",
+      "item": "extendedae:crystal_assembler"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:gold_ingot",
+      "item": "minecraft:gold_ingot",
+      "count": 32
+    },
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:lapis_lazuli",
+      "item": "minecraft:lapis_lazuli",
+      "count": 32
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

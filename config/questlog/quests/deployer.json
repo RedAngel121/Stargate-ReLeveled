@@ -1,0 +1,43 @@
+{
+  "title": "Precision Placement",
+  "sort_order": 8,
+  "chapter": "questlog:kinetic_curcuits",
+  "description": "Deployers can place items in a multi-step machine to create something new, in this case a Vacuum Tube!.",
+  "icon": {
+    "item": "create:deployer"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:spout"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "create:deployer",
+      "item": "create:deployer"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "create:zinc_ingot",
+      "item": "create:zinc_ingot",
+      "count": 5
+    },
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:copper_ingot",
+      "item": "minecraft:copper_ingot",
+      "count": 5
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+5 Levels",
+      "experience": 65
+    }
+  ]
+}

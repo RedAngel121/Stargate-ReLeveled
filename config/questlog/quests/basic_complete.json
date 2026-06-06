@@ -1,0 +1,38 @@
+{
+  "title": "Vacuum Tube Supremacy",
+  "sort_order": 9,
+  "chapter": "questlog:kinetic_curcuits",
+  "description": "You did it! you created a Vacuum Tube in record time! Now if only you had some reason to use them... You can upgrade to an Iron Furnace, or even a Gold Generator! Or maybe, start working on something a little more complex like AE2...\n\nAnyway, you should make more, like TONS more.",
+  "icon": {
+    "item": "sgcommunity_pack:vacuum_tube"
+  },
+  "requirements": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "sgcommunity_pack:vacuum_tube"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:vacuum_tube",
+      "required_amount": 60,
+      "item": "sgcommunity_pack:vacuum_tube"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "create:belt_connector",
+      "item": "create:belt_connector",
+      "count": 10
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+5 Levels",
+      "experience": 65
+    }
+  ]
+}

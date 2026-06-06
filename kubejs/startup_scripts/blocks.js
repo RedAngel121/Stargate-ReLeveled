@@ -3,21 +3,21 @@ console.info("Loading Blocks")
 
 StartupEvents.registry("block", event => {
 
-    const substrates = [
-        { id: "iron_substrate", name: "Iron Substrate" },
-        { id: "gold_substrate", name: "Gold Substrate" },
-        { id: "diamond_substrate", name: "Diamond Substrate" },
-        { id: "netherite_substrate", name: "Netherite Substrate" },
-        { id: "kinetic_substrate", name: "Kinetic Substrate" },
-        { id: "computational_substrate", name: "Computational Substrate", light: 0.5 },
-        { id: "mekanised_substrate", name: "Mekanised Substrate" },
-        { id: "reactive_substrate", name: "Reactive Substrate" },
-        { id: "deep_space_substrate", name: "Deep Space Substrate" },
-        { id: "naquadria_substrate", name: "Naquadria Substrate", light: 1 },
-        { id: "positronic_substrate", name: "Positronic Substrate", light: 1 }
+    const cruxes = [
+        { id: "iron_crux", name: "Iron Crux" },
+        { id: "gold_crux", name: "Gold Crux" },
+        { id: "diamond_crux", name: "Diamond Crux" },
+        { id: "netherite_crux", name: "Netherite Crux" },
+        { id: "kinetic_crux", name: "Kinetic Crux" },
+        { id: "computational_crux", name: "Computational Crux", light: 0.5 },
+        { id: "mekanised_crux", name: "Mekanised Crux" },
+        { id: "reactive_crux", name: "Reactive Crux" },
+        { id: "deep_space_crux", name: "Deep Space Crux" },
+        { id: "naquadria_crux", name: "Naquadria Crux", light: 1 },
+        { id: "positronic_crux", name: "Positronic Crux", light: 1 }
     ]
 
-    substrates.forEach(s => {
+    cruxes.forEach(s => {
         event.create(`sgcommunity_pack:${s.id}`)
             .displayName(s.name)
             .mapColor("metal")
@@ -25,7 +25,7 @@ StartupEvents.registry("block", event => {
             .hardness(1)
             .resistance(1)
             .lightLevel(s.light ?? 0)
-            .tagBoth(`sgcommunity_pack:substrates`)
+            .tagBoth(`sgcommunity_pack:cruxes`)
             .requiresTool(true)
             .tagBlock("minecraft:mineable/pickaxe")
             .tagBlock("minecraft:needs_iron_tool")
@@ -91,8 +91,8 @@ StartupEvents.registry("block", event => {
             tool: "pickaxe"
         },
         {
-            id: "inactive_naquadria_substrate",
-            name: "Inactive Naquadria Substrate",
+            id: "inactive_naquadria_crux",
+            name: "Inactive Naquadria Crux",
             mapColor: "metal",
             sound: "metal",
             hardness: 2,

@@ -1,0 +1,40 @@
+{
+  "title": "Condensed Machines",
+  "chapter": "questlog:mekanised_circuits",
+  "description": "The age of simple machines has ended.\n\nMekanism is where engineering stops pretending to be reasonable and starts solving problems with factories, chemicals, radiation, and enough power cables to crash weaker computers.\n\nWhat begins with basic ore processing quickly evolves into massive automation networks, advanced resource refinement, digital storage systems, and machinery capable of producing materials once thought impossible.\n\nBuild your first Mekanism machine and prepare to industrialize absolutely everything.",
+  "icon": {
+    "item": "mekanism:metallurgic_infuser"
+  },
+  "requirements": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "#sgcommunity_pack:circuit_intermediate"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "#c:ingots/osmium"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "mekanism:metallurgic_infuser",
+      "item": "mekanism:metallurgic_infuser"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "mekanism:ingot_osmium",
+      "item": "mekanism:ingot_osmium",
+      "count": 3
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Slightly More Advanced Processors",
+  "sort_order": 30,
+  "chapter": "questlog:ae2",
+  "description": "The Accumulation Processor is used to craft massive MEGA Cells with storage capacities far beyond standard AE2 limits. At this stage, your storage system is less of a database and more of a dimensional anomaly.\n\nMake the Accumulation Processor.",
+  "icon": {
+    "item": "megacells:accumulation_processor"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:controller"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "megacells:accumulation_processor",
+      "item": "megacells:accumulation_processor"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "megacells:mega_item_cell_housing",
+      "item": "megacells:mega_item_cell_housing"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+10 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 180
+    }
+  ]
+}

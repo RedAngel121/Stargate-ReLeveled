@@ -6,10 +6,10 @@
     },
     "output": {
         "amount": 2,
-        "id": "mekanism:boron_trifluoride"
+        "id": "sgcommunity_pack:boron_trifluoride"
     },
     "right_input": {
         "amount": 1,
-        "chemical": "mekanism:boron_trioxide"
+        "chemical": "sgcommunity_pack:boron_trioxide"
     }
 }

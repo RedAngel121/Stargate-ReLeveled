@@ -6,10 +6,13 @@
             "item": "minecraft:ender_eye"
         },
         "N": {
-            "item": "minecraft:netherite_ingot"
+            "item": "minecraft:netherite_block"
         },
         "R": {
             "tag": "sgcommunity_pack:circuit_intermediate"
+        },
+        "B": {
+            "item": "ae2:wireless_booster"
         },
         "S": {
             "item": "minecraft:nether_star"
@@ -18,7 +21,7 @@
     "pattern": [
         "ERE",
         "RSR",
-        "NNN"
+        "BNB"
     ],
     "result": {
         "count": 1,

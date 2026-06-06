@@ -1,0 +1,36 @@
+{
+  "title": "PCB Boards",
+  "sort_order": 7,
+  "chapter": "questlog:mekanised_circuits",
+  "description": "Combining the HDPE Sheet with some copper in the inscriber will produce the PCB you need for the Integrated Circuit.\n\nMake the PCB Substrate.",
+  "icon": {
+    "item": "sgcommunity_pack:advanced_pcb_substrate"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:hdpe"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:advanced_pcb_substrate",
+      "item": "sgcommunity_pack:advanced_pcb_substrate"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "pamhc2trees:vanillabean_sapling",
+      "item": "pamhc2trees:vanillabean_sapling"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

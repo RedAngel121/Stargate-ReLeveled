@@ -1,0 +1,37 @@
+{
+  "title": "Injecting All Sorts",
+  "sort_order": 3,
+  "chapter": "questlog:mekanised_circuits",
+  "description": "Time to chemically treat the wafer with multiple stages of different chemicals, then cut it up again into MOSFET Chips.\n\nMake 5 Chemical Injection Chambers.",
+  "icon": {
+    "item": "sgcommunity_pack:mosfet_wafer"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:silicon_wafer"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "mekanism:chemical_injection_chamber",
+      "required_amount": 5,
+      "item": "mekanism:chemical_injection_chamber"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "mekanism:basic_tier_installer",
+      "item": "mekanism:basic_tier_installer"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

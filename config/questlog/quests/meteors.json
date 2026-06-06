@@ -1,0 +1,24 @@
+{
+  "title": "Meteor Hunter",
+  "sort_order": 1,
+  "chapter": "questlog:ae2",
+  "description": "Scattered throughout the world are mysterious AE2 meteorites containing valuable resources and ancient technology. If locating one proves difficult, a Meteorite Compass can help guide the way. Once you discover a meteorite, collect the Certus Quartz hidden within and gather some Sky Stone while you are there. Both materials are essential for building your future ME network.",
+  "icon": {
+    "item": "ae2:meteorite_compass"
+  },
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "quest": "questlog:meteors"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

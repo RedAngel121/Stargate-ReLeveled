@@ -1,0 +1,55 @@
+{
+  "title": "Trowel",
+  "sort_order": 1,
+  "chapter": "questlog:tips_tricks",
+  "description": "Using the Trowel will place a random block from your hotbar, making it useful for randomly placed blocks to make ruins or paths.",
+  "icon": {
+    "item": "quark:trowel"
+  },
+  "requirements": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "quark:trowel",
+      "item": "quark:trowel"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:stone_bricks",
+      "item": "minecraft:stone_bricks",
+      "count": 32
+    },
+    {
+      "type": "questlog:item",
+      "icon": "rechiseled:sandstone_brick_pattern_connecting",
+      "item": "rechiseled:sandstone_brick_pattern_connecting",
+      "count": 32
+    },
+    {
+      "type": "questlog:item",
+      "icon": "quark:chiseled_diorite_bricks",
+      "item": "quark:chiseled_diorite_bricks",
+      "count": 32
+    },
+    {
+      "type": "questlog:item",
+      "icon": "xkdeco:stone_brick_pavement",
+      "item": "xkdeco:stone_brick_pavement",
+      "count": 32
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

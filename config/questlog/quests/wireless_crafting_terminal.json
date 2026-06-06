@@ -1,0 +1,36 @@
+{
+  "title": "Wifi Tablet with Crafting",
+  "sort_order": 26,
+  "chapter": "questlog:ae2",
+  "description": "With the upgraded Wireless Crafting Terminal, you can access your storage from afar and craft items as well!\n\nMake a Wireless Crafting Terminal.",
+  "icon": {
+    "item": "ae2:wireless_crafting_terminal"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:wireless_access"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ae2:wireless_crafting_terminal",
+      "item": "ae2:wireless_crafting_terminal"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ae2:dense_energy_cell",
+      "item": "ae2:dense_energy_cell"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

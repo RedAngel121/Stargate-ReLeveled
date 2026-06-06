@@ -1,0 +1,26 @@
+{
+  "mysticalagriculture:1": {
+    "secondary_seed_drop": false,
+    "base_secondary_chance": 0
+  },
+  "mysticalagriculture:2": {
+    "secondary_seed_drop": false,
+    "base_secondary_chance": 0
+  },
+  "mysticalagriculture:3": {
+    "secondary_seed_drop": false,
+    "base_secondary_chance": 0
+  },
+  "mysticalagriculture:4": {
+    "secondary_seed_drop": false,
+    "base_secondary_chance": 0
+  },
+  "mysticalagriculture:5": {
+    "secondary_seed_drop": false,
+    "base_secondary_chance": 0
+  },
+  "mysticalagriculture:6": {
+    "secondary_seed_drop": false,
+    "base_secondary_chance": 0
+  }
+}

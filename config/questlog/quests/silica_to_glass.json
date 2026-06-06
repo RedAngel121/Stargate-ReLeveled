@@ -1,0 +1,46 @@
+{
+  "title": "Silica to Glass",
+  "sort_order": 11,
+  "chapter": "questlog:kinetic_curcuits",
+  "description": "Now for Part 2 of the Kinetic Circuits: Rudimentary Processors! These will allow you to create computers, unlock Mekanism, and more! Assuming you have a simple ME network and properly automated Vacuum Tubes, this shouldn't be too hard since you have some silica already being made, siphon off some and wash it under a spout for some Washed Silica Dust. \nRun the Washed Silica Dust through the heated mixer for Impure Quartz Glass. \nThen you have to Blast it to make Pure Quartz Glass.\n\nMake Pure Quartz Glass, and don't forget to automate this! It's essential for the Rudimentary Processor!.",
+  "icon": {
+    "item": "sgcommunity_pack:pure_quartz_glass"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:basic_complete"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:washed_silica_dust",
+      "item": "sgcommunity_pack:washed_silica_dust"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:impure_quartz_glass",
+      "item": "sgcommunity_pack:impure_quartz_glass"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:pure_quartz_glass",
+      "item": "sgcommunity_pack:pure_quartz_glass"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "createaddition:copper_wire",
+      "item": "createaddition:copper_wire"
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+5 Levels",
+      "experience": 65
+    }
+  ]
+}

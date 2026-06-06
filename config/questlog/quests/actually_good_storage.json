@@ -1,0 +1,28 @@
+{
+  "title": "Bigger on the Inside",
+  "chapter": "questlog:ae2",
+  "description": "Your chests served faithfully. They also became a disorganized pile of suffering.\n\nApplied Energistics 2 transforms storage and automation into a fully digital network capable of handling thousands of items, complex crafting systems, and entire factory infrastructures through a single interconnected system.\n\nWhat begins as simple storage quickly evolves into autocrafting, wireless access, quantum networking, and enough channels to make grown adults argue on the internet for years.\n\nStep into AE2 and bring order to the industrial chaos you created.",
+  "icon": {
+    "item": "chisel_chipped_integration:futura_me_controller"
+  },
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "quest": "questlog:actually_good_storage"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ae2:certus_quartz_wrench",
+      "item": "ae2:certus_quartz_wrench"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

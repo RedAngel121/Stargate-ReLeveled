@@ -1,0 +1,31 @@
+{
+  "title": "Personal Shrinking Device",
+  "sort_order": 1,
+  "chapter": "questlog:tips_tricks",
+  "description": "The Personal Shrinking Device can easily get you into areas that are nice and small, or make yourself larger than life!\n\nJust dont forget to charge it...",
+  "icon": {
+    "item": "shrink:shrinking_device"
+  },
+  "requirements": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "ae2:quartz_fiber"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "shrink:shrinking_device",
+      "item": "shrink:shrinking_device"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

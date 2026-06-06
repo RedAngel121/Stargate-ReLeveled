@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "cable_facades:facade"
+        }
+    ],
+    "result": {
+        "id": "cable_facades:directional_facade",
+        "count": 6
+    }
+}

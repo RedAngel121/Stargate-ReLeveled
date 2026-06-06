@@ -1,0 +1,13 @@
+name = "NoreTeams"
+filename = "noreteams-0.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "894b29ce0d6bbd2d30456eb488ee2bd1e6a75276"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8156125
+project-id = 1540081

@@ -1,0 +1,46 @@
+{
+  "title": "No One Can Hear You Scream",
+  "sort_order": 4,
+  "chapter": "questlog:stellaris",
+  "description": "Before setting off for the stars, you should consider one small detail: space is trying very hard to kill you. Craft a Space Suit to protect yourself from the vacuum, extreme temperatures, and lack of breathable air. Surviving launch is impressive. Surviving the destination is even better.\n\nMake a Full set of Space Suit gear.",
+  "icon": {
+    "item": "stellaris:space_suit_chestplate"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:rocket_station"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "stellaris:space_suit_helmet",
+      "item": "stellaris:space_suit_helmet"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "stellaris:space_suit_chestplate",
+      "item": "stellaris:space_suit_chestplate"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "stellaris:space_suit_leggings",
+      "item": "stellaris:space_suit_leggings"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "stellaris:space_suit_boots",
+      "item": "stellaris:space_suit_boots"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "name": "+10 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 180
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Netherite Crux",
+  "sort_order": 4,
+  "chapter": "questlog:progression",
+  "description": "The line between farming and alchemy grows thinner.\n\nNetherite Cruxes can cultivate powerful resources including Emerald, Netherite, and any Passive Mob Essences. At this point you are effectively growing wildlife in a pot.",
+  "icon": {
+    "item": "sgcommunity_pack:netherite_crux"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:diamond_crux"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:netherite_crux",
+      "item": "sgcommunity_pack:netherite_crux"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "immersive_armors:slime_boots",
+      "item": "immersive_armors:slime_boots"
+    },
+    {
+      "type": "questlog:item",
+      "icon": "create:schematicannon",
+      "item": "create:schematicannon"
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+8 Levels",
+      "experience": 128
+    }
+  ]
+}

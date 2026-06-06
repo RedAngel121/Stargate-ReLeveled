@@ -1,0 +1,37 @@
+{
+  "title": "Spray and Pray",
+  "sort_order": 7,
+  "chapter": "questlog:kinetic_curcuits",
+  "description": "Since you cant exactly hold Molten Glass in your hands, you need to use pipes to direct it into a Spout and then put it into the Sand Mold.\n\nThe Glass Tube is one of the 4 main ingredients for the Basic Circuit! So you will need to automate this!.",
+  "icon": {
+    "item": "create:spout"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:molten_glass"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "create:spout",
+      "item": "create:spout"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:dried_kelp",
+      "item": "minecraft:dried_kelp",
+      "count": 32
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

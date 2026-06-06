@@ -1,0 +1,37 @@
+{
+  "title": "Its Over Tharsite",
+  "sort_order": 21,
+  "chapter": "questlog:stellaris",
+  "description": "Collect Tharsite Ore",
+  "icon": {
+    "item": "stellaris:mars_tharsite_ore"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:mars_travel"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:block_mine",
+      "name": "Mine Tharsite Ore",
+      "icon": "stellaris:mars_tharsite_ore",
+      "block": "stellaris:mars_tharsite_ore"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "stellaris:jet_suit_chestplate",
+      "item": "stellaris:jet_suit_chestplate"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

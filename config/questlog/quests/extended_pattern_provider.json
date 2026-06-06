@@ -1,0 +1,36 @@
+{
+  "title": "Compact Providers",
+  "sort_order": 44,
+  "chapter": "questlog:ae2",
+  "description": "Extended Pattern Providers can store and supply a significantly larger number of patterns, allowing machines to run more complex and varied automated crafting operations without frequent reconfiguration.\n\nMake an Extended Pattern Provider.",
+  "icon": {
+    "item": "extendedae:ex_pattern_provider"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:crystal_assembler"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "extendedae:ex_pattern_provider",
+      "item": "extendedae:ex_pattern_provider"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "extendedae:ex_io_port",
+      "item": "extendedae:ex_io_port"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

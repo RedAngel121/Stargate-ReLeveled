@@ -1,0 +1,37 @@
+{
+  "title": "Slightly More Extended Processor",
+  "sort_order": 40,
+  "chapter": "questlog:ae2",
+  "description": "The Concurrent Processor enables machines to handle multiple operations simultaneously, improving multitasking capability across automated systems and allowing complex processing chains to run in parallel.\n\nMake a Concurrent Processor.",
+  "icon": {
+    "item": "extendedae:concurrent_processor"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:entro_seeds"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "extendedae:concurrent_processor",
+      "item": "extendedae:concurrent_processor"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "extendedae:entro_dust",
+      "item": "extendedae:entro_dust",
+      "count": 8
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

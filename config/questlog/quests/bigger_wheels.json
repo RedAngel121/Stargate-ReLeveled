@@ -1,0 +1,31 @@
+{
+  "title": "More Power!",
+  "sort_order": 4,
+  "chapter": "questlog:kinetic_curcuits",
+  "description": "Just because it goes slow doesn't mean its got less power, in fact its twice as powerful. Harness the power of water to its full potential!\n\nMake Large Water Wheels.",
+  "icon": {
+    "item": "create:large_water_wheel"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:getting_rotation"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "create:large_water_wheel",
+      "item": "create:large_water_wheel"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Return Trip",
+  "sort_order": 3,
+  "chapter": "questlog:sgj",
+  "description": "If you ever plan on seeing home again, you'll need to locate another Cartouche hidden somewhere beneath the endless sands of Abydos. This one contains the symbols required to dial the Overworld Stargate.\n\nKeep an eye out for small sandstone formations protruding from the dunes. They often appear as little more than a few slabs sticking out of the sand, but beneath them lie buried structures containing the Cartouches you seek.",
+  "icon": {
+    "item": "minecraft:azalea_leaves"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:travel_to_abydos"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "quest": "questlog:getting_home"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

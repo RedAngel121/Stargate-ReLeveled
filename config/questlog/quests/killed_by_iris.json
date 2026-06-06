@@ -1,0 +1,21 @@
+{
+  "title": "Killed By Iris",
+  "sort_order": 2,
+  "chapter": "questlog:tips_tricks",
+  "description": "You should probably open the iris next time...",
+  "icon": {
+    "item": "sgjourney:classic_stargate"
+  },
+  "requirements": [
+    {
+      "type": "questlog:stat",
+      "stat": "sgjourney:times_smashed_against_iris"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "quest": "questlog:killed_by_iris"
+    }
+  ]
+}

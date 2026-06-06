@@ -1,0 +1,36 @@
+{
+  "title": "Rolling Things Out",
+  "sort_order": 5,
+  "chapter": "questlog:kinetic_curcuits",
+  "description": "Now that you have Iron Plates, you need to make an Iron Wire and then make it thinner and make Iron Spools\n\nThe Iron Spool is one of the 4 main ingredients for the Basic Circuit! So you will need to automate this!.",
+  "icon": {
+    "item": "createaddition:rolling_mill"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:getting_smashed"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "createaddition:rolling_mill",
+      "item": "createaddition:rolling_mill"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "createaddition:rolling_mill",
+      "item": "createaddition:rolling_mill"
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+5 Levels",
+      "experience": 65
+    }
+  ]
+}

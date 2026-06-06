@@ -1,0 +1,32 @@
+{
+  "title": "Martian Attack",
+  "sort_order": 20,
+  "chapter": "questlog:stellaris",
+  "description": "The red planet has captivated explorers for generations. Rich in valuable resources and far more hospitable than many worlds beyond it, Mars represents the next major step in humanity's expansion across the solar system. Build, explore, and prove that life can thrive on more than one world.",
+  "icon": {
+    "item": "stellaris:mars_globe"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:rocket"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:visit_dimension",
+      "name": "Travel to Mars",
+      "icon": "stellaris:mars_globe",
+      "dimension": "stellaris:mars"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "name": "+15 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 345
+    }
+  ]
+}

@@ -2,14 +2,14 @@
     "type": "mekanism:chemical_infusing",
     "left_input": {
         "amount": 1,
-        "chemical": "mekanism:boron_trifluoride"
+        "chemical": "sgcommunity_pack:boron_trifluoride"
     },
     "output": {
         "amount": 10000,
-        "id": "mekanism:doped_silicon"
+        "id": "sgcommunity_pack:doped_silicon"
     },
     "right_input": {
         "amount": 100,
-        "chemical": "mekanism:silicon"
+        "chemical": "sgcommunity_pack:silicon"
     }
 }

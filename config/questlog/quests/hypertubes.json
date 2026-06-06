@@ -1,0 +1,43 @@
+{
+  "title": "Totally Tubular!",
+  "sort_order": 11,
+  "chapter": "questlog:kinetic_curcuits",
+  "description": "Fast Travel in a Tube! *some assembly required*\n\nMake 2 Hypertube Entrances and a lot of Hypertubes.",
+  "icon": {
+    "item": "create_hypertube:hypertube_entrance"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:rose_quartz"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "create_hypertube:hypertube_entrance",
+      "required_amount": 2,
+      "item": "create_hypertube:hypertube_entrance"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "create_hypertube:hypertube",
+      "required_amount": 16,
+      "item": "create_hypertube:hypertube"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "create_hypertube:hypertube_accelerator",
+      "item": "create_hypertube:hypertube_accelerator"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

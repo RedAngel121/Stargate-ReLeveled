@@ -1,0 +1,52 @@
+{
+  "title": "Network Crafting",
+  "sort_order": 8,
+  "chapter": "questlog:ae2",
+  "description": "AE2 autocrafting requires Crafting Storage, Patterns, and Pattern Providers. Crafting Storage forms a Crafting CPU, while Patterns define recipes using the Pattern Encoding Terminal. Pattern Providers supply ingredients to machines or Molecular Assemblers, allowing your network to craft items automatically without manual input.\n\nMake the Crafting Storage, Pattern Terminal, and Pattern Provider.\n\n(Pro Tip: you can uncraft a Crafting CPU by Shift+Right-Clicking the Crafting CPU while it's in your hand to get your Storage Component back)",
+  "icon": {
+    "item": "ae2:blank_pattern"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:controller"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ae2:molecular_assembler",
+      "item": "ae2:molecular_assembler"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ae2:pattern_provider",
+      "item": "ae2:pattern_provider"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ae2:pattern_encoding_terminal",
+      "item": "ae2:pattern_encoding_terminal"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ae2:1k_crafting_storage",
+      "item": "ae2:1k_crafting_storage"
+    },
+    {
+      "type": "questlog:item",
+      "icon": "ae2:blank_pattern",
+      "item": "ae2:blank_pattern",
+      "count": 16
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

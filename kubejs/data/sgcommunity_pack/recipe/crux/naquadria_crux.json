@@ -1,0 +1,16 @@
+{
+    "type": "mekanism:injecting",
+    "chemical_input": {
+        "amount": 1000,
+        "chemical": "sgcommunity_pack:naquadria"
+    },
+    "item_input": {
+        "count": 1,
+        "item": "sgcommunity_pack:inactive_naquadria_crux"
+    },
+    "output": {
+        "count": 1,
+        "id": "sgcommunity_pack:naquadria_crux"
+    },
+    "per_tick_usage": false
+}

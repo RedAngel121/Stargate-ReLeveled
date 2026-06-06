@@ -1,0 +1,31 @@
+{
+  "title": "Subspace Transmissions",
+  "sort_order": 20,
+  "chapter": "questlog:ae2",
+  "description": "The Wireless Access Point allows wireless terminals to connect to your AE2 network from a distance, giving remote access to storage and crafting without dragging cables across your entire base.",
+  "icon": {
+    "item": "ae2:wireless_access_point"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:smart_cables"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ae2:wireless_access_point",
+      "item": "ae2:wireless_access_point"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

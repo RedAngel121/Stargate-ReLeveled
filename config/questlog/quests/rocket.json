@@ -1,0 +1,48 @@
+{
+  "title": "Rocket Man",
+  "sort_order": 7,
+  "chapter": "questlog:stellaris",
+  "description": "A trip to the Moon is only useful if you can make it back home. Before launching, bring your extra Launch Pads and at least 3 extra Fuel Buckets for the return journey. Fortunately, your rocket includes an internal inventory, allowing you to transport fuel, supplies, and construction materials between worlds.\n\nMake a Rocket.",
+  "icon": {
+    "item": "stellaris:rocket"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:space_suit"
+    },
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:refine_oil"
+    },
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:oxygen_required"
+    },
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:launch_pad"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "stellaris:rocket",
+      "item": "stellaris:rocket"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "stellaris:battery",
+      "item": "stellaris:battery"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

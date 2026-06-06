@@ -6,7 +6,7 @@
     },
     "chemical_output": {
         "amount": 1,
-        "id": "mekanism:naquadria"
+        "id": "sgcommunity_pack:naquadria"
     },
     "duration": 100,
     "fluid_input": {

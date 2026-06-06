@@ -1,0 +1,31 @@
+{
+  "title": "Machine Language Diplomacy",
+  "sort_order": 20,
+  "chapter": "questlog:sgj",
+  "description": "ComputerCraft peripherals allow Interfaces to be accessed programmatically, turning Stargates into fully scriptable systems. Addresses, energy states, connection status, and iris control can all be automated through Lua scripts. What begins as simple monitoring evolves into full interstellar logistics automation. The gate stops being a structure and becomes an API with opinions.",
+  "icon": {
+    "item": "computercraft:computer_advanced"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:interface"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "computercraft:computer_advanced",
+      "item": "computercraft:computer_advanced"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

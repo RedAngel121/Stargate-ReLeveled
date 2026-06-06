@@ -1,0 +1,37 @@
+{
+  "title": "Ma'Tok",
+  "sort_order": 10,
+  "chapter": "questlog:sgj",
+  "description": "The Staff Weapon is a standard-issue energy weapon used across many offworld forces. It fires a concentrated plasma bolt capable of damaging both armored targets and structures. While simple in design, it is highly effective, reliable, and often used as a symbol of authority as much as a tool of combat. In other words, it's diplomacy with fewer steps.",
+  "icon": {
+    "item": "sgjourney:matok"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:weap_naquadah"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgjourney:matok",
+      "item": "sgjourney:matok"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "sgjourney:vial",
+      "item": "sgjourney:vial",
+      "count": 2
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

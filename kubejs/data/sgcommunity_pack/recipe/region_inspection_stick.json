@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "sgcommunity_pack",
   "key": {
     "s": {
       "tag": "c:rods/wooden"

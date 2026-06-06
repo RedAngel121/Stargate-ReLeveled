@@ -1,0 +1,13 @@
+name = "TelePass"
+filename = "TelePass-neoforge-1.21-6.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "65be5833484469c9e4700fdf3058300bb96c30cf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5508096
+project-id = 341875

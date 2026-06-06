@@ -22,11 +22,6 @@
                 }
             },
             "fluid": "create:potion"
-        },
-        {
-            "type": "neoforge:single",
-            "amount": 250,
-            "fluid": "minecraft:water"
         }
     ],
     "results": [

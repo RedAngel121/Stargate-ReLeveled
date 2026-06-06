@@ -1,0 +1,47 @@
+{
+  "title": "Chemical Hardening",
+  "sort_order": 1,
+  "chapter": "questlog:mekanised_circuits",
+  "description": "Here comes one of the hard parts, dissolving things in Sulfuric Acid. You will need a lot of Borax (y50+), Phosphorite (y-10+) and Fluorite; those get put in acid, while the Silicon gets combined with Blaze Gas. Then those all get combined together to make Doped Silicon.\n\nMake a Chemical Dissolution Chamber, Chemical Infuser, and a Chemical Crystallizer. Make more than just one cause you are probably going to need em.",
+  "icon": {
+    "item": "sgcommunity_pack:silicon_boule"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:metallurgic_infuser"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "mekanism:chemical_dissolution_chamber",
+      "item": "mekanism:chemical_dissolution_chamber"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "mekanism:chemical_infuser",
+      "item": "mekanism:chemical_infuser"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "mekanism:chemical_crystallizer",
+      "item": "mekanism:chemical_crystallizer"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "mekanism:block_fluorite",
+      "item": "mekanism:block_fluorite",
+      "count": 4
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+20 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 602
+    }
+  ]
+}

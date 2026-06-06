@@ -1,0 +1,37 @@
+{
+  "title": "Brighter than the Sun",
+  "sort_order": 31,
+  "chapter": "questlog:stellaris",
+  "description": "Collect Solerium Ore",
+  "icon": {
+    "item": "stellaris:mercury_solerium_ore"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:mercury_travel"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:block_mine",
+      "name": "Mine Solerium Ore",
+      "icon": "stellaris:mercury_solerium_ore",
+      "block": "stellaris:mercury_solerium_ore"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "stellaris:jet_suit_leggings",
+      "item": "stellaris:jet_suit_leggings"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

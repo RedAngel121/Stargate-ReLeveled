@@ -1,0 +1,32 @@
+{
+  "title": "Complexity is Motivation",
+  "sort_order": 16,
+  "chapter": "questlog:sgj",
+  "description": "Advanced Crystals are produced by combining a Basic Crystal with Heavy Naquadah and an Advanced Crystal Base. These refined components are used in higher-tier Stargate systems and complex machinery, providing the stability and energy density required for interstellar infrastructure.",
+  "icon": {
+    "item": "sgjourney:advanced_crystallizer"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:crystallizer"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "name": "Obtain any Advanced Crystal",
+      "icon": "sgjourney:advanced_energy_crystal",
+      "item": "#sgjourney:advanced_crystal"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Reactive Crux",
+  "sort_order": 8,
+  "chapter": "questlog:progression",
+  "description": "Unstable materials require equally unstable cultivation methods.\n\nReactive Cruxes support the remaining Hostile Mob Essences alongside Sulfur, Osmium, and Desh Essence. Safety regulations were ignored during development.",
+  "icon": {
+    "item": "sgcommunity_pack:reactive_crux"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:mekanised_crux"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:reactive_crux",
+      "item": "sgcommunity_pack:reactive_crux"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "nomowanderer:no_mo_wanderer_totem",
+      "item": "nomowanderer:no_mo_wanderer_totem"
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+12 Levels",
+      "experience": 240
+    }
+  ]
+}

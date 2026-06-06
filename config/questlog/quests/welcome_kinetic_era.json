@@ -1,0 +1,41 @@
+{
+  "title": "Welcome to the Kinetic Era",
+  "sort_order": 2,
+  "chapter": "questlog:kinetic_curcuits",
+  "description": "We are now getting into our first Tech Mod: Create. Using that Andesite Alloy you crafted earlier, make some Andesite Casings and Shafts. Andesite Alloy is one of the main materials of create, so you will always need more as you expand your setup.",
+  "icon": {
+    "item": "create:andesite_alloy"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:learning_create"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "create:andesite_casing",
+      "item": "create:andesite_casing"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "create:shaft",
+      "item": "create:shaft"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:iron_block",
+      "item": "minecraft:iron_block"
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+5 Levels",
+      "experience": 65
+    }
+  ]
+}

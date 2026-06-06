@@ -1,0 +1,42 @@
+{
+  "title": "Infinite Experience",
+  "sort_order": 1,
+  "chapter": "questlog:tips_tricks",
+  "description": "Start by building a dark 9x9 room, place the mob masher in the corner and a spawner in the middle, use fans or conveyors to move them into the masher and collect your reward!\n\nPro Tip: Experience is actually a fluid.",
+  "icon": {
+    "item": "create:experience_nugget"
+  },
+  "requirements": [
+    {
+      "type": "questlog:entity_approach",
+      "entity": "minecraft:zombie",
+      "range": 5
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "mob_grinding_utils:absorption_hopper",
+      "item": "mob_grinding_utils:absorption_hopper"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "mob_grinding_utils:saw",
+      "item": "mob_grinding_utils:saw"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "mob_grinding_utils:xp_tap",
+      "item": "mob_grinding_utils:xp_tap"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Pickarang",
+  "sort_order": 1,
+  "chapter": "questlog:tips_tricks",
+  "description": "A new tool for mining! The Pickarang is a boomerang pickaxe - throw it, it breaks whatever it hits, and comes back to you with the drops.\n\nThe Pickarang is crafted with a Heart of Diamond and can be enchanted with Efficiency, Unbreaking, Fortune, Silk Touch, and Piercing.",
+  "icon": {
+    "item": "quark:pickarang"
+  },
+  "requirements": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "quark:diamond_heart"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "quark:pickarang",
+      "item": "quark:pickarang"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "name": "BROKEN - Ancient Tome of Fortune",
+      "icon": "quark:ancient_tome",
+      "item": "minecraft:stone"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

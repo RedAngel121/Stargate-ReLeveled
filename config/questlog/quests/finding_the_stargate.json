@@ -1,0 +1,49 @@
+{
+  "title": "Finding a Stargate",
+  "sort_order": 1,
+  "chapter": "questlog:sgj",
+  "description": "Recover a Golden Idol from a Ziggurat and use it to craft an Archaeology Table, the workstation of the Archaeologist. By trading with an Archaeologist until they reach Master rank, you can obtain a Map to a buried Chappa'ai. \n\nOnce located, excavate the entire site carefully to uncover the Stargate and any additional hidden components. The Cartouche found in the center of the gate contains the address of another world. Use the DHD to dial the address and begin your first offworld journey.\n\nIn multiplayer worlds, Stargate ReLeveled uses the Common Stargates configuration, causing additional buried Stargates to generate every 64 chunks.",
+  "icon": {
+    "item": "sgjourney:golden_idol"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:leaving_solar_system"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "name": "Find Any Stargate",
+      "icon": "sgjourney:milky_way_stargate",
+      "objectives": [
+        {
+          "type": "questlog:item_obtain",
+          "icon": "sgjourney:milky_way_stargate",
+          "item": "sgjourney:milky_way_stargate"
+        },
+        {
+          "type": "questlog:item_obtain",
+          "icon": "sgjourney:classic_stargate",
+          "item": "sgjourney:classic_stargate"
+        }
+      ]
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "computercraft:cable",
+      "item": "computercraft:cable",
+      "count": 6
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

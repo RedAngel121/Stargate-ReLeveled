@@ -1,0 +1,37 @@
+{
+  "title": "Being Seen",
+  "sort_order": 10,
+  "chapter": "questlog:ae2",
+  "description": "The Storage Monitor gives you a brief overview of a single item within your entire system. Easily keep track of important things at a glance.\n\nMake a Storage Monitor.",
+  "icon": {
+    "item": "ae2:storage_monitor"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:auto_crafting"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ae2:storage_monitor",
+      "item": "ae2:storage_monitor"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:redstone",
+      "item": "minecraft:redstone",
+      "count": 64
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

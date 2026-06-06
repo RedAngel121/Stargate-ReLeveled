@@ -1,0 +1,37 @@
+{
+  "title": "An Unpredictable Clock",
+  "sort_order": 11,
+  "chapter": "questlog:mekanised_circuits",
+  "description": "The Isotopic Decay Oscillator harnesses the unstable nature of radioactive decay and converts it into a controlled oscillating energy pattern. Somehow, this produces remarkably precise results instead of a containment breach. The engineers responsible are either geniuses or should be permanently banned from touching machinery. Used in advanced computational and energy systems where conventional circuitry simply cannot withstand the required power demands.\n\nMake the Isotopic Decay Oscillator.",
+  "icon": {
+    "item": "sgcommunity_pack:isotopic_decay_oscillator"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:isotopic_wafer"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:isotopic_decay_oscillator",
+      "item": "sgcommunity_pack:isotopic_decay_oscillator"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ae2:quartz_glass",
+      "item": "ae2:quartz_glass",
+      "count": 12
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+15 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 345
+    }
+  ]
+}

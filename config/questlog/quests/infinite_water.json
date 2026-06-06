@@ -1,0 +1,41 @@
+{
+  "title": "Infinite Water",
+  "sort_order": 1,
+  "chapter": "questlog:tips_tricks",
+  "description": "Sometimes concessions need to be made and you end up with a blue kitchen.\n\nAt least the sink has some water in it.",
+  "icon": {
+    "item": "cookingforblockheads:sink"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:welcome"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "name": "Obtain a Sink",
+      "icon": "cookingforblockheads:sink",
+      "item": "#cookingforblockheads:sinks"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:axolotl_bucket",
+      "item": "minecraft:axolotl_bucket"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

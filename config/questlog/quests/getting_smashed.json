@@ -1,0 +1,36 @@
+{
+  "title": "Smashing!",
+  "sort_order": 4,
+  "chapter": "questlog:kinetic_curcuits",
+  "description": "You need a few things, Iron Plates, Copper Plates, Dirty Glass Shards, and a Sand Mold, the best way to do that is to press them. Attach your press to the water wheels and watch it go to town.\n\nFYI: Iron Plates and Copper plates are half of the 4 main ingredients for the Basic Circuit! So you will need to automate this!.",
+  "icon": {
+    "item": "create:mechanical_press"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:getting_rotation"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "create:mechanical_press",
+      "item": "create:mechanical_press"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "create:depot",
+      "item": "create:depot"
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+5 Levels",
+      "experience": 65
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Charging the Quartz",
+  "sort_order": 2,
+  "chapter": "questlog:ae2",
+  "description": "The Charger is used to energize materials such as Charged Certus Quartz, a critical component in many AE2 recipes and machines. Early on, it can be powered manually using a Wooden Crank attached to the top. Later, the Charger can receive power directly through AE2 networks or standard FE power systems for fully automated operation.\n\nMake a Charger and start making Charged Certus Quartz.",
+  "icon": {
+    "item": "ae2:charger"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:actually_good_storage"
+    },
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:meteors"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ae2:charger",
+      "item": "ae2:charger"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ae2:crank",
+      "item": "ae2:crank"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

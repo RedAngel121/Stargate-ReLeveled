@@ -8,12 +8,12 @@
         {
             "type": "neoforge:single",
             "amount": 250,
-            "fluid": "create_confectionery:black_chocolate"
+            "fluid": "create:chocolate"
         }
     ],
     "results": [
         {
-            "id": "create_confectionery:black_chocolate_glazed_marshmallow"
+            "id": "create_confectionery:chocolate_glazed_marshmallow"
         }
     ]
 }

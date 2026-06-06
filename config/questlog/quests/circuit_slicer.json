@@ -1,0 +1,36 @@
+{
+  "title": "Chopping up Blocks",
+  "sort_order": 45,
+  "chapter": "questlog:ae2",
+  "description": "The Circuit Slicer is used to mass-produce advanced AE2 processor components by rapidly assembling printed circuits, turning raw materials into usable logic parts for your network infrastructure.\n\nMake a Circuit Slicer.",
+  "icon": {
+    "item": "extendedae:circuit_cutter"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:crystal_assembler"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "extendedae:circuit_cutter",
+      "item": "extendedae:circuit_cutter"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "extendedae:void_cell",
+      "item": "extendedae:void_cell"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

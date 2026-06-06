@@ -1,0 +1,47 @@
+{
+  "title": "Simple Mass Storage",
+  "sort_order": 7,
+  "chapter": "questlog:kinetic_curcuits",
+  "description": "If you want a place to store everything and easily retrieve it, then you're in luck! Create has a really simple storage system for LOTS of items, you just need a few items to get started. Setting it up can be a bit weird but once it's done you don't have to worry about it until you crack into AE2!\n\nMake a Stock Ticker, Stock Link, and a Packager.",
+  "icon": {
+    "item": "create:stock_ticker"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:cardboard"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "create:stock_ticker",
+      "item": "create:stock_ticker"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "create:stock_link",
+      "item": "create:stock_link"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "create:packager",
+      "item": "create:packager"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "create:item_vault",
+      "item": "create:item_vault",
+      "count": 12
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

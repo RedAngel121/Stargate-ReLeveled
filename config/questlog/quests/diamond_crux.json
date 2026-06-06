@@ -1,0 +1,42 @@
+{
+  "title": "Diamond Crux",
+  "sort_order": 3,
+  "chapter": "questlog:progression",
+  "description": "Precision engineering meets agricultural absurdity.\n\nDiamond Cruxes support higher-value crops such as Diamond, Redstone, Lapis Lazuli, Limestone, Dye, and Nether Essence. Your little resource garden is becoming alarmingly profitable.",
+  "icon": {
+    "item": "sgcommunity_pack:diamond_crux"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:gold_crux"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:diamond_crux",
+      "item": "sgcommunity_pack:diamond_crux"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "create:empty_schematic",
+      "item": "create:empty_schematic"
+    },
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:book",
+      "item": "minecraft:book",
+      "count": 10
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+7 Levels",
+      "experience": 105
+    }
+  ]
+}

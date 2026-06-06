@@ -1,0 +1,36 @@
+{
+  "title": "Power Storage",
+  "sort_order": 8,
+  "chapter": "questlog:ae2",
+  "description": "Energy Cells store AE power for your network, helping stabilize machines and prevent outages during sudden spikes in energy demand. Standard Energy Cells provide reliable backup power for smaller systems, while Dense Energy Cells hold far larger reserves capable of supporting massive autocrafting networks and industrial-scale automation.\n\nMake an Energy Cell",
+  "icon": {
+    "item": "ae2:energy_cell"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:controller"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ae2:energy_cell",
+      "item": "ae2:energy_cell"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ae2:energy_cell",
+      "item": "ae2:energy_cell"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

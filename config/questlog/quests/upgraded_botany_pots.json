@@ -1,0 +1,40 @@
+{
+  "title": "Auto-Harvesting",
+  "chapter": "questlog:progression",
+  "description": "Botany Pots are efficient. Watching them grow for several hours is not.\n\nHopper Botany Pots automatically harvest and store their outputs, allowing your farms to operate without constant supervision.\n\nBecause eventually even you realize you have better things to do.",
+  "icon": {
+    "item": "botanypots:terracotta_hopper_botany_pot"
+  },
+  "requirements": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "botanypots:terracotta_botany_pot"
+    },
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:botany_pots"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "minecraft:hopper",
+      "item": "minecraft:hopper"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:hopper",
+      "item": "minecraft:hopper",
+      "count": 3
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+5 Levels",
+      "experience": 65
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "title": "\"Advanced\" Automation",
+  "sort_order": 12,
+  "chapter": "questlog:kinetic_curcuits",
+  "description": "There are tons of things you can do with all those items you have stored, so maybe you want to start keeping craftable things handy... time to make a way to do that, with Frogports and Chain Conveyors to shuffle things around.\n\nMake some Frogports, Chains & Conveyors, and Factory Gauges.",
+  "icon": {
+    "item": "create:package_frogport"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:simple_mass_storage"
+    },
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:crafters"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "create:chain_conveyor",
+      "required_amount": 2,
+      "item": "create:chain_conveyor"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "minecraft:chain",
+      "required_amount": 16,
+      "item": "minecraft:chain"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "create:package_frogport",
+      "required_amount": 2,
+      "item": "create:package_frogport"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "create:factory_gauge",
+      "required_amount": 2,
+      "item": "create:factory_gauge"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "create:repackager",
+      "item": "create:repackager"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

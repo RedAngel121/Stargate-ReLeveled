@@ -1,0 +1,38 @@
+{
+  "title": "System Wide Trampoline Park",
+  "sort_order": 5,
+  "chapter": "questlog:stellaris",
+  "description": "Every successful launch begins with a solid foundation. Launch Pads are crafted from Steel and form the platform required for rocket takeoff. You will need a 3×3 pad, requiring a total of 9 Launch Pads, to leave the planet. Consider bringing extra materials as well. Getting to another world is only half the journey.\n\nMake a set of Launch Pads",
+  "icon": {
+    "item": "stellaris:rocket_launch_pad"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:rocket_station"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "stellaris:rocket_launch_pad",
+      "required_amount": 18,
+      "item": "stellaris:rocket_launch_pad"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "mekanism:ingot_steel",
+      "item": "mekanism:ingot_steel",
+      "count": 18
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iui",
+        "usu",
+        "iui"
+    ],
+    "key": {
+        "i": {
+            "item": "sgcommunity_pack:isotopic_decay_oscillator"
+        },
+        "u": {
+            "tag": "c:ingots/uranium"
+        },
+        "s": {
+            "item": "sgcommunity_pack:mekanised_crux"
+        }
+    },
+    "result": {
+        "id": "sgcommunity_pack:reactive_crux"
+    }
+}

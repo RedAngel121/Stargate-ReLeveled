@@ -1,0 +1,36 @@
+{
+  "title": "Slicing Up",
+  "sort_order": 2,
+  "chapter": "questlog:mekanised_circuits",
+  "description": "Next Step is just putting Silicon Boules in a Saw and making Silicon Wafers out of it.\n\nMake a Precision Sawmill.",
+  "icon": {
+    "item": "sgcommunity_pack:silicon_wafer"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:silicon_boule"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "mekanism:precision_sawmill",
+      "item": "mekanism:precision_sawmill"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "mekanism:basic_tier_installer",
+      "item": "mekanism:basic_tier_installer"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

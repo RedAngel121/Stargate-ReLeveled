@@ -1,0 +1,13 @@
+name = "Open Parties and Claims PvP Support"
+filename = "opacpvp-neoforge-1.0.0-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d8327e89a75716ccc255eeb8ad97f6827ecee243"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6143476
+project-id = 1190669

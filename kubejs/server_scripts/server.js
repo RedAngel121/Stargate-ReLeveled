@@ -4,7 +4,7 @@
 // REMOVE TRADES
 // ===============================
 
-MoreJS.wandererTrades(event => {event.removeTrades({outputItem: "minecraft:beacon"});});
+MoreJS.wandererTrades(event => { event.removeTrades({ outputItem: "minecraft:beacon" }); });
 
 MoreJS.villagerTrades(event => {
     event.removeVanillaTypedTrades(["advancedperipherals:computer_scientist"]);
@@ -28,6 +28,7 @@ ServerEvents.recipes(event => {
     event.remove("mysticalagriculture:supremium_farmland_till")
     event.remove("mysticalagradditions:insanium_farmland")
     event.remove("mysticalagradditions:insanium_farmland_till")
+    event.remove("mysticalagriculture:essence/common/silicon")
 })
 
 RecipeViewerEvents.removeEntries("item", event => {
@@ -37,40 +38,26 @@ RecipeViewerEvents.removeEntries("item", event => {
     event.remove("mysticalagriculture:imperium_farmland")
     event.remove("mysticalagriculture:supremium_farmland")
     event.remove("mysticalagradditions:insanium_farmland")
+    event.remove("tinyredstone:silicon")
 })
 
 // ===============================
 // REMOVE GAME BREAKERS
 // ===============================
-
+let poof = ["mysticalagradditions:nether_star_crux", "mysticalagradditions:dragon_egg_crux", "mekanism:portable_teleporter", "mekanism:teleporter", "mekanism:teleporter_frame", "pipez:energy_pipe", "rftoolsutility:charged_porter", "rftoolsutility:advanced_charged_porter", "rftoolsutility:destination_analyzer", "rftoolsutility:matter_booster", "rftoolsutility:simple_dialer"]
 ServerEvents.recipes(event => {
-    event.remove("ae2wtlib:quantum_bridge_card")
-    event.remove("mekanism:portable_teleporter")
-    event.remove("mekanism:teleporter")
-    event.remove("mekanism:teleporter_frame")
-    event.remove("pipez:energy_pipe")
-    event.remove("rftoolsutility:charged_porter")
-    event.remove("rftoolsutility:advanced_charged_porter")
-    event.remove("rftoolsutility:destination_analyzer")
-    event.remove("rftoolsutility:matter_booster")
-    event.remove("rftoolsutility:simple_dialer")
+    for (let each of poof) {
+        event.remove(each)
+    }
 })
-
 RecipeViewerEvents.removeEntries("item", event => {
-    event.remove("ae2wtlib:quantum_bridge_card")
-    event.remove("mekanism:portable_teleporter")
-    event.remove("mekanism:teleporter")
-    event.remove("mekanism:teleporter_frame")
-    event.remove("pipez:energy_pipe")
-    event.remove("rftoolsutility:charged_porter")
-    event.remove("rftoolsutility:advanced_charged_porter")
-    event.remove("rftoolsutility:destination_analyzer")
-    event.remove("rftoolsutility:matter_booster")
-    event.remove("rftoolsutility:simple_dialer")
+    for (let each of poof) {
+        event.remove(each)
+    }
 })
 
 // ===============================
-// EASY MODE COMMANDS
+// EASY MODE COMMANDS -- REPLACE THIS WITH IN GAME QUESTS IF POSSIBLE
 // ===============================
 
 function easyModeOn(source) {
@@ -82,7 +69,6 @@ function easyModeOn(source) {
 function easyModeOff(source) {
     let player = source.player;
     player.stages.remove("easymode");
-    player.data.ftbquests.reset("5C938F25D0F5D112");
     source.sendSuccess(Text.of("Easy mode disabled"), true);
 }
 

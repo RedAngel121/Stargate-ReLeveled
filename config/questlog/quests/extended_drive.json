@@ -1,0 +1,36 @@
+{
+  "title": "Server Racks",
+  "sort_order": 42,
+  "chapter": "questlog:ae2",
+  "description": "The Extended Drive expands storage rack capacity, allowing each rack to hold twice the normal number of drives and significantly increasing the total storage density of your AE system.\n\nMake an Extended Drive.",
+  "icon": {
+    "item": "extendedae:ex_drive"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:crystal_assembler"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "extendedae:ex_drive",
+      "item": "extendedae:ex_drive"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ae2:drive",
+      "item": "ae2:drive"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

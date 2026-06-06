@@ -1,0 +1,36 @@
+{
+  "title": "Bits and Pieces",
+  "sort_order": 6,
+  "chapter": "questlog:ae2",
+  "description": "Now that you are working with ME Storage, it is important to understand how AE2 handles Bytes and Types. Every Storage Cell can hold up to 63 different item types. However, storing those types reduces the total number of bytes available inside the cell. At maximum capacity, type storage can consume nearly half of the cell's usable space. In AE2, one byte is equal to 8 items or 8 buckets of fluid. This means storage cells are far more efficient when storing large quantities of fewer item types rather than tiny amounts of everything you have ever picked up like an overprepared goblin.\n\nIf you want a more in-depth explanation of this or other topics, check out the AE2 in-game guide (Hold G while hovering over any AE2 item)\n\n(Pro Tip: you can uncraft a Cell by Shift+Right-Clicking the Cell while it's in your hand to get your Storage Component back)",
+  "icon": {
+    "item": "ae2:item_storage_cell_1k"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:proper_storage"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ae2:cell_component_1k",
+      "item": "ae2:cell_component_1k"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ae2:item_cell_housing",
+      "item": "ae2:item_cell_housing"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

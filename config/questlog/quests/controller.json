@@ -1,0 +1,37 @@
+{
+  "title": "Network Control",
+  "sort_order": 7,
+  "chapter": "questlog:ae2",
+  "description": "Basic AE2 networks support only 8 devices. ME Controllers expand channel capacity, providing up to 32 channels per side with Dense Cables or 8 with standard cables. Controllers can form one multiblock structure per network, but connecting separate Controller systems together will shut the entire network down.\n\nMake a Controller.",
+  "icon": {
+    "item": "ae2:controller"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:storage_cells"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ae2:controller",
+      "item": "ae2:controller"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ae2:fluix_glass_cable",
+      "item": "ae2:fluix_glass_cable",
+      "count": 8
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

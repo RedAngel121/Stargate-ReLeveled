@@ -1,0 +1,32 @@
+{
+  "title": "Solid Mercury",
+  "sort_order": 30,
+  "chapter": "questlog:stellaris",
+  "description": "Mercury is a world of extremes. Scorched by the Sun and lacking any meaningful atmosphere, its surface is among the most hostile environments in the solar system. Survival here demands careful preparation, but those willing to brave the heat will find resources unavailable elsewhere.",
+  "icon": {
+    "item": "stellaris:mercury_globe"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:rocket"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:visit_dimension",
+      "name": "Travel to Mercury",
+      "icon": "stellaris:mercury_globe",
+      "dimension": "stellaris:mercury"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "name": "+15 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 345
+    }
+  ]
+}

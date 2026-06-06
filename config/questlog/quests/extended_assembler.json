@@ -1,0 +1,36 @@
+{
+  "title": "Crafting Speed, with Style!",
+  "sort_order": 43,
+  "chapter": "questlog:ae2",
+  "description": "The Extended Molecular Assembler can process up to eight crafting recipes simultaneously, dramatically increasing autocrafting speed and reducing bottlenecks in large-scale production systems.\n\nMake an Extended Molecular Assembler.",
+  "icon": {
+    "item": "extendedae:ex_molecular_assembler"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:crystal_assembler"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "extendedae:ex_molecular_assembler",
+      "item": "extendedae:ex_molecular_assembler"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "extendedae:crystal_fixer",
+      "item": "extendedae:crystal_fixer"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Roses Get Polished",
+  "sort_order": 10,
+  "chapter": "questlog:kinetic_curcuits",
+  "description": "Now for Part 2 of the Kinetic Circuits: Rudimentary Processors! These will allow you to create computers, unlock Mekanism, and more! Assuming you have a simple ME network and properly automated Vacuum Tubes, this shouldn't be too hard. First Things First, you need to make a Tesla Coil to make Electrum.\n\nGet yourself some Rose Quartz and start working on Create Crafters, if you haven't already.",
+  "icon": {
+    "item": "create:electron_tube"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:basic_complete"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "create:polished_rose_quartz",
+      "item": "create:polished_rose_quartz"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "create:iron_sheet",
+      "item": "create:iron_sheet"
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+5 Levels",
+      "experience": 65
+    }
+  ]
+}

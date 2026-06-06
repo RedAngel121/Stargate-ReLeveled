@@ -1,0 +1,48 @@
+{
+  "title": "Upgrade The Suit",
+  "sort_order": 42,
+  "chapter": "questlog:stellaris",
+  "description": "Use the Upgrade Station to apply modules to your suit and keep the worst effects of the planets away from you.",
+  "icon": {
+    "item": "stellaris:upgrade_station"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:moon_travel"
+    },
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:mars_travel"
+    },
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:mercury_travel"
+    },
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:venus_travel"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "stellaris:upgrade_station",
+      "item": "stellaris:upgrade_station"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "stellaris:gravity_normalizer_module",
+      "item": "stellaris:gravity_normalizer_module"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

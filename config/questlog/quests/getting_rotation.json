@@ -1,0 +1,38 @@
+{
+  "title": "Getting Rotational Energy",
+  "sort_order": 3,
+  "chapter": "questlog:kinetic_curcuits",
+  "description": "Now that you have some shafts, it's time to make them spin! Water wheels will provide full power as long as one side is covered in flowing water.",
+  "icon": {
+    "item": "create:water_wheel"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:welcome_kinetic_era"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "create:water_wheel",
+      "required_amount": 4,
+      "item": "create:water_wheel"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "create:gearbox",
+      "item": "create:gearbox",
+      "count": 2
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

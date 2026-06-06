@@ -1,0 +1,31 @@
+{
+  "title": "Don't Burn It",
+  "sort_order": 10,
+  "chapter": "questlog:mekanised_circuits",
+  "description": "Bake your Wafer Dough in a Smoker.",
+  "icon": {
+    "item": "sgcommunity_pack:wafer"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:wafer_dough"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:wafer",
+      "item": "sgcommunity_pack:wafer"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

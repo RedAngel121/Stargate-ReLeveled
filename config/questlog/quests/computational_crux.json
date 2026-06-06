@@ -1,0 +1,36 @@
+{
+  "title": "Computational Crux",
+  "sort_order": 6,
+  "chapter": "questlog:progression",
+  "description": "Logic, circuitry, and questionable experimentation converge here.\n\nComputational Cruxes enable the growth of Obsidian, Silicon, Electrum Essence, and many Hostile Mob Essences. Congratulations. Your farm now contains violence and microchips.",
+  "icon": {
+    "item": "sgcommunity_pack:computational_crux"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:kinetic_crux"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:computational_crux",
+      "item": "sgcommunity_pack:computational_crux"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ae2:color_applicator",
+      "item": "ae2:color_applicator"
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+10 Levels",
+      "experience": 180
+    }
+  ]
+}

@@ -2,7 +2,7 @@
     "type": "mekanism:dissolution",
     "chemical_input": {
         "amount": 5,
-        "chemical": "mekanism:tree_sap"
+        "chemical": "sgcommunity_pack:tree_sap"
     },
     "item_input": {
         "count": 1,
@@ -10,7 +10,7 @@
     },
     "output": {
         "amount": 1000,
-        "id": "mekanism:photoresist"
+        "id": "sgcommunity_pack:photoresist"
     },
     "per_tick_usage": true
 }

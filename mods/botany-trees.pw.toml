@@ -1,13 +1,13 @@
 name = "Botany Trees"
-filename = "botanytrees-neoforge-1.21.1-21.1.3.jar"
+filename = "botanytrees-neoforge-1.21.1-21.1.7.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "a15237bff8e914c50a271ee498d7e2ee55ff017f"
+hash = "9ed861d8a2405cfa75a9ef677f9d99eb5deed73f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7581615
+file-id = 8188485
 project-id = 411357

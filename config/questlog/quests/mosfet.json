@@ -1,0 +1,42 @@
+{
+  "title": "Wire It Up",
+  "sort_order": 4,
+  "chapter": "questlog:mekanised_circuits",
+  "description": "The Final Step of the MOSFET is putting some Copper Wires on the Chip and calling it a day!\n\nMake a Combiner.",
+  "description_completed": "Congrats! You have made a replacement for the Vacuum Tube! But don't tear down the create setup yet, you still need that Rudimentary Processor for a little bit longer.",
+  "icon": {
+    "item": "sgcommunity_pack:mosfet"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:mosfet_wafer"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "mekanism:combiner",
+      "item": "mekanism:combiner"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:mosfet",
+      "item": "sgcommunity_pack:mosfet"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "mekanism:advanced_tier_installer",
+      "item": "mekanism:advanced_tier_installer"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+15 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 345
+    }
+  ]
+}

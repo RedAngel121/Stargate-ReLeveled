@@ -1,0 +1,36 @@
+{
+  "title": "Making Chips",
+  "sort_order": 7,
+  "chapter": "questlog:mekanised_circuits",
+  "description": "Chop up the wafer you just made into Chips using the Sawmill.\n\nMake an Integrated Circuit Chip.",
+  "icon": {
+    "item": "sgcommunity_pack:integrated_circuit_chip"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:integrated_circuit_wafer"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:integrated_circuit_chip",
+      "item": "sgcommunity_pack:integrated_circuit_chip"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:sugar_cane",
+      "item": "minecraft:sugar_cane"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

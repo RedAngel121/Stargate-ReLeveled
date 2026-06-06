@@ -1,0 +1,41 @@
+{
+  "title": "Rads Make Everything Harder",
+  "sort_order": 9,
+  "chapter": "questlog:mekanised_circuits",
+  "description": "Uranium Blocks make Uranium Wafers. Isotopic Decay Oscillator Wafers are produced in nearly the same way as Integrated Circuit Wafers. As such, you can utilize your existing 20-Step Integrated Circuit factory to produce them (with minor changes of course).\nYou will need an ample supply of Water Vapor, Photoresist, Uranium Hexafluoride, Hydrofluoric Acid, Phosphorus, and Molten Silicon. And don't forget to make the new Photomask!\n\nMake the Isotopic Decay Oscillator Wafer.",
+  "icon": {
+    "item": "sgcommunity_pack:isotopic_decay_oscillator_wafer"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:integrated_circuit"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:isotopic_decay_oscillator_photomask",
+      "item": "sgcommunity_pack:isotopic_decay_oscillator_photomask"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:isotopic_decay_oscillator_wafer",
+      "item": "sgcommunity_pack:isotopic_decay_oscillator_wafer"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "mekanism:block_lead",
+      "item": "mekanism:block_lead"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+15 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 345
+    }
+  ]
+}

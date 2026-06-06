@@ -1,0 +1,41 @@
+{
+  "title": "Growing Resources",
+  "chapter": "questlog:progression",
+  "description": "The future of resource gathering is not endless strip mining like some sleep-deprived dwarf with a pickaxe addiction.\n\nIn Stargate ReLeveled, automation and cultivation are the path forward, and that journey begins with Botany Pots.\n\nCraft a few and start growing your resources instead of excavating entire mountain ranges.",
+  "icon": {
+    "item": "botanypots:terracotta_botany_pot"
+  },
+  "requirements": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:dirt"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:terracotta",
+      "icon": "minecraft:terracotta",
+      "required_amount": 5
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:flower_pot",
+      "icon": "minecraft:flower_pot"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "botanypots:terracotta_botany_pot",
+      "icon": "botanypots:terracotta_botany_pot"
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+5 Levels",
+      "experience": 65
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Network Crafting Pt.2",
+  "sort_order": 9,
+  "chapter": "questlog:ae2",
+  "description": "The Pattern Access Terminal allows you to quickly add and rearrange Patterns within your Pattern Providers.\n\nMake a Pattern Access Terminal.",
+  "icon": {
+    "item": "ae2:pattern_access_terminal"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:auto_crafting"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ae2:pattern_access_terminal",
+      "item": "ae2:pattern_access_terminal"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ae2:blank_pattern",
+      "item": "ae2:blank_pattern",
+      "count": 16
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

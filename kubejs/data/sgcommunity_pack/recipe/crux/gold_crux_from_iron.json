@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "nnn",
+        "bBb",
+        "nnn"
+    ],
+    "key": {
+        "n": {
+            "tag": "c:nuggets/gold"
+        },
+        "b": {
+            "tag": "c:storage_blocks/gold"
+        },
+        "B": {
+            "item": "sgcommunity_pack:iron_crux"
+        }
+    },
+    "result": {
+        "id": "sgcommunity_pack:gold_crux"
+    }
+}

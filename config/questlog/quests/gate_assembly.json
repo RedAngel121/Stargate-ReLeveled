@@ -1,0 +1,37 @@
+{
+  "title": "Some Assembly Required",
+  "sort_order": 22,
+  "chapter": "questlog:sgj",
+  "description": "POSSIBLY BROKEN QUEST > Once you have all the blocks place them down in [this order](insert link or image) and Right-Click the Base Block to create the Classic Stargate.",
+  "icon": {
+    "item": "sgjourney:classic_stargate"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:interface"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:block_interact",
+      "name": "R-Click Base Block",
+      "icon": "sgjourney:classic_stargate",
+      "block": "#sgjourney:classic_stargate_block"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgjourney:classic_stargate",
+      "item": "sgjourney:classic_stargate"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "System Authority",
+  "sort_order": 19,
+  "chapter": "questlog:sgj",
+  "description": "The Advanced Crystal Interface unlocks full administrative control over Stargate networks. It supports address filtering, network management, iris control, detailed diagnostics, and both incoming and outgoing connection control. ComputerCraft integration here enables complete automation of gate infrastructure, from secure routing to dynamic dialing logic. At this point, the gate listens more than it argues.",
+  "icon": {
+    "item": "sgjourney:advanced_crystal_interface"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:crystal_interface"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgjourney:advanced_crystal_interface",
+      "item": "sgjourney:advanced_crystal_interface"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

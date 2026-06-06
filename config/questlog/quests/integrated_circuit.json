@@ -1,0 +1,41 @@
+{
+  "title": "Integrated Circuit",
+  "sort_order": 8,
+  "chapter": "questlog:mekanised_circuits",
+  "description": "Your first Integrated Circuit needs the PCB, one integrated chip, and a pure quartz glass pane. Throw all 3 items into the inscriber to create your first Integrated Circuit.\n\nMake the Integrated Circuit.",
+  "description_completed": "Congrats! You can finally tear down that Create Monstrosity you made so long ago. The Integrated Circuits are a complete replacement for the Rudimentary Processor.",
+  "icon": {
+    "item": "sgcommunity_pack:integrated_circuit"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:integrated_circuit_chip"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "questlog:pcb_substrate"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:integrated_circuit",
+      "item": "sgcommunity_pack:integrated_circuit"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ironfurnaces:augment_smoking",
+      "item": "ironfurnaces:augment_smoking"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+15 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 345
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Booming Industry",
+  "sort_order": 2,
+  "chapter": "questlog:stellaris",
+  "description": "To make fuel, you will need to refine raw oil into something more helpful. Run oil through the refinery to make fuel and start thinking long and hard about whats next. Make sure to get at least 6 buckets of fuel.\n\nMake a Fuel Refinery.",
+  "icon": {
+    "item": "stellaris:fuel_refinery"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:finding_oil"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "stellaris:fuel_refinery",
+      "item": "stellaris:fuel_refinery"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "mekanism:basic_fluid_tank",
+      "item": "mekanism:basic_fluid_tank"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

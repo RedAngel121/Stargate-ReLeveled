@@ -1,0 +1,41 @@
+{
+  "title": "Gold Crux",
+  "sort_order": 2,
+  "chapter": "questlog:progression",
+  "description": "The humble Iron Crux was only the beginning. Gold-tier Cruxes allow the growth of more advanced materials including Amethyst, Ice, Deepslate, Gold, and Zinc Essence.\n\nProgress demands refinement. Preferably shiny refinement.",
+  "icon": {
+    "item": "sgcommunity_pack:gold_crux"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:iron_crux"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:gold_crux",
+      "item": "sgcommunity_pack:gold_crux"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "create:clipboard",
+      "item": "create:clipboard"
+    },
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:golden_apple",
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+6 Levels",
+      "experience": 84
+    }
+  ]
+}

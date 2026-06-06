@@ -1,0 +1,36 @@
+{
+  "title": "Resist the Photo",
+  "sort_order": 5,
+  "chapter": "questlog:mekanised_circuits",
+  "description": "The Photomask is used to control the areas in which the Photoresist cures. The areas that are covered with Photoresist won't get modified by the next step, allowing for the making of detailed patterns of various materials on the wafer. The Photomask is NOT consumed in the process.\n\nMake a Integrated Circuit Photomask... Actually, make 6.",
+  "icon": {
+    "item": "sgcommunity_pack:integrated_circuit_photomask"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:mosfet"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:integrated_circuit_photomask",
+      "item": "sgcommunity_pack:integrated_circuit_photomask"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "pamhc2foodcore:potitem",
+      "item": "pamhc2foodcore:potitem"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

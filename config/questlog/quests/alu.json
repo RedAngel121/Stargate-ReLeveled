@@ -1,0 +1,41 @@
+{
+  "title": "The Best Kind of Correct",
+  "sort_order": 14,
+  "chapter": "questlog:kinetic_curcuits",
+  "description": "An ALU, or Arithmetic Logic Unit, is a component of a rudimentary processor that performs arithmetic and logic operations on binary numbers, such as addition, subtraction, and logical comparisons. It requires a lot of Vacuum Tubes for some reason...\n\nAutomate the ALU, and keep them handy for the next step.",
+  "icon": {
+    "item": "sgcommunity_pack:alu"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:silica_to_glass"
+    },
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:electrum_sheets"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:alu",
+      "item": "sgcommunity_pack:alu"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:glass_pane",
+      "item": "minecraft:glass_pane",
+      "count": 8
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+10 Levels",
+      "experience": 180
+    }
+  ]
+}

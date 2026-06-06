@@ -1,0 +1,41 @@
+{
+  "title": "Trick A Rock Into Thinking",
+  "sort_order": 15,
+  "chapter": "questlog:kinetic_curcuits",
+  "description": "If you haven't seen this step coming, you should see a doctor. Make yourself an inscriber and put the ALU, Control Unit, and another Electrum Sheet together to make the Rudimentary Processor.\n\nOnce again I am asking for you to make this an automation because you will need more of them.",
+  "description_completed": "Congrats! The Kinetic Era is Complete! Time to move on to even more complex circuits in: The Mekanised Era!.",
+  "icon": {
+    "item": "sgcommunity_pack:rudimentary_processor"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:alu"
+    },
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:control_unit"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "sgcommunity_pack:rudimentary_processor",
+      "item": "sgcommunity_pack:rudimentary_processor"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ae2:certus_quartz_cutting_knife",
+      "item": "ae2:certus_quartz_cutting_knife"
+    },
+    {
+      "type": "questlog:experience",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "name": "+15 Levels",
+      "experience": 345
+    }
+  ]
+}
