@@ -5,8 +5,6 @@
 - SGJ Start Quest: Visit Village? OW Pyramid? Golden Idol? Read Text?
 
 ### STILL TODO:
-- fix the stargate structures, replace DHD and gates with Dev Tooled ones and then add variant crystals, re-apply to pack
-- add tags to the custom SGJ structures
 - Configure Spice of Life Onion Edition
 - Figure out how Solstice Essentials works
 - Add /surface command that takes you to the surface of your current location?
@@ -18,11 +16,13 @@
 - add textures to the inf drives so people stop complaining about missing textures for something they cant even craft
 - add Stellaris, Mekanism, and SGJ ores to potions master
 
+### ADDITIONAL STUFF:
+- the tabs being color coded is something im working with the Questlog mod dev on to have implemented
+- All the Mek chemicals are bugged and i dont know what happened... one of the many mods i have is interfering with the text and i dont have a clue which one is doing that
+
 ### See how hard this is:
 Me       : I want to expand the sgj dims and add more ores and stuff
-Request  : Can we just get a giant cave dim?
-Me       : Like the Nether but with overworld blocks?
-Request  : Yee`
+Request  : Can we just get a giant cave dim? Like the Nether but with overworld blocks?
 Me       : I can agree with that, adding a new dimension isn't easy, biomes and ores need to be accounted for... I would have to add a new Stargate structure too...
 Me       : oh maybe i could look into adding that city mod that adds houses and skyscrapers and whatnot for a new vacated city dim... its a lot but its not a bad idea
 
