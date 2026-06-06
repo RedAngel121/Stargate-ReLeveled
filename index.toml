@@ -3794,11 +3794,6 @@ hash = "a0f52f47c27d6ccdbee89735e459ff955ba09cdf499ef42bc901f8426be75253"
 metafile = true
 
 [[files]]
-file = "mods/bclib-neoforge.pw.toml"
-hash = "c74a9bf5a716c5b27b9d46cdcd946eb05b2f80b69aaa9d46f4376f38bc49ca47"
-metafile = true
-
-[[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "84fd12a30b0fecc1df5c03b6ec1bcbd6263211e65e17f24075a54773af6bfaff"
 metafile = true
@@ -3811,11 +3806,6 @@ metafile = true
 [[files]]
 file = "mods/better-ping-display.pw.toml"
 hash = "c2fd5f53d8ee32c2f7a69959bf4fed00ac7e5ab3568b2bcf5c970a9b3b66969a"
-metafile = true
-
-[[files]]
-file = "mods/betterend-neoforge.pw.toml"
-hash = "ba1c3390035b480b505a6820e2fb320be2227220d348d336b1b271d5222da2f1"
 metafile = true
 
 [[files]]
@@ -4871,16 +4861,6 @@ metafile = true
 [[files]]
 file = "mods/worldedit.pw.toml"
 hash = "f2dfce29433a6b2a3349db5f4913f4077c74d2e7982c8c4ec51fac5ab09d21ad"
-metafile = true
-
-[[files]]
-file = "mods/worldweaver-neoforge.pw.toml"
-hash = "355ebac0e6f61e2633de37d66bcafc53a7cb7fe842efd9b2fa15d7892b68c6f3"
-metafile = true
-
-[[files]]
-file = "mods/wunderlib-neoforge.pw.toml"
-hash = "2db6150114a149ac922dda026392b401969e31bd4b93e28c44296a9ec712bd65"
 metafile = true
 
 [[files]]

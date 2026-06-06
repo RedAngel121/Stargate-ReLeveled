@@ -14,8 +14,7 @@
 - find a way to do easymode questlines instead of the command
 - Oredictionificator replacement?
 - add textures to the inf drives so people stop complaining about missing textures
-- whitelist the Naq cables for Cable Facades to be used on them
-- potions master lang desc missing
+- add Stellaris, Mekanism, and SGJ ores to potions master
 
 ### See how hard this is:
 Me       : I want to expand the sgj dims and add more ores and stuff
@@ -58,10 +57,6 @@ Me       : oh maybe i could look into adding that city mod that adds houses and 
 - Veinminer Enchantment
 - Potions Master
 - Nullscape
-- BetterEnd and Dependancies:
-  - BCLib
-  - WunderLib
-  - WorldWeaver
 - Gateways to Eternity
 - Structure Overlapless
 - Spice of Life: Onion Edition
