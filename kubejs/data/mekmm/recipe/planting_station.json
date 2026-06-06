@@ -13,10 +13,13 @@
     },
     "X": {
       "item": "sgcommunity_pack:positronic_crux"
+    },
+    "P": {
+      "item": "mysticalagradditions:supremium_paxel"
     }
   },
   "pattern": [
-    "ACA",
+    "APA",
     "#X#",
     "ACA"
   ],

@@ -38,13 +38,27 @@ RecipeViewerEvents.removeEntries("item", event => {
     event.remove("mysticalagriculture:imperium_farmland")
     event.remove("mysticalagriculture:supremium_farmland")
     event.remove("mysticalagradditions:insanium_farmland")
-    event.remove("tinyredstone:silicon")
 })
 
 // ===============================
 // REMOVE GAME BREAKERS
 // ===============================
-let poof = ["mysticalagradditions:nether_star_crux", "mysticalagradditions:dragon_egg_crux", "mekanism:portable_teleporter", "mekanism:teleporter", "mekanism:teleporter_frame", "pipez:energy_pipe", "rftoolsutility:charged_porter", "rftoolsutility:advanced_charged_porter", "rftoolsutility:destination_analyzer", "rftoolsutility:matter_booster", "rftoolsutility:simple_dialer"]
+let poof = [
+    "mysticalagradditions:nether_star_crux",
+    "mysticalagradditions:dragon_egg_crux",
+    "mekanism:portable_teleporter",
+    "mekanism:teleporter",
+    "mekanism:teleporter_frame",
+    "pipez:energy_pipe",
+    "rftoolsutility:charged_porter",
+    "rftoolsutility:advanced_charged_porter",
+    "rftoolsutility:destination_analyzer",
+    "rftoolsutility:matter_booster",
+    "rftoolsutility:simple_dialer",
+    "tinyredstone:silicon",
+    "rsgauges:transport_terminal",
+    "rsgauges:transport_chip"
+]
 ServerEvents.recipes(event => {
     for (let each of poof) {
         event.remove(each)

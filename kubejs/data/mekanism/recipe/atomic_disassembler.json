@@ -1,0 +1,33 @@
+{
+    "type": "mekanism:mek_data",
+    "category": "equipment",
+    "key": {
+        "#": {
+            "tag": "mekanism:alloys/atomic"
+        },
+        "A": {
+            "tag": "mekanism:alloys/infused"
+        },
+        "E": {
+            "item": "mekanism:energy_tablet"
+        },
+        "I": {
+            "tag": "c:ingots/refined_obsidian"
+        },
+        "P": {
+            "item": "sgjourney:naquadah_pickaxe"
+        },
+        "S": {
+            "item": "sgjourney:naquadah_shovel"
+        }
+    },
+    "pattern": [
+        "AEA",
+        "A#A",
+        "PIS"
+    ],
+    "result": {
+        "count": 1,
+        "id": "mekanism:atomic_disassembler"
+    }
+}

@@ -5,14 +5,9 @@
 - SGJ Start Quest: Visit Village? OW Pyramid? Golden Idol? Read Text?
 
 ### STILL TODO:
-- Myst Ag Tools require Naq Tools as base items 
-- PAXEL REQ FOR MEKATOOL
-- Disable Transport Terminal and Transport Chip from Gauges and Switches
-- AE2 concurrent processor and quantum processor need to be updated to include endgame items
 - Configure Spice of Life Onion Edition
 - Figure out how Solstice Essentials works
 - Add /surface command that takes you to the surface of your current location?
-- Increase the difficulty of making MekMM Planters
 - Increase the output numbers for naq generators
 - TAGS: CreateAdditions bio pellet and pellet block need to be adjusted to be bio-fuels compatable
 - Chisel Blocks: Aluminum, Cobalt, Invar, Nickel, Platinum, and Silver - These have no recipe and need to be added to the chisel workbench somehow
@@ -35,7 +30,7 @@ Me       : oh maybe i could look into adding that city mod that adds houses and 
 # THIS UPDATE IS NOT COMPATABLE WITH 1.20.1 WORLDS
 ### Changes:
 - Updated MC to 1.21.1
-- Swapped to Neoforge 21.1.230
+- Swapped to Neoforge 21.1.233
 - Updated ModPack Thumbnail
 
 - ChatPlus (Replaces Chat Heads)

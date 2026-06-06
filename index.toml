@@ -2605,6 +2605,10 @@ file = "kubejs/data/megacells/recipe/inscriber/accumulation_processor.json"
 hash = "a3a87b94e18620f6f0f9bb0fd200307853b5ccae3223f9de6a5fc339025ec0e4"
 
 [[files]]
+file = "kubejs/data/mekanism/recipe/atomic_disassembler.json"
+hash = "08551995dc8c901abe3d659f0e242051e0621871c7c49704723244e27d77ce89"
+
+[[files]]
 file = "kubejs/data/mekanism/recipe/chemical_crystallizer.json"
 hash = "7aa1d4645257cdef8b83fba23b14fdac0d722fee78004bd7ce8d2a18f432d2fc"
 
@@ -2642,7 +2646,7 @@ hash = "f0292b419e8068620e176ea7c884f2d09f26ba6845f2b1619f7249f6cfbefec2"
 
 [[files]]
 file = "kubejs/data/mekmm/recipe/planting_station.json"
-hash = "08c1b214a6af39fb029e62dac04e4f212591158b7c80ac143057f583f6117486"
+hash = "050a7ccf597945dde6abf2665d875c2ff6a898ef29402fe16c3e9cffb82560fe"
 
 [[files]]
 file = "kubejs/data/mob_grinding_utils/recipe/recipe_absorption_hopper.json"
@@ -3614,7 +3618,7 @@ hash = "3b4bea8739e3353b7963cd73d8a74dffe9112882a40c1cfd8429168910e592c4"
 
 [[files]]
 file = "kubejs/server_scripts/server.js"
-hash = "ce337923dddeff0c89e1bcef423543eabe26d1774b3e3ac6a31c662fe56f1413"
+hash = "3ee3c6eeafad0b82c000291fb24efcf53114081a9111d740dc3035a4e2fc4bbd"
 
 [[files]]
 file = "kubejs/server_scripts/tag_fix.js"
