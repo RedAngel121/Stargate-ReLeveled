@@ -2057,18 +2057,6 @@ file = "kubejs/data/bellsandwhistles/recipe/metro/metro_window.json"
 hash = "a046e523001c5e54b01d8d3cb2e4a43bc787eb6b117c7c0617b6cf88bb438e48"
 
 [[files]]
-file = "kubejs/data/betterend/recipe/blossom_berry_jelly.json"
-hash = "91acf1197bd79b9974c49fcc02a60b45f8707ea2c6a32530918151eff1986acc"
-
-[[files]]
-file = "kubejs/data/betterend/recipe/shadow_berry_jelly.json"
-hash = "fec341fa73019278baa1d8695b3426cc02224c0b22b4370eeed23405c40d9c95"
-
-[[files]]
-file = "kubejs/data/betterend/recipe/sweet_berry_jelly.json"
-hash = "146cfb294bc72b04e2723a3a85b21b17c93d27d3b73d0d4a5d042b7c551e3a0a"
-
-[[files]]
 file = "kubejs/data/cable_facades/recipe/directional_facade_item.json"
 hash = "9c5eabe41f2dce0697ca058a7b3958ebe0520aaf9c70989cb3a5751baac4fe67"
 

@@ -5,6 +5,7 @@
 - SGJ Start Quest: Visit Village? OW Pyramid? Golden Idol? Read Text?
 
 ### STILL TODO:
+- fix the stargate structures, replace DHD and gates with Dev Tooled ones and then add variant crystals, reapply to pack
 - Configure Spice of Life Onion Edition
 - Figure out how Solstice Essentials works
 - Add /surface command that takes you to the surface of your current location?
