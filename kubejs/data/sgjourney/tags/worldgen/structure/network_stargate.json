@@ -1,0 +1,9 @@
+{
+	"replace": false,
+    "values":
+	[
+		"sgcommunity_pack:stargate/milky_way/pedestal/stargate_pedestal_deeper_darker",
+        "sgcommunity_pack:stargate/milky_way/pedestal/stargate_pedestal_undergarden",
+        "sgcommunity_pack:stargate/tollan/pedestal/stargate_pedestal_mirror"
+	]
+}

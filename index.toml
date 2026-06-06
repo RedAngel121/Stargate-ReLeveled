@@ -3254,7 +3254,7 @@ hash = "11f1b3ed413016b5229854376ec007beda3fb371b4b4d670af87fe726b36f930"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/milky_way/pedestal/deeper_darker_pedestal.nbt"
-hash = "f233833cc790d5880b0df9e571526628d40d6ff88cdfbd3d32736405be943431"
+hash = "1b94fc401cfbd51c0567adafcd880d1e6f99448852ae7562f1fba9aac59b4208"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/milky_way/pedestal/deepslate/deepslate_stargate_pedestal_1.nbt"
@@ -3262,7 +3262,7 @@ hash = "077642a81606c027b133477e9133ef4f1bd587f89dbeb24242f6fadb570f959a"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/milky_way/pedestal/milky_way_stargate_pedestal_undergarden_1.nbt"
-hash = "d430242d87e09017467f2c00a61046a74413f1463633dc279b5eeec2b89ff463"
+hash = "720a65ad07c4231db86cbbc4942fe7ca275ab2f44a2e997edf2063a1b27129fa"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_center.nbt"
@@ -3318,7 +3318,7 @@ hash = "96e1c87b6ed5f360f099014b350df123ed029d5ffc2b5adab8e95c8efd495ca5"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/tollan/pedestal/overworld_mirror_pedestal.nbt"
-hash = "c3ea969140503bd1b76d3defc14504245a848e8b189df6117e49c826b2e85760"
+hash = "3e86d7a5ca5125960199b4a67c3823e7beb0b5c83ba4e7e9c45f7baca6996048"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/universe--future-use/pedestal/end/universe_stargate_pedestal_end_1.nbt"
@@ -3539,6 +3539,10 @@ hash = "adbcc6a82bf12ad8e8a80b123d830b3c38f45207a04c44e33e5df75a80809f46"
 [[files]]
 file = "kubejs/data/sgjourney/structure/stargate/universe/pedestal/end/universe_stargate_pedestal_island_end_1_obstructed.nbt"
 hash = "70d58914ccf7c06646772313ccdd8a6ea05b531b8ea89e8507ee79dbf6fe6e45"
+
+[[files]]
+file = "kubejs/data/sgjourney/tags/worldgen/structure/network_stargate.json"
+hash = "f4f20f644f88afe2ec55fe4db7e006697534042dd228c3076e1466e0b8577c06"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/biome/abydos_desert.json"

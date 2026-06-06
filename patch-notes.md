@@ -5,7 +5,8 @@
 - SGJ Start Quest: Visit Village? OW Pyramid? Golden Idol? Read Text?
 
 ### STILL TODO:
-- fix the stargate structures, replace DHD and gates with Dev Tooled ones and then add variant crystals, reapply to pack
+- fix the stargate structures, replace DHD and gates with Dev Tooled ones and then add variant crystals, re-apply to pack
+- add tags to the custom SGJ structures
 - Configure Spice of Life Onion Edition
 - Figure out how Solstice Essentials works
 - Add /surface command that takes you to the surface of your current location?
@@ -14,7 +15,7 @@
 - Chisel Blocks: Aluminum, Cobalt, Invar, Nickel, Platinum, and Silver - These have no recipe and need to be added to the chisel workbench somehow
 - find a way to do easymode questlines instead of the command
 - Oredictionificator replacement?
-- add textures to the inf drives so people stop complaining about missing textures
+- add textures to the inf drives so people stop complaining about missing textures for something they cant even craft
 - add Stellaris, Mekanism, and SGJ ores to potions master
 
 ### See how hard this is:
