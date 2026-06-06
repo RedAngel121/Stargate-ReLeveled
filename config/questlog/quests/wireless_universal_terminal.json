@@ -4,7 +4,7 @@
   "chapter": "questlog:ae2",
   "description": "And in the darkness bind them... To your ME system.\n\nCraft any combination of terminals together to make them into a Wireless Universal Terminal.",
   "icon": {
-    "item": "ae2:wireless_universal_terminal"
+    "item": "ae2wtlib:wireless_universal_terminal"
   },
   "requirements": [
     {
@@ -15,8 +15,8 @@
   "objectives": [
     {
       "type": "questlog:item_obtain",
-      "icon": "ae2:wireless_universal_terminal",
-      "item": "ae2:wireless_universal_terminal"
+      "icon": "ae2wtlib:wireless_universal_terminal",
+      "item": "ae2wtlib:wireless_universal_terminal"
     }
   ],
   "rewards": [

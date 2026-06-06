@@ -29,6 +29,10 @@ file = "config/cable_facades-common.toml"
 hash = "6d9b1ea618923611840b2c696db69792943f1a38036d07e8c5d593f6965169f6"
 
 [[files]]
+file = "config/chatplus/chatplus-v2.7.0.json"
+hash = "24e286fee62af3ff11522f74a57660afeffb4e53ced69e3be411bd1515574949"
+
+[[files]]
 file = "config/cookingforblockheads-common.toml"
 hash = "d676304d60b0e1a95f88ca65c1a2ce968a3051d0df2b572d964b9836ad379494"
 
@@ -1014,7 +1018,7 @@ hash = "879ce305588f8fde1d23dc06088c5f7b8cf6ca72711d8d317669c40512a0858e"
 
 [[files]]
 file = "config/questlog/quests/wireless_universal_terminal.json"
-hash = "f8c74f706903bc6352bf002bfec003ddacec6d45bf9f79f3700b6f55be0cb0ad"
+hash = "b70d1117270616589da66f8650b52fc031e9402d727cbdc64bcfa281a349b356"
 
 [[files]]
 file = "config/questlog/quests/xp_storage.json"
@@ -1350,7 +1354,7 @@ hash = "589900a7b8cd8b6c2ef715ef4063b9a7829a164d981831f657873d3e674e779c"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/lang/en_us.json"
-hash = "38014890fde0bfd0109e37a3b57eee3006a19171342bca152015eb63f88134e5"
+hash = "91600229f840e0994f4a72d23448949cd3531b7ae2806cb773a09f22b9f3bcba"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/models/block/drive/air_essence_cell.json"
