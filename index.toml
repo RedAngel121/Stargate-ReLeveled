@@ -25,6 +25,10 @@ file = "config/botanypots-mysticalagriculture/general.json"
 hash = "518582b6dc5c9f25096dece3a3b67ba8e9d724219e3cda0667c980ced1e0eb13"
 
 [[files]]
+file = "config/cable_facades-common.toml"
+hash = "6d9b1ea618923611840b2c696db69792943f1a38036d07e8c5d593f6965169f6"
+
+[[files]]
 file = "config/cookingforblockheads-common.toml"
 hash = "d676304d60b0e1a95f88ca65c1a2ce968a3051d0df2b572d964b9836ad379494"
 
@@ -1345,8 +1349,8 @@ file = "kubejs/assets/jajasgates/textures/symbols/point_of_origin/cl_xtreme.png"
 hash = "589900a7b8cd8b6c2ef715ef4063b9a7829a164d981831f657873d3e674e779c"
 
 [[files]]
-file = "kubejs/assets/rftoolsdim/lang/en_us.json"
-hash = "c32e31f700a53d6db3ce57b40f0a01fcf11120dce4bdc619c159dde1a42f8726"
+file = "kubejs/assets/sgcommunity_pack/lang/en_us.json"
+hash = "38014890fde0bfd0109e37a3b57eee3006a19171342bca152015eb63f88134e5"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/models/block/drive/air_essence_cell.json"
@@ -3622,11 +3626,11 @@ hash = "3b4bea8739e3353b7963cd73d8a74dffe9112882a40c1cfd8429168910e592c4"
 
 [[files]]
 file = "kubejs/server_scripts/server.js"
-hash = "3ee3c6eeafad0b82c000291fb24efcf53114081a9111d740dc3035a4e2fc4bbd"
+hash = "60026f97e012a359c66d801ebbcfd133a74259ca007a4da5fa9fecc393ab9922"
 
 [[files]]
 file = "kubejs/server_scripts/tag_fix.js"
-hash = "321c55c680c3b040ff6d5e3767ea3daa0ddd42c66c6ff2a86b0433c8a0b7cdc8"
+hash = "4952bbf43c62af72f9ae05e6b762bc2720c795a32011728c81cf5994e87b9876"
 
 [[files]]
 file = "kubejs/server_scripts/wafer_chain.js"
