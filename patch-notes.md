@@ -13,7 +13,7 @@
 - Chisel Blocks: Aluminum, Cobalt, Invar, Nickel, Platinum, and Silver - These have no recipe and need to be added to the chisel workbench somehow
 - find a way to do easymode questlines instead of the command
 - Oredictionificator replacement?
-- ~~ADD DTN+POP~~
+- add textures to the inf drives so people stop complaining about missing textures
 
 ### See how hard this is:
 Me       : I want to expand the sgj dims and add more ores and stuff
@@ -22,8 +22,6 @@ Me       : Like the Nether but with overworld blocks?
 Request  : Yee
 Me       : I can agree with that, adding a new dimension isn't easy, biomes and ores need to be accounted for... I would have to add a new Stargate structure too...
 Me       : oh maybe i could look into adding that city mod that adds houses and skyscrapers and whatnot for a new vacated city dim... its a lot but its not a bad idea
-
-### Unfinished Mods:
 
 ====================================================================================================
 

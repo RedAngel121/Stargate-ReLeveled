@@ -110,3 +110,10 @@ ServerEvents.tags("item", event => {
     event.add("mysticalagriculture:essences", "mysticalagriculture:naquadah_essence")
     event.add("mysticalagriculture:essences", "mysticalagriculture:tharsite_essence")
 })
+
+// Adding DarkUtils Charms to Curios
+ServerEvents.tags('item', event => {
+    event.add('curios:charm', 'darkutils:charm_pride');
+    event.add('curios:charm', 'darkutils:charm_gluttony');
+    event.add('curios:charm', 'darkutils:charm_sloth');
+})

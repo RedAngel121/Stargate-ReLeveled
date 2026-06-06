@@ -318,7 +318,7 @@ hash = "7efa94964201d09993202c6719d0c478321529d64d873cf6f11d1edb6b2f628f"
 
 [[files]]
 file = "config/mysticalcustomization/configure-tiers.json"
-hash = "4e19e9ee62c0626376be7551744a2953a0c2ac355503d6aeda487e211bd42e7c"
+hash = "6f1f6247e70455533619d9d557796b6d7c683b76aa7778f4c309e75830c4c07f"
 
 [[files]]
 file = "config/mysticalcustomization/crops/borax.json"
@@ -974,7 +974,7 @@ hash = "2b714610963a47f9de3cc598c3336070740b1d9eb0a600f929fdf343803c4474"
 
 [[files]]
 file = "config/questlog/quests/wafer_dough.json"
-hash = "56aa0291908e4ffad5e80f992293d09351a3026a1dc4073c3a72e62adb186c91"
+hash = "35ce873511bd0a48da45f657f2abc6041e4734b7023b41664b42f90c2eb3d059"
 
 [[files]]
 file = "config/questlog/quests/weap_naquadah.json"
@@ -1038,7 +1038,7 @@ hash = "20f5e3c8706702d385522c1f73230cfbdb28cbf9b78fb365864252ae56e4d533"
 
 [[files]]
 file = "config/sgjourney-common.toml"
-hash = "e0f1ea84326c7251cb814988cf94067869046394fbb07165879bb67181a19ba4"
+hash = "f15c4662ddc48e3d4f150e60c4adf33c1c8ad0f3b5d0f2be78fc73d63aabc626"
 
 [[files]]
 file = "config/simple-rpc/simple-rpc.toml"
@@ -1343,6 +1343,10 @@ hash = "34d5b2f9573c6861a7fd138d875817b3ec199355917467cae8365b34497da01f"
 [[files]]
 file = "kubejs/assets/jajasgates/textures/symbols/point_of_origin/cl_xtreme.png"
 hash = "589900a7b8cd8b6c2ef715ef4063b9a7829a164d981831f657873d3e674e779c"
+
+[[files]]
+file = "kubejs/assets/rftoolsdim/lang/en_us.json"
+hash = "c32e31f700a53d6db3ce57b40f0a01fcf11120dce4bdc619c159dde1a42f8726"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/models/block/drive/air_essence_cell.json"
@@ -4189,11 +4193,6 @@ metafile = true
 [[files]]
 file = "mods/inv-view-forge.pw.toml"
 hash = "4ca01808cbfa639730c9b40208770dc826f2b5d14f87917ee04206350e2adea5"
-metafile = true
-
-[[files]]
-file = "mods/irisshaders.pw.toml"
-hash = "352bbd56bffa7bb7af6e16ae0e745db85e2d7e9e0ea6037ff866149f6e6e08b8"
 metafile = true
 
 [[files]]

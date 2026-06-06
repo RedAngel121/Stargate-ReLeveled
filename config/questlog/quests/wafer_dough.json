@@ -24,8 +24,9 @@
       "item": "minecraft:sugar"
     },
     {
+      "name": "Obtain Flour",
       "type": "questlog:item_obtain",
-      "icon": "#c:flours/wheat",
+      "icon": "create:wheat_flour",
       "item": "#c:flours/wheat"
     },
     {

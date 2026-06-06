@@ -351,7 +351,7 @@
 
 		["Stargate Journey Common Config"."Generation Config".server]
 			#Common Stargates will generate
-			common_stargate_generation = true
+			common_stargate_generation = false
 			#When false, Stargate Network won't include Common Stargates in the search for ungenerated Stargate Structures
 			common_stargate_search = false
 			#X chunk center offset of structures that contain a Stargate
