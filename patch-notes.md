@@ -18,7 +18,7 @@
 
 ### ADDITIONAL STUFF:
 - the tabs being color coded is something im working with the Questlog mod dev on to have implemented
-- All the Mek chemicals are bugged and i dont know what happened... one of the many mods i have is interfering with the text and i dont have a clue which one is doing that
+- All the chemicals/fluids are bugged and i dont know what happened... one of the many mods i have is interfering with the text and i dont have a clue which one is doing that
 
 ### See how hard this is:
 Me       : I want to expand the sgj dims and add more ores and stuff
