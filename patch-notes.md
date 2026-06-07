@@ -1,9 +1,3 @@
-### Quest Notes:
-- Misc Mekanism Quests added to the Mekanised Chapter
-- AE2 Quests: Add Rewards + setup
-- Stellaris Start Quest: Get Steel? somthn else?
-- SGJ Start Quest: Visit Village? OW Pyramid? Golden Idol? Read Text?
-
 ### STILL TODO:
 - Configure Spice of Life Onion Edition
 - Figure out how Solstice Essentials works

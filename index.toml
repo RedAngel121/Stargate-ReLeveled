@@ -606,7 +606,7 @@ hash = "284e72fd0d414b8aba3b15650e5c23c3f2fe316504f50a5bc248d56cd94af021"
 
 [[files]]
 file = "config/questlog/quests/gate_assembly.json"
-hash = "7bbd01c7fd00ddf18d0b14b03494ac203fd8fb0a4774d1ba07ca30dbf150f2f2"
+hash = "f903037ea35fda5c1d2d818e341f5ce39181f6ca78920b6e5365e1f9f60dac1f"
 
 [[files]]
 file = "config/questlog/quests/gate_parts.json"
@@ -674,7 +674,7 @@ hash = "b25e205ac5b92acbd996452872d55ed7b3bb316677de812af2e95d7c95461cf7"
 
 [[files]]
 file = "config/questlog/quests/interface.json"
-hash = "e725fd8a3f7ee5af9d236200b2aa6341891aad58e6b5e4437facd49a367154e2"
+hash = "fa2ab3cfa19470374d16be6e5f5c14a541af84f0f37c80686a7795a15b5f0a01"
 
 [[files]]
 file = "config/questlog/quests/iron_crux.json"
@@ -722,7 +722,7 @@ hash = "7da0c95e40c054a2003120c1c1d6711c00cc270655bcf6408b691aaafaf21799"
 
 [[files]]
 file = "config/questlog/quests/leaving_planet.json"
-hash = "68b64792d525544b68429766651f6e037d1f6a5ba8ea4ce1cb3ba24b0fb51ed1"
+hash = "054460c52c8bf52e05c6c5802f1c97504b7d1784273e9c5d4c99d4e08db5c11c"
 
 [[files]]
 file = "config/questlog/quests/leaving_solar_system.json"
@@ -974,7 +974,7 @@ hash = "afe903b20376711cdb11a78d8ed1ccf6ecaf90d27e4a6fcf536b3154e17d4215"
 
 [[files]]
 file = "config/questlog/quests/venus_ore.json"
-hash = "754f6ae82e237d98d86ba65dd17a3f2d70d18bfb50678a41e0d7afc48c9e2372"
+hash = "f4666acdf2199c1c2e2f166f5ef06deb1eccf8dc96e19127881104cb585bd2dc"
 
 [[files]]
 file = "config/questlog/quests/venus_travel.json"

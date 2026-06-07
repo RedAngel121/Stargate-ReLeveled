@@ -4,7 +4,7 @@
   "chapter": "questlog:sgj",
   "description": "The Basic Interface is your first step into controlling Ancient technology through computers. It provides limited access to Stargate functions and basic energy feedback, allowing simple monitoring and manual dialing assistance. Think of it as yelling commands at alien machinery and occasionally getting useful results. It works, but only just.",
   "icon": {
-    "item": "minecraft:basic_interface"
+    "item": "sgjourney:basic_interface"
   },
   "requirements": [
     {

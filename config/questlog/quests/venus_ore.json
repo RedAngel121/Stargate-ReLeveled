@@ -4,7 +4,7 @@
   "chapter": "questlog:stellaris",
   "description": "Collect Corronium Ore",
   "icon": {
-    "item": "stellaris:venus_corrunium_ore"
+    "item": "stellaris:venus_corronium_ore"
   },
   "requirements": [
     {
@@ -16,8 +16,8 @@
     {
       "type": "questlog:block_mine",
       "name": "Mine Corronium Ore",
-      "icon": "stellaris:venus_corrunium_ore",
-      "block": "stellaris:venus_corrunium_ore"
+      "icon": "stellaris:venus_corronium_ore",
+      "block": "stellaris:venus_corronium_ore"
     }
   ],
   "rewards": [

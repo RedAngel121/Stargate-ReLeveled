@@ -2,7 +2,7 @@
   "title": "Some Assembly Required",
   "sort_order": 22,
   "chapter": "questlog:sgj",
-  "description": "POSSIBLY BROKEN QUEST > Once you have all the blocks place them down in [this order](insert link or image) and Right-Click the Base Block to create the Classic Stargate.",
+  "description": "BROKEN QUEST > Once you have all the blocks place them down in [this order](insert link or image) and Right-Click the Base Block to create the Classic Stargate.",
   "icon": {
     "item": "sgjourney:classic_stargate"
   },

@@ -15,6 +15,7 @@
     {
       "type": "questlog:item_obtain",
       "icon": "mekanism:ingot_steel",
+      "required_amount": 4,
       "item": "mekanism:ingot_steel"
     }
   ],
