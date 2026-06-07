@@ -1690,7 +1690,315 @@ hash = "d3419fc5a95216b299e28b0dc05148f53a9a8439d68995ff4354001b7bbf461b"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/textures/block/drive/air_essence_cell.png"
-hash = "ee2ab3ee6466f79e80ea1b38fa8aa446ccbd4405b772f75353b495a7f11c4d94"
+hash = "44d2bfeb4586fa7f8c7aaa08a2b7f412e61d85c1faf039a5b2fd25f30b8f61ac"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/amethyst_essence_cell.png"
+hash = "598eb4481b4e8515dfe7e9f9de1059c905d9535fc1ced9eb38d65f4d0055375d"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/armadillo_essence_cell.png"
+hash = "0cf6c982e206925edf1cade4d343cdf1114c4ff7eb947a02dd057f028faa00e2"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/blaze_essence_cell.png"
+hash = "39a95dc5709183a9bfe197a97c9a7d6b3f460b56caa19e3a2bb19dd34b1f19d5"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/borax_essence_cell.png"
+hash = "b8a5d17a0cf3ddeae827e041aad338c892d721c01232373db7a853f692c943e1"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/brass_essence_cell.png"
+hash = "c46728d775943e531d54a16f3d214d381fb97be81c152f18a924ff70e6930cba"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/breeze_essence_cell.png"
+hash = "b17ec7b1ee9d3f7c910b150bc056dae5750ad1724052e572d7b08929ecfb3dce"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/bronze_essence_cell.png"
+hash = "3dd3a9c51d3bb8fe21b368d7708ca488ff5fb566600f0ef225675dc21d152da8"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/certus_quartz_essence_cell.png"
+hash = "7402175601ac05090468f0c8f736e781040c07fb9bd03200ad78b62a0b0c48c5"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/chicken_essence_cell.png"
+hash = "62a509ba9076d3270526afbc40c229918bc81170494b8bcc244c9d40cf0e5725"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/coal_essence_cell.png"
+hash = "85b1ea0560e710f93ab81e1e2f3891d613851c737abfd78be693192279463c98"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/copper_essence_cell.png"
+hash = "c1c0601a726c6e963f327edf9d38b403231a9bbfe977845983cb4f7fc353884b"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/coral_essence_cell.png"
+hash = "bdaa52dee845d61297e6a86d319de51ccd03cac86814b4d266591c306bd753d3"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/corronium_essence_cell.png"
+hash = "858432c2e7e851aa07533b775327a4ae9c97b9ce176bf8218f6d1c88cd4a7bfa"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/cow_essence_cell.png"
+hash = "4b7a0de10679f2fa130b2c3f5ee50951dcec58f9949515d23eef8117cc313440"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/creeper_essence_cell.png"
+hash = "9c588896f7e918f8392f7bed7c9e40c54b7799cae8d3d0f93d070cf702d604aa"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/deepslate_essence_cell.png"
+hash = "4473a52b12d044fd6a5bd2bb1afaf0c0987f9b585bd5f7ac13842a84cad828f9"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/desh_essence_cell.png"
+hash = "1496530428fd8f046d1230c72a11c929f9a77d61a9014378faba0fe2a41efd49"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/diamond_essence_cell.png"
+hash = "f3fe832ba19ef83deccb164b84567737f36e00428398d965eea23855a67d2caf"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/dirt_essence_cell.png"
+hash = "0616945f5686bffb2ff52663bcc8826bf57d6c95bb2cb26ba62a3017f0e07d61"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/dragon_egg_essence_cell.png"
+hash = "53e1ebe14b0f69e51987ef041c932024956e43c23b1e49ec595bf40d86de2434"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/dye_essence_cell.png"
+hash = "08fe42e58f281eee3296f4b4878242f0f108f6fdf41f55beeb4c354d818aeeb7"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/earth_essence_cell.png"
+hash = "6d28cabb03073ad9fb4bdd419128b3b333d7e93bb4fd60a3972dcb46eb00d238"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/electrum_essence_cell.png"
+hash = "2aa11fac5010208de7b4807bda67cf4dc9b4ac1a0aee6b8343d33d60c04e7398"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/emerald_essence_cell.png"
+hash = "aa80eaf0d3faf54ebb76c92ce71618e61e16f31cc2cd475e949d8ba53a03800e"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/end_essence_cell.png"
+hash = "ba136080e3e77746bfd1354a565204ab85d5767f9bef32888acb277e18964473"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/enderman_essence_cell.png"
+hash = "9ca7038f89b1a1dfa814c8db3b8dd9665734c3bc0e891014c65ca4a56253d5b0"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/experience_essence_cell.png"
+hash = "1ec8403d7f15fcd67b0322e827c4a96e3be167f528eed3fbea135b4c76c20743"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/fire_essence_cell.png"
+hash = "f331ec535b366823f178a9503e7acea298fb6a4670639eecdfdd3ef328b0a38d"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/fish_essence_cell.png"
+hash = "ed473981d47c20258275cdc43401b2bc6b614cabb90442cbbb3d3e87e3b05f70"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/fluix_essence_cell.png"
+hash = "0d0d7e2ace985ca03dd5183a65a8c8af5c2c230244441452b85805b08bd2ace8"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/fluorite_essence_cell.png"
+hash = "551622f10f3b381f4fd1eabaf3879fa5bcef721c0defa3f62b7829574e72386a"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/ghast_essence_cell.png"
+hash = "538099a61db671ad2329d0697cfe2e78129302bf6cb6dabbac090c2c96dc5927"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/glowstone_essence_cell.png"
+hash = "757957fce0feecc3991ef240933ea847172698f4818895b8ccaaee7d24760f7a"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/gold_essence_cell.png"
+hash = "55e55a9507fbc396d98bca5d3ce43615580b869d7c27537e2d8fb94a4ea06a67"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/honey_essence_cell.png"
+hash = "6386938d32aab747f1265d0dd8040ac10b5deadfbd1c28129bdf5093edf02e6b"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/ice_essence_cell.png"
+hash = "dfb3f1c50bbe7880f8270d5dfd42c777e2cdcab5df6e63fd2624fab6d90bb6d4"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/iron_essence_cell.png"
+hash = "804408549595381e679ab9a367036f48cb1b6cd5cce88ce3feb764bb80e1a87d"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/lapis_lazuli_essence_cell.png"
+hash = "ac56885ea9d058ecd987ee8dac187de074248f14007666d4376a99b490b3da8a"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/lead_essence_cell.png"
+hash = "5a14ec8442acf5fa430cd751844828094230d549c3bd01e28d8548ba58aa2ec9"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/limestone_essence_cell.png"
+hash = "77dac114428f74cf8a5435473d58fbd7513d4263c1c73e9f96fea2bccbf9dba4"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/naquadah_essence_cell.png"
+hash = "5b5873626defec0ae3bdb9953f802dda4939953076907ef0c4955626e40729af"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/nature_essence_cell.png"
+hash = "0b3a6c949224cceae485580d3a293a690998bae8a3a6dae94356145f9993a605"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/nether_essence_cell.png"
+hash = "32b6c2280ee8dca8924b5583c53eb3e973e5e70e333d4a6c2560610875fee337"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/nether_quartz_essence_cell.png"
+hash = "6e4eff5137657119d21994d46c7de87f5a27c2533c8620b134501cd286695939"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/nether_star_essence_cell.png"
+hash = "5ae860da743ef14bc41583da5fb029ec610a938700b60c2e2ff78abd2b89ef36"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/netherite_essence_cell.png"
+hash = "0f5836616337dab6d198daabbc04eb1403a9abc998bc8034f8a426bdb6ba0de8"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/obsidian_essence_cell.png"
+hash = "35bf0d835b6e6f7f53bf9ccd9bc62bf2134f9820964ff7fa6099c925a554ea13"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/osmium_essence_cell.png"
+hash = "efcad3da7556194b9acc42ae6e2d32bd325de2f8372696baf551963a6eec824a"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/phantum_essence_cell.png"
+hash = "44d8b9b20fc7cad30720541c44f94ce0908935fb3d9284a7e4cf2156ef8a69d2"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/pig_essence_cell.png"
+hash = "6fed9be2c703eae4bc8c39f6598869ece3d2668d1bddec67f0e0523d4dbacf7c"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/platinum_essence_cell.png"
+hash = "d12e0c544295c6eb394041514056645e27e8981a7198fcea5403afcabda1a487"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/prismarine_essence_cell.png"
+hash = "d45f603ad3b3dac50e064351b37efdda6710f5099d9915496216e0692098731b"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/rabbit_essence_cell.png"
+hash = "a8320c5c0fea1f45004d721c7dbcbd610da94d53c780ec03cf0a2136d72a78e3"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/redstone_essence_cell.png"
+hash = "09a2c4326817e27cd468e94957b3e30df04598ee8a238473fda674e5029f5322"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/refined_glowstone_essence_cell.png"
+hash = "a27218f3bec182c8c6a3b56222d0ace4de4ca0cda1d57b8e97259ed6a512b672"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/refined_obsidian_essence_cell.png"
+hash = "15ab7b0c8d38da58f5abe64ea84322c4e1c3603a34e9ea426acc04ccb0342a11"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/sculk_essence_cell.png"
+hash = "c1a150567175b561460e4113b7249b6c654b9c6286c896d2004d11492317d8e8"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/sheep_essence_cell.png"
+hash = "4a7aea3bc30734a8cbf976f5ad3dbc816abef53e933f8670199bb524076bd979"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/silicon_essence_cell.png"
+hash = "f15cee1cee2e15abbf6652af118252be13a7088567a33491b89579bcd795e0a5"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/skeleton_essence_cell.png"
+hash = "ccc3a723f0edb08f47c16bee42abdadad0b64f4d04fe0e2f00671485618fb485"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/sky_stone_essence_cell.png"
+hash = "cad61570cc85b270f8f1fe23e15956bb70b82793744582f567d2dd31a836409f"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/slime_essence_cell.png"
+hash = "0d4d6163669ea3be1fbc2cda1cc45cf8216fd83626ff197107544676ef3fe2c6"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/soulium_essence_cell.png"
+hash = "c87e3d48e98d08f471126fd6b4b5cb5990d36cb487a9ef2d4c9f3c8ba6151fe9"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/spider_essence_cell.png"
+hash = "1b8eca44df263fba7b179087680a2e6afa1746c83307792a07d02a1b119db6f0"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/squid_essence_cell.png"
+hash = "148d489d638e93386a40e227f72db7622d7a983c3f818b33c33b4fea36901e4f"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/steel_essence_cell.png"
+hash = "cf440daf0d009935a87e1b698320c0d95150d605a2da7c24dbe532d92734f7ab"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/stone_essence_cell.png"
+hash = "6bfc78cecaed8bd6486543e766c1b4440c90e812a03fe2c6e3d4cfbf2273ea34"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/sulfur_essence_cell.png"
+hash = "0fae04169267dcf23f8e18766fd8875f4ea7d5f45d3c2c8452c14e87a1f1844f"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/tharsite_essence_cell.png"
+hash = "305cd36b65caf56929a91df25bf9b8dd43aaba7fed1c65f6cd6623ecacd463cf"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/tin_essence_cell.png"
+hash = "41b41052799d0be4c1a2274fa96f6dda05f4fbdfd8768626714ebe72d169c173"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/turtle_essence_cell.png"
+hash = "298eb91c8e419a6fca3582c8477d7838b6d3d07b346f5d3aeb7e0fbbd7761a42"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/uranium_essence_cell.png"
+hash = "3f84c16cc6940df4ab7c3642cbb8a764597d6d711eb540f596e847572bdaef75"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/water_essence_cell.png"
+hash = "62653affdb19671f3f586b8b875c23b5e5945093d1f2228abe118ef7d4fa426d"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/wither_skeleton_essence_cell.png"
+hash = "3fc61b54a94d243c8adfbec671da636a96a4fe2bafbc123fed32e3fff41ef7d5"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/wood_essence_cell.png"
+hash = "4cfbdd4cd46a0f0c8995d8a0f202a82dcca4d1ee9cacfab1c570fd3c295ac60f"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/zinc_essence_cell.png"
+hash = "79870aecc7eb97836e4b1ddc6128987594ad6426e0e86862a494d8cad8015952"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/zombie_essence_cell.png"
+hash = "82d342fa80858dc97e913676f781cc2c597a83ec5f1199b452539a1f02d90a5a"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/textures/block/floral_compost.png"
@@ -1845,12 +2153,316 @@ file = "kubejs/assets/sgcommunity_pack/textures/item/incomplete_xor.png"
 hash = "ec6575f1554c2f42645ed2692bca78aadc76aaa3ae6283dce875bcc1d26eef7e"
 
 [[files]]
-file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/pigment_template.png"
-hash = "d86ea68508b616fa02cf7a5cee43d6566a9633dc68f1e9692b5b1cae565ce6ec"
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/air_essence_cell.png"
+hash = "2fc6cf16225d060b87536ccc5371db5aa8669cc7181a74608c9b62ba4e55349e"
 
 [[files]]
-file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/template_essence_cell.png"
-hash = "9be5207204010d7bbcb833f74dd48a4592a51c469749747ebb5a427b13fa81c3"
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/amethyst_essence_cell.png"
+hash = "4d3f2c3029c52a9778a53b57299ffacd50ef274973a115eca77494cbd9880589"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/armadillo_essence_cell.png"
+hash = "e7b41d72b91edb70a7e81434207630f820a28fd2698f04bfe594815be6291ea7"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/blaze_essence_cell.png"
+hash = "1f244c7a4dd6a4b80816b4ea76001e172a820b3032da9c0e3f6990d755768116"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/borax_essence_cell.png"
+hash = "582b94b504ab1a534ee2c73d3dbffec22fba04a4ae3afa4a7bf1ef78f82c66a1"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/brass_essence_cell.png"
+hash = "18032b8e376f4e0918148aa447938b535114119f7f3a8bf897a8cb93f6b4e555"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/breeze_essence_cell.png"
+hash = "7c830dd746cbdf3e1dc51d670ba4e49bb5cb2e0b9a4db5462962d360994f0fe5"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/bronze_essence_cell.png"
+hash = "196e02aee24bb28764ce3758912f6f78d932bda0cc0ccf5ab3fcd9ca38095329"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/certus_quartz_essence_cell.png"
+hash = "81836c5c06b1f55a5c26f4dd3c01bd7cd042023eb45a9941429e5be8d8805c73"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/chicken_essence_cell.png"
+hash = "28243d832378d9e99d9a299441d553be1729789b447eb7222ef212baea72450c"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/coal_essence_cell.png"
+hash = "aab9be593d005cc8b8bdffb1f9ad922de1a76bff773eb1811c662fcbb183e9bc"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/copper_essence_cell.png"
+hash = "6e4023166ab88a41e32cdb1f16f30635a029bd587de4cacc010213a7195efb0a"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/coral_essence_cell.png"
+hash = "b824774fef6212c7644e91222d3828a2557fea83b725db2e893846a526b9c7bf"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/corronium_essence_cell.png"
+hash = "147f8aaddb43fdc055a2ae7f2907eeac7778adc51a4ec62ad33b756e4774d5ea"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/cow_essence_cell.png"
+hash = "cafe38b336c88ace897b50bcbaf561ea3451b55233174e997259185dbf574344"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/creeper_essence_cell.png"
+hash = "d8579b5509a6c706c9ba7de1137a7195215be10d3ecd526141bf8961984338ca"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/deepslate_essence_cell.png"
+hash = "7656eae6d79eaa4d00636e9c2e62ec0388505d97ddcc9925a3d6a9279f897115"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/desh_essence_cell.png"
+hash = "aa004ea073c34f21f6f33a63681492c16f2c403b62bc73d766df44be913a23d7"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/diamond_essence_cell.png"
+hash = "79faa8a78bab0e6f7d991728e844cf29861feb3a47caf490a7db18a2ccb6bb17"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/dirt_essence_cell.png"
+hash = "f861c81552a9c48be29e3e9301895a809118c36f7dc1fa03a1955f9a5763fbf4"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/dragon_egg_essence_cell.png"
+hash = "febd0aaf0b4da06316a51dcd79fa3490d38ce8c009912df040ab6ec521af9df8"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/dye_essence_cell.png"
+hash = "d5ecf4cd457e1d08a3cc0965439fb45a84cb39e2eb1de90a641c2927a62c1b90"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/earth_essence_cell.png"
+hash = "ab73fcf5f87a1de51a8fbe38765c8cca097f1bb0764bc10a9401639e5b46ca2e"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/electrum_essence_cell.png"
+hash = "62b4d4bc9fbb7cbd72aaff270f55e0fab0f1dab997977bbf879b922d4b135be1"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/emerald_essence_cell.png"
+hash = "02ddbfeaaa25b4b5549c8eb9114f5b170ed919ee1d5ac5d85a88d33dfec3ef0b"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/end_essence_cell.png"
+hash = "ae07de78eef4d88057506f47b7ae398768f9386d56097c19652550817589d116"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/enderman_essence_cell.png"
+hash = "4077dc8ebb884b6d18bf06b8cd612eb6f2b2f801913094f6c3cc9cc82ebc5008"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/experience_essence_cell.png"
+hash = "a07dd6fbd3afe124e74038a9d2f076117b5266883a99f911336dbfe289d9f7cd"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/fire_essence_cell.png"
+hash = "29df178bc2c8fc7a7441a306ced4cdd5245b1def7ad63464249f75d7cd16f87a"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/fish_essence_cell.png"
+hash = "013e9901d40c85cc57fba2e0eab102f7b1016373d4fb8d48c29b77842bc34f78"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/fluix_essence_cell.png"
+hash = "1ab31d25baa4c602c4ac5d1a977c0713c296e4fe58658eee0b293b116505ddfe"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/fluorite_essence_cell.png"
+hash = "56d1768ba2af39f80538d02a54d9d0ad3871d80a77fdcd95d1b34bd868535a5f"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/ghast_essence_cell.png"
+hash = "bc342235f19ab45963c12fdab9fef5dc69554fd20d83bda92033a1d23d6430c4"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/glowstone_essence_cell.png"
+hash = "0c8a4bab61bce82b32b7d90a4a8a78a733798f982faebd7d65e1ff6a44e8c9dc"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/gold_essence_cell.png"
+hash = "309868cf73def2a0e3accb3f3363c75b1a41e240da635ce3177bc5cfbdf56516"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/honey_essence_cell.png"
+hash = "ccd58ffbd94fb9d621d332e083cfbc92232047f1162955606931d391b7b68335"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/ice_essence_cell.png"
+hash = "7a5deafd7247b6c47fae74ed01cbc1a611d8b1e91b3dac233a676aa191c5c2b9"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/iron_essence_cell.png"
+hash = "01802eee82f3b1725e6a7a3ebc6ecfcf6e10b5e6a8e3c23c8ea2d37a8ff1756f"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/lapis_lazuli_essence_cell.png"
+hash = "221241c29056d0cebfbb66b6810636055428d877f47323db5561de45b6b99c4b"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/lead_essence_cell.png"
+hash = "39f5851ec8f78f7147a2fae85da7e8b5af4e558901cc579f43ef80d7aeef5bac"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/limestone_essence_cell.png"
+hash = "5d8bee5627ce453a2542a68724df8bbb78899e13be47d8c74fa33c98571b7ff3"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/naquadah_essence_cell.png"
+hash = "89fe83b98f73edd6eef16375d205fc7281f2efca6b3c3c091b11a01b1d9b0c06"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/nature_essence_cell.png"
+hash = "11ae1009e9756d8064baa14dacfe5d5266f5759cf5a385d14067461ee0027c63"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/nether_essence_cell.png"
+hash = "ba8245bc51752c2cba07f003017f79ce65c78579f0a1019510e6b994225635b3"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/nether_quartz_essence_cell.png"
+hash = "7b865712dd22bfc43894c3cd4988effc6739bea771031864abdb820b3716cbf6"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/nether_star_essence_cell.png"
+hash = "e0f03ba902934d3c1e7a979f17020dbc8aca4aeee4c6e766cf20475a73e02fc6"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/netherite_essence_cell.png"
+hash = "8666aa0a884d5ea90375fe5ff4d01d8c6bb9c8887671283e7d6b6e72b5ff3bd9"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/obsidian_essence_cell.png"
+hash = "5bd0f0fce8e10f462c73e078e345f9902510ad395450f152fac625fa1433f05a"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/osmium_essence_cell.png"
+hash = "e897ef459dd2801e9e416e57d6b1c67229d0dcd955b1c22a169ad582303a6903"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/phantom_essence_cell.png"
+hash = "5292f5059c92ab9bc0292119f2346c0c49e7095e64f866196662d5ef4d017644"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/pig_essence_cell.png"
+hash = "1a553bec18766bebf9771cdd60d2c2a21fdcffbc66250f79d07a466c4a46bf44"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/platinum_essence_cell.png"
+hash = "dce0811dff525bf0a4eff314da0b91e61443c68414bcfda63ce855d097397f1c"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/prismarine_essence_cell.png"
+hash = "074848bde004ad8b6ab0c36f498d585bd6a12161e0d309e8e19664491a5313c1"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/rabbit_essence_cell.png"
+hash = "3ff411c801612495e5949ea1cd03aec9a65607c0cfe0363c8a4d8936dea3e8b2"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/redstone_essence_cell.png"
+hash = "41b6094319bc4096a8cb5b0c74d618143cdc9be73dd781dce93bb10e42a0d932"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/refined_glowstone_essence_cell.png"
+hash = "20dfa571e56fd8099f9e261d5c14433930ec04b63dde1741fdc7a3c1c03dab9c"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/refined_obsidian_essence_cell.png"
+hash = "26739951f356f82e1c02fbeb05d802d8b54261686c05aeec1962eda5cab902af"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/sculk_essence_cell.png"
+hash = "e40cc14095d7f0ae013bafc0fda39437dc1750e960cd23390a600927c2c3fb5d"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/sheep_essence_cell.png"
+hash = "3c1f03d87fcf199830de1899128d9dce1f598ef40aa196b678118e90aee7a9c2"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/silicon_essence_cell.png"
+hash = "e45307e6c8042b6ae5f5bc1c254ff92f565a5c623db956524f3081694285822e"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/skeleton_essence_cell.png"
+hash = "7a3ab731f53104b7be26d77eb565eb46fd8e8121d1e4f93545d3945ffbceb628"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/sky_stone_essence_cell.png"
+hash = "26b0ad9343b08238f6e044d71bb8b5e24f7af800b5756061b4f4ae3aca49c049"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/slime_essence_cell.png"
+hash = "63d6625684faebbb5d31482e5ad3fe00024fdfbf16ba0b6384a2119b5f33b3a1"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/soulium_essence_cell.png"
+hash = "6ec0a9e5364ad22b5c1534ed5747fe324f27dfa4392cbbed8800fc61629cb782"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/spider_essence_cell.png"
+hash = "41273619d2c398f9bdf0a336623abcd2133495187a3ac6cbd6b46345a787c62a"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/squid_essence_cell.png"
+hash = "ae919f90a0efd020407715b290044c7e32001085e90b4cbab5d819bedb2c4c8a"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/steel_essence_cell.png"
+hash = "a6550d11fbedfee083ca63f696b7bbb25ef8baa1e540729a81a3cefdfa7730e6"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/stone_essence_cell.png"
+hash = "81a295d717d17e5bd83584196749790a2d7ebaef53ee4a66ea52e195e9c1c620"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/sulfur_essence_cell.png"
+hash = "9878e3b4f5c76dd106552f144f8aa871ad2ba135c22087810a436b67cb1aec2c"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/tharsite_essence_cell.png"
+hash = "efc976335b8098850a6cb0f809b3393ddba00377465feeb28de3fa64d1b283ec"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/tin_essence_cell.png"
+hash = "b90bc72b8d339b39f484b0a68cd133c957e2b827ea2edcac867a14e79d5491d6"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/turtle_essence_cell.png"
+hash = "467d64253317840773a0f1212aea3e6b998523e5196e7f801220c6ccdef1e948"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/uranium_essence_cell.png"
+hash = "5c05e4611e5f4b529340853bdf3624c3d6a2cb1bd2c572fc1d8423437798196b"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/water_essence_cell.png"
+hash = "1805521858ab6e56d23f2328ccd3ff035a92b380337ee1c40d37da7b03b5ca08"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/wither_skeleton_essence_cell.png"
+hash = "c4a7a4914abde634e5398546ca07388c975d6c655a9949cc133d5d15a39897f8"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/wood_essence_cell.png"
+hash = "1f7d7281695a93f1cb932ee96430eb1b92d73640d18535f1e96bcd70e5ae9efd"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/zinc_essence_cell.png"
+hash = "22be415566edf29b562c1a500f1d54a5d284bb274413f51975ab9e942b21638b"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/zombie_essence_cell.png"
+hash = "fd721549f5bfb75c31b1abb1f7db1d926549757e85310d4f2603b658dfc08ace"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/textures/item/integrated_circuit.png"
