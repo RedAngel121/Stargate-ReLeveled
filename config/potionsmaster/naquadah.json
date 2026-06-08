@@ -1,0 +1,8 @@
+{
+    "entryname": "naquadah",
+    "oretag": "c:ores/naquadah",
+    "color": -11842741,
+    "drawing": false,
+    "order": 0,
+    "recipeItem": "sgjourney:raw_naquadah"
+}

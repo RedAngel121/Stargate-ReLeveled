@@ -6,16 +6,9 @@
 - TAGS: CreateAdditions bio pellet and pellet block need to be adjusted to be bio-fuels compatable
 - Chisel Blocks: Aluminum, Cobalt, Invar, Nickel, Platinum, and Silver - These have no recipe and need to be added to the chisel workbench somehow
 - find a way to do easymode questlines instead of the command
-- Oredictionificator replacement?
-- add textures to the inf drives so people stop complaining about missing textures for something they cant even craft
-- add Stellaris, Mekanism, and SGJ ores to potions master
+- Oredictionificator replacement? Replicator
 - find more uses for compost blocks, right now its a bit low usefulness
-- disable essence on farmland interaction into mystag farmland
-
-- disable mekmm replicator
 - change the inf water/cobble/lava (make a lava cell) cell recipes to be more production centered
-- PermaSponge quest replace iron sponge
-- adjust perma sponges recipes
 - add essence recipe for sponges (wool surrounded by water and air essence?)
 
 ### ADDITIONAL STUFF:
@@ -101,6 +94,14 @@ Me       : oh maybe i could look into adding that city mod that adds houses and 
 - KubeJS Botany Pots (replaced with Myst AG + custom seeds/recipes)
 - unlimitedperipheralworks (Mod not Updated... Author says: "I have plans for this, but I honestly can't give any deadline for when it happen.")
 
+### Thank you for helping:
+- PheWitch
+- VƬΣᄃΉ
+- CubeMaster724__
+- AzrialTide
+- lukaskabc
+- Vile23
+
 ====================================================================================================
 
 ### Long Term Goals:
@@ -109,4 +110,5 @@ Me       : oh maybe i could look into adding that city mod that adds houses and 
 - Integrate Oritech - this would be amazing to add compat for, make even more complex circuits and recipe chains... make a ZPM with it?
 - Super Endgame Quests - ZPM hub Reward?
 - ZPM replication options for endgame (talk to cookta) > use the Antiprotonic Nucleosynthesizer
+- Find a way to include UU Matter
 - Add Tempad as an After-Oritech endgame TP item that can(t?) travel between dims - requires ZPM?

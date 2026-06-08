@@ -1,0 +1,23 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "ABA",
+        "BCB",
+        "ABA"
+    ],
+    "key": {
+        "A": {
+            "item": "mysticalagriculture:water_essence"
+        },
+        "B": {
+            "item": "mysticalagriculture:air_essence"
+        },
+        "C": {
+            "tag": "minecraft:wool"
+        }
+    },
+    "result": {
+        "id": "minecraft:sponge",
+        "count": 1
+    }
+}

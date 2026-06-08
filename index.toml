@@ -322,7 +322,7 @@ hash = "c1b43c72c9f14569fda0442a4be2814d25c8407fa0247b9e6b3626aba58b27cc"
 
 [[files]]
 file = "config/mysticalcustomization/configure-crops.json"
-hash = "7efa94964201d09993202c6719d0c478321529d64d873cf6f11d1edb6b2f628f"
+hash = "b0486f295158536d979fa8bb6b1d05efd3f57cf2b420073287042f43e9eb2a57"
 
 [[files]]
 file = "config/mysticalcustomization/configure-tiers.json"
@@ -363,6 +363,78 @@ hash = "32df3fd899e2c7be1b9cdbac299f76adea23a7861697a7e08e84a5e0a220fde8"
 [[files]]
 file = "config/overworldmirror-common.toml"
 hash = "ba3bc5fcaf10e2703041746ca36da0f3e4978e0c407b41c505d8f3b99946f0c8"
+
+[[files]]
+file = "config/potionsmaster/coal.json"
+hash = "39b8ecb6b2c57924e48f2dc584cca194fc7e4c07f970322d731e84a578498655"
+
+[[files]]
+file = "config/potionsmaster/copper.json"
+hash = "f3b9ff7dde77dd73487b6f3d41e2416e066146a17d090b404117b6c9a79d7be0"
+
+[[files]]
+file = "config/potionsmaster/diamond.json"
+hash = "54a09f43b1f61d8cefb64ae06a386e55f46638f702b6644f2573581ae83d9368"
+
+[[files]]
+file = "config/potionsmaster/emerald.json"
+hash = "bb4a6d2ce65c78bb22fc0ef60956954190d66f1ff3b29d3fe8f8d9286e304e32"
+
+[[files]]
+file = "config/potionsmaster/gold.json"
+hash = "11927b473b85461f6a7e56eb903e15c377872948c83f434f605ecf5d1b71aa81"
+
+[[files]]
+file = "config/potionsmaster/iron.json"
+hash = "443c699a3aec3e731d8721b6ef162c0926eb555e801cc285369bb6bf7840863a"
+
+[[files]]
+file = "config/potionsmaster/lapis.json"
+hash = "049504274979a2ddd48e3251d481b9b8a5e55fd519e32fc2e10c8029e66865f1"
+
+[[files]]
+file = "config/potionsmaster/lead.json"
+hash = "3a1bb06a74dbb31b5d341644bf0a6c96cf34d6b2de3b96ed8a9ce1f4f5af34b7"
+
+[[files]]
+file = "config/potionsmaster/naquadah.json"
+hash = "d0fdbfa3a9a57af14d810acd0124d726d3912c8b71394f899893f51a51b98e12"
+
+[[files]]
+file = "config/potionsmaster/netherite.json"
+hash = "4eea9748ac41e7c8f36deba10824b8d15d8d6e08a3f8b7cea98d25cd983df50d"
+
+[[files]]
+file = "config/potionsmaster/nickel.json"
+hash = "315dd8655c5124e8a97286ffa954f934f8c61099810f9bdbac9a75c8de42d38e"
+
+[[files]]
+file = "config/potionsmaster/osmium.json"
+hash = "4e5d7341fa62a3ceaafc4a1721ee7dd709e6023b3e999f2aee6b2ec72521dfe2"
+
+[[files]]
+file = "config/potionsmaster/platinum.json"
+hash = "d84670d5dc2aa19c5ace649a2da64071b31475dd6149cddc8f04719da360e838"
+
+[[files]]
+file = "config/potionsmaster/quartz.json"
+hash = "514388c35721c3f0dd025a834b5b8296a77976c73e5f175d90de5888991e277b"
+
+[[files]]
+file = "config/potionsmaster/redstone.json"
+hash = "bc452f74514a9a68562c006a988b29c76a979ba4307196cbafff7b5001d669ab"
+
+[[files]]
+file = "config/potionsmaster/tin.json"
+hash = "2c71761b6f4024c2c50414fe735d34dca0d45f500e089d0719d2747d7c8c1308"
+
+[[files]]
+file = "config/potionsmaster/uranium.json"
+hash = "0e309a19ed0dd5d451f51e020f083e2d70e9e06a0de51dc1a5c00fe36080d12c"
+
+[[files]]
+file = "config/potionsmaster/zinc.json"
+hash = "421a6646424f6189f40b7d218dd1a30dcc560d023bc7021b18af695b8b5f6948"
 
 [[files]]
 file = "config/quark-common.toml"
@@ -686,7 +758,7 @@ hash = "8559702913555f7dacb1f11d1f0fb5c946a1591d72b2fad472c93265dd2d5e9b"
 
 [[files]]
 file = "config/questlog/quests/iron_sponge.json"
-hash = "a6f9af7752e1efce9eaf72f18399a78357350451e2c7b6e08bf459e652582ffd"
+hash = "5c82b51f433ccfd21c6b455ef15b20558b99e7707e37942e369c521582a1d178"
 
 [[files]]
 file = "config/questlog/quests/iron_wires.json"
@@ -1358,7 +1430,7 @@ hash = "589900a7b8cd8b6c2ef715ef4063b9a7829a164d981831f657873d3e674e779c"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/lang/en_us.json"
-hash = "659f1216fbd039399d68afec9f2b84ea4273d5bba896f1fab12122004ac50566"
+hash = "823add87cb5e98251dc179b935ef73bfbc6460f040e0557061177b9931de9046"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/models/block/drive/air_essence_cell.json"
@@ -1889,7 +1961,7 @@ file = "kubejs/assets/sgcommunity_pack/textures/block/drive/osmium_essence_cell.
 hash = "efcad3da7556194b9acc42ae6e2d32bd325de2f8372696baf551963a6eec824a"
 
 [[files]]
-file = "kubejs/assets/sgcommunity_pack/textures/block/drive/phantum_essence_cell.png"
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/phantom_essence_cell.png"
 hash = "44d8b9b20fc7cad30720541c44f94ce0908935fb3d9284a7e4cf2156ef8a69d2"
 
 [[files]]
@@ -3289,6 +3361,14 @@ file = "kubejs/data/overworldmirror/dimension/overworld.json"
 hash = "2c0a254add3ce491588ea687296b39247560375947bd44052739b1b0d60c52e3"
 
 [[files]]
+file = "kubejs/data/permanentsponges/recipe/aqueous_sponge.json"
+hash = "be8e25bd8f2b4388f9d20ef4190a8e0e3f05be8f8a6086bc89e2ffe959bd3309"
+
+[[files]]
+file = "kubejs/data/permanentsponges/recipe/magmatic_sponge.json"
+hash = "d1dc84896846dbfedd496c598860f01a38948ac1dc0cd91392664289ed254926"
+
+[[files]]
 file = "kubejs/data/pipez/recipe/universal_pipe.json"
 hash = "15d47e7967421cd3dfbba47e3f91911ed02d9e7e47c26d0d7902df12d4e32e52"
 
@@ -3539,6 +3619,10 @@ hash = "37acb00b847759bdb3c5106cccfa010008215ef444400608f705a7d2d00e4387"
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/essence/silicon.json"
 hash = "a14364561e101a98846eb424dbce7ed7104bacbf9ebdd6f99745b501c8dd1b34"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/essence/sponge.json"
+hash = "090305dbdbd77b5af4ef725dc7c7b423e9d74e38ecc3bc95872b87f54c7f3309"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/essence/tharsite.json"
@@ -4238,7 +4322,7 @@ hash = "3b4bea8739e3353b7963cd73d8a74dffe9112882a40c1cfd8429168910e592c4"
 
 [[files]]
 file = "kubejs/server_scripts/server.js"
-hash = "60026f97e012a359c66d801ebbcfd133a74259ca007a4da5fa9fecc393ab9922"
+hash = "212cc3c9f6702f89b3048a7cd589d0e6064b5ac3210b1e3be93e8afc2efe8179"
 
 [[files]]
 file = "kubejs/server_scripts/tag_fix.js"
@@ -4587,6 +4671,11 @@ hash = "1c4ef917261df03afd366b0c34307ee0fa06374b52b8e88378ce7205ab58d4e1"
 metafile = true
 
 [[files]]
+file = "mods/create-stock-bridge.pw.toml"
+hash = "5426e7b1e7a895606d788cdc1d21915423bac84e5fed1ca62386e66b7ba1bec5"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "4b0ca63279620ec9ba4c63820a9d4f9ceea9b717227137ea19e5c420c820f858"
 metafile = true
@@ -4673,7 +4762,7 @@ metafile = true
 
 [[files]]
 file = "mods/exposure.pw.toml"
-hash = "646f21ebe8f8b1bfc244588c0e50f6b077b1263ead20361a037b06f24d359441"
+hash = "542a4d234832511059ae5c32f339cdb7ecfd3d19d47e648114178f6113357c46"
 metafile = true
 
 [[files]]
@@ -5218,7 +5307,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "49a3193e0de40bb7f935b08c50e384a05e42b1c09bb9b1b38013859c38d082e4"
+hash = "2461c9d7e1d7dd6e1406a8b51b10fd17bd72f3cc00350b5d09a04888f3c9271c"
 metafile = true
 
 [[files]]

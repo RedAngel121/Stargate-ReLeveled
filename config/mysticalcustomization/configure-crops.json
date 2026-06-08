@@ -251,6 +251,10 @@
         "tier": "mysticalagriculture:4",
         "crux": "sgcommunity_pack:reactive_crux"
     },
+    "mysticalagriculture:nickel": {
+        "tier": "mysticalagriculture:4",
+        "crux": "sgcommunity_pack:reactive_crux"
+    },
     "mysticalagriculture:sulfur": {
         "tier": "mysticalagriculture:4",
         "crux": "sgcommunity_pack:reactive_crux"
@@ -311,9 +315,6 @@
         "enabled": false
     },
     "mysticalagriculture:graphite": {
-        "enabled": false
-    },
-    "mysticalagriculture:nickel": {
         "enabled": false
     },
     "mysticalagriculture:constantan": {

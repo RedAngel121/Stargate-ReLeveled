@@ -2,9 +2,9 @@
   "title": "Upgraded Sponges",
   "sort_order": 1,
   "chapter": "questlog:tips_tricks",
-  "description": "You found a Sponge! But did you know you can upgrade them? Make an Iron Sponge to clear larger areas of water.",
+  "description": "You found a Sponge! But did you know you can upgrade them? Make a Sponge on a stick to clear larger areas of water.",
   "icon": {
-    "item": "extrasponges:iron_sponge"
+    "item": "permanentsponges:aqueous_sponge"
   },
   "requirements": [
     {
@@ -15,8 +15,8 @@
   "objectives": [
     {
       "type": "questlog:item_obtain",
-      "icon": "extrasponges:iron_sponge",
-      "item": "extrasponges:iron_sponge"
+      "icon": "permanentsponges:aqueous_sponge_on_a_stick",
+      "item": "permanentsponges:aqueous_sponge_on_a_stick"
     }
   ],
   "rewards": [

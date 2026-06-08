@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:slime_ball"
+    },
+    "W": {
+      "tag": "minecraft:sponge"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#W#",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "permanentsponges:aqueous_sponge"
+  }
+}
