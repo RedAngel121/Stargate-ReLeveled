@@ -9,6 +9,7 @@
 - Oredictionificator replacement? Replicator > https://github.com/lostmyself8/Mekanism-MoreMachine/issues/192
 - find more uses for compost blocks, right now its a bit low usefulness
 - change the inf water/cobble/lava (make a lava cell) cell recipes to be more production centered
+- Make infinite cells as Inf fluid hose pulley replacements
 
 ### ADDITIONAL STUFF:
 - the tabs being color coded is something im working with the Questlog mod dev on to have implemented
@@ -94,9 +95,9 @@ Me       : oh maybe i could look into adding that city mod that adds houses and 
 - unlimitedperipheralworks (Mod not Updated... Author says: "I have plans for this, but I honestly can't give any deadline for when it happen.")
 
 ### Thank you for helping:
-- PheWitch
-- VƬΣᄃΉ
 - CubeMaster724__
+- VƬΣᄃΉ
+- PheWitch
 - AzrialTide
 - lukaskabc
 - Vile23

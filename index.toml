@@ -4014,7 +4014,7 @@ hash = "f939cf29113e48771b10b0429365fc5a4c95027d9d58e435fc271dead425d7d1"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/item/isotopic_decay_oscillator_photomask.json"
-hash = "8989abb4d55cbcee2814bc2d59c1ee3350ede10d73ca72ca6023fe11f5199296"
+hash = "987d715667b872fc2ee99a5897d255cc07cc580bc0d320987d55f70b4173543c"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/item/kelp_ash.json"
@@ -5679,7 +5679,7 @@ metafile = true
 
 [[files]]
 file = "mods/solstice-essentials.pw.toml"
-hash = "a8c3a1bfe49378683894991fe185bdae4ddff30de90e5134e568c6fed37c5063"
+hash = "493b0c3e60498b695f922cbbd83d015b0fbd4d958ecb66c4aa522a392d8d8ca8"
 metafile = true
 
 [[files]]

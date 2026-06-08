@@ -1,6 +1,6 @@
 name = "Solstice Essentials"
 filename = "solstice-1.9.2+1.21.1.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/uIvrDZas/versions/1FZSEr1O/solstice-1.9.2%2B1.21.1.jar"
