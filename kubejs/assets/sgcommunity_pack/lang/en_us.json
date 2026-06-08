@@ -68,11 +68,19 @@
     "item.minecraft.splash_potion.effect.iron_sight_potion":"Splash Potion of Iron Sight",
     "item.minecraft.lingering_potion.effect.iron_sight_potion":"Lingering Potion of Iron Sight",
 
-    "effect.potionsmaster.quartz_sight":"Quartz Sight",
-    "item.potionsmaster.quartz_oresight_powder":"Quartz Oresight Powder",
-    "item.potionsmaster.calcinated_quartz_oresight_powder":"Calcinated Quartz Oresight Powder",
-    "item.minecraft.tipped_arrow.effect.quartz_sight_potion":"Arrow of Quartz Sight",
-    "item.minecraft.potion.effect.quartz_sight_potion":"Potion of Quartz Sight",
-    "item.minecraft.splash_potion.effect.quartz_sight_potion":"Splash Potion of Quartz Sight",
-    "item.minecraft.lingering_potion.effect.quartz_sight_potion":"Lingering Potion of Quartz Sight"
+    "effect.potionsmaster.quartz_sight":"Nether Quartz Sight",
+    "item.potionsmaster.quartz_oresight_powder":"Nether Quartz Oresight Powder",
+    "item.potionsmaster.calcinated_quartz_oresight_powder":"Calcinated Nether Quartz Oresight Powder",
+    "item.minecraft.tipped_arrow.effect.quartz_sight_potion":"Arrow of Nether Quartz Sight",
+    "item.minecraft.potion.effect.quartz_sight_potion":"Potion of Nether Quartz Sight",
+    "item.minecraft.splash_potion.effect.quartz_sight_potion":"Splash Potion of Nether Quartz Sight",
+    "item.minecraft.lingering_potion.effect.quartz_sight_potion":"Lingering Potion of Nether Quartz Sight",
+
+    "effect.potionsmaster.lapis_sight":"Lapis Lazuli Sight",
+    "item.potionsmaster.lapis_oresight_powder":"Lapis Lazuli Oresight Powder",
+    "item.potionsmaster.calcinated_lapis_oresight_powder":"Calcinated Lapis Lazuli Oresight Powder",
+    "item.minecraft.tipped_arrow.effect.lapis_sight_potion":"Arrow of Lapis Lazuli Sight",
+    "item.minecraft.potion.effect.lapis_sight_potion":"Potion of Lapis Lazuli Sight",
+    "item.minecraft.splash_potion.effect.lapis_sight_potion":"Splash Potion of Lapis Lazuli Sight",
+    "item.minecraft.lingering_potion.effect.lapis_sight_potion":"Lingering Potion of Lapis Lazuli Sight"
 }

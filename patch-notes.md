@@ -9,6 +9,14 @@
 - Oredictionificator replacement?
 - add textures to the inf drives so people stop complaining about missing textures for something they cant even craft
 - add Stellaris, Mekanism, and SGJ ores to potions master
+- find more uses for compost blocks, right now its a bit low usefulness
+- disable essence on farmland interaction into mystag farmland
+
+- disable mekmm replicator
+- change the inf water/cobble/lava (make a lava cell) cell recipes to be more production centered
+- PermaSponge quest replace iron sponge
+- adjust perma sponges recipes
+- add essence recipe for sponges (wool surrounded by water and air essence?)
 
 ### ADDITIONAL STUFF:
 - the tabs being color coded is something im working with the Questlog mod dev on to have implemented
@@ -30,7 +38,7 @@ Me       : oh maybe i could look into adding that city mod that adds houses and 
 
 - ChatPlus (Replaces Chat Heads)
 - Stellaris (Replaces Ad Astra)
-- Extra Sponges (Replaces simple sponge mod)
+- Permanent Sponges (Replaces simple sponge mod)
 - Corpse (Replaces Gravestones and provides curios compat)
 - Viscord (Replaces Discord Chat Integration)
 - Xaero's Map (Replaces JourneyMap)

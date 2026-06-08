@@ -1,0 +1,13 @@
+name = "Permanent Sponges"
+filename = "PermanentSponges-v21.1.0-1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f7821ce7ccfef640282cd3fc2e73a3ccf1f8f57b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5733833
+project-id = 852664

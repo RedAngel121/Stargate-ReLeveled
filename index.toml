@@ -353,6 +353,10 @@ file = "config/naturescompass-common.toml"
 hash = "5ae19d2c34f546d329e89c746076c92b436a0843681abe201117abe0374d4519"
 
 [[files]]
+file = "config/openpartiesandclaims-server.toml"
+hash = "9efe662d426ec3d26ec07c4748dfe782230c74f2218af532a30d0a48d13fa8bf"
+
+[[files]]
 file = "config/overlapless-common.toml"
 hash = "32df3fd899e2c7be1b9cdbac299f76adea23a7861697a7e08e84a5e0a220fde8"
 
@@ -1354,7 +1358,7 @@ hash = "589900a7b8cd8b6c2ef715ef4063b9a7829a164d981831f657873d3e674e779c"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/lang/en_us.json"
-hash = "91600229f840e0994f4a72d23448949cd3531b7ae2806cb773a09f22b9f3bcba"
+hash = "659f1216fbd039399d68afec9f2b84ea4273d5bba896f1fab12122004ac50566"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/models/block/drive/air_essence_cell.json"
@@ -4673,11 +4677,6 @@ hash = "646f21ebe8f8b1bfc244588c0e50f6b077b1263ead20361a037b06f24d359441"
 metafile = true
 
 [[files]]
-file = "mods/extra-sponges.pw.toml"
-hash = "fd949d8049e235d9111f7ff8d466407b87622cabb5bf1dbc25223850d1ecbb71"
-metafile = true
-
-[[files]]
 file = "mods/extreme-sound-muffler.pw.toml"
 hash = "6d51c8adfc6782f216a150dedda2ea64969a639f4e21401eb5c5b5ac8c9ab28f"
 metafile = true
@@ -5078,6 +5077,11 @@ hash = "3718e8a37d0dc2939cc350cce74bcb9c36b59f48baf4560e62804f7ca6478185"
 metafile = true
 
 [[files]]
+file = "mods/permanent-sponges.pw.toml"
+hash = "f71530b6a256a74f37cda662296b2b4fa07906b07143387880dba70299333ad4"
+metafile = true
+
+[[files]]
 file = "mods/pig-pen-cipher.pw.toml"
 hash = "c542b169bf7c70a0ac4f66c895499abd37aa4897e0c4295ddd3e6aaa72afaef4"
 metafile = true
@@ -5125,6 +5129,11 @@ metafile = true
 [[files]]
 file = "mods/prickle.pw.toml"
 hash = "eab2f56ff9135b3b7253ea5a73deae2f887e2876f5f0432936044a6e926937b4"
+metafile = true
+
+[[files]]
+file = "mods/puzzles-lib.pw.toml"
+hash = "fdf657a22e1b5857d23566b92aec9ee0f75d326065ae0fdc4dbe517ec5ec3b5c"
 metafile = true
 
 [[files]]
@@ -5274,17 +5283,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks-create-integration.pw.toml"
-hash = "c966ea02eb59f31dcaeaebe9d96c9b232a2fb16d2fe971729350e567a4ff1bd7"
+hash = "20e216ce1d2a14b8e8e224701df5bf3f06789ebdf33715b9d01b3dc9ac35e38a"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "c0c637a0892f5c6ade95aedbdb527af7d0150bddd03ec87595768c859e1efe3c"
+hash = "676bb04b138934ef83df60c5cf38da1033dbd07ec212ee2e1196f9eb81a453b1"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "398a4121844ed5fc78e0cac746168e34dc82d2733866463583a5b85f92765fdc"
+hash = "03b0482b60ddefd83ee7491aeebec93f439114b8cf5f476a27eab96e629c8cb1"
 metafile = true
 
 [[files]]
