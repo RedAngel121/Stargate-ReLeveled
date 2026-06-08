@@ -2,7 +2,7 @@
   "title": "Deep Space Crux",
   "sort_order": 9,
   "chapter": "questlog:progression",
-  "description": "The frontier expands beyond the Overworld.\n\nDeep Space Cruxes allow you to begin cultivation of rare extraterrestrial resources including Tharsite, Borax, Lead, Tin, and Platinum Essence. Your farm has officially escaped terrestrial logic.",
+  "description": "The frontier expands beyond the Overworld.\n\nDeep Space Cruxes allow you to begin cultivation of rare extraterrestrial resources including Tharsite, Borax, Lead, and Tin Essence. Your farm has officially escaped terrestrial logic.",
   "icon": {
     "item": "sgcommunity_pack:deep_space_crux"
   },

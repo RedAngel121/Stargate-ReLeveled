@@ -11,7 +11,7 @@ let essences = [
     "blaze", "ghast", "enderman", "steel", "electrum", "uranium",
     "soulium", "osmium", "fluorite", "refined_glowstone", "refined_obsidian", "fluix",
     "diamond", "emerald", "netherite", "wither_skeleton", "platinum", "nether_star",
-    "dragon_egg", "desh", "borax", "corronium", "naquadah", "tharsite"
+    "dragon_egg", "desh", "borax", "corronium", "naquadah", "tharsite", "nickel"
 ]
 
 StartupEvents.registry("item", evnt => {

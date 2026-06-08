@@ -614,7 +614,7 @@ hash = "4953f8d1fb75ab02b80a0f90e3abf479b1e485d99e1fd308045b30a4704fa5b9"
 
 [[files]]
 file = "config/questlog/quests/deep_space_crux.json"
-hash = "71d28dbe44232f453c217061172abeca6f4e15e597fdc350e8969ff1f234fd44"
+hash = "0b6656e40472e07cde1555bb400386d2065db4c90d41d4df91d89c3292460e7e"
 
 [[files]]
 file = "config/questlog/quests/deployer.json"
@@ -1429,6 +1429,306 @@ file = "kubejs/assets/jajasgates/textures/symbols/point_of_origin/cl_xtreme.png"
 hash = "589900a7b8cd8b6c2ef715ef4063b9a7829a164d981831f657873d3e674e779c"
 
 [[files]]
+file = "kubejs/assets/pipez/blockstates/energy_pipe.json"
+hash = "57edaa732115b84f6dbc2dd97f53b4d818d0b47b05f46a2b47d32cc6b6f6d4bd"
+
+[[files]]
+file = "kubejs/assets/pipez/blockstates/fluid_pipe.json"
+hash = "36d69773332ae0474d04f342490c12a325a914ded5c6c689d015a13b6fc772b8"
+
+[[files]]
+file = "kubejs/assets/pipez/blockstates/gas_pipe.json"
+hash = "85f4c7c660670048f2f7536f1c875352976b637e3f0f88cb12264938c5ae23f2"
+
+[[files]]
+file = "kubejs/assets/pipez/blockstates/item_pipe.json"
+hash = "415a8247c8a55dbf9da99bf63d08ac070f39a29528daee79055f0bc9d656a479"
+
+[[files]]
+file = "kubejs/assets/pipez/blockstates/universal_pipe.json"
+hash = "4c55cc9609912b18843f0c1c6d15d9ed3cf13b827d290bfbe5c5fd839451ef31"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/_template/core.json"
+hash = "e64f6830d30859ae58f6aa5645fc80faecd9d9e24818e54524f345601d71bb43"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/_template/cross.json"
+hash = "33353bba7ff831ce2a52608740d54457424fd538fd10431d2d54d7f125085b2b"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/_template/cross_z.json"
+hash = "d362a647fa998b0f4b048e31cc4ffd59b355a6b6abba89be8e2d9eb30087f2c2"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/_template/cut_line.json"
+hash = "4eadb382047a8ae0cfb8644831545594c5f439d5502b7e34b2e239e0286af6a8"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/_template/extract.json"
+hash = "a627087fbfaaa4f39a52d441c3a745988fff087966ab2131302ebfa959e23888"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/_template/line.json"
+hash = "b89b1b4d2c0518ac5d1c38a559b8b0e8b5a2446ac06a50d0e969392b0eee33ed"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/_template/node.json"
+hash = "6097f76645a3aee2948597bdab20eca2dcacf37d5737f992a70c294652e83ef4"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/energy/core.json"
+hash = "72181e01b646c1ffb5e9b2179417a1df8b73f8dfbd4e0c5e2086a4d8ee21f482"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/energy/cross.json"
+hash = "8508143eec25a088fc2e2865b9a7597ecd32a085afa43bdd3bad96781f6bbe94"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/energy/cross_z.json"
+hash = "0932dd313e42e9d6b1884b72d476938f30e56cc4cf30c4414e57c929b74ac7ed"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/energy/cut_line.json"
+hash = "a9f547cb3273a4ba1c36c5919b1c208ff3b5de07732474b79b5adaf6a7ab0d57"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/energy/line.json"
+hash = "a9cf31d97d21e62b6460214e55b8754ee2323a61ec8d3e64a8f7f4f368fb009e"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/energy/node.json"
+hash = "2fd36bb6aa2ca8c24b3e71e4fe131eb557375734527ba09fd5982fceb6db94f0"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/energy_pipe_extract.json"
+hash = "03f6922f22109ce30298559fbec2392c3a10b65e9c642d6722de52141382c09f"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/fluid/core.json"
+hash = "4f1f339946c3b2b298f971c21d6fbab612d785e5cc623a1907d8e6fb25c65e7b"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/fluid/cross.json"
+hash = "cbf111c25af30629d96293194301b3ba432d3ecf21f03ae8f583077f83c2f2df"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/fluid/cross_z.json"
+hash = "6cde9a41fa14ab0614f9af529a376cbd2f4bd282f547cd0da8352df3dd010d36"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/fluid/cut_line.json"
+hash = "f48726afdbc724f9e75bb19f6b24afd5a74e6097ef5d6ad748b99aa6e2a009e3"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/fluid/line.json"
+hash = "1375a43e5542d3c2af7e2889d633ccb52eb9497da268f7daa0118c9d7dc8cbf5"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/fluid/node.json"
+hash = "3f587b000c63924e0b9375a41a50a8f8bb6cab64b6bfe0645cc5c69e0c5a81ba"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/fluid_pipe_extract.json"
+hash = "53d37b345bbd0c6f01e651f9a67e53fac4299367bfc9a8f1bdc7945561de341f"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/gas/core.json"
+hash = "c83d04198bde0644484c23b0ff12ca7110061f6f6d0fa4b0e0cf8b8e716ada37"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/gas/cross.json"
+hash = "da6738b2c927fdf85319549e9767936d48306ce066d771730d1afa2791a5d41d"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/gas/cross_z.json"
+hash = "2d2256383de814f78252064c96cd718cc7b1e50ef77e7b88968f4a3209cd3cd7"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/gas/cut_line.json"
+hash = "e6f92e176325745885a0cd76be3727533a0a18b586c1cd66972607d23e549b7b"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/gas/line.json"
+hash = "4c49938c04b338bb4f63ebc67e07e71232006b616670603204c1948318ed1484"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/gas/node.json"
+hash = "458462399956e0eeca7ddc9ca5ceacacc85c0968a5fdc1c3fc851da42856efe8"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/gas_pipe_extract.json"
+hash = "a75384fee6ef3c8553de262e47b2c8957a1422a3dfd2eb5de9ca2d6cdb3a08ab"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/item/core.json"
+hash = "9725c40acb0739ca09c5e53493cebec3abe349f4c84a449629b9c7a27724cbe5"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/item/cross.json"
+hash = "abd107e7bdd18722a80de8890acf971ca84d8488c9e4b31713e2f970686a2a81"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/item/cross_z.json"
+hash = "e75542f58f80d8f59812373a8a17b6098ebe29b58cad0ea2737374c38478c748"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/item/cut_line.json"
+hash = "8c8b24f33cb0c8133721e8ca81435753bcfd62b5b3b44cc2dcc8077b7970a814"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/item/line.json"
+hash = "66afdc41116ce6eb2c3fe3269327c7126bb197b48116a2fa3059ab1147ab2b4a"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/item/node.json"
+hash = "2c91fe8aa696516432369f4e6c8820f191bad07e3c192e6d456141cb10301bbf"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/item_pipe_extract.json"
+hash = "776885de137d2b5e29e780b5e44c3b58df645bee0fccd7ee859b1cf588fa8a36"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/universal/core.json"
+hash = "bbffa9544127432ab342e3b4080c0f11b59ff871d7bc2e372a7a47fa4b1d83d1"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/universal/cross.json"
+hash = "661578eef64825d826625341fc78b0f2f0158e307b43ca96f4b243f0eb084ad5"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/universal/cross_z.json"
+hash = "805dadd38a3446120f2b97283d20224c5320d0a49c09ab0d707ef8586cccae83"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/universal/cut_line.json"
+hash = "329ff6bfad060e262db7d7d32e572a513d3c3f860e88ab040171c60ab6595b8f"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/universal/line.json"
+hash = "67ce98a2476f7b32fdec03dc3a0929986f87eecc24973b01164fa55eef4cbf94"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/universal/node.json"
+hash = "2cc241d6834ad88fbd31a27e5202904fcf9c0396877706c5b0195fdd68661019"
+
+[[files]]
+file = "kubejs/assets/pipez/models/block/universal_pipe_extract.json"
+hash = "77318ea29c72161d761ebf6a44dfc784581951f94a662d93654a5c15bcb248b9"
+
+[[files]]
+file = "kubejs/assets/pipez/models/item/energy_pipe.json"
+hash = "3c74732a230956e553dea8f6d4daefb3f3c83c22516f883799ff43738e72ff77"
+
+[[files]]
+file = "kubejs/assets/pipez/models/item/fluid_pipe.json"
+hash = "0490235a9a1018e3c4d9afdc2ff2f53e0746ec3a6153489b53f00e5c46c81407"
+
+[[files]]
+file = "kubejs/assets/pipez/models/item/gas_pipe.json"
+hash = "8c55762adb66b6a7e3e453ff805d0f4e8af3259ad34ce69b255718ddc5090a3e"
+
+[[files]]
+file = "kubejs/assets/pipez/models/item/item_pipe.json"
+hash = "ba84b4a415a4140c89866caa85e44fc3a8067a416e2f5ad3b3222d04daf12d90"
+
+[[files]]
+file = "kubejs/assets/pipez/models/item/universal_pipe.json"
+hash = "8a9b81b879997bc35b0f46e8c5b246d8d5bac284bea7b266e56f707b6daaf6d4"
+
+[[files]]
+file = "kubejs/assets/pipez/models/item/wrench.json"
+hash = "2888cdcc0f0aea0e036e2bb3752da4016a36f4c806bc8278542ad8498ef9224e"
+
+[[files]]
+file = "kubejs/assets/pipez/textures/block/energy_pipe.png"
+hash = "9c37cc94d7c31b7041b9ce4dbd781239b3d26e8889fdb88d32e0c29c79fe7a3c"
+
+[[files]]
+file = "kubejs/assets/pipez/textures/block/energy_pipe_connector.png"
+hash = "a83692e5e609704abf261231b81e41c6829b1392bfb1abd180bd432967d7bbd7"
+
+[[files]]
+file = "kubejs/assets/pipez/textures/block/fluid_pipe.png"
+hash = "8bcaaef005db5f89762496476ba1147f2a032e329ae434bae23a1535cac38382"
+
+[[files]]
+file = "kubejs/assets/pipez/textures/block/fluid_pipe_connector.png"
+hash = "9b8e109c8322bf225f0f2ecf3a510ac43d872af8030c1b666dda5437ba84f777"
+
+[[files]]
+file = "kubejs/assets/pipez/textures/block/gas_pipe.png"
+hash = "6563ac84b71918e9b9a8bc0e16f10186e3464a7ac008a7e4c5ed81978c7f0454"
+
+[[files]]
+file = "kubejs/assets/pipez/textures/block/gas_pipe_connector.png"
+hash = "1a4638e29663e78e2289be7d4eac44e101fd5a34ff82b7504e94d213095c04c8"
+
+[[files]]
+file = "kubejs/assets/pipez/textures/block/item_pipe.png"
+hash = "ad492b00904029e8058d2c7a71cb0778100b6b335fff9e0b4e428f42ef84610d"
+
+[[files]]
+file = "kubejs/assets/pipez/textures/block/item_pipe_connector.png"
+hash = "2eb3a68f208b44d71d1a2c3571bf6a751d43ef7f07777af6b0fbe0472cdb6a6e"
+
+[[files]]
+file = "kubejs/assets/pipez/textures/block/pipe_structure.png"
+hash = "99d9710c82772d3cc173ffed139f770d4eb8940139303363fad52e0489064278"
+
+[[files]]
+file = "kubejs/assets/pipez/textures/block/universal_pipe.png"
+hash = "7f27571dd1a5e40c032e583f690e63bacc0248b203ac80bce87d060626f926bc"
+
+[[files]]
+file = "kubejs/assets/pipez/textures/block/universal_pipe_connector.png"
+hash = "64ec0c8ffa177cfec952340707efe8cc2bda7d56bf782c028a9312ca41dd8c2e"
+
+[[files]]
+file = "kubejs/assets/pipez/textures/gui/container/extract.png"
+hash = "46a480168e699734a54e14696af7aaa45bf9f974b78cc24c7a873ebe502dffd2"
+
+[[files]]
+file = "kubejs/assets/pipez/textures/gui/container/filter.png"
+hash = "49f11b08ea08c383c07a835be4a28463ab40ee87ca0671064f1ae2b927103712"
+
+[[files]]
+file = "kubejs/assets/pipez/textures/item/advanced_upgrade.png"
+hash = "137245d9a024b833d551e3b5a9827a7a94f74f28886e6609f377a9252ece53b8"
+
+[[files]]
+file = "kubejs/assets/pipez/textures/item/basic_upgrade.png"
+hash = "1863216084d58208ec1857452aa88023fef0674c832d5a614a06a49221860c48"
+
+[[files]]
+file = "kubejs/assets/pipez/textures/item/fancy_wrench.png"
+hash = "4c027c1eede41b6e099c174012780098d6e3e843d2b826cf908d8cb364af3e70"
+
+[[files]]
+file = "kubejs/assets/pipez/textures/item/filter_destination_tool.png"
+hash = "578eb44b4817ba6dcd4f42ee2a353bd41baf2a40a1a22a8c3b94eb174f4f3129"
+
+[[files]]
+file = "kubejs/assets/pipez/textures/item/improved_upgrade.png"
+hash = "e5034488a4863495953c49f3dae0e92d86ad36be24b6eee9e15a32a5ccf52e2e"
+
+[[files]]
+file = "kubejs/assets/pipez/textures/item/infinity_upgrade.png"
+hash = "9babdc948834aa496a03354b9d2f94d419cfe03d2651f32247923165d3a7dafe"
+
+[[files]]
+file = "kubejs/assets/pipez/textures/item/ultimate_upgrade.png"
+hash = "519852239689425a7a9f6f4b4eb556381dc855c70302bf5ac7ee92644c0f5381"
+
+[[files]]
+file = "kubejs/assets/pipez/textures/item/upgrade_slot.png"
+hash = "7fd6b993a2532e36e2fee01ab0604bec13566f140978e6dc52915df6943647c9"
+
+[[files]]
+file = "kubejs/assets/pipez/textures/item/wrench.png"
+hash = "d7202bf76c9c1b22008934469723205cba6af0dfc07f8783e083a031a578bcf1"
+
+[[files]]
 file = "kubejs/assets/sgcommunity_pack/lang/en_us.json"
 hash = "823add87cb5e98251dc179b935ef73bfbc6460f040e0557061177b9931de9046"
 
@@ -1619,6 +1919,10 @@ hash = "fc3f67f5451c4e44c490b79d2ee6f8d0a41675e2157e9e699bdefd1c4a01c7bf"
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/models/block/drive/netherite_essence_cell.json"
 hash = "845c05f34fa5f503a14b66b53a7dd6172cb29c2a854a59416d0e844aa8c02652"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/models/block/drive/nickel_essence_cell.json"
+hash = "ef1cf37b35cae86ef790bcb4447a50a30bf4eae3c58e4c356b393b7471bb0601"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/models/block/drive/obsidian_essence_cell.json"
@@ -1951,6 +2255,10 @@ hash = "5ae860da743ef14bc41583da5fb029ec610a938700b60c2e2ff78abd2b89ef36"
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/textures/block/drive/netherite_essence_cell.png"
 hash = "0f5836616337dab6d198daabbc04eb1403a9abc998bc8034f8a426bdb6ba0de8"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/nickel_essence_cell.png"
+hash = "985f953eff5716de6780faff62d2cc305a6434cdd4a904846881affcbd1e8732"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/textures/block/drive/obsidian_essence_cell.png"
@@ -2415,6 +2723,10 @@ hash = "e0f03ba902934d3c1e7a979f17020dbc8aca4aeee4c6e766cf20475a73e02fc6"
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/netherite_essence_cell.png"
 hash = "8666aa0a884d5ea90375fe5ff4d01d8c6bb9c8887671283e7d6b6e72b5ff3bd9"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/nickel_essence_cell.png"
+hash = "13546bc35521ac7db22a2611aa09f8250d001c710d5a05c6e32cdf0ed5eb1c48"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/obsidian_essence_cell.png"
@@ -4350,7 +4662,7 @@ hash = "13bbe11285e0b670c9a114f2a803cd26d465c1d3d5b58f4d21fae4f1be04781f"
 
 [[files]]
 file = "kubejs/startup_scripts/infinite_essence_cells.js"
-hash = "e8eacce2bbecd262d539a838a99a483bba854956180dc2ecd763f1d534d6469f"
+hash = "f0de937db101fdc3fdb6ddc74071deada0702b20ea4414e5fe70b765aa9db237"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
