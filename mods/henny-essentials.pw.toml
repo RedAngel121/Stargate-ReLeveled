@@ -1,0 +1,13 @@
+name = "Henny Essentials"
+filename = "hennyessentials-neoforge-1.21.1-1.0.4-H3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a272fcc475f841020488ce7ecf5681074021c993"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6476373
+project-id = 1225914

@@ -4958,6 +4958,11 @@ hash = "121fdf97f418c2c32f3f4c381c279e0cc12a07c976ddcb9de2517bc434a87bda"
 metafile = true
 
 [[files]]
+file = "mods/create-bits-n-bobs.pw.toml"
+hash = "c35bc6385cac0836f60c3d009ba67ec1aefbb90fbd7782133f3ecf1e38f07dad"
+metafile = true
+
+[[files]]
 file = "mods/create-cardboarded-conveynience.pw.toml"
 hash = "9f3b847913725457cb194b65a559c2555b82975667d224a590e16a4a17119ca6"
 metafile = true
@@ -5103,11 +5108,6 @@ hash = "f126acc530e16e81b5c47514eeca18ff42dccdbc22e5b4a18e22478eb48e4761"
 metafile = true
 
 [[files]]
-file = "mods/forgified-fabric-api.pw.toml"
-hash = "e20b20d55b74dc8b3e9c2ff353b9f8788b3221b647cb32845fb53781a0b4684b"
-metafile = true
-
-[[files]]
 file = "mods/framedblocks.pw.toml"
 hash = "266cdd6d1183bbcb5d88e3b35ed17a595feb86611aa3be37b284fd526d70ae6a"
 metafile = true
@@ -5168,6 +5168,11 @@ hash = "d573695d37296209dc06495d359c4b283ffa6640bcfe8aa9c9b59eb420891788"
 metafile = true
 
 [[files]]
+file = "mods/henny-essentials.pw.toml"
+hash = "bdba9c40b81bc6365f921ef9463a8fec2bb3bc280d762e89df060c6f07284757"
+metafile = true
+
+[[files]]
 file = "mods/hostile-neural-networks.pw.toml"
 hash = "90f96f9e48eea134f5a399b859d4977d6166a1711c917224375ce832b0b9cf53"
 metafile = true
@@ -5190,6 +5195,11 @@ metafile = true
 [[files]]
 file = "mods/in-control.pw.toml"
 hash = "38ad3e2d199cc5185c5f93031ad9c7f045453b61b35639ae03e62306df215588"
+metafile = true
+
+[[files]]
+file = "mods/interiors.pw.toml"
+hash = "f1cec80f06a6bb696ff7250c273e328519944adb6b677dcd2476b428ede02e4e"
 metafile = true
 
 [[files]]
@@ -5663,11 +5673,6 @@ hash = "422492cb86259f13b74f4db9126de9c03d1a6264a92c7c9f09d7a5a315ad61da"
 metafile = true
 
 [[files]]
-file = "mods/sinytra-connector.pw.toml"
-hash = "eff7ebd7bc65ef5d3ba8ac731bc3fb2fd9697566f53dcedbfc55d0b4bb55d60d"
-metafile = true
-
-[[files]]
 file = "mods/sodium.pw.toml"
 hash = "d498ace9debedfbab647065dbc00943472be244bf76d8d4f8ed6fc197e800d5e"
 metafile = true
@@ -5675,11 +5680,6 @@ metafile = true
 [[files]]
 file = "mods/solar-flux-reborn.pw.toml"
 hash = "00b5410e4e61d67f4c6b67a6eeb1f3da5092d6775c0b3d26b321d7d8ecee65db"
-metafile = true
-
-[[files]]
-file = "mods/solstice-essentials.pw.toml"
-hash = "493b0c3e60498b695f922cbbd83d015b0fbd4d958ecb66c4aa522a392d8d8ca8"
 metafile = true
 
 [[files]]
@@ -5880,11 +5880,6 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "c129b31143323e9a97c616a8f67fcd3e9db422fa15ec9b50476131a226c3caf2"
-metafile = true
-
-[[files]]
-file = "mods/xks-decoration.pw.toml"
-hash = "19eb88351b7990d653290d03b1bbb6b3fc5e5706eff0e66e69a8637add886fc1"
 metafile = true
 
 [[files]]

@@ -1,6 +1,6 @@
 ### STILL TODO:
 - Configure Spice of Life Onion Edition
-- Figure out how Solstice Essentials works
+- Configure Henny Essentials stuff - https://www.curseforge.com/minecraft/mc-mods/henny-essentials
 - Add /surface command that takes you to the surface of your current location?
 - Increase the output numbers for naq generators
 - TAGS: CreateAdditions bio pellet and pellet block need to be adjusted to be bio-fuels compatable
@@ -10,6 +10,7 @@
 - find more uses for compost blocks, right now its a bit low usefulness
 - change the inf water/cobble/lava (make a lava cell) cell recipes to be more production centered
 - Make infinite cells as Inf fluid hose pulley replacements
+- Apex Core > disable recharging recipe in crystalizer
 
 ### ADDITIONAL STUFF:
 - the tabs being color coded is something im working with the Questlog mod dev on to have implemented
