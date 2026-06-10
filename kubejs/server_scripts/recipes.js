@@ -33,6 +33,7 @@ let disappear = [
     "mekmm:chemical_replicator",
     "mekmm:author_doll",
     "mekmm:modeler_doll",
+    "moregate:crystallizing/apex_core_recharge"
 ]
 ServerEvents.recipes(event => {
     for (let each of disappear) {

@@ -8,9 +8,8 @@
 - find a way to do easymode questlines instead of the command
 - Oredictionificator replacement? Replicator > https://github.com/lostmyself8/Mekanism-MoreMachine/issues/192
 - find more uses for compost blocks, right now its a bit low usefulness
-- change the inf water/cobble/lava (make a lava cell) cell recipes to be more production centered
-- Make infinite cells as Inf fluid hose pulley replacements
-- Apex Core > disable recharging recipe in crystalizer
+- change the inf water/cobble/lava cell recipes to be more production centered
+- Make infinite fluid cells as infinite fluid hose pulley replacements and textures
 
 ### ADDITIONAL STUFF:
 - the tabs being color coded is something im working with the Questlog mod dev on to have implemented

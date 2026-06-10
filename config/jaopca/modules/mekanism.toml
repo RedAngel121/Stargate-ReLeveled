@@ -1,0 +1,24 @@
+[general]
+	#The material blacklist of this module. "*" is an alias for all materials, and "*" followed with a material type name is an alias for all materials of that material type. If a material name occurs an odd number of times (including wildcards), then the material is blacklisted. These rules applies to all config material blacklists.
+	materialBlacklist = [
+		"inferium",
+		"soulium",
+		"prosperity"
+	]
+
+#Configurations related to chemical tags.
+[chemicalTags]
+	#List of infuse type tags that should not be added.
+	blacklist = []
+	#List of infuse type tags that should be considered as defined.
+	customDefined = []
+
+[tags]
+	#Should the module mainly use c:dirty_dusts instead of mekanism:dirty_dusts.
+	commonDirtyDust = true
+	#Should the module mainly use c:clumps instead of mekanism:clumps.
+	commonClump = true
+	#Should the module mainly use c:shards instead of mekanism:shards.
+	commonShard = false
+	#Should the module mainly use c:crystals instead of mekanism:crystals.
+	commonCrystal = false

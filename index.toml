@@ -313,6 +313,22 @@ file = "config/incontrol/spawn.json"
 hash = "b6a859f2029aee145dfe5686611bf785a8089889aafb7fbd4f9da6ce99e67d80"
 
 [[files]]
+file = "config/jaopca/modules/create.toml"
+hash = "68e6e53f7645b5f4df09ea901545c85e265bba6f6d170a727d1f23c5a9829c24"
+
+[[files]]
+file = "config/jaopca/modules/mekanism.toml"
+hash = "cbcf407a77e9738acc26f692cc5517f3c5b0929a56ab0db2ba24c59327e67df3"
+
+[[files]]
+file = "config/jaopca/modules/nuggets.toml"
+hash = "218c63b8e5a452633406678340fc3fed439a7498363b536c9a4bc39bfdbe8bf8"
+
+[[files]]
+file = "config/jaopca/modules/storage_blocks.toml"
+hash = "8eb3cb11ca5826516e80c46b3ab432df4169107b7d6caae3edcec3927b4f2298"
+
+[[files]]
 file = "config/jei/jei-client.ini"
 hash = "83f8e9c56758b676e70ae3695523129170ac930b9ceb23618c898fa0906012cc"
 
@@ -1745,6 +1761,10 @@ file = "kubejs/assets/sgcommunity_pack/models/block/drive/armadillo_essence_cell
 hash = "1988e4d2545591fb9e8d7af58cf7e35f1a6a59c9e24c28f9e1ddf504f8169b59"
 
 [[files]]
+file = "kubejs/assets/sgcommunity_pack/models/block/drive/black_chocolate_cell.json"
+hash = "d075604225df5a62c2c41bc0d5f2f477231a217a8261804d2204838bf09eca16"
+
+[[files]]
 file = "kubejs/assets/sgcommunity_pack/models/block/drive/blaze_essence_cell.json"
 hash = "7fefda11a42ed51bf8f1dc5d1c30590aac70ee4089c4f02a72376f904c0d9107"
 
@@ -1771,6 +1791,10 @@ hash = "c12c9b24a4b8507ff9c51c67bd7d9cbc546e2e104e3c2e39573ed05dcbc7a7ab"
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/models/block/drive/chicken_essence_cell.json"
 hash = "38c5aeae8f799ef87a35445660078975e03d9717dd36c042eb5e5839c3972e5c"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/models/block/drive/chocolate_cell.json"
+hash = "7ddea539c4f4f9cc9355127b33d5c108b651d1182b84545793f96bcded626dbe"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/models/block/drive/coal_essence_cell.json"
@@ -1815,6 +1839,10 @@ hash = "e52cb9a901e2201d33a084e896f6974a43cd86c32175ab47de8ad20751dab9b9"
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/models/block/drive/dragon_egg_essence_cell.json"
 hash = "f32d8a9ccc95ab41b08514f86fff31a84d85cea93283df35de83560c7c01f304"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/models/block/drive/dt_fuel_cell.json"
+hash = "d38a29c3686b5e451f2c66ba4ca597df270d89b02cac49654a1bf22c99da9293"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/models/block/drive/dye_essence_cell.json"
@@ -1873,6 +1901,10 @@ file = "kubejs/assets/sgcommunity_pack/models/block/drive/gold_essence_cell.json
 hash = "20e00846861e997b6d3daa838859a43afebdd902aa118c5c886755bda583f889"
 
 [[files]]
+file = "kubejs/assets/sgcommunity_pack/models/block/drive/honey_cell.json"
+hash = "c203eec0768342e42480a2afa2492f82f5d68f4d690ed96621ed0115319e9b6d"
+
+[[files]]
 file = "kubejs/assets/sgcommunity_pack/models/block/drive/honey_essence_cell.json"
 hash = "96fb000ea70ff4340e2c20dfb5f5293bbc82759561b2bf5bd8968841a955d914"
 
@@ -1889,12 +1921,20 @@ file = "kubejs/assets/sgcommunity_pack/models/block/drive/lapis_lazuli_essence_c
 hash = "a11cdc550ba8c76345f95461332f59041a143a71d1e2b4790baba810ba744e64"
 
 [[files]]
+file = "kubejs/assets/sgcommunity_pack/models/block/drive/lava_cell.json"
+hash = "c1404d1707f4ebc67659dc5c461305ecc3b2cb85faf95ca3d54e42923d49cfaa"
+
+[[files]]
 file = "kubejs/assets/sgcommunity_pack/models/block/drive/lead_essence_cell.json"
 hash = "ae6b8e86eedb3a436aa33ba2f6c2ee097e5095a10e54b2735a38e91e8569e4c3"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/models/block/drive/limestone_essence_cell.json"
 hash = "29ee164a9891d3a3849c45f9fc407fa9d3257ef199c3cfb239676ac0a0918b3a"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/models/block/drive/milk_cell.json"
+hash = "993dbb06143ef8234ae7c82563a61193f8ab09f5b7e4d503c284d7ce4aee5d56"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/models/block/drive/naquadah_essence_cell.json"
@@ -1965,6 +2005,10 @@ file = "kubejs/assets/sgcommunity_pack/models/block/drive/refined_obsidian_essen
 hash = "2a034452e14f357259c13563a50687b21d2e65074dff3af465b34993bf559689"
 
 [[files]]
+file = "kubejs/assets/sgcommunity_pack/models/block/drive/ruby_chocolate_cell.json"
+hash = "82c4466827db377b3b318a2d685b694de18fa71769b86cb6dbd903a084680248"
+
+[[files]]
 file = "kubejs/assets/sgcommunity_pack/models/block/drive/sculk_essence_cell.json"
 hash = "256bd19742610fb849defb96729099529e0bdcc37911d1453e9268e900ad80c5"
 
@@ -2031,6 +2075,10 @@ hash = "a69ba8a8f39220d8b271939c9550dc0ce3a2ab63fd5104039453427621e5b11a"
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/models/block/drive/water_essence_cell.json"
 hash = "b81270d60421df68ca35afb553aff9614ae17e6d101ebb5115a4c50590b20991"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/models/block/drive/white_chocolate_cell.json"
+hash = "e18031de838d9a93069ceb984b5663cbc0d2a10c85dca5873d1654e9c0f5cfe6"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/models/block/drive/wither_skeleton_essence_cell.json"
@@ -3941,6 +3989,10 @@ file = "kubejs/data/sgcommunity_pack/recipe/essence/tharsite.json"
 hash = "8a0038bf1a0c67f87af88d372746c12e0879ba82e0fa53dcd4469a3522972b3c"
 
 [[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/inf_cells/milk.json"
+hash = "ed151867215faddd03dd7dc4c76521b46d86fdf35a927a730960db232406dc34"
+
+[[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/item/advanced_pcb_substrate.json"
 hash = "16354804cd143748c45014265e76d120836a0fe54108f732c02b179b4176792e"
 
@@ -4633,11 +4685,11 @@ file = "kubejs/server_scripts/mosfet_chain.js"
 hash = "3b4bea8739e3353b7963cd73d8a74dffe9112882a40c1cfd8429168910e592c4"
 
 [[files]]
-file = "kubejs/server_scripts/server.js"
-hash = "212cc3c9f6702f89b3048a7cd589d0e6064b5ac3210b1e3be93e8afc2efe8179"
+file = "kubejs/server_scripts/recipes.js"
+hash = "0b792cf8cc61b50134d8a0279bd039e8da67064f711f9e46a5bdc809d022860e"
 
 [[files]]
-file = "kubejs/server_scripts/tag_fix.js"
+file = "kubejs/server_scripts/tags.js"
 hash = "4952bbf43c62af72f9ae05e6b762bc2720c795a32011728c81cf5994e87b9876"
 
 [[files]]
@@ -4661,8 +4713,8 @@ file = "kubejs/startup_scripts/fluids.js"
 hash = "13bbe11285e0b670c9a114f2a803cd26d465c1d3d5b58f4d21fae4f1be04781f"
 
 [[files]]
-file = "kubejs/startup_scripts/infinite_essence_cells.js"
-hash = "f0de937db101fdc3fdb6ddc74071deada0702b20ea4414e5fe70b765aa9db237"
+file = "kubejs/startup_scripts/infinite_cells.js"
+hash = "b67d26d2080784d090650dfc4cfbdddcd755c7ae45406c31364e698ac779f095"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
