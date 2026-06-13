@@ -1,16 +1,19 @@
 ### STILL TODO:
+- Find a way to do easymode questlines
+- Oredictionificator replacement... Replicator?
+- finish the inf cell textures
+
+### EXTRA TODO:
 - Add /surface command that takes you to the surface of your current location?
 - Increase the output numbers for naq generators
 - TAGS: CreateAdditions bio pellet and pellet block need to be adjusted to be bio-fuels compatable
 - Chisel Blocks: Aluminum, Cobalt, Invar, and Silver (Nickel and Platinum are added by oritech) - These have no recipe and need to be added to the chisel workbench somehow
-- find a way to do easymode questlines instead of the command
-- Oredictionificator replacement...
 - find more uses for compost blocks, right now its a bit low usefulness
 - Make chem cells https://github.com/GlodBlock/ExtendedAE/wiki/Custom-Infinity-Cell
 - change the inf item/fluid/chem cell recipes to be more production centered
 
 ### WAITING ON ADDITIONAL STUFF:
-- https://github.com/lostmyself8/Mekanism-MoreMachine/issues/192
+- Replicator recipe access https://github.com/lostmyself8/Mekanism-MoreMachine/issues/192
 - the tabs being color coded is something im working with the Questlog mod dev on to have implemented
 - All the chemicals/fluids are bugged and i dont know what happened... one of the many mods i have is interfering with the text and i dont have a clue which one is doing that
 
@@ -36,9 +39,9 @@ Me       : oh maybe i could look into adding that city mod that adds houses and 
 - Xaero's Map (Replaces JourneyMap)
 - Questlog (Replaces FTB Quests)
 - Open Parties and Claims (Replaces FTB Chunks)
-- Command Replacement Mods (Replaces FTB Essentials):
-  - Telepass (Replaces `/tpa` Command)
-  - Inv View (Replaces `/invsee` Command)
+- Henny's Essentials (Replaces FTB Essentials):
+- Telepass (Replaces `/tpa` Command)
+- Inv View (Replaces `/invsee` Command)
 
 - Updated SGCommunity Pack Items to display proper mod name instead of sgcommunity_pack
 - Added Level Consumption to Natures/Explorers Compass usage
