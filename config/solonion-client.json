@@ -1,0 +1,12 @@
+{
+  "isFoodTooltipEnabled": false,
+  "showDiversityChangeInTooltip": false,
+  "showDisabledTooltip": false,
+  "shouldShowInactiveBenefits": false,
+  "shouldShowInactiveDetriments": false,
+  "showButtonInInventory": false,
+  "buttonInventoryX": 130,
+  "buttonInventoryY": 62,
+  "buttonInventoryWidth": 24,
+  "buttonInventoryHeight": 16
+}

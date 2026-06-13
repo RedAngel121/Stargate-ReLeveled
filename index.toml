@@ -5,6 +5,26 @@ file = "config/Advancedperipherals/world.toml"
 hash = "e209b32acf4d663457ea3786435f600679e616cd6b2dd779e52acf63f756f37e"
 
 [[files]]
+file = "config/HennyEssentials/Announcements.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "config/HennyEssentials/CommandTokens.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "config/HennyEssentials/Conditions.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "config/HennyEssentials/HennyEssentials.json"
+hash = "6d18096b1e1fac5750c4156fd79c5ac27790b9e20ec94cb0a0c21b51bada6687"
+
+[[files]]
+file = "config/HennyEssentials/Pages.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
 file = "config/Mekanism/general.toml"
 hash = "48e2db48cc938225add13bd71ab5fb86bdb13d3c0ce25f591a14ea5e5ca673f0"
 
@@ -1147,6 +1167,14 @@ hash = "9597814801e4bc32c8ebfd5bf87ddf0e61a5bdbf6c644e337948e2ca930b3481"
 [[files]]
 file = "config/simplebackups-common.toml"
 hash = "c5addce1aea576ba177b71fab731c2543ba707c53bec0cfce2f88ad9d9d8625d"
+
+[[files]]
+file = "config/solonion-client.json"
+hash = "94a5263177a916e8de4e6874ea9a8d2e63518da396d40a97c7e8ef93c7c0f00a"
+
+[[files]]
+file = "config/solonion.json"
+hash = "b1a16f04628f92b58b0cd410aa6d9924831d4455e3271b9beabdb1a074d37c04"
 
 [[files]]
 file = "config/staaaaaaaaaaaack-client.toml"
@@ -4686,7 +4714,7 @@ hash = "3b4bea8739e3353b7963cd73d8a74dffe9112882a40c1cfd8429168910e592c4"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "0b792cf8cc61b50134d8a0279bd039e8da67064f711f9e46a5bdc809d022860e"
+hash = "7a1b4a176f34ff5dac1e4b5edd7f67ac90b8ecfc1b4b6ad6a8d087dc0b84cf89"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
@@ -4726,7 +4754,7 @@ hash = "d7b55b1161d3efb17047becb6c6e42827662503e28f4a0ceb0a0e87d240842bb"
 
 [[files]]
 file = "mods/advanced-peripherals.pw.toml"
-hash = "4832374d2149e53968b68a4dd8499ef078f600cf3ad5491d23777e9e83140493"
+hash = "95260471eefa73e63432e990724810d0f6e9fa5e5fca1cbc4dd8124263330c8a"
 metafile = true
 
 [[files]]
@@ -5331,7 +5359,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "ec9d06ac76e4017bbfbae4ecd54702071b796b502ac8eabb682705ef71c8d671"
+hash = "9b1f56d25eee1666fea9dfff6e36ab7efce49469c2a2c491343f2dd6685aaed6"
 metafile = true
 
 [[files]]
@@ -5506,7 +5534,7 @@ metafile = true
 
 [[files]]
 file = "mods/open-parties-and-claims.pw.toml"
-hash = "3c6086054d62b598cc1c8156ff03048d72284b20b0f8aff7a9c42c5710bb5675"
+hash = "6795bcda973a097a9f4473feef768d66a3fc95d5bc4b175a40024e6834019123"
 metafile = true
 
 [[files]]
@@ -5741,12 +5769,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "b51af4da5433d11cdf10988cd222f361d6104a26562f5de7d2616d3ae93e16b6"
+hash = "e6de771c6e8e1fd4558d79bcf0e764cefe098faecebf77c2dddf7230436f3f7f"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "a1956bf984d073e470c4401106927a266bd5848990b6b3dd00940ee07aecb1ba"
+hash = "59661ed4acb80dad85431dbd605971988fcb43e0c9a535a99e5b44b161424036"
 metafile = true
 
 [[files]]
@@ -5766,7 +5794,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "30a2822007b7ff06e1d8855eb810ad9ae1dd67a0d271f481b237eabbfe716cfb"
+hash = "6b9cdf49455216207eb44e650ba1f583ffca844ebbaa39bcbfb8fd80db78372d"
 metafile = true
 
 [[files]]
@@ -5926,12 +5954,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "d6e007f5dfe86aaf2451e403d40211ddd2ac526ceab49a3929bded51b5658e0a"
+hash = "b0663f4f25d3f0b2da1ae82c1e9eff84fbde4752df0798dfb3a33e06a83169ed"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "c129b31143323e9a97c616a8f67fcd3e9db422fa15ec9b50476131a226c3caf2"
+hash = "75226d6628d07c4f19e9adcc02f0b36a7f50bbf9071c0971cbacd04b4d4f4799"
 metafile = true
 
 [[files]]

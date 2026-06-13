@@ -1,17 +1,16 @@
 ### STILL TODO:
-- Configure Spice of Life Onion Edition
-- Configure Henny Essentials stuff - https://www.curseforge.com/minecraft/mc-mods/henny-essentials
 - Add /surface command that takes you to the surface of your current location?
 - Increase the output numbers for naq generators
 - TAGS: CreateAdditions bio pellet and pellet block need to be adjusted to be bio-fuels compatable
 - Chisel Blocks: Aluminum, Cobalt, Invar, and Silver (Nickel and Platinum are added by oritech) - These have no recipe and need to be added to the chisel workbench somehow
 - find a way to do easymode questlines instead of the command
-- Oredictionificator replacement? Replicator > https://github.com/lostmyself8/Mekanism-MoreMachine/issues/192
+- Oredictionificator replacement...
 - find more uses for compost blocks, right now its a bit low usefulness
-- change the inf water/cobble/lava cell recipes to be more production centered
-- Make infinite fluid cells as infinite fluid hose pulley replacements and textures
+- Make chem cells https://github.com/GlodBlock/ExtendedAE/wiki/Custom-Infinity-Cell
+- change the inf item/fluid/chem cell recipes to be more production centered
 
-### ADDITIONAL STUFF:
+### WAITING ON ADDITIONAL STUFF:
+- https://github.com/lostmyself8/Mekanism-MoreMachine/issues/192
 - the tabs being color coded is something im working with the Questlog mod dev on to have implemented
 - All the chemicals/fluids are bugged and i dont know what happened... one of the many mods i have is interfering with the text and i dont have a clue which one is doing that
 

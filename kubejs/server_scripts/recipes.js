@@ -32,8 +32,7 @@ let disappear = [
     "mekmm:fluid_replicator",
     "mekmm:chemical_replicator",
     "mekmm:author_doll",
-    "mekmm:modeler_doll",
-    "moregate:crystallizing/apex_core_recharge"
+    "mekmm:modeler_doll"
 ]
 ServerEvents.recipes(event => {
     for (let each of disappear) {
@@ -53,7 +52,10 @@ RecipeViewerEvents.removeEntries("item", event => {
 let kill_recipe = [
     "mekmm:replicator",
     "mekmm:compressing/author_doll",
-    "mekmm:compressing/modeler_doll"
+    "mekmm:compressing/modeler_doll",
+    "extendedae:infinity_water_cell",
+    "extendedae:infinity_cobblestone_cell",
+    "moregate:crystallizing/apex_core_recharge"
 ]
 ServerEvents.recipes(event => {
     for (let each of kill_recipe) {
