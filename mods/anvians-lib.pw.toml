@@ -1,13 +1,13 @@
 name = "Anvian's Lib"
-filename = "anvianslib-forge-1.20-1.4.1.jar"
+filename = "anvianslib-forge-1.20-1.4.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "42f48a6a22e22e831e51942534565174ff678e44"
+hash = "fb048246468edf224e0633f53274ae0e2fc7d033"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7169365
+file-id = 8201177
 project-id = 1168509

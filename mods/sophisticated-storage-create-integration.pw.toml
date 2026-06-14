@@ -1,13 +1,13 @@
 name = "Sophisticated Storage Create Integration"
-filename = "sophisticatedstoragecreateintegration-1.20.1-0.1.17.115.jar"
+filename = "sophisticatedstoragecreateintegration-1.20.1-0.1.20.164.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "246f0dd261a0cc6181c92c69d0d8ec84df6e4673"
+hash = "43575f8a7056c0ede500055a6b47d325c3283ba2"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7916701
+file-id = 8224099
 project-id = 1226755
