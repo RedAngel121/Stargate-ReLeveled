@@ -5,7 +5,7 @@
   "include_in_main": true,
   "description": "Step 2 of Easy Mode is Automating Easy Mode. Craft the Oredictionificator and start converting things even faster with access to higher tier components.",
   "icon": {
-    "item": "sgcommunity_pack:conversion_catalyst"
+    "item": "mekanism:oredictionificator"
   },
   "toast_on_unlock": false,
   "toast_on_complete": false,

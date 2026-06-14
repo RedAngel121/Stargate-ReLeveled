@@ -1,7 +1,4 @@
-### STILL TODO:
-- finish the inf cell textures
-
-### EXTRA TODO:
+### TODO:
 - Add /surface command that takes you to the surface of your current location?
 - Increase the output numbers for naq generators
 - TAGS: CreateAdditions bio pellet and pellet block need to be adjusted to be bio-fuels compatable

@@ -666,7 +666,7 @@ hash = "538414add543ebef76e68de5ba5c13c7065243b6b7c8a908c271583471800b5e"
 
 [[files]]
 file = "config/questlog/quests/easymode_2.json"
-hash = "04b0ce90fc2d64eda063a548904460410a2f123127c35c5f87c100377995ac09"
+hash = "d5b3ddb0119da6e9312ce309da1a053d4de007b0ba3a94f4e3a395397dfdab89"
 
 [[files]]
 file = "config/questlog/quests/edible_processor_chip.json"
