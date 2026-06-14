@@ -1,8 +1,6 @@
 // priority: 0
 console.info("Loading Blocks")
-
 StartupEvents.registry("block", event => {
-
     const cruxes = [
         { id: "iron_crux", name: "Iron Crux" },
         { id: "gold_crux", name: "Gold Crux" },
@@ -16,7 +14,7 @@ StartupEvents.registry("block", event => {
         { id: "naquadria_crux", name: "Naquadria Crux", light: 1 },
         { id: "positronic_crux", name: "Positronic Crux", light: 1 }
     ]
-
+    
     cruxes.forEach(s => {
         event.create(`sgcommunity_pack:${s.id}`)
             .displayName(s.name)
@@ -28,9 +26,9 @@ StartupEvents.registry("block", event => {
             .tagBoth(`sgcommunity_pack:cruxes`)
             .requiresTool(true)
             .tagBlock("minecraft:mineable/pickaxe")
-            .tagBlock("minecraft:needs_iron_tool")
+            .tagBlock("minecraft:needs_stone_tool")
     })
-
+    
     const blocks = [
         {
             id: "phosphorite",
@@ -40,7 +38,7 @@ StartupEvents.registry("block", event => {
             hardness: 1.5,
             resistance: 1.5,
             tool: "pickaxe",
-            tier: "minecraft:needs_iron_tool",
+            tier: "minecraft:needs_stone_tool",
             tags: ["c:ores", "c:ores/phosphorus"]
         },
         {
@@ -51,7 +49,7 @@ StartupEvents.registry("block", event => {
             hardness: 1.5,
             resistance: 1.5,
             tool: "pickaxe",
-            tier: "minecraft:needs_iron_tool",
+            tier: "minecraft:needs_stone_tool",
             tags: ["c:ores", "c:ores/borax"]
         },
         {
@@ -98,10 +96,20 @@ StartupEvents.registry("block", event => {
             hardness: 2,
             resistance: 10,
             tool: "pickaxe",
-            tier: "minecraft:needs_iron_tool"
+            tier: "minecraft:needs_stone_tool"
+        },
+        {
+            id: "conversion_catalyst",
+            name: "Conversion Catalyst",
+            mapColor: "metal",
+            sound: "metal",
+            hardness: 3,
+            resistance: 3,
+            tool: "pickaxe",
+            tier: "minecraft:needs_stone_tool"
         }
     ]
-
+    
     blocks.forEach(b => {
         let builder = event.create(`sgcommunity_pack:${b.id}`)
             .displayName(b.name)
@@ -110,19 +118,15 @@ StartupEvents.registry("block", event => {
             .hardness(b.hardness ?? 1)
             .resistance(b.resistance ?? 1)
             .lightLevel(b.light ?? 0)
-
         if (b.tool) {
             builder.requiresTool(true)
             builder.tagBlock(`minecraft:mineable/${b.tool}`)
         }
-
         if (b.tier) {
             builder.tagBlock(b.tier)
         }
-
         if (b.tags) {
             b.tags.forEach(tag => builder.tagBoth(tag))
         }
     })
-
 })

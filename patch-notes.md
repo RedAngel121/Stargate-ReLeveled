@@ -1,6 +1,4 @@
 ### STILL TODO:
-- Find a way to do easymode questlines
-- Oredictionificator replacement... Replicator?
 - finish the inf cell textures
 
 ### EXTRA TODO:
@@ -10,7 +8,7 @@
 - Chisel Blocks: Aluminum, Cobalt, Invar, and Silver (Nickel and Platinum are added by oritech) - These have no recipe and need to be added to the chisel workbench somehow
 - find more uses for compost blocks, right now its a bit low usefulness
 - Make chem cells https://github.com/GlodBlock/ExtendedAE/wiki/Custom-Infinity-Cell
-- change the inf item/fluid/chem cell recipes to be more production centered
+- make/change the inf item/fluid/chem cell recipes to be more production centered
 
 ### WAITING ON ADDITIONAL STUFF:
 - Replicator recipe access https://github.com/lostmyself8/Mekanism-MoreMachine/issues/192
@@ -97,6 +95,7 @@ Me       : oh maybe i could look into adding that city mod that adds houses and 
 - unlimitedperipheralworks (Mod not Updated... Author says: "I have plans for this, but I honestly can't give any deadline for when it happen.")
 
 ### Thank you for helping:
+- Cookta2012
 - CubeMaster724__
 - VƬΣᄃΉ
 - PheWitch

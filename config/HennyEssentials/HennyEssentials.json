@@ -95,8 +95,7 @@
       "rulesPagePadding": "§8~",
       "rulesPerPage": 5,
       "rules": [
-        "1. Be kind.",
-        "2. Do not grief."
+        "1. Do Better."
       ]
     }
   },
@@ -110,23 +109,23 @@
   "commandConfigs": {
     "warpConfigs": {
       "cooldownSeconds": 10,
-      "warpCommandEnabled": true,
+      "warpCommandEnabled": false,
       "noPermissionForWarpMessage": "You do not have permission to access the warp: %warpname%",
       "shouldUseInventoryMenuForWarps": true
     },
     "kitConfigs": {
-      "kitsEnabled": true,
+      "kitsEnabled": false,
       "claimingKitsPlaysSound": true,
       "shouldUseInventoryMenuForKits": true
     },
     "teleportConfigs": {
-      "tpaCommandsEnabled": true,
+      "tpaCommandsEnabled": false,
       "homeCommandsEnabled": true,
       "spawnCommandEnabled": true,
-      "setSpawnCommandEnabled": true,
+      "setSpawnCommandEnabled": false,
       "spawnCommandAlwaysTeleportsToOverworld": true,
       "backCommandSavesLastTeleport": false,
-      "teleportsShouldEnforceNoMovementWhileWaitingForWarmup": true,
+      "teleportsShouldEnforceNoMovementWhileWaitingForWarmup": false,
       "defaultNumberOfHomes": 1,
       "homeCommandWarmupSeconds": 0,
       "spawnCommandWarmupSeconds": 0,

@@ -133,7 +133,7 @@
 			# Range: > 10
 			max_wormhole_open_time = 228
 			#If false, the Wormhole connection can only be ended from the dialing side
-			end_connection_from_both_ends = false
+			end_connection_from_both_ends = true
 			#ENABLED - Two way travel possible; CREATIVE_ONLY - Two way travel limited to Players in Creative Mode; DISABLED - Two way travel impossible
 			#Allowed Values: ENABLED, CREATIVE_ONLY, DISABLED
 			two_way_wormholes = "CREATIVE_ONLY"

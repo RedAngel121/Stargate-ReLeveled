@@ -3,7 +3,7 @@
   "sort_order": -2,
   "chapter": "questlog:tips_tricks",
   "include_in_main": true,
-  "description": "This modpack has quests that will guide you through crafting 5 tiers of circuits. You can either keybind the questbook or open the questbook from the top left corner of your inventory.\n\nIf you dont like the complex and carefully crafted recipe chains I made, you can wimp out and use Easy Mode by using the chat command \"/easymode\". This will enable the Easy Mode options and a quest that explains how to use the Oredictionificator.",
+  "description": "This modpack has quests that will guide you through crafting 5 tiers of circuits. You can either keybind the questbook or open the questbook from the top left corner of your inventory.\n\nIf you dont like the complex and carefully crafted recipe chains I made, you can wimp out and use Easy Mode questline. This will enable the Easy Mode blocks and a pair of quests that explains how to use the Conversion Catalyst and Oredictionificator.",
   "icon": {
     "item": "minecraft:grass_block"
   },

@@ -16,7 +16,7 @@
     {
       "type": "questlog:block_interact",
       "name": "R-Click Base Block",
-      "icon": "sgjourney:classic_stargate",
+      "icon": "sgjourney:classic_stargate_base_block",
       "block": "#sgjourney:classic_stargate_block"
     },
     {

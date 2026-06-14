@@ -1,0 +1,31 @@
+{
+  "title": "Easy Mode",
+  "sort_order": 98,
+  "chapter": "questlog:tips_tricks",
+  "include_in_main": true,
+  "description": "Easy Mode is for players who don't like making the large crafting chains and factories and would rather just play with the Stargates.\n\nPlace the Conversion Catalyst and Right-Click it with a Copper Wire or AE2 Silicon to convert them into the circuits you need to craft everything else.",
+  "icon": {
+    "item": "sgcommunity_pack:conversion_catalyst"
+  },
+  "toast_on_unlock": false,
+  "toast_on_complete": false,
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:welcome"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "quest": "questlog:easymode_1"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "sgcommunity_pack:conversion_catalyst",
+      "item": "sgcommunity_pack:conversion_catalyst"
+    }
+  ]
+}

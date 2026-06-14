@@ -23,6 +23,14 @@
       ],
       "false_place": false,
       "active": true
+    },
+    {
+      "id": "sgjourney:stargate/universe/pedestal/universe_stargate_pedestal_island_end",
+      "whitelist": [
+        "minecraft:end"
+      ],
+      "false_place": false,
+      "active": true
     }
   ],
   "dimensions": []

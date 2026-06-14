@@ -55,7 +55,11 @@ let kill_recipe = [
     "mekmm:compressing/modeler_doll",
     "extendedae:infinity_water_cell",
     "extendedae:infinity_cobblestone_cell",
-    "moregate:crystallizing/apex_core_recharge"
+    "moregate:crystallizing/apex_core_recharge",
+    "ironfurnaces:upgrades/upgrade_allthemodium",
+    "ironfurnaces:upgrades/upgrade_vibranium",
+    "ironfurnaces:upgrades/upgrade_unobtainium",
+    "mysticalagriculture:essence/common/silicon"
 ]
 ServerEvents.recipes(event => {
     for (let each of kill_recipe) {

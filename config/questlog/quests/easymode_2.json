@@ -1,0 +1,25 @@
+{
+  "title": "Easier Mode",
+  "sort_order": 98,
+  "chapter": "questlog:tips_tricks",
+  "include_in_main": true,
+  "description": "Step 2 of Easy Mode is Automating Easy Mode. Craft the Oredictionificator and start converting things even faster with access to higher tier components.",
+  "icon": {
+    "item": "sgcommunity_pack:conversion_catalyst"
+  },
+  "toast_on_unlock": false,
+  "toast_on_complete": false,
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:easymode_1"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "mekanism:oredictionificator",
+      "item": "mekanism:oredictionificator"
+    }
+  ]
+}

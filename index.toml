@@ -6,7 +6,7 @@ hash = "e209b32acf4d663457ea3786435f600679e616cd6b2dd779e52acf63f756f37e"
 
 [[files]]
 file = "config/HennyEssentials/Announcements.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+hash = "f7c59844608f33431781faa7c69ccdd681e61ef74d8d32b163e07b447d57a441"
 
 [[files]]
 file = "config/HennyEssentials/CommandTokens.json"
@@ -18,7 +18,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/HennyEssentials/HennyEssentials.json"
-hash = "6d18096b1e1fac5750c4156fd79c5ac27790b9e20ec94cb0a0c21b51bada6687"
+hash = "60a5b40a450f06b4195c2ee6ff4a6a4a5b6bfc256df01e0297fad7eb9ecc3d9d"
 
 [[files]]
 file = "config/HennyEssentials/Pages.json"
@@ -66,7 +66,7 @@ hash = "108381833be9e0a0f6e425aa1a6d5dc227be003df6e90460818bf8d89a554429"
 
 [[files]]
 file = "config/dimstructrestrict.json"
-hash = "2d54a915a1f273bd8f7dad090290460c68c9b7448c9e7fa7047fc7316f5d2853"
+hash = "c535a05642b5f04652a4936dde7d500b03c4bfb82047c90c9228ea833b71fe41"
 
 [[files]]
 file = "config/explorerscompass-common.toml"
@@ -661,6 +661,14 @@ file = "config/questlog/quests/diamond_crux.json"
 hash = "b7121541958e2d0fd0af48e1a9237ad222491b0927b1ccf2368aae4b162c788e"
 
 [[files]]
+file = "config/questlog/quests/easymode_1.json"
+hash = "538414add543ebef76e68de5ba5c13c7065243b6b7c8a908c271583471800b5e"
+
+[[files]]
+file = "config/questlog/quests/easymode_2.json"
+hash = "04b0ce90fc2d64eda063a548904460410a2f123127c35c5f87c100377995ac09"
+
+[[files]]
 file = "config/questlog/quests/edible_processor_chip.json"
 hash = "96e85365abc9b3cbf72c1519063d313cb2e4841fec122e8c372ca293c0a6bb23"
 
@@ -718,7 +726,7 @@ hash = "284e72fd0d414b8aba3b15650e5c23c3f2fe316504f50a5bc248d56cd94af021"
 
 [[files]]
 file = "config/questlog/quests/gate_assembly.json"
-hash = "f903037ea35fda5c1d2d818e341f5ce39181f6ca78920b6e5365e1f9f60dac1f"
+hash = "477cc4f92c5036bc2a95e5800ea0ae0b406de29788bd7d7cb3c0f83ea020f309"
 
 [[files]]
 file = "config/questlog/quests/gate_parts.json"
@@ -1102,7 +1110,7 @@ hash = "b2800ea51e5713773cf5b0a052aabce0fd5b6e780b5265e51ab99647cead0bed"
 
 [[files]]
 file = "config/questlog/quests/welcome.json"
-hash = "65aa80650cedaa08c5fa7f8d4ca19b885656c13b72a92f3631507e4c125e1ed4"
+hash = "c8c31d5915d6a6ff365bc9f0c2b9d50828db7a52c4af999b5515ecda0d8aad41"
 
 [[files]]
 file = "config/questlog/quests/welcome_kinetic_era.json"
@@ -1158,7 +1166,7 @@ hash = "20f5e3c8706702d385522c1f73230cfbdb28cbf9b78fb365864252ae56e4d533"
 
 [[files]]
 file = "config/sgjourney-common.toml"
-hash = "f15c4662ddc48e3d4f150e60c4adf33c1c8ad0f3b5d0f2be78fc73d63aabc626"
+hash = "8df905ebb9466f2e63bfac351ef19a2775bf311a1f0c90f93bcccd5f5dedc7c8"
 
 [[files]]
 file = "config/simple-rpc/simple-rpc.toml"
@@ -2131,6 +2139,10 @@ hash = "a63b2454c81494a76a8d9074bef59075e976a00ebf0f65e27c842454ae1b3825"
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/textures/block/computational_crux.png"
 hash = "a4e10242e3bae9a76976fe3b71ed07c008862b1a193f015e71f24abd53570639"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/conversion_catalyst.png"
+hash = "ea4f6e1505a231eb700dd2fcd4ea34c9134e24927d85900eaf937ba62d979077"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/textures/block/coral_compost.png"
@@ -3569,6 +3581,554 @@ file = "kubejs/data/incendium/function/technical/toast.mcfunction"
 hash = "3a462c97d2c226cd510d970bc821d97be5fb85cc7ac2be2beb7a6754d4ca858a"
 
 [[files]]
+file = "kubejs/data/interiors.zip"
+hash = "26bb849bdc39b37921a83c58f203d8f5a60f92dfaa35667b7870facedab904ea"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/black_chair.json"
+hash = "31de1fdad1b926e24042ba81376e4434dac1f181f814807522c913e6e9226581"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/black_chair_from_floor_chair.json"
+hash = "dec62d26620fde6e02cf22f269830126cb9de39654d5450aba248d6265425b63"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/black_chair_from_other_chair.json"
+hash = "624e897d3558d1b4d65076f5b4a99fbe6155e47e99e70cc471187ee04368cf91"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/black_chair_from_seat.json"
+hash = "9a9546d6827e09905c76e97640beecac2821d5d4083b17adf8298d8d6183b502"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/blue_chair.json"
+hash = "5ddcca1231cb072e54646014726d8a3824fbfc3496125e0931950e31ada05fef"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/blue_chair_from_floor_chair.json"
+hash = "8322893075469fe5f9c71f64a995c24fb8725988854a4e2951e0a51baa10278f"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/blue_chair_from_other_chair.json"
+hash = "9d3e979951fce16d19e67c870d3ce9cf778eab8448ddd83fe9b40aaa411bc243"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/blue_chair_from_seat.json"
+hash = "28d0f72eabfc6e03382c42d68269ed84e7e803237433c6df835bbcbc51b9e6f1"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/brown_chair.json"
+hash = "d98392ad1f13f2cdc222d4feffba19a02fcb862af54c7f926fa273673a5ab887"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/brown_chair_from_floor_chair.json"
+hash = "3fcf01583cdef738cac717eb9823eb3c11c5133e1f132bfb84734c3512b3f6aa"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/brown_chair_from_other_chair.json"
+hash = "75757a0e554f2e84da1a8f111e80b59fd7fe70a52c190965f3332c2e0326403b"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/brown_chair_from_seat.json"
+hash = "ee068a1a902a5ec3eb406397178ee8920fd4da34a6251eed8e969883d1965eab"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/cyan_chair.json"
+hash = "cb5f2db031948b97a68ac2f6805f7647df614ab341b7510dd45128fc8517600f"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/cyan_chair_from_floor_chair.json"
+hash = "f69e6f92773b2717ea0c72a274d48f2a6b3736eadae7dd1b85973b2a8a7a9024"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/cyan_chair_from_other_chair.json"
+hash = "e462a33a9ff6a8c779fd44e1529fa771fab3d1672c2a9bf8238519c10d6835e7"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/cyan_chair_from_seat.json"
+hash = "847530ead77067079b6a1efaaa53acec25abc3df95c41cdc2d2c84b0430d9fc3"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/gray_chair.json"
+hash = "d2f596bf3b3cc0af55f27f43f6af7bce188596f976717f6aaa154355c9168c07"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/gray_chair_from_floor_chair.json"
+hash = "409a1b8ca709ba6a8764ac9590441077740ffbdb7823051109619cd924aa93ec"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/gray_chair_from_other_chair.json"
+hash = "a9df1a3e0e7410e9a790bffb3474ceb5c7336ce616783d6a8c99bc2ba21e52d8"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/gray_chair_from_seat.json"
+hash = "c53ba0a497f7a200a014561d81fe6717e83a7516ab856c6bbe7dae86ac801ab3"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/green_chair.json"
+hash = "1b6e9f8cc79f568f451c84f3ec0cd1e96f369f1432aeccbfb463c8b9ae757f41"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/green_chair_from_floor_chair.json"
+hash = "beec9afc915f657153561bcbd818508182723b0db41b2fd2534c7629894e700f"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/green_chair_from_other_chair.json"
+hash = "1cba8928577cca6aaae415c07ed9410aa3d009d216025953851a4934f4211e00"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/green_chair_from_seat.json"
+hash = "9a4c21300bb5265a6cba42e5b4b42aab1011b6b0daa8e72790899bb68533d063"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/light_blue_chair.json"
+hash = "cf32e28070e19b4477446cb8ef2f7dc6cee989029a84f05cde2c722ad23744e0"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/light_blue_chair_from_floor_chair.json"
+hash = "1587155c434dbd3e93a78d63e32c109b3ff1039dfa1b539f1c13fb542e8ad74d"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/light_blue_chair_from_other_chair.json"
+hash = "f6f168bbf7fa4633201fd2bd0528354ec7560de88495a1efc670cbde678ada4a"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/light_blue_chair_from_seat.json"
+hash = "45979205db62484309c0570a9b1eb4c3984e17da5b15e77b9887c7789de29197"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/light_gray_chair.json"
+hash = "a3bb40732243d95ff3bfc6aedd2193f5947dbad9d72930fd8d08e9b1051b9ac8"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/light_gray_chair_from_floor_chair.json"
+hash = "8f98b843103637c425dddc6abc02a2db703943c4da15ff468e40819ff85d5899"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/light_gray_chair_from_other_chair.json"
+hash = "653cc3e428872256f2152978084b0212e0afcbf19478c718fda6067224dd2147"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/light_gray_chair_from_seat.json"
+hash = "946bc4e64502a0094e8a8cae562b80245057e0d0b559f78c686850cb1a06e8b4"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/lime_chair.json"
+hash = "20786a871dbb4b7c17b39a1a94ebdec8e8339878793ff4dd5fa5aac3cb444391"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/lime_chair_from_floor_chair.json"
+hash = "7408a1312855996350244a9385af5c8e6e0c68637a24153df74a487507f99a40"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/lime_chair_from_other_chair.json"
+hash = "259f2c8b835341407165d62a86cb2484a412361d9c120c49e2ad6e5f0166aa81"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/lime_chair_from_seat.json"
+hash = "4efc00959fe5322f67ff47d4db449fdad6d70c20cc8b28f5ad09b4cc4e2b3bac"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/magenta_chair.json"
+hash = "19e57d128553611001e5309e51c67e2dfe05cb5835229431e8a5c21e19254612"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/magenta_chair_from_floor_chair.json"
+hash = "b6a898c32414a35e14c0f8dfbc0e33b85817ed934685fa2cfc9a0fed4f4a4ef9"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/magenta_chair_from_other_chair.json"
+hash = "1e852687a0c393b006e95f441db873f124a7ab7f84720fdc71057c90fef9539b"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/magenta_chair_from_seat.json"
+hash = "4539d7d38fe56b31cadcf22dffdcdf351e2df798b186ca7350eb0d2681a8dea3"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/orange_chair.json"
+hash = "c99f7ab118935e5c9c87a7c1bf6c978736865a89a94781a4a2bbe41fdf9cb3ab"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/orange_chair_from_floor_chair.json"
+hash = "00d077646d7aa20784daca47c488d8966bd1a28277a870984abf8a7cdaddb57c"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/orange_chair_from_other_chair.json"
+hash = "6fd818335d3f60dff0168abbc1cff1b24c779a58d888eaa06c4d279e770d65a9"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/orange_chair_from_seat.json"
+hash = "727de5808da5e61bf05b1d4c9a6c1cf4b364e3eed55784024fed2194710262b9"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/pink_chair.json"
+hash = "43fa01fe8df142d7e8cd67f4170c21983b1b6a52f4855e3074fbcac55da6780c"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/pink_chair_from_floor_chair.json"
+hash = "362cc6eb996fe58029e257250dfdf32374fe294735480849332f05c55a8f6b6d"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/pink_chair_from_other_chair.json"
+hash = "37de6dd2b2cfab22ebacbcf38951d072f198fae653ad1dfaaaeabbb617601388"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/pink_chair_from_seat.json"
+hash = "895b6de8757593d58c2b717d19bec5cb8f2528dcd6a259687e239e1092833f2e"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/purple_chair.json"
+hash = "f61b658e84e84f1f28365d9595ca9fc0e73e9375ff6c1553e824333c528246d4"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/purple_chair_from_floor_chair.json"
+hash = "247cacf426beda6a1c724fa0b620a8389c559e7f7719ae6ae30fcc4aaeae5825"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/purple_chair_from_other_chair.json"
+hash = "fe1f1610166e3a03a2a5d9254940b49246d9a0caf532b2a76ae36046490e189e"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/purple_chair_from_seat.json"
+hash = "cc468c51fdc55fc609a73df5dd1c26467217b0333ea2f6fec76ae6e6e362c901"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/red_chair.json"
+hash = "eabd6355dc841726d1e83a45d704b8486321d3faf6b5ca40021349a0fe0883dd"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/red_chair_from_floor_chair.json"
+hash = "46dd01abcc8975b645ce7d505b6425cb08b1940230ec5fcd854d509c13daf292"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/red_chair_from_other_chair.json"
+hash = "83693954730bbd60a64add9219fe665691854b8b4f720e928d4427f3d02ef849"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/red_chair_from_seat.json"
+hash = "05e1d4696aea800f7206deb02ede4c1d717471a2637c420cedad448bac688827"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/white_chair.json"
+hash = "636bcaba6b4747c4952e776199ddbb3908c10a0193dd45752c5fbf4142b19430"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/white_chair_from_floor_chair.json"
+hash = "d3505fdf5dd66ec95999bb530d0c3a5fbaaf6eed3f404f4b4228223849a6372c"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/white_chair_from_other_chair.json"
+hash = "f4afddbf590e5ef22efa458a887269f8207ad20c2174ccf5ed5b96833152edba"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/white_chair_from_seat.json"
+hash = "f24464e230b511489a848b3f49ed0c84ccac9a1b714baec8c5cdfcbb90714a4d"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/yellow_chair.json"
+hash = "2b68d491dd0007ccb4a0f8adf22341faa7c89df39c70ffdd7ff35dbf4fc7571f"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/yellow_chair_from_floor_chair.json"
+hash = "ed6fd9cbde649d674011ff37b43505f89d966e9b3ff9e0085eb2357df50ab865"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/yellow_chair_from_other_chair.json"
+hash = "703c0307a99651196b6f78876669d53b2b28f95a01138829dfeca1c83945becd"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/chair/yellow_chair_from_seat.json"
+hash = "96eee97ad5a9fb65e9fc126626d210300bfe9c50052180dbfcaced25a50a3ea1"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/cushion/black_cushion.json"
+hash = "e9f7a42a7e4086f7db55e4117e6dc06dfa3673abb62e56ae3bc8d2a329f1768f"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/cushion/blue_cushion.json"
+hash = "e0c31469a0fbe475ba64145e05c97a225c2cd9de149ac68cab1a0a4476df5e1c"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/cushion/brown_cushion.json"
+hash = "c59685d7e98458803669c0919c4df469cebf8934b62b41bf5c7e29eb95c8cef5"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/cushion/cyan_cushion.json"
+hash = "dafa3ce7f0c35d10e4544170d613e5171cc202ba8314c4f9a0a166df1598f8b9"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/cushion/gray_cushion.json"
+hash = "f8818ed49593f73d97ffa711b4e2798f527552cea087708493e8490c3814440e"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/cushion/green_cushion.json"
+hash = "0d852a43fb96c95c2843730dfb6ed429370945c2c5c47cc91694a7e0163055f6"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/cushion/light_blue_cushion.json"
+hash = "df23673d525ec65d9839bbdf8ac549a362cb2daa77522efe5ed8fcc54c37ef9f"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/cushion/light_gray_cushion.json"
+hash = "bfd0419dc9adaa03c60a2eb98bdb0c3bedb16eaa5e39c06882b2685df9cc104f"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/cushion/lime_cushion.json"
+hash = "58f40f29383a69b9ecd9e15f62a2676dc5258e814ffb5f3d1919fef63a82c0b1"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/cushion/magenta_cushion.json"
+hash = "508571e3f82cddd6f9398afc79dc3695a7facba1ebd2be45fa79f4caa591a60f"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/cushion/orange_cushion.json"
+hash = "a021c8d78f8a93220c6071ff6bef90efd8cf4c5a1dad60e202d32ef787b0fa2f"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/cushion/pink_cushion.json"
+hash = "329ee453a80ff0b908d85c2f8f6f8370d040e83cc83ddb2e657e3f1abdac6cea"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/cushion/purple_cushion.json"
+hash = "92a599a5d776b39c19beda0c6c8bb583f9b1a1a78a3bd750972062e8e2987c94"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/cushion/red_cushion.json"
+hash = "4833ac41a0ac03f9d3bb0146e2780a7339fb7fe1be073734102b464cf2113f10"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/cushion/white_cushion.json"
+hash = "8459b88db1ccbe2b7a0930dfff066f61289e3f6167d04ba8bc2d8f12303ad635"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/cushion/yellow_cushion.json"
+hash = "83bdd205da2d87b4d181469a05058324eb282db927c105092503f0a41d9ba613"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/black_floor_chair.json"
+hash = "6ae23b3b6321e6c685818d2892e042e87cbac0885a465f4d69f4ed9456ba3922"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/black_floor_chair_from_other_floor_chair.json"
+hash = "32aac4de13a8870bb7f47ee003a91cd82ae0cd4a2610605e6b5f9525ca957559"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/black_floor_chair_from_seat.json"
+hash = "69438306cd719348317f0c514a3d1c177dbfd5b00e08705c8c1a426dbf2e53b2"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/blue_floor_chair.json"
+hash = "1f304df98a28eef2977a15ba9494ca1f990a34190bd531a509b41d8c7eb46903"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/blue_floor_chair_from_other_floor_chair.json"
+hash = "ea5087651256ea279a1ace7733f8ff95ef25da8030e1bf2aed6a244cde540e77"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/blue_floor_chair_from_seat.json"
+hash = "25c56aa2fef513a01822418586da1b8654f42761d4c57fd4f38486c4ad25dfea"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/brown_floor_chair.json"
+hash = "5394037b7493c3ebdfc6d59e267427694a171a5cc56819a3d7db79e8bc5d1334"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/brown_floor_chair_from_other_floor_chair.json"
+hash = "9a31299fb2edeb4a6065e261078f11a3d15dfda0fe3e397402fc92a7b8d7a2a6"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/brown_floor_chair_from_seat.json"
+hash = "9fd36085b906684a527a471a62eed4c64c7b989d99221be9eb61c2b4a23b659c"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/cyan_floor_chair.json"
+hash = "b8f4706a2f1dbd52d840b7788b6ed51d99c3db815c3f1f441f900ec1c4d36456"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/cyan_floor_chair_from_other_floor_chair.json"
+hash = "37197d9de94d3d94fb278263c5300db22ad777a6c8296e620dc9dcf377a20e62"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/cyan_floor_chair_from_seat.json"
+hash = "f9207df6ea42c235890ce42ca66b61927db18ba99c48adc2c43f1b72feee423c"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/gray_floor_chair.json"
+hash = "86e83f165809c27ab8a1f0d50e85fb4e508c8b0b7bab16ba05a912ef823de4e4"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/gray_floor_chair_from_other_floor_chair.json"
+hash = "6c8b037f41714b75da306ebcac6232336041be17ae1c3d77074d61d681e97b6d"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/gray_floor_chair_from_seat.json"
+hash = "7c1150ede6710006c094b365f0445c1f82f8dafb8a74c158ec9cb2b2168944c8"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/green_floor_chair.json"
+hash = "f61ac0128e3e77cc7fe9886f35bf06eac3ce9931470c0898735b126e8b81eb92"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/green_floor_chair_from_other_floor_chair.json"
+hash = "e4fd8f433808141a54b57ea2c8ea034524ac19dcfe3dc3cff2b54dc609e86c41"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/green_floor_chair_from_seat.json"
+hash = "cefbb8fec208c316c8720f6860eb4bfd803ffccc53ff5fee9e0268619aca73f5"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/light_blue_floor_chair.json"
+hash = "128f1dd48fb9f6a4591e5fb159d205ffa971b115700e22b619ce52aa78d95e11"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/light_blue_floor_chair_from_other_floor_chair.json"
+hash = "5216a2005466b2037d7c413ebf06cef3a0e8e17a8850f95237a47bc9b572f932"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/light_blue_floor_chair_from_seat.json"
+hash = "c95864665a57520a1f9c242d020dba3b2b0a98c6cecc39a706b1f5cf51ab0fd0"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/light_gray_floor_chair.json"
+hash = "c853b147b241370c0b9433a1f83c1a0b6df9f2adcdf0904746b64a84bbeae6c9"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/light_gray_floor_chair_from_other_floor_chair.json"
+hash = "949da1cbcadf01bd342abc683235a7ca67634d49c1bb9a41dec3d84228791212"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/light_gray_floor_chair_from_seat.json"
+hash = "b88ee0f53c130044b8766621549f550893c1eca5b0711999d6b4a91b648edd29"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/lime_floor_chair.json"
+hash = "f63e9b40a51cd66ecdd0a5164f114df8a9cd61bb70f92b60bde0ed3f6d0399e9"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/lime_floor_chair_from_other_floor_chair.json"
+hash = "5e3f79a4fe43e386336f7e12775e4e3c582ec8779abc9a323ec48ac71c017cff"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/lime_floor_chair_from_seat.json"
+hash = "8e991c4d78733b270e4b54abde4f8b9d4a1321c4d18dbcd6d32836f43684c619"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/magenta_floor_chair.json"
+hash = "d3a02561418959779512690db0ca16757d6675f454c55aa2cf52101ad6c58ae3"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/magenta_floor_chair_from_other_floor_chair.json"
+hash = "35c61459f28ea46af38e95da0b6091a73933cd78b9c6d3b3676dec515aed36fe"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/magenta_floor_chair_from_seat.json"
+hash = "2da0aa3b9fe833c5ee8b5d5608b7ebccd5c8a3d4e8648a24e34217ff5fb80f39"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/orange_floor_chair.json"
+hash = "5149827b92c52672d111d45c06c13dc55f9030f556fca69489a64f622ada8e76"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/orange_floor_chair_from_other_floor_chair.json"
+hash = "7a958a22c7ab61921723a72d31f2fb570de3a16f1b36163144e22e20afb61d66"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/orange_floor_chair_from_seat.json"
+hash = "65325f616fa4f8d4378c84077ba180c905e38df6632280603b59b2e2a74b2ae5"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/pink_floor_chair.json"
+hash = "b55f67b4310d8047840d6d1ab86302e2881e2072c817b3853a118e89e92e685f"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/pink_floor_chair_from_other_floor_chair.json"
+hash = "2f077abe0440c078cff74feac08b7cd9b9a3ba6cdb2d59dc88d0aeadee270783"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/pink_floor_chair_from_seat.json"
+hash = "1c6668427ee4634b9085d2b2dde7451dcfb96bf30df990ce554eba66884413f9"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/purple_floor_chair.json"
+hash = "159be5606cda13895a0e29ca329fc14a3ef4efaaa2db382ed9cd8592aa885e22"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/purple_floor_chair_from_other_floor_chair.json"
+hash = "505bf17fcd4dcea66fe3c2303e9e504fdf7018edadc7b67a506ad9975823e788"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/purple_floor_chair_from_seat.json"
+hash = "8865fb81f25836e299efd255511b1a93b3fcfee5ff05ad1686b47d664cf8a0c7"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/red_floor_chair.json"
+hash = "943d1a72e0a1b45791d56706a0cddfdbfda74e40960b67b5dcede188b73eb959"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/red_floor_chair_from_other_floor_chair.json"
+hash = "502af1d555f93925eb7bb95703180441ce4b4f736131b3380e10614fe9612f6e"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/red_floor_chair_from_seat.json"
+hash = "3b26c22dd271aff471696e62cbf6480fe397ec2e41ce1bf7c420ad91c0db002e"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/white_floor_chair.json"
+hash = "f1a0442e486b16770e03295eee32d67f5ba49a87863764699ba840327cabe91b"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/white_floor_chair_from_other_floor_chair.json"
+hash = "efd56d9ebe1a52cfcc773ebb0ffdff81aebf6fba3a71fe8303e4f091cee413fc"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/white_floor_chair_from_seat.json"
+hash = "c58929ade695cbcab28324a8ca3163e648c3fc3885f2c5035dd275ff6e5b9b75"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/yellow_floor_chair.json"
+hash = "6fb74c2a7400da190282eceb234956c139aea0ce40089af2dd843b308fcac6a3"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/yellow_floor_chair_from_other_floor_chair.json"
+hash = "770969254a9138d45b46c4ae2e60384dc6696b20eaf4f589333e283f1e39ef3f"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/crafting/floor_chair/yellow_floor_chair_from_seat.json"
+hash = "97d5ea1153026b1b837bfb98cc6d7533ad5c1d27eb82b8383a268da94378a0ac"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/kelp_chair.json"
+hash = "ada30f4655e72985de2aaf592a6c828c7d6175ee19f296835eb4a25e6696d174"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/kelp_chair_from_seat.json"
+hash = "39a76dc3a7bf501c466036885ddd7e1755c8631a0e8074bba8ffdfdaa0fa1353"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/kelp_floor_chair.json"
+hash = "395d7209f5ffe6e22d4076ea65d1c23a855e253b1e1e4846f524f75c98162d08"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/kelp_floor_chair_from_seat.json"
+hash = "8e0ad625351a057aa22520d73125091e5f6a8bb5006686f57b9caf14d00e37cd"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/kelp_seat.json"
+hash = "ea6d11cd4dfa6c40f1dc614d400e55df82038d3b14e88ec84908442db35d8f42"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/seatwood_planks_arr_one.json"
+hash = "5400a810f2ae8f7ffcb204d3c3adaadeb8386769e489f2583ef7f411cf6fea21"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/seatwood_planks_arr_two.json"
+hash = "e8a4f8af2543ef6c4bae2851fa5de0c243ee4dbd84397ddb1cb2daad03bf48f9"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/wall_table.json"
+hash = "9fd7b5b550e8f688db00e1ba6aeeaedb00a2985cdae2baa683bcbb5d61e5dae3"
+
+[[files]]
 file = "kubejs/data/ironfurnaces/recipe/augments/augment_generator.json"
 hash = "1aaa5da45fae9bcabda0605f7fd5058be1077d2cc8f9b99b494131c20efad00d"
 
@@ -3715,6 +4275,10 @@ hash = "bf45d6aa3b2feecd1de4c1d99aedb9b8f357281ad5886d8d7ee9bbe2a2feb70e"
 [[files]]
 file = "kubejs/data/mekanism/recipe/metallurgic_infuser.json"
 hash = "91821ed1122f93e114efdb5dfbdddeddfb20d68df10ac2c3e0e8c31e18f5a147"
+
+[[files]]
+file = "kubejs/data/mekanism/recipe/oredictionificator.json"
+hash = "e92f6dc53a213f700f9caca05619324278dabfbf7f977854e6f860189b88d90d"
 
 [[files]]
 file = "kubejs/data/mekanism/recipe/robit.json"
@@ -4015,10 +4579,6 @@ hash = "090305dbdbd77b5af4ef725dc7c7b423e9d74e38ecc3bc95872b87f54c7f3309"
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/essence/tharsite.json"
 hash = "8a0038bf1a0c67f87af88d372746c12e0879ba82e0fa53dcd4469a3522972b3c"
-
-[[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/inf_cells/milk.json"
-hash = "ed151867215faddd03dd7dc4c76521b46d86fdf35a927a730960db232406dc34"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/item/advanced_pcb_substrate.json"
@@ -4697,6 +5257,10 @@ file = "kubejs/data/travelanchors/recipe/travel_staff.json"
 hash = "1c0441f95179b918edb639d938d303323a19e4b5e5a2a6dfdd1ebcaf1745b710"
 
 [[files]]
+file = "kubejs/server_scripts/block_actions.js"
+hash = "bee43bbde41adcf96922a22539048c77be385a9edfbbb1a6b2ecf40f94e867a6"
+
+[[files]]
 file = "kubejs/server_scripts/edible_processor_chain.js"
 hash = "4a55fd7448ec27f68230373153fd9d143530b7e89573082693b7ed8044b30ee9"
 
@@ -4714,7 +5278,7 @@ hash = "3b4bea8739e3353b7963cd73d8a74dffe9112882a40c1cfd8429168910e592c4"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "7a1b4a176f34ff5dac1e4b5edd7f67ac90b8ecfc1b4b6ad6a8d087dc0b84cf89"
+hash = "0334b39999c2f7ce9c37d5f9cc174565221dc1524b3a61f57400b5a12fbdcfb6"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
@@ -4726,7 +5290,7 @@ hash = "9938be25a06aafdc99e8778194c79e2edd2723cb833a3a50d71042987286d0d3"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
-hash = "9e2c6099ea30e15e82e906c0944421eb7ffc6e1a4d0ed968abdf0871d761e17c"
+hash = "62ac7732b31ac334733d92956979c1b8e4e548881141d76333ad6c3d588f7a44"
 
 [[files]]
 file = "kubejs/startup_scripts/chems.js"
@@ -4909,7 +5473,7 @@ metafile = true
 
 [[files]]
 file = "mods/botany-pots.pw.toml"
-hash = "7fa0c360b22811152168f61e17a5d1c881eab1079b199f39f53c2508cdd27c9b"
+hash = "f200a085681a40047222b701f6a52fc098b51702a2debd909d1789fac78a9c38"
 metafile = true
 
 [[files]]
@@ -5754,7 +6318,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "d498ace9debedfbab647065dbc00943472be244bf76d8d4f8ed6fc197e800d5e"
+hash = "1600eda44f49ff0eebdacd09f4dac319c4b267940989b7d3deeee28cb6734a62"
 metafile = true
 
 [[files]]
@@ -5769,12 +6333,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "e6de771c6e8e1fd4558d79bcf0e764cefe098faecebf77c2dddf7230436f3f7f"
+hash = "a24fb117d64ca754ba2a3fd38b9a8d7e8028127a43dcc89b551cc4a6fd3fb280"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "59661ed4acb80dad85431dbd605971988fcb43e0c9a535a99e5b44b161424036"
+hash = "c74722a24f953b3aaa54e7337452ace40519349c036970e5338eb3c522b347ad"
 metafile = true
 
 [[files]]
@@ -5794,7 +6358,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "6b9cdf49455216207eb44e650ba1f583ffca844ebbaa39bcbfb8fd80db78372d"
+hash = "b61c1d72ae4f867afe7bfd1750e19b3c33bdb36f2ea0eeb5b1a63d33e271892b"
 metafile = true
 
 [[files]]
@@ -5814,7 +6378,7 @@ metafile = true
 
 [[files]]
 file = "mods/steam-n-rails-neoforge.pw.toml"
-hash = "ff0bcf358006b6a6a55c406ba2409cf14bbba5bb99d8a5122abcc8b1ade85f04"
+hash = "60d6921ec70b1c098fcfbf0254022b7a9a3a859635e6857fd6dc64c12381aeac"
 metafile = true
 
 [[files]]
