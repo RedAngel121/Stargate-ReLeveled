@@ -2142,7 +2142,7 @@ hash = "a4e10242e3bae9a76976fe3b71ed07c008862b1a193f015e71f24abd53570639"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/textures/block/conversion_catalyst.png"
-hash = "ea4f6e1505a231eb700dd2fcd4ea34c9134e24927d85900eaf937ba62d979077"
+hash = "110be9f2601c7fb917ad9ed87c1b90c466c68993ca57b9a038e716f3ae677c84"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/textures/block/coral_compost.png"
@@ -5306,7 +5306,7 @@ hash = "13bbe11285e0b670c9a114f2a803cd26d465c1d3d5b58f4d21fae4f1be04781f"
 
 [[files]]
 file = "kubejs/startup_scripts/infinite_cells.js"
-hash = "b67d26d2080784d090650dfc4cfbdddcd755c7ae45406c31364e698ac779f095"
+hash = "b50c507b6a5c20e8b32dcbb4620c288e44364bc543262964593f2960382a1e6a"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
