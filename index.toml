@@ -1782,7 +1782,7 @@ hash = "d7202bf76c9c1b22008934469723205cba6af0dfc07f8783e083a031a578bcf1"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/lang/en_us.json"
-hash = "e020541d8ee39f9e7f63dc1b10db64f9a0bfc82afd01f52c5b16c910372b5109"
+hash = "823add87cb5e98251dc179b935ef73bfbc6460f040e0557061177b9931de9046"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/models/block/drive/air_essence_cell.json"
