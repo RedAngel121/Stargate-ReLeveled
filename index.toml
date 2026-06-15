@@ -1481,10 +1481,6 @@ file = "kubejs/assets/jajasgates/textures/symbols/point_of_origin/cl_xtreme.png"
 hash = "589900a7b8cd8b6c2ef715ef4063b9a7829a164d981831f657873d3e674e779c"
 
 [[files]]
-file = "kubejs/assets/neoessentials/lang/en_us.json"
-hash = "4392cd63485db79f3e2f0f83de81894e1c1c3fa78a7e6d9b7ae8733e04b57192"
-
-[[files]]
 file = "kubejs/assets/pipez/blockstates/energy_pipe.json"
 hash = "57edaa732115b84f6dbc2dd97f53b4d818d0b47b05f46a2b47d32cc6b6f6d4bd"
 
@@ -1786,7 +1782,7 @@ hash = "d7202bf76c9c1b22008934469723205cba6af0dfc07f8783e083a031a578bcf1"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/lang/en_us.json"
-hash = "823add87cb5e98251dc179b935ef73bfbc6460f040e0557061177b9931de9046"
+hash = "e020541d8ee39f9e7f63dc1b10db64f9a0bfc82afd01f52c5b16c910372b5109"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/models/block/drive/air_essence_cell.json"
