@@ -5,26 +5,6 @@ file = "config/Advancedperipherals/world.toml"
 hash = "e209b32acf4d663457ea3786435f600679e616cd6b2dd779e52acf63f756f37e"
 
 [[files]]
-file = "config/HennyEssentials/Announcements.json"
-hash = "f7c59844608f33431781faa7c69ccdd681e61ef74d8d32b163e07b447d57a441"
-
-[[files]]
-file = "config/HennyEssentials/CommandTokens.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
-file = "config/HennyEssentials/Conditions.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
-file = "config/HennyEssentials/HennyEssentials.json"
-hash = "60a5b40a450f06b4195c2ee6ff4a6a4a5b6bfc256df01e0297fad7eb9ecc3d9d"
-
-[[files]]
-file = "config/HennyEssentials/Pages.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
 file = "config/Mekanism/general.toml"
 hash = "48e2db48cc938225add13bd71ab5fb86bdb13d3c0ce25f591a14ea5e5ca673f0"
 
@@ -387,6 +367,18 @@ hash = "7d628601b07355b55a3ab3d6b81e4110e5170a86391dbf39bce0be63e714249b"
 [[files]]
 file = "config/naturescompass-common.toml"
 hash = "5ae19d2c34f546d329e89c746076c92b436a0843681abe201117abe0374d4519"
+
+[[files]]
+file = "config/neoessentials/config.json"
+hash = "b16f8df8f83e93be3a3fbc1273f8fcb596d994c105b1d37771448a96f24667dc"
+
+[[files]]
+file = "config/neoessentials/permissions.json"
+hash = "c81e1a9c973e185a3a1e61691d3a9e9693bc3bf0a88eac5a23b439b01d52c4c0"
+
+[[files]]
+file = "config/neoessentials/tablist.json"
+hash = "050b6e44be361794c429b8d187f7ee54161e5586867d25028a5555ec4eb423d7"
 
 [[files]]
 file = "config/openpartiesandclaims-server.toml"
@@ -3653,10 +3645,6 @@ file = "kubejs/data/incendium/function/technical/toast.mcfunction"
 hash = "3a462c97d2c226cd510d970bc821d97be5fb85cc7ac2be2beb7a6754d4ca858a"
 
 [[files]]
-file = "kubejs/data/interiors.zip"
-hash = "26bb849bdc39b37921a83c58f203d8f5a60f92dfaa35667b7870facedab904ea"
-
-[[files]]
 file = "kubejs/data/interiors/recipe/crafting/chair/black_chair.json"
 hash = "31de1fdad1b926e24042ba81376e4434dac1f181f814807522c913e6e9226581"
 
@@ -5809,6 +5797,11 @@ hash = "e6549fe2894e6d40dbebee1c00a13ea407dc9181e6364886b90ece36d4e68d25"
 metafile = true
 
 [[files]]
+file = "mods/fast-leaf-decay.pw.toml"
+hash = "e5c471aaab9047178ad25e91d28240fefd7b6e48d52af4274bc53239eb1da8c6"
+metafile = true
+
+[[files]]
 file = "mods/fastsuite.pw.toml"
 hash = "83e60a73e109258def123fbcab5cf606857f36feca621a4c40c9d7c10b285bca"
 metafile = true
@@ -5884,11 +5877,6 @@ hash = "d573695d37296209dc06495d359c4b283ffa6640bcfe8aa9c9b59eb420891788"
 metafile = true
 
 [[files]]
-file = "mods/henny-essentials.pw.toml"
-hash = "bdba9c40b81bc6365f921ef9463a8fec2bb3bc280d762e89df060c6f07284757"
-metafile = true
-
-[[files]]
 file = "mods/hostile-neural-networks.pw.toml"
 hash = "90f96f9e48eea134f5a399b859d4977d6166a1711c917224375ce832b0b9cf53"
 metafile = true
@@ -5916,11 +5904,6 @@ metafile = true
 [[files]]
 file = "mods/interiors.pw.toml"
 hash = "f1cec80f06a6bb696ff7250c273e328519944adb6b677dcd2476b428ede02e4e"
-metafile = true
-
-[[files]]
-file = "mods/inv-view-forge.pw.toml"
-hash = "4ca01808cbfa639730c9b40208770dc826f2b5d14f87917ee04206350e2adea5"
 metafile = true
 
 [[files]]
@@ -6121,6 +6104,11 @@ metafile = true
 [[files]]
 file = "mods/necronomicon.pw.toml"
 hash = "6acba5e53610fc3e62bd9641aeaaba056f99248a2d1d86bbf032061a1e408826"
+metafile = true
+
+[[files]]
+file = "mods/neoessentials.pw.toml"
+hash = "bd22a9802b2150333a5b3b471199f0e55f6906a402fb7b642f606c89cbb48ae3"
 metafile = true
 
 [[files]]
@@ -6405,17 +6393,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "a24fb117d64ca754ba2a3fd38b9a8d7e8028127a43dcc89b551cc4a6fd3fb280"
+hash = "9964cb89b15dfc04c8bda782f7c371c9fbc3113c089d47bf64ccc60f0f495359"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "c74722a24f953b3aaa54e7337452ace40519349c036970e5338eb3c522b347ad"
+hash = "d865cada154a7987ec56f7ec5233e090ffad1bdb08922a100dc733c2995aab7a"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-item-actions.pw.toml"
-hash = "44abc56cee84b6bb486993dcff8bf180850fe4d5c890aaf57bbfb7f068830fd2"
+hash = "83417438759e9f039c0b740bff77c7015819426fea9694fbfdfaac509cddb08c"
 metafile = true
 
 [[files]]
@@ -6430,7 +6418,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "b61c1d72ae4f867afe7bfd1750e19b3c33bdb36f2ea0eeb5b1a63d33e271892b"
+hash = "e4ffd0590c460253cd80d4e27839cd3b43b98605eeaf3f5e46ca2a78715170ca"
 metafile = true
 
 [[files]]

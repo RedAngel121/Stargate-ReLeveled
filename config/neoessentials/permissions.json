@@ -1,0 +1,87 @@
+{
+  "defaultGroup": "default",
+  "groups": [
+    {
+      "prefix": "&7",
+      "permissions": [
+        "neoessentials.economy.baltop",
+        "neoessentials.item.powertool",
+        "neoessentials.afk",
+        "neoessentials.teleport.request.deny",
+        "neoessentials.teleport.request.accept",
+        "neoessentials.teleport.warp",
+        "neoessentials.teleport.warp.list",
+        "neoessentials.item.repair",
+        "neoessentials.chat.reply",
+        "neoessentials.chat.ignore",
+        "neoessentials.item.dispose",
+        "neoessentials.economy.balance",
+        "neoessentials.economy.pay",
+        "neoessentials.kits.use",
+        "neoessentials.teleport.request.tpahere",
+        "neoessentials.economy.pay.toggle",
+        "neoessentials.info",
+        "neoessentials.teleport.home.set",
+        "neoessentials.chat.msgtoggle",
+        "neoessentials.teleport.request.tpa",
+        "neoessentials.teleport.home.delete",
+        "neoessentials.chat.msg",
+        "neoessentials.kits.list",
+        "neoessentials.teleport.home.list",
+        "neoessentials.teleport.request.cancel",
+        "neoessentials.teleport.home",
+        "neoessentials.teleport.spawn",
+        "neoessentials.teleport.top",
+        "neoessentials.teleport.back",
+        "neoessentials.chat.unignore"
+      ],
+      "name": "default",
+      "suffix": "",
+      "inherits": []
+    },
+    {
+      "prefix": "&2[Mod] ",
+      "permissions": [
+        "neoessentials.chat.socialspy",
+        "neoessentials.chat.mutelist",
+        "neoessentials.teleport.admin.tp",
+        "neoessentials.afk.exempt",
+        "neoessentials.teleport.jump",
+        "neoessentials.kits.admin.delete",
+        "neoessentials.item.*",
+        "neoessentials.teleport.admin.tphere",
+        "neoessentials.economy.admin",
+        "neoessentials.permissions.list",
+        "neoessentials.kits.admin.list",
+        "neoessentials.teleport.warp.delete",
+        "neoessentials.chat.unmute",
+        "neoessentials.teleport.spawn.set",
+        "neoessentials.economy.balance.others",
+        "neoessentials.kits.admin.create",
+        "neoessentials.teleport.warp.create",
+        "neoessentials.chat.mute",
+        "neoessentials.permissions.reload",
+        "neoessentials.teleport.admin.tppos",
+        "neoessentials.teleport.jumpto",
+        "neoessentials.teleport.home.others",
+        "neoessentials.teleport.tpr"
+      ],
+      "name": "moderator",
+      "suffix": "",
+      "inherits": [
+        "default"
+      ]
+    },
+    {
+      "prefix": "&c[Admin] ",
+      "permissions": [
+        "neoessentials.*"
+      ],
+      "name": "admin",
+      "suffix": "",
+      "inherits": [
+        "moderator"
+      ]
+    }
+  ]
+}

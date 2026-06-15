@@ -1,5 +1,10 @@
 ### TODO:
-- Add /surface command that takes you to the surface of your current location?
+- quark ladder recipe needs planks tag
+- henny essentials needs to be fixed - all configs verified
+- turn on common gates for multiplayer
+- RPC mod causing errors with discord RPC turned off, mod errors out when disabling it Caused by: java.lang.NullPointerException: Cannot invoke "java.util.List.isEmpty()" because the return value of "com.hypherionmc.simplerpc.api.rpc.RichPresenceBuilder.getButtons()" is null
+- vencord doesnt transfer chat messages to discord (missing webhook url)
+
 - Increase the output numbers for naq generators
 - TAGS: CreateAdditions bio pellet and pellet block need to be adjusted to be bio-fuels compatable
 - Chisel Blocks: Aluminum, Cobalt, Invar, and Silver (Nickel and Platinum are added by oritech) - These have no recipe and need to be added to the chisel workbench somehow
@@ -34,14 +39,12 @@ Me       : oh maybe i could look into adding that city mod that adds houses and 
 - Xaero's Map (Replaces JourneyMap)
 - Questlog (Replaces FTB Quests)
 - Open Parties and Claims (Replaces FTB Chunks)
-- Henny's Essentials (Replaces FTB Essentials):
 - Telepass (Replaces `/tpa` Command)
-- Inv View (Replaces `/invsee` Command)
 
-- Updated SGCommunity Pack Items to display proper mod name instead of sgcommunity_pack
+- Updated SGCommunity Pack Items to display proper mod name instead of `sgcommunity_pack`
 - Added Level Consumption to Natures/Explorers Compass usage
 - Added SGJourney Blocks and fluids to RFTools Dimlets
-- Converted the login book into a quest ~~cause no one really reads it anyway~~
+- Converted the login book into quests ~~cause no one reads anyway~~
 - And probably a lot more things I forgot to write down
 
 ### Additions:
@@ -78,7 +81,6 @@ Me       : oh maybe i could look into adding that city mod that adds houses and 
 - New Immersive Paintings Dependancy: Fzzy Config
 
 ### Removals:
-- The Entire FTB Suite
 - Botarium
 - Canary
 - Dairy Peripherals
