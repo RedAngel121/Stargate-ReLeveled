@@ -10,7 +10,7 @@
     "enabled": true,
 
     "_doc_refreshInterval": "How often the tablist header/footer is updated, in ticks. 20 ticks = 1 second. Lower = smoother animation but more network traffic.",
-    "refreshInterval": 20,
+    "refreshInterval": 80,
 
     "_doc_header": [
       "The text displayed ABOVE the player list.",

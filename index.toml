@@ -370,15 +370,15 @@ hash = "5ae19d2c34f546d329e89c746076c92b436a0843681abe201117abe0374d4519"
 
 [[files]]
 file = "config/neoessentials/config.json"
-hash = "b16f8df8f83e93be3a3fbc1273f8fcb596d994c105b1d37771448a96f24667dc"
+hash = "776526105d10393f3d39fb5945a30eb1e7685bae054495d7ab628b4e39f4baa4"
 
 [[files]]
 file = "config/neoessentials/permissions.json"
-hash = "c81e1a9c973e185a3a1e61691d3a9e9693bc3bf0a88eac5a23b439b01d52c4c0"
+hash = "787be5f3373ff305ac7e5f2074357de23a0092b81140916927661165b81931e7"
 
 [[files]]
 file = "config/neoessentials/tablist.json"
-hash = "050b6e44be361794c429b8d187f7ee54161e5586867d25028a5555ec4eb423d7"
+hash = "0c1d6503363a31bab0f8e14709bc42a6cc92432e86a671bf109d7e7e1c3b9f76"
 
 [[files]]
 file = "config/openpartiesandclaims-server.toml"
