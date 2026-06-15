@@ -763,10 +763,10 @@
       "allowStateConditionals_comment": "Allow state-based conditions: <if:afk>AFK</if>. Supported: afk, vanished, flying, creative, survival, spectator, op, sneaking, sprinting, swimming, onfire, wet, underground, nether, end, overworld."
     },
     "channels": {
-      "enabled": false,
+      "enabled": true,
       "enabled-description": "Master switch for chat channels system. When false, all channels are disabled and players use default global chat. When true, channels work according to their individual settings below.",
       "local": {
-        "enabled": true,
+        "enabled": false,
         "radius": 100,
         "command": "l",
         "aliases": ["local", "lc"],
@@ -793,7 +793,7 @@
         }
       },
       "staff": {
-        "enabled": true,
+        "enabled": false,
         "command": "staff",
         "aliases": ["mod", "admin", "s"],
         "prefix": "@",

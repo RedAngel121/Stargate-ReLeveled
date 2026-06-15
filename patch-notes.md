@@ -1,10 +1,7 @@
 ### TODO:
-- quark ladder recipe needs planks tag
-- henny essentials needs to be fixed - all configs verified
-- turn on common gates for multiplayer
-- RPC mod causing errors with discord RPC turned off, mod errors out when disabling it Caused by: java.lang.NullPointerException: Cannot invoke "java.util.List.isEmpty()" because the return value of "com.hypherionmc.simplerpc.api.rpc.RichPresenceBuilder.getButtons()" is null
-- vencord doesnt transfer chat messages to discord (missing webhook url)
 
+
+- Can i add a rank or prefix to someone who has the most deaths on the server?
 - Increase the output numbers for naq generators
 - TAGS: CreateAdditions bio pellet and pellet block need to be adjusted to be bio-fuels compatable
 - Chisel Blocks: Aluminum, Cobalt, Invar, and Silver (Nickel and Platinum are added by oritech) - These have no recipe and need to be added to the chisel workbench somehow
@@ -18,10 +15,10 @@
 - All the chemicals/fluids are bugged and i dont know what happened... one of the many mods i have is interfering with the text and i dont have a clue which one is doing that
 
 ### See how hard this is:
-Me       : I want to expand the sgj dims and add more ores and stuff
-Request  : Can we just get a giant cave dim? Like the Nether but with overworld blocks?
-Me       : I can agree with that, adding a new dimension isn't easy, biomes and ores need to be accounted for... I would have to add a new Stargate structure too...
-Me       : oh maybe i could look into adding that city mod that adds houses and skyscrapers and whatnot for a new vacated city dim... its a lot but its not a bad idea
+Me        : I want to expand the sgj dims and add more ores and stuff
+Request   : Can we just get a giant cave dim? Like the Nether but with overworld blocks?
+Me        : I can agree with that, adding a new dimension isn't easy, biomes and ores need to be accounted for... I would have to add a new Stargate structure too...
+Me        : oh maybe i could look into adding that city mod that adds houses and skyscrapers and whatnot for a new vacated city dim... its a lot but its not a bad idea
 
 ====================================================================================================
 
@@ -39,6 +36,7 @@ Me       : oh maybe i could look into adding that city mod that adds houses and 
 - Xaero's Map (Replaces JourneyMap)
 - Questlog (Replaces FTB Quests)
 - Open Parties and Claims (Replaces FTB Chunks)
+- NeoEssentials (Replaces FTB Essentials)
 - Telepass (Replaces `/tpa` Command)
 
 - Updated SGCommunity Pack Items to display proper mod name instead of `sgcommunity_pack`

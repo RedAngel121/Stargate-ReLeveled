@@ -21,25 +21,15 @@
 	#Enable/Disable the Game Loading Event
 	enabled = true
 
-	#List of RPCs that will be displayed at random
 	[[init.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
-		#The first line of text under the app name
 		description = "Minecraft is loading"
-		#The second line of text under the app name
 		state = "Game Starting..."
-		#The Asset ID or URLs of images to randomly use for the large image
 		largeImageKey = ["mclogonew"]
-		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["mclogo"]
-		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{game.mods}} mods installed"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
 		buttons = []
 
 #The Main Menu event
@@ -47,25 +37,15 @@
 	#Enable/Disable the Main Menu Event
 	enabled = true
 
-	#List of RPCs that will be displayed at random
 	[[main_menu.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
-		#The first line of text under the app name
 		description = "{{player.name}} is currently lazy"
-		#The second line of text under the app name
 		state = "Chilling in the menu"
-		#The Asset ID or URLs of images to randomly use for the large image
 		largeImageKey = ["mclogonew"]
-		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
-		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
 		buttons = []
 
 #The Server List event
@@ -73,25 +53,15 @@
 	#Enable/Disable the Server List Event
 	enabled = true
 
-	#List of RPCs that will be displayed at random
 	[[server_list.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
-		#The first line of text under the app name
 		description = "{{player.name}} is looking for a server"
-		#The second line of text under the app name
 		state = "Searching for friends"
-		#The Asset ID or URLs of images to randomly use for the large image
 		largeImageKey = ["mclogonew"]
-		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
-		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
 		buttons = []
 
 #The Realms Screen event
@@ -99,25 +69,15 @@
 	#Enable/Disable the Realms Screen Event
 	enabled = true
 
-	#List of RPCs that will be displayed at random
 	[[realms_list.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
-		#The first line of text under the app name
 		description = "{{player.name}} is looking for a Realm"
-		#The second line of text under the app name
 		state = "Browsing Realms"
-		#The Asset ID or URLs of images to randomly use for the large image
 		largeImageKey = ["mclogonew"]
-		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
-		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
 		buttons = []
 
 #The Join Game Event
@@ -125,25 +85,15 @@
 	#Enable/Disable the Join Game Event
 	enabled = true
 
-	#List of RPCs that will be displayed at random
 	[[join_game.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
-		#The first line of text under the app name
 		description = "{{player.name}} is joining a game"
-		#The second line of text under the app name
 		state = "Joining Game"
-		#The Asset ID or URLs of images to randomly use for the large image
 		largeImageKey = ["mclogonew"]
-		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
-		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
 		buttons = []
 
 #The Single Player Event
@@ -151,25 +101,15 @@
 	#Enable/Disable the Single Player Event
 	enabled = true
 
-	#List of RPCs that will be displayed at random
 	[[single_player.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
-		#The first line of text under the app name
 		description = "Currently In {{world.name}}"
-		#The second line of text under the app name
 		state = "Playing lonely mode"
-		#The Asset ID or URLs of images to randomly use for the large image
 		largeImageKey = ["mclogonew"]
-		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
-		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
 		buttons = []
 
 #The Multi Player Event
@@ -177,25 +117,15 @@
 	#Enable/Disable the Multi Player Event
 	enabled = true
 
-	#List of RPCs that will be displayed at random
 	[[multi_player.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
-		#The first line of text under the app name
 		description = "Playing on {{server.name}} with {{server.players.count}} players"
-		#The second line of text under the app name
 		state = "Playing online"
-		#The Asset ID or URLs of images to randomly use for the large image
 		largeImageKey = ["mclogonew"]
-		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
-		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
 		buttons = []
 
 #The Realms Game Event
@@ -203,25 +133,15 @@
 	#Enable/Disable the Realms Game Event
 	enabled = true
 
-	#List of RPCs that will be displayed at random
 	[[realms.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
-		#The first line of text under the app name
 		description = "Playing on {{realm.name}}"
-		#The second line of text under the app name
 		state = "Playing on a Realm"
-		#The Asset ID or URLs of images to randomly use for the large image
 		largeImageKey = ["mclogonew"]
-		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
-		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
 		buttons = []
 
 #The Paused Event
@@ -229,50 +149,37 @@
 	#Enable/Disable the Pause Event
 	enabled = true
 
-	#List of RPCs that will be displayed at random
 	[[paused.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
-		#The first line of text under the app name
 		description = "In the Pause Menu"
-		#The second line of text under the app name
 		state = "Game Paused"
-		#The Asset ID or URLs of images to randomly use for the large image
 		largeImageKey = ["mclogonew"]
-		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
-		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{player.name}}"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
 		buttons = []
 
 #Fallback event for disabled events
 [generic]
 
-	#List of RPCs that will be displayed at random
 	[[generic.presence]]
-		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
-		#The first line of text under the app name
 		description = "Playing Minecraft"
-		#The second line of text under the app name
 		state = ""
-		#The Asset ID or URLs of images to randomly use for the large image
 		largeImageKey = ["mclogonew"]
-		#The text to show when someone hovers over the largeImage
 		largeImageText = "It's Minecraft {{game.version}}, but modded"
-		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["mclogo"]
-		#The text to show when someone hovers over the smallImage
 		smallImageText = "{{game.mods}} mods installed"
-		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
-		#List of buttons (max 2) to show on the RPC
-		buttons = []
+
+		[[generic.presence.buttons]]
+			label = "Curseforge"
+			url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
+
+		[[generic.presence.buttons]]
+			label = "Discord"
+			url = "https://discord.gg/vDUGsWUKk8"
 
 #Custom Config Variables that you can use
 [custom]
@@ -285,6 +192,7 @@
 [dimension_overrides]
 	#Allows you to override the displayed values for dimensions
 	enabled = true
+	buttons = []
 
 	[[dimension_overrides.dimensions]]
 		name = "overworld"
@@ -298,6 +206,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons=[]
 
 	[[dimension_overrides.dimensions]]
 		name = "the_nether"
@@ -311,6 +220,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons=[]
 
 	[[dimension_overrides.dimensions]]
 		name = "the_end"
@@ -324,6 +234,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons=[]
 
 	[[dimension_overrides.dimensions]]
 		name = "overworldmirror:overworld"
@@ -337,6 +248,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons=[]
 
 	[[dimension_overrides.dimensions]]
 		name = "stellaris:glacio"
@@ -350,6 +262,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons=[]
 
 	[[dimension_overrides.dimensions]]
 		name = "stellaris:mars"
@@ -363,6 +276,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons=[]
 
 	[[dimension_overrides.dimensions]]
 		name = "stellaris:moon"
@@ -376,6 +290,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons=[]
 
 	[[dimension_overrides.dimensions]]
 		name = "stellaris:mercury"
@@ -389,6 +304,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons=[]
 
 	[[dimension_overrides.dimensions]]
 		name = "stellaris:venus"
@@ -402,6 +318,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons=[]
 
 	[[dimension_overrides.dimensions]]
 		name = "stellaris:glacio_orbit"
@@ -415,6 +332,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons=[]
 
 	[[dimension_overrides.dimensions]]
 		name = "stellaris:mars_orbit"
@@ -428,6 +346,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons=[]
 
 	[[dimension_overrides.dimensions]]
 		name = "stellaris:moon_orbit"
@@ -441,6 +360,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons=[]
 
 	[[dimension_overrides.dimensions]]
 		name = "stellaris:mercury_orbit"
@@ -454,6 +374,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons=[]
 
 	[[dimension_overrides.dimensions]]
 		name = "stellaris:venus_orbit"
@@ -467,6 +388,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons=[]
 
 	[[dimension_overrides.dimensions]]
 		name = "stellaris:earth_orbit"
@@ -480,6 +402,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons=[]
 
 	[[dimension_overrides.dimensions]]
 		name = "deeperdarker:otherside"
@@ -493,6 +416,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons=[]
 
 	[[dimension_overrides.dimensions]]
 		name = "undergarden:undergarden"
@@ -506,6 +430,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons=[]
 
 	[[dimension_overrides.dimensions]]
 		name = "sgjourney:abydos"
@@ -519,6 +444,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons=[]
 
 	[[dimension_overrides.dimensions]]
 		name = "sgjourney:athos"
@@ -532,6 +458,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons=[]
 
 	[[dimension_overrides.dimensions]]
 		name = "sgjourney:cavum_tenebrae"
@@ -545,6 +472,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons=[]
 
 	[[dimension_overrides.dimensions]]
 		name = "sgjourney:chulak"
@@ -558,6 +486,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons=[]
 
 	[[dimension_overrides.dimensions]]
 		name = "sgjourney:rima"
@@ -571,6 +500,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons=[]
 
 	[[dimension_overrides.dimensions]]
 		name = "sgjourney:lantea"
@@ -584,6 +514,7 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons=[]
 
 	[[dimension_overrides.dimensions]]
 		name = "sgjourney:unitas"
@@ -597,12 +528,5 @@
 			smallImageKey = ["mclogo"]
 			smallImageText = "{{game.mods}} mods installed"
 			streamingActivityUrl = "https://twitch.tv/twitch"
-
-	[[dimension_overrides.buttons]]
-		label = "Curseforge"
-		url = "https://www.curseforge.com/minecraft/modpacks/stargate-releveled"
-
-	[[dimension_overrides.buttons]]
-		label = "Discord"
-		url = "https://discord.gg/vDUGsWUKk8"
+			buttons=[]
 

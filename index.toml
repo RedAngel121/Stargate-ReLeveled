@@ -370,7 +370,7 @@ hash = "5ae19d2c34f546d329e89c746076c92b436a0843681abe201117abe0374d4519"
 
 [[files]]
 file = "config/neoessentials/config.json"
-hash = "776526105d10393f3d39fb5945a30eb1e7685bae054495d7ab628b4e39f4baa4"
+hash = "1880ef8c68a2e22528e672eb59a4ee81ca5b3e684282b3e4ecaab7ce1719051f"
 
 [[files]]
 file = "config/neoessentials/permissions.json"
@@ -1162,7 +1162,7 @@ hash = "8df905ebb9466f2e63bfac351ef19a2775bf311a1f0c90f93bcccd5f5dedc7c8"
 
 [[files]]
 file = "config/simple-rpc/simple-rpc.toml"
-hash = "9597814801e4bc32c8ebfd5bf87ddf0e61a5bdbf6c644e337948e2ca930b3481"
+hash = "f7828cf58326df414ee7cb868aac3c65b2d3eadc9fbdf77edbabc7ccdc2cfe5c"
 
 [[files]]
 file = "config/simplebackups-common.toml"
@@ -1479,6 +1479,10 @@ hash = "34d5b2f9573c6861a7fd138d875817b3ec199355917467cae8365b34497da01f"
 [[files]]
 file = "kubejs/assets/jajasgates/textures/symbols/point_of_origin/cl_xtreme.png"
 hash = "589900a7b8cd8b6c2ef715ef4063b9a7829a164d981831f657873d3e674e779c"
+
+[[files]]
+file = "kubejs/assets/neoessentials/lang/en_us.json"
+hash = "4392cd63485db79f3e2f0f83de81894e1c1c3fa78a7e6d9b7ae8733e04b57192"
 
 [[files]]
 file = "kubejs/assets/pipez/blockstates/energy_pipe.json"
@@ -4639,6 +4643,10 @@ hash = "090305dbdbd77b5af4ef725dc7c7b423e9d74e38ecc3bc95872b87f54c7f3309"
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/essence/tharsite.json"
 hash = "8a0038bf1a0c67f87af88d372746c12e0879ba82e0fa53dcd4469a3522972b3c"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/generic_ladder.json"
+hash = "9929c1031cd6e6b1f97eef6cd67556b778563a096a45620336022761a4e4f1cb"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/item/advanced_pcb_substrate.json"
