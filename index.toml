@@ -370,11 +370,11 @@ hash = "5ae19d2c34f546d329e89c746076c92b436a0843681abe201117abe0374d4519"
 
 [[files]]
 file = "config/neoessentials/config.json"
-hash = "1880ef8c68a2e22528e672eb59a4ee81ca5b3e684282b3e4ecaab7ce1719051f"
+hash = "34f3553a5bcf292f8228c6a239dce2058c618b543f05f52b5084bc1d30a0c42b"
 
 [[files]]
 file = "config/neoessentials/permissions.json"
-hash = "787be5f3373ff305ac7e5f2074357de23a0092b81140916927661165b81931e7"
+hash = "fe8f2cc99e556fc1385e0cbc86d05cccee64d67dd92bc35ecb650244dc0b4832"
 
 [[files]]
 file = "config/neoessentials/tablist.json"
@@ -558,7 +558,7 @@ hash = "6f3c9f6678802a723525bc942559e054b2b943deb03618511508a0a393bbf032"
 
 [[files]]
 file = "config/questlog/quests/botany_pots.json"
-hash = "ce14da2f653d791a3aab5b770332cbbf7f61b37f80ef16782e59ccf9a4bf1fab"
+hash = "b4b91695b163b40b0a056feff726aa2491c11f3537a9947a8047ea0ec07836a3"
 
 [[files]]
 file = "config/questlog/quests/bulk_storage.json"
@@ -834,7 +834,7 @@ hash = "7da0c95e40c054a2003120c1c1d6711c00cc270655bcf6408b691aaafaf21799"
 
 [[files]]
 file = "config/questlog/quests/leaving_planet.json"
-hash = "054460c52c8bf52e05c6c5802f1c97504b7d1784273e9c5d4c99d4e08db5c11c"
+hash = "edf51ea077436bf3138486940826da807668e1442ece2ec1bf4c7367382e4da4"
 
 [[files]]
 file = "config/questlog/quests/leaving_solar_system.json"

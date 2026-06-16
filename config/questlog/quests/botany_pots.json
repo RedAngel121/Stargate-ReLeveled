@@ -14,7 +14,7 @@
   "objectives": [
     {
       "type": "questlog:item_obtain",
-      "item": "minecraft:terracotta",
+      "item": "#minecraft:terracotta",
       "icon": "minecraft:terracotta",
       "required_amount": 5
     },

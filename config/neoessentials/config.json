@@ -270,7 +270,7 @@
     "enableInputValidation": true,
     "maxCommandLength": 256,
     "maxReasonLength": 500,
-    "allowUnsafeCommands": false,
+    "allowUnsafeCommands": true,
     "enablePathTraversalProtection": true,
     "enableXSSProtection": true
   },

@@ -18,7 +18,8 @@
         "neoessentials.teleport.spawn",
         "neoessentials.teleport.top",
         "neoessentials.teleport.back",
-        "neoessentials.chat.unignore"
+        "neoessentials.chat.unignore",
+        "neoessentials.teleport.tpr"
       ],
       "name": "default",
       "suffix": "",
@@ -41,8 +42,7 @@
         "neoessentials.permissions.reload",
         "neoessentials.teleport.admin.tppos",
         "neoessentials.teleport.jumpto",
-        "neoessentials.teleport.home.others",
-        "neoessentials.teleport.tpr"
+        "neoessentials.teleport.home.others"
       ],
       "name": "moderator",
       "suffix": "",
