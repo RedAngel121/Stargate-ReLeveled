@@ -1174,7 +1174,7 @@ hash = "94a5263177a916e8de4e6874ea9a8d2e63518da396d40a97c7e8ef93c7c0f00a"
 
 [[files]]
 file = "config/solonion.json"
-hash = "b1a16f04628f92b58b0cd410aa6d9924831d4455e3271b9beabdb1a074d37c04"
+hash = "48f469a8adc0b9f559cab96fbc64f01eecc4062c3b7e8b71f9dbeb18cc9c84b0"
 
 [[files]]
 file = "config/staaaaaaaaaaaack-client.toml"

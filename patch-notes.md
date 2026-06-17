@@ -99,6 +99,8 @@ Me        : oh maybe i could look into adding that city mod that adds houses and
 - AzrialTide
 - lukaskabc
 - Vile23
+- iamPaddyMan
+- OMGItsZari
 
 ====================================================================================================
 
