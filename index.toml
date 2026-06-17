@@ -370,7 +370,7 @@ hash = "5ae19d2c34f546d329e89c746076c92b436a0843681abe201117abe0374d4519"
 
 [[files]]
 file = "config/neoessentials/config.json"
-hash = "34f3553a5bcf292f8228c6a239dce2058c618b543f05f52b5084bc1d30a0c42b"
+hash = "f8c1fa8e9b8395d95b07bdaba99bc662a52e451f06ad36fd3be821b38dc307a7"
 
 [[files]]
 file = "config/neoessentials/permissions.json"
@@ -834,7 +834,7 @@ hash = "7da0c95e40c054a2003120c1c1d6711c00cc270655bcf6408b691aaafaf21799"
 
 [[files]]
 file = "config/questlog/quests/leaving_planet.json"
-hash = "edf51ea077436bf3138486940826da807668e1442ece2ec1bf4c7367382e4da4"
+hash = "82c4233f109d2ca247a43e323f4be6cb3fd800faf71053e73cc0a2ffa0f7dfd5"
 
 [[files]]
 file = "config/questlog/quests/leaving_solar_system.json"
