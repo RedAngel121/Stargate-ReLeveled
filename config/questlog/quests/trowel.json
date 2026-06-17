@@ -39,12 +39,6 @@
       "count": 32
     },
     {
-      "type": "questlog:item",
-      "icon": "xkdeco:stone_brick_pavement",
-      "item": "xkdeco:stone_brick_pavement",
-      "count": 32
-    },
-    {
       "type": "questlog:experience",
       "name": "+5 Levels",
       "icon": "create:experience_nugget",

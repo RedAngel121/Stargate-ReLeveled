@@ -574,7 +574,7 @@ hash = "4c302f41b10bd556f24c999e55fe6eea34d31fc29c44f4c607ba95f68eebf6b1"
 
 [[files]]
 file = "config/questlog/quests/cloud_bottle.json"
-hash = "be5b1fb1a73a373ba18fa9c17923a0a047e8436766ca547c789c5cdb17f7a82d"
+hash = "56b166e97b35ac882d265a92f919c925d70809d7640d53fbb5ea88f388704e34"
 
 [[files]]
 file = "config/questlog/quests/commands.json"
@@ -1074,7 +1074,7 @@ hash = "26ed59959a1ec6947922b8718d1c702ecb2bba922d35c3ece3d8ef19e0f1dcb6"
 
 [[files]]
 file = "config/questlog/quests/trowel.json"
-hash = "2033d2c844a574fbfb53546d9e424c33c333adaa9a9115413b24452ff8936d2e"
+hash = "f2c57555da28cacc91afa398d62b2f9a82b546e74a7d1193c81e4ebfe29bb344"
 
 [[files]]
 file = "config/questlog/quests/upgrade_station.json"
@@ -5346,7 +5346,7 @@ hash = "0334b39999c2f7ce9c37d5f9cc174565221dc1524b3a61f57400b5a12fbdcfb6"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "4952bbf43c62af72f9ae05e6b762bc2720c795a32011728c81cf5994e87b9876"
+hash = "bf2413c9b37906ab152bc400f67a5e88f607050cf563380b402947b98dbf2d4d"
 
 [[files]]
 file = "kubejs/server_scripts/wafer_chain.js"

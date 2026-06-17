@@ -1,5 +1,7 @@
 ### TODO:
-
+- Trowel quest reward broken
+- Cloud in bottle quest needs Y Coords
+- Claims issue, shooting someone else with an arrow inside a claim crashes the server
 
 - Can i add a rank or prefix to someone who has the most deaths on the server?
 - Increase the output numbers for naq generators
@@ -15,10 +17,10 @@
 - All the chemicals/fluids are bugged and i dont know what happened... one of the many mods i have is interfering with the text and i dont have a clue which one is doing that
 
 ### See how hard this is:
-Me        : I want to expand the sgj dims and add more ores and stuff
-Request   : Can we just get a giant cave dim? Like the Nether but with overworld blocks?
-Me        : I can agree with that, adding a new dimension isn't easy, biomes and ores need to be accounted for... I would have to add a new Stargate structure too...
-Me        : oh maybe i could look into adding that city mod that adds houses and skyscrapers and whatnot for a new vacated city dim... its a lot but its not a bad idea
+Me      : I want to expand the sgj dims and add more ores and stuff
+Request : Can we just get a giant cave dim? Like the Nether but with overworld blocks?
+Me      : I can agree with that, adding a new dimension isn't easy, biomes and ores need to be accounted for... I would have to add a new Stargate structure too...
+Me      : oh maybe i could look into adding that city mod that adds houses and skyscrapers and whatnot for a new vacated city dim... its a lot but its not a bad idea
 
 ====================================================================================================
 

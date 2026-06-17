@@ -8,10 +8,10 @@ ServerEvents.tags("fluid", event => {
 
 // SGCommunity_Pack Convertables using Oredictionificator
 ServerEvents.tags("item", event => {
-    event.add("sgcommunity_pack:convert_mosfet", "minecraft:redstone");
-    event.add("sgcommunity_pack:convert_ic", "mekanism:ingot_osmium");
-    event.add("sgcommunity_pack:convert_computation_core", "mekanism:advanced_control_circuit");
-    event.add("sgcommunity_pack:convert_isotopic_oscillator", "mekanism:ingot_uranium");
+    event.add("convert:mosfet", "minecraft:redstone");
+    event.add("convert:ic", "mekanism:ingot_osmium");
+    event.add("convert:computation_core", "mekanism:advanced_control_circuit");
+    event.add("convert:isotopic_oscillator", "mekanism:ingot_uranium");
 });
 
 // Adding Naq to the `c:ores/naquadah` tag
