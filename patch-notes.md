@@ -1,7 +1,6 @@
 ### TODO:
-- Trowel quest reward broken
-- Cloud in bottle quest needs Y Coords
 - Claims issue, shooting someone else with an arrow inside a claim crashes the server
+- Stellaris Sucks replace with 1.21.1 update for Ad Astra - https://github.com/terrarium-earth/Ad-Astra/pull/783
 
 - Can i add a rank or prefix to someone who has the most deaths on the server?
 - Increase the output numbers for naq generators
@@ -51,7 +50,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - Construction Sticks
 - Tiny Coal
 - Cognition
-- Veinminer Enchantment
+- VeinMiner Enchantment
 - Potions Master
 - Nullscape
 - Gateways to Eternity
