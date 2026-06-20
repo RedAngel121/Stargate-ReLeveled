@@ -1,0 +1,13 @@
+name = "Stargate Early Loading"
+filename = "StargateEarlyLoading-1.0-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "621a3b31890ccbae3a6ffffc1421a447036951b8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7501779
+project-id = 1205356

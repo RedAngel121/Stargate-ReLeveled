@@ -6446,6 +6446,11 @@ hash = "48f7af3a7530ead82f54d77e7041c1d7d9aecd14ba4308db1707fb6dd2cc99fd"
 metafile = true
 
 [[files]]
+file = "mods/stargate-early-loading.pw.toml"
+hash = "5ea11d4421af807ee30a92a11fa08d2f03e8623ed29f63df05f02950be694c09"
+metafile = true
+
+[[files]]
 file = "mods/steam-n-rails-neoforge.pw.toml"
 hash = "7e3bead730c077ab6ff936e48ec95c9d0ce89bb0bb4b1dfcd9d76a7f01b0bd3f"
 metafile = true
