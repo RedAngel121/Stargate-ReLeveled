@@ -1,0 +1,56 @@
+{
+  "title": "4th Law of Thermodynamics",
+  "sort_order": 23,
+  "chapter": "questlog:ad_astra",
+  "description": "The farther you travel from home, the less forgiving your surroundings become. Upgrade your equipment by crafting the Netherite Space Suit, combining exceptional protection with the life support needed to survive hostile worlds.\n\nMake the Netherite Space Suit.",
+  "icon": {
+    "item": "ad_astra:netherite_space_suit"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:rocket_3"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ad_astra:netherite_space_helmet",
+      "item": "ad_astra:netherite_space_helmet"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ad_astra:netherite_space_suit",
+      "item": "ad_astra:netherite_space_suit"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ad_astra:netherite_space_pants",
+      "item": "ad_astra:netherite_space_pants"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ad_astra:netherite_space_boots",
+      "item": "ad_astra:netherite_space_boots"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ad_astra_giselle_addon:netherite_oxygen_can",
+      "item": "ad_astra_giselle_addon:netherite_oxygen_can"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:netherite_block",
+      "item": "minecraft:netherite_block"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "x": {
+            "item": "oritech:machine_core_4"
+        },
+        "c": {
+            "item": "oritech:advanced_computing_engine"
+        },
+        "s": {
+            "item": "oritech:adamant_ingot"
+        }
+    },
+    "pattern": [
+        "scs",
+        "sxs",
+        "scs"
+    ],
+    "result": {
+        "count": 1,
+        "id": "oritech:machine_core_5"
+    }
+}

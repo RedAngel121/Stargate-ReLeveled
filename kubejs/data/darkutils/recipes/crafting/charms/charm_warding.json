@@ -1,0 +1,27 @@
+{
+    "type": "crafting_shaped",
+    "group": "darkutils:redstone_randomizer",
+    "pattern": [
+        "SSS",
+        "GNG",
+        " T "
+    ],
+    "key": {
+        "S": {
+            "tag": "c:strings"
+        },
+        "G": {
+            "tag": "c:ingots/gold"
+        },
+        "N": {
+            "tag": "c:nether_stars"
+        },
+        "T": {
+            "item": "minecraft:totem_of_undying"
+        }
+    },
+    "result": {
+        "id": "darkutils:charm_pride",
+        "count": 1
+    }
+}

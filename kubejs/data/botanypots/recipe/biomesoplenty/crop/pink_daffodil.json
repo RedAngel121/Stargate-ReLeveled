@@ -1,0 +1,23 @@
+{
+	"bookshelf:load_conditions": [
+		{
+			"type": "bookshelf:block_exists",
+			"values": [
+				"biomesoplenty:pink_daffodil"
+			]
+		}
+	],
+	"type": "botanypots:block_derived_crop",
+	"block": "biomesoplenty:pink_daffodil",
+	"input": {
+		"item": "biomesoplenty:pink_daffodil"
+	},
+	"soil": [
+		{
+			"tag": "botanypots:soil/dirt"
+		},
+		{
+			"item": "sgcommunity_pack:floral_compost"
+		}
+	]
+}

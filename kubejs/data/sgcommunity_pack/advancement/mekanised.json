@@ -1,0 +1,44 @@
+{
+  "parent": "sgcommunity_pack:computational",
+  "display": {
+    "icon": {
+      "id": "sgcommunity_pack:mekanised_crux"
+    },
+    "title": {
+      "text": "About Midway",
+      "color": "dark_aqua"
+    },
+    "description": {
+      "text": "Upgrade the Computational Crux into a Mekanised Crux."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_mekanised_crux_after_computational": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "sgcommunity_pack:computational": true
+            }
+          }
+        },
+        "items": [
+          {
+            "items": "sgcommunity_pack:mekanised_crux"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_mekanised_crux_after_computational"
+    ]
+  ]
+}

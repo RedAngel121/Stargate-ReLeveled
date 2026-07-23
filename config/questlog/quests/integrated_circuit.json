@@ -13,8 +13,8 @@
       "quest": "questlog:integrated_circuit_chip"
     },
     {
-      "type": "questlog:item_obtain",
-      "item": "questlog:pcb_substrate"
+      "type": "questlog:quest_complete",
+      "quest": "questlog:pcb_substrate"
     }
   ],
   "objectives": [

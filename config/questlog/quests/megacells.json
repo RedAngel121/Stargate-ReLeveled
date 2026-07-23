@@ -22,7 +22,8 @@
   "rewards": [
     {
       "type": "questlog:item",
-      "item": "minecraft:stone"
+      "icon": "megacells:cell_component_1m",
+      "item": "megacells:cell_component_1m"
     },
     {
       "type": "questlog:experience",

@@ -1,0 +1,44 @@
+{
+  "parent": "sgcommunity_pack:netherite",
+  "display": {
+    "icon": {
+      "id": "sgcommunity_pack:kinetic_crux"
+    },
+    "title": {
+      "text": "Mechanical Crafters are a Pain",
+      "color": "yellow"
+    },
+    "description": {
+      "text": "Upgrade the Netherite Crux into a Kinetic Crux."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_kinetic_crux_after_netherite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "sgcommunity_pack:netherite": true
+            }
+          }
+        },
+        "items": [
+          {
+            "items": "sgcommunity_pack:kinetic_crux"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_kinetic_crux_after_netherite"
+    ]
+  ]
+}

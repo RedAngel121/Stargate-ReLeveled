@@ -1,9 +1,9 @@
 {
   "title": "Leaving the Planet",
-  "chapter": "questlog:stellaris",
-  "description": "Stellaris is a simple space mod that adds rockets and 5 new worlds to visit. It also adds orbit dimensions where you can build space stations! You will need a lot of resources to make a space station so its best to start small.\n\nMake some Steel Ingots.",
+  "chapter": "questlog:ad_astra",
+  "description": "Ad Astra is a great space mod that adds rockets and 5 new dimensions to visit. It also adds orbit dimensions where you can build space stations! You will need a lot of resources to make a space station so its best to start small.\n\nMake some Steel Ingots.",
   "icon": {
-    "item": "stellaris:earth_globe"
+    "item": "ad_astra:earth_globe"
   },
   "requirements": [
     {
@@ -13,8 +13,8 @@
   ],
   "objectives": [
     {
-      "name": "Obtain Steel Ingots",
       "type": "questlog:item_obtain",
+      "name": "Obtain Steel Ingots",
       "icon": "mekanism:ingot_steel",
       "required_amount": 4,
       "item": "#c:ingots/steel"

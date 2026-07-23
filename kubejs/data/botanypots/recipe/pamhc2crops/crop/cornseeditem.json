@@ -1,0 +1,23 @@
+{
+	"bookshelf:load_conditions": [
+		{
+			"type": "bookshelf:block_exists",
+			"values": [
+				"pamhc2crops:pamcorncrop"
+			]
+		}
+	],
+	"type": "botanypots:block_derived_crop",
+	"block": "pamhc2crops:pamcorncrop",
+	"input": {
+		"item": "pamhc2crops:cornseeditem"
+	},
+	"soil": [
+		{
+			"tag": "botanypots:soil/dirt"
+		},
+		{
+			"item": "sgcommunity_pack:organic_compost"
+		}
+	]
+}

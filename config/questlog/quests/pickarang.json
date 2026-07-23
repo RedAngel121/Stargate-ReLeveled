@@ -21,10 +21,10 @@
   ],
   "rewards": [
     {
-      "type": "questlog:item",
-      "name": "BROKEN - Ancient Tome of Fortune",
+      "type": "questlog:command",
+      "name": "Ancient Tome of Fortune",
       "icon": "quark:ancient_tome",
-      "item": "minecraft:stone"
+      "command": "give @p quark:ancient_tome[quark:tome_enchantments={levels:{\"minecraft:fortune\":8}}]"
     },
     {
       "type": "questlog:experience",

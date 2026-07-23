@@ -1,0 +1,18 @@
+{
+	id: "0C1192AF229D1C2B"
+	loot_size: 1
+	order_index: 2
+	rewards: [{
+		icon: {
+			id: "mysticalagriculture:inferium_seeds"
+		}
+		id: "6B5338CD23671823"
+		item: {
+			components: {
+				"ftbfiltersystem:filter": "or(item_tag(mysticalagriculture:seeds))"
+			}
+			count: 1
+			id: "ftbfiltersystem:smart_filter"
+		}
+	}]
+}

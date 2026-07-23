@@ -1,0 +1,23 @@
+{
+	"bookshelf:load_conditions": [
+		{
+			"type": "bookshelf:block_exists",
+			"values": [
+				"minecraft:poppy"
+			]
+		}
+	],
+	"type": "botanypots:block_derived_crop",
+	"block": "minecraft:poppy",
+	"input": {
+		"item": "minecraft:poppy"
+	},
+	"soil": [
+		{
+			"tag": "botanypots:soil/dirt"
+		},
+		{
+			"item": "sgcommunity_pack:floral_compost"
+		}
+	]
+}

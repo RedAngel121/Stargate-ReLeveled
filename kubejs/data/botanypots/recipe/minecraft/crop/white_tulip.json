@@ -1,0 +1,23 @@
+{
+	"bookshelf:load_conditions": [
+		{
+			"type": "bookshelf:block_exists",
+			"values": [
+				"minecraft:white_tulip"
+			]
+		}
+	],
+	"type": "botanypots:block_derived_crop",
+	"block": "minecraft:white_tulip",
+	"input": {
+		"item": "minecraft:white_tulip"
+	},
+	"soil": [
+		{
+			"tag": "botanypots:soil/dirt"
+		},
+		{
+			"item": "sgcommunity_pack:floral_compost"
+		}
+	]
+}

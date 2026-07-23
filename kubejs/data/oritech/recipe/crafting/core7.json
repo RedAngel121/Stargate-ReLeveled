@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "x": {
+            "item": "oritech:machine_core_6"
+        },
+        "c": {
+            "item": "oritech:superconductor"
+        },
+        "s": {
+            "item": "oritech:prometheum_ingot"
+        }
+    },
+    "pattern": [
+        "scs",
+        "sxs",
+        "scs"
+    ],
+    "result": {
+        "count": 1,
+        "id": "oritech:machine_core_7"
+    }
+}

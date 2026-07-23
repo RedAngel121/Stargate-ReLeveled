@@ -1,0 +1,23 @@
+{
+	"bookshelf:load_conditions": [
+		{
+			"type": "bookshelf:block_exists",
+			"values": [
+				"minecraft:peony"
+			]
+		}
+	],
+	"type": "botanypots:block_derived_crop",
+	"block": "minecraft:peony",
+	"input": {
+		"item": "minecraft:peony"
+	},
+	"soil": [
+		{
+			"tag": "botanypots:soil/dirt"
+		},
+		{
+			"item": "sgcommunity_pack:floral_compost"
+		}
+	]
+}

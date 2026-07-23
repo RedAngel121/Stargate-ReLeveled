@@ -10,7 +10,7 @@
             "tag": "c:pellets/plutonium"
         },
         "c": {
-            "item": "stellaris:corronium_ingot"
+            "item": "ad_astra:calorite_ingot"
         },
         "s": {
             "item": "sgcommunity_pack:reactive_crux"

@@ -1,0 +1,18 @@
+{
+	"type": "botanypots:block_derived_crop",
+	"block": "minecraft:chorus_flower",
+	"soil": [
+		{
+			"tag": "botanypots:soil/end"
+		},
+		{
+			"item": "sgcommunity_pack:floral_compost"
+		}
+	],
+	"drops": [
+		{
+			"type": "botanypots:loot_table",
+			"table_id": "botanypots:botanypots/minecraft/crop/chorus_flower"
+		}
+	]
+}

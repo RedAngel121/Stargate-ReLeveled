@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "result": {
+        "id": "ad_astra_giselle_addon:automation_nasa_workbench"
+    },
+    "pattern": [
+        "SHS",
+        "RNR",
+        "SHS"
+    ],
+    "key": {
+        "S": {
+            "tag": "ad_astra:steel_plates"
+        },
+        "H": {
+            "item": "pipez:item_pipe"
+        },
+        "R": {
+            "tag": "ae2:smart_dense_cable"
+        },
+        "N": {
+            "item": "ad_astra:nasa_workbench"
+        }
+    }
+}

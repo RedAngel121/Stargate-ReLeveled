@@ -1,10 +1,10 @@
 {
   "title": "Deep Breaths",
   "sort_order": 6,
-  "chapter": "questlog:stellaris",
-  "description": "To keep your suit and oxygen tanks supplied, you will need a Water Separator. This machine breaks Water down into Oxygen and Hydrogen, both of which are essential resources for surviving beyond your home planet. The produced gases can be converted into Mekanism Oxygen and Hydrogen if needed. However, that conversion is one-way, and Mekanism gases cannot be converted back for use in Stellaris machines.\n\nMake a Water Separator.",
+  "chapter": "questlog:ad_astra",
+  "description": "To keep your suit and oxygen tanks supplied, you will need an Oxygen Loader. This machine breaks Water down into Oxygen, which is essential for surviving beyond your home planet.\n\nMake an Oxygen Loader.",
   "icon": {
-    "item": "stellaris:water_separator"
+    "item": "ad_astra:oxygen_loader"
   },
   "requirements": [
     {
@@ -15,15 +15,15 @@
   "objectives": [
     {
       "type": "questlog:item_obtain",
-      "icon": "stellaris:water_separator",
-      "item": "stellaris:water_separator"
+      "icon": "ad_astra:oxygen_loader",
+      "item": "ad_astra:oxygen_loader"
     }
   ],
   "rewards": [
     {
       "type": "questlog:item",
-      "icon": "stellaris:oxygen_tank",
-      "item": "stellaris:oxygen_tank",
+      "icon": "ad_astra:gas_tank",
+      "item": "ad_astra:gas_tank",
       "count": 2
     },
     {

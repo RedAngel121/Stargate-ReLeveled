@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "c": {
+            "tag": "sgcommunity_pack:circuit_advanced"
+        },
+        "s": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "pattern": [
+        "sss",
+        "scs",
+        "sss"
+    ],
+    "result": {
+        "count": 1,
+        "id": "oritech:machine_core_1"
+    }
+}

@@ -1,14 +1,21 @@
 {
-    "type": "createaddition:rolling",
-    "ingredients": [
-        {
-            "tag": "c:wires/iron"
-        }
-    ],
-    "results": [
-        {
-            "count": 2,
-            "id": "sgcommunity_pack:iron_spool"
-        }
-    ]
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "S": {
+      "item": "createaddition:spool"
+    },
+    "W": {
+      "tag": "c:wires/iron"
+    }
+  },
+  "pattern": [
+    " W ",
+    "WSW",
+    " W "
+  ],
+  "result": {
+    "count": 1,
+    "id": "sgcommunity_pack:iron_spool"
+  }
 }

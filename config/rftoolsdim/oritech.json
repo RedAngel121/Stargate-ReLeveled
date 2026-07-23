@@ -1,0 +1,62 @@
+[
+    {
+        "type": "block",
+        "key": "oritech:nickel_ore",
+        "rarity": "uncommon",
+        "create": 50,
+        "maintain": 50,
+        "ticks": 30,
+        "worldgen": true,
+        "dimlet": true
+    },
+    {
+        "type": "block",
+        "key": "oritech:deepslate_nickel_ore",
+        "rarity": "uncommon",
+        "create": 100,
+        "maintain": 100,
+        "ticks": 100,
+        "worldgen": true,
+        "dimlet": true
+    },
+    {
+        "type": "block",
+        "key": "oritech:endstone_platinum_ore",
+        "rarity": "uncommon",
+        "create": 100,
+        "maintain": 100,
+        "ticks": 100,
+        "worldgen": true,
+        "dimlet": true
+    },
+    {
+        "type": "block",
+        "key": "oritech:deepslate_platinum_ore",
+        "rarity": "uncommon",
+        "create": 100,
+        "maintain": 100,
+        "ticks": 100,
+        "worldgen": true,
+        "dimlet": true
+    },
+    {
+        "type": "block",
+        "key": "oritech:deepslate_uranium_ore",
+        "rarity": "uncommon",
+        "create": 100,
+        "maintain": 100,
+        "ticks": 100,
+        "worldgen": true,
+        "dimlet": true
+    },
+    {
+        "type": "fluid",
+        "key": "oritech:still_oil",
+        "rarity": "rare",
+        "create": 200,
+        "maintain": 200,
+        "ticks": 100,
+        "worldgen": true,
+        "dimlet": true
+    }
+]

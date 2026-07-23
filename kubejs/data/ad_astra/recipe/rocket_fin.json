@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#C#",
+        "# #"
+    ],
+    "key": {
+        "C": {
+            "item": "sgcommunity_pack:rocket_control_unit"
+        },
+        "#": {
+            "tag": "c:plates/steel"
+        }
+    },
+    "result": {
+        "id": "ad_astra:rocket_fin"
+    }
+}

@@ -251,7 +251,7 @@
 			buttons=[]
 
 	[[dimension_overrides.dimensions]]
-		name = "stellaris:glacio"
+		name = "ad_astra:glacio"
 
 		[[dimension_overrides.dimensions.presence]]
 			type = "PLAYING"
@@ -265,7 +265,7 @@
 			buttons=[]
 
 	[[dimension_overrides.dimensions]]
-		name = "stellaris:mars"
+		name = "ad_astra:mars"
 
 		[[dimension_overrides.dimensions.presence]]
 			type = "PLAYING"
@@ -279,7 +279,7 @@
 			buttons=[]
 
 	[[dimension_overrides.dimensions]]
-		name = "stellaris:moon"
+		name = "ad_astra:moon"
 
 		[[dimension_overrides.dimensions.presence]]
 			type = "PLAYING"
@@ -293,7 +293,7 @@
 			buttons=[]
 
 	[[dimension_overrides.dimensions]]
-		name = "stellaris:mercury"
+		name = "ad_astra:mercury"
 
 		[[dimension_overrides.dimensions.presence]]
 			type = "PLAYING"
@@ -307,7 +307,7 @@
 			buttons=[]
 
 	[[dimension_overrides.dimensions]]
-		name = "stellaris:venus"
+		name = "ad_astra:venus"
 
 		[[dimension_overrides.dimensions.presence]]
 			type = "PLAYING"
@@ -321,7 +321,7 @@
 			buttons=[]
 
 	[[dimension_overrides.dimensions]]
-		name = "stellaris:glacio_orbit"
+		name = "ad_astra:glacio_orbit"
 
 		[[dimension_overrides.dimensions.presence]]
 			type = "PLAYING"
@@ -335,7 +335,7 @@
 			buttons=[]
 
 	[[dimension_overrides.dimensions]]
-		name = "stellaris:mars_orbit"
+		name = "ad_astra:mars_orbit"
 
 		[[dimension_overrides.dimensions.presence]]
 			type = "PLAYING"
@@ -349,7 +349,7 @@
 			buttons=[]
 
 	[[dimension_overrides.dimensions]]
-		name = "stellaris:moon_orbit"
+		name = "ad_astra:moon_orbit"
 
 		[[dimension_overrides.dimensions.presence]]
 			type = "PLAYING"
@@ -363,7 +363,7 @@
 			buttons=[]
 
 	[[dimension_overrides.dimensions]]
-		name = "stellaris:mercury_orbit"
+		name = "ad_astra:mercury_orbit"
 
 		[[dimension_overrides.dimensions.presence]]
 			type = "PLAYING"
@@ -377,7 +377,7 @@
 			buttons=[]
 
 	[[dimension_overrides.dimensions]]
-		name = "stellaris:venus_orbit"
+		name = "ad_astra:venus_orbit"
 
 		[[dimension_overrides.dimensions.presence]]
 			type = "PLAYING"
@@ -391,7 +391,7 @@
 			buttons=[]
 
 	[[dimension_overrides.dimensions]]
-		name = "stellaris:earth_orbit"
+		name = "ad_astra:earth_orbit"
 
 		[[dimension_overrides.dimensions.presence]]
 			type = "PLAYING"

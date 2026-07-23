@@ -1,0 +1,19 @@
+{
+	"type": "botanypots:block_derived_crop",
+	"block": "minecraft:sea_pickle",
+	"soil": [
+		{
+			"tag": "botanypots:soil/water"
+		},
+		{
+			"item": "sgcommunity_pack:coral_compost"
+		}
+	],
+	"render_options": {
+		"offset": [
+			0.0,
+			-0.2,
+			0.0
+		]
+	}
+}

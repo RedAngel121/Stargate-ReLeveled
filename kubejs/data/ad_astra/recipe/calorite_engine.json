@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SSS",
+        "ECE",
+        "SFS"
+    ],
+    "key": {
+        "S": {
+            "tag": "c:plates/calorite"
+        },
+        "C": {
+            "item": "sgcommunity_pack:rocket_control_unit"
+        },
+        "E": {
+            "item": "ad_astra:engine_frame"
+        },
+        "F": {
+            "item": "ad_astra:fan"
+        }
+    },
+    "result": {
+        "id": "ad_astra:calorite_engine",
+        "count": 1
+    }
+}

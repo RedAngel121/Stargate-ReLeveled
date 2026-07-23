@@ -1,0 +1,23 @@
+{
+	"bookshelf:load_conditions": [
+		{
+			"type": "bookshelf:block_exists",
+			"values": [
+				"undergarden:tall_shimmerweed"
+			]
+		}
+	],
+	"type": "botanypots:block_derived_crop",
+	"block": "undergarden:tall_shimmerweed",
+	"input": {
+		"item": "undergarden:tall_shimmerweed"
+	},
+	"soil": [
+		{
+			"tag": "botanypots:soil/dirt"
+		},
+		{
+			"item": "sgcommunity_pack:floral_compost"
+		}
+	]
+}

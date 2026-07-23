@@ -1,0 +1,23 @@
+{
+	"bookshelf:load_conditions": [
+		{
+			"type": "bookshelf:block_exists",
+			"values": [
+				"biomesoplenty:burning_blossom"
+			]
+		}
+	],
+	"type": "botanypots:block_derived_crop",
+	"block": "biomesoplenty:burning_blossom",
+	"input": {
+		"item": "biomesoplenty:burning_blossom"
+	},
+	"soil": [
+		{
+			"tag": "botanypots:soil/dirt"
+		},
+		{
+			"item": "sgcommunity_pack:floral_compost"
+		}
+	]
+}

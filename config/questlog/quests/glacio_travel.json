@@ -1,0 +1,32 @@
+{
+  "title": "Thermal Regulation Failure",
+  "sort_order": 50,
+  "chapter": "questlog:ad_astra",
+  "description": "Glacio is a frozen, remote world where survival depends on preparation rather than optimism. Travel there to expand your reach into the outer system and explore its icy terrain and hidden resources.\n\nTravel To Glacio",
+  "icon": {
+    "item": "ad_astra:glacio_globe"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:rocket_4"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:visit_dimension",
+      "name": "Travel to Glacio",
+      "icon": "ad_astra:glacio_globe",
+      "dimension": "ad_astra:glacio"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:experience",
+      "name": "+15 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 345
+    }
+  ]
+}

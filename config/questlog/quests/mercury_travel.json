@@ -1,23 +1,23 @@
 {
   "title": "Solid Mercury",
   "sort_order": 30,
-  "chapter": "questlog:stellaris",
-  "description": "Mercury is a world of extremes. Scorched by the Sun and lacking any meaningful atmosphere, its surface is among the most hostile environments in the solar system. Survival here demands careful preparation, but those willing to brave the heat will find resources unavailable elsewhere.",
+  "chapter": "questlog:ad_astra",
+  "description": "Mercury is a world of extremes. Scorched by the Sun and lacking any meaningful atmosphere, its surface is among the most hostile environments in the solar system. Survival here demands careful preparation, but those willing to brave the heat will find no resources available here.",
   "icon": {
-    "item": "stellaris:mercury_globe"
+    "item": "ad_astra:mercury_globe"
   },
   "requirements": [
     {
       "type": "questlog:quest_complete",
-      "quest": "questlog:rocket"
+      "quest": "questlog:rocket_3"
     }
   ],
   "objectives": [
     {
       "type": "questlog:visit_dimension",
       "name": "Travel to Mercury",
-      "icon": "stellaris:mercury_globe",
-      "dimension": "stellaris:mercury"
+      "icon": "ad_astra:mercury_globe",
+      "dimension": "ad_astra:mercury"
     }
   ],
   "rewards": [

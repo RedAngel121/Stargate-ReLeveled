@@ -40,3 +40,45 @@ BlockEvents.placed('mekanism:oredictionificator', event => {
         )
     })
 })
+
+// ===============================
+// Easy Mode Team Init
+// ===============================
+
+ServerEvents.loaded(event => {
+    event.server.runCommandSilent("function sgcommunity_pack:ez")
+})
+
+// ===============================
+// Surface Command /top
+// ===============================
+
+ServerEvents.commandRegistry(event => {
+    const Commands = event.commands
+    event.register(
+        Commands.literal("top")
+            .requires(s => s.isPlayer())
+            .executes(c => {
+                let player = c.getSource().player
+                let level = player.level
+                let dimension = level.dimension.toString()
+                // blacklist Nether + End
+                if (
+                    dimension === "minecraft:the_nether" ||
+                    dimension === "minecraft:the_end"
+                ) {
+                    return 0
+                }
+                let x = Math.floor(player.x)
+                let z = Math.floor(player.z)
+                for (let y = 319; y >= -64; y--) {
+                    let block = level.getBlock(x, y, z)
+                    if (block && block.id && !block.id.includes("air")) {
+                        player.teleportTo(x + 0.5, y + 1, z + 0.5)
+                        return 1
+                    }
+                }
+                return 0
+            })
+    )
+})

@@ -25,9 +25,25 @@
       "active": true
     },
     {
+      "id": "sgjourney:stargate/milky_way/temple/stargate_temple_nether",
+      "whitelist": [
+        "minecraft:the_nether"
+      ],
+      "false_place": false,
+      "active": true
+    },
+    {
       "id": "sgjourney:stargate/universe/pedestal/universe_stargate_pedestal_island_end",
       "whitelist": [
-        "minecraft:end"
+        "minecraft:the_end"
+      ],
+      "false_place": false,
+      "active": true
+    },
+    {
+      "id": "ad_astra:oil_well",
+      "whitelist": [
+        "minecraft:no_where"
       ],
       "false_place": false,
       "active": true

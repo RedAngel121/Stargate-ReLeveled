@@ -1,0 +1,36 @@
+{
+  "title": "Filling Space",
+  "sort_order": 13,
+  "chapter": "questlog:ad_astra",
+  "description": "The Oxygen Distributor projects a breathable atmosphere into the surrounding area, allowing you to survive and work in the vacuum of space without sealing every room. It's one of those inventions that makes the difference between \"successful moon base\" and \"interesting entry in the accident report.\"\n\nMake Oxygen Distributor",
+  "icon": {
+    "item": "ad_astra:oxygen_distributor"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:moon_ore"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "icon": "ad_astra:oxygen_distributor",
+      "item": "ad_astra:oxygen_distributor"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ad_astra:water_pump",
+      "item": "ad_astra:water_pump"
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

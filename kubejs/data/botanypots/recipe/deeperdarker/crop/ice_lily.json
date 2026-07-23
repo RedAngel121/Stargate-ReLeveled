@@ -1,0 +1,23 @@
+{
+	"bookshelf:load_conditions": [
+		{
+			"type": "bookshelf:block_exists",
+			"values": [
+				"deeperdarker:ice_lily"
+			]
+		}
+	],
+	"type": "botanypots:block_derived_crop",
+	"block": "deeperdarker:ice_lily",
+	"soil": [
+		{
+			"tag": "botanypots:soil/water"
+		},
+		{
+			"item": "sgcommunity_pack:coral_compost"
+		}
+	],
+	"input": {
+		"item": "deeperdarker:ice_lily"
+	}
+}

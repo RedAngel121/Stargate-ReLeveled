@@ -1,0 +1,23 @@
+{
+	"bookshelf:load_conditions": [
+		{
+			"type": "bookshelf:block_exists",
+			"values": [
+				"minecraft:spore_blossom"
+			]
+		}
+	],
+	"type": "botanypots:block_derived_crop",
+	"block": "minecraft:spore_blossom",
+	"input": {
+		"item": "minecraft:spore_blossom"
+	},
+	"soil": [
+		{
+			"tag": "botanypots:soil/dirt"
+		},
+		{
+			"item": "sgcommunity_pack:floral_compost"
+		}
+	]
+}

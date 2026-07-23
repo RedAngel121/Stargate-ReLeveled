@@ -1,0 +1,44 @@
+{
+  "parent": "sgcommunity_pack:naquadria",
+  "display": {
+    "icon": {
+      "id": "sgcommunity_pack:positronic_crux"
+    },
+    "title": {
+      "text": "Next Step, Planting Station!",
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Upgrade the Naquadria Crux into the Positronic Crux."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_positronic_crux_after_naquadria": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "sgcommunity_pack:naquadria": true
+            }
+          }
+        },
+        "items": [
+          {
+            "items": "sgcommunity_pack:positronic_crux"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_positronic_crux_after_naquadria"
+    ]
+  ]
+}

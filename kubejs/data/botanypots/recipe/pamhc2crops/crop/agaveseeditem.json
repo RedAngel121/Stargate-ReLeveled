@@ -1,0 +1,23 @@
+{
+	"bookshelf:load_conditions": [
+		{
+			"type": "bookshelf:block_exists",
+			"values": [
+				"pamhc2crops:pamagavecrop"
+			]
+		}
+	],
+	"type": "botanypots:block_derived_crop",
+	"block": "pamhc2crops:pamagavecrop",
+	"input": {
+		"item": "pamhc2crops:agaveseeditem"
+	},
+	"soil": [
+		{
+			"tag": "botanypots:soil/dirt"
+		},
+		{
+			"item": "sgcommunity_pack:organic_compost"
+		}
+	]
+}

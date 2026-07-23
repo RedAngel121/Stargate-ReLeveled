@@ -1,0 +1,44 @@
+{
+  "parent": "sgcommunity_pack:deep_space",
+  "display": {
+    "icon": {
+      "id": "sgcommunity_pack:inactive_naquadria_crux"
+    },
+    "title": {
+      "text": "Door Stopper",
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Upgrade the Deep Space Crux into an Inactive Naquadria Crux."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_inactive_naquadria_crux_after_deep_space": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "sgcommunity_pack:deep_space": true
+            }
+          }
+        },
+        "items": [
+          {
+            "items": "sgcommunity_pack:inactive_naquadria_crux"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_inactive_naquadria_crux_after_deep_space"
+    ]
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "sgcommunity_pack:iron",
+  "display": {
+    "icon": {
+      "id": "sgcommunity_pack:gold_crux"
+    },
+    "title": {
+      "text": "Getting Butter",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Upgrade the Iron Crux into a Gold Crux."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_gold_crux_after_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "sgcommunity_pack:iron": true
+            }
+          }
+        },
+        "items": [
+          {
+            "items": "sgcommunity_pack:gold_crux"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_gold_crux_after_iron"
+    ]
+  ]
+}

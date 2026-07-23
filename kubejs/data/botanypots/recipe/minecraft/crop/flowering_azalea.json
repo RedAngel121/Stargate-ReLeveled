@@ -1,0 +1,23 @@
+{
+	"bookshelf:load_conditions": [
+		{
+			"type": "bookshelf:block_exists",
+			"values": [
+				"minecraft:flowering_azalea"
+			]
+		}
+	],
+	"type": "botanypots:block_derived_crop",
+	"block": "minecraft:flowering_azalea",
+	"input": {
+		"item": "minecraft:flowering_azalea"
+	},
+	"soil": [
+		{
+			"tag": "botanypots:soil/dirt"
+		},
+		{
+			"item": "sgcommunity_pack:floral_compost"
+		}
+	]
+}

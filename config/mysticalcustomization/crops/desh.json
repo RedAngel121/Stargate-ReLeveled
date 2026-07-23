@@ -3,9 +3,9 @@
     "type": "mysticalagriculture:resource",
     "tier": "mysticalagriculture:4",
     "ingredient": {
-        "item": "stellaris:desh_ingot"
+        "item": "ad_astra:desh_ingot"
     },
-    "color": "dea554",
+    "color": "d38b4c",
     "textures": {
         "flower": "mysticalagriculture:block/flower_ingot",
         "essence": "mysticalagriculture:item/essence_ingot"

@@ -1,0 +1,37 @@
+{
+  "title": "The Moon has Eyes",
+  "sort_order": 19,
+  "chapter": "questlog:ad_astra",
+  "description": "Lunar Villages are rare outposts scattered across the Moon, proving that someone was stubborn enough to settle a lifeless rock before you arrived. Pay the locals a visit, explore what they have to offer, and try not to be the reason they need to establish a second colony somewhere quieter.\n\nVisit a Lunar Village",
+  "icon": {
+    "item": "ad_astra:lunarian_spawn_egg"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:moon_travel"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:visit_structure",
+      "name": "Visit A Lunar Village",
+      "structure": "ad_astra:lunarian_village"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:emerald",
+      "item": "minecraft:emerald",
+      "count": 64
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

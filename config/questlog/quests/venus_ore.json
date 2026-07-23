@@ -1,10 +1,10 @@
 {
-  "title": "Is it supposed to look like that?",
+  "title": "Venusian Blood",
   "sort_order": 41,
-  "chapter": "questlog:stellaris",
-  "description": "Collect Corronium Ore",
+  "chapter": "questlog:ad_astra",
+  "description": "Calorite is a high-grade alloy ore found on Venus, forged under extreme heat and pressure. It is essential for the most advanced tier of spacecraft and planetary engineering.\n\nCollect Calorite Ore",
   "icon": {
-    "item": "stellaris:venus_corronium_ore"
+    "item": "ad_astra:venus_calorite_ore"
   },
   "requirements": [
     {
@@ -15,16 +15,16 @@
   "objectives": [
     {
       "type": "questlog:block_mine",
-      "name": "Mine Corronium Ore",
-      "icon": "stellaris:venus_corronium_ore",
-      "block": "stellaris:venus_corronium_ore"
+      "name": "Mine Calorite Ore",
+      "icon": "ad_astra:venus_calorite_ore",
+      "block": "#c:ores/calorite"
     }
   ],
   "rewards": [
     {
       "type": "questlog:item",
-      "icon": "stellaris:jet_suit_boots",
-      "item": "stellaris:jet_suit_boots"
+      "icon": "ad_astra:raw_calorite_block",
+      "item": "ad_astra:raw_calorite_block"
     },
     {
       "type": "questlog:experience",

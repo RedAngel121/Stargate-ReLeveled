@@ -1,0 +1,23 @@
+{
+	"bookshelf:load_conditions": [
+		{
+			"type": "bookshelf:block_exists",
+			"values": [
+				"pamhc2crops:pamkohlrabicrop"
+			]
+		}
+	],
+	"type": "botanypots:block_derived_crop",
+	"block": "pamhc2crops:pamkohlrabicrop",
+	"input": {
+		"item": "pamhc2crops:kohlrabiseeditem"
+	},
+	"soil": [
+		{
+			"tag": "botanypots:soil/dirt"
+		},
+		{
+			"item": "sgcommunity_pack:organic_compost"
+		}
+	]
+}

@@ -99,7 +99,7 @@ ServerEvents.recipes(event => {
 
     event.custom({
         type: "create:deploying",
-        ingredients: [{ tag: "c:sugar/sugar" }, stagedWaferInput(11, "Step 11: Sprinkle Sugar")],
+        ingredients: [stagedWaferInput(11, "Step 11: Sprinkle Sugar"), { tag: "c:sugar/sugar" }],
         results: [stagedWaferOutput(12, "Step 12: Caramelize Sugar")]
     })
 

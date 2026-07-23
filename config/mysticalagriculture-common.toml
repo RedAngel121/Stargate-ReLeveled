@@ -19,7 +19,7 @@
 	#Should crops have a chance of dropping a second seed when harvested?
 	secondarySeedDrops = false
 	#Should resource crops need to be planted on their effective Farmland to grow?
-	requiresEffectiveFarmland = true
+	requiresEffectiveFarmland = false
 	#Should the Wither drop essence when killed with an essence weapon?
 	witherDropsEssence = true
 	#Should the Wither drop Cognizant Dust when killed with a Mystical Enlightenment enchanted essence weapon?
@@ -29,7 +29,7 @@
 	#Should the Ender Dragon drop Cognizant Dust when killed with a Mystical Enlightenment enchanted essence weapon?
 	dragonDropsCognizant = true
 	#Should right-clicking on Farmland with an Essence create Essence Farmland?
-	essenceFarmlandConversion = true
+	essenceFarmlandConversion = false
 	#Should vanilla crafting recipes for seeds be generated?
 	seedCraftingRecipes = false
 	#Should Supremium & Awakened Supremium Tools be enchantable in an Enchanting Table?

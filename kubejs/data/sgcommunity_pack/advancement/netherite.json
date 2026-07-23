@@ -1,0 +1,44 @@
+{
+  "parent": "sgcommunity_pack:diamond",
+  "display": {
+    "icon": {
+      "id": "sgcommunity_pack:netherite_crux"
+    },
+    "title": {
+      "text": "Point of No Return",
+      "color": "dark_gray"
+    },
+    "description": {
+      "text": "Upgrade the Diamond Crux into a Netherite Crux."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_netherite_crux_after_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "sgcommunity_pack:diamond": true
+            }
+          }
+        },
+        "items": [
+          {
+            "items": "sgcommunity_pack:netherite_crux"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_netherite_crux_after_diamond"
+    ]
+  ]
+}

@@ -1,0 +1,23 @@
+{
+	"bookshelf:load_conditions": [
+		{
+			"type": "bookshelf:block_exists",
+			"values": [
+				"pamhc2crops:pamcucumbercrop"
+			]
+		}
+	],
+	"type": "botanypots:block_derived_crop",
+	"block": "pamhc2crops:pamcucumbercrop",
+	"input": {
+		"item": "pamhc2crops:cucumberseeditem"
+	},
+	"soil": [
+		{
+			"tag": "botanypots:soil/dirt"
+		},
+		{
+			"item": "sgcommunity_pack:organic_compost"
+		}
+	]
+}

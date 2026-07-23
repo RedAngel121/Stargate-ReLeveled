@@ -3,7 +3,7 @@
   "sort_order": 98,
   "chapter": "questlog:tips_tricks",
   "include_in_main": true,
-  "description": "Step 2 of Easy Mode is Automating Easy Mode. Craft the Oredictionificator and start converting things even faster with access to higher tier components.",
+  "description": "Step 2 of Easy Mode is Automating Easy Mode. Craft the Oredictionificator and start converting things even faster with access to higher tier components. Use JEI Hints to see what gets converted into circuits.",
   "icon": {
     "item": "mekanism:oredictionificator"
   },

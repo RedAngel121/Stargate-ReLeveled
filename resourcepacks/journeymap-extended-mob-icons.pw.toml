@@ -1,0 +1,13 @@
+name = "JourneyMap Extended Mob Icons"
+filename = "JourneyMap Extended Mob Icons v2.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3728f18a6f53d6b4e8c023a77d3342b4e373a5ab"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5170422
+project-id = 985057

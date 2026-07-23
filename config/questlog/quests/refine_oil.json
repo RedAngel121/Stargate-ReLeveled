@@ -1,10 +1,10 @@
 {
   "title": "Booming Industry",
   "sort_order": 2,
-  "chapter": "questlog:stellaris",
-  "description": "To make fuel, you will need to refine raw oil into something more helpful. Run oil through the refinery to make fuel and start thinking long and hard about whats next. Make sure to get at least 6 buckets of fuel.\n\nMake a Fuel Refinery.",
+  "chapter": "questlog:ad_astra",
+  "description": "To make fuel, you will need to refine raw oil into something more helpful. Run oil through the refinery to make fuel and start thinking long and hard about whats next. Make sure to get at least 6 buckets per rocket launch, 3 on the way, and 3 to get back.\n\nMake a Fuel Refinery.",
   "icon": {
-    "item": "stellaris:fuel_refinery"
+    "item": "ad_astra:fuel_refinery"
   },
   "requirements": [
     {
@@ -15,8 +15,8 @@
   "objectives": [
     {
       "type": "questlog:item_obtain",
-      "icon": "stellaris:fuel_refinery",
-      "item": "stellaris:fuel_refinery"
+      "icon": "ad_astra:fuel_refinery",
+      "item": "ad_astra:fuel_refinery"
     }
   ],
   "rewards": [

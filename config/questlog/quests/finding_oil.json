@@ -1,10 +1,10 @@
 {
   "title": "Striking Black Gold",
   "sort_order": 1,
-  "chapter": "questlog:stellaris",
-  "description": "To find Oil, you will need to make an Oil Finder and a Pumpjack to extract some oil out of the ground. Use the Oil Finder to right click any block to find out how much oil is in that area. Make sure to get at least 6 buckets of oil.\n\nMake a Pumpjack and a Oil Finder.",
+  "chapter": "questlog:ad_astra",
+  "description": "To make rocket fuel, you will need to find an Oil Fountain and gather some oil. Make sure to get at least 6 buckets per rocket launch, 3 on the way, and 3 to get back.\n\nFind an oil Deposit and grab some oil.",
   "icon": {
-    "item": "stellaris:pumpjack"
+    "item": "oritech:still_oil_bucket"
   },
   "requirements": [
     {
@@ -15,13 +15,9 @@
   "objectives": [
     {
       "type": "questlog:item_obtain",
-      "icon": "stellaris:pumpjack",
-      "item": "stellaris:pumpjack"
-    },
-    {
-      "type": "questlog:item_obtain",
-      "icon": "stellaris:oil_finder",
-      "item": "stellaris:oil_finder"
+      "name": "Obtain a Bucket of Oil",
+      "icon": "oritech:still_oil_bucket",
+      "item": "oritech:still_oil_bucket"
     }
   ],
   "rewards": [

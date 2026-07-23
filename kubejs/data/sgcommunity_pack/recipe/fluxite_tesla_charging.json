@@ -1,0 +1,15 @@
+{
+  "type": "createaddition:charging",
+  "energy": 36000,
+  "ingredients": [
+    {
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "max_charge_rate": 360,
+  "results": [
+    {
+      "id": "oritech:fluxite"
+    }
+  ]
+}

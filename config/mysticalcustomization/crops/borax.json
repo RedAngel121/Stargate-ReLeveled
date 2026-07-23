@@ -1,7 +1,7 @@
 {
     "name": "Borax",
     "type": "mysticalagriculture:resource",
-    "tier": "mysticalagriculture:4",
+    "tier": "mysticalagriculture:5",
     "ingredient": {
         "item": "sgcommunity_pack:borax"
     },

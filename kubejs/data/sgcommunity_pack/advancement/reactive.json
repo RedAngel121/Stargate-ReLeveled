@@ -1,0 +1,44 @@
+{
+  "parent": "sgcommunity_pack:mekanised",
+  "display": {
+    "icon": {
+      "id": "sgcommunity_pack:reactive_crux"
+    },
+    "title": {
+      "text": "Might be a bit Radioactive",
+      "color": "red"
+    },
+    "description": {
+      "text": "Upgrade the Mekanised Crux into a Reactive Crux."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_reactive_crux_after_mekanised": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "sgcommunity_pack:mekanised": true
+            }
+          }
+        },
+        "items": [
+          {
+            "items": "sgcommunity_pack:reactive_crux"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_reactive_crux_after_mekanised"
+    ]
+  ]
+}

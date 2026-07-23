@@ -1,0 +1,23 @@
+{
+	"bookshelf:load_conditions": [
+		{
+			"type": "bookshelf:block_exists",
+			"values": [
+				"biomesoplenty:wilted_lily"
+			]
+		}
+	],
+	"type": "botanypots:block_derived_crop",
+	"block": "biomesoplenty:wilted_lily",
+	"input": {
+		"item": "biomesoplenty:wilted_lily"
+	},
+	"soil": [
+		{
+			"tag": "botanypots:soil/dirt"
+		},
+		{
+			"item": "sgcommunity_pack:floral_compost"
+		}
+	]
+}

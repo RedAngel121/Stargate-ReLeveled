@@ -1,19 +1,29 @@
+### Server File Removals:
+- Chat Plus
+- Sodium
+- WorldEdit CUI
+
 ### TODO:
-- Claims issue, shooting someone else with an arrow inside a claim crashes the server
-- Stellaris Sucks replace with 1.21.1 update for Ad Astra - https://github.com/terrarium-earth/Ad-Astra/pull/783
+- look into
+- Update SGJ when released
+- Replace Ad Astra with jar on release - https://github.com/terrarium-earth/Ad-Astra/pull/783
 
-- Can i add a rank or prefix to someone who has the most deaths on the server?
-- Increase the output numbers for naq generators
-- TAGS: CreateAdditions bio pellet and pellet block need to be adjusted to be bio-fuels compatable
-- Chisel Blocks: Aluminum, Cobalt, Invar, and Silver (Nickel and Platinum are added by oritech) - These have no recipe and need to be added to the chisel workbench somehow
-- find more uses for compost blocks, right now its a bit low usefulness
+- Spice of Life needs to be expanded and balanced, its super minimal right now
+- Chisel Blocks: Aluminum, Cobalt, Invar, and Silver - These have no recipe and need to be added to the chisel workbench somehow
 - Make chem cells https://github.com/GlodBlock/ExtendedAE/wiki/Custom-Infinity-Cell
-- make/change the inf item/fluid/chem cell recipes to be more production centered
+- make/change the infinite item/fluid/chem cell recipes to be more production centered
+- ? TAGS: CreateAdditions bio pellet and pellet block need to be adjusted to be bio-fuels compatible
+- ? Choose Mekanism Uranium or Oritech Uranium - change world gen
 
-### WAITING ON ADDITIONAL STUFF:
-- Replicator recipe access https://github.com/lostmyself8/Mekanism-MoreMachine/issues/192
-- the tabs being color coded is something im working with the Questlog mod dev on to have implemented
-- All the chemicals/fluids are bugged and i dont know what happened... one of the many mods i have is interfering with the text and i dont have a clue which one is doing that
+### Oritech Upgrades:
+- New Oritech Quest Chapter
+- Circuit Etching Mask made of smithing templates from different modded dims
+- add `oritech:refinery/arcane` to the apoth bookshelves, currently not tagged at all...
+- Integrate Oritech - this would be amazing to add compat for, make even more complex circuits and recipe chains... make a ZPM with it?
+- Super Endgame Quests - ZPM hub Reward?
+- ZPM replication options for endgame (talk to cookta) > use the Antiprotonic Nucleosynthesizer
+- Find a way to include UU Matter into endgame recipes
+- 2 new circuits: one for replacing the Comp Core and a new one called Zero Point Energy Circuit that can be used to craft the ZPM and ZPM hub
 
 ### See how hard this is:
 Me      : I want to expand the sgj dims and add more ores and stuff
@@ -23,30 +33,28 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 
 ====================================================================================================
 
-# THIS UPDATE IS NOT COMPATABLE WITH 1.20.1 WORLDS
+# THIS UPDATE IS NOT COMPATIBLE WITH 1.20.1 WORLDS
 ### Changes:
 - Updated MC to 1.21.1
-- Swapped to Neoforge 21.1.233
+- Swapped to Neoforge 21.1.242
 - Updated ModPack Thumbnail
 
 - ChatPlus (Replaces Chat Heads)
-- Stellaris (Replaces Ad Astra)
 - Permanent Sponges (Replaces simple sponge mod)
 - Corpse (Replaces Gravestones and provides curios compat)
 - Viscord (Replaces Discord Chat Integration)
-- Xaero's Map (Replaces JourneyMap)
-- Questlog (Replaces FTB Quests)
-- Open Parties and Claims (Replaces FTB Chunks)
-- NeoEssentials (Replaces FTB Essentials)
-- Telepass (Replaces `/tpa` Command)
 
 - Updated SGCommunity Pack Items to display proper mod name instead of `sgcommunity_pack`
-- Added Level Consumption to Natures/Explorers Compass usage
-- Added SGJourney Blocks and fluids to RFTools Dimlets
-- Converted the login book into quests ~~cause no one reads anyway~~
-- And probably a lot more things I forgot to write down
+- Changed Substrates to Cruxes to work with Myst Ag
+- Added Oritech and SGJourney Blocks and Fluids to RFTools Dimlets
+- Converted the login book into quests ~~cause no one reads anyway~~ and added a few more quests
+- Added Myst Ag Quests Chapter to show what seeds go on what substrate
+- Various other Quest Improvements
+- Added Creative Only Infinite drives for all essences
+- And a lot more things I forgot to write down
 
 ### Additions:
+- Oritech
 - Construction Sticks
 - Tiny Coal
 - Cognition
@@ -57,9 +65,6 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - Structure Overlapless
 - Spice of Life: Onion Edition
   - Creative Core
-- XK's Decoration and Dependancies:
-  - Kiwi
-  - Forgified Fabric API
 - Mystical Agriculture
   - Cucumber Library
 - Mystical Agradditions
@@ -92,24 +97,29 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - KubeJS Botany Pots (replaced with Myst AG + custom seeds/recipes)
 - unlimitedperipheralworks (Mod not Updated... Author says: "I have plans for this, but I honestly can't give any deadline for when it happen.")
 
-### Thank you for helping:
-- Cookta2012
-- CubeMaster724__
-- VƬΣᄃΉ
-- PheWitch
-- AzrialTide
+### Thank you everyone for helping make this update possible:
 - lukaskabc
-- Vile23
-- iamPaddyMan
+- Vtecklg
+- PheWitch
+- iampaddyman
 - OMGItsZari
+- cookta2012
+- Lord_Vile__
+- Theunknownboy78
+- CMCrafter724_
+- Captain_Nikolaus
+- Volpe42
+- jman_4444
 
 ====================================================================================================
 
 ### Long Term Goals:
+- SGCommunity Pack Achievements!
+- Vote Stop? https://www.curseforge.com/minecraft/mc-mods/vote-stop-server
 - Possible integration? https://www.curseforge.com/minecraft/mc-mods/power-grid
 - Add Ars Elixirum for Potion Making after it gets properly updated > then check apoth charms compat
-- Integrate Oritech - this would be amazing to add compat for, make even more complex circuits and recipe chains... make a ZPM with it?
-- Super Endgame Quests - ZPM hub Reward?
-- ZPM replication options for endgame (talk to cookta) > use the Antiprotonic Nucleosynthesizer
-- Find a way to include UU Matter
 - Add Tempad as an After-Oritech endgame TP item that can(t?) travel between dims - requires ZPM?
+- Swap out the long ass recipe chains for individual recipes and items, making EMI Actually useful
+
+# NO FIX AVAILABLE
+- Create Confectionery fluid buckets cant be placed in a Mek Tank because the bucket was not init as fluid compatable, not fixable without lots of work or seperate mod that overwrites it

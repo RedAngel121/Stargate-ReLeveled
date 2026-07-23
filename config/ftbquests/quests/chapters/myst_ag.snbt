@@ -1,0 +1,1001 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "myst_ag"
+	group: "3553DD7F726AE366"
+	icon: {
+		id: "mysticalagriculture:infusion_altar"
+	}
+	id: "368F374F47100933"
+	images: [
+		{
+			height: 2.0d
+			image: "mysticalagriculture:item/inferium_essence"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "mysticalagriculture:item/prudentium_essence"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "mysticalagriculture:item/tertium_essence"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "mysticalagriculture:item/imperium_essence"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "mysticalagriculture:item/supremium_essence"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "mysticalagradditions:item/insanium_essence"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.5d
+			y: 0.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "14E4E62822655091"
+			tasks: [{
+				id: "773D0DA4E0029602"
+				item: { count: 1, id: "sgcommunity_pack:organic_compost" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			id: "5B4D93053E763A1D"
+			tasks: [{
+				id: "543EEB1085CD4C37"
+				item: { count: 1, id: "sgcommunity_pack:coral_compost" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "4229B0B37E8C5F00"
+			tasks: [{
+				id: "6FC0F8773DD71861"
+				item: { count: 1, id: "sgcommunity_pack:floral_compost" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "43529E206E3CC100"
+			tasks: [{
+				id: "17A5372A88ACA2D4"
+				item: { count: 1, id: "sgcommunity_pack:mulch_compost" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "582A11DCE47FEF84"
+			tasks: [{
+				id: "18358D146ABF9ED9"
+				item: { count: 1, id: "sgcommunity_pack:iron_crux" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "00D05F87DCF9D2C7"
+			tasks: [{
+				id: "2617DF16200E3F0A"
+				item: { count: 1, id: "sgcommunity_pack:gold_crux" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "0AB4D98183401E16"
+			tasks: [{
+				id: "52C2E15665000CB1"
+				item: { count: 1, id: "sgcommunity_pack:diamond_crux" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "798B90F2A9B0A97F"
+			tasks: [{
+				id: "2F0DAA5B2AE8D0FA"
+				item: { count: 1, id: "sgcommunity_pack:netherite_crux" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			id: "0E9092104FE732C8"
+			tasks: [{
+				id: "4CE3E57A6B95FC17"
+				item: { count: 1, id: "sgcommunity_pack:kinetic_crux" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			id: "2F0C209FD919B9A2"
+			tasks: [{
+				id: "7BE57077A11EBDAE"
+				item: { count: 1, id: "sgcommunity_pack:computational_crux" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			id: "083FB8BAF361EB1E"
+			tasks: [{
+				id: "717CBFB65C3B7C9C"
+				item: { count: 1, id: "sgcommunity_pack:mekanised_crux" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			id: "231BD7D3966D5060"
+			tasks: [{
+				id: "27028FD5D4C39A9F"
+				item: { count: 1, id: "sgcommunity_pack:reactive_crux" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			id: "119AD1FA01753491"
+			tasks: [{
+				id: "66860A581D3C7A22"
+				item: { count: 1, id: "sgcommunity_pack:deep_space_crux" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			id: "1562C8A6770589E6"
+			tasks: [{
+				id: "77EAFD8759558F2E"
+				item: { count: 1, id: "sgcommunity_pack:naquadria_crux" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.5d
+		}
+		{
+			id: "1BE88E0813D0B70E"
+			tasks: [{
+				id: "0C3B6E14E9BBE53A"
+				item: { count: 1, id: "sgcommunity_pack:positronic_crux" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			id: "134E9C0230385F19"
+			tasks: [{
+				id: "28A042C73EA83189"
+				item: { count: 1, id: "mysticalagriculture:coral_seeds" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			id: "5A25FD644FF82F74"
+			tasks: [{
+				id: "77D511D294779CEC"
+				item: { count: 1, id: "mysticalagriculture:nature_seeds" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "3D00DCEF7358C8EE"
+			tasks: [
+				{
+					id: "4CA74A9ADEFC8662"
+					item: { count: 1, id: "mysticalagriculture:earth_seeds" }
+					type: "item"
+				}
+				{
+					id: "31DFEB5CBD18AEB0"
+					item: { count: 1, id: "mysticalagriculture:air_seeds" }
+					type: "item"
+				}
+				{
+					id: "14569F632F147E76"
+					item: { count: 1, id: "mysticalagriculture:fire_seeds" }
+					type: "item"
+				}
+				{
+					id: "7584D6BFC61423B6"
+					item: { count: 1, id: "mysticalagriculture:water_seeds" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			id: "36FF3DACEB4C021D"
+			tasks: [{
+				id: "6BD2624C1261043C"
+				item: { count: 1, id: "mysticalagriculture:wood_seeds" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "2C7892AF66D5B267"
+			tasks: [{
+				id: "2CC4F39816D109C5"
+				item: { count: 1, id: "mysticalagriculture:inferium_seeds" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "77A7224793463566"
+			tasks: [{
+				id: "461DB61592276574"
+				item: { count: 1, id: "mysticalagriculture:stone_seeds" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			id: "33A0FAF8BFAE7653"
+			tasks: [{
+				id: "12205ACD84FBB286"
+				item: { count: 1, id: "mysticalagriculture:dirt_seeds" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "5707B6EE006A6D8B"
+			tasks: [{
+				id: "2C1363C8BF1BFC63"
+				item: { count: 1, id: "mysticalagriculture:coal_seeds" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			id: "640CCE507C791D3D"
+			tasks: [{
+				id: "46090BDE98204412"
+				item: { count: 1, id: "mysticalagriculture:copper_seeds" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			id: "00057A962003E06F"
+			tasks: [{
+				id: "5EA2298FF21B647E"
+				item: { count: 1, id: "mysticalagriculture:iron_seeds" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			id: "44A6FA7AD3407968"
+			tasks: [{
+				id: "1E3702066D5E0153"
+				item: { count: 1, id: "mysticalagriculture:amethyst_seeds" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			id: "140D3F4FB8553B38"
+			tasks: [{
+				id: "313A6E9A46E3C9AE"
+				item: { count: 1, id: "mysticalagriculture:ice_seeds" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "5AE62B345C193418"
+			tasks: [{
+				id: "7697376D4C48A4B0"
+				item: { count: 1, id: "mysticalagriculture:deepslate_seeds" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			id: "1D19A1DE2E1F5853"
+			tasks: [{
+				id: "4FBEEC405BE7B6C4"
+				item: { count: 1, id: "mysticalagriculture:gold_seeds" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			id: "5EE13E6A0B0CE54E"
+			tasks: [{
+				id: "3E46364740FA6B5F"
+				item: { count: 1, id: "mysticalagriculture:zinc_seeds" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			id: "5D891C3CBFA8AAE6"
+			tasks: [{
+				id: "493A8FB79C0020E6"
+				item: { count: 1, id: "mysticalagriculture:nether_seeds" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			id: "3EF3B5E019D228A8"
+			tasks: [{
+				id: "14E51E336CED329D"
+				item: { count: 1, id: "mysticalagriculture:limestone_seeds" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			id: "664D571F3403AF91"
+			tasks: [{
+				id: "5338D1FA1BEC60FD"
+				item: { count: 1, id: "mysticalagriculture:dye_seeds" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			id: "2D024D0C1754E368"
+			tasks: [{
+				id: "2865064084914E68"
+				item: { count: 1, id: "mysticalagriculture:diamond_seeds" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			id: "371EA5BC00CADCF1"
+			tasks: [{
+				id: "22CBCCB78167B64E"
+				item: { count: 1, id: "mysticalagriculture:lapis_lazuli_seeds" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			id: "6D7CFB9927D054F4"
+			tasks: [{
+				id: "3D24D254B686431D"
+				item: { count: 1, id: "mysticalagriculture:redstone_seeds" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			id: "54C61E0801A69648"
+			tasks: [{
+				id: "2AAC86F78CFF443A"
+				item: { count: 1, id: "mysticalagriculture:squid_seeds" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			id: "22AEC7E55AEAB757"
+			tasks: [{
+				id: "30B71C7E789B4E8B"
+				item: { count: 1, id: "mysticalagriculture:fish_seeds" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			id: "05A51B6E96C09900"
+			tasks: [{
+				id: "0D1E5973896F7F4F"
+				item: { count: 1, id: "mysticalagriculture:slime_seeds" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			id: "02456982A0746FBD"
+			tasks: [{
+				id: "7569D2D7E17486B6"
+				item: { count: 1, id: "mysticalagriculture:turtle_seeds" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			id: "66F7B80D37493B08"
+			tasks: [{
+				id: "398E8146B55C6452"
+				item: { count: 1, id: "mysticalagriculture:armadillo_seeds" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.5d
+		}
+		{
+			id: "09C5444569533106"
+			tasks: [{
+				id: "6E35432982A5902F"
+				item: { count: 1, id: "mysticalagriculture:pig_seeds" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.5d
+		}
+		{
+			id: "1F3838F1D5705435"
+			tasks: [{
+				id: "03C50F26E54A9769"
+				item: { count: 1, id: "mysticalagriculture:chicken_seeds" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 11.5d
+		}
+		{
+			id: "1A75FFFAD8D19DFC"
+			tasks: [{
+				id: "38FF38176883033C"
+				item: { count: 1, id: "mysticalagriculture:cow_seeds" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 12.5d
+		}
+		{
+			id: "1C2A075BAE09E940"
+			tasks: [{
+				id: "5B1401870A044FB0"
+				item: { count: 1, id: "mysticalagriculture:rabbit_seeds" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 13.5d
+		}
+		{
+			id: "445AF091A9E4D275"
+			tasks: [{
+				id: "4BC0CE4B1C99C903"
+				item: { count: 1, id: "mysticalagriculture:sheep_seeds" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 14.5d
+		}
+		{
+			id: "4A10DE65DD31883C"
+			tasks: [{
+				id: "2148C953762514A2"
+				item: { count: 1, id: "mysticalagriculture:honey_seeds" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			id: "69735D3CF051A8F6"
+			tasks: [{
+				id: "0B1EE0DAB74D5D9F"
+				item: { count: 1, id: "mysticalagriculture:netherite_seeds" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			id: "7A68C73E1966D83F"
+			tasks: [{
+				id: "1A3FEB4AD1DE04A6"
+				item: { count: 1, id: "mysticalagriculture:emerald_seeds" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			id: "3D35C65097754BDA"
+			tasks: [{
+				id: "6F138ED2E2530F2B"
+				item: { count: 1, id: "mysticalagriculture:bronze_seeds" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			id: "6D8B8803AB0FE4E4"
+			tasks: [{
+				id: "307E64017BAF8ACA"
+				item: { count: 1, id: "mysticalagriculture:brass_seeds" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			id: "106C975E0C8633B0"
+			tasks: [{
+				id: "643FC7C14DDE255D"
+				item: { count: 1, id: "mysticalagriculture:certus_quartz_seeds" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			id: "2FBDF89C39CEA29C"
+			tasks: [{
+				id: "4A56692ADB95B645"
+				item: { count: 1, id: "mysticalagriculture:glowstone_seeds" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			id: "591D3A6837943F50"
+			tasks: [{
+				id: "410413F4B8D960AF"
+				item: { count: 1, id: "mysticalagriculture:prismarine_seeds" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			id: "771B52140F6CEC11"
+			tasks: [{
+				id: "46273CC26215A55A"
+				item: { count: 1, id: "mysticalagriculture:sculk_seeds" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			id: "285BEBC616E4A196"
+			tasks: [{
+				id: "44462E928E54FC2A"
+				item: { count: 1, id: "mysticalagriculture:zombie_seeds" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			id: "5C8ED058DEA2FDDD"
+			tasks: [{
+				id: "5ECAF32890149536"
+				item: { count: 1, id: "mysticalagriculture:skeleton_seeds" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			id: "252B6E11E635AEF4"
+			tasks: [{
+				id: "2C5FBD5112345F42"
+				item: { count: 1, id: "mysticalagriculture:creeper_seeds" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			id: "21E0548059CA062D"
+			tasks: [{
+				id: "38BE3AA791422C11"
+				item: { count: 1, id: "mysticalagriculture:spider_seeds" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.5d
+		}
+		{
+			id: "63FD6669C191D721"
+			tasks: [{
+				id: "7341D28BE318B360"
+				item: { count: 1, id: "mysticalagriculture:phantom_seeds" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 9.5d
+		}
+		{
+			id: "3A889C9978531766"
+			tasks: [{
+				id: "06D3B6094D3E7D1F"
+				item: { count: 1, id: "mysticalagriculture:silicon_seeds" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			id: "2ED90820A365B011"
+			tasks: [{
+				id: "33B70629124065A7"
+				item: { count: 1, id: "mysticalagriculture:obsidian_seeds" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			id: "132D93F438338BF8"
+			tasks: [{
+				id: "6E0AC0E3930EB0DD"
+				item: { count: 1, id: "mysticalagriculture:electrum_seeds" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			id: "175E02B4D582366A"
+			tasks: [{
+				id: "2FC51627BDAE6713"
+				item: { count: 1, id: "mysticalagriculture:soulium_seeds" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			id: "41B2EA99E935E64B"
+			tasks: [{
+				id: "39577405F4F8D8C4"
+				item: { count: 1, id: "mysticalagriculture:end_seeds" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			id: "2DBC4BF621E48095"
+			tasks: [{
+				id: "2F77DB3D7AC56D2D"
+				item: { count: 1, id: "mysticalagriculture:sky_stone_seeds" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.5d
+		}
+		{
+			id: "306AB4260CEACDF1"
+			tasks: [{
+				id: "3CEF36B736BA4C35"
+				item: { count: 1, id: "mysticalagriculture:fluix_seeds" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 5.5d
+		}
+		{
+			id: "4B31D4F67861CF47"
+			tasks: [{
+				id: "6699FF650CCFC1BB"
+				item: { count: 1, id: "mysticalagriculture:steel_seeds" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.5d
+		}
+		{
+			id: "511328BC81B4495D"
+			tasks: [{
+				id: "050E483D3CCEB914"
+				item: { count: 1, id: "mysticalagriculture:breeze_seeds" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 6.5d
+		}
+		{
+			id: "1CAFD2AD7C2F8D60"
+			tasks: [{
+				id: "5817BA0CBB36914D"
+				item: { count: 1, id: "mysticalagriculture:blaze_seeds" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 7.5d
+		}
+		{
+			id: "11B4045D7C597D68"
+			tasks: [{
+				id: "6A98B72AED998C1F"
+				item: { count: 1, id: "mysticalagriculture:ghast_seeds" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 8.5d
+		}
+		{
+			id: "758026485325DF73"
+			tasks: [{
+				id: "3F9BCCA0AED9B10D"
+				item: { count: 1, id: "mysticalagriculture:enderman_seeds" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 9.5d
+		}
+		{
+			id: "6F5C295B5423DE00"
+			tasks: [{
+				id: "3E0114D48F75C7EE"
+				item: { count: 1, id: "mysticalagriculture:wither_skeleton_seeds" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 10.5d
+		}
+		{
+			id: "2F32E540000D766D"
+			tasks: [{
+				id: "5D8BDED238B11E5C"
+				item: { count: 1, id: "mysticalagriculture:osmium_seeds" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			id: "6EEE7097B1EE0EEF"
+			tasks: [{
+				id: "12552E148E086EFF"
+				item: { count: 1, id: "mysticalagriculture:nickel_seeds" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.5d
+		}
+		{
+			id: "4FDC16D9D52A3F19"
+			tasks: [{
+				id: "678B0B324F86FDFC"
+				item: { count: 1, id: "mysticalagriculture:sulfur_seeds" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			id: "13980F40C0A825DD"
+			tasks: [{
+				id: "0E37A285ED58C8D2"
+				item: { count: 1, id: "mysticalagriculture:tin_seeds" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.5d
+		}
+		{
+			id: "343BA1A9389C819C"
+			tasks: [{
+				id: "595986E1401B2475"
+				item: { count: 1, id: "mysticalagriculture:desh_seeds" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.5d
+		}
+		{
+			id: "354A0FA58C82F1D9"
+			tasks: [{
+				id: "5F340051C402CEA8"
+				item: { count: 1, id: "mysticalagriculture:platinum_seeds" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.5d
+		}
+		{
+			id: "611A96F6AB098F08"
+			tasks: [{
+				id: "652FBE73145E477E"
+				item: { count: 1, id: "mysticalagriculture:lead_seeds" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.5d
+		}
+		{
+			id: "2B69D40D7257328C"
+			tasks: [{
+				id: "1A2DA72CC7F87F7A"
+				item: { count: 1, id: "mysticalagriculture:borax_seeds" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 5.5d
+		}
+		{
+			id: "5A3F9AA3FE242A8B"
+			tasks: [{
+				id: "0B530C42A90BDEA1"
+				item: { count: 1, id: "mysticalagriculture:ostrum_seeds" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.5d
+		}
+		{
+			id: "253C577CBC6049B0"
+			tasks: [{
+				id: "6B62F555B42D63CA"
+				item: { count: 1, id: "mysticalagriculture:fluorite_seeds" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			id: "4012D411477BDA71"
+			tasks: [{
+				id: "433D965B9588246C"
+				item: { count: 1, id: "mysticalagriculture:uranium_seeds" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.5d
+		}
+		{
+			id: "6B781F3D74016E9C"
+			tasks: [{
+				id: "7AC97A0161478C6F"
+				item: { count: 1, id: "mysticalagriculture:calorite_seeds" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.5d
+		}
+		{
+			id: "0B0578549231ED66"
+			tasks: [{
+				id: "6BB77737F1DABE57"
+				item: { count: 1, id: "mysticalagriculture:experience_seeds" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.5d
+		}
+		{
+			id: "70302E29BB6236C4"
+			tasks: [{
+				id: "0D36997A329DE940"
+				item: { count: 1, id: "mysticalagriculture:refined_glowstone_seeds" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 3.5d
+		}
+		{
+			id: "011D949A0ED9D4E3"
+			tasks: [{
+				id: "77309ECC729533E3"
+				item: { count: 1, id: "mysticalagriculture:refined_obsidian_seeds" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 4.5d
+		}
+		{
+			id: "3CD8E24648C9C6DF"
+			tasks: [{
+				id: "27158F0C3878563A"
+				item: { count: 1, id: "mysticalagriculture:nether_star_seeds" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 5.5d
+		}
+		{
+			id: "0240F4FA017AF0E7"
+			tasks: [{
+				id: "3A40E3824CC14D16"
+				item: { count: 1, id: "mysticalagriculture:dragon_egg_seeds" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 6.5d
+		}
+		{
+			id: "37DAD58451FF1D45"
+			tasks: [{
+				id: "6C0935A08B79A05F"
+				item: { count: 1, id: "mysticalagriculture:naquadah_seeds" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 7.5d
+		}
+		{
+			id: "06CFA26D59293134"
+			tasks: [{
+				id: "653505531A5197F3"
+				item: { count: 1, id: "mysticalagriculture:entro_seeds" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 5.5d
+		}
+	]
+}

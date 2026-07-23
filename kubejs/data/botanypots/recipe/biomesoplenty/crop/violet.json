@@ -1,0 +1,23 @@
+{
+	"bookshelf:load_conditions": [
+		{
+			"type": "bookshelf:block_exists",
+			"values": [
+				"biomesoplenty:violet"
+			]
+		}
+	],
+	"type": "botanypots:block_derived_crop",
+	"block": "biomesoplenty:violet",
+	"input": {
+		"item": "biomesoplenty:violet"
+	},
+	"soil": [
+		{
+			"tag": "botanypots:soil/dirt"
+		},
+		{
+			"item": "sgcommunity_pack:floral_compost"
+		}
+	]
+}

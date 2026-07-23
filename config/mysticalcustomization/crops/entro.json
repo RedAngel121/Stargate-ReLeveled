@@ -1,0 +1,14 @@
+{
+    "name": "Entro",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+        "item": "extendedae:entro_crystal"
+    },
+    "color": "64e581",
+    "textures": {
+        "flower": "mysticalagriculture:block/flower_rock",
+        "essence": "mysticalagriculture:item/essence_quartz"
+    },
+    "crux": "sgcommunity_pack:naquadria_crux"
+}

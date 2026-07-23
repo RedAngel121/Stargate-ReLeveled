@@ -1,0 +1,12 @@
+{
+	"type": "botanypots:block_derived_crop",
+	"block": "minecraft:beetroots",
+	"soil": [
+		{
+			"tag": "botanypots:soil/dirt"
+		},
+		{
+			"item": "sgcommunity_pack:organic_compost"
+		}
+	]
+}

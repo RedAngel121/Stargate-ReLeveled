@@ -1,0 +1,44 @@
+{
+  "parent": "sgcommunity_pack:reactive",
+  "display": {
+    "icon": {
+      "id": "sgcommunity_pack:deep_space_crux"
+    },
+    "title": {
+      "text": "Looks like Cheese, Cannot be Eaten",
+      "color": "dark_blue"
+    },
+    "description": {
+      "text": "Upgrade the Reactive Crux into a Deep Space Crux."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_deep_space_crux_after_reactive": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "sgcommunity_pack:reactive": true
+            }
+          }
+        },
+        "items": [
+          {
+            "items": "sgcommunity_pack:deep_space_crux"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_deep_space_crux_after_reactive"
+    ]
+  ]
+}

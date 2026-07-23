@@ -1,0 +1,44 @@
+{
+  "parent": "sgcommunity_pack:gold",
+  "display": {
+    "icon": {
+      "id": "sgcommunity_pack:diamond_crux"
+    },
+    "title": {
+      "text": "Getting Somewhere",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Upgrade the Gold Crux into a Diamond Crux."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_diamond_crux_after_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "sgcommunity_pack:gold": true
+            }
+          }
+        },
+        "items": [
+          {
+            "items": "sgcommunity_pack:diamond_crux"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_diamond_crux_after_gold"
+    ]
+  ]
+}

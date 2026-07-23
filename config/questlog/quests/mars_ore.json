@@ -1,10 +1,10 @@
 {
-  "title": "Its Over Tharsite",
+  "title": "It's Ostrum, Man!",
   "sort_order": 21,
-  "chapter": "questlog:stellaris",
-  "description": "Collect Tharsite Ore",
+  "chapter": "questlog:ad_astra",
+  "description": "Ostrum is a rare extraterrestrial metal found deep beneath the surface of Mars. Its remarkable strength and heat resistance make it essential for constructing advanced spacecraft and high-tier equipment. Bring plenty of pickaxes. Mars has an annoying habit of hiding the good stuff exactly where it's least convenient.\n\nCollect Ostrum Ore",
   "icon": {
-    "item": "stellaris:mars_tharsite_ore"
+    "item": "ad_astra:mars_ostrum_ore"
   },
   "requirements": [
     {
@@ -15,16 +15,17 @@
   "objectives": [
     {
       "type": "questlog:block_mine",
-      "name": "Mine Tharsite Ore",
-      "icon": "stellaris:mars_tharsite_ore",
-      "block": "stellaris:mars_tharsite_ore"
+      "name": "Mine Ostrum Ore",
+      "icon": "ad_astra:mars_ostrum_ore",
+      "block": "#c:ores/ostrum"
     }
   ],
   "rewards": [
     {
       "type": "questlog:item",
-      "icon": "stellaris:jet_suit_chestplate",
-      "item": "stellaris:jet_suit_chestplate"
+      "icon": "ad_astra:raw_ostrum_block",
+      "item": "ad_astra:raw_ostrum_block",
+      "count": 4
     },
     {
       "type": "questlog:experience",

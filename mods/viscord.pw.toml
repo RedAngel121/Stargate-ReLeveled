@@ -1,13 +1,13 @@
 name = "Viscord - Discord/Fluxer Multi-Server Integration"
-filename = "viscord-neoforge-4.1.11.jar"
+filename = "viscord-neoforge-4.2.0+mc1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "2c5e42d10c41b811c2aaf52ce353a5b3fdb9d62c"
+hash = "7c0938b1e0a1c345c3027e52659383031d0bb0d8"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8051729
+file-id = 8314778
 project-id = 1388192

@@ -307,35 +307,35 @@
 			#The amount of time in ticks for which the Mark I Naquadah Generator will generate energy from one unit of fuel
 			# Default: 100
 			# Range: 1 ~ 9223372036854775807
-			naquadah_generator_mark_i_reaction_time = 100
+			naquadah_generator_mark_i_reaction_time = 1000
 			#The amount of FE generated per one tick of reaction by the Mark I Naquadah Generator
 			# Default: 1000
 			# Range: 1 ~ 9223372036854775807
-			naquadah_generator_mark_i_energy_per_tick = 1000
+			naquadah_generator_mark_i_energy_per_tick = 10000
 			#The amount of energy a Mark I Naquadah Generator can hold
 			# Default: 100000
 			# Range: 1 ~ 9223372036854775807
-			naquadah_generator_mark_i_capacity = 100000
+			naquadah_generator_mark_i_capacity = 1000000
 			#The maximum amount of energy a Mark I Naquadah Generator can transfer at once
 			# Default: 100000
 			# Range: 1 ~ 9223372036854775807
-			naquadah_generator_mark_i_max_transfer = 100000
+			naquadah_generator_mark_i_max_transfer = 1000000
 			#The amount of time in ticks for which the Mark II Naquadah Generator will generate energy from one unit of fuel
 			# Default: 150
 			# Range: 1 ~ 9223372036854775807
-			naquadah_generator_mark_ii_reaction_time = 150
+			naquadah_generator_mark_ii_reaction_time = 1500
 			#The amount of FE generated per one tick of reaction by the Mark II Naquadah Generator
 			# Default: 1200
 			# Range: 1 ~ 9223372036854775807
-			naquadah_generator_mark_ii_energy_per_tick = 1200
+			naquadah_generator_mark_ii_energy_per_tick = 12000
 			#The amount of energy a Mark II Naquadah Generator can hold
 			# Default: 1200000
 			# Range: 1 ~ 9223372036854775807
-			naquadah_generator_mark_ii_capacity = 1200000
+			naquadah_generator_mark_ii_capacity = 12000000
 			#The maximum amount of energy a Mark II Naquadah Generator can transfer at once
 			# Default: 1000000
 			# Range: 1 ~ 9223372036854775807
-			naquadah_generator_mark_ii_max_transfer = 1000000
+			naquadah_generator_mark_ii_max_transfer = 10000000
 
 		["Stargate Journey Common Config"."Stargate Network Config".server]
 			#Stargate Network will use addresses from datapacks

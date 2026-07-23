@@ -1,0 +1,44 @@
+{
+  "parent": "sgcommunity_pack:kinetic",
+  "display": {
+    "icon": {
+      "id": "sgcommunity_pack:computational_crux"
+    },
+    "title": {
+      "text": "This is Starting to get Complicated",
+      "color": "blue"
+    },
+    "description": {
+      "text": "Upgrade the Kinetic Crux into a Computational Crux."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_computational_crux_after_kinetic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "sgcommunity_pack:kinetic": true
+            }
+          }
+        },
+        "items": [
+          {
+            "items": "sgcommunity_pack:computational_crux"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_computational_crux_after_kinetic"
+    ]
+  ]
+}

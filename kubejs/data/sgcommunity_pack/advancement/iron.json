@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "sgcommunity_pack:iron_crux"
+    },
+    "title": {
+      "text": "Getting Started with Ore Cruxes!",
+      "color": "gray"
+    },
+    "description": {
+      "text": "Obtain an Iron Crux."
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_iron_crux": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "sgcommunity_pack:iron_crux"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_iron_crux"
+    ]
+  ]
+}

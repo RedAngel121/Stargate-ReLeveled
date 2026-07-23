@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "x": {
+            "item": "oritech:machine_core_5"
+        },
+        "c": {
+            "item": "oritech:dubios_container"
+        },
+        "s": {
+            "item": "oritech:duratium_ingot"
+        }
+    },
+    "pattern": [
+        "scs",
+        "sxs",
+        "scs"
+    ],
+    "result": {
+        "count": 1,
+        "id": "oritech:machine_core_6"
+    }
+}

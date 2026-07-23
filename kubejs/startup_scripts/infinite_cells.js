@@ -1,4 +1,6 @@
+// priority: 1
 // Essence Item Cells
+console.info("Loading Infinite Cells")
 
 let essences = [
     "air", "water", "fire", "earth", "stone", "dirt",
@@ -12,8 +14,8 @@ let essences = [
     "certus_quartz", "gold", "lapis_lazuli", "end", "experience", "breeze",
     "blaze", "ghast", "enderman", "steel", "electrum", "uranium",
     "soulium", "osmium", "fluorite", "refined_glowstone", "refined_obsidian", "fluix",
-    "diamond", "emerald", "netherite", "wither_skeleton", "platinum", "nether_star",
-    "dragon_egg", "desh", "borax", "corronium", "naquadah", "tharsite", "nickel"
+    "diamond", "emerald", "netherite", "wither_skeleton",  "nether_star", "dragon_egg", 
+    "desh", "ostrum", "calorite", "borax", "naquadah", "platinum", "nickel", "entro"
 ]
 
 StartupEvents.registry("item", evnt => {
@@ -28,6 +30,7 @@ StartupEvents.registry("item", evnt => {
 // ====================================================================================================
 // Item Cells
 // NONE
+
 // ====================================================================================================
 // Fluid Cells
 // Add XP cell too
@@ -82,6 +85,13 @@ StartupEvents.registry("item", evnt => {
 })
 
 StartupEvents.registry("item", evnt => {
+    evnt.create("sgcommunity_pack:oil_cell", "custom_infinity_cell")
+        .fluidType("oritech:still_oil")
+        .texture("sgcommunity_pack:item/inf_cells/oil_cell")
+        .cellModel("sgcommunity_pack:block/drive/oil_cell");
+})
+
+StartupEvents.registry("item", evnt => {
     evnt.create("sgcommunity_pack:dt_fuel_cell", "custom_infinity_cell")
         .fluidType("mekanismgenerators:fusion_fuel")
         .texture("sgcommunity_pack:item/inf_cells/dt_fuel_cell")
@@ -90,6 +100,7 @@ StartupEvents.registry("item", evnt => {
 
 // ====================================================================================================
 // Chem Cells, CRASHING WITH ERROR: Java class "mekanism.common.registries.MekanismChemicals" has no public instance field or method named "FUSION_FUEL".
+// This is because Mek Gen is the mod it comes from, not basic mekanism... might have to deal with standard liquid fuel then...
 
 // const MekKey$ = Java.loadClass("me.ramidzkh.mekae2.ae2.MekanismKey")
 // const Chem$ = Java.loadClass("mekanism.common.registries.MekanismChemicals")

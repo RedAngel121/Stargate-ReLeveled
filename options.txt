@@ -1,3 +1,6 @@
 version:3955
 darkMojangStudiosBackground:true
 onboardAccessibility:false
+resourcePacks:["vanilla","mod_resources","moonlight:merged_pack","file/Pretty X Smart Pipez Mekanism.zip","file/Modded Omelet [120] [162].zip","file/JourneyMap Extended Mob Icons v2.0.zip"]
+incompatibleResourcePacks:["file/JourneyMap Extended Mob Icons v2.0.zip"]
+skipMultiplayerWarning:true

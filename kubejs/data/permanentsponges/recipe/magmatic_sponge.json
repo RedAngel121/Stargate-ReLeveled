@@ -6,7 +6,7 @@
       "item": "minecraft:magma_cream"
     },
     "W": {
-      "tag": "minecraft:sponge"
+      "tag": "chipped:sponge"
     }
   },
   "pattern": [

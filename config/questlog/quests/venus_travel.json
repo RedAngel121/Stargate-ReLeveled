@@ -1,23 +1,23 @@
 {
   "title": "The Morning Star",
   "sort_order": 40,
-  "chapter": "questlog:stellaris",
+  "chapter": "questlog:ad_astra",
   "description": "Beneath its brilliant clouds lies a planet of crushing pressure, toxic atmosphere, and relentless heat. Venus is not a world that welcomes visitors. Advanced equipment and careful planning are essential, but the rare materials hidden within its hostile environment make the risk worthwhile.",
   "icon": {
-    "item": "stellaris:venus_globe"
+    "item": "ad_astra:venus_globe"
   },
   "requirements": [
     {
       "type": "questlog:quest_complete",
-      "quest": "questlog:rocket"
+      "quest": "questlog:rocket_3"
     }
   ],
   "objectives": [
     {
       "type": "questlog:visit_dimension",
       "name": "Travel to Venus",
-      "icon": "stellaris:venus_globe",
-      "dimension": "stellaris:venus"
+      "icon": "ad_astra:venus_globe",
+      "dimension": "ad_astra:venus"
     }
   ],
   "rewards": [

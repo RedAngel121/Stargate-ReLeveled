@@ -31,7 +31,23 @@
   "rewards": [
     {
       "type": "questlog:item",
-      "item": "minecraft:stone"
+      "icon": "minecraft:poppy",
+      "item": "minecraft:poppy"
+    },
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:dandelion",
+      "item": "minecraft:dandelion"
+    },
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:allium",
+      "item": "minecraft:allium"
+    },
+    {
+      "type": "questlog:item",
+      "icon": "minecraft:flowering_azalea",
+      "item": "minecraft:flowering_azalea"
     },
     {
       "type": "questlog:experience",

@@ -1,0 +1,7 @@
+{
+  "name": "Ad Astra",
+  "icon": {
+    "item": "ad_astra:nasa_workbench"
+  },
+  "order": 6
+}

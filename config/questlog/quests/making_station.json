@@ -1,0 +1,68 @@
+{
+  "title": "Taking Space",
+  "sort_order": 16,
+  "chapter": "questlog:ad_astra",
+  "description": "A Space Station gives you a permanent foothold in orbit and serves as a hub for future expansion across the solar system. Each planetary orbit has its own construction requirements, ranging from simple Iron and Steel to Desh, Ostrum, and Calorite plates and ingots. Apparently even space has building codes, and they're expensive.",
+  "icon": {
+    "item": "ad_astra:marked_iron_pillar"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:moon_ore"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "name": "Visit Any Orbit",
+      "objectives": [
+        {
+          "type": "questlog:visit_dimension",
+          "name": "Visit Earth Orbit",
+          "dimension": "ad_astra:earth_orbit"
+        },
+        {
+          "type": "questlog:visit_dimension",
+          "name": "Visit Moon Orbit",
+          "dimension": "ad_astra:moon_orbit"
+        },
+        {
+          "type": "questlog:visit_dimension",
+          "name": "Visit Mars Orbit",
+          "dimension": "ad_astra:mars_orbit"
+        },
+        {
+          "type": "questlog:visit_dimension",
+          "name": "Visit Mercury Orbit",
+          "dimension": "ad_astra:mercury_orbit"
+        },
+        {
+          "type": "questlog:visit_dimension",
+          "name": "Visit Venus Orbit",
+          "dimension": "ad_astra:venus_orbit"
+        },
+        {
+          "type": "questlog:visit_dimension",
+          "name": "Visit Glacio Orbit",
+          "dimension": "ad_astra:glacio_orbit"
+        }
+      ]
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "icon": "ad_astra:iron_pillar",
+      "item": "ad_astra:iron_pillar",
+      "count": 64
+    },
+    {
+      "type": "questlog:experience",
+      "name": "+5 Levels",
+      "icon": "create:experience_nugget",
+      "claim_sound": "minecraft:entity.experience_orb.pickup",
+      "experience": 65
+    }
+  ]
+}

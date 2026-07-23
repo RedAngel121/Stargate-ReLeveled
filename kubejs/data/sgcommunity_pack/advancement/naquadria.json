@@ -1,0 +1,44 @@
+{
+  "parent": "sgcommunity_pack:inactive_naquadria",
+  "display": {
+    "icon": {
+      "id": "sgcommunity_pack:naquadria_crux"
+    },
+    "title": {
+      "text": "Almost There!",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Activate the Inactive Naquadria Crux."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_naquadria_crux_after_inactive_naquadria": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "advancements": {
+              "sgcommunity_pack:inactive_naquadria": true
+            }
+          }
+        },
+        "items": [
+          {
+            "items": "sgcommunity_pack:naquadria_crux"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_naquadria_crux_after_inactive_naquadria"
+    ]
+  ]
+}

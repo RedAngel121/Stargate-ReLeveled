@@ -1,0 +1,23 @@
+{
+	"bookshelf:load_conditions": [
+		{
+			"type": "bookshelf:block_exists",
+			"values": [
+				"biomesoplenty:tall_white_lavender"
+			]
+		}
+	],
+	"type": "botanypots:block_derived_crop",
+	"block": "biomesoplenty:tall_white_lavender",
+	"input": {
+		"item": "biomesoplenty:tall_white_lavender"
+	},
+	"soil": [
+		{
+			"tag": "botanypots:soil/dirt"
+		},
+		{
+			"item": "sgcommunity_pack:floral_compost"
+		}
+	]
+}

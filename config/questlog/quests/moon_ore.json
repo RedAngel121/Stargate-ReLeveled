@@ -1,10 +1,10 @@
 {
   "title": "A Dash of Desh",
   "sort_order": 11,
-  "chapter": "questlog:stellaris",
-  "description": "Collect Desh Ore",
+  "chapter": "questlog:ad_astra",
+  "description": "Mars is rich in Desh, a durable metal used in more advanced spacefaring technology. Venture beneath the rusty surface and mine enough Desh Ore to support your growing interplanetary ambitions.\n\nCollect Desh Ore",
   "icon": {
-    "item": "stellaris:moon_desh_ore"
+    "item": "ad_astra:moon_desh_ore"
   },
   "requirements": [
     {
@@ -16,15 +16,16 @@
     {
       "type": "questlog:block_mine",
       "name": "Mine Desh Ore",
-      "icon": "stellaris:moon_desh_ore",
-      "block": "stellaris:moon_desh_ore"
+      "icon": "ad_astra:moon_desh_ore",
+      "block": "#c:ores/desh"
     }
   ],
   "rewards": [
     {
       "type": "questlog:item",
-      "icon": "stellaris:jet_suit_helmet",
-      "item": "stellaris:jet_suit_helmet"
+      "icon": "ad_astra:raw_desh_block",
+      "item": "ad_astra:raw_desh_block",
+      "count": 4
     },
     {
       "type": "questlog:experience",

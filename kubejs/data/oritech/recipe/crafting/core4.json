@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "x": {
+            "item": "oritech:machine_core_3"
+        },
+        "c": {
+            "item": "oritech:enderic_compound"
+        },
+        "s": {
+            "tag": "oritech:plating"
+        }
+    },
+    "pattern": [
+        "scs",
+        "sxs",
+        "scs"
+    ],
+    "result": {
+        "count": 1,
+        "id": "oritech:machine_core_4"
+    }
+}

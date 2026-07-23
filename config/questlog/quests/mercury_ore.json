@@ -1,10 +1,10 @@
 {
   "title": "Brighter than the Sun",
   "sort_order": 31,
-  "chapter": "questlog:stellaris",
-  "description": "Collect Solerium Ore",
+  "chapter": "questlog:ad_astra",
+  "description": "Mercury is rich in massive Iron Ore deposits buried beneath its scorched surface. These veins are large, dense, and inconveniently placed in one of the most hostile environments imaginable. If the heat doesn’t get you, the sheer optimism of mining on Mercury eventually will. \n\nMine Mercury Iron.",
   "icon": {
-    "item": "stellaris:mercury_solerium_ore"
+    "item": "ad_astra:mercury_iron_ore"
   },
   "requirements": [
     {
@@ -15,17 +15,12 @@
   "objectives": [
     {
       "type": "questlog:block_mine",
-      "name": "Mine Solerium Ore",
-      "icon": "stellaris:mercury_solerium_ore",
-      "block": "stellaris:mercury_solerium_ore"
+      "name": "Mine Iron Ore on Mercury",
+      "icon": "ad_astra:mercury_iron_ore",
+      "block": "ad_astra:mercury_iron_ore"
     }
   ],
   "rewards": [
-    {
-      "type": "questlog:item",
-      "icon": "stellaris:jet_suit_leggings",
-      "item": "stellaris:jet_suit_leggings"
-    },
     {
       "type": "questlog:experience",
       "name": "+5 Levels",

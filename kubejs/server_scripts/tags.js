@@ -41,28 +41,47 @@ ServerEvents.tags("item", event => {
 ServerEvents.tags("item", event => {
 
     // PAM NEEDS TO GET A GRIP
+    let saplings = ["pamhc2trees:apple_sapling", "pamhc2trees:avocado_sapling", "pamhc2trees:candlenut_sapling", "pamhc2trees:cherry_sapling", "pamhc2trees:chestnut_sapling", "pamhc2trees:gooseberry_sapling", "pamhc2trees:lemon_sapling", "pamhc2trees:nutmeg_sapling", "pamhc2trees:orange_sapling", "pamhc2trees:peach_sapling", "pamhc2trees:pear_sapling", "pamhc2trees:plum_sapling", "pamhc2trees:walnut_sapling", "pamhc2trees:spiderweb_sapling", "pamhc2trees:hazelnut_sapling", "pamhc2trees:pawpaw_sapling", "pamhc2trees:soursop_sapling", "pamhc2trees:almond_sapling", "pamhc2trees:apricot_sapling", "pamhc2trees:banana_sapling", "pamhc2trees:cashew_sapling", "pamhc2trees:cinnamon_sapling", "pamhc2trees:coconut_sapling", "pamhc2trees:date_sapling", "pamhc2trees:dragonfruit_sapling", "pamhc2trees:durian_sapling", "pamhc2trees:fig_sapling", "pamhc2trees:grapefruit_sapling", "pamhc2trees:lime_sapling", "pamhc2trees:mango_sapling", "pamhc2trees:olive_sapling", "pamhc2trees:papaya_sapling", "pamhc2trees:paperbark_sapling", "pamhc2trees:pecan_sapling", "pamhc2trees:peppercorn_sapling", "pamhc2trees:persimmon_sapling", "pamhc2trees:pistachio_sapling", "pamhc2trees:pomegranate_sapling", "pamhc2trees:starfruit_sapling", "pamhc2trees:vanillabean_sapling", "pamhc2trees:breadfruit_sapling", "pamhc2trees:guava_sapling", "pamhc2trees:jackfruit_sapling", "pamhc2trees:lychee_sapling", "pamhc2trees:passionfruit_sapling", "pamhc2trees:rambutan_sapling", "pamhc2trees:tamarind_sapling", "pamhc2trees:maple_sapling", "pamhc2trees:pinenut_sapling", "pamhc2trees:acorn_sapling"]
+    for (let each of saplings) {
+        event.add("minecraft:saplings", each)
+    }
+
     let wheat_flours = ["create:wheat_flour", "refurbished_furniture:wheat_flour", "pamhc2foodcore:flouritem"]
     for (let each of wheat_flours) {
         event.add("c:flour/flour", each)
         event.add("c:flours/wheat", each)
     }
 
-    // SALT IS SALT PAM
     let salts = ["mekanism:salt", "refurbished_furniture:sea_salt", "pamhc2foodcore:saltitem"]
     for (let each of salts) {
         event.add("c:salt/salt", each)
         event.add("c:dusts/salt", each)
     }
 
-    // Apperently Create Confec doesnt like using tags either
+    // Apperently Create Confectionery doesnt like using tags either
     let chocolates = ["create_confectionery:bar_of_white_chocolate", "create_confectionery:bar_of_ruby_chocolate", "create_confectionery:bar_of_black_chocolate"]
     for (let each of chocolates) {
         event.add("c:foods/chocolate", each)
     }
+
+    let buckets = ["black_chocolate", "white_chocolate", "ruby_chocolate", "caramel"]
+    for (let each of buckets) {
+        event.add("c:buckets", "create_confectionery:" + each + "_bucket")
+        event.add("c:buckets/" + each, "create_confectionery:" + each + "_bucket")
+    }
 })
 
-// Stellaris doesnt like using tags
-let sands = ["stellaris:moon_sand", "stellaris:mars_sand", "stellaris:venus_sand"]
+// Create Confectionery Fluid Tags for buckets
+ServerEvents.tags("fluid", event => {
+    let liquids = ["black_chocolate", "white_chocolate", "ruby_chocolate", "caramel"]
+    for (let each of liquids) {
+        event.add("c:" + each, "create_confectionery:" + each)
+        event.add("c:" + each, "create_confectionery:" + each + "_bucket")
+    }
+})
+
+// Ad Astra doesnt like using tags
+let sands = ["ad_astra:moon_sand", "ad_astra:mars_sand", "ad_astra:venus_sand"]
 ServerEvents.tags("item", event => {
     for (let each of sands) {
         event.add("c:sands", each)
@@ -72,6 +91,12 @@ ServerEvents.tags("block", event => {
     for (let each of sands) {
         event.add("c:sands", each)
     }
+})
+
+// Adding Ad Astra tags to RFTools Shields so it can hold Distributed Oxygen on airless planets
+ServerEvents.tags('block', event => {
+    event.add('ad_astra:blocks_flood_fill', 'rftoolsbuilder:shielding_translucent')
+    event.add('ad_astra:blocks_flood_fill', 'rftoolsbuilder:shielding_solid')
 })
 
 // Tagging Limited Barrels separately from chests
@@ -96,19 +121,21 @@ ServerEvents.tags("item", event => {
 // My new seeds need tags too...
 ServerEvents.tags("item", event => {
     event.add("c:seeds", "mysticalagriculture:borax_seeds")
-    event.add("c:seeds", "mysticalagriculture:corronium_seeds")
+    event.add("c:seeds", "mysticalagriculture:calorite_seeds")
     event.add("c:seeds", "mysticalagriculture:desh_seeds")
+    event.add("c:seeds", "mysticalagriculture:entro_seeds")
     event.add("c:seeds", "mysticalagriculture:naquadah_seeds")
-    event.add("c:seeds", "mysticalagriculture:tharsite_seeds")
+    event.add("c:seeds", "mysticalagriculture:ostrum_seeds")
 })
 
 // My new essences need tags too...
 ServerEvents.tags("item", event => {
     event.add("mysticalagriculture:essences", "mysticalagriculture:borax_essence")
-    event.add("mysticalagriculture:essences", "mysticalagriculture:corronium_essence")
+    event.add("mysticalagriculture:essences", "mysticalagriculture:calorite_essence")
     event.add("mysticalagriculture:essences", "mysticalagriculture:desh_essence")
+    event.add("mysticalagriculture:essences", "mysticalagriculture:entro_essence")
     event.add("mysticalagriculture:essences", "mysticalagriculture:naquadah_essence")
-    event.add("mysticalagriculture:essences", "mysticalagriculture:tharsite_essence")
+    event.add("mysticalagriculture:essences", "mysticalagriculture:ostrum_essence")
 })
 
 // Adding DarkUtils Charms to Curios

@@ -3,35 +3,35 @@
     "category": "building",
     "ingredients": [
         {
-            "item": "stellaris:mars_sand"
+            "item": "ad_astra:mars_sand"
         },
         {
-            "item": "stellaris:mars_sand"
+            "item": "ad_astra:mars_sand"
         },
         {
-            "item": "stellaris:mars_sand"
+            "item": "ad_astra:mars_sand"
         },
         {
-            "item": "stellaris:mars_sand"
+            "item": "ad_astra:mars_sand"
         },
         {
-            "item": "stellaris:mars_sand"
+            "item": "ad_astra:mars_sand"
         },
         {
-            "item": "stellaris:mars_sand"
+            "item": "ad_astra:mars_sand"
         },
         {
-            "item": "stellaris:mars_sand"
+            "item": "ad_astra:mars_sand"
         },
         {
-            "item": "stellaris:mars_sand"
+            "item": "ad_astra:mars_sand"
         },
         {
             "item": "minecraft:yellow_dye"
         }
     ],
     "result": {
-        "id": "stellaris:venus_sand",
+        "id": "ad_astra:venus_sand",
         "count": 8
     }
 }

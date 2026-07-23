@@ -1,10 +1,10 @@
 {
   "title": "Over the Moon",
   "sort_order": 10,
-  "chapter": "questlog:stellaris",
+  "chapter": "questlog:ad_astra",
   "description": "Humanity's first step beyond Earth remains an important milestone. While the Moon lacks a breathable atmosphere and abundant resources, it serves as the perfect proving ground for offworld exploration. Establish a foothold, gather resources, and prepare for the much longer journeys that lie ahead.",
   "icon": {
-    "item": "stellaris:moon_globe"
+    "item": "ad_astra:moon_globe"
   },
   "requirements": [
     {
@@ -16,8 +16,8 @@
     {
       "type": "questlog:visit_dimension",
       "name": "Travel to the Moon",
-      "icon": "stellaris:moon_globe",
-      "dimension": "stellaris:moon"
+      "icon": "ad_astra:moon_globe",
+      "dimension": "ad_astra:moon"
     }
   ],
   "rewards": [

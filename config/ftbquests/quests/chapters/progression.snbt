@@ -1,0 +1,464 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progression"
+	group: ""
+	icon: {
+		id: "sgcommunity_pack:computation_core"
+	}
+	id: "1222006A8A49597D"
+	images: [
+		{
+			height: 1.0d
+			hover: ["Tier 1"]
+			image: "sgcommunity_pack:textures/quests/roman_one.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Tier 2"]
+			image: "sgcommunity_pack:textures/quests/roman_two.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Tier 3"]
+			image: "sgcommunity_pack:textures/quests/roman_three.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 3.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			id: "0C5C986F94D9A7DD"
+			rewards: [{
+				count: 15
+				id: "4DAD13DA1BA9664E"
+				item: {
+					count: 1
+					id: "minecraft:bookshelf"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B0EEA9B4A52BD02"
+				item: { count: 1, id: "sgcommunity_pack:iron_crux" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "707AAF433C9113A6"
+			rewards: [
+				{
+					id: "1584E0EF8C1D8EC4"
+					item: {
+						count: 1
+						id: "create:clipboard"
+					}
+					type: "item"
+				}
+				{
+					id: "49277420AA375C4F"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "083DB29B5971027B"
+				item: { count: 1, id: "sgcommunity_pack:gold_crux" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "4023AC1A3D9CC942"
+			rewards: [
+				{
+					count: 10
+					id: "52540D34B85DC4E5"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+				{
+					id: "46F9EFB04DF460AD"
+					item: {
+						count: 1
+						id: "create:empty_schematic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "22467382021C7A04"
+				item: { count: 1, id: "sgcommunity_pack:diamond_crux" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"707AAF433C9113A6"
+				"4023AC1A3D9CC942"
+				"0C5C986F94D9A7DD"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
+			id: "12B2F1E5BB64DA86"
+			rewards: [
+				{
+					id: "5DBE69ABF9CDC83A"
+					item: {
+						count: 1
+						id: "create:schematicannon"
+					}
+					type: "item"
+				}
+				{
+					id: "1612E297527D4089"
+					item: {
+						count: 1
+						id: "immersive_armors:slime_boots"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5627C12FE25148C1"
+				item: { count: 1, id: "sgcommunity_pack:netherite_crux" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["12B2F1E5BB64DA86"]
+			hide_dependent_lines: true
+			id: "3C65F3AFDFFCDA5A"
+			rewards: [{
+				id: "595DFBD7ECCE9A2A"
+				item: {
+					count: 1
+					id: "pamhc2foodextended:chocolatesprinklecakeitem"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "65C6402C4AA3ABAC"
+				item: { count: 1, id: "sgcommunity_pack:kinetic_crux" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C65F3AFDFFCDA5A"]
+			hide_dependent_lines: true
+			id: "6CF4F16FCE4806E3"
+			rewards: [{
+				id: "3FA307A6E8CA8E4F"
+				item: {
+					count: 1
+					id: "ae2:color_applicator"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1072ACF5ABA3A5ED"
+				item: { count: 1, id: "sgcommunity_pack:computational_crux" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6CF4F16FCE4806E3"]
+			hide_dependent_lines: true
+			id: "0F3C45B126154562"
+			rewards: [{
+				id: "171D9D45FCCB6238"
+				item: {
+					count: 1
+					id: "mekanism:gauge_dropper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D9A018558027412"
+				item: { count: 1, id: "sgcommunity_pack:mekanised_crux" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F3C45B126154562"]
+			hide_dependent_lines: true
+			id: "05C460C19A9AE285"
+			rewards: [{
+				id: "1F064D3D71922DB9"
+				item: {
+					components: {
+						"nomowanderer:enabled": 1b
+					}
+					count: 1
+					id: "nomowanderer:no_mo_wanderer_totem"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D6CFF5527346090"
+				item: { count: 1, id: "sgcommunity_pack:reactive_crux" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["05C460C19A9AE285"]
+			hide_dependent_lines: true
+			id: "231AB7EA433756D2"
+			rewards: [{
+				id: "6F33B6C371359DFC"
+				item: {
+					components: {
+						"ad_astra:fluids": [{
+							amount: 3000L
+							id: "ad_astra:oxygen"
+						}]
+					}
+					count: 1
+					id: "ad_astra:zip_gun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CD9062C836EE8BC"
+				item: { count: 1, id: "sgcommunity_pack:deep_space_crux" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["231AB7EA433756D2"]
+			hide_dependent_lines: true
+			id: "2C52A6ABB40ED858"
+			rewards: [{
+				id: "442668BD0457C633"
+				item: {
+					count: 1
+					id: "sgjourney:advanced_crystal_interface"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60C26B363851915F"
+				item: { count: 1, id: "sgcommunity_pack:naquadria_crux" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C52A6ABB40ED858"]
+			hide_dependent_lines: true
+			id: "49936745B787796E"
+			rewards: [{
+				id: "26DAE58941CD3D34"
+				item: {
+					count: 1
+					id: "advanced_ae:quantum_core"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "26D61F2FB8CBD9D6"
+				item: { count: 1, id: "sgcommunity_pack:positronic_crux" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_details_until_startable: false
+			hide_until_deps_visible: false
+			id: "7064AC5CE730629B"
+			tasks: [{
+				id: "1FD45377B305EEF1"
+				item: { count: 1, id: "sgcommunity_pack:vacuum_tube" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "54B35B245C507076"
+			tasks: [{
+				id: "6583781DA9D906B3"
+				item: { count: 1, id: "sgcommunity_pack:rudimentary_processor" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7064AC5CE730629B"
+				"54B35B245C507076"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			hide_lock_icon: true
+			icon: {
+				id: "create:large_cogwheel"
+			}
+			id: "2D1E28252D69CABA"
+			optional: true
+			shape: "square"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"726BD6CD45E9CDD9"
+				"2460EC59F4FDAF9A"
+				"708A86111237377D"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			hide_lock_icon: true
+			icon: {
+				id: "mekanism:basic_control_circuit"
+			}
+			id: "260C678AAF5D3D3A"
+			optional: true
+			shape: "square"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "2460EC59F4FDAF9A"
+			tasks: [{
+				id: "037589660A2CB174"
+				item: { count: 1, id: "sgcommunity_pack:integrated_circuit" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "708A86111237377D"
+			tasks: [{
+				id: "3BBE59733B760ADE"
+				item: { count: 1, id: "sgcommunity_pack:computation_core" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			icon: {
+				id: "sgcommunity_pack:conversion_catalyst"
+			}
+			id: "5C938F25D0F5D112"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/team join EZ @p"
+					id: "27C719C714D6AA5D"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					id: "55C9B69B448FECEF"
+					item: {
+						count: 1
+						id: "sgcommunity_pack:conversion_catalyst"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4AB474DD08C78E35"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "726BD6CD45E9CDD9"
+			tasks: [{
+				id: "0A0EDCE11795D4DA"
+				item: { count: 1, id: "sgcommunity_pack:mosfet" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["49936745B787796E"]
+			id: "02E6DBFFF33186B9"
+			rewards: [{
+				count: 8
+				id: "4B1DDBF728FE3DDE"
+				item: {
+					count: 1
+					id: "mekanism:upgrade_chemical"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CE8A2D2C829BCF5"
+				item: { count: 1, id: "mekmm:planting_station" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5C938F25D0F5D112"]
+			id: "0016AD4682EB8536"
+			optional: true
+			tasks: [{
+				id: "31277EE613DB65F7"
+				item: { count: 1, id: "mekanism:oredictionificator" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+	]
+}

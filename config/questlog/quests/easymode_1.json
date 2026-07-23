@@ -26,6 +26,12 @@
       "type": "questlog:item",
       "icon": "sgcommunity_pack:conversion_catalyst",
       "item": "sgcommunity_pack:conversion_catalyst"
+    },
+    {
+      "type": "questlog:command",
+      "name": "Activate Easy Mode",
+      "auto_claim": true,
+      "command": "team join EZ @p"
     }
   ]
 }
