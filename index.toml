@@ -573,722 +573,6 @@ file = "config/quark-common.toml"
 hash = "c274101bdfee7ff934943147abfb3d50f6462a68664fdeac89341333144836b9"
 
 [[files]]
-file = "config/questlog/chapters/ad_astra.json"
-hash = "e9d622774af3c1fb5abe55e197e7ac3e8cade5c52e50e8816a2cbe293845b261"
-
-[[files]]
-file = "config/questlog/chapters/ae2.json"
-hash = "a124ba040d9e1da66592436cba754e0d2b414f12b0d2d944991b69d25f8f4208"
-
-[[files]]
-file = "config/questlog/chapters/kinetic_curcuits.json"
-hash = "38fabef475f5688de85c758d81d2fdef8cd3d6dc14bfd04eb29ff411d4dd27c1"
-
-[[files]]
-file = "config/questlog/chapters/mekanised_circuits.json"
-hash = "fb2b734549bcabbf98a3d13c06ad75351b56cdb15366d34db16aa6b32f6b99ba"
-
-[[files]]
-file = "config/questlog/chapters/progression.json"
-hash = "3e8ff81e1d6a28842dc4a23874781b809bd873bc3be9c673d149417443bc0c7b"
-
-[[files]]
-file = "config/questlog/chapters/sgj.json"
-hash = "bad1bbb762dd3d10c286a0e172a29680e54add69afc4f8af0a59b062b14fd766"
-
-[[files]]
-file = "config/questlog/chapters/tips_tricks.json"
-hash = "0d32fe4d06a7b31e13633813db6c77b697206f82e69918f259a78288b0039163"
-
-[[files]]
-file = "config/questlog/quests/accumulation_processor.json"
-hash = "46a96fc2591ebdbf72330a91b53cbd1f64bdbead10e096aeab961ab6a0f558e7"
-
-[[files]]
-file = "config/questlog/quests/actually_good_storage.json"
-hash = "a57633653ea8d0cea6c7b8f36857bccc4db5a3cbff3354070326eb3b19d86b26"
-
-[[files]]
-file = "config/questlog/quests/adv_interface.json"
-hash = "941c1ee512d80287f2491b51f56f680b4588284c5124ad50e8cfc994f3e69ef4"
-
-[[files]]
-file = "config/questlog/quests/advanced_crystallizer.json"
-hash = "1abebd1f9fc1d787801d5ec2a5a86a457ab611eedc3f0036b67f71286e85c517"
-
-[[files]]
-file = "config/questlog/quests/advanced_crystals.json"
-hash = "e778ca9647c977d31f703e80bfe0e888da52c5b6ae7f5c9a5ead2091ea9698bc"
-
-[[files]]
-file = "config/questlog/quests/alu.json"
-hash = "7620246c9a8ba6530022fb36734409302da05161782bc89ed92c9871788a284d"
-
-[[files]]
-file = "config/questlog/quests/apotheosis.json"
-hash = "83ddbf1212368685a510849e2f2d74ca31a3a1e255f53ccd61014e649daea729"
-
-[[files]]
-file = "config/questlog/quests/applied_machines.json"
-hash = "01164990835fb8df389c32af00409cb7a5e499adaf33245539ff03d8083f46b0"
-
-[[files]]
-file = "config/questlog/quests/auto_crafting.json"
-hash = "67b5399436ee39af02f26780158333ccead0d25a788e7325c734132ab042abf4"
-
-[[files]]
-file = "config/questlog/quests/automate_everything.json"
-hash = "b21b0e27a733b01617f4b843bb197cd173c71f451a920a4eaba741d10098892b"
-
-[[files]]
-file = "config/questlog/quests/backpack.json"
-hash = "50a9cd134c691c1760887721ea8003a987a59c44cf4ff28755f9e8fafbaab325"
-
-[[files]]
-file = "config/questlog/quests/basic_complete.json"
-hash = "3833b325b7a64885bd87f3fa1fab28adab751635ceab88d8c04fddf358a4abeb"
-
-[[files]]
-file = "config/questlog/quests/basic_crystals.json"
-hash = "d3a1f26825ef2116029b68878c32eb8ad915ae5cfecca20e2e68e58943759959"
-
-[[files]]
-file = "config/questlog/quests/beyond_cruxes.json"
-hash = "7b66af0289a8b0c3e6b83dc9abab5ca4ecd18c7501b7aa9dfb7bf365b0e6d67c"
-
-[[files]]
-file = "config/questlog/quests/bigger_wheels.json"
-hash = "6f3c9f6678802a723525bc942559e054b2b943deb03618511508a0a393bbf032"
-
-[[files]]
-file = "config/questlog/quests/botany_pots.json"
-hash = "a79beedba78224dc93876c8f3177b190155ad7f5330b396c237d7de0583ad368"
-
-[[files]]
-file = "config/questlog/quests/bulk_storage.json"
-hash = "60002322dc23dad992bc1f0163b5dc5f0dba0f463d02480f235a6e749e91a021"
-
-[[files]]
-file = "config/questlog/quests/cardboard.json"
-hash = "7ccc2e6a643fe3a331a7d0e08804c9da56edf162aed10109b31eb076af0b834b"
-
-[[files]]
-file = "config/questlog/quests/circuit_slicer.json"
-hash = "4c302f41b10bd556f24c999e55fe6eea34d31fc29c44f4c607ba95f68eebf6b1"
-
-[[files]]
-file = "config/questlog/quests/cloud_bottle.json"
-hash = "56b166e97b35ac882d265a92f919c925d70809d7640d53fbb5ea88f388704e34"
-
-[[files]]
-file = "config/questlog/quests/commands.json"
-hash = "63750b9d0cc3c92662ba55663e2ec543ecea0ba23d3f041cb6d5a3233d26af4b"
-
-[[files]]
-file = "config/questlog/quests/comp_core_parts.json"
-hash = "addf70b4e6017d80ff9b12062735ddd4b17aa5067c5ca7c90552ffea7573d6f9"
-
-[[files]]
-file = "config/questlog/quests/compost.json"
-hash = "b9e274d81c77f9b6fbafeec88d58911838dd0faa4e985d4ca1badd4595968b13"
-
-[[files]]
-file = "config/questlog/quests/computation_core.json"
-hash = "8790d13ef9239e738149d884db68f72e6f4bb4584e742adac54c885c47855299"
-
-[[files]]
-file = "config/questlog/quests/computational_crux.json"
-hash = "427fc0406e97c3ea168270965fae310154c342223b84688fdf3d1561ee557dcd"
-
-[[files]]
-file = "config/questlog/quests/computercraft.json"
-hash = "ef76c79fe6b91f2737cb1daf66d56212e95c8a0b87d00d352bf514c796c00517"
-
-[[files]]
-file = "config/questlog/quests/concurrent_processor.json"
-hash = "e89c9bc7888740564424b746f87b4dbfc9f4e21ecbd94239edbd56fcc0eb072a"
-
-[[files]]
-file = "config/questlog/quests/control_unit.json"
-hash = "f7059750e2d7744925010896ce47053092e7048bf224cdd4ee97d0befdfea2d6"
-
-[[files]]
-file = "config/questlog/quests/controller.json"
-hash = "0cdc1cc09de909fffdc40044131e1e7d6987e25a67ba02b9463676b6d35614b8"
-
-[[files]]
-file = "config/questlog/quests/conversion_monitor.json"
-hash = "522907615dab19dbb158da0ba7dff2544df908ed7652255beed7422b15d76496"
-
-[[files]]
-file = "config/questlog/quests/core_frame.json"
-hash = "d49f1551441a33190d859cfaa3020c40521db66902602be98e708bc219fb6bb0"
-
-[[files]]
-file = "config/questlog/quests/crafters.json"
-hash = "9a8bf6315cd0adbaaad2d845c235d3d724a64f94d7d33369ca53a20d0b380c0e"
-
-[[files]]
-file = "config/questlog/quests/create_automation.json"
-hash = "e3a92583f06083721aaca1b1319b1d9095917639eadcb3546f905e2b66404b65"
-
-[[files]]
-file = "config/questlog/quests/cryo_fuel.json"
-hash = "21569dfb740d60c1eca8584ece745ecbb0517b5dd542e7a87024db571eb2c64e"
-
-[[files]]
-file = "config/questlog/quests/crystal_assembler.json"
-hash = "6e66142856f233547f69e69cef90ccfab13e3cebd360b275e19fe5e762cd0827"
-
-[[files]]
-file = "config/questlog/quests/crystal_interface.json"
-hash = "651717400e6b535ec3f9aea8ae58e49cafe2e363995a618a67c6e48d6a8ab4b9"
-
-[[files]]
-file = "config/questlog/quests/crystallizer.json"
-hash = "4953f8d1fb75ab02b80a0f90e3abf479b1e485d99e1fd308045b30a4704fa5b9"
-
-[[files]]
-file = "config/questlog/quests/deep_space_crux.json"
-hash = "da8640a4ccd9be257b9c779fdc1fea8d18aa6883ed3212cb4c8425d1c40392d5"
-
-[[files]]
-file = "config/questlog/quests/deployer.json"
-hash = "61fcf69cd681dc982f6b2e0beb79acdc38373345c395586e1ee08b892f77378e"
-
-[[files]]
-file = "config/questlog/quests/diamond_crux.json"
-hash = "b7121541958e2d0fd0af48e1a9237ad222491b0927b1ccf2368aae4b162c788e"
-
-[[files]]
-file = "config/questlog/quests/easymode_1.json"
-hash = "4b845cbd3f417278a7b20333782268027e2a6403e6cc91de5913f5fcf72b91a3"
-
-[[files]]
-file = "config/questlog/quests/easymode_2.json"
-hash = "7d50c15936e4836aaa7133bd5e135864f2f1ecd41a1ba0a36fa764c3f2bb6589"
-
-[[files]]
-file = "config/questlog/quests/edible_processor_chip.json"
-hash = "96e85365abc9b3cbf72c1519063d313cb2e4841fec122e8c372ca293c0a6bb23"
-
-[[files]]
-file = "config/questlog/quests/edible_processor_wafer.json"
-hash = "90acfcee2cfb2575d12f6eaf7d82e057152ae5c0b0fea94297d9692cb6ed5fc0"
-
-[[files]]
-file = "config/questlog/quests/edible_wafer.json"
-hash = "8d60c1875bdc9f871c838c20ce4f833e18e0667d655215b0dc4ae388d23f649c"
-
-[[files]]
-file = "config/questlog/quests/electrum_sheets.json"
-hash = "dbef88899c3e886bafdf83efb453c8f1ee067e235e3d579157cad2f7c983a824"
-
-[[files]]
-file = "config/questlog/quests/ender_inhibitor.json"
-hash = "16941116d30dc10432d029816883164c306d8bb894f0c5485ac455c2358c2b31"
-
-[[files]]
-file = "config/questlog/quests/entro_seeds.json"
-hash = "89b6ad2cdad0ae54ec15458bd4095d20f7e7f1429a5a46d65e70bd59da3a8151"
-
-[[files]]
-file = "config/questlog/quests/expanded_crafting.json"
-hash = "a5c3913be929c1dbe5a9f53cd598be10e01a56be8f553abbef3f75bf5519cb15"
-
-[[files]]
-file = "config/questlog/quests/extended_assembler.json"
-hash = "cec5c89a2096936fcf96cfe689db29278a6d70650ab74b9715555bbd01cc782e"
-
-[[files]]
-file = "config/questlog/quests/extended_drive.json"
-hash = "0ed75db9b5f618a7f32dfbbf1758b93b89593b6d601ab270029c3e12dd104218"
-
-[[files]]
-file = "config/questlog/quests/extended_pattern_provider.json"
-hash = "5044738a0ffd2391d016e4dbc6dd4ce5e454fef05e37faa6242bcffa5a676ec7"
-
-[[files]]
-file = "config/questlog/quests/facade.json"
-hash = "6f2f52dbf0a46241137e8373a1c62aad64698a612cbb970d3236936966751e93"
-
-[[files]]
-file = "config/questlog/quests/finding_oil.json"
-hash = "87902261e06e69e3d88bc7f6d44b52c304023129b9e95e18f3d66ed2535163b2"
-
-[[files]]
-file = "config/questlog/quests/finding_the_stargate.json"
-hash = "995da2c39ace21c049d1766a43dc93477349d9c682d741224e59ad6fc3c1c1dc"
-
-[[files]]
-file = "config/questlog/quests/first_resources.json"
-hash = "284e72fd0d414b8aba3b15650e5c23c3f2fe316504f50a5bc248d56cd94af021"
-
-[[files]]
-file = "config/questlog/quests/gate_assembly.json"
-hash = "477cc4f92c5036bc2a95e5800ea0ae0b406de29788bd7d7cb3c0f83ea020f309"
-
-[[files]]
-file = "config/questlog/quests/gate_parts.json"
-hash = "efec40cbaab9270e2eb033f0904ce0e14039e1f3100763e3385eec4fc9406220"
-
-[[files]]
-file = "config/questlog/quests/getting_home.json"
-hash = "e494cdbdf488d0b033efffe400e23a811017493f98b5f6f434489fdbf138854e"
-
-[[files]]
-file = "config/questlog/quests/getting_rotation.json"
-hash = "621fb54bb78060812aca6d548bf1670c9c3630a771b0d3d405c40823e08b6671"
-
-[[files]]
-file = "config/questlog/quests/getting_smashed.json"
-hash = "7d0e1ec40e6efa431353b2cd57745cb00cdc3b89b2f3d2aa9fcfeaf9f878a5c5"
-
-[[files]]
-file = "config/questlog/quests/glacio_ore.json"
-hash = "4b6b4ac474906a1d54d099c7a57fcfac828e871964c638289ad2bb0d7b36be20"
-
-[[files]]
-file = "config/questlog/quests/glacio_travel.json"
-hash = "47e0d4ebecaa9dafad35986709e8595f833e768618f593af16188277bdb716d2"
-
-[[files]]
-file = "config/questlog/quests/gold_crux.json"
-hash = "2fdbcbb9a1846ab32e843124815c8339a14bfec4d09443d17e6985d669951409"
-
-[[files]]
-file = "config/questlog/quests/hdpe.json"
-hash = "d9e2265617cd2244f121b705945bde2c4b71352bcfe00cf3b88d845fadbfcc21"
-
-[[files]]
-file = "config/questlog/quests/heavy_liquidizer.json"
-hash = "3b0256d850184a77194e13f3dd36ce7c6ebf73020f7716ac04f6ac7b5d6cd39f"
-
-[[files]]
-file = "config/questlog/quests/hypertubes.json"
-hash = "bcb2989d5eef2839b02665e9023dee9c9f0ddf4b484d7f37f3c7cfcdf31ce390"
-
-[[files]]
-file = "config/questlog/quests/inferium_essence.json"
-hash = "3d1ce0329857c08c6a5555df0463a3d199f288965e467c357929d70ac4507aee"
-
-[[files]]
-file = "config/questlog/quests/infinite_lava.json"
-hash = "c85dd48a3ae6ade59fec6b243bef488fff5b0524da90e6b7f6e83c22f357be66"
-
-[[files]]
-file = "config/questlog/quests/infinite_milk.json"
-hash = "e2ca7fa027cdca9fe0a143f7cd672783263d05715ada68ca072c461c249f21ab"
-
-[[files]]
-file = "config/questlog/quests/infinite_water.json"
-hash = "ae5b27f538045dfa9fdd323aa307e9734a65d1ee8a1e73816b3f3eaf0747c825"
-
-[[files]]
-file = "config/questlog/quests/infinite_xp.json"
-hash = "9304fd3b20c20cd87891d8c4b0b7acfe5db0071af3b61be71a8260c8b1896597"
-
-[[files]]
-file = "config/questlog/quests/integrated_circuit.json"
-hash = "a720a18414e27483f787fc45cf93f20dc4cfac5ac9bbbb18b8d5516068f032e8"
-
-[[files]]
-file = "config/questlog/quests/integrated_circuit_chip.json"
-hash = "8bc9e1baf9b258076e96416545c8eee7770ac5226a7ca0811d8c6c4c7b7d88c9"
-
-[[files]]
-file = "config/questlog/quests/integrated_circuit_wafer.json"
-hash = "b25e205ac5b92acbd996452872d55ed7b3bb316677de812af2e95d7c95461cf7"
-
-[[files]]
-file = "config/questlog/quests/interface.json"
-hash = "fa2ab3cfa19470374d16be6e5f5c14a541af84f0f37c80686a7795a15b5f0a01"
-
-[[files]]
-file = "config/questlog/quests/iron_crux.json"
-hash = "8559702913555f7dacb1f11d1f0fb5c946a1591d72b2fad472c93265dd2d5e9b"
-
-[[files]]
-file = "config/questlog/quests/iron_sponge.json"
-hash = "5c82b51f433ccfd21c6b455ef15b20558b99e7707e37942e369c521582a1d178"
-
-[[files]]
-file = "config/questlog/quests/iron_wires.json"
-hash = "774663dda59eab2fa6f0f170ee301d0cdbf20badefcf04467cb2ebc6d09b467d"
-
-[[files]]
-file = "config/questlog/quests/isotopic_decay_oscilliator.json"
-hash = "9d31b3cb454cd87fe2fe3a749fcb58e759423e2f12f80acc6e736ed3e1cbe1c1"
-
-[[files]]
-file = "config/questlog/quests/isotopic_wafer.json"
-hash = "009da15ffd7144aa14738e244ee319759248ad05db4ae9855be08d105335bb00"
-
-[[files]]
-file = "config/questlog/quests/jet_suit.json"
-hash = "f9ac2b276a29f320413ade87b1e8029b6dd820a090edeec7362bacea4430763b"
-
-[[files]]
-file = "config/questlog/quests/killed_by_iris.json"
-hash = "a6baa0af57aa72a55d48f4a9107981f87fe73e208a0577224e7729212432f295"
-
-[[files]]
-file = "config/questlog/quests/killed_by_kawoosh.json"
-hash = "76582312d0f4dba624df2db8c2fd21ef682342c3341b755acb75676da447e311"
-
-[[files]]
-file = "config/questlog/quests/killed_by_wormhole.json"
-hash = "5befab1f17d14e553645e7c38efd53fdfb93aad0dcf0430e07368f899bab0892"
-
-[[files]]
-file = "config/questlog/quests/kinetic_crux.json"
-hash = "b0775f8f20d2589a683ed2a5e0ea19a4d58335eb2305f8a108a3d6e3bf7d9560"
-
-[[files]]
-file = "config/questlog/quests/launch_pad.json"
-hash = "7c60f5ede86fb68a56bca6578ae3e20c74eadfbca1167f2da1cc658df1d6e9a4"
-
-[[files]]
-file = "config/questlog/quests/learning_create.json"
-hash = "7da0c95e40c054a2003120c1c1d6711c00cc270655bcf6408b691aaafaf21799"
-
-[[files]]
-file = "config/questlog/quests/leaving_planet.json"
-hash = "8c4b045a91d570de6387af9e59f5ed53c73202818ae6620e3298361255651c5e"
-
-[[files]]
-file = "config/questlog/quests/leaving_solar_system.json"
-hash = "ce46e60f40618f9f136efa778f0c2db969731dacd3e7ad788d6740d8b54bc686"
-
-[[files]]
-file = "config/questlog/quests/liquidizer.json"
-hash = "73111ac2aee6e28ef8d681fe257d15aca6005c5dde48c0347243b3924a9fa71c"
-
-[[files]]
-file = "config/questlog/quests/making_air.json"
-hash = "e8c2c149e211f0249efe103b408205c2b18bdc6f240fbbe12405daa5378304d0"
-
-[[files]]
-file = "config/questlog/quests/making_crystals.json"
-hash = "e1be8f8d7381842c1b5adc7334e560f696f7b7e77d26357432add194fef7a3ba"
-
-[[files]]
-file = "config/questlog/quests/making_gravity.json"
-hash = "d2da9c4b13ebf3d9a00c579a75985f05a6dd00c2a1f42d05bc52372ba0d46ab3"
-
-[[files]]
-file = "config/questlog/quests/making_processors.json"
-hash = "6af925744add91ccb5c2b4f4353b5b4e3fb2d53893747159e5f64707e453c302"
-
-[[files]]
-file = "config/questlog/quests/making_station.json"
-hash = "e8cc4693765ae49c2c3c4bc33135fb92b3e23d815fd2af15faf4f3db716adb09"
-
-[[files]]
-file = "config/questlog/quests/making_wheels.json"
-hash = "4d8b3566e0239ad69afa4ef0975e531bb5821ed14f6ddbb107684446bb651237"
-
-[[files]]
-file = "config/questlog/quests/mars_ore.json"
-hash = "458f4b650a0150b5a8786d9b13e6602e3684d6e6f6a2fc21289c23a0faa09f87"
-
-[[files]]
-file = "config/questlog/quests/mars_travel.json"
-hash = "1ee5f6fbcd3302a3047fe71ae151f3a7bc4670c9a5b68abe79801f3e9a15f3d1"
-
-[[files]]
-file = "config/questlog/quests/megacells.json"
-hash = "e9ca7d4e43dc9d7b2bf5f5cae53331955fe32a9c501caf50b5d52157b786a7a4"
-
-[[files]]
-file = "config/questlog/quests/mekanised_crux.json"
-hash = "7adc67f4897db0607d7eeaef6de3f67869615b35c0a6c07bf66c5022b4f173d8"
-
-[[files]]
-file = "config/questlog/quests/mercury_ore.json"
-hash = "8993cb0604f50128d7f32708e8d6f9ff5177bc9a2b4ba4109865d60334f7f121"
-
-[[files]]
-file = "config/questlog/quests/mercury_travel.json"
-hash = "bdbf24daef9d1e2f85028c7f5fd6c195a1de8f236407c94cb0b2b5b16e704419"
-
-[[files]]
-file = "config/questlog/quests/metallurgic_infuser.json"
-hash = "8043029db3a2d8d2cc10c6c3fc87084cfb2b24ab242dea4a1edc1e0996ed6962"
-
-[[files]]
-file = "config/questlog/quests/meteors.json"
-hash = "8a75f27dcfe4cb553e54e7cd5a66839fa2b4232756f50161dc4530503499f5f3"
-
-[[files]]
-file = "config/questlog/quests/mixer.json"
-hash = "7e83294db96da1004a278762b54c4bfdd471f82b187915e38655bdfbd3b1533e"
-
-[[files]]
-file = "config/questlog/quests/molten_glass.json"
-hash = "8b39065ee30c4e38b7f5165c919a6be33f064fb57e9a83d3db6462476f89fbe9"
-
-[[files]]
-file = "config/questlog/quests/moon_ore.json"
-hash = "3c22c283684aecff2639b759ce7cc66ce0a28e87aa179316e057417d5eea6852"
-
-[[files]]
-file = "config/questlog/quests/moon_travel.json"
-hash = "273d3737a804da998a3b0e75f33d87ae14ef220d5404ac7b9bff77b12f63c8f0"
-
-[[files]]
-file = "config/questlog/quests/mosfet.json"
-hash = "2c445f64e90c31e31bd47481a7694c978cb4a61b236192997a1049798036fa0f"
-
-[[files]]
-file = "config/questlog/quests/mosfet_wafer.json"
-hash = "faa51e29ad356d2468952a410cf8656704a60047edd25601942aa0d8d65ab96a"
-
-[[files]]
-file = "config/questlog/quests/naq_armor.json"
-hash = "06155f23bf9be13e9d12f04a2b54a419dce1e7af71253d1c652e57695473a00f"
-
-[[files]]
-file = "config/questlog/quests/naq_hand.json"
-hash = "5f4b5022b2c3daabf642793b4d4b47c4e077e97a57177fd36021bc42ee9eb922"
-
-[[files]]
-file = "config/questlog/quests/naq_staff.json"
-hash = "ae89fe8df63bac7000b9963088202a7c4e4fba1602715415905fc84d615b2d54"
-
-[[files]]
-file = "config/questlog/quests/naq_tools.json"
-hash = "bf7d4e05dc53b7b25ea596ccd493e3bc65437b90b33a7295ea8664023d490d04"
-
-[[files]]
-file = "config/questlog/quests/naquadria_crux.json"
-hash = "8becfbc95695c1680f9c0c0c4d2d600bfffd6fb35579be34ae5d8a8e50944a4f"
-
-[[files]]
-file = "config/questlog/quests/netherite_crux.json"
-hash = "3c3b7dc2076e7b3130a90268420d865fe561a69fd1f784d1be83de2180d01d3b"
-
-[[files]]
-file = "config/questlog/quests/netherite_suit.json"
-hash = "2ed2067dfc4b7c7503536f8154467140388619f6e9ae5c8c5504f18441a15416"
-
-[[files]]
-file = "config/questlog/quests/oxygen_required.json"
-hash = "f19b5212c6867dd75cbb60da8d875d924133e37ee479692c021d7573434427f5"
-
-[[files]]
-file = "config/questlog/quests/pattern_terminal.json"
-hash = "03f3678a19b2828c5371aa7a0bdd4d820018447976e844770a82cda62ae87bde"
-
-[[files]]
-file = "config/questlog/quests/pcb_substrate.json"
-hash = "431d5591d040e4838f5a1d26d52c0a91e98815668bef53537809188f5f56d18d"
-
-[[files]]
-file = "config/questlog/quests/photomask.json"
-hash = "eafcd727f8d9f5ff9916d2bdf5494dbf1e39e5642a8da3f7bea15a932bb64fdf"
-
-[[files]]
-file = "config/questlog/quests/pickarang.json"
-hash = "e2a3ecc7a915bf4b8d55ad68150482fcab5a1a6a63012e35a237299c365d84c5"
-
-[[files]]
-file = "config/questlog/quests/positronic_crux.json"
-hash = "f5362d12eb9c89b5f1140c7a544d963eea35848a8d689e6ce778061c343365c0"
-
-[[files]]
-file = "config/questlog/quests/power_gen.json"
-hash = "443d97cde31cb7051f835dec89c9deccb5c94cd731b3448a4c2bc333e35c878f"
-
-[[files]]
-file = "config/questlog/quests/power_storage.json"
-hash = "537d1c996f6ca42e4b5237fb9b5762ab4d3d0131f0236ba81c22f60aad9223c4"
-
-[[files]]
-file = "config/questlog/quests/proper_storage.json"
-hash = "57d6ebf2d9abd0e7a7903acf558dfe92870d7baab423483afee78e8793810b43"
-
-[[files]]
-file = "config/questlog/quests/pure_naquadah.json"
-hash = "237302b8858f9ace15ad9c90a215d0bb372ed876027538cab640c1b85fb3032c"
-
-[[files]]
-file = "config/questlog/quests/quantum_bridge.json"
-hash = "83beae5eb65879f8faec258776cd1a0c738b073b035c0742c4aa33c10b0d3f04"
-
-[[files]]
-file = "config/questlog/quests/raw_naquadah.json"
-hash = "5034e478dafe2d22fb974757d735355140da54a594c91598e715c165c92fb43e"
-
-[[files]]
-file = "config/questlog/quests/reacharound_placement.json"
-hash = "4faaa6a5441db15652e982659bfbb38dbd6fa0b7e0f8a78f35e074fc5f3fb567"
-
-[[files]]
-file = "config/questlog/quests/reactive_crux.json"
-hash = "b37e22453c67225a06090fd80aa63a60f7aabd13d02427fd7ed8c8d7c467a95f"
-
-[[files]]
-file = "config/questlog/quests/refine_oil.json"
-hash = "126b081789fae0c503cb078ad412e5765d85ee211dfb7a561510dc39bf6dafd9"
-
-[[files]]
-file = "config/questlog/quests/rocket.json"
-hash = "d705eb4f354462b599bb5b6072ed4a0f887571be46ae3d92c7dddf2e67340e0e"
-
-[[files]]
-file = "config/questlog/quests/rocket_2.json"
-hash = "35756b7dadd934031448411ff02d20d7c00df124c824264fc92e58786e04f1bc"
-
-[[files]]
-file = "config/questlog/quests/rocket_3.json"
-hash = "00618341375da444af36d2e211471d9ec0d1bca1a8043e52f1060ae984943087"
-
-[[files]]
-file = "config/questlog/quests/rocket_4.json"
-hash = "25b9f8763edb3992f38e9500dbd927f63876a68ab604354a9fad8ee388604e61"
-
-[[files]]
-file = "config/questlog/quests/rocket_station.json"
-hash = "c282ec29114a42a7b0cb1f95e94efbc7d25a51af66fa01d7117b46b19ce8b3da"
-
-[[files]]
-file = "config/questlog/quests/rose_quartz.json"
-hash = "5882f772e65886411f57fca94661ac6b50bc23b59308a31381ce9bccf8d03711"
-
-[[files]]
-file = "config/questlog/quests/rudimentary_processor.json"
-hash = "16de564a9f8273eed3bd0805d54b230f8efb936730f570a00245513faf3e976f"
-
-[[files]]
-file = "config/questlog/quests/shrink.json"
-hash = "97daef4171d1b40a4d90a60d1a82addf46f1f6a2c33f5365dd9469390debfab0"
-
-[[files]]
-file = "config/questlog/quests/silica_to_glass.json"
-hash = "a1f2c7bf7bd046bf3ee623e09fa2a8d7e8c33cb21aae6006b96eb613ed36c572"
-
-[[files]]
-file = "config/questlog/quests/silicon_boule.json"
-hash = "b37856f4fcb68b0681c4542dbfd9596d14748e50a48267f3c6c9ab3b09faf016"
-
-[[files]]
-file = "config/questlog/quests/silicon_wafer.json"
-hash = "063df27fc0582ac66b8d5a6d1e6ab82aa48453808bad90841becf7ef1e444d91"
-
-[[files]]
-file = "config/questlog/quests/simple_mass_storage.json"
-hash = "6eca519110f343545a5a1af5d3634a49435f14841aa7a589f266c38f2b47a264"
-
-[[files]]
-file = "config/questlog/quests/smart_cables.json"
-hash = "97fdf694ef9c3e79cd68f09dc64e97dcd2d3a2f321b08c224a76c45a19db9d9a"
-
-[[files]]
-file = "config/questlog/quests/space_suit.json"
-hash = "dd2e2afe6c68d600027ac5e3e1568aa6e09bfc0cdea3ea662d8178e9bd2c2113"
-
-[[files]]
-file = "config/questlog/quests/spout.json"
-hash = "61455c52d968ab169b26a5fb4fd2df75e162e03efdae8ac06281e72840ce6230"
-
-[[files]]
-file = "config/questlog/quests/stonelings.json"
-hash = "7ce8e55c5ed6b25fd183d8593e48de6c06f4c407d30fafe583aa6344095b4931"
-
-[[files]]
-file = "config/questlog/quests/storage_cells.json"
-hash = "62f98fa769c184f9ede50ff38be96e0aa700be840213cfa349653126e438e95a"
-
-[[files]]
-file = "config/questlog/quests/storage_monitor.json"
-hash = "e4093e6c2d102af842063c84c94739b3efd0c3e162aaabc6485604ca03d345fd"
-
-[[files]]
-file = "config/questlog/quests/substrate.json"
-hash = "725646279928b86236e32f2bac01280493a84d97f2f9d47ac8326f2ee374d678"
-
-[[files]]
-file = "config/questlog/quests/tesla_coil.json"
-hash = "0aad67a28bc96b3518f24561dd8420394c10002280229bf171a838f50d81dedc"
-
-[[files]]
-file = "config/questlog/quests/things_to_look_out_for.json"
-hash = "fa2f0118b1bcef01a9f9855aa4c07b953722bdb96add1e84e2120fc5606e457b"
-
-[[files]]
-file = "config/questlog/quests/trading.json"
-hash = "12057bc04f0645093b131ebf3a8088f718908b09c7919cf62183707aba7608ac"
-
-[[files]]
-file = "config/questlog/quests/travel_to_abydos.json"
-hash = "26ed59959a1ec6947922b8718d1c702ecb2bba922d35c3ece3d8ef19e0f1dcb6"
-
-[[files]]
-file = "config/questlog/quests/trowel.json"
-hash = "f2c57555da28cacc91afa398d62b2f9a82b546e74a7d1193c81e4ebfe29bb344"
-
-[[files]]
-file = "config/questlog/quests/upgraded_botany_pots.json"
-hash = "afe903b20376711cdb11a78d8ed1ccf6ecaf90d27e4a6fcf536b3154e17d4215"
-
-[[files]]
-file = "config/questlog/quests/venus_ore.json"
-hash = "8e3c1f489ff5d1e9b6fec9efccc8c7d1332f13fd6f2b3db60f711aeef10bd899"
-
-[[files]]
-file = "config/questlog/quests/venus_travel.json"
-hash = "9673daeeb960e7ae5d7eb0c7b04db6ba1c9635f11516f88dd97992b7becdc333"
-
-[[files]]
-file = "config/questlog/quests/visit_moon_village.json"
-hash = "a1785f32664cfa2eda19b2572d44e83c893a9a0503042537314a94900d05ad59"
-
-[[files]]
-file = "config/questlog/quests/wafer_dough.json"
-hash = "35ce873511bd0a48da45f657f2abc6041e4734b7023b41664b42f90c2eb3d059"
-
-[[files]]
-file = "config/questlog/quests/weap_naquadah.json"
-hash = "b2800ea51e5713773cf5b0a052aabce0fd5b6e780b5265e51ab99647cead0bed"
-
-[[files]]
-file = "config/questlog/quests/welcome.json"
-hash = "c8c31d5915d6a6ff365bc9f0c2b9d50828db7a52c4af999b5515ecda0d8aad41"
-
-[[files]]
-file = "config/questlog/quests/welcome_kinetic_era.json"
-hash = "756be75730432a848581cb98deb559f5ed9ecc5bcad25a4d579b129b8c29adb1"
-
-[[files]]
-file = "config/questlog/quests/wireless_access.json"
-hash = "3b35fbcda8cd2adf0227dba491445786f85f545677ac6eb0b3c58559d2913006"
-
-[[files]]
-file = "config/questlog/quests/wireless_booster.json"
-hash = "825bf1ce59ed10263be39a9ea223b2ccc2452154dfa13fd6c38718f1b0bb48f6"
-
-[[files]]
-file = "config/questlog/quests/wireless_crafting_terminal.json"
-hash = "7bd322d6b0aae0abf362c1b6843817a16c5bc8b9b9391324ebd94312a18ac65d"
-
-[[files]]
-file = "config/questlog/quests/wireless_dimension.json"
-hash = "0268f756195e5b05dd0361b3bb4ab3b0e6f20629d88dc7c3f6f890de608ad465"
-
-[[files]]
-file = "config/questlog/quests/wireless_infinity.json"
-hash = "879ce305588f8fde1d23dc06088c5f7b8cf6ca72711d8d317669c40512a0858e"
-
-[[files]]
-file = "config/questlog/quests/wireless_universal_terminal.json"
-hash = "b70d1117270616589da66f8650b52fc031e9402d727cbdc64bcfa281a349b356"
-
-[[files]]
-file = "config/questlog/quests/xp_storage.json"
-hash = "dbe5ebfe213a45c3be126979961be548361c229fd356f58ff45d15ee471299ad"
-
-[[files]]
 file = "config/rftoolsbuilder-server.toml"
 hash = "e68b632d984aaefebc37ad083be99be90de384f27d4bfecb5fa1aa09c7230f63"
 
@@ -1639,6 +923,10 @@ hash = "34d5b2f9573c6861a7fd138d875817b3ec199355917467cae8365b34497da01f"
 [[files]]
 file = "kubejs/assets/jajasgates/textures/symbols/point_of_origin/cl_xtreme.png"
 hash = "589900a7b8cd8b6c2ef715ef4063b9a7829a164d981831f657873d3e674e779c"
+
+[[files]]
+file = "kubejs/assets/minecraft/texts/splashes.txt"
+hash = "5958d1ecefb1791cae29bb7f500e0bde91acd5dbc87e2ec6239c24078f8bbe14"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/lang/en_us.json"
@@ -6518,8 +5806,12 @@ hash = "a302f015b4927bf4d30b907b4e21052d9cd9a0abc47905a2e8b030d247e47b82"
 metafile = true
 
 [[files]]
+file = "mods/adastra-1.21.1-1.16.14-neoforge.jar"
+hash = "9aea358aae3b67a1005dd92f41c18245e4a8626d70ef460251df70a153fa2675"
+
+[[files]]
 file = "mods/adastra-stellarview-compatibility.pw.toml"
-hash = "0f3f5802c7c488bdcf87ef4743f411b5d89980a415f8082c842e5dc9a83eadff"
+hash = "245765adcff73da0f46ce1f94a679a83bba531caf9fefe6431b77e5b7a12c1ce"
 metafile = true
 
 [[files]]
@@ -6624,7 +5916,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
+hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
 metafile = true
 
 [[files]]
@@ -6854,7 +6146,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-encased.pw.toml"
-hash = "9a2501fc56a764d84b942a3d34724e7f7b07f0006093571417cbb861089c6dbc"
+hash = "f4b54d242e24cd04681972f1071a8d84d4c83599707f3a2dc686370ce3e7af25"
 metafile = true
 
 [[files]]
@@ -7113,6 +6405,11 @@ hash = "38ad3e2d199cc5185c5f93031ad9c7f045453b61b35639ae03e62306df215588"
 metafile = true
 
 [[files]]
+file = "mods/incendium.pw.toml"
+hash = "5a1604eb3c113c5a540de4768de72660ea652b41730ea318798a24b9f60d88b7"
+metafile = true
+
+[[files]]
 file = "mods/interiors.pw.toml"
 hash = "f1cec80f06a6bb696ff7250c273e328519944adb6b677dcd2476b428ede02e4e"
 metafile = true
@@ -7333,6 +6630,11 @@ hash = "6acba5e53610fc3e62bd9641aeaaba056f99248a2d1d86bbf032061a1e408826"
 metafile = true
 
 [[files]]
+file = "mods/neoauth.pw.toml"
+hash = "5837e3d15efdd727d7c430494ddf46ed7f303376167ecb962f598aa18365b48d"
+metafile = true
+
+[[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "26aca541ff9f149ef8bfdf69efb258d23339affd9fba4612bddd01e759fb0ffd"
 metafile = true
@@ -7478,11 +6780,6 @@ hash = "719c1b11d3c9f3204f85a36815b298e84aad29c2e98ec77eb0a07d1ba2783eff"
 metafile = true
 
 [[files]]
-file = "mods/questlog.pw.toml"
-hash = "7dfb66390446cb7d9743648bcf108745b471d3125b2e861d0ca1dcc8e9daf462"
-metafile = true
-
-[[files]]
 file = "mods/rechiseled-chipped.pw.toml"
 hash = "6575070ac547acae946f3d692b299b2d58a2fac7ed58cd18fd1d90f6c868aa6f"
 metafile = true
@@ -7554,7 +6851,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "2fe821faf9b627c75225d34d8c9637acdcb8cec987696280e592203e000a5c49"
+hash = "812c4badd22a79a8512da648473c9201b0c7e2f56f5d5c4acec956029a966b63"
 metafile = true
 
 [[files]]

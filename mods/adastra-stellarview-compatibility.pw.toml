@@ -1,13 +1,13 @@
 name = "AdAstra StellarView Compatibility"
-filename = "adastra_stellarview_compatibility-1.21.1-1.0.0.jar"
+filename = "adastra_stellarview_compatibility-1.21.1-1.0.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b385edc2fb8a7d8538e535acc0b57a211aed5cdd"
+hash = "4fa120ef40b93cbaffc35a3b57e97dd39e986be8"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8485459
+file-id = 8495680
 project-id = 1584126

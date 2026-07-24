@@ -4,7 +4,7 @@
 - WorldEdit CUI
 
 ### TODO:
-- look into
+- look into expanding the nether height to 256 (biomes o plenty? vanilla? add incendium?)
 - Update SGJ when released
 - Replace Ad Astra with jar on release - https://github.com/terrarium-earth/Ad-Astra/pull/783
 
@@ -36,7 +36,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 # THIS UPDATE IS NOT COMPATIBLE WITH 1.20.1 WORLDS
 ### Changes:
 - Updated MC to 1.21.1
-- Swapped to Neoforge 21.1.242
+- Swapped to Neoforge 21.1.243
 - Updated ModPack Thumbnail
 
 - ChatPlus (Replaces Chat Heads)
@@ -47,7 +47,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - Updated SGCommunity Pack Items to display proper mod name instead of `sgcommunity_pack`
 - Changed Substrates to Cruxes to work with Myst Ag
 - Added Oritech and SGJourney Blocks and Fluids to RFTools Dimlets
-- Converted the login book into quests ~~cause no one reads anyway~~ and added a few more quests
+- Converted the login book into quests and added a few Easymode quests
 - Added Myst Ag Quests Chapter to show what seeds go on what substrate
 - Various other Quest Improvements
 - Added Creative Only Infinite drives for all essences
@@ -61,6 +61,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - VeinMiner Enchantment
 - Potions Master
 - Nullscape
+- Incendium
 - Gateways to Eternity
 - Structure Overlapless
 - Spice of Life: Onion Edition
