@@ -4,7 +4,7 @@
 - WorldEdit CUI
 
 ### TODO:
-- look into expanding the nether height to 256 (biomes o plenty? vanilla? add incendium?)
+- Switch out the soul jars for mob predictions in the mob seed recipes (Infusion Altar does not read components yet)
 - Update SGJ when released
 - Replace Ad Astra with jar on release - https://github.com/terrarium-earth/Ad-Astra/pull/783
 
@@ -18,7 +18,6 @@
 ### Oritech Upgrades:
 - New Oritech Quest Chapter
 - Circuit Etching Mask made of smithing templates from different modded dims
-- add `oritech:refinery/arcane` to the apoth bookshelves, currently not tagged at all...
 - Integrate Oritech - this would be amazing to add compat for, make even more complex circuits and recipe chains... make a ZPM with it?
 - Super Endgame Quests - ZPM hub Reward?
 - ZPM replication options for endgame (talk to cookta) > use the Antiprotonic Nucleosynthesizer
@@ -36,7 +35,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 # THIS UPDATE IS NOT COMPATIBLE WITH 1.20.1 WORLDS
 ### Changes:
 - Updated MC to 1.21.1
-- Swapped to Neoforge 21.1.243
+- Swapped to Neoforge 21.1.244
 - Updated ModPack Thumbnail
 
 - ChatPlus (Replaces Chat Heads)

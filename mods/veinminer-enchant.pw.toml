@@ -1,13 +1,13 @@
 name = "VeinMiner Enchantment"
-filename = "veinminer-enchant-2.10.3+1.21.1.jar"
+filename = "veinminer-enchant-2.11.2+1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "3cd17f0734b56dac06181388f085508b4f30e887"
+hash = "3ab0b5883f9e79528071f2ed298a3cc8a7db106d"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8197587
+file-id = 8512781
 project-id = 1556603

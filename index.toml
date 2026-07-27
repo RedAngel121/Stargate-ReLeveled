@@ -4681,6 +4681,94 @@ file = "kubejs/data/modularrouters/recipe/blank_upgrade.json"
 hash = "9d3ad085853959daa7326c6036afa63e0f9c3ec25bdff77eb4a147bcd69c5956"
 
 [[files]]
+file = "kubejs/data/mysticalagriculture/recipe/seed/infusion/armadillo.json"
+hash = "cd16e5d1f7b1884d6f6137402a2623238c092467b959587836708586d29765f0"
+
+[[files]]
+file = "kubejs/data/mysticalagriculture/recipe/seed/infusion/blaze.json"
+hash = "d7d76668400022c7c9f2f3ffb35cf42e80eae2bc3e64aa4686c440b4478bcfd5"
+
+[[files]]
+file = "kubejs/data/mysticalagriculture/recipe/seed/infusion/breeze.json"
+hash = "7f0ccdd18b05e3ceb4bc4515ee670c95c6f550d35a400671e77951e1bdcebc39"
+
+[[files]]
+file = "kubejs/data/mysticalagriculture/recipe/seed/infusion/chicken.json"
+hash = "d7904e51cd95386a5561caa463a9f1b08646f84d9d66f0e5fb0c0fb9aa94b208"
+
+[[files]]
+file = "kubejs/data/mysticalagriculture/recipe/seed/infusion/cow.json"
+hash = "3e94c8ffa62749db937d39976cb56b942b892b99fe53221163486a3c4caa410e"
+
+[[files]]
+file = "kubejs/data/mysticalagriculture/recipe/seed/infusion/creeper.json"
+hash = "53fc6ff5eea140caaca63e891cec79582883283b23d52799c0d0aa5aad576f7a"
+
+[[files]]
+file = "kubejs/data/mysticalagriculture/recipe/seed/infusion/dragon_egg.json"
+hash = "ac5c6740a598c6e714d8e42374ea6d10300fe2734299a577e46a06320c8ed30a"
+
+[[files]]
+file = "kubejs/data/mysticalagriculture/recipe/seed/infusion/enderman.json"
+hash = "8f60362fda0836b6edf37df6e93f897da0c31a08087b0da64e58828790032f51"
+
+[[files]]
+file = "kubejs/data/mysticalagriculture/recipe/seed/infusion/fish.json"
+hash = "87e895424bfa4730cc1a6bcb7646744b1bdf81a860d0bf9d4b6101a60c76dab8"
+
+[[files]]
+file = "kubejs/data/mysticalagriculture/recipe/seed/infusion/ghast.json"
+hash = "fe819311247107a7f97271371fb755a34ea91c3ff3180b2940c2bbdeab1936b2"
+
+[[files]]
+file = "kubejs/data/mysticalagriculture/recipe/seed/infusion/nether_star.json"
+hash = "9621919d9ed1c971f854bdecf67f25a9e39bb6edc9b6a4f4801788bad6b5dee4"
+
+[[files]]
+file = "kubejs/data/mysticalagriculture/recipe/seed/infusion/phantom.json"
+hash = "e058747433ded943797ade21fb4df0dcdf8f378544428e472cf1f35652c65ae0"
+
+[[files]]
+file = "kubejs/data/mysticalagriculture/recipe/seed/infusion/pig.json"
+hash = "176cd146f0d2a7bee9697d513d4a02fc701f8da3cd60dbe70d0d6b55a316776f"
+
+[[files]]
+file = "kubejs/data/mysticalagriculture/recipe/seed/infusion/rabbit.json"
+hash = "145a4b441b2dd7c6617e3ef4863bede24024e990f1eb88dc63833d9e30a1dec4"
+
+[[files]]
+file = "kubejs/data/mysticalagriculture/recipe/seed/infusion/sheep.json"
+hash = "dd2f9291c64cbf1e2cebc3e0c6d1b54f319e791bd053342c7d29e0a77b4e9b76"
+
+[[files]]
+file = "kubejs/data/mysticalagriculture/recipe/seed/infusion/skeleton.json"
+hash = "3bde48907b62ef1c87fde4b9813aeaff228e70655a066adc46fdcbddbc282c18"
+
+[[files]]
+file = "kubejs/data/mysticalagriculture/recipe/seed/infusion/slime.json"
+hash = "e702a9cb948cbd1e950e4a3e0526a5a792362ed902601977e1e1f2e542ecf49b"
+
+[[files]]
+file = "kubejs/data/mysticalagriculture/recipe/seed/infusion/spider.json"
+hash = "b953929c1e23f4d27ef0b713265f2b696033168758860d82070acb4646437896"
+
+[[files]]
+file = "kubejs/data/mysticalagriculture/recipe/seed/infusion/squid.json"
+hash = "19dcb5c2d09590869451c2831158a0550d4e0142eb74e1d9ac986b25131c694e"
+
+[[files]]
+file = "kubejs/data/mysticalagriculture/recipe/seed/infusion/turtle.json"
+hash = "20f1c6f3b2b5d747a3d6aeb8efe6e12c13d71adc4be3770f61833977f0f7b25b"
+
+[[files]]
+file = "kubejs/data/mysticalagriculture/recipe/seed/infusion/wither_skeleton.json"
+hash = "599a84bed88b69e9ac0e8f46a21f721544fbf85fe22da610ce47267e669c9a3d"
+
+[[files]]
+file = "kubejs/data/mysticalagriculture/recipe/seed/infusion/zombie.json"
+hash = "4ad1c9f54e1e10a971a8b78973f1a84ee1a9a8a98a9d88c7cfc35689800f4bb6"
+
+[[files]]
 file = "kubejs/data/nullscape/function/toast.mcfunction"
 hash = "3a462c97d2c226cd510d970bc821d97be5fb85cc7ac2be2beb7a6754d4ca858a"
 
@@ -5766,7 +5854,7 @@ hash = "b19f2862124cbf0512d9a560eb6bdf6e138c8bf2ff0f561794034875efb7643a"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "334bc1ed2b2c793dc329200dacff63e8c4f1c70e1468eb28d21eb1bc5a168875"
+hash = "f999e4104bba06b84f62491e546271a05bd247416739c96b85844c73c01e5218"
 
 [[files]]
 file = "kubejs/server_scripts/wafer_chain.js"
@@ -5871,7 +5959,7 @@ metafile = true
 
 [[files]]
 file = "mods/apothic-attributes.pw.toml"
-hash = "26adeeb9e8fdc96d8644b8cc6b141d24238a640fccf1a8f760f9f7460b71f151"
+hash = "5fbeebfba16e5480242c5e0db97a9167289500e53bc0df1a0a872c0e62f55de8"
 metafile = true
 
 [[files]]
@@ -6231,7 +6319,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "2fa66d502813d127e2d1975884b361c482b9c08ccb57fd091d74e0ea3f17e30e"
+hash = "3424bdca726083f295faf95870da7864ad79db93afc8935d7db26d77698d0bca"
 metafile = true
 
 [[files]]
@@ -6291,7 +6379,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
-hash = "268e0ccb66eb96da9a85f129ee1247581398e6d4848d190647729cd68a7a5006"
+hash = "0922cfee3b7351e62fb22ccc6e5a59f35fd99fe80737dc861ada3b5407ecdf87"
 metafile = true
 
 [[files]]
@@ -6306,17 +6394,17 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "a2aa051ec45ec685f523fbf3813f23c5fde1935d7193e248871f1427ca1dd558"
+hash = "4c996e783683f1a51df88d6af6b57881ff095c8801b0f5ab2969d0d121c137f8"
 metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "d1cd2e49985872d923864aa44e4ff8b4d97e3ab9e78bf2c5fd57d2275a62901b"
+hash = "da2c394095a44e251165338b5e36f86233188d1387878b367fbc43975be66c54"
 metafile = true
 
 [[files]]
 file = "mods/ftb-ranks-forge.pw.toml"
-hash = "810e1fce6db6ac0a6bfce460c0908ed8e9b33648fddbb65db849aba368e8d7bc"
+hash = "da91da44b5eafdbf7a964bae0f7b550722f46d5959752ca17c942da5436d9ef0"
 metafile = true
 
 [[files]]
@@ -6326,7 +6414,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
-hash = "0cb531aca428ef783098fba4e27bfc567b9256dd18ffe1f67c04b40932a1aac3"
+hash = "6a76a2faafbca6e5743c1907e5acf878b0ef75c29807452af8c2655439a1c085"
 metafile = true
 
 [[files]]
@@ -6441,7 +6529,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "d491ef009e986a242bb37353b909696bc85057b0cd57b20af31be0778e08cb42"
+hash = "7576f3bfdf784ccb4cf4df83a034d9c50870d00567225367ace536f2943d6fcb"
 metafile = true
 
 [[files]]
@@ -6566,7 +6654,7 @@ metafile = true
 
 [[files]]
 file = "mods/mmmmmmmmmmmm.pw.toml"
-hash = "2fb7e655ff6cd74cf4d97ce3cdb14c606e015ae3c59fa0a970deaddd990b6a80"
+hash = "85ab3b0caa411967eb8461901877090a88c6d78a1e53fe7e2a91e6bd2673456b"
 metafile = true
 
 [[files]]
@@ -6606,7 +6694,7 @@ metafile = true
 
 [[files]]
 file = "mods/mystical-agradditions.pw.toml"
-hash = "6f039a40753e0975d77a3d2f08a84637c57f6beae9ff4018db9ca15ab68ead25"
+hash = "16ea9e9370cad907244a724cf29bd20790c10f8babac239bfae13deea49dafd4"
 metafile = true
 
 [[files]]
@@ -6851,7 +6939,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "812c4badd22a79a8512da648473c9201b0c7e2f56f5d5c4acec956029a966b63"
+hash = "0e806e9224ec274d133d2bcd9e32e7156b63967c1e9bf304dab48be98158da15"
 metafile = true
 
 [[files]]
@@ -6915,12 +7003,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "1e86ab92a578860e302597982af02eaac9a706b9e7b79dbeed4ab10b8bcc40fb"
+hash = "95b646021343034307aa64ccbdffa247aab6642fb5888bec7eba5b93aa071d7c"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "0abb927b7f83924466717d5936db015eae28e2dcd142644dcabc5565cbebba9c"
+hash = "9691e0caa6ebd2d045e862e792aa762b2eb159c359d9c446241d32f731a7e5bb"
 metafile = true
 
 [[files]]
@@ -6935,7 +7023,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-create-integration.pw.toml"
-hash = "0e6f2d5731502855c252c7accab0794db273a7c9d0ecbbeeebed830fb5f0cb0d"
+hash = "78a821b1555c067aa6a1efb5a8a1a8f467ad958fcf2af7649534d61ea31c510e"
 metafile = true
 
 [[files]]
@@ -6945,7 +7033,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "979471fbda35a11099ab1b9a67662e7b93be6442e125f93bab582b036a80ab48"
+hash = "c700f42611b1e4412c3528b976100e48d7fb992f84f39de37b8db3aa2bb444ce"
 metafile = true
 
 [[files]]
@@ -7070,12 +7158,12 @@ metafile = true
 
 [[files]]
 file = "mods/veinminer-enchant.pw.toml"
-hash = "b91421d65178a103f76149101ffcadab87e997df8bba4e5cb45d17d3c6fa2297"
+hash = "65340eee541ace39db80fe534a3eee6c5d7ce921c62e15fe1fbbefdf072d8f41"
 metafile = true
 
 [[files]]
 file = "mods/veinminer-mod.pw.toml"
-hash = "ec32df61877a8a7335b83b5d9ce4cf7d5b0f4ca4251ce4b92ef8866656b16c8a"
+hash = "145d0b4173183c599406cbc83a79b80194f71c587399278b4505f8771477bad6"
 metafile = true
 
 [[files]]

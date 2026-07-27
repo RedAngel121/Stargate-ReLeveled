@@ -144,3 +144,17 @@ ServerEvents.tags('item', event => {
     event.add('curios:charm', 'darkutils:charm_gluttony');
     event.add('curios:charm', 'darkutils:charm_sloth');
 })
+
+// Adding All Bookshelves to Oritech Arcane tag
+let shelves = [
+    "chipped:bookshelf", "c:bookshelves", "handcrafted:shelves", "cognition:infected_bookshelf", "cognition:infected_archivers_bookshelf", "cognition:infected_enchanted_bookshelf", "framedblocks:framed_chiseled_bookshelf",
+    "apothic_enchanting:hellshelf", "apothic_enchanting:infused_hellshelf", "apothic_enchanting:blazing_hellshelf", "apothic_enchanting:glowing_hellshelf", "apothic_enchanting:sightshelf", "apothic_enchanting:sightshelf_t2",
+    "apothic_enchanting:seashelf", "apothic_enchanting:infused_seashelf", "apothic_enchanting:crystal_seashelf", "apothic_enchanting:heart_seashelf", "apothic_enchanting:filteringshelf", "apothic_enchanting:treasure_shelf",
+    "apothic_enchanting:deepshelf", "apothic_enchanting:dormant_deepshelf", "apothic_enchanting:echoing_deepshelf", "apothic_enchanting:soul_touched_deepshelf", "apothic_enchanting:echoing_sculkshelf", "apothic_enchanting:soul_touched_sculkshelf",
+    "apothic_enchanting:endshelf", "apothic_enchanting:pearl_endshelf", "apothic_enchanting:draconic_endshelf", "apothic_enchanting:beeshelf", "apothic_enchanting:melonshelf", "apothic_enchanting:stoneshelf", "apothic_enchanting:geode_helf",
+]
+ServerEvents.tags("block", event => {
+    for (let each of shelves) {
+        event.add("oritech:refinery/arcane", each)
+    }
+})
