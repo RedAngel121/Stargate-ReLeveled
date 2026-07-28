@@ -1,0 +1,61 @@
+{
+    "logo_texture": "ReLeveled.png",
+    "logo_width": 1,
+    "logo_height": 1,
+    "variants": {
+        "milky_way": [
+            "default",
+            "promo",
+            "sg-1"
+        ],
+        "universe": [
+            "default"
+        ],
+        "pegasus": [
+            "default"
+        ]
+    },
+    "default_dialing_strategies": {
+        "milky_way": "MilkyWay3Step",
+        "pegasus": "PegasusLoading",
+        "universe": "UniverseLoading"
+    },
+    "symbols": {
+        "milky_way:terra": {
+            "size": 38,
+            "file": "assets/symbols/milky_way/terra.png"
+        },
+        "pegasus:lantea": {
+            "size": 38,
+            "file": "assets/symbols/pegasus/lantea.png"
+        },
+        "universal": {
+            "size": 35,
+            "file": "assets/symbols/universal/universal.png"
+        }
+    },
+    "backgrounds": [
+        "assets/backgrounds/abydos_2moons.png",
+        "assets/backgrounds/abydos_3moons.png",
+        "assets/backgrounds/dark_sky.png",
+        "assets/backgrounds/lantea.png",
+        "assets/backgrounds/milkyway.png",
+        "assets/backgrounds/milkyway2.png",
+        "assets/backgrounds/milkyway3.png",
+        "assets/backgrounds/milkyway_side.png",
+        "assets/backgrounds/pegasus.png",
+        "assets/backgrounds/pegasus2.png",
+        "assets/backgrounds/blackhole_bottom.png",
+        "assets/backgrounds/blackhole.png"
+    ],
+    "chevron_order": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+    ]
+}

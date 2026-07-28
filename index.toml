@@ -625,6 +625,14 @@ file = "config/staaaaaaaaaaaack-common.toml"
 hash = "2e54b9ecf86a3300fab09424b83d9910e6cac05ef767f9322bbc939601ac543b"
 
 [[files]]
+file = "config/stargate-early-loading.json"
+hash = "724a45258bcceb6db8a9d5bfc6f680fc546db03926a9dc7d620659aae43b529c"
+
+[[files]]
+file = "config/stargate-early-loading/ReLeveled.png"
+hash = "3155c086e1e90a21ca33565f2e66df0f47f7b2a118d3b0dfc18421332a3cb32f"
+
+[[files]]
 file = "config/voicechat/voicechat-server.properties"
 hash = "a532225bafe668969fbb8a3d7cb249429d2fd84203d3df3e43c3b32a512baa4e"
 
