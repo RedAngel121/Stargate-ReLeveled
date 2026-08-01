@@ -1,0 +1,17 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "mekanism"
+        }
+    ],
+    "type": "mekanism:sawing",
+    "input": {
+        "count": 1,
+        "item": "ad_astra:strophar_door"
+    },
+    "main_output": {
+        "count": 2,
+        "id": "ad_astra:strophar_planks"
+    }
+}

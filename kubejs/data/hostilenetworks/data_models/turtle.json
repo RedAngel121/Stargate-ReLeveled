@@ -1,0 +1,21 @@
+{
+    "entity": "minecraft:turtle",
+    "variants": [],
+    "name_color": "#3EA241",
+    "display": {},
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.turtle",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:turtle_scute",
+            "count": 2
+        }
+    ]
+}

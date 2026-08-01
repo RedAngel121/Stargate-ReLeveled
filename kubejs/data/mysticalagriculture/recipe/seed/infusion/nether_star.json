@@ -1,63 +1,83 @@
 {
-  "type": "mysticalagriculture:infusion",
-  "neoforge:conditions": [
-    {
-      "type": "mysticalagriculture:crop_enabled",
-      "crop": "mysticalagradditions:nether_star"
+    "type": "mysticalagriculture:infusion",
+    "neoforge:conditions": [
+        {
+            "type": "mysticalagriculture:crop_enabled",
+            "crop": "mysticalagradditions:nether_star"
+        },
+        {
+            "type": "mysticalagriculture:crop_has_material",
+            "crop": "mysticalagradditions:nether_star"
+        }
+    ],
+    "input": {
+        "type": "mysticalagriculture:crop_component",
+        "component": "seed",
+        "crop": "mysticalagradditions:nether_star"
     },
-    {
-      "type": "mysticalagriculture:crop_has_material",
-      "crop": "mysticalagradditions:nether_star"
+    "ingredients": [
+        {
+            "type": "neoforge:components",
+            "items": [
+                "hostilenetworks:prediction"
+            ],
+            "strict": false,
+            "components": {
+                "hostilenetworks:data_model": "hostilenetworks:wither"
+            }
+        },
+        {
+            "type": "mysticalagriculture:crop_component",
+            "component": "essence",
+            "crop": "mysticalagradditions:nether_star"
+        },
+        {
+            "type": "neoforge:components",
+            "items": [
+                "hostilenetworks:prediction"
+            ],
+            "strict": false,
+            "components": {
+                "hostilenetworks:data_model": "hostilenetworks:wither"
+            }
+        },
+        {
+            "type": "mysticalagriculture:crop_component",
+            "component": "essence",
+            "crop": "mysticalagradditions:nether_star"
+        },
+        {
+            "type": "neoforge:components",
+            "items": [
+                "hostilenetworks:prediction"
+            ],
+            "strict": false,
+            "components": {
+                "hostilenetworks:data_model": "hostilenetworks:wither"
+            }
+        },
+        {
+            "type": "mysticalagriculture:crop_component",
+            "component": "essence",
+            "crop": "mysticalagradditions:nether_star"
+        },
+        {
+            "type": "neoforge:components",
+            "items": [
+                "hostilenetworks:prediction"
+            ],
+            "strict": false,
+            "components": {
+                "hostilenetworks:data_model": "hostilenetworks:wither"
+            }
+        },
+        {
+            "type": "mysticalagriculture:crop_component",
+            "component": "essence",
+            "crop": "mysticalagradditions:nether_star"
+        }
+    ],
+    "result": {
+        "id": "mysticalagriculture:nether_star_seeds"
     }
-  ],
-  "input": {
-    "type": "mysticalagriculture:crop_component",
-    "component": "seed",
-    "crop": "mysticalagradditions:nether_star"
-  },
-  "ingredients": [
-    {
-      "type": "mysticalagriculture:crop_component",
-      "component": "material",
-      "crop": "mysticalagradditions:nether_star"
-    },
-    {
-      "type": "mysticalagriculture:crop_component",
-      "component": "essence",
-      "crop": "mysticalagradditions:nether_star"
-    },
-    {
-      "type": "mysticalagriculture:crop_component",
-      "component": "material",
-      "crop": "mysticalagradditions:nether_star"
-    },
-    {
-      "type": "mysticalagriculture:crop_component",
-      "component": "essence",
-      "crop": "mysticalagradditions:nether_star"
-    },
-    {
-      "type": "mysticalagriculture:crop_component",
-      "component": "material",
-      "crop": "mysticalagradditions:nether_star"
-    },
-    {
-      "type": "mysticalagriculture:crop_component",
-      "component": "essence",
-      "crop": "mysticalagradditions:nether_star"
-    },
-    {
-      "type": "mysticalagriculture:crop_component",
-      "component": "material",
-      "crop": "mysticalagradditions:nether_star"
-    },
-    {
-      "type": "mysticalagriculture:crop_component",
-      "component": "essence",
-      "crop": "mysticalagradditions:nether_star"
-    }
-  ],
-  "result": {
-    "id": "mysticalagriculture:nether_star_seeds"
-  }
 }

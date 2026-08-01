@@ -20,10 +20,7 @@
         "endermanoverhaul:warped_forest_enderman",
         "endermanoverhaul:windswept_hills_enderman"
     ],
-    "name": {
-        "translate": "entity.minecraft.enderman",
-        "color": "#161616"
-    },
+    "name_color": "#161616",
     "display": {
         "scale": 0.75
     },
@@ -43,6 +40,16 @@
         {
             "id": "minecraft:end_crystal",
             "count": 1
+        },
+        {
+            "id": "evilcraft:ender_tear",
+            "optional": true,
+            "count": 4
+        },
+        {
+            "id": "reliquary:nebulous_heart",
+            "optional": true,
+            "count": 2
         },
         {
             "id": "endermanoverhaul:corrupted_pearl",
@@ -103,16 +110,6 @@
             "id": "endermanoverhaul:snowy_hood",
             "optional": true,
             "count": 1
-        },
-        {
-            "id": "evilcraft:ender_tear",
-            "optional": true,
-            "count": 4
-        },
-        {
-            "id": "reliquary:nebulous_heart",
-            "optional": true,
-            "count": 2
         }
     ]
 }

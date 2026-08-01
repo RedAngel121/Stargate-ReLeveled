@@ -1,64 +1,84 @@
 {
-  "neoforge:conditions": [
-    {
-      "type": "mysticalagriculture:crop_enabled",
-      "crop": "mysticalagriculture:skeleton"
+    "neoforge:conditions": [
+        {
+            "type": "mysticalagriculture:crop_enabled",
+            "crop": "mysticalagriculture:skeleton"
+        },
+        {
+            "type": "mysticalagriculture:crop_has_material",
+            "crop": "mysticalagriculture:skeleton"
+        }
+    ],
+    "type": "mysticalagriculture:infusion",
+    "ingredients": [
+        {
+            "type": "neoforge:components",
+            "items": [
+                "hostilenetworks:prediction"
+            ],
+            "strict": false,
+            "components": {
+                "hostilenetworks:data_model": "hostilenetworks:skeleton"
+            }
+        },
+        {
+            "type": "mysticalagriculture:crop_component",
+            "component": "essence",
+            "crop": "mysticalagriculture:skeleton"
+        },
+        {
+            "type": "neoforge:components",
+            "items": [
+                "hostilenetworks:prediction"
+            ],
+            "strict": false,
+            "components": {
+                "hostilenetworks:data_model": "hostilenetworks:skeleton"
+            }
+        },
+        {
+            "type": "mysticalagriculture:crop_component",
+            "component": "essence",
+            "crop": "mysticalagriculture:skeleton"
+        },
+        {
+            "type": "neoforge:components",
+            "items": [
+                "hostilenetworks:prediction"
+            ],
+            "strict": false,
+            "components": {
+                "hostilenetworks:data_model": "hostilenetworks:skeleton"
+            }
+        },
+        {
+            "type": "mysticalagriculture:crop_component",
+            "component": "essence",
+            "crop": "mysticalagriculture:skeleton"
+        },
+        {
+            "type": "neoforge:components",
+            "items": [
+                "hostilenetworks:prediction"
+            ],
+            "strict": false,
+            "components": {
+                "hostilenetworks:data_model": "hostilenetworks:skeleton"
+            }
+        },
+        {
+            "type": "mysticalagriculture:crop_component",
+            "component": "essence",
+            "crop": "mysticalagriculture:skeleton"
+        }
+    ],
+    "input": {
+        "type": "mysticalagriculture:crop_component",
+        "component": "seed",
+        "crop": "mysticalagriculture:skeleton"
     },
-    {
-      "type": "mysticalagriculture:crop_has_material",
-      "crop": "mysticalagriculture:skeleton"
+    "result": {
+        "count": 1,
+        "id": "mysticalagriculture:skeleton_seeds"
     }
-  ],
-  "type": "mysticalagriculture:infusion",
-  "ingredients": [
-    {
-      "type": "mysticalagriculture:crop_component",
-      "component": "material",
-      "crop": "mysticalagriculture:skeleton"
-    },
-    {
-      "type": "mysticalagriculture:crop_component",
-      "component": "essence",
-      "crop": "mysticalagriculture:skeleton"
-    },
-    {
-      "type": "mysticalagriculture:crop_component",
-      "component": "material",
-      "crop": "mysticalagriculture:skeleton"
-    },
-    {
-      "type": "mysticalagriculture:crop_component",
-      "component": "essence",
-      "crop": "mysticalagriculture:skeleton"
-    },
-    {
-      "type": "mysticalagriculture:crop_component",
-      "component": "material",
-      "crop": "mysticalagriculture:skeleton"
-    },
-    {
-      "type": "mysticalagriculture:crop_component",
-      "component": "essence",
-      "crop": "mysticalagriculture:skeleton"
-    },
-    {
-      "type": "mysticalagriculture:crop_component",
-      "component": "material",
-      "crop": "mysticalagriculture:skeleton"
-    },
-    {
-      "type": "mysticalagriculture:crop_component",
-      "component": "essence",
-      "crop": "mysticalagriculture:skeleton"
-    }
-  ],
-  "input": {
-    "type": "mysticalagriculture:crop_component",
-    "component": "seed",
-    "crop": "mysticalagriculture:skeleton"
-  },
-  "result": {
-    "count": 1,
-    "id": "mysticalagriculture:skeleton_seeds"
-  }
 }

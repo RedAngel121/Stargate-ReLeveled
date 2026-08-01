@@ -20,6 +20,18 @@
 			protected_inventory_access = true
 			#If true, protected blocks won't be destroyed during any explosion
 			protected_blocks_ignore_explosions = true
+			#Decides the player permission level required for a player to run the Force Stellar Update command
+			# Default: 2
+			# Range: 0 ~ 4
+			stellar_update_permissions = 2
+			#Decides the player permission level required to modify or break protected Transporters
+			# Default: 0
+			# Range: 0 ~ 4
+			protected_transporter_permissions = 0
+			#Decides the player permission level required to modify or break protected Transporter Controllers
+			# Default: 0
+			# Range: 0 ~ 4
+			protected_transporter_controller_permissions = 0
 
 		["Stargate Journey Common Config"."ZPM Config".server]
 			#The energy that can be extracted from a single level of entropy
@@ -38,14 +50,6 @@
 			other_mods_use_zero_point_energy = false
 
 		["Stargate Journey Common Config"."DHD Config".server]
-			#The amount by which the Energy Crystal increases a DHD's Energy Target
-			# Default: 50000
-			# Range: 1 ~ 9223372036854775807
-			energy_crystal_dhd_energy_target = 50000
-			#The amount by which the AdvancedEnergy Crystal increases a DHD's Energy Target
-			# Default: 100000
-			# Range: 1 ~ 9223372036854775807
-			advanced_energy_crystal_dhd_energy_target = 100000
 			#Capacity of the energy buffer inside the DHD
 			# Default: 300000
 			# Range: 0 ~ 9223372036854775807
@@ -94,6 +98,14 @@
 			# Default: 5000
 			# Range: 0 ~ 9223372036854775807
 			classic_dhd_button_press_energy_cost = 5000
+			#The amount by which the Energy Crystal increases the Energy Target
+			# Default: 50000
+			# Range: 1 ~ 9223372036854775807
+			energy_crystal_energy_target_increase = 50000
+			#The amount by which the AdvancedEnergy Crystal increases the Energy Target
+			# Default: 100000
+			# Range: 1 ~ 9223372036854775807
+			advanced_energy_crystal_energy_target_increase = 100000
 
 		["Stargate Journey Common Config"."Interface Config".server]
 			#The default amount of energy the Interface will try to provide until it stops
@@ -101,18 +113,18 @@
 			# Range: 1 ~ 9223372036854775807
 			default_energy_target = 200000
 			#The amount of energy a Basic Interface can hold
-			# Default: 10000000
+			# Default: 500000
 			# Range: 1 ~ 9223372036854775807
 			basic_interface_capacity = 10000000
-			#The maximum amount of energy a Basic Interface can transfer at once
-			# Default: 100000
+			#The maximum amount of energy a Basic Interface can transfer (in and out) at once
+			# Default: 50000
 			# Range: 1 ~ 9223372036854775807
 			basic_interface_max_transfer = 100000
 			#The amount of energy a Crystal Interface can hold
 			# Default: 100000000
 			# Range: 1 ~ 9223372036854775807
 			crystal_interface_capacity = 100000000
-			#The maximum amount of energy a Crystal Interface can transfer at once
+			#The maximum amount of energy a Crystal Interface can transfer (in and out) at once
 			# Default: 10000000
 			# Range: 1 ~ 9223372036854775807
 			crystal_interface_max_transfer = 10000000
@@ -120,7 +132,7 @@
 			# Default: 100000000000
 			# Range: 1 ~ 9223372036854775807
 			advanced_crystal_interface_capacity = 100000000000
-			#The maximum amount of energy an Advanced Crystal Interface can transfer at once
+			#The maximum amount of energy an Advanced Crystal Interface can transfer (in and out) at once
 			# Default: 100000000000
 			# Range: 1 ~ 9223372036854775807
 			advanced_crystal_interface_max_transfer = 100000000000
@@ -149,7 +161,7 @@
 			kawoosh_disintegrates_items = true
 			#Decides if 8-chevron addresses can be used for dialing within the same galaxy
 			allow_interstellar_8_chevron_addresses = false
-			#Decides if two Stargates from the same Solar System should be able to connect
+			#Decides if two Stargates from the same Solar System should be able to connect when a 9-chevron address is used
 			allow_system_wide_connections = true
 			#Enables the use of redstone for manual Stargate dialing
 			enable_redstone_dialing = true
@@ -264,10 +276,6 @@
 			# Default: 16384
 			# Range: > 1
 			netherite_iris_durability = 16384
-			#Durability of the Naquadah Alloy Iris
-			# Default: 8192
-			# Range: > 1
-			naquadah_alloy_iris_durability = 8192
 			#Durability of the Trinium Iris
 			# Default: 16384
 			# Range: > 1
@@ -280,6 +288,18 @@
 			# Default: 4096
 			# Range: > 1
 			steel_iris_durability = 4096
+			#Durability of the Naquadah Iris
+			# Default: 4096
+			# Range: > 1
+			naquadah_iris_durability = 4096
+			#Durability of the Naquadah-Copper Alloy Iris
+			# Default: 8192
+			# Range: > 1
+			naquadah_copper_alloy_iris_durability = 8192
+			#Durability of the Naquadah-Iron Alloy Iris
+			# Default: 8192
+			# Range: > 1
+			naquadah_iron_alloy_iris_durability = 8192
 
 		["Stargate Journey Common Config"."Transmission Config".server]
 			#Max number of times a transmission can be forwarded before it disappears
@@ -336,10 +356,24 @@
 			# Default: 1000000
 			# Range: 1 ~ 9223372036854775807
 			naquadah_generator_mark_ii_max_transfer = 10000000
+			#The amount of time in ticks for which the Naquadah Reactor will generate energy from one unit of fuel
+			# Default: 100
+			# Range: 1 ~ 9223372036854775807
+			naquadah_reactor_reaction_time = 100
+			#The amount of FE generated per one tick of reaction by the Naquadah Reactor
+			# Default: 1000
+			# Range: 1 ~ 9223372036854775807
+			naquadah_reactor_energy_per_tick = 1000
+			#The amount of energy a Naquadah Reactor can hold
+			# Default: 100000
+			# Range: 1 ~ 9223372036854775807
+			naquadah_reactor_capacity = 100000
+			#The maximum amount of energy a Naquadah Reactor can transfer at once
+			# Default: 100000
+			# Range: 1 ~ 9223372036854775807
+			naquadah_reactor_max_transfer = 100000
 
 		["Stargate Journey Common Config"."Stargate Network Config".server]
-			#Stargate Network will use addresses from datapacks
-			use_datapack_addresses = false
 			#Stargate Network will generate random Solar System for each dimension not registered through a datapack
 			generate_random_solar_systems = true
 			#Stargate Network will randomize addresses based on the world seed
@@ -348,6 +382,8 @@
 			disable_dhd_preference = true
 			#Stargates Network will prioritize Primary Stargates
 			primary_stargate = true
+			#Stargate Network will randomize addresses, rather than using the addresses from datapacks
+			randomize_addresses = false
 
 		["Stargate Journey Common Config"."Generation Config".server]
 			#Common Stargates will generate
@@ -356,11 +392,11 @@
 			common_stargate_search = false
 			#X chunk center offset of structures that contain a Stargate
 			# Default: 0
-			# Range: -512 ~ 512
+			# Range: -1874999 ~ 1874999
 			stargate_generation_center_x_chunk_offset = 0
 			#Z chunk center offset of structures that contain a Stargate
 			# Default: 0
-			# Range: -512 ~ 512
+			# Range: -1874999 ~ 1874999
 			stargate_generation_center_z_chunk_offset = 0
 			#X chunk bounds within which a Structure containing a Stargate may generate
 			# Default: 64
@@ -378,6 +414,8 @@
 			# Default: 64
 			# Range: 0 ~ 64
 			buried_stargate_generation_z_bound = 64
+			#If true, Stargate structures with an obstructed variant will generate as obstructed (in order to prevent cheesing progression for Vanilla/other mods)
+			generate_obstructed_stargates = true
 
 		["Stargate Journey Common Config"."Tech Config".server]
 			#If true, Fusion Core will produce an endless amount of energy and won't require any fuel
@@ -416,22 +454,118 @@
 			# Default: 200000
 			# Range: 1 ~ 9223372036854775807
 			naquadah_power_cell_max_transfer = 200000
-			#The amount of energy an Energy Crystal can hold
+			#The amount of energy a Small Naquadah Battery can hold
 			# Default: 5000000
 			# Range: 1 ~ 9223372036854775807
 			small_naquadah_battery_capacity = 5000000
-			#The amount of energy an Advanced Energy Crystal can hold
+			#The amount of energy a Small Naquadah Battery can transfer in one tick
 			# Default: 10000
 			# Range: 1 ~ 9223372036854775807
 			small_naquadah_battery_max_transfer = 10000
-			#The amount of energy an Energy Crystal can hold
+			#The amount of energy a Large Naquadah Battery can hold
 			# Default: 1000000000
 			# Range: 1 ~ 9223372036854775807
 			large_naquadah_battery_capacity = 1000000000
-			#The amount of energy an Advanced Energy Crystal can hold
+			#The amount of energy a Large Naquadah Battery can transfer in one tick
 			# Default: 100000
 			# Range: 1 ~ 9223372036854775807
 			large_naquadah_battery_max_transfer = 100000
+			#The maximum amount of energy the Naquadah Liquidizer can hold
+			# Default: 1000000
+			# Range: 1 ~ 9223372036854775807
+			naquadah_liquidizer_energy_capacity = 1000000
+			#The maximum amount of energy the Naquadah Liquidizer can receive in one tick
+			# Default: 100000
+			# Range: 1 ~ 9223372036854775807
+			naquadah_liquidizer_max_energy_receive = 100000
+			#The amount of energy the Naquadah Liquidizer depletes per tick when active
+			# Default: 1000
+			# Range: 0 ~ 9223372036854775807
+			naquadah_liquidizer_energy_per_tick = 1000
+			#The maximum amount of fluid the input tank of the Naquadah Liquidizer can hold
+			# Default: 4000
+			# Range: > 1
+			naquadah_liquidizer_fluid_input_capacity = 4000
+			#The maximum amount of fluid the output tank of the Naquadah Liquidizer can hold
+			# Default: 4000
+			# Range: > 1
+			naquadah_liquidizer_fluid_output_capacity = 4000
+			#The maximum amount of fluid the Naquadah Liquidizer can receive in one tick
+			# Default: 1000
+			# Range: > 1
+			naquadah_liquidizer_max_fluid_receive = 1000
+			#The maximum amount of fluid that can be extracted from the Naquadah Liquidizer in one tick
+			# Default: 1000
+			# Range: > 1
+			naquadah_liquidizer_max_fluid_extract = 1000
+			#The maximum amount of energy the Heavy Naquadah Liquidizer can hold
+			# Default: 1000000
+			# Range: 1 ~ 9223372036854775807
+			heavy_naquadah_liquidizer_energy_capacity = 1000000
+			#The maximum amount of energy the Heavy Naquadah Liquidizer can receive in one tick
+			# Default: 100000
+			# Range: 1 ~ 9223372036854775807
+			heavy_naquadah_liquidizer_max_energy_receive = 100000
+			#The amount of energy the Heavy Naquadah Liquidizer depletes per tick when active
+			# Default: 1000
+			# Range: 0 ~ 9223372036854775807
+			heavy_naquadah_liquidizer_energy_per_tick = 1000
+			#The maximum amount of fluid the input tank of the Heavy Naquadah Liquidizer can hold
+			# Default: 4000
+			# Range: > 1
+			heavy_naquadah_liquidizer_fluid_input_capacity = 4000
+			#The maximum amount of fluid the output tank of the Heavy Naquadah Liquidizer can hold
+			# Default: 4000
+			# Range: > 1
+			heavy_naquadah_liquidizer_fluid_output_capacity = 4000
+			#The maximum amount of fluid the Heavy Naquadah Liquidizer can receive in one tick
+			# Default: 1000
+			# Range: > 1
+			heavy_naquadah_liquidizer_max_fluid_receive = 1000
+			#The maximum amount of fluid that can be extracted from the Heavy Naquadah Liquidizer in one tick
+			# Default: 1000
+			# Range: > 1
+			heavy_naquadah_liquidizer_max_fluid_extract = 1000
+			#The maximum amount of energy the Crystallizer can hold
+			# Default: 1000000
+			# Range: 1 ~ 9223372036854775807
+			crystallizer_energy_capacity = 1000000
+			#The maximum amount of energy the Crystallizer can receive in one tick
+			# Default: 100000
+			# Range: 1 ~ 9223372036854775807
+			crystallizer_max_energy_receive = 100000
+			#The amount of energy the Crystallizer depletes per tick when active
+			# Default: 1000
+			# Range: 0 ~ 9223372036854775807
+			crystallizer_energy_per_tick = 1000
+			#The maximum amount of fluid the input tank of the Crystallizer can hold
+			# Default: 4000
+			# Range: > 1
+			crystallizer_fluid_input_capacity = 4000
+			#The maximum amount of fluid the Crystallizer can receive in one tick
+			# Default: 1000
+			# Range: > 1
+			crystallizer_max_fluid_receive = 1000
+			#The maximum amount of energy the Advanced Crystallizer can hold
+			# Default: 1000000
+			# Range: 1 ~ 9223372036854775807
+			advanced_crystallizer_energy_capacity = 1000000
+			#The maximum amount of energy the Advanced Crystallizer can receive in one tick
+			# Default: 100000
+			# Range: 1 ~ 9223372036854775807
+			advanced_crystallizer_max_energy_receive = 100000
+			#The amount of energy the Advanced Crystallizer depletes per tick when active
+			# Default: 1000
+			# Range: 0 ~ 9223372036854775807
+			advanced_crystallizer_energy_per_tick = 1000
+			#The maximum amount of fluid the input tank of the Advanced Crystallizer can hold
+			# Default: 4000
+			# Range: > 1
+			advanced_crystallizer_fluid_input_capacity = 4000
+			#The maximum amount of fluid the Advanced Crystallizer can receive in one tick
+			# Default: 1000
+			# Range: > 1
+			advanced_crystallizer_max_fluid_receive = 1000
 
 		["Stargate Journey Common Config"."Crystal Config".server]
 			#The amount of energy an Energy Crystal can hold
@@ -458,6 +592,14 @@
 			# Default: 5000
 			# Range: 1 ~ 9223372036854775807
 			advanced_transfer_crystal_max_transfer = 5000
+			#The memory capacity of the Memory Crystal
+			# Default: 10
+			# Range: 1 ~ 1000
+			memory_crystal_capacity = 10
+			#The memory capacity of the Advanced Memory Crystal
+			# Default: 50
+			# Range: 1 ~ 1000
+			advanced_memory_crystal_capacity = 50
 
 		["Stargate Journey Common Config"."Cable Config".server]
 			#The maximum number of Cable Blocks in a single Cable Network
@@ -514,3 +656,57 @@
 			# Default: 100
 			# Range: 0 ~ 100
 			ata_gene_therapy_success_rate = 100
+			#A list of Player names who will receive the Ancient Gene when they join the world for the first time
+			ancient_players = ["Dev", "Woldericz_junior", "cookta2012", "mistersecret312", "_MaGistR____", "Redangel121"]
+			#A list of Player names who will inherit the Ancient Gene when they join the world for the first time
+			inherited_ancient_gene_players = []
+			#A list of Player names who will be implanted with the artificial Ancient Gene when they join the world for the first time
+			artificial_ancient_gene_players = []
+			#A list of Player names who will not be able to inherit Ancient Gene when they join the world for the first time
+			no_ancient_gene_players = []
+
+		["Stargate Journey Common Config"."Transporter Config".server]
+			#Energy capacity of the Ring Panel
+			# Default: 200000
+			# Range: 0 ~ 9223372036854775807
+			goauld_ring_panel_energy_capacity = 200000
+			#Maximum amount of energy that can be transferred to the Ring Panel in one tick
+			# Default: 100000
+			# Range: 0 ~ 9223372036854775807
+			goauld_ring_panel_max_energy_receive = 100000
+			#Maximum amount of energy that can be extracted from the Ring Panel in one tick
+			# Default: 50000
+			# Range: 0 ~ 9223372036854775807
+			goauld_ring_panel_max_energy_extract = 50000
+			#Energy depleted by pressing a button on the Ring Panel
+			# Default: 5000
+			# Range: 0 ~ 9223372036854775807
+			goauld_ring_panel_button_press_energy_cost = 5000
+			#Energy capacity of the Ancient Transport Rings
+			# Default: 1000000
+			# Range: 0 ~ 9223372036854775807
+			ancient_transport_rings_energy_capacity = 1000000
+			#Maximum amount of energy that can be transferred to the Ancient Transport Rings in one tick
+			# Default: 1000000
+			# Range: 0 ~ 9223372036854775807
+			ancient_transport_rings_max_energy_receive = 1000000
+			#Energy capacity of the Goa'uld Transport Rings
+			# Default: 1000000
+			# Range: 0 ~ 9223372036854775807
+			goauld_transport_rings_energy_capacity = 1000000
+			#Maximum amount of energy that can be transferred to the Goa'uld Transport Rings in one tick
+			# Default: 1000000
+			# Range: 0 ~ 9223372036854775807
+			goauld_transport_rings_max_energy_receive = 1000000
+			#The amount of energy that is used for establishing a transport between two Transporters
+			# Default: 5000
+			# Range: 0 ~ 9223372036854775807
+			transporter_transport_energy_cost = 5000
+			#The amount of energy added to total energy cost of transporting per block travelled
+			# Default: 400
+			# Range: 0 ~ 9223372036854775807
+			transporter_transport_distance_energy_cost = 400
+			#The amount of energy added to total energy cost of transporting to another Dimension in the same Address Region
+			# Default: 50000
+			# Range: 0 ~ 9223372036854775807
+			transporter_dimension_transport_energy_cost = 50000

@@ -1,0 +1,41 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "ad_astra:mars_ice_shard_ore"
+    }
+  ],
+  "results": [
+    {
+      "id": "ad_astra:ice_shard",
+      "count": 2
+    },
+    {
+      "id": "ad_astra:ice_shard",
+      "chance": 0.25
+    },
+    {
+      "id": "create:experience_nugget",
+      "chance": 0.75
+    },
+    {
+      "id": "ad_astra:mars_cobblestone",
+      "chance": 0.125
+    }
+  ],
+  "processingTime": 300
+}

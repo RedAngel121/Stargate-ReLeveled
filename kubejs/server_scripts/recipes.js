@@ -15,6 +15,8 @@ MoreJS.villagerTrades(event => {
 // ===============================
 
 let disappear = [
+    "mysticalagriculture:soul_jar",
+    "mysticalagriculture:soul_extractor",
     "mysticalagriculture:inferium_farmland",
     "mysticalagriculture:prudentium_farmland",
     "mysticalagriculture:tertium_farmland",

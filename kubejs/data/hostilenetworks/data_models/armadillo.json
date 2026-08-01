@@ -1,0 +1,21 @@
+{
+    "entity": "minecraft:armadillo",
+    "variants": [],
+    "name_color": "#AA6F6B",
+    "display": {},
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.armadillo",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:armadillo_scute",
+            "count": 2
+        }
+    ]
+}

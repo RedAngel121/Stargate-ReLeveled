@@ -1,0 +1,33 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+        }
+    ],
+    "type": "create:crushing",
+    "ingredients": [
+        {
+            "item": "ad_astra:deepslate_calorite_ore"
+        }
+    ],
+    "results": [
+        {
+            "id": "ad_astra:raw_calorite",
+            "count": 2
+        },
+        {
+            "id": "ad_astra:raw_calorite",
+            "chance": 0.25
+        },
+        {
+            "id": "create:experience_nugget",
+            "chance": 0.75
+        },
+        {
+            "id": "minecraft:deepslate",
+            "chance": 0.125
+        }
+    ],
+    "processingTime": 300
+}

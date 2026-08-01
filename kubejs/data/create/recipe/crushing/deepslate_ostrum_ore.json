@@ -1,0 +1,41 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "ad_astra:deepslate_ostrum_ore"
+    }
+  ],
+  "results": [
+    {
+      "id": "ad_astra:raw_ostrum",
+      "count": 2
+    },
+    {
+      "id": "ad_astra:raw_ostrum",
+      "chance": 0.25
+    },
+    {
+      "id": "create:experience_nugget",
+      "chance": 0.75
+    },
+    {
+      "id": "minecraft:deepslate",
+      "chance": 0.125
+    }
+  ],
+  "processingTime": 300
+}

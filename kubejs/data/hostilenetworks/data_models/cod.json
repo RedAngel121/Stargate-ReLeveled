@@ -1,0 +1,58 @@
+{
+    "entity": "minecraft:cod",
+    "variants": [
+        "minecraft:tropical_fish",
+        "minecraft:salmon",
+        "minecraft:pufferfish",
+        "deeperdarker:angler_fish",
+        "undergarden:gwibling"
+    ],
+    "name_color": "#A52A2A",
+    "display": {},
+    "sim_cost": 32,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "hostilenetworks.trivia.cod",
+    "fabricator_drops": [
+        {
+            "id": "croptopia:roe",
+            "optional": true,
+            "count": 16
+        },
+        {
+            "id": "minecraft:cod",
+            "count": 16
+        },
+        {
+            "id": "minecraft:salmon",
+            "count": 16
+        },
+        {
+            "id": "minecraft:tropical_fish",
+            "count": 16
+        },
+        {
+            "id": "minecraft:pufferfish",
+            "count": 4
+        },
+        {
+            "id": "deeperdarker:angler_fish",
+            "optional": true,
+            "count": 16
+        },
+        {
+            "id": "undergarden:gwibling",
+            "optional": true,
+            "count": 16
+        },
+        {
+            "id": "minecraft:bone_meal",
+            "count": 2
+        }
+    ]
+}

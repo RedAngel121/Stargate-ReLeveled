@@ -1,64 +1,84 @@
 {
-  "neoforge:conditions": [
-    {
-      "type": "mysticalagriculture:crop_enabled",
-      "crop": "mysticalagriculture:fish"
+    "neoforge:conditions": [
+        {
+            "type": "mysticalagriculture:crop_enabled",
+            "crop": "mysticalagriculture:fish"
+        },
+        {
+            "type": "mysticalagriculture:crop_has_material",
+            "crop": "mysticalagriculture:fish"
+        }
+    ],
+    "type": "mysticalagriculture:infusion",
+    "ingredients": [
+        {
+            "type": "neoforge:components",
+            "items": [
+                "hostilenetworks:prediction"
+            ],
+            "strict": false,
+            "components": {
+                "hostilenetworks:data_model": "hostilenetworks:cod"
+            }
+        },
+        {
+            "type": "mysticalagriculture:crop_component",
+            "component": "essence",
+            "crop": "mysticalagriculture:fish"
+        },
+        {
+            "type": "neoforge:components",
+            "items": [
+                "hostilenetworks:prediction"
+            ],
+            "strict": false,
+            "components": {
+                "hostilenetworks:data_model": "hostilenetworks:cod"
+            }
+        },
+        {
+            "type": "mysticalagriculture:crop_component",
+            "component": "essence",
+            "crop": "mysticalagriculture:fish"
+        },
+        {
+            "type": "neoforge:components",
+            "items": [
+                "hostilenetworks:prediction"
+            ],
+            "strict": false,
+            "components": {
+                "hostilenetworks:data_model": "hostilenetworks:cod"
+            }
+        },
+        {
+            "type": "mysticalagriculture:crop_component",
+            "component": "essence",
+            "crop": "mysticalagriculture:fish"
+        },
+        {
+            "type": "neoforge:components",
+            "items": [
+                "hostilenetworks:prediction"
+            ],
+            "strict": false,
+            "components": {
+                "hostilenetworks:data_model": "hostilenetworks:cod"
+            }
+        },
+        {
+            "type": "mysticalagriculture:crop_component",
+            "component": "essence",
+            "crop": "mysticalagriculture:fish"
+        }
+    ],
+    "input": {
+        "type": "mysticalagriculture:crop_component",
+        "component": "seed",
+        "crop": "mysticalagriculture:fish"
     },
-    {
-      "type": "mysticalagriculture:crop_has_material",
-      "crop": "mysticalagriculture:fish"
+    "result": {
+        "count": 1,
+        "id": "mysticalagriculture:fish_seeds"
     }
-  ],
-  "type": "mysticalagriculture:infusion",
-  "ingredients": [
-    {
-      "type": "mysticalagriculture:crop_component",
-      "component": "material",
-      "crop": "mysticalagriculture:fish"
-    },
-    {
-      "type": "mysticalagriculture:crop_component",
-      "component": "essence",
-      "crop": "mysticalagriculture:fish"
-    },
-    {
-      "type": "mysticalagriculture:crop_component",
-      "component": "material",
-      "crop": "mysticalagriculture:fish"
-    },
-    {
-      "type": "mysticalagriculture:crop_component",
-      "component": "essence",
-      "crop": "mysticalagriculture:fish"
-    },
-    {
-      "type": "mysticalagriculture:crop_component",
-      "component": "material",
-      "crop": "mysticalagriculture:fish"
-    },
-    {
-      "type": "mysticalagriculture:crop_component",
-      "component": "essence",
-      "crop": "mysticalagriculture:fish"
-    },
-    {
-      "type": "mysticalagriculture:crop_component",
-      "component": "material",
-      "crop": "mysticalagriculture:fish"
-    },
-    {
-      "type": "mysticalagriculture:crop_component",
-      "component": "essence",
-      "crop": "mysticalagriculture:fish"
-    }
-  ],
-  "input": {
-    "type": "mysticalagriculture:crop_component",
-    "component": "seed",
-    "crop": "mysticalagriculture:fish"
-  },
-  "result": {
-    "count": 1,
-    "id": "mysticalagriculture:fish_seeds"
-  }
 }

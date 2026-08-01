@@ -1,14 +1,13 @@
 ### Server File Removals:
 - Chat Plus
 - Sodium
+- Iris
 - WorldEdit CUI
 
 ### TODO:
-- Switch out the soul jars for mob predictions in the mob seed recipes (Infusion Altar does not read components yet)
-- Update SGJ when released
+- Re-Add MoreGate and Jaja's Gates after they have been udpated
 - Replace Ad Astra with jar on release - https://github.com/terrarium-earth/Ad-Astra/pull/783
 
-- Spice of Life needs to be expanded and balanced, its super minimal right now
 - Chisel Blocks: Aluminum, Cobalt, Invar, and Silver - These have no recipe and need to be added to the chisel workbench somehow
 - Make chem cells https://github.com/GlodBlock/ExtendedAE/wiki/Custom-Infinity-Cell
 - make/change the infinite item/fluid/chem cell recipes to be more production centered
@@ -35,7 +34,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 # THIS UPDATE IS NOT COMPATIBLE WITH 1.20.1 WORLDS
 ### Changes:
 - Updated MC to 1.21.1
-- Swapped to Neoforge 21.1.244
+- Swapped to Neoforge 21.1.247
 - Updated ModPack Thumbnail
 
 - ChatPlus (Replaces Chat Heads)
@@ -47,9 +46,10 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - Changed Substrates to Cruxes to work with Myst Ag
 - Added Oritech and SGJourney Blocks and Fluids to RFTools Dimlets
 - Converted the login book into quests and added a few Easymode quests
-- Added Myst Ag Quests Chapter to show what seeds go on what substrate
+- Added Myst Ag Quests Chapter to show what seeds go on what crux
 - Various other Quest Improvements
 - Added Creative Only Infinite drives for all essences
+- TONS of recipe adaptations and improvements
 - And a lot more things I forgot to write down
 
 ### Additions:
@@ -69,7 +69,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
   - Cucumber Library
 - Mystical Agradditions
 - Mystical Customization
-- Botany Pots - Mystical Agriculture Compat
+- Botany Pots + Mystical Agriculture Compat
 - AdvancedAE
 - Expanded AE
 - ExtendedAE
@@ -92,24 +92,25 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - MrCrayfish's Furniture Mod (Duplicate)
 - Game Stages
 - Utilitix
+- Simple Discord RPC
 - Mekanism Covers (Dupe for Cable Facades)
 - Numismatics - replaced with default create trading mechanics
 - KubeJS Botany Pots (replaced with Myst AG + custom seeds/recipes)
 - unlimitedperipheralworks (Mod not Updated... Author says: "I have plans for this, but I honestly can't give any deadline for when it happen.")
 
 ### Thank you everyone for helping make this update possible:
-- lukaskabc
 - Vtecklg
-- PheWitch
-- iampaddyman
-- OMGItsZari
 - cookta2012
-- Lord_Vile__
-- Theunknownboy78
+- lukaskabc
 - CMCrafter724_
-- Captain_Nikolaus
+- PheWitch
+- OMGItsZari
 - Volpe42
 - jman_4444
+- Theunknownboy78
+- Lord_Vile__
+- iampaddyman
+- Captain_Nikolaus
 
 ====================================================================================================
 
@@ -120,6 +121,3 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - Add Ars Elixirum for Potion Making after it gets properly updated > then check apoth charms compat
 - Add Tempad as an After-Oritech endgame TP item that can(t?) travel between dims - requires ZPM?
 - Swap out the long ass recipe chains for individual recipes and items, making EMI Actually useful
-
-# NO FIX AVAILABLE
-- Create Confectionery fluid buckets cant be placed in a Mek Tank because the bucket was not init as fluid compatable, not fixable without lots of work or seperate mod that overwrites it

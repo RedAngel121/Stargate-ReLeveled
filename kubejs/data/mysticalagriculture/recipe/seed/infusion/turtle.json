@@ -12,40 +12,60 @@
   "type": "mysticalagriculture:infusion",
   "ingredients": [
     {
-      "type": "mysticalagriculture:crop_component",
-      "component": "material",
-      "crop": "mysticalagriculture:turtle"
-    },
+            "type": "neoforge:components",
+            "items": [
+                "hostilenetworks:prediction"
+            ],
+            "strict": false,
+            "components": {
+                "hostilenetworks:data_model": "hostilenetworks:turtle"
+            }
+        },
     {
       "type": "mysticalagriculture:crop_component",
       "component": "essence",
       "crop": "mysticalagriculture:turtle"
     },
     {
-      "type": "mysticalagriculture:crop_component",
-      "component": "material",
-      "crop": "mysticalagriculture:turtle"
-    },
+            "type": "neoforge:components",
+            "items": [
+                "hostilenetworks:prediction"
+            ],
+            "strict": false,
+            "components": {
+                "hostilenetworks:data_model": "hostilenetworks:turtle"
+            }
+        },
     {
       "type": "mysticalagriculture:crop_component",
       "component": "essence",
       "crop": "mysticalagriculture:turtle"
     },
     {
-      "type": "mysticalagriculture:crop_component",
-      "component": "material",
-      "crop": "mysticalagriculture:turtle"
-    },
+            "type": "neoforge:components",
+            "items": [
+                "hostilenetworks:prediction"
+            ],
+            "strict": false,
+            "components": {
+                "hostilenetworks:data_model": "hostilenetworks:turtle"
+            }
+        },
     {
       "type": "mysticalagriculture:crop_component",
       "component": "essence",
       "crop": "mysticalagriculture:turtle"
     },
     {
-      "type": "mysticalagriculture:crop_component",
-      "component": "material",
-      "crop": "mysticalagriculture:turtle"
-    },
+            "type": "neoforge:components",
+            "items": [
+                "hostilenetworks:prediction"
+            ],
+            "strict": false,
+            "components": {
+                "hostilenetworks:data_model": "hostilenetworks:turtle"
+            }
+        },
     {
       "type": "mysticalagriculture:crop_component",
       "component": "essence",
