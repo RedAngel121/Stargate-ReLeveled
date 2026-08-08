@@ -1,3 +1,5 @@
+- help Lukas do grammar edits on the documentation https://github.com/lukaskabc/StargateJourney/tree/documentation
+
 ### Server File Removals:
 - Chat Plus
 - Sodium
@@ -5,6 +7,8 @@
 - WorldEdit CUI
 
 ### TODO:
+- remove "incendium:upgrade_elytra" recipe
+- change quark recipe for Elytra duplication and remove ender dragon scales from quark, also remove it from the dragon loot drops
 - Re-Add MoreGate and Jaja's Gates after they have been udpated
 - Replace Ad Astra with jar on release - https://github.com/terrarium-earth/Ad-Astra/pull/783
 
@@ -34,7 +38,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 # THIS UPDATE IS NOT COMPATIBLE WITH 1.20.1 WORLDS
 ### Changes:
 - Updated MC to 1.21.1
-- Swapped to Neoforge 21.1.247
+- Swapped to Neoforge 21.1.248
 - Updated ModPack Thumbnail
 
 - ChatPlus (Replaces Chat Heads)
@@ -42,14 +46,14 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - Corpse (Replaces Gravestones and provides curios compat)
 - Viscord (Replaces Discord Chat Integration)
 
-- Updated SGCommunity Pack Items to display proper mod name instead of `sgcommunity_pack`
-- Changed Substrates to Cruxes to work with Myst Ag
+- Updated SGCommunity Pack Items to display a proper mod name instead of "*sgcommunity_pack*"
+- Changed Substrates to Cruxes to work with Mystical Agriculture
 - Added Oritech and SGJourney Blocks and Fluids to RFTools Dimlets
 - Converted the login book into quests and added a few Easymode quests
-- Added Myst Ag Quests Chapter to show what seeds go on what crux
-- Various other Quest Improvements
+- Added Mystical Agriculture Quests Chapter to show what seeds go on what crux
+- Various other Quest Improvements to apply changes referenced above
 - Added Creative Only Infinite drives for all essences
-- TONS of recipe adaptations and improvements
+- Hundreds of custom recipe adaptations and improvements
 - And a lot more things I forgot to write down
 
 ### Additions:
@@ -95,13 +99,17 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - Simple Discord RPC
 - Mekanism Covers (Dupe for Cable Facades)
 - Numismatics - replaced with default create trading mechanics
-- KubeJS Botany Pots (replaced with Myst AG + custom seeds/recipes)
+- KubeJS Botany Pots (replaced with Mystical Agriculture + custom seeds/recipes)
 - unlimitedperipheralworks (Mod not Updated... Author says: "I have plans for this, but I honestly can't give any deadline for when it happen.")
+- Immersive Armors
+
+### Known Issues:
+- Chairs/Benches/Seats cannot be sat on in airless Ad Astra Dimensions without a single block of oxygen below it. Use a Ad Astra Vent underneath the seat to prevent this.
 
 ### Thank you everyone for helping make this update possible:
 - Vtecklg
-- cookta2012
 - lukaskabc
+- cookta2012
 - CMCrafter724_
 - PheWitch
 - OMGItsZari
@@ -109,13 +117,11 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - jman_4444
 - Theunknownboy78
 - Lord_Vile__
-- iampaddyman
-- Captain_Nikolaus
 
 ====================================================================================================
 
 ### Long Term Goals:
-- SGCommunity Pack Achievements!
+- Make a Custom Cartouches mod https://discord.com/channels/1011344665678708818/1522021932420304957/1533215393945092238
 - Vote Stop? https://www.curseforge.com/minecraft/mc-mods/vote-stop-server
 - Possible integration? https://www.curseforge.com/minecraft/mc-mods/power-grid
 - Add Ars Elixirum for Potion Making after it gets properly updated > then check apoth charms compat

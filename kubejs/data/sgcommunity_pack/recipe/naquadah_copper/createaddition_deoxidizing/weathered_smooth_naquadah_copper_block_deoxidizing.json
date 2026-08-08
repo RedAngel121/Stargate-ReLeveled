@@ -1,0 +1,21 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "createaddition"
+        }
+    ],
+    "type": "createaddition:charging",
+    "energy": 4000,
+    "ingredients": [
+        {
+            "item": "sgjourney:weathered_smooth_naquadah_copper_block"
+        }
+    ],
+    "max_charge_rate": 200,
+    "results": [
+        {
+            "id": "sgjourney:exposed_smooth_naquadah_copper_block"
+        }
+    ]
+}

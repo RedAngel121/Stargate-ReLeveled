@@ -97,6 +97,23 @@ ServerEvents.tags("block", event => {
 ServerEvents.tags('block', event => {
     event.add('ad_astra:blocks_flood_fill', 'rftoolsbuilder:shielding_translucent')
     event.add('ad_astra:blocks_flood_fill', 'rftoolsbuilder:shielding_solid')
+    event.add('ad_astra:blocks_flood_fill', 'rftoolsbuilder:red_shield_template_block')
+    event.add('ad_astra:blocks_flood_fill', 'rftoolsbuilder:blue_shield_template_block')
+    event.add('ad_astra:blocks_flood_fill', 'rftoolsbuilder:green_shield_template_block')
+    event.add('ad_astra:blocks_flood_fill', 'rftoolsbuilder:yellow_shield_template_block')
+})
+
+// Adding Seats Tag to items you can sit on
+let seat_fix = ["handcrafted:chairs", "handcrafted:benches", "handcrafted:dining_benches", "bits_n_bobs:chairs", "interiors:chairs", "interiors:floor_chairs", "interiors:kelp_chair", "interiors:kelp_floor_chair", "interiors:kelp_seat", ]
+ServerEvents.tags("block", event => {
+    for (let each of seat_fix) {
+        event.add("create:seats", each)
+    }
+})
+
+// Adding Seats tag to Ad Astra Oxygen bypass tag so you dont die from sitting down in space (still needs oxygen one block below).
+ServerEvents.tags('block', event => {
+    event.add("ad_astra:passes_flood_fill", "create:seats")
 })
 
 // Tagging Limited Barrels separately from chests

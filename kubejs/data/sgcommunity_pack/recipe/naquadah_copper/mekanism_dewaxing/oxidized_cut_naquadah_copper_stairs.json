@@ -1,0 +1,17 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "mekanism"
+        }
+    ],
+    "type": "mekanism:crushing",
+    "input": {
+        "count": 1,
+        "item": "sgjourney:waxed_oxidized_cut_naquadah_copper_stairs"
+    },
+    "output": {
+        "count": 1,
+        "id": "sgjourney:oxidized_cut_naquadah_copper_stairs"
+    }
+}

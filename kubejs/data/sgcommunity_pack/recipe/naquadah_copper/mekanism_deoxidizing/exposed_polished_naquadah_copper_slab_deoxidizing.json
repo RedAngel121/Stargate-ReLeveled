@@ -1,0 +1,17 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "mekanism"
+        }
+    ],
+    "type": "mekanism:enriching",
+    "input": {
+        "count": 1,
+        "item": "sgjourney:exposed_polished_naquadah_copper_slab"
+    },
+    "output": {
+        "count": 1,
+        "id": "sgjourney:polished_naquadah_copper_slab"
+    }
+}

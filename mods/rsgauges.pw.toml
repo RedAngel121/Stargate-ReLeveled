@@ -1,13 +1,13 @@
 name = "Gauges, Switches & Modules"
-filename = "[1.21-1.21.1] rsgauges ported v.1.2.1.jar"
+filename = "[1.21-1.21.1] rsgauges ported v.1.2.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "06b7c8359878f05dac483d3b4639406651497295"
+hash = "8d89cab0f1a4e6609b3b853160fcc7c668693dc9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8226654
+file-id = 8564944
 project-id = 1529530

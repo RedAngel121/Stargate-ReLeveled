@@ -19,7 +19,7 @@
             "tag": "c:gems/lapis"
         },
         "C": {
-            "item": "sgcommunity_pack:computation_core"
+            "tag": "sgcommunity_pack:circuit_intermediate"
         }
     },
     "result": {

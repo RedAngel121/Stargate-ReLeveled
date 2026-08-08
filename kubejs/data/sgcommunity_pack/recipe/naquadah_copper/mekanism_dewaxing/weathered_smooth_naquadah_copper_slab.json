@@ -1,0 +1,17 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "mekanism"
+        }
+    ],
+    "type": "mekanism:crushing",
+    "input": {
+        "count": 1,
+        "item": "sgjourney:waxed_weathered_smooth_naquadah_copper_slab"
+    },
+    "output": {
+        "count": 1,
+        "id": "sgjourney:weathered_smooth_naquadah_copper_slab"
+    }
+}

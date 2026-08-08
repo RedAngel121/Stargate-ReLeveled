@@ -1,0 +1,23 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "item": "sgjourney:exposed_polished_naquadah_copper_slab"
+        },
+        {
+            "item": "minecraft:honeycomb_block"
+        }
+    ],
+    "keep_held_item": true,
+    "results": [
+        {
+            "id": "sgjourney:waxed_exposed_polished_naquadah_copper_slab"
+        }
+    ]
+}

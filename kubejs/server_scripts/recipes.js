@@ -80,7 +80,8 @@ let kill_recipe = [
     "oritech:crafting/alloy/steel",
     "oritech:compat/mekanism/infusing/electrum_dust",
     "oritech:mixing/compat/create/electrum",
-    "oritech:mixing/compat/create/steel"
+    "oritech:mixing/compat/create/steel",
+    "incendium:upgrade_elytra"
 ]
 ServerEvents.recipes(event => {
     for (let each of kill_recipe) {

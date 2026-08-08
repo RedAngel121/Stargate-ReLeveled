@@ -13,6 +13,14 @@ file = "config/Mekanism/general.toml"
 hash = "48e2db48cc938225add13bd71ab5fb86bdb13d3c0ce25f591a14ea5e5ca673f0"
 
 [[files]]
+file = "config/Veinminer/groups.json"
+hash = "d50085eff7c760518e568793eab23f1d0ec21135340e8f5ba5f8ba17e6a92ed7"
+
+[[files]]
+file = "config/Veinminer/settings.json"
+hash = "e9e5119a09b200f218354d9530ed0fd946f322ecfe4b5b4f55d30e2c8de3594b"
+
+[[files]]
 file = "config/ae2-client.toml"
 hash = "0ff57167944cac48c707ccf3cb2c242d582bfa0d4925ac31874f6832e685ccf7"
 
@@ -433,6 +441,10 @@ file = "config/jaopca/modules/oritech.toml"
 hash = "1f3ad2a281f77abe5d2ea68aa73959bdf5227909dab6301f474faade3a6dedac"
 
 [[files]]
+file = "config/jaopca/modules/raw_storage_blocks.toml"
+hash = "055c13a70fd15f60510f36564be35b0be0e42c57459e282d165f98f77328f87c"
+
+[[files]]
 file = "config/jaopca/modules/storage_blocks.toml"
 hash = "8eb3cb11ca5826516e80c46b3ab432df4169107b7d6caae3edcec3927b4f2298"
 
@@ -598,7 +610,7 @@ hash = "20f5e3c8706702d385522c1f73230cfbdb28cbf9b78fb365864252ae56e4d533"
 
 [[files]]
 file = "config/sgjourney-common.toml"
-hash = "66d532f5716f46c97d2907cdae96aba8b1cc6ea23905231e5097a5a16bc81f7e"
+hash = "d5456e1f35c2116e01bfb5644a91ae287bcb88191bedce6919522f14042be45b"
 
 [[files]]
 file = "config/simplebackups-common.toml"
@@ -3826,7 +3838,7 @@ hash = "c5712f8b487d93c9c1c021b9f3df3daa7c2ab9431f445e18811eb2bd7212778a"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/recipe/data_center_io_port.json"
-hash = "2a774d59f7a5522ad6d31f90fbbb2850c699e488fa53def65cc548ca9a1d7e61"
+hash = "e2e0fd2ab263a160266c389a26cebd6e47bd75430a70410bdc1aa98adc07606c"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/recipe/deep_learner.json"
@@ -3842,7 +3854,7 @@ hash = "b9546c3becebca6e45f62ad0384be6feef4214fa0be8319b48a1ae023a06317d"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/recipe/sim_chamber.json"
-hash = "b6f7ead90d14e409e633bf4e4f51c2ae58548d573abf01d330b21dfcb4431869"
+hash = "b613a25b1c5a2f9c386a36697229a35c8b381f9134087d7415e5104e4147d07d"
 
 [[files]]
 file = "kubejs/data/incendium/function/technical/toast.mcfunction"
@@ -4365,20 +4377,32 @@ file = "kubejs/data/interiors/recipe/kelp_chair.json"
 hash = "ada30f4655e72985de2aaf592a6c828c7d6175ee19f296835eb4a25e6696d174"
 
 [[files]]
+file = "kubejs/data/interiors/recipe/kelp_chair_from_floor_chair.json"
+hash = "23094244578f97b4a653c2cf9e0ecff4b95dccc8158ce02d4ac7819c0746e338"
+
+[[files]]
+file = "kubejs/data/interiors/recipe/kelp_chair_from_ground_up.json"
+hash = "5d84f04a1ab869c409b0894fdb0d6eb38cdce99e05c767ac8c10cb4e1cac5d6e"
+
+[[files]]
 file = "kubejs/data/interiors/recipe/kelp_chair_from_seat.json"
-hash = "39a76dc3a7bf501c466036885ddd7e1755c8631a0e8074bba8ffdfdaa0fa1353"
+hash = "63a67779b0c4cc9b473e51a110bdcc996f2ebb2ccc2a8ddc25844e247b444152"
 
 [[files]]
 file = "kubejs/data/interiors/recipe/kelp_floor_chair.json"
 hash = "395d7209f5ffe6e22d4076ea65d1c23a855e253b1e1e4846f524f75c98162d08"
 
 [[files]]
+file = "kubejs/data/interiors/recipe/kelp_floor_chair_from_ground_up.json"
+hash = "97c306c7cbd16b90ee57ee0a009d52ec1b373ed47f5784becaecebc995b5db05"
+
+[[files]]
 file = "kubejs/data/interiors/recipe/kelp_floor_chair_from_seat.json"
-hash = "8e0ad625351a057aa22520d73125091e5f6a8bb5006686f57b9caf14d00e37cd"
+hash = "6780ea314548895ff50abe89463d63bcc8cae43ed67ebcf50445413af9d3ccf4"
 
 [[files]]
 file = "kubejs/data/interiors/recipe/kelp_seat.json"
-hash = "ea6d11cd4dfa6c40f1dc614d400e55df82038d3b14e88ec84908442db35d8f42"
+hash = "442adfa19ebc96387158166b673d4a05fd9817794a79a38333126a732f774519"
 
 [[files]]
 file = "kubejs/data/interiors/recipe/seatwood_planks_arr_one.json"
@@ -4747,6 +4771,82 @@ hash = "9d25b5fa756292e70f3212d0629d144315b10a5f0c2a6f32988390f5610442c8"
 [[files]]
 file = "kubejs/data/pipez/recipe/universal_pipe.json"
 hash = "15d47e7967421cd3dfbba47e3f91911ed02d9e7e47c26d0d7902df12d4e32e52"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/anchorpointasloot.json"
+hash = "15b03fa98e364fe264b690f01b5a4a9333c363f88b7f090c8dda5fc34c5208cb"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/bloodprisonerasloot.json"
+hash = "3c189fe82beeef90e8e42c77a0e3727b52c25cb08e68904e8fa7819280e0069d"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/breakerasloot.json"
+hash = "9f738fdf8a1c2ad22844026b24a30b316d77ae2b781d61b4947b06f3b2aeebf6"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/buoyancyasloot.json"
+hash = "d98ce1e9aa0fd7babaf1bc18b7d2ba4707e90176d1c2dff12dcb2f5b7c131616"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/closedasloot.json"
+hash = "3c62c9a592c3739c4e8ef92206af32e9677a3484571895afa82f4ab98d3a2466"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/falconnestasloot.json"
+hash = "29d88a2b0188e6c6548d5bd0e66c5e0f3b8cc335b17ed5d9745b0e80945d3f6d"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/hammerasloot.json"
+hash = "fb91cec5692c926b46ad7bcaaba6cce4cdfb2f34cd19a49ceb4b382bccad66dd"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/hellsnakeasloot.json"
+hash = "451f99fdbf53c7979326267ad51691c4cd91e1169cad92fc7e5ff0392d739c3d"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/hunterasloot.json"
+hash = "38bc53dde2c047e14d6bd90b6c626eaf0464fb8fa4edda417baeadcb49cd7205"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/lancerasloot.json"
+hash = "eed261928dda6fd3af40d9cb3939e8cca1ad76d9f0b647ff96be2bbec8b86cf4"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/magneticasloot.json"
+hash = "9edf39091b7b3275414057896a6338112ce9f7a880ca51815ab2d3c03d5afe7b"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/nightdemonasloot.json"
+hash = "258a9f18010e990408508ad885d593daa0c16cba58e48c06b0cccfc035aa1795"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/pioneerasloot.json"
+hash = "4ece1e0d856f3ae12072887e3a6a14dbf8a57edbee6d9f77d423090ddaca1314"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/plagueasloot.json"
+hash = "bd9d50b8607719005fdac89ec2fdd6e9462857df1f3c31ce8e66f34abaad57d7"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/prismasloot.json"
+hash = "734af5d6490ca65a29c343443f0a71c67d727298303bc10dc064a387e63e0c16"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/slingshotasloot.json"
+hash = "d1b50ad6ecf86f884bcc79249b2c92e822e7add95129fe8ab859db842fe3a09a"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/typhoonasloot.json"
+hash = "87c47cd91b7a36c3a436a8d283a2a307d71e828e99088212d5d6a62a3cdac9e6"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/watertankloot_2.json"
+hash = "b43d20940dbf26f39b4f3a248efd464b8a20b2b811e97330f6840005458c5538"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/workerasloot.json"
+hash = "95e342d95f608fb45630b1c8247bf791ed06ee570bcfb7f459d02b8e50ed3c95"
 
 [[files]]
 file = "kubejs/data/rftoolsbase/recipe/machine_base.json"
@@ -5239,6 +5339,1686 @@ hash = "d1059598ae386999be41b3b284310c3629c298d4ede2cda84df3484ae42998e1"
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/moon_sand_to_mars_sand.json"
 hash = "9166b766b34adc2d8da00c9b3db41a38938039b6199cddcac73f6cbeceb2bd4f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/exposed_chiseled_naquadah_copper_block_deoxidizing.json"
+hash = "eb04e09d1498bbfa96b53ad278b3bc2a56e58cc16e36aa8b87ec3ce3d5006018"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/exposed_cut_naquadah_copper_block_deoxidizing.json"
+hash = "1a72321134a7ead5849e2499aeae951a67fcf6c7c3e352bd6f19bc2015e9de65"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/exposed_cut_naquadah_copper_slab_deoxidizing.json"
+hash = "0078e8b2f25e02a6692ffbbd46f14e3578160d812d7ed765d89d16d4025a3c86"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/exposed_cut_naquadah_copper_stairs_deoxidizing.json"
+hash = "75c8c78a01f2a09b63d5aaa7a2117ca639a88e2da5a8f0ac9c41df86661e2864"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/exposed_naquadah_copper_block_deoxidizing.json"
+hash = "c85754208dda2152f3e24188e048b74666381a64fed84cd41f0e8fc92cf686ea"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/exposed_naquadah_copper_lamp_deoxidizing.json"
+hash = "ebdd17108d10edff2862dea54d897461a3521c83000878803231aebc3cfa5f41"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/exposed_naquadah_copper_pillar_deoxidizing.json"
+hash = "3420c271d2ddebd02f54b01b8ed58d82d4169d619c65bd10014b7959c05d384c"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/exposed_naquadah_copper_slab_deoxidizing.json"
+hash = "45ef7c6ff6bec776d52ad0e96a12e273463f132f8ece3ef226f9feb20a0ba436"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/exposed_naquadah_copper_stairs_deoxidizing.json"
+hash = "94aedd42595752268137176139a93279238c8b4d56ab409cc3eb07027ad7364c"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/exposed_polished_naquadah_copper_block_deoxidizing.json"
+hash = "e2802a41e2fc4ed0f808fedf98b3dfad26ef76863bbc18ac80a1581da4d26445"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/exposed_polished_naquadah_copper_slab_deoxidizing.json"
+hash = "f10783cf5d51aa29823c9a5feb2592fdbb9a5ac1b33bdb99ac4ded73639b6196"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/exposed_polished_naquadah_copper_stairs_deoxidizing.json"
+hash = "938513938e4bcdb940e7338667a6bbe7980332147d8c273b552f2d084c2861a4"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/exposed_smooth_naquadah_copper_block_deoxidizing.json"
+hash = "cf51200e923f3e6a359be7e4e0ba9e15c3227b0a1308411bae9b5bf08d17b633"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/exposed_smooth_naquadah_copper_slab_deoxidizing.json"
+hash = "cb36e5935042959c74facc3ce45fdb7100be11200ea242b90bc097c3ed806c0a"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/exposed_smooth_naquadah_copper_stairs_deoxidizing.json"
+hash = "cd3c53ca2549d4ca472df8350e51a48ac8e04bfeae1b5d0761de63520cd4b358"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/oxidized_chiseled_naquadah_copper_block_deoxidizing.json"
+hash = "1e12e0fc002ada63f710e9b36dd332f45f72efb060275827b32929739563bf23"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/oxidized_cut_naquadah_copper_block_deoxidizing.json"
+hash = "3acf84e8e0b1870ab6158fe5efb55ed47ce6f31f14084fcd565aecdae3e70c42"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/oxidized_cut_naquadah_copper_slab_deoxidizing.json"
+hash = "b319833a2bd70978b5bb252aea694cd84a6bdd1d49440e317b12835c75030cd6"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/oxidized_cut_naquadah_copper_stairs_deoxidizing.json"
+hash = "d03ac42847d1a50c31193e84fdb42a7292c79db16d88bbbeced241b82d366927"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/oxidized_naquadah_copper_block_deoxidizing.json"
+hash = "17f97c6d0424ef9ce51bb013091b4bf0b8d5bcea8bf743b2318420232a989ddb"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/oxidized_naquadah_copper_lamp_deoxidizing.json"
+hash = "47904162069a3e4730eedf62c928c64d0b1c6b6ead413061cfd690b69d826684"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/oxidized_naquadah_copper_pillar_deoxidizing.json"
+hash = "ab3e5b2dcb1fd2142dd0e5e5f2a3dcd9f24618bcd27a124ebf4e6dcc10464308"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/oxidized_naquadah_copper_slab_deoxidizing.json"
+hash = "8940926fa82e7519c9004f7bd16e5cc6499bf34eee1d6e84e5e9892a2d406781"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/oxidized_naquadah_copper_stairs_deoxidizing.json"
+hash = "99d2dc2224147ca2dceb19fa19d3071578600367297de99f721782d75eb7f74f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/oxidized_polished_naquadah_copper_block_deoxidizing.json"
+hash = "52577af1d3f6e707a85541c9ca33cccd339cbb33d9d6c0d58b9673dc078d6606"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/oxidized_polished_naquadah_copper_slab_deoxidizing.json"
+hash = "f4771f84504873ca57902e54ce65c20ab76894476bacf1360c4d6d266843f5e6"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/oxidized_polished_naquadah_copper_stairs_deoxidizing.json"
+hash = "b904a80c9f321c28f5888ce1231a15a0eda68d7b2d5cb710b6f680d6267c0e89"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/oxidized_smooth_naquadah_copper_block_deoxidizing.json"
+hash = "56c90f6eec3f13d6b12fecb86ebf52f24367874df70b3a273043d7289a745256"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/oxidized_smooth_naquadah_copper_slab_deoxidizing.json"
+hash = "b1add8c7f0edc352189de9bdea5a764fcc3ace96c07a6eddc198c5fb202c8883"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/oxidized_smooth_naquadah_copper_stairs_deoxidizing.json"
+hash = "bc532176802e46d5559fe9532188dae0da46166a504736f62dbee0e37bcc9bff"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/weathered_chiseled_naquadah_copper_block_deoxidizing.json"
+hash = "d513cf6b3784540825e2a649bf4dfc89da3cccd10df7d0302f3db21731767834"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/weathered_cut_naquadah_copper_block_deoxidizing.json"
+hash = "9b3bb01512664f03691194f842770fe64d6e8b3db315beb392f05e1829e9275e"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/weathered_cut_naquadah_copper_slab_deoxidizing.json"
+hash = "e62790ba9072ef84e3a18eb2573036da25b22d79707dbb04d491f58d6d90c987"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/weathered_cut_naquadah_copper_stairs_deoxidizing.json"
+hash = "754f577d54cd24ef0b37abe360d0dc16c1e2543e1d47f891de10410f03df03a4"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/weathered_naquadah_copper_block_deoxidizing.json"
+hash = "2582e93cc3180a180e1b975f4536eff0be4c3a3b418dae51d45a401a99820e72"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/weathered_naquadah_copper_lamp_deoxidizing.json"
+hash = "49858737093fd0a4ddb704c7b711b0fadedd0b75d357b5f56d9b9c93689b7ba2"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/weathered_naquadah_copper_pillar_deoxidizing.json"
+hash = "dda400053d021989f6bb7b9b0a21a9655bd80a03ce071a6ee79b076c1c3cc172"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/weathered_naquadah_copper_slab_deoxidizing.json"
+hash = "f298818a4c7f72b8e6eca3b1aa4a862a0176fb14dd5546fcefcb259c50a207ba"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/weathered_naquadah_copper_stairs_deoxidizing.json"
+hash = "90fc2e253ec28432c657cf99b579fdaf0c556421b1ebdad73c7b264de6f5cd96"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/weathered_polished_naquadah_copper_block_deoxidizing.json"
+hash = "185fb2b3fc4bf1e941c9e90dba83fd1c462305a350a483b552b5cc6338da0f43"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/weathered_polished_naquadah_copper_slab_deoxidizing.json"
+hash = "f23e53a3f9f131b2ddcef85f41cde2b9dd52fd0357bef2aa12a6a7b6a9755e80"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/weathered_polished_naquadah_copper_stairs_deoxidizing.json"
+hash = "497f623a03b385df2f49f9959f93faf1184cfaafbaa153eb46c56c7ef53372c1"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/weathered_smooth_naquadah_copper_block_deoxidizing.json"
+hash = "7bd0ff842c39378c6f4f34075bddc4ac8f58effdde6fbf83e8a4e77a1030da2a"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/weathered_smooth_naquadah_copper_slab_deoxidizing.json"
+hash = "1999040503bf2a2ff4c4b6c8d4e946830c9a33e6687605717e32e86c61784efe"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_deoxidizing/weathered_smooth_naquadah_copper_stairs_deoxidizing.json"
+hash = "31a3183699b2bed8dfdfe315b8dc8785b6f5a382c206abbd010aa38377fb680e"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/chiseled_naquadah_copper_block.json"
+hash = "caa6d0a2a5c5471dc97826369c4d90b85059179235ef587ef75dd62df95d7036"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/cut_naquadah_copper_block.json"
+hash = "88bcba1dec187054cc250f7118258912aafb198ded74a635cc05e565d0b29e7c"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/cut_naquadah_copper_slab.json"
+hash = "17101038627abe4362ecff374cefc5fdff03e501f9066ab3f602b6d5706f8140"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/cut_naquadah_copper_stairs.json"
+hash = "afd930d5a4e99413159ef938faf0993b71732742a1d570ebb163e4d375f62a53"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/exposed_chiseled_naquadah_copper_block.json"
+hash = "9eb06e63328887928f218a12ce2e5bafdc1dbcb6c68422d11e761f16903c067b"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/exposed_cut_naquadah_copper_block.json"
+hash = "0f6d5484bc552b5fa814016606783797985f09266ac885b21c83064a32ea90bf"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/exposed_cut_naquadah_copper_slab.json"
+hash = "5867fb64caff2c202f0aedc11df1dce13de81f831b0bcf9bdb69e83bd0d85109"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/exposed_cut_naquadah_copper_stairs.json"
+hash = "06b15bdf4345a134a84b3bc3a14ee61a9960c295f568a21e8af6d8514c6fbe5f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/exposed_naquadah_copper_block.json"
+hash = "c006e04957abd79baa75f3c1198ada6c307e8e0f0ca1d3bbf1b69286251c0fab"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/exposed_naquadah_copper_lamp.json"
+hash = "4ad1ae04f5b94c0030a1d5f46409fe315749de1e1787b2ecb9e4cedff243d508"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/exposed_naquadah_copper_pillar.json"
+hash = "b7b8a1e61aa675a1a25af6644d1f6c209dc3e18ff55b50fcce3a8dfff86ca307"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/exposed_naquadah_copper_slab.json"
+hash = "82caa6eca4c9bba87151e0bc95d1dfe846bcc29b4cd21afd4dc46655d06a5e25"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/exposed_naquadah_copper_stairs.json"
+hash = "4675c914f4e68f8a4a977c70fb1396b4d0be90fb0fcaf94b4bc9f06371962fb2"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/exposed_polished_naquadah_copper_block.json"
+hash = "e76450c5848dc66f96f36ef7139311cf926247dbda0b79ae1dd27122a56e3b37"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/exposed_polished_naquadah_copper_slab.json"
+hash = "e18d4ab080dc42b00d650d0938de583493635006f821fb1a1c9863103546c788"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/exposed_polished_naquadah_copper_stairs.json"
+hash = "a2e9a1254f52ec2780699ed05d71284de75340dbefe5fd5c5226ef0dbb5d3405"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/exposed_smooth_naquadah_copper_block.json"
+hash = "10b54c042cd45c441836e4c29dca3e26452b95c87cea24b86baeb34bd7c7991e"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/exposed_smooth_naquadah_copper_slab.json"
+hash = "58fbad6f18a8db5448530ff2615d1d3bce9c681583f18916005c98a06b4c270c"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/exposed_smooth_naquadah_copper_stairs.json"
+hash = "590494e059d294ee9219bc6877177829b0eedb050ab49a660981d0e148c8d5a5"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/naquadah_copper_block.json"
+hash = "95314890103b52dd280ac8c7acc16591625663f086b151cbac82b5c274d696b3"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/naquadah_copper_lamp.json"
+hash = "e49e28670bb7d4176ffc19268a9c372bde5568d3048ac416be36b65c95a29d57"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/naquadah_copper_pillar.json"
+hash = "357aa27d3e9902ff07bb3caa247416b11da633de84761b014a54845dd6a21bdb"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/naquadah_copper_slab.json"
+hash = "6a6643c11480c2919e877b1895c3f12e0258e665655fc901d1c5815797c56227"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/naquadah_copper_stairs.json"
+hash = "858b7a58dea937a6166f55c6406f698a08e2ff036ee046654d0459322a468a10"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/oxidized_chiseled_naquadah_copper_block.json"
+hash = "cdb26a3487fffc400f5c65f9be8501a15d1538a70d27afb18c1e99b444b5f9a3"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/oxidized_cut_naquadah_copper_block.json"
+hash = "399dc9f9e12dba626044955282825fd3496f95bf99813a2e3fa01d86e5803b70"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/oxidized_cut_naquadah_copper_slab.json"
+hash = "975db33f8b5576e2ae2f0a9e3a79bf148d5af2b93b26fc2205dbe28ec2bf1109"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/oxidized_cut_naquadah_copper_stairs.json"
+hash = "f81539caff1ee195510776d2a8412e3a5cbe7eb7f46b706b6fa5ac01e07658b4"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/oxidized_naquadah_copper_block.json"
+hash = "513eae338ebd57c40529e6e5f24fc506651ed5155b6e03432bd8f9230462c799"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/oxidized_naquadah_copper_lamp.json"
+hash = "ffca07d3dfe358eb55522f7d70e50aa3738aa9b97984d262fe7b9b65b84b4321"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/oxidized_naquadah_copper_pillar.json"
+hash = "a80b09a013fc288ab43f20258d965a24ddde5e57b1c91870dec1e71fc3ab8d09"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/oxidized_naquadah_copper_slab.json"
+hash = "20fe8a49dcbe76e0a8cdd415b1b91f1f83aba9455334ca41049f955b40977a86"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/oxidized_naquadah_copper_stairs.json"
+hash = "96fbb7964f336ee8a1bf6b51a508b695bb08db6ccdf9490d140d0c6958f692a6"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/oxidized_polished_naquadah_copper_block.json"
+hash = "93fbc63d37d6e9edba60dd57f64cda9058f6d1d50c5f4489afea7e42a83c1e1f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/oxidized_polished_naquadah_copper_slab.json"
+hash = "67a080dc327223d60dd5d3dab21583b20c98713516ab21e74de648779281c3fa"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/oxidized_polished_naquadah_copper_stairs.json"
+hash = "8f51423f8ceeba90e90d831c5f8518e4dbc4fd1eeeed2cd351d19689b9c7389c"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/oxidized_smooth_naquadah_copper_block.json"
+hash = "8430928af62fe4c8576bb36d578694c563aa03660ea01bba968460c010e8c2a1"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/oxidized_smooth_naquadah_copper_slab.json"
+hash = "123e1272effaeb290a91ec5a760e8af171224f68b10c6d49e9a68ef511334699"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/oxidized_smooth_naquadah_copper_stairs.json"
+hash = "5c9c2acd668694904460a42e29017268ba68130acc03e08be38133d9f324c33c"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/polished_naquadah_copper_block.json"
+hash = "3b063119d91e7511c3cf66dbecb0c3dca843b986dcf26834cad66f7c5d880b48"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/polished_naquadah_copper_slab.json"
+hash = "60b92b5c89fd92078dd6888dc4226eb54fede64d6377e3a076d58ea039e45ada"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/polished_naquadah_copper_stairs.json"
+hash = "afadddb4e1ad2be666eee95c7ec4896ae56a44d983bf20949dff954be0dd0cf4"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/smooth_naquadah_copper_block.json"
+hash = "18da0c18775edcf002defb8d53819bca4e633d47ba0e79f95c83f3e96136b2b6"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/smooth_naquadah_copper_slab.json"
+hash = "c2106770f827cf987414afbd6d66ba2fb0e3ae971737ed3ee02ce283db02b3e9"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/smooth_naquadah_copper_stairs.json"
+hash = "3f49093fa747dcb7c6a56271ac76a1954c0b620e6c10731aa059f3334076f9d7"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/weathered_chiseled_naquadah_copper_block.json"
+hash = "2402e1d2fbe3b55bc8e734d8451a7508f86138b07344f207cab00e9fa8ec443a"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/weathered_cut_naquadah_copper_block.json"
+hash = "835c029c4330e889b223b02f51ca4ebce2cf60b3087e771416c11403ab44c088"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/weathered_cut_naquadah_copper_slab.json"
+hash = "3fa83105b85c3dd09971be7b45adcf5efed08fc760d9ba64801e8de2f803a7fa"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/weathered_cut_naquadah_copper_stairs.json"
+hash = "b5a368f195622d603f59eda581ebb1d16f49908810f82ee9427c2b5a909af092"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/weathered_naquadah_copper_block.json"
+hash = "cb23273c49e42140409b00ac6a0daf202e32feb336fe050378e2d969aa21e25e"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/weathered_naquadah_copper_lamp.json"
+hash = "4ebbd5ea1ecbef8347b8e524b2ac71a5ec0019ed3d9cb9f0d02cba9a5989cee5"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/weathered_naquadah_copper_pillar.json"
+hash = "2507ca1e82f4f306d8761be10da47839a8cc7120465acc5bee63342c7a37b1c7"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/weathered_naquadah_copper_slab.json"
+hash = "8c691699e4434a92ff393a43856825a0a8d106eecaed51a5713fa15d9fcbc338"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/weathered_naquadah_copper_stairs.json"
+hash = "8a9204057ac0ce702b713b3bd09e2dd20bdfdf8622a35f7c0de2730bf7a2ab63"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/weathered_polished_naquadah_copper_block.json"
+hash = "f962392f7904503eb989dcb405a4eaea58abadce88078d0bed672686c9b71bb6"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/weathered_polished_naquadah_copper_slab.json"
+hash = "d17469b313fec6b48ad5410ae0843c191bb553f6c8d4144df9284abf3691ad64"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/weathered_polished_naquadah_copper_stairs.json"
+hash = "60d209c7e194fbdf70df9ddd8985937872fed89c2b95b9973f4a9a7f8c6521ec"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/weathered_smooth_naquadah_copper_block.json"
+hash = "ce563cdd018d92f3f3de7de08b489b8013a3d4fa40d695c2588bcdafdb111ea0"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/weathered_smooth_naquadah_copper_slab.json"
+hash = "dee5008d2eef9dc01202c64be7c5f0e239b62b211ff501293b60b600b52f9a21"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_dewaxing/weathered_smooth_naquadah_copper_stairs.json"
+hash = "b5486b0e6736681f640ac37519b7a5cbac6904ce8886520b3262591a400a5f20"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/chiseled_naquadah_copper_block.json"
+hash = "4124d321f17c05f05dabb2182a3592cad7bd84692f648c134a29c1ff6ff9716e"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/cut_naquadah_copper_block.json"
+hash = "515e42cae50744f3ca22d634adabbafb7d3959fc1a8661d7b83dd327b96dd5eb"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/cut_naquadah_copper_slab.json"
+hash = "52eeb4a2dbea25c946ce09a9273b2f40016eda11aff772d8c3f9ac326678b2c3"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/cut_naquadah_copper_stairs.json"
+hash = "289778a04daf9fd75aa22a3e05daeb2cc4b49de20d599461240ae513f71f0584"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/exposed_chiseled_naquadah_copper_block.json"
+hash = "b1bef179bff585f6d37fa5aee01654b53ae4080f4b1abb8ef4c5b21cd5aa3d32"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/exposed_cut_naquadah_copper_block.json"
+hash = "c5ce2b5aeda0f86f701c4380e8bf55bee34e19379d247ef1dd8da43e7050e6a2"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/exposed_cut_naquadah_copper_slab.json"
+hash = "2f30c45a6557b9a802c3819fa678498cfa870bea45527c4c75db8fefcaddc65d"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/exposed_cut_naquadah_copper_stairs.json"
+hash = "b8df52e96c4ef7af3cb3b8c0515913196e0a6e296b4d1602fe9568a3da0593b8"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/exposed_naquadah_copper_block.json"
+hash = "7b260fa80ee019666f70718d2e3c0e2f71dcbf9a95f25a8ce8b2e0e5856a3e7d"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/exposed_naquadah_copper_lamp.json"
+hash = "8cd2e2cab453e007161b757b519e0931e3a5ccfcfbdd8a509fd3914577563389"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/exposed_naquadah_copper_pillar.json"
+hash = "b9d64f2a2996899eb0efbdd480cc9507b147e62ace19d3d3552e8e266b03e62f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/exposed_naquadah_copper_slab.json"
+hash = "45569c8ea3be93dca14413757c4bb94f9ec8cff3934c36b3411bd03ccade8f5b"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/exposed_naquadah_copper_stairs.json"
+hash = "7362d6f24dd0f41bbcf6a0a575deaf56aa068ac4b51aa1796b11bec62dbefdd3"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/exposed_polished_naquadah_copper_block.json"
+hash = "1feb12346d95577eb3cf3535b8f82c3cd6730846a6933cbcd3d6d8aa9b12bc7f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/exposed_polished_naquadah_copper_slab.json"
+hash = "72cf9c94a7afd4eaa29089ddaf7fb303bb4a5a964d902f0feddda5147c006552"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/exposed_polished_naquadah_copper_stairs.json"
+hash = "e560d8244adfa382af14ba71738baa6b13d7dfe22d48123e18770d96eadfb551"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/exposed_smooth_naquadah_copper_block.json"
+hash = "e492c310fdd7d996a1b2cd7d98cd8e12b41e2b5a5e035b3917681264b2e8f219"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/exposed_smooth_naquadah_copper_slab.json"
+hash = "9e4d0aaa7e953aafc63bcdf587ba7c3d97ad188869e0c9b30e0bf308a55009b2"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/exposed_smooth_naquadah_copper_stairs.json"
+hash = "9bb731743b7def8593345fcea2037d8a6dafed5b8230c5a9245769e90811f349"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/naquadah_copper_block.json"
+hash = "46d4c7b8e9b9743b6e69875df570b5762fe9e7bfb6a2ad9f2bb5c68ce7021210"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/naquadah_copper_lamp.json"
+hash = "00393a954cffcb69717708acf44b300e071091ca7bb6d51fca94ae629a653e07"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/naquadah_copper_pillar.json"
+hash = "7fbd56487543049e10f0f98d7a5b94707edb9e72d755106be60db50295d21f45"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/naquadah_copper_slab.json"
+hash = "3bf19c339bc206ecf5423fc9d7a9517642332bdb3193c289f94ebe03dfe3d559"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/naquadah_copper_stairs.json"
+hash = "a2567e88f855d84eddd058fc49ad687ba388c594b5227543caed1eb9e2d180a1"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/oxidized_chiseled_naquadah_copper_block.json"
+hash = "47a1bb7cea537d532a364bc8f1775dd678bb8c9951914d45c88adc4e7dafda73"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/oxidized_cut_naquadah_copper_block.json"
+hash = "238c9c032cdef8b4c933a59f523e7dddce991f4e2d50e3ced779393bce3b0885"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/oxidized_cut_naquadah_copper_slab.json"
+hash = "a90a90d2eac6577bdf83b3e0a389b1bf6eafb868fc5ab8bc18265333c20ac638"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/oxidized_cut_naquadah_copper_stairs.json"
+hash = "2e31f8a0062f79c51fdf9d9328f63de11a16295d4e0294eff667461d73049c2f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/oxidized_naquadah_copper_block.json"
+hash = "b873a99bda261a69c958bc7aa50a7a15553f399ac74ea506d37d84fd2743a44a"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/oxidized_naquadah_copper_lamp.json"
+hash = "e954a9ee03dc9669885070f8afc83a502e5e9ebe319a962fc312ce939c1a9741"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/oxidized_naquadah_copper_pillar.json"
+hash = "6d44cb98da6a808bb809dc37c4cff02149b05399a842dc53f9367c714536c5be"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/oxidized_naquadah_copper_slab.json"
+hash = "dc5aa36ae71bbc0a1ceae0cf927c49821f8521016e1c2faaf402c81f95db8bc2"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/oxidized_naquadah_copper_stairs.json"
+hash = "569eaeb16868aa8f83201447b504e3e822523875e8d1f49c2d6a26587b68c988"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/oxidized_polished_naquadah_copper_block.json"
+hash = "1a7419f37a0f10181695e8a093f7b0454203299006d0e60b06c7b89d239e2f0d"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/oxidized_polished_naquadah_copper_slab.json"
+hash = "7082a969c471dca01d2bae9750780f97b71116e6b770fc6c329d8b0ade9c2bfd"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/oxidized_polished_naquadah_copper_stairs.json"
+hash = "347ad2a5ae1c022729fd3057729fde8564f7b83192277a9eed5b8928143f9260"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/oxidized_smooth_naquadah_copper_block.json"
+hash = "371798d3f91eac18a99e1049a73afe0fb0a8e65a92bfb0d486cdde1383e6669e"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/oxidized_smooth_naquadah_copper_slab.json"
+hash = "19dfac69ce235bfe0c660cd807fa8b9c7df0affe5d1940d31f5ab81216aa28ab"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/oxidized_smooth_naquadah_copper_stairs.json"
+hash = "cc21efcb2bb7f5afae0766d3dcd7dbe12119baead99f232525d695fe6e7b7ce2"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/polished_naquadah_copper_block.json"
+hash = "7ca46b13c0af00ea5ba5199ba59e91e3d565f9d3c828b635090501fcdf34252d"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/polished_naquadah_copper_slab.json"
+hash = "ce459fa952c6c55882238734a6c24ea97b70dcd3345c2bfdce114ab7f28cfe66"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/polished_naquadah_copper_stairs.json"
+hash = "6e8f1fcaa3b1dae737878a9057230d9f3d95dd14e04b5b144653faa4548ef076"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/smooth_naquadah_copper_block.json"
+hash = "5fb0a0171d45e43ba2c54de96ec24099d04165be5c2bd817d7ec19c878a6cf8a"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/smooth_naquadah_copper_slab.json"
+hash = "27aab87558ac92cc20795be3ea80cc40619497e7fa7e0470bcfe0e022465960d"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/smooth_naquadah_copper_stairs.json"
+hash = "6f0957ec52814103ac4e276fa036a677ca506c8e1f1f2e5359f48e33337e370d"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/weathered_chiseled_naquadah_copper_block.json"
+hash = "095b132cc4aabf921938469dd77828f974024773e1131ebf179c4ac7d77355b0"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/weathered_cut_naquadah_copper_block.json"
+hash = "8fe77760a22cbee55109a448661cfbeef1d731bd2bb61b3797c7206de6487938"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/weathered_cut_naquadah_copper_slab.json"
+hash = "1850a7c8835339518a48c8c4411801e42f64ae1ba06653b1091b0aa00614e26a"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/weathered_cut_naquadah_copper_stairs.json"
+hash = "47b1fddc322ad79cf7fec93368bd4432c5e31577204c350b01ca45bbda497388"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/weathered_naquadah_copper_block.json"
+hash = "8943e178d7ab064a7f0dcda7a76c85108f9ce0a2257917157461bb9ab7702db2"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/weathered_naquadah_copper_lamp.json"
+hash = "8c2a50f9ac8dad3f4c59e213c072c78f010fa51044d341ca04425f34921e18c8"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/weathered_naquadah_copper_pillar.json"
+hash = "4d8ce9184930a61c13f9047548d95588ccaf72a35700e967474ed9eb012c52e5"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/weathered_naquadah_copper_slab.json"
+hash = "f90bc24c872bc01bec63c2fe10b500c1b4e878acaa6bdeb76e21197f0d3606e7"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/weathered_naquadah_copper_stairs.json"
+hash = "d3e879062b4f488c3c9affd7c7adc3a4c67f38b4ebc5547ec87df985f896b471"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/weathered_polished_naquadah_copper_block.json"
+hash = "d1006e1dcf977b7d051df25f250156cb18f41048c26c932e03a5882bd9730716"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/weathered_polished_naquadah_copper_slab.json"
+hash = "88dbda856c6c24d5163ea2e93650848a50d5297d1003523111f64148cb57b421"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/weathered_polished_naquadah_copper_stairs.json"
+hash = "36d8904235daf2f0adf352df3d97f1ea7d0b8e0a1781a1666d0f286ba683066c"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/weathered_smooth_naquadah_copper_block.json"
+hash = "3fcce5caabc19201f6f7213fd6dae6d5cb352c357f0367cb7b4d6f06dd21a3bb"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/weathered_smooth_naquadah_copper_slab.json"
+hash = "6ef480d7990092910d279d4ff38766a9cd146a170a100ae7034277cb5eb19ba4"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/create_waxing/weathered_smooth_naquadah_copper_stairs.json"
+hash = "c17534001a37299e87b98a80dcf25f288d457f5810ddc715a7c7397fb3459781"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/exposed_chiseled_naquadah_copper_block_deoxidizing.json"
+hash = "cbddea2466434c482340711605006fa1467a41cca86f90d25bd726d6d76503ce"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/exposed_cut_naquadah_copper_block_deoxidizing.json"
+hash = "2f30ed37bad62f27c010804d8d76bf954df66937c70673163f2eeb719ee7ea7e"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/exposed_cut_naquadah_copper_slab_deoxidizing.json"
+hash = "115e78cdad6bbec7d8575ccc50725d16386f690d125de284478b34cd47140b42"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/exposed_cut_naquadah_copper_stairs_deoxidizing.json"
+hash = "e71912453602368aed534ee1ec5955326d0bf2879fd01d745d897ea1397418c2"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/exposed_naquadah_copper_block_deoxidizing.json"
+hash = "8eb7652d1aa77dd1bb9b47f12ef251a81788f2a1c77096f0f62e090346bc89c0"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/exposed_naquadah_copper_lamp_deoxidizing.json"
+hash = "5b46c590a63dc0c09f363185d39541056507aa23d90555b6e655aa310f586cc0"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/exposed_naquadah_copper_pillar_deoxidizing.json"
+hash = "bd17b08e1ce7841c3118ead8130260f7d958bd0861177ba99558d810a1b2c443"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/exposed_naquadah_copper_slab_deoxidizing.json"
+hash = "8e0fd247c5fdbbc72ffe6753e88a1471d6f1a2321b0189ac2ba1b73cdc5e7a3f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/exposed_naquadah_copper_stairs_deoxidizing.json"
+hash = "61f9a37575039fdb76a39aa71c26fc39a027d15a0c9424a4f2f25e41e05d422c"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/exposed_polished_naquadah_copper_block_deoxidizing.json"
+hash = "92b1b885f33e3a9a80c4e2b7f3a4d6475404e7dfa1166de0f21f19e8546f7212"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/exposed_polished_naquadah_copper_slab_deoxidizing.json"
+hash = "db27b7d1bf722c0429b1b0e294022d228dbc2344aaa2d6460b0bb0b608acc0b5"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/exposed_polished_naquadah_copper_stairs_deoxidizing.json"
+hash = "25d948f851e1de2dfb0d728343063882f770480314d08b92d72761c5bfb91031"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/exposed_smooth_naquadah_copper_block_deoxidizing.json"
+hash = "5a717587ae67b33519f1bb41daf5c168dfa1a64584955910d280cf4e6270947e"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/exposed_smooth_naquadah_copper_slab_deoxidizing.json"
+hash = "5c511c6fb530b9a9ef5a186e182c5ad0c7257867048a814b08527677ef939094"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/exposed_smooth_naquadah_copper_stairs_deoxidizing.json"
+hash = "216f8de4d696631be85266af14ce6cc5b9049642c88cbee001969c02707654e3"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/oxidized_chiseled_naquadah_copper_block_deoxidizing.json"
+hash = "2dec65d9b729228a41b9e539f131e7c863df5df8ab0b2fa2041ef897703fab44"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/oxidized_cut_naquadah_copper_block_deoxidizing.json"
+hash = "21d5d443a954f05032396bb5f444018790eb0e012fa6563ffaa018a564de668d"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/oxidized_cut_naquadah_copper_slab_deoxidizing.json"
+hash = "4a47f7049ebe55b4482f31b1fcbe189a5868aa8b87a28290544d707a41584521"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/oxidized_cut_naquadah_copper_stairs_deoxidizing.json"
+hash = "9362f4ad5815be7bd4b1be69768168bea0ff8f74a05847b9d848d2765d09f53e"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/oxidized_naquadah_copper_block_deoxidizing.json"
+hash = "2c5feade4420d91d36e911a3348ea66d2b539d0913c45c805b13d9e5f8987275"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/oxidized_naquadah_copper_lamp_deoxidizing.json"
+hash = "51f571cab7aa444a1a9f165b7a0e47982baf34a15c9056cb232de26d94eb3853"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/oxidized_naquadah_copper_pillar_deoxidizing.json"
+hash = "2a3adb92057757deb6e65f7d88086e24d653bf1afc81df689408c8db2ccf9cc4"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/oxidized_naquadah_copper_slab_deoxidizing.json"
+hash = "33d44c2ed389a9e5481a1c3c1a96e1e8dbe26268805bf60d5fbd85ed9d303be6"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/oxidized_naquadah_copper_stairs_deoxidizing.json"
+hash = "c034c116f570e63622738b4fa676986c1b941919ffd603fa8512a6fcf3c81b81"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/oxidized_polished_naquadah_copper_block_deoxidizing.json"
+hash = "e06eb65a8b1478f3eaf2e65f650dd23dce68c0d3ce276695dde65619c187b5b8"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/oxidized_polished_naquadah_copper_slab_deoxidizing.json"
+hash = "f59670d41c420bd512ed09c27b8433a5e78ebba1c783e733f3a4ad4e8dcd938a"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/oxidized_polished_naquadah_copper_stairs_deoxidizing.json"
+hash = "14a542ed3c62a8d4ba5a73a000cb38c18c22a823ecfba2aa00e3720d4ede35b0"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/oxidized_smooth_naquadah_copper_block_deoxidizing.json"
+hash = "84138454fadb7789c5ecb1c553764c631fc18ee1b06211a656664fdfc1f17382"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/oxidized_smooth_naquadah_copper_slab_deoxidizing.json"
+hash = "7f95cad44e2a1bfff4f493b15f753b7da031335f84d0c1e344f28a6cd21ff5a3"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/oxidized_smooth_naquadah_copper_stairs_deoxidizing.json"
+hash = "d1c0cdeae6fbd86af40126f4ea79b3c5b50127fa18fb8ea6aca5352701e7d6f2"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/weathered_chiseled_naquadah_copper_block_deoxidizing.json"
+hash = "916dafbf87b49282bebb93a443cd58005b25398777b0ff6c0db5733f5da4a3c1"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/weathered_cut_naquadah_copper_block_deoxidizing.json"
+hash = "95db1e343e73f82989bbf3e798d8d681834dfe760d74a7cf04d18bf1c6fbb5d7"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/weathered_cut_naquadah_copper_slab_deoxidizing.json"
+hash = "d6e7bfcee9334cde8d525ee66dbe4c9eb8549c477046e86ae5554731b227f7df"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/weathered_cut_naquadah_copper_stairs_deoxidizing.json"
+hash = "fa33e4db4a9cb05abbe1874d7104211bd968c7797b2491cf95b2466df2de39ec"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/weathered_naquadah_copper_block_deoxidizing.json"
+hash = "fd8997aaa9ef52cb76da0f949650f01bfc13d194d8279485076fe47d577f9ab7"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/weathered_naquadah_copper_lamp_deoxidizing.json"
+hash = "94c345fe639fb03527f37d178888d293d13125c7de8844603c0002cfe4c44d41"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/weathered_naquadah_copper_pillar_deoxidizing.json"
+hash = "0c898498815b8cf6db2e211f5b9cccaef20856c508ef370a6d1719547e5da57e"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/weathered_naquadah_copper_slab_deoxidizing.json"
+hash = "e17897141000500c812649790631874defd1079e4d8872be607ba7d87b3e8e14"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/weathered_naquadah_copper_stairs_deoxidizing.json"
+hash = "087a094db638c899bcd259d2a18b2d7cf27b7a18f046f63942a3b238a7112c66"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/weathered_polished_naquadah_copper_block_deoxidizing.json"
+hash = "5f2578b74c1114bf4a16e15a7612b9b567bb38946736bb1173e54e5916396881"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/weathered_polished_naquadah_copper_slab_deoxidizing.json"
+hash = "bd11b712513331602ca77ec8af79c2ca5cdab95b75b15c1c13cd7a46df04812f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/weathered_polished_naquadah_copper_stairs_deoxidizing.json"
+hash = "28e3ab1a474586cafe85132bf123c83a4a838ae3e02c4d6f9c1f9664a9747e34"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/weathered_smooth_naquadah_copper_block_deoxidizing.json"
+hash = "7618a927f8c09bfb8dcf6cd8cb0e0b436e532de9de966e3af2da7c18aca93c24"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/weathered_smooth_naquadah_copper_slab_deoxidizing.json"
+hash = "6f92ce3061d965ba90f68d01939797e3307ba229ec83866b49c3c27abc8252dc"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/createaddition_deoxidizing/weathered_smooth_naquadah_copper_stairs_deoxidizing.json"
+hash = "90203fdfd264ed0179d0fbcd6e927b7c4e894eca49a43031e1999b3b82d31572"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/exposed_chiseled_naquadah_copper_block_deoxidizing.json"
+hash = "93eebb11e669095ac755e53ee6dfdf272a395e05c9c07d298ef667acc566ddce"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/exposed_cut_naquadah_copper_block_deoxidizing.json"
+hash = "5918be0ad8f0ecff84ae69b1b732b5dae2054e1623aadf584701e5bcf5bde2d4"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/exposed_cut_naquadah_copper_slab_deoxidizing.json"
+hash = "23f2dfbd9421710019dd7ffb57ddfdb1e4babbf74c8098a250780fd654b92a24"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/exposed_cut_naquadah_copper_stairs_deoxidizing.json"
+hash = "3b4502807da49c9c2b78289bc9d61ed503a0b1d76572f7ee984e780850e8d3bd"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/exposed_naquadah_copper_block_deoxidizing.json"
+hash = "cd5ace37f81344b05a16f7d8336897565b6c0b20de4dd856e8b4d2da196db489"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/exposed_naquadah_copper_lamp_deoxidizing.json"
+hash = "a0661f038c4cb113e39cac1e68006acfea12880b21800f9ec2f08bb551642045"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/exposed_naquadah_copper_pillar_deoxidizing.json"
+hash = "ecff21a7812ce4ad967ecc84ec3161c2d8ac68899ea71a5aa6b4e0375f360793"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/exposed_naquadah_copper_slab_deoxidizing.json"
+hash = "9c8acec6a144f738bd0f119057ae80f07fd0ba49b2234a040384f60cb5f5a514"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/exposed_naquadah_copper_stairs_deoxidizing.json"
+hash = "400c0b815d3fd4eb08087caabc523a2573af90ba1ffc4e831bfba27428336cff"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/exposed_polished_naquadah_copper_block_deoxidizing.json"
+hash = "13fcd3445aa6469ffc761614a176bdc6ba320d763f13cfe6b6c8cd21a2d0d5e2"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/exposed_polished_naquadah_copper_slab_deoxidizing.json"
+hash = "5e2b4d85baccaa6e485876e7984b9fc1243b94d6c93938fce8a0a508e48d3672"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/exposed_polished_naquadah_copper_stairs_deoxidizing.json"
+hash = "bb5295b4ff667fa899bacfd8fb2ccf7a55ded20ca17550501b837c4611e070d5"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/exposed_smooth_naquadah_copper_block_deoxidizing.json"
+hash = "7c59f30b59580dffe2252dfef266cf52bb20b2be3b732a56f1fd303caded332d"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/exposed_smooth_naquadah_copper_slab_deoxidizing.json"
+hash = "dfe16f6a3a665871d873ad2896d44eed7443310a3342ee010adebf6dc078e87c"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/exposed_smooth_naquadah_copper_stairs_deoxidizing.json"
+hash = "f012b1fff12956079b8ff71d3660ff233c1dff14bda14e83e2d4185af7c41c9a"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/oxidized_chiseled_naquadah_copper_block_deoxidizing.json"
+hash = "6e9fcf5e21c0d058792a1431c6925ae3024d84b4bc748824db57c6ffdb247774"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/oxidized_cut_naquadah_copper_block_deoxidizing.json"
+hash = "543912f7ac35cc83d0c0f044ce463a72f36118c3e68048154cb5dfbd5401f41b"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/oxidized_cut_naquadah_copper_slab_deoxidizing.json"
+hash = "e8621c7fa6f7460cb94c4ecb138e7f277ff9c2f4863f611fa6fc63cbeaf30e8f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/oxidized_cut_naquadah_copper_stairs_deoxidizing.json"
+hash = "54b2ceef02752fd8f529c45b1c508b6257f1079e2fa3b642b3990551dbc698f7"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/oxidized_naquadah_copper_block_deoxidizing.json"
+hash = "b6c6732c3369fad6b42bb730b2eb669482240b63d170025496a2de327623af5f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/oxidized_naquadah_copper_lamp_deoxidizing.json"
+hash = "c19e323b839000e9dafa112a7ed55e8fb16f1896db0bdb7dde987c9cf74ce3a8"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/oxidized_naquadah_copper_pillar_deoxidizing.json"
+hash = "af6c5e246d552d7f0fca3dd7f4b0cecad443948ef087688b7df0e3081f5d1bc0"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/oxidized_naquadah_copper_slab_deoxidizing.json"
+hash = "fcd8dc39b403036df07da96c204c354183339f493d61d9066b1c70331d53ec5a"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/oxidized_naquadah_copper_stairs_deoxidizing.json"
+hash = "06375aeebf7d80ed41c2613bc9e58ad088586b32e3b251200bab45f681d88c6f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/oxidized_polished_naquadah_copper_block_deoxidizing.json"
+hash = "8c85a8f1e70e825efb162d9425e7ee1409cb03055b6cfcb385eae4e81a441612"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/oxidized_polished_naquadah_copper_slab_deoxidizing.json"
+hash = "e8208a1ea80e45a3d2a7ba5a3b86ede1af6785203d91ed4cb07b0e55ec4ebf46"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/oxidized_polished_naquadah_copper_stairs_deoxidizing.json"
+hash = "8c9d04ce703fe6b8696ba5b6d9e7bed7b8b0463805c64b81c702f07dfdaf6243"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/oxidized_smooth_naquadah_copper_block_deoxidizing.json"
+hash = "3efe1aa36014fe303e8fed48fd454cf44333b00304bb243520468e4cf04d440a"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/oxidized_smooth_naquadah_copper_slab_deoxidizing.json"
+hash = "ab2f59b8155f8b4a010a8f447292d6b9549a633a6bcc397a95083fb41cf17ee9"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/oxidized_smooth_naquadah_copper_stairs_deoxidizing.json"
+hash = "c80844c84795bc4fbd3d1285e5a68d112bb5fe4cd8f06f193111307f21f90aa5"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/weathered_chiseled_naquadah_copper_block_deoxidizing.json"
+hash = "b18f271df7e2473bc81d99e52a2e987e86cca2fb2e4d9437da891a8f461d6620"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/weathered_cut_naquadah_copper_block_deoxidizing.json"
+hash = "b18beeded860ef2402331381ba33ee91e5b79358e069bbb7aad9735f19ce4b94"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/weathered_cut_naquadah_copper_slab_deoxidizing.json"
+hash = "3b9f2d6174d4e61f70ad010144f374c1a31541864b2a9b224812981c0a1b977a"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/weathered_cut_naquadah_copper_stairs_deoxidizing.json"
+hash = "8d8b3beb0f0b09e7eb17f9238bff7df91ccd59ae34e1b55f72060bdcef52aa16"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/weathered_naquadah_copper_block_deoxidizing.json"
+hash = "5690f1f3ebc354e21e841e46cbb686473801aee8b0995da9b7fca2543196715c"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/weathered_naquadah_copper_lamp_deoxidizing.json"
+hash = "0dc7e149d0d227441930f4f04011d190c0e12944c15db5172a5cd18b4b2fa1bd"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/weathered_naquadah_copper_pillar_deoxidizing.json"
+hash = "efb21b55f4e01cb709cc353268e60e57ea0c45c86715ed70cddab980d4e0bb90"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/weathered_naquadah_copper_slab_deoxidizing.json"
+hash = "21d4a9614757cfc3dbf7771d2b9d01fdff75fee8dafe4892f1da5d2df3e22ec9"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/weathered_naquadah_copper_stairs_deoxidizing.json"
+hash = "cf0eb14a6d74a464bab134888f029f16e4a48cdc3440cd2f510011413d934ebd"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/weathered_polished_naquadah_copper_block_deoxidizing.json"
+hash = "092d888c6c6af1ba58e2e6afc2f5afdc16c5c59ef931102e39e2d4a5c8238d8a"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/weathered_polished_naquadah_copper_slab_deoxidizing.json"
+hash = "733dd77f681bbfc200e31e50289068a26c42525c11abdaca946b3cce76790d82"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/weathered_polished_naquadah_copper_stairs_deoxidizing.json"
+hash = "83bd6123d1cf4c7836ed7ab68e1e83851509c499120f5488f0f735d22ed99192"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/weathered_smooth_naquadah_copper_block_deoxidizing.json"
+hash = "88e3b465f62e99a5b4385f07ae8837a8fa75ecf93698ed53dd0eb9f3a0e300ea"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/weathered_smooth_naquadah_copper_slab_deoxidizing.json"
+hash = "bfcba8c2b07c5e6268b3aa3a3c98e47a792e21f3f22d263486d5224512b89e4a"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_deoxidizing/weathered_smooth_naquadah_copper_stairs_deoxidizing.json"
+hash = "9cc413fba1a0de0f53da4119be5d78ef1f47194647a68cd42d8ddb9cd3ac3cb2"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/chiseled_naquadah_copper_block.json"
+hash = "58af42229f294531efcf9bdef638d72b5f9a98d4b409c04c295be74e90fdb61c"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/cut_naquadah_copper_block.json"
+hash = "f35caebcc15108b08a095f4e96deb798eecfebf6e82551b9a721b299936d0a85"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/cut_naquadah_copper_slab.json"
+hash = "d84340c8af039b5ebea2892c50aa351bd07350e7a524e299dc85e41123ef3b11"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/cut_naquadah_copper_stairs.json"
+hash = "bcb7e5a1a23515321407f8c5568b3200ae5429efde62f5c0c9d93ff4e7312bb2"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/exposed_chiseled_naquadah_copper_block.json"
+hash = "e90174b1e374031ae3590e57edd69a4b712dc15e377cd12ea48a1846a940297d"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/exposed_cut_naquadah_copper_block.json"
+hash = "75999284f4d26e9bb50445bc264d0a98b8bcb2e1cfd6c36ca8a87ed8a7bd35d5"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/exposed_cut_naquadah_copper_slab.json"
+hash = "f51ff1f9dcb7379f6e11d88e653a8bf076e048e6f1a23dacc11247219dc4d218"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/exposed_cut_naquadah_copper_stairs.json"
+hash = "a245bf0e4fb5a23048c445cef9cdfd25d11166064fb70fab2e8177884e9472ae"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/exposed_naquadah_copper_block.json"
+hash = "a7c6b4cbcd913e88cf04e0812283abe8aa6628963d6172dab59ecf1e1a89c750"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/exposed_naquadah_copper_lamp.json"
+hash = "90f41d8e908e64337f6e50d1c66c574fde9273c63bd84b60126cdd6233d55be6"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/exposed_naquadah_copper_pillar.json"
+hash = "952f2d3d6fa09ec96d25f72cb3275706be157119a94fc8a6e561e7ad17a2ca4f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/exposed_naquadah_copper_slab.json"
+hash = "e1c3ccb021b5afd8c2ce330828a69fc2177e695e14d4b903abc0bdf25fff3b3b"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/exposed_naquadah_copper_stairs.json"
+hash = "4e55621211610e77fa1a07ccda6eea342664e4fc378376979cecbd94f4deb039"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/exposed_polished_naquadah_copper_block.json"
+hash = "2595814ae42aff9d033cf0c24e094b6b53faa73a2db8b579427c07bb40857d4f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/exposed_polished_naquadah_copper_slab.json"
+hash = "11bdd9016918472c3144543a3e890a8b41bb280be73f6f3b35f4c281beee33b5"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/exposed_polished_naquadah_copper_stairs.json"
+hash = "bcd4e6f0f9b3d4d1d694360f14ae043ba266c45400fc8401b198910bed465bfd"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/exposed_smooth_naquadah_copper_block.json"
+hash = "7cd374f334e2c0122d98e1e37f2d11f762a2ea16073c62aa65d8ecf68c1ffe42"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/exposed_smooth_naquadah_copper_slab.json"
+hash = "32907c011b472b105901c82f245431055c4808b0f0720c758aac5db112415e67"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/exposed_smooth_naquadah_copper_stairs.json"
+hash = "441b2d2b9e607923178e1c178fe52f998e75cc03d5eb13b5dfd2af116db68bfd"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/naquadah_copper_block.json"
+hash = "086b0f28a1b5139f66d551623331aeee8b86d381f880498eed652b49c2c3178e"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/naquadah_copper_lamp.json"
+hash = "44cf5a3e1032cef0ec7e450f6a16118fc996777a1cdf6e0371cdeb35c5dae079"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/naquadah_copper_pillar.json"
+hash = "7e35df57bb48870ccc5a038d8c5060a040051ed327052eac30a2a54f1f983ce8"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/naquadah_copper_slab.json"
+hash = "877157f5b93a1167adfab61a649f0d6b0a494e90de7679801997d8b07fa8c069"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/naquadah_copper_stairs.json"
+hash = "9b5eb9ca3ff7ac31ef35c1d54dd5fdb77cb7aa3f22835180c9f8e767d3a56138"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/oxidized_chiseled_naquadah_copper_block.json"
+hash = "146faaf5dc87b4e5d2839144eb8ba392b655fe7442a474cacbbdee50418dc71b"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/oxidized_cut_naquadah_copper_block.json"
+hash = "95be52de7b2ab72e28b570f1503bd0731a779d1e740cef8fcddf425db593a9ee"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/oxidized_cut_naquadah_copper_slab.json"
+hash = "aca79286051fddc1cd0f8560a59f932c02ad23022b968b2b41a51d47dbb6ba57"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/oxidized_cut_naquadah_copper_stairs.json"
+hash = "0dcbe86820156ee88207d0f38c81993a9657444a07b1bbab2a3510c70a3a0ade"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/oxidized_naquadah_copper_block.json"
+hash = "d43f33c174a5c262bdb11856a552e98660f48949d5d286ec7d36e83cc8e4ca1b"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/oxidized_naquadah_copper_lamp.json"
+hash = "8b2c89381ec83b1998a75fe198117fe50a3ad57d1b47ea938144e68a8ebf554d"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/oxidized_naquadah_copper_pillar.json"
+hash = "850cfb4f88c88b15d0b81bed56fe710fa7acf7b6c5075a6c584ac7eb5037944f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/oxidized_naquadah_copper_slab.json"
+hash = "11e3d0b5c6effcf4ef14ee355c799e429bab9a99555a337481338713c9c2747e"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/oxidized_naquadah_copper_stairs.json"
+hash = "d9121788df37370528ef2588435648781c890347d4b879cf462596f74023dba1"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/oxidized_polished_naquadah_copper_block.json"
+hash = "6ae813d05842588c181f1adc9f26760291f5662b26ff29269b54bfd36d90817e"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/oxidized_polished_naquadah_copper_slab.json"
+hash = "0c0d0a37bb0e8e96b0c0121578f36b0b3816a6ce5b42b4073539d8e5872e5bd3"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/oxidized_polished_naquadah_copper_stairs.json"
+hash = "319376a3b7c318ab79ed6c997e45956a4aad5242eddcb7a040b0064c326076be"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/oxidized_smooth_naquadah_copper_block.json"
+hash = "fb13566dea1d401db894bf42563ca2e4c81df8267cd566c0bf78c35821e9b927"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/oxidized_smooth_naquadah_copper_slab.json"
+hash = "7ba472a79e57dc1174753e82cabf9b2babfd1cc8cc7eb2f0ee1b738e85f129a3"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/oxidized_smooth_naquadah_copper_stairs.json"
+hash = "7226db94ed974d2eecfd786994bc069a0131fb918264d67b3207d5b8fea0c612"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/polished_naquadah_copper_block.json"
+hash = "ad02807cbf8f48c0329fe59e8757aee87826f7928f35bbfe591fd353d469d9f0"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/polished_naquadah_copper_slab.json"
+hash = "6d460e7dd765409b198cac84848bb52a9b8ebad9f779a9e60e3048ed3dd3a3bb"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/polished_naquadah_copper_stairs.json"
+hash = "cedf1c0ec1930c49214f8cd9cb16c4d61693d249c37ed2697754f2ce737b0e5f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/smooth_naquadah_copper_block.json"
+hash = "6aa440359f6af20c731a821bf36b360cf62933909a249fea9cde4372ff6e8b6e"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/smooth_naquadah_copper_slab.json"
+hash = "af8abe08accbb13434935ef8387e76f30a0ca0776ff21af0201e0369b03abca2"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/smooth_naquadah_copper_stairs.json"
+hash = "e1886cea893727a01c229253a6160fab57adf47ddc7c77054f254a0f461bcdd1"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/weathered_chiseled_naquadah_copper_block.json"
+hash = "205e4413d643dce15de6ca2806aab8fb6cb89ebc322652559964a65c12f5bac1"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/weathered_cut_naquadah_copper_block.json"
+hash = "389b90215b7a83083dffce6b6af7b0c8c53a611e1c92e645b51a52f6a7b73a17"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/weathered_cut_naquadah_copper_slab.json"
+hash = "f1c3cdfc2a1adc6f7c8f6f2c167838daed87aaeb6264763ce90c8ce96ebcdca4"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/weathered_cut_naquadah_copper_stairs.json"
+hash = "b86631cd7a02ff1452005c7fdf6d3bf94c0aed8186fab9d530f93350ace8a031"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/weathered_naquadah_copper_block.json"
+hash = "383ff93c376aa984c8394d2b74531eff1671249e23fbb4c15c71a3e471f026d7"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/weathered_naquadah_copper_lamp.json"
+hash = "1c6ee1071695351cbc766b4c19f209117afcb94b6b02009fc703ec5561875bdb"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/weathered_naquadah_copper_pillar.json"
+hash = "404c5d080e03cef30f35b01f62d7058a7570bd8d2b6641d7350ef8229b1a820e"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/weathered_naquadah_copper_slab.json"
+hash = "fa8e599f3f9d7593d2ce6baa4525ee346f17a438c83a0a29c9fae4738586c7b0"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/weathered_naquadah_copper_stairs.json"
+hash = "37673c64eb8bbbcc710bba65f0a4e0ca4d6b6650b2df531c83e9d948741b6883"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/weathered_polished_naquadah_copper_block.json"
+hash = "a8ce483673b21da39800d9e23fe22e03bd730ea4a87c0ea262ccbd8c03ffc1d3"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/weathered_polished_naquadah_copper_slab.json"
+hash = "dda8bd00b327f74b4a2ceed35e7881032e04a5872983bad8869dcfc908fa64cf"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/weathered_polished_naquadah_copper_stairs.json"
+hash = "0fa2554808b9e6013b9159bfa6e9e72dc12223d8452ea5dc383396d4c204afd5"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/weathered_smooth_naquadah_copper_block.json"
+hash = "b0d73802ac1c19ab93aaa305b9c316199a6283531d131e3f4c369e12b5719c7f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/weathered_smooth_naquadah_copper_slab.json"
+hash = "5e5ac80fec6dd273133d7883822a6fdf1973d7ab5e0cd840d87406d8162503e8"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_dewaxing/weathered_smooth_naquadah_copper_stairs.json"
+hash = "671bded688be7e57fbbdf0b62fb98beb2a2e0f8be0d09ab2ecb0b4b918d079fe"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/chiseled_naquadah_copper_block_oxidizing.json"
+hash = "8e76eb84a0cf159a8ece4ca0cf313493f6b81a39f9b68210a78243993cf6605c"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/cut_naquadah_copper_block_oxidizing.json"
+hash = "9d7f87652dc191c19a3c3b09dc17f30bf3194e97e3c34d52b5fa369a2f05c140"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/cut_naquadah_copper_slab_oxidizing.json"
+hash = "8a3234ad0682e36e35512bf23af8ff81867a9aa0dd591fabe90be39e2e42193f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/cut_naquadah_copper_stairs_oxidizing.json"
+hash = "6b0164ebf5d85aee6ff822c4738948f4ab0233509bc6e1b632facf72f03d86df"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/exposed_chiseled_naquadah_copper_block_oxidizing.json"
+hash = "6ddc2c30ba60e825b2a8f7d2e79a9de60790f3b1aa9f5c0475720225fc3ff0bd"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/exposed_cut_naquadah_copper_block_oxidizing.json"
+hash = "69ffb7b84649dbba0f22bd248f96640e85bce21d0424cbee00d8d7ab8ccb30b3"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/exposed_cut_naquadah_copper_slab_oxidizing.json"
+hash = "cbd2e12708f5c72a554c5f882885f050af1f4ed18924e83ec1606446d33f6fdc"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/exposed_cut_naquadah_copper_stairs_oxidizing.json"
+hash = "24676d37f1854f62c047f021f055072565daa3b6f74958630d02a4f79410d814"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/exposed_naquadah_copper_block_oxidizing.json"
+hash = "7ba6a799fb54bbe50573b874868b6bb60c74630a25c9f4dfad51f96157f58a10"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/exposed_naquadah_copper_lamp_oxidizing.json"
+hash = "fc0ed8bfb255130eb0245268cd1523bf73a509a9f57d533499e5e0febc3fbf44"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/exposed_naquadah_copper_pillar_oxidizing.json"
+hash = "6e9cdd403f0cf91f7ac2de0e99c7feced15588969feb6cb8d204a7d6ad3acb6f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/exposed_naquadah_copper_slab_oxidizing.json"
+hash = "cdb8f8c7f9c01b44b3f6c9acad5164b694bd4618cdcfbd541ec8dbe3c8df4924"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/exposed_naquadah_copper_stairs_oxidizing.json"
+hash = "307143473d3a13572f0d34009ac87ec079ba43523a03909d8369d338907db332"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/exposed_polished_naquadah_copper_block_oxidizing.json"
+hash = "8c1119cacf0283841a70b0597d564328c1769692520c18d11ee975963e561c6d"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/exposed_polished_naquadah_copper_slab_oxidizing.json"
+hash = "0a916a9d67452e671a1e8a02fe47c65a2bac68adddcc6bb39b97609e15a0cd32"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/exposed_polished_naquadah_copper_stairs_oxidizing.json"
+hash = "0675f406bf981056c1d42ef5db8f6b528d058ac88faf435956905cc84fc0a2e2"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/exposed_smooth_naquadah_copper_block_oxidizing.json"
+hash = "7bf7b4093c1d20b55f9b3386460862124d756dd07bc0a3f56554acb9384cd589"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/exposed_smooth_naquadah_copper_slab_oxidizing.json"
+hash = "b7d05b9749a62b2c808b823ec1104e08f958ed6db23dbf13ae75c2620e3d4499"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/exposed_smooth_naquadah_copper_stairs_oxidizing.json"
+hash = "6dec2d37a67bd5bb59158a1f16b36f906d946e73e8430c031229d7c9c565ca1a"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/naquadah_copper_block_oxidizing.json"
+hash = "fc6d9bfaf35481aee2ac6dc6451e39fc1c5a4ec411e88a2d2591ff2fa5e00626"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/naquadah_copper_lamp_oxidizing.json"
+hash = "10f868199b0d835584e734364d85c13a443a3fe5d2e361af033240e34821fec5"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/naquadah_copper_pillar_oxidizing.json"
+hash = "826916913ee6b3f339fdcbf7d63a9b7b7ba7268e55da91bffb862176301d92aa"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/naquadah_copper_slab_oxidizing.json"
+hash = "69360930d5e08dcb781e22ae3a3fa36ebe76a3fce337c9d9f8784ff8d3f5b1a1"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/naquadah_copper_stairs_oxidizing.json"
+hash = "1efcf72b0afe00d8950621cd59f60a99fae3c18cc3e917380b5577d487cb3fd8"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/polished_naquadah_copper_block_oxidizing.json"
+hash = "be917f7882cc5344c6574261253bbabc7e827fde7a3ecbc95fcb2be0e20c7cc7"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/polished_naquadah_copper_slab_oxidizing.json"
+hash = "50645e323a5e4d11e3c2df9b97df85be707799614bac25e4cc796b5f089e9092"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/polished_naquadah_copper_stairs_oxidizing.json"
+hash = "b9496ab540b50218d098d2d7225d84736973eee08eef6fd3e662546464a7ad4b"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/smooth_naquadah_copper_block_oxidizing.json"
+hash = "6fd20ead7b23d271a26c1ce2c51c68f0b85343672a45df1075093433f48c2744"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/smooth_naquadah_copper_slab_oxidizing.json"
+hash = "29aa091b3359943aaedbd030984f2fb859313e700c5b190f38dff5e9fc860640"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/smooth_naquadah_copper_stairs_oxidizing.json"
+hash = "b1fdd6937ce4e80c323756c6d98ce3403f2a6673ba3c3eb8bf7d6a597cf02e7b"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/weathered_chiseled_naquadah_copper_block_oxidizing.json"
+hash = "c3dd83a322c0a6f74501e73125fd463dbf4eafd62aa57c15a4e72e6aac3bb3b6"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/weathered_cut_naquadah_copper_block_oxidizing.json"
+hash = "5417de9e36f6e46ad3155cd98f6149a11f9f8a11fcf616c81b4fc3ca195a3c95"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/weathered_cut_naquadah_copper_slab_oxidizing.json"
+hash = "5cb8a71ba404950a2bf3ed7753d1e0ab9f3fb4afcf33c5b5e42af41d130b13df"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/weathered_cut_naquadah_copper_stairs_oxidizing.json"
+hash = "29eb6971720942272a84f56742aa075c1025d35aaba0469874166e5970c68263"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/weathered_naquadah_copper_block_oxidizing.json"
+hash = "67b677989a4cb2072b6f55dbfa6263159bd90dc52a984fdd055c606710e2a323"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/weathered_naquadah_copper_lamp_oxidizing.json"
+hash = "2658dffa857ee71d86e3911d0e6ef50bb86d81f4e9dea3903333e9bde4986900"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/weathered_naquadah_copper_pillar_oxidizing.json"
+hash = "7ece6a33305b909c3303233fa85725582928673ba38abe930aedc39aa3715192"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/weathered_naquadah_copper_slab_oxidizing.json"
+hash = "5fada38925b4346b2c5b09753a37fd5ee1a4cbca8a8969dfe9eeb2845132449f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/weathered_naquadah_copper_stairs_oxidizing.json"
+hash = "40930459456218aa7b0e6d270694ae742026102a3e366af125f76665ea5629f8"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/weathered_polished_naquadah_copper_block_oxidizing.json"
+hash = "9c33208be02562cf4f1f79abc5798ef44cdd9c078c03c6c8b4419ae59397aad5"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/weathered_polished_naquadah_copper_slab_oxidizing.json"
+hash = "6eecf5f2f6618668a681b72ad478bb28afb9957c246561619f16bcd0eae37127"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/weathered_polished_naquadah_copper_stairs_oxidizing.json"
+hash = "fcddc9c7abcda703e53f3295f0d290b2b146ba6be74af5f4109b397a664033ed"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/weathered_smooth_naquadah_copper_block_oxidizing.json"
+hash = "14557ee33a5f93bb20df6f98eb648677143c174397bcea1a1a0e70a65cf31f90"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/weathered_smooth_naquadah_copper_slab_oxidizing.json"
+hash = "df1e3beed5954f4c5ddb38f39135e69f885b6b9dd9d67e7862f43ed513612289"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_oxidizing/weathered_smooth_naquadah_copper_stairs_oxidizing.json"
+hash = "f6731c60065779fbe170e86dad987febe21aaa8e4a1931e4f9e533cec4609777"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/chiseled_naquadah_copper_block.json"
+hash = "89e3645edc4c4511f7e52d84cd608adafe8b4720e581c8a7ededa9b4df0cd4b8"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/cut_naquadah_copper_block.json"
+hash = "dfc72f12294465f9be5c7f75552ce6c3d4654380da2d3319d8d198952877baaa"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/cut_naquadah_copper_slab.json"
+hash = "e85e90b3053e374be65d894b23208043142f754e8dc61328602e1746bd26a7bb"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/cut_naquadah_copper_stairs.json"
+hash = "2421bceab184e0095cf306811ed7a163b02f428d69036d68c1ccd3582dd01f96"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/exposed_chiseled_naquadah_copper_block.json"
+hash = "5d4fe5db1860caffe53aea925b8e807f126ce01d6fe3229193b202411aebb93e"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/exposed_cut_naquadah_copper_block.json"
+hash = "bdcd2623b86b38616af7147689f076fbef6a0b55147c0378a2605fde2daa8b88"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/exposed_cut_naquadah_copper_slab.json"
+hash = "d026b47867706775f186bff37c03bab5d05a9cf7d60b22c1982abe0839f7cd9f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/exposed_cut_naquadah_copper_stairs.json"
+hash = "0f186c2d3257178eabb4859b2c7019b851684dc722fcf0dea888a8ec871b2065"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/exposed_naquadah_copper_block.json"
+hash = "89b775a2db4db07094ac3dc763f37b796aa0d61680f38862354611e638b46c68"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/exposed_naquadah_copper_lamp.json"
+hash = "6f064dc717c13bf4994db933311813bdb3616218b8b9c41fb929f9c482b695eb"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/exposed_naquadah_copper_pillar.json"
+hash = "738d3bee2f9fa24ddc50a2a7796961ed72944f618fcee818ec2d6d0d32039975"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/exposed_naquadah_copper_slab.json"
+hash = "505a58e6c4524ee47b50e09c2b36f71cf45624da7e114ca20e4443fcd59b6c5c"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/exposed_naquadah_copper_stairs.json"
+hash = "d75c35050c35a52c9e11687733399cfad2ed3e8d6181a9a22cc866ed36b20722"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/exposed_polished_naquadah_copper_block.json"
+hash = "2d982894d93c1deae8e7beb911ccb91e9148adff0a5279107cb221ba86e6bbfb"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/exposed_polished_naquadah_copper_slab.json"
+hash = "6c444f5a1a136fe8c965385c4fd387acd16648e0c93d6e503ea9751bf5df7cf5"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/exposed_polished_naquadah_copper_stairs.json"
+hash = "2b436bf0469d3c30c54ddf7b90b4094866204fa650a311c7f6e528be792a7435"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/exposed_smooth_naquadah_copper_block.json"
+hash = "063724c2af18a7a58af24a015edb94a5a28870d17fa8afa2b868cc8d85b26aa6"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/exposed_smooth_naquadah_copper_slab.json"
+hash = "5a40e2d68fa6e80cba247af81cac271e94e151057271d212884a86ebd48322dd"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/exposed_smooth_naquadah_copper_stairs.json"
+hash = "0cad361f6f26243ac1022eff52aa976d8de2a5dce0491369aa42dfe0c25061d1"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/naquadah_copper_block.json"
+hash = "2217bfd8844531e1bc272afdfb3a350987777c55cb3cf60a0343546b6421f22b"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/naquadah_copper_lamp.json"
+hash = "091c898e725a99cc28c1183ab39a1d90b410959008e12770bd87278d8cde1e2f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/naquadah_copper_pillar.json"
+hash = "bd74605be166fa987f5753511284af8beaa61e0a2b787cc3a7f5088f1fa265f2"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/naquadah_copper_slab.json"
+hash = "ec591eb21d29d6d05dd466abce26742a5673ce7ff1ed4173192108ee90d00686"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/naquadah_copper_stairs.json"
+hash = "be59d90b97d8fe8b7385c53a899a00c0522a7f2ff8365831e426fe5518bb3235"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/oxidized_chiseled_naquadah_copper_block.json"
+hash = "7c4c86c7302abdf97fcfbd37cd41c6809b143a70c2641001772e85610f780389"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/oxidized_cut_naquadah_copper_block.json"
+hash = "fc92f0412079d66ce45e729f7a4dfcd1956ccd0c8e14d5707473c3a378b2657b"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/oxidized_cut_naquadah_copper_slab.json"
+hash = "75bc621581bf717f86c10e324dee116ecbe2980187257ad2e27e695e7bbf6a95"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/oxidized_cut_naquadah_copper_stairs.json"
+hash = "4fb1b06abb18e8bd9c1c2226f465eef0746bc2fa65f03b30ca16d6834ed21392"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/oxidized_naquadah_copper_block.json"
+hash = "a43fc0dc740468f4b05196d4d0b21e7bad6be915578ffa84d310e0af2174e00f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/oxidized_naquadah_copper_lamp.json"
+hash = "f354bf5b3182a89dccba42d1583713b7035c7849033340676a5626fd1250d720"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/oxidized_naquadah_copper_pillar.json"
+hash = "c2bf6674dbe5bd797ef3c0dccf2701081840ecfda2f5b6d7b7b2c84bfd44fb10"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/oxidized_naquadah_copper_slab.json"
+hash = "1782953ab56a06a7b7745c5b841ee9915597659f8375d20c31e5856b209422fc"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/oxidized_naquadah_copper_stairs.json"
+hash = "9de402dcdc35d563dea33e06a5fda8ecffd65cfabba3236ab8fb6f80999bb580"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/oxidized_polished_naquadah_copper_block.json"
+hash = "f5a52acbd7a7cb28ddf3808434268979c7582f43cb2dc2154487fe4b3fec506e"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/oxidized_polished_naquadah_copper_slab.json"
+hash = "1d8d4d0497b69a403a3ffcecc325b8e61a409b974a458cca5aa9fc3636c0caf0"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/oxidized_polished_naquadah_copper_stairs.json"
+hash = "c7fe525e9a31bd783091e358bcb4f018a1dddaa390d81e0cf4037ff0d72213ff"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/oxidized_smooth_naquadah_copper_block.json"
+hash = "bbe1c8386cf78426dc5550fb57513c03fedb56e689448ee0859f2a39f391b7ca"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/oxidized_smooth_naquadah_copper_slab.json"
+hash = "672b1f963dbc20e1f60dafef3de7d71fd0e160cbebc4113db8b7f82e297f5edb"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/oxidized_smooth_naquadah_copper_stairs.json"
+hash = "ca930bd51305521e83a07f137d8236dbd61c8000eed48d5999988921eddb6a42"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/polished_naquadah_copper_block.json"
+hash = "064a03ffbc51906b6290d8822e37b4afc328eafb817a35adb89b9e903e8b01d9"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/polished_naquadah_copper_slab.json"
+hash = "2407f0c5dff4fb763acf583c1c784c5fc2a51bb9df7575bda8f114d32c412bca"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/polished_naquadah_copper_stairs.json"
+hash = "e27b324ff681987ec08067e770dc9afff990f4684f027b6541a1617e0cb56d49"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/smooth_naquadah_copper_block.json"
+hash = "e21a8af18eafe30ed5cfd75b273b17df53de23884d7df3f4a14889baa5e61048"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/smooth_naquadah_copper_slab.json"
+hash = "5d2b4a949e6ecb4ab88fe43b6cb2fea6419d8960823dc431e5ce6f40a50cc54f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/smooth_naquadah_copper_stairs.json"
+hash = "9638b546f089d978e5a7b3398430604721ef9cdaa366f87a02effc770890ac26"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/weathered_chiseled_naquadah_copper_block.json"
+hash = "c5bafa7bb8fc53ff40fff9106ef07d808cfd5d7818c576b555f8f54ea35a2b85"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/weathered_cut_naquadah_copper_block.json"
+hash = "949a42aeec81a2358cb5cc59df00068c1854a4a9f5faa531faa894996a949a4e"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/weathered_cut_naquadah_copper_slab.json"
+hash = "3c30e567503650a9687aed7bdc0ad1775d838393978481e92a89da2d03b6e3e8"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/weathered_cut_naquadah_copper_stairs.json"
+hash = "8b4babd204649ff05759acbdd856cb180c54d487347e6a953f1149aed0f516be"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/weathered_naquadah_copper_block.json"
+hash = "e6162b8f721c57e127a9c020969322b0d6d7ba919cdc94bfee0c3b310aba60e1"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/weathered_naquadah_copper_lamp.json"
+hash = "2028c2b6cabb30a57fc5ee4bae3181052368223060b9fd95d0b0a257d67ace45"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/weathered_naquadah_copper_pillar.json"
+hash = "c514762201a9e2f437852496691f11c2736f124dfd6ff1f697880a09187e6c08"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/weathered_naquadah_copper_slab.json"
+hash = "3be08a24016dba87d6a68546125d28943e5995d78d03bf17c2ddb69b6aa8235e"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/weathered_naquadah_copper_stairs.json"
+hash = "5b5bbf4f28de6fd3946d9553588d7ce741b9fc24b7d0782924a46a71864fb634"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/weathered_polished_naquadah_copper_block.json"
+hash = "11d752ab7fe520bd2026202ff2ceacaa68a6df44d93000f0c7ed6f233ec69bb4"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/weathered_polished_naquadah_copper_slab.json"
+hash = "c06fc4550b081a8d463ce034b9b6ed77a77f84284c28ae2bd723afa008968dbb"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/weathered_polished_naquadah_copper_stairs.json"
+hash = "63953f20976e0de11bfe1c0e300e2cadcef2d035518ec718e8d4f3b06a9af026"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/weathered_smooth_naquadah_copper_block.json"
+hash = "7f3d3fe9c2c11e52c085ba97526a1d996a92c6f1342fc0aa04bd8483170cb9cb"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/weathered_smooth_naquadah_copper_slab.json"
+hash = "165d41c54d34fc3673adbeac31389c3869f50afa919472c02d2603cb1cec1d95"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/naquadah_copper/mekanism_waxing/weathered_smooth_naquadah_copper_stairs.json"
+hash = "be5c04a3861db9892ada47e18ce99456d2bfb171a80b8f206d560ebbb39f1775"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/personal_shield_emitter.json"
@@ -5830,11 +7610,11 @@ hash = "3b4bea8739e3353b7963cd73d8a74dffe9112882a40c1cfd8429168910e592c4"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "db66f75bba1307105fd5d1cbcaa877ea9f4999fe5cde494cb9c051149d58ef66"
+hash = "1a5c50d3e4be11d2b540790ae21452ad4f226d3e15253c25162ecbd1e20e5bed"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "f999e4104bba06b84f62491e546271a05bd247416739c96b85844c73c01e5218"
+hash = "16cec5d6775a0077e9081b619eaa261346da3781a0be49b01333af17a9a1d8fd"
 
 [[files]]
 file = "kubejs/server_scripts/wafer_chain.js"
@@ -5889,7 +7669,7 @@ metafile = true
 
 [[files]]
 file = "mods/advancedae.pw.toml"
-hash = "a2aafa3ac24eef1aad644a9633f9f856271ed97c8da6a6855627f9eaea6e44f4"
+hash = "361a6afe298a1a3265be267647ce95ae1743306a9b9e416c71887ca33ea14838"
 metafile = true
 
 [[files]]
@@ -5934,7 +7714,7 @@ metafile = true
 
 [[files]]
 file = "mods/apotheosis.pw.toml"
-hash = "009fc9087a06c427972f2017de32bb7d865d6f7d248aa3c4a9e81b4f63115df8"
+hash = "8d6dcc9a218a6f300acd74a1d25d562f9a190a3c626251ac1bc3582a8b7aa644"
 metafile = true
 
 [[files]]
@@ -5959,7 +7739,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-construction-sticks.pw.toml"
-hash = "6a47b491d7685a7a32f15f410a9c353d07b301cea9f434afd31471f3b974704a"
+hash = "4491f84408617cadf0e125b2d3caf805c81d07232922e8b14f59c44534259dcc"
 metafile = true
 
 [[files]]
@@ -6234,7 +8014,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "51851da1eec44c74801f9b00525c119aa136be6b4c4ba2b5bd8b6d0dcf4791df"
+hash = "6290345da4e95c76da5b050e17c337503bcd0a6b8f38cbd819595da48d11dfb4"
 metafile = true
 
 [[files]]
@@ -6374,12 +8154,12 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "4c996e783683f1a51df88d6af6b57881ff095c8801b0f5ab2969d0d121c137f8"
+hash = "276e79d919c3a698ab2881d784544b7e60bef69b43f44808353bb65d38633cb3"
 metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "bcb262cd4974aa8539786bfe5ff42c2c8737e595b34090131ada06cda5658f80"
+hash = "89cd21d579629da99be6871a9bc877424c89bb37f227868cf952b866efa8211a"
 metafile = true
 
 [[files]]
@@ -6499,7 +8279,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "e739b7355ab3cfba2e729f8f0b51eafc3d9c3afb19ee30ac7b311631610c5e66"
+hash = "4b0a995f7cfa19951ba585aa320a1f4ef1a755a38b608adcff2f9ddd156b195b"
 metafile = true
 
 [[files]]
@@ -6509,12 +8289,12 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "3f442a150d1a9e60f31626f6da4e4c0a5422ff2d83c3566fece2b331e726f881"
+hash = "151c6109fbf47211edc068a924e11c4b9a76dd60ce9e1561d467ac5d82dd698e"
 metafile = true
 
 [[files]]
 file = "mods/journeymap.pw.toml"
-hash = "ef9d8e68fd0ce1145b1ef5fe3a36553a605e631edd78ada0d6ae55a5684d7ab0"
+hash = "edc1cf4650faa9d27b08208c24c24e6eb73a0d73911e1ef90c28957d341e211a"
 metafile = true
 
 [[files]]
@@ -6658,6 +8438,11 @@ hash = "c315824dfe979035e9943c2d6c051cb865e5501c8e48ac96860289a8fb81a28d"
 metafile = true
 
 [[files]]
+file = "mods/moregate.pw.toml"
+hash = "8799c3263e049a12a82a7cbe0b23b96dbc7decf5cdf95b5f5f17d7886c7f4b6d"
+metafile = true
+
+[[files]]
 file = "mods/morejs.pw.toml"
 hash = "564b879b80fefa01331a62aded574c6f7d7f55c701f031e2b5072f02737560d0"
 metafile = true
@@ -6744,7 +8529,7 @@ metafile = true
 
 [[files]]
 file = "mods/oritech.pw.toml"
-hash = "0798528437a752d60d082f42a7c9aaa87af9c8e1bfd8a21985a8ef8e36c7d26f"
+hash = "7ce53f10561336ee2f05ba02be5a23be056f5d6c2117310a0ab16ac7b17c0240"
 metafile = true
 
 [[files]]
@@ -6894,7 +8679,7 @@ metafile = true
 
 [[files]]
 file = "mods/rsgauges.pw.toml"
-hash = "bd2d0d73050889c9da30f015d216e04da7f9d6159cbe806231451ed23c072d99"
+hash = "0d55f0dbaef048684af2f95b51e0886a6c3303fe7fcaf354376d1d383f1c3097"
 metafile = true
 
 [[files]]
@@ -6914,7 +8699,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "0e806e9224ec274d133d2bcd9e32e7156b63967c1e9bf304dab48be98158da15"
+hash = "dca676ab5504a3806cfecf8ec7ac11ae06f445983cca253cba9e0acaaa3aa00c"
 metafile = true
 
 [[files]]
@@ -6923,7 +8708,7 @@ hash = "7568e6d4c71a60332e8424eb2708d78c28c1c28c3d1c7c0e73d83f0d9f090863"
 
 [[files]]
 file = "mods/sgjourney.pw.toml"
-hash = "c0f256332992d9f2fe1d9e451c36435e5e943420c03d3e2e3c4bf1f6a52bcf3d"
+hash = "150b68096e8f04778dac585d0d6e797868f9a9e40672263e82859cb7da24ace8"
 metafile = true
 
 [[files]]
@@ -6958,7 +8743,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "1874d366689ca91b575ec0249bc4b15947b55c22c649ab6a10b3a73cf4389b7a"
+hash = "e98864e7d943db400d05aa5b283ef9e06eea346e144f0b75d9690032804b4d3d"
 metafile = true
 
 [[files]]
@@ -6973,12 +8758,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "95b646021343034307aa64ccbdffa247aab6642fb5888bec7eba5b93aa071d7c"
+hash = "d8ee28d1255a77099af055c9ebde539288d1a2f2c15e5694c86dbce1b5b2f128"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "9691e0caa6ebd2d045e862e792aa762b2eb159c359d9c446241d32f731a7e5bb"
+hash = "ca713ccc58bf451846ab33896b00f493a52c73d345298b7cbb8f684a785616c8"
 metafile = true
 
 [[files]]
@@ -7003,7 +8788,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "c700f42611b1e4412c3528b976100e48d7fb992f84f39de37b8db3aa2bb444ce"
+hash = "59830525c2c621c90f85a4029d6704515605910e0740e6567fd8ffbc483d1028"
 metafile = true
 
 [[files]]
@@ -7053,7 +8838,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "5af259a93fb78cc4116934a02d8870ca1884b587ecfc57a3c90afbf23204a805"
+hash = "245c0b4481d22bc62d887059f512bd707264be028ef601ddd0343dda51794957"
 metafile = true
 
 [[files]]

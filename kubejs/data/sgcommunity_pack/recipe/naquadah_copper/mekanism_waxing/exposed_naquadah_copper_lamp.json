@@ -1,0 +1,21 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "mekanism"
+        }
+    ],
+    "type": "mekanism:combining",
+    "extra_input": {
+        "count": 1,
+        "item": "minecraft:honeycomb"
+    },
+    "main_input": {
+        "count": 1,
+        "item": "sgjourney:exposed_naquadah_copper_lamp"
+    },
+    "output": {
+        "count": 1,
+        "id": "sgjourney:waxed_exposed_naquadah_copper_lamp"
+    }
+}

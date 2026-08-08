@@ -1,0 +1,21 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "createaddition"
+        }
+    ],
+    "type": "createaddition:charging",
+    "energy": 4000,
+    "ingredients": [
+        {
+            "item": "sgjourney:exposed_smooth_naquadah_copper_stairs"
+        }
+    ],
+    "max_charge_rate": 200,
+    "results": [
+        {
+            "id": "sgjourney:smooth_naquadah_copper_stairs"
+        }
+    ]
+}

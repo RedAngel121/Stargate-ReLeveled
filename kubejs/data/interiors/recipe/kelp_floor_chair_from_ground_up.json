@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "minecraft:wooden_slabs"
+    },
+    {
+      "tag": "minecraft:wooden_slabs"
+    },
+    {
+      "item": "create:belt_connector"
+    }
+  ],
+  "result": {
+    "id": "interiors:kelp_floor_chair"
+  }
+}

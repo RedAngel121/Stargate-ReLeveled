@@ -1,16 +1,14 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "building",
   "ingredients": [
     {
-      "item": "interiors:kelp_seat"
+      "tag": "minecraft:planks"
     },
     {
-      "tag": "minecraft:planks"
+      "item": "interiors:kelp_seat"
     }
   ],
   "result": {
-    "id": "interiors:kelp_chair",
-    "count": 1
+    "id": "interiors:kelp_chair"
   }
 }

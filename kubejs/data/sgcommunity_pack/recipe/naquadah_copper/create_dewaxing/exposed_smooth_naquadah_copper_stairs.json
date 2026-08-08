@@ -1,0 +1,23 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "create"
+        }
+    ],
+    "type": "create:deploying",
+    "ingredients": [
+        {
+            "item": "sgjourney:waxed_exposed_smooth_naquadah_copper_stairs"
+        },
+        {
+            "tag": "minecraft:axes"
+        }
+    ],
+    "keep_held_item": true,
+    "results": [
+        {
+            "id": "sgjourney:exposed_smooth_naquadah_copper_stairs"
+        }
+    ]
+}
