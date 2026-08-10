@@ -406,7 +406,7 @@ hash = "f9403fc81d72a1810961c29eaaaaed7a8fbc512478e4d629a4ab322109536171"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "fb4dc4319d3c26ebf1d0e605f4db305aa4851c565cdd4e287b438e49afcbf31d"
+hash = "fe760d43768aac5bfbb6764202223302dac2b8e23ce33040b2752d805730fadf"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/0C1192AF229D1C2B.snbt"
@@ -3709,7 +3709,7 @@ file = "kubejs/data/darkutils/recipes/crafting/charms/charm_warding.json"
 hash = "662abb722c22182575ba97a98e35eb6e1be8de0e18d542f86974ec6fc8c452c3"
 
 [[files]]
-file = "kubejs/data/deeperdarker/sgjourney/space_location/deeperdarker.json"
+file = "kubejs/data/deeperdarker/sgjourney/space_location/deeperdarker_location.json"
 hash = "2e7ea705bc4a8267bf139efbf40fef904e0868dac3f5ec3153dc096c877e857f"
 
 [[files]]
@@ -4757,7 +4757,7 @@ file = "kubejs/data/overworldmirror/dimension/overworld.json"
 hash = "2c0a254add3ce491588ea687296b39247560375947bd44052739b1b0d60c52e3"
 
 [[files]]
-file = "kubejs/data/overworldmirror/sgjourney/space_location/overworldmirror.json"
+file = "kubejs/data/overworldmirror/sgjourney/space_location/overworldmirror_location.json"
 hash = "b9f31f528478723aeb36c697dbdc1cc7204545dc10afb089ef0977402b1d6405"
 
 [[files]]
@@ -7597,7 +7597,7 @@ file = "kubejs/data/travelanchors/recipe/travel_staff.json"
 hash = "1c0441f95179b918edb639d938d303323a19e4b5e5a2a6dfdd1ebcaf1745b710"
 
 [[files]]
-file = "kubejs/data/undergarden/sgjourney/space_location/undergarden.json"
+file = "kubejs/data/undergarden/sgjourney/space_location/undergarden_location.json"
 hash = "88feefedd41c93841eabfd95c210a5b4fb2eb8ecc6576c24841dbd2a7b91f23c"
 
 [[files]]

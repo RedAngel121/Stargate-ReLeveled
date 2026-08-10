@@ -150,7 +150,7 @@
 	]
 	quest.194423A49785391E.title: "Autocrafting"
 	quest.19C73880935B2000.title: "Inscribe Pattern"
-	quest.1A3F23F4F426FD7C.quest_desc: ["Floral compost gives 4x speed to flowers."]
+	quest.1A3F23F4F426FD7C.quest_desc: ["Floral compost gives a speed boost to flowers."]
 	quest.1AD45F5A1FB5B74D.title: "&3Control Unit"
 	quest.1B3E348B011762ED.quest_desc: ["To start automating resources, you can use &dBotany Pots&r! You'll need to get some clay to make terracotta and flower pots. Once you have a flower pot and 5 terracotta, you can make your first Botany Pot!"]
 	quest.1B3E348B011762ED.quest_subtitle: "Just add dirt!"
@@ -172,7 +172,7 @@
 	quest.20F9FC6DDC25529A.title: "Step 1: Inject Water Vapor"
 	quest.2135CBD036BFAF94.quest_desc: ["Wafers aren't too useful on their own, you need to slice them into chips and then package them first."]
 	quest.2135CBD036BFAF94.title: "&3Slice and Encase"
-	quest.21C339B78AC8B555.quest_desc: ["Organic compost gives 4x speed on anything not covered by the other composts."]
+	quest.21C339B78AC8B555.quest_desc: ["Organic compost gives a speed boost on anything not covered by the other composts."]
 	quest.2283E12D506D17D1.quest_desc: ["Welcome to the Kinetic Era! We are now getting into our first tech mod: Create. If you are ever stuck wondering how something works, simply check out the Ponder Index. You can get there by holding W on any create item, or by clicking on the goggle icon in the menu screen."]
 	quest.2283E12D506D17D1.quest_subtitle: "Gear go spinny"
 	quest.2283E12D506D17D1.title: "&6Welcome to the Kinetic Era"
@@ -249,7 +249,7 @@
 	]
 	quest.330F487B82B4444C.quest_subtitle: "Is that an Angel?"
 	quest.330F487B82B4444C.title: "Bottled Cloud"
-	quest.3328AF49D13841D5.quest_desc: ["Coral compost give 4x speed to crops that grow in water"]
+	quest.3328AF49D13841D5.quest_desc: ["Coral compost gives a speed boost to crops that grow in water"]
 	quest.333C93B2D1DBACA8.quest_desc: [
 		"While traveling around the world, it is almost guaranteed that you might stumble upon something that may be useful later in the game."
 		"As such, you should look out for:"
@@ -265,7 +265,7 @@
 	quest.33E692B27365B65E.quest_desc: ["Created by the developer of Apotheosis, this mod lets you summon waves of increasingly difficult enemies by activating mystical gateways. Survive each challenge to earn valuable loot, powerful equipment, and unique rewards that scale with the gateway's difficulty."]
 	quest.33E692B27365B65E.quest_subtitle: "to Eternity"
 	quest.33E692B27365B65E.title: "Gateways"
-	quest.3469D07EB4D14590.quest_desc: ["Mulch gives 4x speed on trees and crops that grow on wood."]
+	quest.3469D07EB4D14590.quest_desc: ["Mulch gives a speed boost on trees and crops that grow on wood."]
 	quest.3526B63F9A0CD846.quest_desc: ["Now, slowly mix in your flour"]
 	quest.3526B63F9A0CD846.title: "Bake!"
 	quest.3532BD90C944D6E6.quest_desc: ["MEGA item cells behave exactly the same as normal item cells, but they can store up to 2 trillion of a single item."]
