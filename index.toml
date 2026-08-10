@@ -3709,6 +3709,10 @@ file = "kubejs/data/darkutils/recipes/crafting/charms/charm_warding.json"
 hash = "662abb722c22182575ba97a98e35eb6e1be8de0e18d542f86974ec6fc8c452c3"
 
 [[files]]
+file = "kubejs/data/deeperdarker/sgjourney/space_location/deeperdarker.json"
+hash = "2e7ea705bc4a8267bf139efbf40fef904e0868dac3f5ec3153dc096c877e857f"
+
+[[files]]
 file = "kubejs/data/endermanoverhaul/recipe/eggs/ancient_enderman.json"
 hash = "eba15afde6dc68ada2607b39705b70d22ac994fb6376ae8ee2b9230259d8642b"
 
@@ -4753,6 +4757,10 @@ file = "kubejs/data/overworldmirror/dimension/overworld.json"
 hash = "2c0a254add3ce491588ea687296b39247560375947bd44052739b1b0d60c52e3"
 
 [[files]]
+file = "kubejs/data/overworldmirror/sgjourney/space_location/overworldmirror.json"
+hash = "b9f31f528478723aeb36c697dbdc1cc7204545dc10afb089ef0977402b1d6405"
+
+[[files]]
 file = "kubejs/data/pamhc2foodcore/recipe/fishjerkyitem.json"
 hash = "9370b093f54b73c9397b2fa8875595e5e381d036dc85015c2a2ecccd515da4e4"
 
@@ -4894,7 +4902,7 @@ hash = "7a273e95ad3a20ed2de451a652ab5231cb4eeaf990cadda9ddded9d35d9cd844"
 
 [[files]]
 file = "kubejs/data/rftoolsdim/sgjourney/space_location/rftoolsdim.json"
-hash = "febb430a7eb5d507b9b6135f10513ae4738fe93f3febb0d0fe8d5ba0db01b4db"
+hash = "1178d1f7360f523b348093983809f9bcc90c9a41acd47cc96ab93664312ef108"
 
 [[files]]
 file = "kubejs/data/rftoolsutility/recipe/environmental_controller.json"
@@ -7587,6 +7595,10 @@ hash = "cbd96eacfd01d498f2b604359a590a0390cf66a73998f41b6e298b1041292640"
 [[files]]
 file = "kubejs/data/travelanchors/recipe/travel_staff.json"
 hash = "1c0441f95179b918edb639d938d303323a19e4b5e5a2a6dfdd1ebcaf1745b710"
+
+[[files]]
+file = "kubejs/data/undergarden/sgjourney/space_location/undergarden.json"
+hash = "88feefedd41c93841eabfd95c210a5b4fb2eb8ecc6576c24841dbd2a7b91f23c"
 
 [[files]]
 file = "kubejs/server_scripts/block_actions.js"

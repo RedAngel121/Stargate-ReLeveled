@@ -5,7 +5,9 @@
 - WorldEdit CUI
 
 ### TODO:
-- change quark recipe for Elytra duplication and remove ender dragon scales from quark, also remove it from the dragon loot drops
+- fix space_location for DeeperDarker, Overworld Mirror, Undergarden
+- Doggo treats recipes need the overworld residue items from HHN Model Training?
+- Change quark recipe for Elytra duplication and remove ender dragon scales from quark, also remove it from the dragon loot drops
 - Re-Add Jaja's Gates after they have been udpated
 - Change SGJ config to `Common_Gates = False` for Single Player release
 - Replace Ad Astra with jar on release - https://github.com/terrarium-earth/Ad-Astra/pull/783
