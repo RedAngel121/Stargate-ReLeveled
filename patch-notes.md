@@ -1,5 +1,3 @@
-- help Lukas do grammar edits on the documentation https://github.com/lukaskabc/StargateJourney/tree/documentation
-
 ### Server File Removals:
 - Chat Plus
 - Sodium
@@ -7,9 +5,9 @@
 - WorldEdit CUI
 
 ### TODO:
-- remove "incendium:upgrade_elytra" recipe
 - change quark recipe for Elytra duplication and remove ender dragon scales from quark, also remove it from the dragon loot drops
-- Re-Add MoreGate and Jaja's Gates after they have been udpated
+- Re-Add Jaja's Gates after they have been udpated
+- Change SGJ config to `Common_Gates = False` for Single Player release
 - Replace Ad Astra with jar on release - https://github.com/terrarium-earth/Ad-Astra/pull/783
 
 - Chisel Blocks: Aluminum, Cobalt, Invar, and Silver - These have no recipe and need to be added to the chisel workbench somehow
@@ -61,6 +59,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - Construction Sticks
 - Tiny Coal
 - Cognition
+- Create: Protection Pixel
 - VeinMiner Enchantment
 - Potions Master
 - Nullscape

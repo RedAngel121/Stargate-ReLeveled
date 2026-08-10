@@ -7844,7 +7844,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "14f862ceab11545e0a446df8c91c95ae7434ca4975db1357ad2001b6ec321e45"
+hash = "e42363c32c9b6323eea977283c928cec373bfc415534ec92e9c3367ee8c54256"
 metafile = true
 
 [[files]]
@@ -8289,7 +8289,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "151c6109fbf47211edc068a924e11c4b9a76dd60ce9e1561d467ac5d82dd698e"
+hash = "4002253b9c10dad252ac7c3b4234b47a8f9b2f73cda4bbc8b377ac6c039a4a61"
 metafile = true
 
 [[files]]
@@ -8699,7 +8699,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "dca676ab5504a3806cfecf8ec7ac11ae06f445983cca253cba9e0acaaa3aa00c"
+hash = "95516744b74966dd45af61f3e9952d1bed0642a3111afcf1788a15629c3ed614"
 metafile = true
 
 [[files]]
@@ -8708,7 +8708,7 @@ hash = "7568e6d4c71a60332e8424eb2708d78c28c1c28c3d1c7c0e73d83f0d9f090863"
 
 [[files]]
 file = "mods/sgjourney.pw.toml"
-hash = "150b68096e8f04778dac585d0d6e797868f9a9e40672263e82859cb7da24ace8"
+hash = "b5205653c41ac687abd51f49b75ac0614722ab3da12964fc0b9f9c732bdcdb46"
 metafile = true
 
 [[files]]
@@ -8738,7 +8738,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "a2348299d70ed7af9bb57b1a8ff034dd3136ff9468aa91479405f2599cd1c0a9"
+hash = "a1f6bfecd4098396ad7df0ec212ebd5b76fe1c14223f9e4a712eb16738fc5b7a"
 metafile = true
 
 [[files]]
@@ -8758,12 +8758,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "d8ee28d1255a77099af055c9ebde539288d1a2f2c15e5694c86dbce1b5b2f128"
+hash = "9c7d4acea388b933530ca1be37195a32f3cd11402cca6ec67e76f37af04d46ea"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "ca713ccc58bf451846ab33896b00f493a52c73d345298b7cbb8f684a785616c8"
+hash = "5afcc0246b46a14f8d208818cc6d2197000edb3f3c5684811a79d5d88cbb7e13"
 metafile = true
 
 [[files]]
@@ -8773,7 +8773,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-item-actions.pw.toml"
-hash = "9ba4d0ff3dc2d9748842f8825820fe752de9dba28b9c44ba647b22cd2354bd8d"
+hash = "9da651a5b0fa61e10276d79ceed0c1da1a09885347a6176ef0839bc8638ae46f"
 metafile = true
 
 [[files]]
@@ -8788,7 +8788,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "59830525c2c621c90f85a4029d6704515605910e0740e6567fd8ffbc483d1028"
+hash = "8a4dade9bae6ffbe538800809ca37bef0df502cd3ae7dd6f891cc02e47d6c5cf"
 metafile = true
 
 [[files]]
@@ -8838,7 +8838,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "245c0b4481d22bc62d887059f512bd707264be028ef601ddd0343dda51794957"
+hash = "2a564db6c642023d1c96df0313894c995787f20e73345db3ca5b13358cf13de9"
 metafile = true
 
 [[files]]
