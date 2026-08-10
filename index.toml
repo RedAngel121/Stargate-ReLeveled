@@ -4857,6 +4857,10 @@ file = "kubejs/data/protection_pixel/recipe/workerasloot.json"
 hash = "95e342d95f608fb45630b1c8247bf791ed06ee570bcfb7f459d02b8e50ed3c95"
 
 [[files]]
+file = "kubejs/data/rftools/sgjourney/space_location/rftoolsdim.json"
+hash = "1178d1f7360f523b348093983809f9bcc90c9a41acd47cc96ab93664312ef108"
+
+[[files]]
 file = "kubejs/data/rftoolsbase/recipe/machine_base.json"
 hash = "46b46bfe65dc12165036aa1de7e63f7714089f02420338f474e74c7d0ffc1b9d"
 
@@ -4899,10 +4903,6 @@ hash = "d0949566598832d21ea33e875dfaf656bbff7c12286e52b235e91361d8898ad1"
 [[files]]
 file = "kubejs/data/rftoolsdim/recipe/phased_field_generator.json"
 hash = "7a273e95ad3a20ed2de451a652ab5231cb4eeaf990cadda9ddded9d35d9cd844"
-
-[[files]]
-file = "kubejs/data/rftoolsdim/sgjourney/space_location/rftoolsdim.json"
-hash = "1178d1f7360f523b348093983809f9bcc90c9a41acd47cc96ab93664312ef108"
 
 [[files]]
 file = "kubejs/data/rftoolsutility/recipe/environmental_controller.json"
