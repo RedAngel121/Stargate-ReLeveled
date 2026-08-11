@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "doggytalents:master_treat"
+    },
+    {
+      "item": "doggytalents:master_treat"
+    },
+    {
+      "item": "doggytalents:master_treat"
+    },
+    {
+      "item": "doggytalents:master_treat"
+    },
+    {
+      "item": "doggytalents:master_treat"
+    },
+    {
+      "item": "hostilenetworks:end_prediction"
+    },
+    {
+      "item": "hostilenetworks:end_prediction"
+    },
+    {
+      "item": "hostilenetworks:end_prediction"
+    },
+    {
+      "item": "hostilenetworks:end_prediction"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "doggytalents:kami_treat"
+  }
+}

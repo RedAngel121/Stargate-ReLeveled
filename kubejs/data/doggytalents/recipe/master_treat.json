@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "doggytalents:super_treat"
+    },
+    {
+      "item": "doggytalents:super_treat"
+    },
+    {
+      "item": "doggytalents:super_treat"
+    },
+    {
+      "item": "doggytalents:super_treat"
+    },
+    {
+      "item": "hostilenetworks:nether_prediction"
+    },
+    {
+      "item": "hostilenetworks:nether_prediction"
+    },
+    {
+      "item": "hostilenetworks:nether_prediction"
+    },
+    {
+      "item": "hostilenetworks:nether_prediction"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "doggytalents:master_treat"
+  }
+}

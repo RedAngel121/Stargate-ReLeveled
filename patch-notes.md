@@ -8,7 +8,6 @@
 - MOD/sgjourney/space_location for DeeperDarker, Overworld Mirror, Undergarden
   - verify that all dims show up in abydos cartouche rooms
   - disable RFToolsDims from showing up on abydos?
-- Doggo treats recipes need the overworld residue items from HHN Model Training?
 - Change quark recipe for Elytra duplication and remove ender dragon scales from quark, also remove it from the dragon loot drops
 - Re-Add Jaja's Gates after they have been udpated
 - Change SGJ config to `Common_Gates = False` for Single Player release
@@ -106,12 +105,12 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - Immersive Armors
 
 ### Known Issues:
-- Chairs/Benches/Seats cannot be sat on in airless Ad Astra Dimensions without a single block of oxygen below it. Use a Ad Astra Vent underneath the seat to prevent this.
+- Chairs/Benches/Seats cannot be sat on in airless Ad Astra Dimensions without a single block of oxygen below it. Use an Ad Astra Vent underneath the seat to prevent death.
 
 ### Thank you everyone for helping make this update possible:
+- cookta2012
 - Vtecklg
 - lukaskabc
-- cookta2012
 - CMCrafter724_
 - PheWitch
 - OMGItsZari

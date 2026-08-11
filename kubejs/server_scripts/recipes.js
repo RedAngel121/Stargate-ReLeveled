@@ -25,6 +25,7 @@ let disappear = [
     "mysticalagradditions:insanium_farmland",
     "mysticalagradditions:nether_star_crux",
     "mysticalagradditions:dragon_egg_crux",
+    "mysticalagradditions:dragon_scale",
     "mekanism:portable_teleporter",
     "mekanism:teleporter",
     "mekanism:teleporter_frame",

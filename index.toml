@@ -453,6 +453,10 @@ file = "config/jei/jei-client.ini"
 hash = "83f8e9c56758b676e70ae3695523129170ac930b9ceb23618c898fa0906012cc"
 
 [[files]]
+file = "config/mysticalagradditions-common.toml"
+hash = "da3c1d52f49f2d623904a652b03d91608a2552e36039df6bf10e9aa3276fc3d9"
+
+[[files]]
 file = "config/mysticalagriculture-common.toml"
 hash = "bca416449459d1833ba405b44334d409e35615a521eb98c8ad7798972499e080"
 
@@ -3711,6 +3715,22 @@ hash = "662abb722c22182575ba97a98e35eb6e1be8de0e18d542f86974ec6fc8c452c3"
 [[files]]
 file = "kubejs/data/deeperdarker/sgjourney/space_location/deeperdarker_location.json"
 hash = "2e7ea705bc4a8267bf139efbf40fef904e0868dac3f5ec3153dc096c877e857f"
+
+[[files]]
+file = "kubejs/data/doggytalents/recipe/kami_treat.json"
+hash = "d5050fb2f2b125eeb441653be87a11908598d7067d4fca8daa1ccd236d905e39"
+
+[[files]]
+file = "kubejs/data/doggytalents/recipe/master_treat.json"
+hash = "3b08b976613eaf295affe6ea151b0ff7bc3e13986eb2803e3b3c69d6f38d1f10"
+
+[[files]]
+file = "kubejs/data/doggytalents/recipe/super_treat.json"
+hash = "4b78b3eeffe85bf5a1cf5d7159b9bdf1d1e00157af69f49ab6b943fbf275f770"
+
+[[files]]
+file = "kubejs/data/doggytalents/recipe/training_treat.json"
+hash = "9a56f5ebf92e32a27025858ef7fede72c60db86d32604a7d895531b2d2d00ef6"
 
 [[files]]
 file = "kubejs/data/endermanoverhaul/recipe/eggs/ancient_enderman.json"
@@ -7622,7 +7642,7 @@ hash = "3b4bea8739e3353b7963cd73d8a74dffe9112882a40c1cfd8429168910e592c4"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "1a5c50d3e4be11d2b540790ae21452ad4f226d3e15253c25162ecbd1e20e5bed"
+hash = "aef485c272e9ef1a7f81ac085afc10c35f2e988ff581c983ac3e7a4f496ee48f"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
@@ -8301,7 +8321,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "fd9cdf89a1675c750a8a89000b4710beee3ac894b8bd3ca1513e9d23d9c0eaf5"
+hash = "047c8620059e1044e547a23cf239d8bcd182f1d9d0584131aec29df6f7c65d8b"
 metafile = true
 
 [[files]]
@@ -8850,7 +8870,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "7dfee13ce487c20de1eb2047bb9bca977d4c8af8a5ab30a66dae980aba5ace0f"
+hash = "d50dfa866f719fe606d34bb81b0e466c1e6017878fa6b58b405e419ceaf9ee0d"
 metafile = true
 
 [[files]]
