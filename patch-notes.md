@@ -5,11 +5,9 @@
 - WorldEdit CUI
 
 ### TODO:
-- MOD/sgjourney/space_location for DeeperDarker, Overworld Mirror, Undergarden 
-  - verify that all dims show up in abydos cartouche rooms 
-  - disable RFToolsDims from showing up on abydos
-  - https://discord.com/channels/1011344665678708818/1012432065137999934/1536450048622329936
-  - now that im thinking about it, some people bascially make homes out of personal dimensions, how can i disable them from showing up on abydos cartouches?
+- MOD/sgjourney/space_location for DeeperDarker, Overworld Mirror, Undergarden
+  - verify that all dims show up in abydos cartouche rooms
+  - disable RFToolsDims from showing up on abydos?
 - Doggo treats recipes need the overworld residue items from HHN Model Training?
 - Change quark recipe for Elytra duplication and remove ender dragon scales from quark, also remove it from the dragon loot drops
 - Re-Add Jaja's Gates after they have been udpated
