@@ -7976,7 +7976,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-bits-n-bobs.pw.toml"
-hash = "c35bc6385cac0836f60c3d009ba67ec1aefbb90fbd7782133f3ecf1e38f07dad"
+hash = "3fda1aeaa7c8e070b49f5f1ed20b17405b0533c0e942bea7193eaae4cbc54567"
 metafile = true
 
 [[files]]
@@ -8301,12 +8301,12 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "4002253b9c10dad252ac7c3b4234b47a8f9b2f73cda4bbc8b377ac6c039a4a61"
+hash = "12a3813cf921550de463189ee1cea68d505b36f99e64d39d22ec5a3b29cc2fbd"
 metafile = true
 
 [[files]]
 file = "mods/journeymap.pw.toml"
-hash = "edc1cf4650faa9d27b08208c24c24e6eb73a0d73911e1ef90c28957d341e211a"
+hash = "92a1bcde382f38109826b42da59538a00dfd1509b282939c62369b9a97e715fa"
 metafile = true
 
 [[files]]
@@ -8785,7 +8785,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-item-actions.pw.toml"
-hash = "9da651a5b0fa61e10276d79ceed0c1da1a09885347a6176ef0839bc8638ae46f"
+hash = "293799a108355d2e46a8bad736c4cfc640e970ecf7cc828325f1ca94d20a0739"
 metafile = true
 
 [[files]]
@@ -8850,7 +8850,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "2a564db6c642023d1c96df0313894c995787f20e73345db3ca5b13358cf13de9"
+hash = "7dfee13ce487c20de1eb2047bb9bca977d4c8af8a5ab30a66dae980aba5ace0f"
 metafile = true
 
 [[files]]
@@ -8921,6 +8921,11 @@ metafile = true
 [[files]]
 file = "mods/u-team-core.pw.toml"
 hash = "9d83d4bdfc26725a2c750a35f35d7fdffbbbfccb672f345c5f0de2f4f15bb925"
+metafile = true
+
+[[files]]
+file = "mods/unlimitedperipheralworks.pw.toml"
+hash = "9c74466bc50f35a2994b8d7ba7c2a5d1271844458852f5ddb15764538a33f1c4"
 metafile = true
 
 [[files]]

@@ -1,13 +1,13 @@
 name = "SuperMartijn642's Core Lib"
-filename = "supermartijn642corelib-1.1.23a-neoforge-mc1.21.jar"
+filename = "supermartijn642corelib-1.1.23b-neoforge-mc1.21.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "3691f4fb6bce07c79c0f1c5a4c3bf417b0e3caab"
+hash = "21a176b9e092d85f96bf99e16b6371427b279044"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8601051
+file-id = 8616830
 project-id = 454372

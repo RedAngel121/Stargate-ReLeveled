@@ -5,7 +5,7 @@
 - WorldEdit CUI
 
 ### TODO:
-- fix space_location for DeeperDarker, Overworld Mirror, Undergarden - verify that all dims show up in abydos cartouche rooms - disable RFToolsDims from showing up on abydos
+- space_location for DeeperDarker, Overworld Mirror, Undergarden - verify that all dims show up in abydos cartouche rooms - disable RFToolsDims from showing up on abydos
   - https://discord.com/channels/1011344665678708818/1012432065137999934/1536450048622329936
   - now that im thinking about it, some people bascially make homes out of personal dimensions, how can i disable them from showing up on abydos cartouches?
 - Doggo treats recipes need the overworld residue items from HHN Model Training?
@@ -103,7 +103,6 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - Mekanism Covers (Dupe for Cable Facades)
 - Numismatics - replaced with default create trading mechanics
 - KubeJS Botany Pots (replaced with Mystical Agriculture + custom seeds/recipes)
-- unlimitedperipheralworks (Mod not Updated... Author says: "I have plans for this, but I honestly can't give any deadline for when it happen.")
 - Immersive Armors
 
 ### Known Issues:
