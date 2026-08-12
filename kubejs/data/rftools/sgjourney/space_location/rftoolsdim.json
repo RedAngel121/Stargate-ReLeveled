@@ -6,6 +6,7 @@
             "sgjourney:milky_way"
         ]
     },
+    "generate_in_address_tables": false,
     "point_of_origin": "sgjourney:universal",
     "symbols": "sgjourney:universal"
 }

@@ -3713,10 +3713,6 @@ file = "kubejs/data/darkutils/recipes/crafting/charms/charm_warding.json"
 hash = "662abb722c22182575ba97a98e35eb6e1be8de0e18d542f86974ec6fc8c452c3"
 
 [[files]]
-file = "kubejs/data/deeperdarker/sgjourney/space_location/deeperdarker_location.json"
-hash = "2e7ea705bc4a8267bf139efbf40fef904e0868dac3f5ec3153dc096c877e857f"
-
-[[files]]
 file = "kubejs/data/doggytalents/recipe/kami_treat.json"
 hash = "d5050fb2f2b125eeb441653be87a11908598d7067d4fca8daa1ccd236d905e39"
 
@@ -4777,10 +4773,6 @@ file = "kubejs/data/overworldmirror/dimension/overworld.json"
 hash = "2c0a254add3ce491588ea687296b39247560375947bd44052739b1b0d60c52e3"
 
 [[files]]
-file = "kubejs/data/overworldmirror/sgjourney/space_location/overworldmirror_location.json"
-hash = "b9f31f528478723aeb36c697dbdc1cc7204545dc10afb089ef0977402b1d6405"
-
-[[files]]
 file = "kubejs/data/pamhc2foodcore/recipe/fishjerkyitem.json"
 hash = "9370b093f54b73c9397b2fa8875595e5e381d036dc85015c2a2ecccd515da4e4"
 
@@ -4878,7 +4870,7 @@ hash = "95e342d95f608fb45630b1c8247bf791ed06ee570bcfb7f459d02b8e50ed3c95"
 
 [[files]]
 file = "kubejs/data/rftools/sgjourney/space_location/rftoolsdim.json"
-hash = "1178d1f7360f523b348093983809f9bcc90c9a41acd47cc96ab93664312ef108"
+hash = "c5fe67dcbac05f3dbc8c408b134e4108cc46b66c519dcb3dde763ac40b0182bd"
 
 [[files]]
 file = "kubejs/data/rftoolsbase/recipe/machine_base.json"
@@ -7177,6 +7169,18 @@ file = "kubejs/data/sgcommunity_pack/recipe/sulfur_from_sand.json"
 hash = "507700d73981b09f6f88ab53a8dad5b3a61ed7ebe16608e4910e07e6a61642ec"
 
 [[files]]
+file = "kubejs/data/sgcommunity_pack/sgjourney/space_location/deeperdarker_loc.json"
+hash = "2e7ea705bc4a8267bf139efbf40fef904e0868dac3f5ec3153dc096c877e857f"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/sgjourney/space_location/overworldmirror_loc.json"
+hash = "b9f31f528478723aeb36c697dbdc1cc7204545dc10afb089ef0977402b1d6405"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/sgjourney/space_location/undergarden_loc.json"
+hash = "88feefedd41c93841eabfd95c210a5b4fb2eb8ecc6576c24841dbd2a7b91f23c"
+
+[[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/classic/buried/badlands_template.nbt"
 hash = "cd6273840908e46a772e39468d1c52f14ca4e39ac6dad60587915f46a37450c1"
 
@@ -7617,10 +7621,6 @@ file = "kubejs/data/travelanchors/recipe/travel_staff.json"
 hash = "1c0441f95179b918edb639d938d303323a19e4b5e5a2a6dfdd1ebcaf1745b710"
 
 [[files]]
-file = "kubejs/data/undergarden/sgjourney/space_location/undergarden_location.json"
-hash = "88feefedd41c93841eabfd95c210a5b4fb2eb8ecc6576c24841dbd2a7b91f23c"
-
-[[files]]
 file = "kubejs/server_scripts/block_actions.js"
 hash = "62503cf6b61fc1e5d4043346a5abc155dcb20167b2d088fc60e1be32daaf379d"
 
@@ -7941,7 +7941,7 @@ metafile = true
 
 [[files]]
 file = "mods/construction-sticks.pw.toml"
-hash = "2ba745596551b094106347e9a5898545c11eed25dd28099afd8b28a1c0b87a91"
+hash = "f22871063cbfb6a6220cb82fa4a8b92e7659cc5c9f30987e8eb001fbb2446970"
 metafile = true
 
 [[files]]
@@ -7996,7 +7996,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-bits-n-bobs.pw.toml"
-hash = "3fda1aeaa7c8e070b49f5f1ed20b17405b0533c0e942bea7193eaae4cbc54567"
+hash = "6c72a9fddc5fe835ab7084e11dc97bfd70ff28b9a37dc242a1907366ee7bf7a6"
 metafile = true
 
 [[files]]
@@ -8281,7 +8281,7 @@ metafile = true
 
 [[files]]
 file = "mods/in-control.pw.toml"
-hash = "38ad3e2d199cc5185c5f93031ad9c7f045453b61b35639ae03e62306df215588"
+hash = "313ec73e545755e5cb1ea72dd38b632587e32a9e0d5e73b714d00fe4feb9a0d4"
 metafile = true
 
 [[files]]
@@ -8376,7 +8376,7 @@ metafile = true
 
 [[files]]
 file = "mods/libx.pw.toml"
-hash = "5fae6a137e68aa9408d87d1dfc419d4450eec49c0c57c02a2d6756c3fca69a44"
+hash = "c7b8f88bd6fa21b1f6673e1b21e454fbd43583789b171b485ead28de4d8dea1e"
 metafile = true
 
 [[files]]
@@ -8790,12 +8790,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "9c7d4acea388b933530ca1be37195a32f3cd11402cca6ec67e76f37af04d46ea"
+hash = "d5e61ca26d562d8b132834ebedc7301941e2d0016115ce94c05ef4e6cb2f9dd1"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "5afcc0246b46a14f8d208818cc6d2197000edb3f3c5684811a79d5d88cbb7e13"
+hash = "f2e22f385c41a6807417ebfd995508d81cb8021867f60f0285e48a6f46a0a845"
 metafile = true
 
 [[files]]
