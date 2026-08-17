@@ -7810,6 +7810,11 @@ hash = "a445471ac6843bcf9fb76eabb4357de0357dfa7782be536a7827a26764fe45c1"
 metafile = true
 
 [[files]]
+file = "mods/azimuth-api.pw.toml"
+hash = "0a52f6f8c287ca852cce533742ae800dac58a816966e1a491eec68c9e1a63305"
+metafile = true
+
+[[files]]
 file = "mods/baguettelib.pw.toml"
 hash = "1a52b3a6071fa86dc0854189e110e7dd6c27c0944856fee39a781f58275e1cdd"
 metafile = true
@@ -8861,6 +8866,11 @@ metafile = true
 [[files]]
 file = "mods/structureoverlapless.pw.toml"
 hash = "de471bb9ef11d81044794e2658f12abcf3ab10d953d2e4fdc8ef2d090d1a6e3a"
+metafile = true
+
+[[files]]
+file = "mods/strut-your-stuff.pw.toml"
+hash = "4de4f3afa981a2bf84c58fc748a08c9813d37f8cecd364678fa6a430316d042a"
 metafile = true
 
 [[files]]
