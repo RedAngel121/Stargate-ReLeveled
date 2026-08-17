@@ -46,9 +46,9 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - Viscord (Replaces Discord Chat Integration)
 
 - Updated SGCommunity Pack Items to display a proper mod name instead of "*sgcommunity_pack*"
-- Changed Substrates to Cruxes to work with Mystical Agriculture
 - Added Oritech and SGJourney Blocks and Fluids to RFTools Dimlets
 - Converted the login book into quests and added a few Easymode quests
+- Changed Substrates to Cruxes to work with Mystical Agriculture
 - Added Mystical Agriculture Quests Chapter to show what seeds go on what crux
 - Various other Quest Improvements to apply changes referenced above
 - Added Creative Only Infinite drives for all essences

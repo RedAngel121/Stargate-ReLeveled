@@ -1,13 +1,13 @@
 name = "Stargate Journey"
-filename = "Stargate.Journey-1.21.1-0.6.47.jar"
+filename = "Stargate.Journey-1.21.1-0.6.48.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c3d7bb87ce1e8e44d55e8fa70db3b9792e854bb8"
+hash = "2b9ee66e4976efd76f2673a32fe70eb69b606350"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8608862
+file-id = 8665412
 project-id = 689083
