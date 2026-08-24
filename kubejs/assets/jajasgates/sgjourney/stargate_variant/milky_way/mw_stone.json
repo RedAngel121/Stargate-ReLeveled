@@ -1,0 +1,150 @@
+{
+    "chevron_encode_sounds": {
+        "default": "sgjourney:milky_way_chevron_encode"
+    },
+    "chevron_engaged_sounds": {
+        "default": "sgjourney:milky_way_chevron_engage"
+    },
+    "chevron_incoming_sounds": {
+        "default": "sgjourney:milky_way_chevron_engage"
+    },
+    "chevron_open_sounds": {
+        "default": "sgjourney:milky_way_chevron_open"
+    },
+    "engaged_texture": "jajasgates:textures/entity/stargate/mw_stone/stargate_engaged.png",
+    "fail_sounds": {
+        "default": "sgjourney:milky_way_dial_fail"
+    },
+    "rotation_sounds": {
+        "rotation_sound": "sgjourney:milky_way_ring_spin",
+        "rotation_startup_sound": "sgjourney:milky_way_ring_spin_start",
+        "rotation_stop_sound": "sgjourney:milky_way_ring_spin_stop"
+    },
+    "shiny_wormhole": {
+        "event_horizon": {
+            "back": {
+                "columns": 1,
+                "frames": 32,
+                "rgba": {
+                    "alpha": 0.75,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                },
+                "rows": 32,
+                "texture": "jajasgates:textures/entity/stargate/mw_stone/event_horizon_shiny.png"
+            },
+            "front": {
+                "columns": 1,
+                "frames": 32,
+                "rgba": {
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                },
+                "rows": 32,
+                "texture": "jajasgates:textures/entity/stargate/mw_stone/event_horizon_shiny.png"
+            }
+        },
+        "disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+    },
+    "stargate_model": {
+        "raise_back_chevrons": false
+    },
+    "symbols": {
+        "encoded_symbol_color": {
+            "alpha": 1,
+            "blue": 0.23137254901961,
+            "green": 0.21960784313725,
+            "red": 0.22352941176471
+        },
+        "engage_encoded_symbols": true,
+        "engage_symbols_on_incoming": true,
+        "engaged_symbol_color": {
+            "alpha": 1,
+            "blue": 0.23137254901961,
+            "green": 0.21960784313725,
+            "red": 0.22352941176471
+        },
+        "symbol_color": {
+            "alpha": 1,
+            "blue": 0.23137254901961,
+            "green": 0.21960784313725,
+            "red": 0.22352941176471
+        }
+    },
+    "texture": "jajasgates:textures/entity/stargate/mw_stone/stargate.png",
+    "wormhole": {
+        "event_horizon": {
+            "back": {
+                "columns": 1,
+                "frames": 32,
+                "rgba": {
+                    "alpha": 0.75,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                },
+                "rows": 32,
+                "texture": "jajasgates:textures/entity/stargate/mw_stone/event_horizon.png"
+            },
+            "front": {
+                "columns": 1,
+                "frames": 32,
+                "rgba": {
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                },
+                "rows": 32,
+                "texture": "jajasgates:textures/entity/stargate/mw_stone/event_horizon.png"
+            }
+        },
+        "disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+    },
+    "wormhole_sounds": {
+        "close": "sgjourney:milky_way_wormhole_close",
+        "idle": "sgjourney:milky_way_wormhole_idle",
+        "open": "sgjourney:milky_way_wormhole_open"
+    }
+}

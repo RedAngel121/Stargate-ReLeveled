@@ -1,13 +1,13 @@
 name = "Flan (Forge, NeoForge)"
-filename = "flan-1.21.1-1.12.7-neoforge.jar"
+filename = "flan-1.21.1-1.12.8-neoforge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "9a4796a51a991e70d0234a203e0a2c417b809f38"
+hash = "82ab53492e692dab9aa8c4f3401f9edda9e6783a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8065248
+file-id = 8699257
 project-id = 493246

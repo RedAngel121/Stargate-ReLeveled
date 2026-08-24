@@ -1,0 +1,11 @@
+{
+	"type": "sgjourney:crystallizing",
+	"crystal_base": {"item": "sgjourney:stargate_variant_crystal", "amount": 1},
+	"primary_ingredient": {"item": "minecraft:flint_and_steel", "amount": 1},
+	"secondary_ingredient": {"item": "minecraft:obsidian", "amount": 1},
+	"output":
+	{
+		"item": "sgjourney:stargate_variant_crystal",
+		"nbt": {"Variant":"jajasgates:mw_nether"}
+	}
+}

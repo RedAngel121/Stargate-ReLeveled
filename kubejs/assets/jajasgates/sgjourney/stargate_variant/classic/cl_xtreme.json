@@ -1,0 +1,130 @@
+{
+    "chevron_engaged_sounds": {
+        "default": "sgjourney:classic_chevron_engage"
+    },
+    "chevron_incoming_sounds": {
+        "default": "sgjourney:classic_chevron_engage"
+    },
+    "engaged_texture": "jajasgates:textures/entity/stargate/cl_xtreme/xtreme_stargate_engaged.png",
+    "fail_sounds": {
+        "default": "sgjourney:classic_dial_fail"
+    },
+    "shiny_wormhole": {
+        "event_horizon": {
+            "back": {
+                "columns": 1,
+                "frames": 32,
+                "rgba": {
+                    "alpha": 0.75,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                },
+                "rows": 32,
+                "texture": "jajasgates:textures/entity/stargate/cl_xtreme/xtreme_event_horizon_shiny.png"
+            },
+            "front": {
+                "columns": 1,
+                "frames": 32,
+                "rgba": {
+                    "alpha": 0.75,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                },
+                "rows": 32,
+                "texture": "jajasgates:textures/entity/stargate/cl_xtreme/xtreme_event_horizon_shiny.png"
+            }
+        },
+        "disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "sgjourney:textures/entity/stargate/classic/classic_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "sgjourney:textures/entity/stargate/classic/classic_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+    },
+    "symbols": {
+        "permanent_point_of_origin": "jajasgates:cl_xtreme",
+        "permanent_symbols": "jajasgates:cl_xtreme",
+        "symbol_color": {
+            "alpha": 1,
+            "blue": 0.29803921568627,
+            "green": 0.84313725490196,
+            "red": 1
+        }
+    },
+    "texture": "jajasgates:textures/entity/stargate/cl_xtreme/xtreme_stargate.png",
+    "wormhole": {
+        "event_horizon": {
+            "back": {
+                "columns": 1,
+                "frames": 32,
+                "rgba": {
+                    "alpha": 0.75,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                },
+                "rows": 32,
+                "texture": "jajasgates:textures/entity/stargate/cl_xtreme/xtreme_event_horizon.png"
+            },
+            "front": {
+                "columns": 1,
+                "frames": 32,
+                "rgba": {
+                    "alpha": 0.75,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                },
+                "rows": 32,
+                "texture": "jajasgates:textures/entity/stargate/cl_xtreme/xtreme_event_horizon.png"
+            }
+        },
+        "disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "sgjourney:textures/entity/stargate/classic/classic_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "sgjourney:textures/entity/stargate/classic/classic_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+    },
+    "wormhole_sounds": {
+        "close": "sgjourney:classic_wormhole_close",
+        "idle": "sgjourney:classic_wormhole_idle",
+        "open": "sgjourney:classic_wormhole_open"
+    },
+    "rotation_sounds":
+	{
+		"rotation_startup_sound": "sgjourney:classic_ring_spin_start",
+		"rotation_sound": "sgjourney:classic_ring_spin",
+		"rotation_stop_sound": "sgjourney:classic_ring_spin_stop"
+	}
+}
