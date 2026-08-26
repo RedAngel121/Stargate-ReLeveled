@@ -8317,6 +8317,11 @@ hash = "f6f723c2d15da3b36a2c29408deb914f6c4bdbe4a20aa652f3f07642011fce8e"
 metafile = true
 
 [[files]]
+file = "mods/blocks-you-need.pw.toml"
+hash = "5ee65623eb28130ec482f26fd0cf520c9de4cc2af312defda16f840d33087ee4"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf.pw.toml"
 hash = "cf914684c4151076b726116a66f7bc81a6116655551bcce70a9e64e34e5aa308"
 metafile = true
@@ -8348,7 +8353,7 @@ metafile = true
 
 [[files]]
 file = "mods/cable-facades.pw.toml"
-hash = "fc76a6254c251ebde067cfe0ab7726673d215cba814fe1dcfe3030d1311a313c"
+hash = "24b1ae1c84f5d788dd48f3611c75f002af25ea6470d14ab83391a979879c5842"
 metafile = true
 
 [[files]]
@@ -8558,7 +8563,7 @@ metafile = true
 
 [[files]]
 file = "mods/doggy-talents-next.pw.toml"
-hash = "72a58cd1cec23bfb9a76ae07a82ad4569ff476cad5b7d2560da4633cdcc51936"
+hash = "ada11fbff7b0e6535b85ded781c809cb4e48a89290ee503fb627b1af8fba369b"
 metafile = true
 
 [[files]]
@@ -8668,7 +8673,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "7baf8ef642d3c40608b344fbbfe3634c09b38f8670099b2f307df8f7a4143d99"
+hash = "6a451ba7022f1afab59b6884ded7e2c533f7d4279738477030d6de496e3de1a4"
 metafile = true
 
 [[files]]
@@ -8678,7 +8683,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-teams-forge.pw.toml"
-hash = "e717bb275a54a5caadaa7cf82bc34df3589f49402074adf93c31eaac43860313"
+hash = "c21c2308684a75cda7dd9d557d129c9f89f49be527da3d5aa675fff444c11f5e"
 metafile = true
 
 [[files]]
@@ -8688,7 +8693,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "b7c578eb1350a6d6b3f0974b69640e8d5ad65192fcb3be460703a36fcdd98e66"
+hash = "3e5de7cfbc6b0dd1efadde34b25d1613e58dc29e0fbcc8aee1a9a7daa4f99f1a"
 metafile = true
 
 [[files]]
@@ -8798,7 +8803,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "cc9ff8f836b242932bc70428c785c1b24838bf4a008f1614aa8c2fcbd3fd86d4"
+hash = "4520268d4ae061f16fe109c519d08d4a1bf60824fd2c8bdbda2595905ce0dd57"
 metafile = true
 
 [[files]]
@@ -8898,7 +8903,7 @@ metafile = true
 
 [[files]]
 file = "mods/mekanism-more-machine.pw.toml"
-hash = "6dc4590928f3e3d5a432aeb094e0f7ee629b4bbad359cbe7f670edde26352b9a"
+hash = "035224b23bc13f2eb7b7b1b952c41af7ab1d0c0eca33eed874b8ca7f066c32c8"
 metafile = true
 
 [[files]]
@@ -8948,7 +8953,7 @@ metafile = true
 
 [[files]]
 file = "mods/moregate.pw.toml"
-hash = "8799c3263e049a12a82a7cbe0b23b96dbc7decf5cdf95b5f5f17d7886c7f4b6d"
+hash = "4dfb1f9745d4256553727dd5b2504fdd27ae2b3146d0d18b2323456d49f77f4c"
 metafile = true
 
 [[files]]
@@ -9332,7 +9337,7 @@ metafile = true
 
 [[files]]
 file = "mods/stellarview.pw.toml"
-hash = "e583f8cd89217955925b1eb1ee9fa75e59cceeca958a233bb8f090226e13c96c"
+hash = "5ff4ceeaae4fcb90f1b0c4022616b9dd5723e9903648823dfa1f4bbfca63c1cd"
 metafile = true
 
 [[files]]
@@ -9387,7 +9392,7 @@ metafile = true
 
 [[files]]
 file = "mods/tiny-redstone.pw.toml"
-hash = "a4189bcd88ad395224a99521aff0573669270e2ea54087536a2a6f4ec942ed7f"
+hash = "8c7ceb0dfb0c8b456a767d613e56a03c792a7596499f0dcacb0b744376db2978"
 metafile = true
 
 [[files]]
@@ -9427,7 +9432,7 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "9c74466bc50f35a2994b8d7ba7c2a5d1271844458852f5ddb15764538a33f1c4"
+hash = "c1b11bb2f5df2d289da34c34cbd21855a0f5650e48308af7dd281f25999b16f3"
 metafile = true
 
 [[files]]

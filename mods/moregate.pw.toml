@@ -1,13 +1,13 @@
 name = "moregate"
-filename = "moregate-0.6.jar"
+filename = "moregate-1.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/SkmbrVFu/versions/gn37SrHx/moregate-0.6.jar"
+url = "https://cdn.modrinth.com/data/SkmbrVFu/versions/pUCNsbju/moregate-1.0.jar"
 hash-format = "sha512"
-hash = "1cbfccafe931b6e5390e361e418c9d6df45c777d2dab9d52fd08af0a9b092bcdbf67aa42fb060479f5be2545b801852b56d984d98b5c90cc7c62f08adc6ede4e"
+hash = "c70691c975cdb822788c63284ff3cb1a7a86a9919bba392c3dd133091b1e453978eae254311b00ce7deee45e0ee00a7d01be20dddb2f25daffede09e30e21da7"
 
 [update]
 [update.modrinth]
 mod-id = "SkmbrVFu"
-version = "gn37SrHx"
+version = "pUCNsbju"

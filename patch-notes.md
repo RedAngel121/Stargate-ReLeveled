@@ -80,6 +80,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - ExtendedAE
   - Glodium
 - Mekanism: More Machine
+- Blocks You Need
 
 - New DarkHax Dependancies:
   - Prickle
