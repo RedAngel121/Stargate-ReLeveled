@@ -1,0 +1,13 @@
+name = "Ad Astra"
+filename = "adastra-1.21.1-1.16.19-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "11dde001afc3057649544b16655ff1d46d9811f5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8758526
+project-id = 635042

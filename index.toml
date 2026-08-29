@@ -8158,8 +8158,9 @@ hash = "377370006856682d7159154ee6513a5535d5ba4d922da8b3d78672ebd5c6382b"
 metafile = true
 
 [[files]]
-file = "mods/adastra-1.21.1-1.16.14-neoforge.jar"
-hash = "9aea358aae3b67a1005dd92f41c18245e4a8626d70ef460251df70a153fa2675"
+file = "mods/ad-astra.pw.toml"
+hash = "0678d2792e6a509a579b60c0b9252d1af44b46d729d2d326d5b053eabfec9447"
+metafile = true
 
 [[files]]
 file = "mods/adastra-stellarview-compatibility.pw.toml"
@@ -8178,7 +8179,7 @@ metafile = true
 
 [[files]]
 file = "mods/ae2-import-export-card.pw.toml"
-hash = "97a392e10561c4c0ea4feca3aa8fd554c4e84322c5479a44da51c8ee10355dd6"
+hash = "9dd9c1d311a5f7b6c058b8d5d6ee75184af02db74d5322b70f9ca78574a79075"
 metafile = true
 
 [[files]]
@@ -8288,7 +8289,7 @@ metafile = true
 
 [[files]]
 file = "mods/baguettelib.pw.toml"
-hash = "1a52b3a6071fa86dc0854189e110e7dd6c27c0944856fee39a781f58275e1cdd"
+hash = "075877ff2a9539ebe8238238f9d50cd0068e29583bcc110f98fe7c08c4769058"
 metafile = true
 
 [[files]]
@@ -8618,7 +8619,7 @@ metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "18dee4357a741a909904d20d5a9952fba48ab2713a9e18c764d1fbb440216b12"
+hash = "c43a20f5dbb630a294f618360304f81c5658e13fbfc64bc9b35a5c45fbfde052"
 metafile = true
 
 [[files]]
@@ -8803,12 +8804,12 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "4520268d4ae061f16fe109c519d08d4a1bf60824fd2c8bdbda2595905ce0dd57"
+hash = "bb841ced49cf383c664febdf4be96b05fc597077fcb25dad5a9d9bf5d8da063d"
 metafile = true
 
 [[files]]
 file = "mods/journeymap.pw.toml"
-hash = "eb38fb4e5d07b2f9a9777022abc12720ba9533c75cfd0cc0309002a432872545"
+hash = "3af887e923482284310f127dbc7574afead70b1092fe610bd6bc94f1f2b7b02a"
 metafile = true
 
 [[files]]
@@ -8953,7 +8954,7 @@ metafile = true
 
 [[files]]
 file = "mods/moregate.pw.toml"
-hash = "4dfb1f9745d4256553727dd5b2504fdd27ae2b3146d0d18b2323456d49f77f4c"
+hash = "e6b6ed8fc26d4e63ea0d0e1598e63dd06c3c2a1e6769d89d0b46490755d1b84a"
 metafile = true
 
 [[files]]
@@ -9043,7 +9044,7 @@ metafile = true
 
 [[files]]
 file = "mods/oritech.pw.toml"
-hash = "7ce53f10561336ee2f05ba02be5a23be056f5d6c2117310a0ab16ac7b17c0240"
+hash = "e7d8369f5d6e89dff07f1e0575a20a3ec078c1ce03762767e8225eeb89550d06"
 metafile = true
 
 [[files]]
@@ -9213,7 +9214,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "e64cfe869742d68a73990c10a3e5b34c7ecec0910cda586d0d13b6633ec872e2"
+hash = "25bd3df81f1db5736274c1b7db2bc622f221b2c5dfc7e855ff4ebce345aecc30"
 metafile = true
 
 [[files]]
@@ -9257,7 +9258,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "e98864e7d943db400d05aa5b283ef9e06eea346e144f0b75d9690032804b4d3d"
+hash = "617ec6e9893d59905035a510fe336addd46a97b6fd28fad88b70713ebf8e69e3"
 metafile = true
 
 [[files]]

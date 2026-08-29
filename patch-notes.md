@@ -5,7 +5,7 @@
 - WorldEdit CUI
 
 ### TODO:
-- drop XP on mineing naq and tri
+- check if https://www.curseforge.com/minecraft/mc-mods/ancient-remnants is 1.21.1
 - MOD/sgjourney/space_location for DeeperDarker, Overworld Mirror, Undergarden
   - verify that all dims show up in abydos cartouche rooms
 - Re-Add Jaja's Gates after they have been udpated
