@@ -8154,12 +8154,12 @@ hash = "d7b55b1161d3efb17047becb6c6e42827662503e28f4a0ceb0a0e87d240842bb"
 
 [[files]]
 file = "mods/ad-astra-giselle-addon.pw.toml"
-hash = "377370006856682d7159154ee6513a5535d5ba4d922da8b3d78672ebd5c6382b"
+hash = "bb257558e302309a765a6be4ff8072f04d898aca93e0be2060e53d38791cda12"
 metafile = true
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
-hash = "0678d2792e6a509a579b60c0b9252d1af44b46d729d2d326d5b053eabfec9447"
+hash = "74555539913552b67542fdff97b68c1bc8133996d6f474b141319d73f8fbb874"
 metafile = true
 
 [[files]]
@@ -8289,7 +8289,7 @@ metafile = true
 
 [[files]]
 file = "mods/baguettelib.pw.toml"
-hash = "075877ff2a9539ebe8238238f9d50cd0068e29583bcc110f98fe7c08c4769058"
+hash = "944a2f79b94231740264c8ce070aafcde464a5efcd44e7929b3960d3a896137a"
 metafile = true
 
 [[files]]
@@ -8424,7 +8424,7 @@ metafile = true
 
 [[files]]
 file = "mods/construction-sticks.pw.toml"
-hash = "f22871063cbfb6a6220cb82fa4a8b92e7659cc5c9f30987e8eb001fbb2446970"
+hash = "f9467bea7593983f43d8cbaeb34ec5ea3d643992843b8455a0b80e94f8f2a105"
 metafile = true
 
 [[files]]
@@ -8619,7 +8619,7 @@ metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "c43a20f5dbb630a294f618360304f81c5658e13fbfc64bc9b35a5c45fbfde052"
+hash = "10208ca3f0f29e42f973363bf9cb3daf3e19de5af0ae69237103cc3c17cd0289"
 metafile = true
 
 [[files]]
@@ -8804,12 +8804,12 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "bb841ced49cf383c664febdf4be96b05fc597077fcb25dad5a9d9bf5d8da063d"
+hash = "e844a58a6bd0229686957e89fddd40ab74e0877cdddc4ba3dab692bf79a497b5"
 metafile = true
 
 [[files]]
 file = "mods/journeymap.pw.toml"
-hash = "3af887e923482284310f127dbc7574afead70b1092fe610bd6bc94f1f2b7b02a"
+hash = "6abb98b1cd1b33b933b55b6b224aeaabe903347b6ba1762c4c51d304fa2f7a64"
 metafile = true
 
 [[files]]
@@ -8939,7 +8939,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "b0364f6b95f6ed837239c232bad0e2d7317e58f0e4c040e66a4f533239d5775e"
+hash = "ed6ac1b169f40d6ea67376edac878c6eb842c935f743553016ba3817e67b9830"
 metafile = true
 
 [[files]]
@@ -8954,7 +8954,7 @@ metafile = true
 
 [[files]]
 file = "mods/moregate.pw.toml"
-hash = "e6b6ed8fc26d4e63ea0d0e1598e63dd06c3c2a1e6769d89d0b46490755d1b84a"
+hash = "624c57987001046a3d9f0ee4b63d9d7a3f6eb6c7663a723fd1a816d528a95857"
 metafile = true
 
 [[files]]
@@ -9130,6 +9130,11 @@ metafile = true
 [[files]]
 file = "mods/prickle.pw.toml"
 hash = "eab2f56ff9135b3b7253ea5a73deae2f887e2876f5f0432936044a6e926937b4"
+metafile = true
+
+[[files]]
+file = "mods/protection-pixel.pw.toml"
+hash = "34cd5811ecc59af578b9ec108b9b379a6c60046477182305608312240847ee2b"
 metafile = true
 
 [[files]]
@@ -9408,7 +9413,7 @@ metafile = true
 
 [[files]]
 file = "mods/torchmaster.pw.toml"
-hash = "4acd0daed52188d2ccd8277953e697113aebf89c1bd6b1049a1e859f8eb26ce3"
+hash = "d23325c748612ceae7c860576527f1be1e29af3b6c777783a8c59fd977f3e410"
 metafile = true
 
 [[files]]
@@ -9448,7 +9453,7 @@ metafile = true
 
 [[files]]
 file = "mods/viscord.pw.toml"
-hash = "9ca7d421843205739eedde74913327aaf19aa6656d24ade890d71353904c748c"
+hash = "a17faf7dab9395aecb48b3c9886802773a9d0068afcdd56a9701f03fd1a3712d"
 metafile = true
 
 [[files]]

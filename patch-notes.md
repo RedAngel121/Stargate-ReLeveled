@@ -108,16 +108,27 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - Chairs/Benches/Seats cannot be sat on in airless Ad Astra Dimensions without a single block of oxygen below it. Use an Ad Astra Vent underneath the seat to prevent death.
 
 ### Thank you everyone for helping make this update possible:
-- cookta2012
-- Vtecklg
 - lukaskabc
-- CMCrafter724_
+- Vtecklg
 - PheWitch
+- iampaddyman
 - OMGItsZari
+- cookta2012
+- Lord_Vile__
+- Theunknownboy78
+- CMCrafter724_
+- RedAngel121
+- Captain_Nikolaus
 - Volpe42
 - jman_4444
-- Theunknownboy78
-- Lord_Vile__
+- RipleyCreek
+- Divine590
+- Baileycaitlinx
+- Prc64
+- AydenJacko
+- King_Scout
+- SkylerNexis
+- electron_369
 
 ====================================================================================================
 

@@ -1,13 +1,13 @@
 name = "Torchmaster"
-filename = "torchmaster-neoforge-1.21.1-21.1.9.jar"
+filename = "torchmaster-neoforge-1.21.1-21.1.10.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "3f565ecc8560eba3ae3e15ff6542a3025d7377a2"
+hash = "31ae209d16c76196c820bfe509d8f7236c83a2dd"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7197218
+file-id = 8771597
 project-id = 254268
