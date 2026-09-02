@@ -34,7 +34,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 
 ====================================================================================================
 
-### Changes:
+### Mod Updates:
 - **Neoforge 21.1.248 -> 21.1.249**
 
 - FTB Chunks (NeoForge): 2101.1.21 -> 2101.1.22
@@ -46,9 +46,14 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - Complementary Shaders - Reimagined: r5.8.1 -> r5.9
 - Complementary Shaders - Unbound: r5.8.1 -> r5.9
 
+### Changes:
+- Adjusted Overworld Mirror Dimension
+- Fixed Mirror Staragte Pedistal so it doesnt spawn underwater anymore
+
 ### Additions:
 
 ### Removals:
+- Overworld Mirror Mod (dimension ID has changed to overworldmirror:overworld_mirror)
 
 ### Known Issues:
 - Chairs/Benches/Seats cannot be sat on in airless Ad Astra Dimensions without a single block of oxygen below it. Use an Ad Astra Vent underneath the seat to prevent death.
