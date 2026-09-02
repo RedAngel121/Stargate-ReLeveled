@@ -58,7 +58,7 @@ hash = "108381833be9e0a0f6e425aa1a6d5dc227be003df6e90460818bf8d89a554429"
 
 [[files]]
 file = "config/dimstructrestrict.json"
-hash = "12e625911ebfda6bfdd6a7869fab070e372d0db9849165c6fe300153d393856a"
+hash = "f6a283c76675a1277915e1ae4e51ed28e12af7e9e23fb91f2dc18e6131233758"
 
 [[files]]
 file = "config/doggytalents-client.toml"
@@ -507,10 +507,6 @@ hash = "42ac60eca638ddf578c1123577b4820b38225d395e483e76e347d1713fba7646"
 [[files]]
 file = "config/overlapless-common.toml"
 hash = "30f3f07d73d82b81944365238059830c373974128ad56d2e85217f7f8b786fe2"
-
-[[files]]
-file = "config/overworldmirror-common.toml"
-hash = "ba3bc5fcaf10e2703041746ca36da0f3e4978e0c407b41c505d8f3b99946f0c8"
 
 [[files]]
 file = "config/potionsmaster/coal.json"
@@ -5241,8 +5237,12 @@ file = "kubejs/data/oritech/recipe/mixing/compat/create/turbofuel.json"
 hash = "856bbd8a5db6cb558cde529517e33ec6b63c071fb735ac90ae745181a228a935"
 
 [[files]]
-file = "kubejs/data/overworldmirror/dimension/overworld.json"
-hash = "2c0a254add3ce491588ea687296b39247560375947bd44052739b1b0d60c52e3"
+file = "kubejs/data/overworldmirror/dimension/overworld_mirror.json"
+hash = "f6b7c10ff881021f61b7f9dfa6eb9e13a1e3f95f8e6e4214b1bbcfca2eb08f00"
+
+[[files]]
+file = "kubejs/data/overworldmirror/dimension_type/overworld_mirror.json"
+hash = "21994b2fa1a9359b10097875046c06ee52386b59c9c3e05953661d844fc4f1d1"
 
 [[files]]
 file = "kubejs/data/pamhc2foodcore/recipe/fishjerkyitem.json"
@@ -7838,7 +7838,7 @@ hash = "5c2e24ebcca10eaad06ddc4323df148cef16dc2a63b752fead4ce868f18f1cc3"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/worldgen/structure/stargate/tollan/pedestal/stargate_pedestal_mirror.json"
-hash = "06b091cc972bea12e00994a6c9711cc9e8d5485661641ae0d62392b63edc768a"
+hash = "99fe8fe36a114ad25a526969f57a8f377a257667c1bd4b8a22fbcbfd3bbfe046"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/worldgen/structure_set/common_stargate.json"
@@ -8654,7 +8654,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
-hash = "0922cfee3b7351e62fb22ccc6e5a59f35fd99fe80737dc861ada3b5407ecdf87"
+hash = "670df7985eec05c6a339d90ebbcfda0e5f1f5c63846ac65a441412f123471e14"
 metafile = true
 
 [[files]]
@@ -8764,7 +8764,7 @@ metafile = true
 
 [[files]]
 file = "mods/in-control.pw.toml"
-hash = "313ec73e545755e5cb1ea72dd38b632587e32a9e0d5e73b714d00fe4feb9a0d4"
+hash = "5aedbe06cda7659f0d37cbfe79f6e35b0d64ee327aff40c9c1fb132604132972"
 metafile = true
 
 [[files]]
@@ -8804,7 +8804,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "e844a58a6bd0229686957e89fddd40ab74e0877cdddc4ba3dab692bf79a497b5"
+hash = "8fb11f14908ef59ee9133d901d3db895c6dedf9c885059cf33e397f162d29413"
 metafile = true
 
 [[files]]
@@ -8924,7 +8924,7 @@ metafile = true
 
 [[files]]
 file = "mods/merequester.pw.toml"
-hash = "8644dce5073168a7d5ba412d3f593ad41356b8b0817c376dbd829d020c7db8e6"
+hash = "490c62f126037c9258c345e3f2a1c523f004179c7026072d9301391f9c5ecf75"
 metafile = true
 
 [[files]]
@@ -9045,11 +9045,6 @@ metafile = true
 [[files]]
 file = "mods/oritech.pw.toml"
 hash = "1e095c1ef3d6f3a375df601a208657313d2c8a541d4d58944d808d292dddef81"
-metafile = true
-
-[[files]]
-file = "mods/overworld-mirror.pw.toml"
-hash = "f77e6a0e411ecb631bf552113d08c02f47ca42221ab1675994b8b1937e7401f3"
 metafile = true
 
 [[files]]
@@ -9219,7 +9214,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "25bd3df81f1db5736274c1b7db2bc622f221b2c5dfc7e855ff4ebce345aecc30"
+hash = "27776f7b6030807ebd013434feb8dba1f56df0d113eef78530d8f5e2a12772a8"
 metafile = true
 
 [[files]]
@@ -9572,12 +9567,12 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "335d3e0f28b42381f929c9997dd188cd656178904833c2d1b01dfd3e098b0569"
+hash = "a7a48b8ccf7f04eaf9932c8f9a89ebec7d789e81703653fefb451fd23e6ca5de"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
-hash = "d5bbf1d80ecd2261d38311b897469fdd2dd48029bc520193bfefbc4407f5cc81"
+hash = "645f899eb3c6cc28330816729ab48bcefb205cc2f350bc5671c1af71fbb6ed44"
 metafile = true
 
 [[files]]

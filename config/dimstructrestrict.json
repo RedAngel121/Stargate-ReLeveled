@@ -11,7 +11,7 @@
     {
       "id": "sgcommunity_pack:stargate/tollan/pedestal/stargate_pedestal_mirror",
       "whitelist": [
-        "overworldmirror:overworld"
+        "overworldmirror:overworld_mirror"
       ],
       "false_place": false,
       "active": true

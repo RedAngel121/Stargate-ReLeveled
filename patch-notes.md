@@ -27,107 +27,31 @@
 - 2 new circuits: one for replacing the Comp Core and a new one called Zero Point Energy Circuit that can be used to craft the ZPM and ZPM hub
 
 ### See how hard this is:
-Me      : I want to expand the sgj dims and add more ores and stuff
+Me      : I want to expand the sgj dims with more ores and stuff
 Request : Can we just get a giant cave dim? Like the Nether but with overworld blocks?
 Me      : I can agree with that, adding a new dimension isn't easy, biomes and ores need to be accounted for... I would have to add a new Stargate structure too...
 Me      : oh maybe i could look into adding that city mod that adds houses and skyscrapers and whatnot for a new vacated city dim... its a lot but its not a bad idea
 
 ====================================================================================================
 
-# THIS UPDATE IS NOT COMPATIBLE WITH 1.20.1 WORLDS
 ### Changes:
-- Updated MC to 1.21.1
-- Swapped to Neoforge 21.1.248
-- Updated ModPack Thumbnail
+- **Neoforge 21.1.248 -> 21.1.249**
 
-- ChatPlus (Replaces Chat Heads)
-- Permanent Sponges (Replaces simple sponge mod)
-- Corpse (Replaces Gravestones and provides curios compat)
-- Viscord (Replaces Discord Chat Integration)
+- FTB Chunks (NeoForge): 2101.1.21 -> 2101.1.22
+- In Control!: 10.2.7 -> 10.3.0
+- Just Enough Items (JEI): 19.51.0.417 -> 19.51.0.418
+- ME Requester: 1.4.3 -> 1.5.0
+- Moonlight Lib: 3.5.2 -> 3.6.0
 
-- Updated SGCommunity Pack Items to display a proper mod name instead of "*sgcommunity_pack*"
-- Added Oritech and SGJourney Blocks and Fluids to RFTools Dimlets
-- Converted the login book into quests and added a few Easymode quests
-- Changed Substrates to Cruxes to work with Mystical Agriculture
-- Added Mystical Agriculture Quests Chapter to show what seeds go on what crux
-- Various other Quest Improvements to apply changes referenced above
-- Added Creative Only Infinite drives for all essences
-- Hundreds of custom recipe adaptations and improvements
-- And a lot more things I forgot to write down
+- Complementary Shaders - Reimagined: r5.8.1 -> r5.9
+- Complementary Shaders - Unbound: r5.8.1 -> r5.9
 
 ### Additions:
-- Oritech
-- Construction Sticks
-- Tiny Coal
-- Cognition
-- Create: Protection Pixel
-- VeinMiner Enchantment
-- Potions Master
-- Nullscape
-- Incendium
-- Gateways to Eternity
-- Structure Overlapless
-- Spice of Life: Onion Edition
-  - Creative Core
-- Mystical Agriculture
-  - Cucumber Library
-- Mystical Agradditions
-- Mystical Customization
-- Botany Pots + Mystical Agriculture Compat
-- AdvancedAE
-- Expanded AE
-- ExtendedAE
-  - Glodium
-- Mekanism: More Machine
-- Blocks You Need
-
-- New DarkHax Dependancies:
-  - Prickle
-  - Nyctography
-- New Apotheosis Dependancies:
-  - Apothic Spawners
-  - Apothic Enchanting
-- New Immersive Paintings Dependancy: Fzzy Config
 
 ### Removals:
-- Botarium
-- Canary
-- Dairy Peripherals
-- Experimental Settings Disabler
-- MrCrayfish's Furniture Mod (Duplicate)
-- Game Stages
-- Utilitix
-- Simple Discord RPC
-- Mekanism Covers (Dupe for Cable Facades)
-- Numismatics - replaced with default create trading mechanics
-- KubeJS Botany Pots (replaced with Mystical Agriculture + custom seeds/recipes)
-- Immersive Armors
 
 ### Known Issues:
 - Chairs/Benches/Seats cannot be sat on in airless Ad Astra Dimensions without a single block of oxygen below it. Use an Ad Astra Vent underneath the seat to prevent death.
-
-### Thank you everyone for helping make this update possible:
-- lukaskabc
-- Vtecklg
-- PheWitch
-- iampaddyman
-- OMGItsZari
-- cookta2012
-- Lord_Vile__
-- Theunknownboy78
-- CMCrafter724_
-- RedAngel121
-- Captain_Nikolaus
-- Volpe42
-- jman_4444
-- RipleyCreek
-- Divine590
-- Baileycaitlinx
-- Prc64
-- AydenJacko
-- King_Scout
-- SkylerNexis
-- electron_369
 
 ====================================================================================================
 
