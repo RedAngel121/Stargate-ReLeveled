@@ -1,0 +1,13 @@
+name = "sgcommunity_jei"
+filename = "sgcommunity_jei-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "362f42e50304cacbc6acca720b8fc5ec1d0de928"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8779223
+project-id = 1676598

@@ -8159,7 +8159,7 @@ metafile = true
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
-hash = "74555539913552b67542fdff97b68c1bc8133996d6f474b141319d73f8fbb874"
+hash = "05b443cc0b0f47805796dc16def6e4efd1a397f6bbc74fde9075eb801e29c0dd"
 metafile = true
 
 [[files]]
@@ -8284,7 +8284,7 @@ metafile = true
 
 [[files]]
 file = "mods/azimuth-api.pw.toml"
-hash = "0a52f6f8c287ca852cce533742ae800dac58a816966e1a491eec68c9e1a63305"
+hash = "f0c22820883bd2a7325b8bcba4784f0ee4db33ad7844a802b0f844cdc73b4dd2"
 metafile = true
 
 [[files]]
@@ -8479,7 +8479,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-bits-n-bobs.pw.toml"
-hash = "6963af5a5042eeca534ba83209bbd006f46b9536059f19349d940f2ce7d2ecb0"
+hash = "7af4b5c86766bf4875929efa4ff725f02b0604881d867c897e4ed0ef1147bf97"
 metafile = true
 
 [[files]]
@@ -8494,7 +8494,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-connected.pw.toml"
-hash = "e3304daa476fa3ac90a018720d190fd366cf6e20e9ce33b5aa8d16b40eaf3446"
+hash = "3b1b6163af92aa709dbc1800f76654db759a6ae590a6dd1858509138e1a70d6c"
 metafile = true
 
 [[files]]
@@ -8644,7 +8644,7 @@ metafile = true
 
 [[files]]
 file = "mods/framedblocks.pw.toml"
-hash = "401e1738b00110910e243d520022a158e8f11bf018fc27e485c012f3720ce97f"
+hash = "82271b1e9d999e52768efcc8857a23d17ab7a884faa7810f055a4f4f3dafe9bf"
 metafile = true
 
 [[files]]
@@ -8789,7 +8789,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade-addons.pw.toml"
-hash = "89420f657cec1038646f75531ae388e92d27c51c84b1f121e935ae5aecf995be"
+hash = "055b6a985f7b81ef953c5c516b56cd6889ef327e1789e2e2723860fa021817a5"
 metafile = true
 
 [[files]]
@@ -8814,7 +8814,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-enough-mekanism-multiblocks.pw.toml"
-hash = "7d2ae2a56271eed1650d72a09f20e68b141f08d8f8ccf7a61b80d95eb92ec5c9"
+hash = "1f40d10dd154757bb74acaf74c2dbf0e6c1bfeab9b44d57f9589b8c89cccf10b"
 metafile = true
 
 [[files]]
@@ -8939,7 +8939,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "ed6ac1b169f40d6ea67376edac878c6eb842c935f743553016ba3817e67b9830"
+hash = "1813b429f0782edb4d0c428f00da0c760acea32ede566656588af99c6ad10a11"
 metafile = true
 
 [[files]]
@@ -8954,7 +8954,7 @@ metafile = true
 
 [[files]]
 file = "mods/moregate.pw.toml"
-hash = "624c57987001046a3d9f0ee4b63d9d7a3f6eb6c7663a723fd1a816d528a95857"
+hash = "0fe2db12432dbe6b5b313e72880c5f9ed8ff750ce716f6af5fb6bc43746fc3e2"
 metafile = true
 
 [[files]]
@@ -9044,7 +9044,7 @@ metafile = true
 
 [[files]]
 file = "mods/oritech.pw.toml"
-hash = "e7d8369f5d6e89dff07f1e0575a20a3ec078c1ce03762767e8225eeb89550d06"
+hash = "1e095c1ef3d6f3a375df601a208657313d2c8a541d4d58944d808d292dddef81"
 metafile = true
 
 [[files]]
@@ -9139,7 +9139,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "6a07261762a29c6108ea6030ec71ff6801e03127a0004cf105490004c77eacf5"
+hash = "775097fcba4e4fecf8c6b5ac1984e361d0d069171e6c764929320b7fd1d86031"
 metafile = true
 
 [[files]]
@@ -9199,7 +9199,7 @@ metafile = true
 
 [[files]]
 file = "mods/rsgauges.pw.toml"
-hash = "0d55f0dbaef048684af2f95b51e0886a6c3303fe7fcaf354376d1d383f1c3097"
+hash = "67ba9d0d35fbe4dc2b44c873b9afc1fe8ba66f204a2cba252e308b109d7a4225"
 metafile = true
 
 [[files]]
@@ -9223,8 +9223,9 @@ hash = "25bd3df81f1db5736274c1b7db2bc622f221b2c5dfc7e855ff4ebce345aecc30"
 metafile = true
 
 [[files]]
-file = "mods/sgcommunity_jei-1.1.0.jar"
-hash = "7568e6d4c71a60332e8424eb2708d78c28c1c28c3d1c7c0e73d83f0d9f090863"
+file = "mods/sgcommunity-jei.pw.toml"
+hash = "0744817b5aa192afbb12234395ca2de1ad0f26baa592002663146074ec92b873"
+metafile = true
 
 [[files]]
 file = "mods/sgjourney.pw.toml"

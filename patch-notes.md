@@ -10,7 +10,6 @@
   - verify that all dims show up in abydos cartouche rooms
 - Re-Add Jaja's Gates after they have been udpated
 - Change SGJ config to `Common_Gates = False` for Single Player release
-- Replace Ad Astra with jar on release - https://github.com/terrarium-earth/Ad-Astra/pull/783
 
 - Chisel Blocks: Aluminum, Cobalt, Invar, and Silver - These have no recipe and need to be added to the chisel workbench somehow
 - Make chem cells https://github.com/GlodBlock/ExtendedAE/wiki/Custom-Infinity-Cell

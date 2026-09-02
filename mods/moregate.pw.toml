@@ -3,11 +3,11 @@ filename = "moregate-1.1.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/SkmbrVFu/versions/d7gtrYl0/moregate-1.1.2.jar"
-hash-format = "sha512"
-hash = "27fff75bf31988ff102a0f74f9553a80e12bfcc85851fdef2cb5bcf92a298cd83f4b667e8184bb56dbe64867349b38eeed7661089c326c33081e5c95c02c08e9"
+hash-format = "sha1"
+hash = "a4aaf7724bac499440b93f0e716cbf55372d55cd"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "SkmbrVFu"
-version = "d7gtrYl0"
+[update.curseforge]
+file-id = 8765730
+project-id = 1672463
