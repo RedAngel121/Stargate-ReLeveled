@@ -9307,11 +9307,6 @@ hash = "ef9a468055d108fb54f2834c041107fe478ce8448e495456414d3819a5cde794"
 metafile = true
 
 [[files]]
-file = "mods/sophisticated-inventory-interactions.pw.toml"
-hash = "00cd0587a9f434ac6615e0a8e311dd2daa982ec5afc5a9734d8afb03152fee34"
-metafile = true
-
-[[files]]
 file = "mods/sophisticated-item-actions.pw.toml"
 hash = "e4b07b289de615f1d42e634793870d9759ce46936101d8ce131f0bf9c8700459"
 metafile = true
