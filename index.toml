@@ -5077,6 +5077,30 @@ file = "kubejs/data/mekanism/recipe/sawing/trapdoor/strophar.json"
 hash = "68a83ace1aff730558e1b36ec35052e158fed2dd1ed936638a20455f065b091d"
 
 [[files]]
+file = "kubejs/data/mekmm/recipe/compat/advanced_ae/presser/quantum_processor.json"
+hash = "41473d78d0ceb2c99b1ddea9004a06cf4a997a05441540ca8cc50f1e9afe726f"
+
+[[files]]
+file = "kubejs/data/mekmm/recipe/compat/ae2/presser/calculation_processor.json"
+hash = "64ae27a5f723cdf34f9a82405ac9738f6bb59cd355d614ba7ab097cec2750b22"
+
+[[files]]
+file = "kubejs/data/mekmm/recipe/compat/ae2/presser/engineering_processor.json"
+hash = "3960f6fb054e2cc88b0deed767aa2b2241e0767558da2bba494400991f6575ef"
+
+[[files]]
+file = "kubejs/data/mekmm/recipe/compat/ae2/presser/logic_processor.json"
+hash = "3b3ec30299ec95cf8c7caba45690eebaba7256d8c59c2fc783ff4bca7f6cdc30"
+
+[[files]]
+file = "kubejs/data/mekmm/recipe/compat/extendedae/presser/concurrent_processor.json"
+hash = "3493cd73388b45409dc3f795491141d51ccbd8ad775a1847371aa7efb7b27f30"
+
+[[files]]
+file = "kubejs/data/mekmm/recipe/compat/megacells/presser/accumulation_processor.json"
+hash = "b76260ca731f2bc3a7b0ae1d6118792634f20afde1314ce9aac95e55ba949b4a"
+
+[[files]]
 file = "kubejs/data/mekmm/recipe/planting_station.json"
 hash = "050a7ccf597945dde6abf2665d875c2ff6a898ef29402fe16c3e9cffb82560fe"
 
