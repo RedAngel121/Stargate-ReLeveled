@@ -41,7 +41,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 ====================================================================================================
 
 ### Mod Updates:
-- **Neoforge 21.1.248 -> 21.1.249**
+- **Neoforge 21.1.248 -> 21.1.250**
 
 - FTB Chunks (NeoForge): 2101.1.21 -> 2101.1.22
 - In Control!: 10.2.7 -> 10.3.0
@@ -58,6 +58,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - Removed Sophisticated Inventory Interactions due to quark overlap
 
 ### Additions:
+- JMI (Journey Map Integration)
 
 ### Removals:
 - Overworld Mirror Mod (dimension ID has changed to overworldmirror:overworld_mirror)
