@@ -1,17 +1,22 @@
 ### Server File Removals:
+- Change SGJ config to `Common_Gates = False` for Single Player Releases
 - Chat Plus
 - Sodium
 - Iris
 - WorldEdit CUI
 
 ### TODO:
-- 1.21.1 Abydos Pyramid ring blocks are not named when generated
+- SGJ UPDATE:
+  - remove the cartouche custom recipe or change new default recipe
+
+- Ring panels are not whitelisted in FTB claims anymore because of the ID change
+- Abydos Pyramid ring blocks are not named when generated
+- Abydos Pyramid stargate is not primary nor protected
+- disable advancedperipherals:AE2 stuff - could cause mem leaks and other issues
 - check if https://www.curseforge.com/minecraft/mc-mods/ancient-remnants is 1.21.1
 - MOD/sgjourney/space_location for DeeperDarker, Overworld Mirror, Undergarden
   - verify that all dims show up in abydos cartouche rooms
-- Re-Add Jaja's Gates after they have been udpated
-- Change SGJ config to `Common_Gates = False` for Single Player release
-"removed sophisticated-inventory-interactions due to quark overlap"
+
 - Chisel Blocks: Aluminum, Cobalt, Invar, and Silver - These have no recipe and need to be added to the chisel workbench somehow
 - Make chem cells https://github.com/GlodBlock/ExtendedAE/wiki/Custom-Infinity-Cell
 - make/change the infinite item/fluid/chem cell recipes to be more production centered
@@ -50,6 +55,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 ### Changes:
 - Adjusted Overworld Mirror Dimension
 - Fixed Mirror Staragte Pedistal so it doesnt spawn underwater anymore
+- Removed Sophisticated Inventory Interactions due to quark overlap
 
 ### Additions:
 

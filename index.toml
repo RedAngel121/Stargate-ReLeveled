@@ -5422,11 +5422,11 @@ hash = "79fb1f1261c10ccce95b2205e88f9e9b75654016caf6a94d40aab2559a90d545"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/advancement/computational.json"
-hash = "5bbc5e352921e1d1aff1cdebc7f813456425f0e925359d21954a36edf37be149"
+hash = "88f27edad541d2c096673e08c64d8382ec913048afc98108301aecb100914e25"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/advancement/deep_space.json"
-hash = "fc4384ec23c137c97f4c33d4fa1f02e9bd1f8bcf91a5c98b9ca71900f9efa3a1"
+hash = "93c1954a7cc18ee1f7de2c45d243d8dc65e8c5d06e44073376cdee845be9bc85"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/advancement/diamond.json"
@@ -5438,7 +5438,7 @@ hash = "f1cf70554dd0218a972a0870ff0dd0bd9a5139b9c7ed48578340402c76354471"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/advancement/inactive_naquadria.json"
-hash = "485721044b2093c238bd8db81aa52fc51d546ecd33f7c0d580bf3c14a989dab7"
+hash = "09835a1e0f809e877c2cf979d860975b76e7ee079f2b237b6fe73a5599d1adf0"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/advancement/iron.json"
@@ -5446,7 +5446,7 @@ hash = "c01a5e7826ad595caebaa96ca3a623a133998f197d93402299886158c090044e"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/advancement/kinetic.json"
-hash = "f06e3f66c06535f02dabba9f2ef46ae9554c6d75babcb8024d613029068dea0c"
+hash = "e4be347da4c560c10ac84aa49469d046738e13473b2b2b7427045fa630749bde"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/advancement/mekanised.json"
@@ -5466,7 +5466,7 @@ hash = "95bebc64415bf9ca51c038790e904a93bc1fc830e4f028ae24ed7a134ca45e78"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/advancement/reactive.json"
-hash = "6829fb1fdba6f244dd7c9248eff09d9aa06b44d75bd7e043728599cd9466e5b3"
+hash = "f0e96cac200dffdea9f7e77aff7fb58720cc647d63854ab569cc2e64aca06dac"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/curios/slots/charm.json"
@@ -8829,6 +8829,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "8fb11f14908ef59ee9133d901d3db895c6dedf9c885059cf33e397f162d29413"
+metafile = true
+
+[[files]]
+file = "mods/journeymap-integration.pw.toml"
+hash = "20202d3155a9c99848a2aa34648766d909538346a6f996d284e6fa2e1569e39e"
 metafile = true
 
 [[files]]
