@@ -56,6 +56,8 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - Adjusted Overworld Mirror Dimension
 - Fixed Mirror Staragte Pedistal so it doesnt spawn underwater anymore
 - Removed Sophisticated Inventory Interactions due to quark overlap
+- Fixed Jaja's Gate Recipes
+- Adjusted all Botany Pot Growth times faster by 25%
 
 ### Additions:
 - JMI (Journey Map Integration)

@@ -1,28 +1,27 @@
 {
-  "type": "sgjourney:crystallizing",
-  "crystal_base": {
-    "ingredient": {"item": "sgjourney:stargate_variant_crystal"},
-    "amount": 1
-  },
-  "primary_ingredient": {
-    "ingredient": {"item": "sgjourney:naquadah_alloy"},
-    "amount": 1,
-    "deplete": true
-  },
-  "secondary_ingredient": {
-    "ingredient": {"item": "minecraft:oak_sapling"},
-    "amount": 4,
-    "deplete": true
-  },
-  "output": {
-    "id": "sgjourney:stargate_variant_crystal",
-    "components": {
-      "sgjourney:stargate_variant": "jajasgates:mw_oak"
+    "type": "sgjourney:crystallizing",
+    "crystal_base": {
+        "ingredient": {
+            "item": "sgjourney:stargate_variant_crystal"
+        },
+        "amount": 1
+    },
+    "primary_ingredient": {
+        "ingredient": {
+            "item": "sgjourney:naquadah_alloy"
+        },
+        "amount": 1
+    },
+    "secondary_ingredient": {
+        "ingredient": {
+            "item": "minecraft:oak_sapling"
+        },
+        "amount": 4
+    },
+    "output": {
+        "id": "sgjourney:stargate_variant_crystal",
+        "components": {
+            "sgjourney:stargate_variant": "jajasgates:mw_oak"
+        }
     }
-  },
-  "progress": 100,
-  "input_fluid": {
-    "id": "sgjourney:liquid_naquadah",
-    "amount": 100
-  }
 }

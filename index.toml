@@ -4902,27 +4902,27 @@ hash = "cfadf5d52139d3dc5b5b225ba913843b447cfe50eda9ed51c53bfe7057f9f9f8"
 
 [[files]]
 file = "kubejs/data/jajasgates/recipe/crystallizing/cl_xtreme_variant_crystal.json"
-hash = "16b946e0c737879eada0c6405f94c28edc4a1fa11effe40cedbe436ba1dfb121"
+hash = "cd9cfe01774c395c3d238ba859bce1b219082562e9f73ddbd7e7982b1da76e8d"
 
 [[files]]
 file = "kubejs/data/jajasgates/recipe/crystallizing/mw_darkmetal_variant_crystal.json"
-hash = "8363c18af8e56e1db61d1460171eb3990b802cee662c71719a865f8061261c51"
+hash = "3fcf6ac776dbde27318f3d99b7d668f6268ac0b06984f84e30009953c4c5be21"
 
 [[files]]
 file = "kubejs/data/jajasgates/recipe/crystallizing/mw_nether_variant_crystal.json"
-hash = "04e9813f5240dfca4de200814b72b19edb4612ca5638913c5607371b1b48eb1c"
+hash = "84361801503a26358eeeaf52df90e6594ac6a1b08ddc4612270ed3d4729c4a31"
 
 [[files]]
 file = "kubejs/data/jajasgates/recipe/crystallizing/mw_oak_variant_crystal.json"
-hash = "b14f97f32c654d1f57d3285329bcdd57f819e4fa85b9664a89cdef78794ff406"
+hash = "981c453aeeff885425346cc5efb4f768fabeadbc164a8907256a8dd881753972"
 
 [[files]]
 file = "kubejs/data/jajasgates/recipe/crystallizing/mw_stone_variant_crystal.json"
-hash = "8a490952278138e91e83d200892472ed988780358ede329a145118e369cb73f2"
+hash = "ae8ac2c4e32e0edfd4d87ddcf2bf95a339944d618e8a554c84d88f6399881805"
 
 [[files]]
 file = "kubejs/data/jajasgates/recipe/crystallizing/tl_gallifrey_variant_crystal.json"
-hash = "080efe196b9cc887b4d877481b9f838925efca98b06958660947f12a6211150a"
+hash = "e36ab27438f1166cb94aaa82c420e09849fa37e19692eea1f507bd91b9c0acab"
 
 [[files]]
 file = "kubejs/data/jajasgates/sgjourney/point_of_origin/cl_xtreme.json"

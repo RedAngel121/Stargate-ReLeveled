@@ -1,28 +1,27 @@
 {
-  "type": "sgjourney:crystallizing",
-  "crystal_base": {
-    "ingredient": {"item": "sgjourney:stargate_variant_crystal"},
-    "amount": 1
-  },
-  "primary_ingredient": {
-    "ingredient": {"item": "minecraft:clock"},
-    "amount": 1,
-    "deplete": true
-  },
-  "secondary_ingredient": {
-    "ingredient": {"item": "minecraft:red_wool"},
-    "amount": 1,
-    "deplete": true
-  },
-  "output": {
-    "id": "sgjourney:stargate_variant_crystal",
-    "components": {
-      "sgjourney:stargate_variant": "jajasgates:tl_gallifrey"
+    "type": "sgjourney:crystallizing",
+    "crystal_base": {
+        "ingredient": {
+            "item": "sgjourney:stargate_variant_crystal"
+        },
+        "amount": 1
+    },
+    "primary_ingredient": {
+        "ingredient": {
+            "item": "minecraft:clock"
+        },
+        "amount": 1
+    },
+    "secondary_ingredient": {
+        "ingredient": {
+            "item": "minecraft:red_wool"
+        },
+        "amount": 1
+    },
+    "output": {
+        "id": "sgjourney:stargate_variant_crystal",
+        "components": {
+            "sgjourney:stargate_variant": "jajasgates:tl_gallifrey"
+        }
     }
-  },
-  "progress": 100,
-  "input_fluid": {
-    "id": "sgjourney:liquid_naquadah",
-    "amount": 100
-  }
 }
