@@ -1,6 +1,3 @@
-Multiplier for composts
-
-
 ### Server File Removals:
 - Change SGJ config to `Common_Gates = False` for Single Player Releases
 - Chat Plus
@@ -11,14 +8,14 @@ Multiplier for composts
 ### TODO:
 - SGJ UPDATE coming soon:
   - remove the cartouche custom recipe or change new default recipe
+  - MOD/sgjourney/space_location for DeeperDarker, Overworld Mirror, Undergarden
+    - verify that all dims show up in abydos cartouche rooms
 
 - Ring panels are not whitelisted in FTB claims anymore because of the ID change
 - Abydos Pyramid ring blocks are not named when generated
 - Abydos Pyramid stargate is not primary nor protected
 - disable advancedperipherals:AE2 stuff - could cause mem leaks and other issues
 - check if https://www.curseforge.com/minecraft/mc-mods/ancient-remnants is 1.21.1
-- MOD/sgjourney/space_location for DeeperDarker, Overworld Mirror, Undergarden
-  - verify that all dims show up in abydos cartouche rooms
 
 - Chisel Blocks: Aluminum, Cobalt, Invar, and Silver - These have no recipe and need to be added to the chisel workbench somehow
 - Make chem cells https://github.com/GlodBlock/ExtendedAE/wiki/Custom-Infinity-Cell
@@ -57,17 +54,17 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 
 ### Changes:
 - Fixed BotanyPots not being able to handle Multiple Cruxes per crop (Thanks Vteck!)
+- Fixed BotanyPots growth times across all crops/flowers/saplings/etc (Thanks Vteck!)
 - Adjusted Overworld Mirror Dimension
 - Fixed Mirror Staragte Pedistal so it doesnt spawn underwater anymore
 - Removed Sophisticated Inventory Interactions due to quark overlap
 - Fixed Jaja's Gate Recipes
-- Adjusted all Botany Pot Growth times faster by 25%
 
 ### Additions:
 - JMI (Journey Map Integration)
 
 ### Removals:
-- Overworld Mirror Mod (dimension ID has changed to overworldmirror:overworld_mirror)
+- Overworld Mirror Mod (dimension is still available ID has changed to overworldmirror:overworld_mirror)
 
 ### Known Issues:
 - Chairs/Benches/Seats cannot be sat on in airless Ad Astra Dimensions without a single block of oxygen below it. Use an Ad Astra Vent underneath the seat to prevent death.
