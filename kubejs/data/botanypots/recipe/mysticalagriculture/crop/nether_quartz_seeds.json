@@ -1,0 +1,45 @@
+{
+    "type": "botanypots:block_derived_crop",
+    "block": "mysticalagriculture:nether_quartz_crop",
+    "input": {
+        "item": "mysticalagriculture:nether_quartz_seeds"
+    },
+    "soil": [
+        {
+            "item": "sgcommunity_pack:kinetic_crux"
+        },
+        {
+            "item": "sgcommunity_pack:computational_crux"
+        },
+        {
+            "item": "sgcommunity_pack:mekanised_crux"
+        },
+        {
+            "item": "sgcommunity_pack:reactive_crux"
+        },
+        {
+            "item": "sgcommunity_pack:deep_space_crux"
+        },
+        {
+            "item": "sgcommunity_pack:naquadria_crux"
+        },
+        {
+            "item": "sgcommunity_pack:positronic_crux"
+        }
+    ],
+    "grow_time": 2000,
+    "drops": [
+        {
+            "type": "botanypots:items",
+            "items": [
+                {
+                    "result": {
+                        "id": "mysticalagriculture:nether_quartz_essence",
+                        "count": 1
+                    },
+                    "chance": 1.0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "botanypots:block_derived_crop",
+    "block": "mysticalagriculture:chicken_crop",
+    "input": {
+        "item": "mysticalagriculture:chicken_seeds"
+    },
+    "soil": [
+        {
+            "item": "sgcommunity_pack:netherite_crux"
+        },
+        {
+            "item": "sgcommunity_pack:kinetic_crux"
+        },
+        {
+            "item": "sgcommunity_pack:computational_crux"
+        },
+        {
+            "item": "sgcommunity_pack:mekanised_crux"
+        },
+        {
+            "item": "sgcommunity_pack:reactive_crux"
+        },
+        {
+            "item": "sgcommunity_pack:deep_space_crux"
+        },
+        {
+            "item": "sgcommunity_pack:naquadria_crux"
+        },
+        {
+            "item": "sgcommunity_pack:positronic_crux"
+        }
+    ],
+    "grow_time": 1800,
+    "drops": [
+        {
+            "type": "botanypots:items",
+            "items": [
+                {
+                    "result": {
+                        "id": "mysticalagriculture:chicken_essence",
+                        "count": 1
+                    },
+                    "chance": 1.0
+                }
+            ]
+        }
+    ]
+}

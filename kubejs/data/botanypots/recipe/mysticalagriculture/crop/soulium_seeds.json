@@ -1,0 +1,39 @@
+{
+    "type": "botanypots:block_derived_crop",
+    "block": "mysticalagriculture:soulium_crop",
+    "input": {
+        "item": "mysticalagriculture:soulium_seeds"
+    },
+    "soil": [
+        {
+            "item": "sgcommunity_pack:mekanised_crux"
+        },
+        {
+            "item": "sgcommunity_pack:reactive_crux"
+        },
+        {
+            "item": "sgcommunity_pack:deep_space_crux"
+        },
+        {
+            "item": "sgcommunity_pack:naquadria_crux"
+        },
+        {
+            "item": "sgcommunity_pack:positronic_crux"
+        }
+    ],
+    "grow_time": 2400,
+    "drops": [
+        {
+            "type": "botanypots:items",
+            "items": [
+                {
+                    "result": {
+                        "id": "mysticalagriculture:soulium_essence",
+                        "count": 1
+                    },
+                    "chance": 1.0
+                }
+            ]
+        }
+    ]
+}

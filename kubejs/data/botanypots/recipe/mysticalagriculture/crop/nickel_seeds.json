@@ -1,0 +1,36 @@
+{
+    "type": "botanypots:block_derived_crop",
+    "block": "mysticalagriculture:nickel_crop",
+    "input": {
+        "item": "mysticalagriculture:nickel_seeds"
+    },
+    "soil": [
+        {
+            "item": "sgcommunity_pack:reactive_crux"
+        },
+        {
+            "item": "sgcommunity_pack:deep_space_crux"
+        },
+        {
+            "item": "sgcommunity_pack:naquadria_crux"
+        },
+        {
+            "item": "sgcommunity_pack:positronic_crux"
+        }
+    ],
+    "grow_time": 2600,
+    "drops": [
+        {
+            "type": "botanypots:items",
+            "items": [
+                {
+                    "result": {
+                        "id": "mysticalagriculture:nickel_essence",
+                        "count": 1
+                    },
+                    "chance": 1.0
+                }
+            ]
+        }
+    ]
+}

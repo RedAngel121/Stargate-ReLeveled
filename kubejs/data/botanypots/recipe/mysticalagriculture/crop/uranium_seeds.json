@@ -1,0 +1,30 @@
+{
+    "type": "botanypots:block_derived_crop",
+    "block": "mysticalagriculture:uranium_crop",
+    "input": {
+        "item": "mysticalagriculture:uranium_seeds"
+    },
+    "soil": [
+        {
+            "item": "sgcommunity_pack:naquadria_crux"
+        },
+        {
+            "item": "sgcommunity_pack:positronic_crux"
+        }
+    ],
+    "grow_time": 3000,
+    "drops": [
+        {
+            "type": "botanypots:items",
+            "items": [
+                {
+                    "result": {
+                        "id": "mysticalagriculture:uranium_essence",
+                        "count": 1
+                    },
+                    "chance": 1.0
+                }
+            ]
+        }
+    ]
+}

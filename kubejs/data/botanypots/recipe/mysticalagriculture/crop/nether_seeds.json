@@ -1,0 +1,51 @@
+{
+    "type": "botanypots:block_derived_crop",
+    "block": "mysticalagriculture:nether_crop",
+    "input": {
+        "item": "mysticalagriculture:nether_seeds"
+    },
+    "soil": [
+        {
+            "item": "sgcommunity_pack:diamond_crux"
+        },
+        {
+            "item": "sgcommunity_pack:netherite_crux"
+        },
+        {
+            "item": "sgcommunity_pack:kinetic_crux"
+        },
+        {
+            "item": "sgcommunity_pack:computational_crux"
+        },
+        {
+            "item": "sgcommunity_pack:mekanised_crux"
+        },
+        {
+            "item": "sgcommunity_pack:reactive_crux"
+        },
+        {
+            "item": "sgcommunity_pack:deep_space_crux"
+        },
+        {
+            "item": "sgcommunity_pack:naquadria_crux"
+        },
+        {
+            "item": "sgcommunity_pack:positronic_crux"
+        }
+    ],
+    "grow_time": 1600,
+    "drops": [
+        {
+            "type": "botanypots:items",
+            "items": [
+                {
+                    "result": {
+                        "id": "mysticalagriculture:nether_essence",
+                        "count": 1
+                    },
+                    "chance": 1.0
+                }
+            ]
+        }
+    ]
+}

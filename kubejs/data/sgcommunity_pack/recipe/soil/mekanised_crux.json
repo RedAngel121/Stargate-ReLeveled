@@ -9,5 +9,5 @@
     ],
     "type": "botanypots:block_derived_soil",
     "block": "sgcommunity_pack:mekanised_crux",
-    "growth_modifier": 0.50
+    "growth_modifier": 3
 }

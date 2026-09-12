@@ -6,7 +6,7 @@
 - WorldEdit CUI
 
 ### TODO:
-- SGJ UPDATE:
+- SGJ UPDATE coming soon:
   - remove the cartouche custom recipe or change new default recipe
 
 - Ring panels are not whitelisted in FTB claims anymore because of the ID change
@@ -53,6 +53,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - Complementary Shaders - Unbound: r5.8.1 -> r5.9
 
 ### Changes:
+- Fixed BotanyPots not being able to handle Multiple Cruxes per crop (Thanks Vteck!)
 - Adjusted Overworld Mirror Dimension
 - Fixed Mirror Staragte Pedistal so it doesnt spawn underwater anymore
 - Removed Sophisticated Inventory Interactions due to quark overlap

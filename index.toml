@@ -2961,6 +2961,302 @@ file = "kubejs/data/botanypots/recipe/minecraft/crop/wither_rose.json"
 hash = "6c59b0d18807c6d8f5ef92d84f6477e5e23917587a9e46f81cc219996a9bb656"
 
 [[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/amethyst_seeds.json"
+hash = "78d2160c20bb9675c11dbf97ab0132116cb439b568107ca5bad3578fdd10b2cc"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/armadillo_seeds.json"
+hash = "6f8f3eb72c718ff13a1fe46a4893a98ed307f6d662dff09520ed9de44bf961db"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/blaze_seeds.json"
+hash = "752b0b9ede4cf5c9d33a52759b821ab3ca8b84d5b1098d70bab152eff86c03b0"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/borax_seeds.json"
+hash = "8c50a3c809feb3fcea7a5cfb68ec1e18c9357191c28d2809f619279b4589d2af"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/brass_seeds.json"
+hash = "a8829f9f4715719395ab8791d81042f86989b7950809c184cfc1fce06cffe03c"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/breeze_seeds.json"
+hash = "fa66ab0b0376a63321d7d562d4311e3f58138f3802bfa70f8115333fc33d77ad"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/bronze_seeds.json"
+hash = "8c294083f118a8f45b25619304dde3300741e9d5e1c818da5e11c978c8294e68"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/calorite_seeds.json"
+hash = "ee0810d82f5c8a9e42a7f7625a4eac1a58f22d16f8dce9cb1e43b8118c33f440"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/certus_quartz_seeds.json"
+hash = "f0853f15ab088c5a90003d824790581debc1698bfc830c5fa1b14e8dd1db8825"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/chicken_seeds.json"
+hash = "1a96cde4f97e34d3d79a59ec36f057df21bfec0614441858514fd6654e68fb58"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/coal_seeds.json"
+hash = "45bdf266f0e30b27bb753edbb7d802cf93ce716840f6a898b96e656fbd71ff37"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/copper_seeds.json"
+hash = "53d7fe9b711914244dc4b54dd257f696ed5c42764dc6039c4dd15aec1d72be97"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/cow_seeds.json"
+hash = "5ea87959cb71ec4f717d1d49c8fdd7e20689124132abb01f3786964ef3ec8e45"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/creeper_seeds.json"
+hash = "8c203dfce10228f56ad5b08ecf98934af21c72abf20a8f9952f4e9b0ce18605a"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/deepslate_seeds.json"
+hash = "fce4030d3539db363f2e2446b961bc9a4a9efdad2168227f4af163fa4bceab2a"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/desh_seeds.json"
+hash = "949f732d5a6ae23a2317ab01692533ba4dd3b48dfe5009eee28356344fe8f916"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/diamond_seeds.json"
+hash = "ee5612670de7ac3e88b852e77dc325b47181cb06b6a682ebedd143861c6e8173"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/dirt_seeds.json"
+hash = "5a73cb2bdda50e3a0d33984d277b6f94f8d985c0de51dc8b3dfbcfcdb0183d89"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/dragon_egg_seeds.json"
+hash = "33f97d0fc231ec6ed248889637affd12dc66b898e7b9c5720b2ead2631198b9c"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/dye_seeds.json"
+hash = "af09c49c4e149d36ae09b2213ba79c4988d57d74660b3f851500fd0b88bf6755"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/electrum_seeds.json"
+hash = "647169d6565eaf02d140374671e392bc6eecffa7674eb8851326b12655f6be40"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/emerald_seeds.json"
+hash = "d978e16aaf62f6a02fdaaa56b5fb9c5e8d0bbcafb8fb14df8f8a4c20dcd67453"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/end_seeds.json"
+hash = "6aeb65d8f4e5b183146b3f389801c3d2101b027459b92b0d89d5edc8e0f085f2"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/enderman_seeds.json"
+hash = "49d1812618a7d92c883e61e23aedcd51e6d6abe72b2f2bb7f2d275e610436dbf"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/entro_seeds.json"
+hash = "35913ef94f7a0c7c0daa9a5d180c870245f207d3a93b69498009b9ac48264964"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/experience_seeds.json"
+hash = "16365f838c9583a87030287c9b4c2861dc63e4fb71ba8fcf9dfaf193fd870e7f"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/fish_seeds.json"
+hash = "129257590183e30389f1ed6118f712434b7b0700a5e628eedac188c131619ff3"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/fluix_seeds.json"
+hash = "58c29f589dd89553aac7231dba1e7606800bdb46f8b8e889c8ee7f58ed0e4f58"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/fluorite_seeds.json"
+hash = "d3c2af9e29a36b75e8da05f5b21901b668231aaa67a715d0073699cb00385e16"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/ghast_seeds.json"
+hash = "75c78fddf387d2076d003c4f1411af3efdd2263a900fa3e706567ddc657e3107"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/glowstone_seeds.json"
+hash = "507276befc6861507367aaadd2aef596fb2ad511640d8cd014815fcbe9ea5cd3"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/gold_seeds.json"
+hash = "451b3a3e16e9c343468cea6c62b1ff7612a0cabb8bf079b8ba5a93af7a921707"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/honey_seeds.json"
+hash = "3b592cf4ab9f57c71f5d53d6aaaeeea3c5a0d95bdbeebfb8dc74f6b2f54bace1"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/ice_seeds.json"
+hash = "2ce7be543f9d0ce1bb8394041539a1afa46c1f03395d477211475bedf28c7079"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/inferium_seeds.json"
+hash = "897bf503fa4b4e6a2499ff2d88421b69fab0275814aabcdd41ec677cd4a27f33"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/iron_seeds.json"
+hash = "75e191792f8df82458d145aac850194168fc86fa4067dce03df25b8a8954f976"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/lapis_lazuli_seeds.json"
+hash = "248fedd37f0aa0d91dcd6f0514938373f3a156d61071d922226c9f24607f2a3b"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/lead_seeds.json"
+hash = "ebf2f952ae3573690b4bab4b41d1eaf02b7c92e878d10497013b61f8b4195d95"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/limestone_seeds.json"
+hash = "251102aeddd0fdd718355435c41c6ec15d404971771e4aed8d6a4cd57aa4eaf2"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/naquadah_seeds.json"
+hash = "4fde8d4316506bf99541ffcdb1a614dd31f4ba5ec0f5b63e8b6d038d70695210"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/nether_quartz_seeds.json"
+hash = "d24e0906fb7a0f839b97d7235f1a57498c1d41ebd9b050f24a40819b3ac4474b"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/nether_seeds.json"
+hash = "60c7d8643421a0203817610779c5eb129fd5cedcfb2cca5421b5ab91a4dd508e"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/nether_star_seeds.json"
+hash = "083bd302ab9fc5d7b077211cb04ee8d64c54730c7024db31c2a2410ddbab309f"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/netherite_seeds.json"
+hash = "8c81651a3921fa0303ad68d7e9d7596e5be5b0a39090855f9ef10a790aada2e0"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/nickel_seeds.json"
+hash = "d4513e0e05b5395335260b549b4d315f387b8a5a3586adc70f9492761377e70e"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/obsidian_seeds.json"
+hash = "2c1af15abb6eb519a88852faa6c6674e4e5d246ff97ad62b3679ac0e6e4009cb"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/osmium_seeds.json"
+hash = "2c2b8e4cc36c062ac71745226410b513658340d8febad7dfb029c50675fb6543"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/ostrum_seeds.json"
+hash = "252ecb45031bc97b3deaef73518ff80cf67cf81ea54f44abf49ee5a086e67a42"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/phantom_seeds.json"
+hash = "0220beb65585f2ef99c90d9b3f9d300c467948e5042e7144b69a5e9cef32c9d7"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/pig_seeds.json"
+hash = "406bf8e3ed27193b43da83ba9992de558e79062e8a338eb12bcb086ca4a46562"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/platinum_seeds.json"
+hash = "81916d39421b9972e06698c350861b24eb0a1fb7387de4e1650ddc49a2eee60f"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/prismarine_seeds.json"
+hash = "a91ade990c253a150cc23fcbde2206870641dd19a9c3fbe3088255078d365bd9"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/rabbit_seeds.json"
+hash = "495328f0a5bd5c633178e236bd0cacb0fd0476489b76eccc6582dc0712849774"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/redstone_seeds.json"
+hash = "2de30340007fa354b1ba7734516c910200c3a4329568d8658b119cb77564f8ad"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/refined_glowstone_seeds.json"
+hash = "f1e20a7f5492cb61b919fb46f123e8979a29f051b9d51e5107764e34db2a83e0"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/refined_obsidian_seeds.json"
+hash = "b3051967f9e43e5651355ea853beca9b591b2404c8ff429d8e14588920358087"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/sculk_seeds.json"
+hash = "31b66263d6e9afd968612d0a05ba709acc82a8f9fc5c93fe3f78c90bb6fd5c09"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/sheep_seeds.json"
+hash = "6224b297cba4c2df286fb0d94b25a094dce70545447b127fd2a68e924a1e6cb3"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/silicon_seeds.json"
+hash = "434affcd529f806e082fc1e8a137d017cba263dcb1b969b98bd69c6bc108e67c"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/skeleton_seeds.json"
+hash = "e55d56d9efed0ca268347ee095b27d00bbe66a9bd284f5cca2b102dfb96bac1c"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/sky_stone_seeds.json"
+hash = "1e01e01d4ca884c4e9681d26807c11bdfcf0e3f3fb0e42160b4dc2aa6532cc1d"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/slime_seeds.json"
+hash = "df119fe48d1423dd171bff166d2a44998f12dc6ef799c61eb5d7e93664e7a554"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/soulium_seeds.json"
+hash = "b98d07730471c01d3096b1622c1ade600130ae94687bfaebba62ac18106d7081"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/spider_seeds.json"
+hash = "3b66fda0df0525533cdcf6a56d2bd6e087d96f073673de54f366f81f8fdf795d"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/squid_seeds.json"
+hash = "b16627ceb3a8f1fb50cab546ae4627c0dc4d6b54b2d28a20c333dd1df2449097"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/steel_seeds.json"
+hash = "d83103d5491a7d8d36f67864d981dca5d70969afbc55868bef31fd438cf69919"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/stone_seeds.json"
+hash = "db701ea7842c47f711792a70450a1e361d06c692f8390751f8cdf18e35bc538f"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/sulfur_seeds.json"
+hash = "8c8e862a41ef62fae7c744bd1e79a4b64818ab59d37161f08ade3597eae87e73"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/tin_seeds.json"
+hash = "7d1cf5036f02e70e20c5a947a053405d76c90e3cb6f24e847a02ea9b98467255"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/turtle_seeds.json"
+hash = "5ed16418e4e78acac63d431bba2c8dd9f4e298f91a1591828bb284a897907d59"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/uranium_seeds.json"
+hash = "0c7f6d8fe001f97be625aff502c43bc55bb649437b5803915ccef370f83d43f4"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/wither_skeleton_seeds.json"
+hash = "bbafa37fa1c72fd1bd4eedcf99a8442795422af6ab6451cd830a19a45466fb19"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/zinc_seeds.json"
+hash = "1353cc13038a242059f99d0d4aacb4a96ddcb87419675e6ed080069023ec7ffd"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/zombie_seeds.json"
+hash = "28891ac8198fa50dea7e9ed6bd708ba8f8375df1fd811b5f72913492507f2526"
+
+[[files]]
 file = "kubejs/data/botanypots/recipe/pamhc2crops/crop/agaveseeditem.json"
 hash = "5209266d66ae9c3292a48069a68c94160b2cdd4b040114eb1e4d737396772214"
 
@@ -5585,10 +5881,6 @@ file = "kubejs/data/sgcommunity_pack/recipe/crop/desh_seeds.json"
 hash = "147b6209768d50cebdcbed29d58be713be2ff1ae87df58f98d78fe7e1e5fca88"
 
 [[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/crop/entro_seeds.json"
-hash = "a0b060714736a29ea7d9bc0540a1b2c95abfb4a25e22e4a769f769faac0bb4a4"
-
-[[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/crop/naquadah_seeds.json"
 hash = "4df811af824fa2eb8130ca73a76b1e22f67d2a29c669af707fd2033fb6681790"
 
@@ -7606,7 +7898,7 @@ hash = "088461b6b6bcc3a4eda178fabf731c1faae6686030f30b7587f139a55a4ef35a"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/computational_crux.json"
-hash = "0d1349dffbc6b6882700eb6dc6dc64f3f3a8d19d14ca9b3465050b6be71915af"
+hash = "8927ddb048360f191611e2fcbb1b570782fb7b17f48a26606191ae669be77bfb"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/coral_compost.json"
@@ -7614,11 +7906,11 @@ hash = "401e82b8ad9661637f9c44ae08ada5de27f036118638d09aeb3ad2dff2c34d37"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/deep_space_crux.json"
-hash = "aa757a7f928dc808c22605b91e8c899c19f8568589427e61cb85d510b5494bf5"
+hash = "434feddd05c288e8d6b96a43a4baba6216dba75c852b14d342ed4c2015038e10"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/diamond_crux.json"
-hash = "1e4d97c1b71183791dc3bd7d1faf8fbc52c9cf1d82b73c2294e08b0e0d4b7719"
+hash = "296f68bd2dd02aea644bc6641d37444642049728abda51038a1f6017113200b4"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/floral_compost.json"
@@ -7626,19 +7918,19 @@ hash = "68000edadaa48314c9fab928e25615a06814f88cc17e3327a0310395336907ec"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/gold_crux.json"
-hash = "731022521319b9f54bd60c0a2abb8837bd43a61ef48bd507d9339a2bb3b21e0f"
+hash = "7efd0a6eae2c0759834b67ed7fb6e5b8b655c4ee4ae846985c23136e5ae28347"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/iron_crux.json"
-hash = "c366b27a0a20f92eeab6e197ae8cd391488151b74f54be4a1f7572d04dc862f5"
+hash = "5785d3d54ab722bf78e02ac4e28af0683a3d73c811fc4e91ac7a7792a4aa6507"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/kinetic_crux.json"
-hash = "4e125ee40ef795729abf8020ddf43c2c303e71be310a8e6b99ff4d645824076c"
+hash = "1314992b0e5f2806ef42d75b10a5b0daf814f025bf5a02219dde21785523ca2c"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/mekanised_crux.json"
-hash = "2937a64ca42cc3181b7c95cef0d9348bcf7c5f9f6a330e551ccd34e103e50169"
+hash = "610cbfa4b4e5bfe538fd3b8434e6f961ff1c1bcadca67007722a18362d6f4c7c"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/mulch_compost.json"
@@ -7646,11 +7938,11 @@ hash = "884b179e81054af456fddf87ad79c895495eabc82302920e2a2ef273624bf098"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/naquadria_crux.json"
-hash = "2670583f5d7cc0d0e232e4aa448d746fb0b04c9e46d5a3e4e47eb96a11cf5eae"
+hash = "90da74f0d010dab97d88688e9b53d9bbb57d40abf74afa0f2fb6cc75baa9cab2"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/netherite_crux.json"
-hash = "e38360e3d8a2373076cc96c52eab8434d1e37a3b76a5dfd8788e76d249d92a0d"
+hash = "3995f827a83df29fd02d59fd8159428492e5ec54ff4e9370916cc75910dc2dd8"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/organic_compost.json"
@@ -7658,11 +7950,11 @@ hash = "4691425412c7128a61cbd1a1b557665a951dbd911be50e5b294c376e3e7ec6a9"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/positronic_crux.json"
-hash = "49333890d45fed6aa022aa40f3a95c7ce68c24e8f72d303f4194a6e0e8204fd7"
+hash = "eade2fd0774112b5726fea9c1ca3f204c56362cc922e67b35a3828ffe10fb37f"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/reactive_crux.json"
-hash = "30a0d71d3c157fc3c1100ef45f4bd8dba158b69d853afab8ec50cbc788c70085"
+hash = "254aabf54377abede14efb4372afe2a5d38dd432d612d60413e98310f2d662ba"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sulfur_from_sand.json"
