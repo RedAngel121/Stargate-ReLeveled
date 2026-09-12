@@ -1,14 +1,12 @@
 {
     "type": "botanypots:block_derived_crop",
-    "block": "mysticalagradditions:dragon_egg_crop",
+    "block": "mysticalagriculture:dragon_egg_crop",
     "input": {
-        "item": "mysticalagradditions:dragon_egg_seeds"
+        "item": "mysticalagriculture:dragon_egg_seeds"
     },
-    "soil": [
-        {
-            "item": "sgcommunity_pack:positronic_crux"
-        }
-    ],
+    "soil": {
+        "item": "sgcommunity_pack:positronic_crux"
+    },
     "grow_time": 3200,
     "drops": [
         {
@@ -16,7 +14,7 @@
             "items": [
                 {
                     "result": {
-                        "id": "mysticalagradditions:dragon_egg_essence",
+                        "id": "mysticalagriculture:dragon_egg_essence",
                         "count": 1
                     },
                     "chance": 1.0

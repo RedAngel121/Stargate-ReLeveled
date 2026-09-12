@@ -4,11 +4,9 @@
     "input": {
         "item": "mysticalagriculture:refined_glowstone_seeds"
     },
-    "soil": [
-        {
-            "item": "sgcommunity_pack:positronic_crux"
-        }
-    ],
+    "soil": {
+        "item": "sgcommunity_pack:positronic_crux"
+    },
     "grow_time": 3200,
     "drops": [
         {
