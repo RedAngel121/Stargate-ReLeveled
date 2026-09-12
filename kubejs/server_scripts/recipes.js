@@ -43,7 +43,12 @@ let disappear = [
     "mekmm:fluid_replicator",
     "mekmm:chemical_replicator",
     "mekmm:author_doll",
-    "mekmm:modeler_doll"
+    "mekmm:modeler_doll",
+    "advancedperipherals:ae_disk_cell_1m",
+    "advancedperipherals:ae_disk_cell_4m",
+    "advancedperipherals:ae_disk_cell_16m",
+    "advancedperipherals:ae_disk_cell_64m",
+    "advancedperipherals:ae_disk_cell_256m",
 ]
 ServerEvents.recipes(event => {
     for (let each of disappear) {

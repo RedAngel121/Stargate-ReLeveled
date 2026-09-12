@@ -5373,6 +5373,10 @@ file = "kubejs/data/mekanism/recipe/sawing/trapdoor/strophar.json"
 hash = "68a83ace1aff730558e1b36ec35052e158fed2dd1ed936638a20455f065b091d"
 
 [[files]]
+file = "kubejs/data/mekmm/neoforge/biome_modifier/silver.json"
+hash = "39d6a1a3b51fa0e96a6f899eb2cbd2df6f176b84ef6ca782c1ee596bf6e42e6c"
+
+[[files]]
 file = "kubejs/data/mekmm/recipe/compat/advanced_ae/presser/quantum_processor.json"
 hash = "41473d78d0ceb2c99b1ddea9004a06cf4a997a05441540ca8cc50f1e9afe726f"
 
@@ -8410,7 +8414,7 @@ hash = "3b4bea8739e3353b7963cd73d8a74dffe9112882a40c1cfd8429168910e592c4"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "aef485c272e9ef1a7f81ac085afc10c35f2e988ff581c983ac3e7a4f496ee48f"
+hash = "e15d5a2a772b54a9e46366d5682f7e43ffac52062418f9cf7cd0a7e6bbfca1ba"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"

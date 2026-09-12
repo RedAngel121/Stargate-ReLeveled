@@ -14,8 +14,6 @@
 - Ring panels are not whitelisted in FTB claims anymore because of the ID change
 - Abydos Pyramid ring blocks are not named when generated
 - Abydos Pyramid stargate is not primary nor protected
-- disable advancedperipherals:AE2 stuff - could cause mem leaks and other issues
-- check if https://www.curseforge.com/minecraft/mc-mods/ancient-remnants is 1.21.1
 
 - Chisel Blocks: Aluminum, Cobalt, Invar, and Silver - These have no recipe and need to be added to the chisel workbench somehow
 - Make chem cells https://github.com/GlodBlock/ExtendedAE/wiki/Custom-Infinity-Cell
@@ -59,6 +57,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - Fixed Mirror Staragte Pedistal so it doesnt spawn underwater anymore
 - Removed Sophisticated Inventory Interactions due to quark overlap
 - Fixed Jaja's Gate Recipes
+- Disabled advancedperipherals:AE2_disks
 
 ### Additions:
 - JMI (Journey Map Integration)
@@ -79,3 +78,4 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - Add Ars Elixirum for Potion Making after it gets properly updated > then check apoth charms compat
 - Add Tempad as an After-Oritech endgame TP item that can(t?) travel between dims - requires ZPM?
 - Swap out the long ass recipe chains for individual recipes and items, making EMI Actually useful
+- check if https://www.curseforge.com/minecraft/mc-mods/ancient-remnants is 1.21.1 yet
