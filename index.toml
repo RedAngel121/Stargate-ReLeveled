@@ -37,10 +37,6 @@ file = "config/botanypots-mysticalagriculture/general.json"
 hash = "518582b6dc5c9f25096dece3a3b67ba8e9d724219e3cda0667c980ced1e0eb13"
 
 [[files]]
-file = "config/botanypots.json"
-hash = "342f08b21a3707965c27e9d4b80df08aed9aaecf14624d7c4f21905b8ef866a2"
-
-[[files]]
 file = "config/cable_facades-common.toml"
 hash = "3bb99afc8e129641c54d395c21c5e4092cc040fdbf39d79a7b87bab2b134bab6"
 
