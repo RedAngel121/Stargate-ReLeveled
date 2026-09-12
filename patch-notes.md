@@ -75,6 +75,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - Make a Custom Cartouches mod https://discord.com/channels/1011344665678708818/1522021932420304957/1533215393945092238
 - Vote Stop? https://www.curseforge.com/minecraft/mc-mods/vote-stop-server
 - Possible integration? https://www.curseforge.com/minecraft/mc-mods/power-grid
+- check for updates to https://www.curseforge.com/minecraft/mc-mods/ars-elixirum-forge
 - Add Ars Elixirum for Potion Making after it gets properly updated > then check apoth charms compat
 - Add Tempad as an After-Oritech endgame TP item that can(t?) travel between dims - requires ZPM?
 - Swap out the long ass recipe chains for individual recipes and items, making EMI Actually useful

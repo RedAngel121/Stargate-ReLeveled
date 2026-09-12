@@ -7874,7 +7874,7 @@ hash = "088461b6b6bcc3a4eda178fabf731c1faae6686030f30b7587f139a55a4ef35a"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/computational_crux.json"
-hash = "8927ddb048360f191611e2fcbb1b570782fb7b17f48a26606191ae669be77bfb"
+hash = "8b164ed2477bebc80a299f86c1de6ae1a4a63f1743cde36caaac11cdead2ccce"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/coral_compost.json"
@@ -7882,7 +7882,7 @@ hash = "b3f83be65feb3511473a5cb906a1d993440e62f857419b05fcda880c461382c5"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/deep_space_crux.json"
-hash = "434feddd05c288e8d6b96a43a4baba6216dba75c852b14d342ed4c2015038e10"
+hash = "b687a88cb71d2c27d4a3d47d053ccda19219acfd01ec515fd47eed5687823018"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/diamond_crux.json"
@@ -7894,7 +7894,7 @@ hash = "119fad60112261a6118c9810af1a454498a5419de8c10f62fd8a0b9b62278b22"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/gold_crux.json"
-hash = "7efd0a6eae2c0759834b67ed7fb6e5b8b655c4ee4ae846985c23136e5ae28347"
+hash = "518ae1e2abfdcd06dda542043ee0f7edde57d7872dd9bc6123ee5bef5d601d61"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/iron_crux.json"
@@ -7906,7 +7906,7 @@ hash = "1314992b0e5f2806ef42d75b10a5b0daf814f025bf5a02219dde21785523ca2c"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/mekanised_crux.json"
-hash = "610cbfa4b4e5bfe538fd3b8434e6f961ff1c1bcadca67007722a18362d6f4c7c"
+hash = "462b3b899b0e1d7ca7cee1981226abfeffcc7d6ccbbbd28b5fff584047193051"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/mulch_compost.json"
@@ -7914,11 +7914,11 @@ hash = "ae3c1d4e3a3601fbeb0bbcfde4077fbd4e4362e737fea87ccc72c6ad91f62876"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/naquadria_crux.json"
-hash = "90da74f0d010dab97d88688e9b53d9bbb57d40abf74afa0f2fb6cc75baa9cab2"
+hash = "d50a9b49ff37e876becc5570f4ffe7b7f950b615040242bd8a169371f44ec166"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/netherite_crux.json"
-hash = "3995f827a83df29fd02d59fd8159428492e5ec54ff4e9370916cc75910dc2dd8"
+hash = "82b869e651b53a3d058ef2f2720c8d73eddbcd3549cc21eb07d58199d2f6f188"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/organic_compost.json"
@@ -7930,7 +7930,7 @@ hash = "eade2fd0774112b5726fea9c1ca3f204c56362cc922e67b35a3828ffe10fb37f"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/reactive_crux.json"
-hash = "254aabf54377abede14efb4372afe2a5d38dd432d612d60413e98310f2d662ba"
+hash = "e517d2e64f1cfff60452982c1a51ef7f6493fc7771cca17f8ab90c2020d58fcd"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/sulfur_from_sand.json"
