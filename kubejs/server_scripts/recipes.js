@@ -66,6 +66,7 @@ RecipeViewerEvents.removeEntries("item", event => {
 // ===============================
 
 let kill_recipe = [
+    "createaddition:mixing/electrum",
     "mysticalagriculture:inferium_farmland_till",
     "mysticalagriculture:prudentium_farmland_till",
     "mysticalagriculture:tertium_farmland_till",

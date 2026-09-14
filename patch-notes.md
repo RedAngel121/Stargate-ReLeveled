@@ -30,7 +30,17 @@
 - Find a way to include UU Matter into endgame recipes
 - 2 new circuits: one for replacing the Comp Core and a new one called Zero Point Energy Circuit that can be used to craft the ZPM and ZPM hub
 
-### See how hard this is:
+### Long Term Goals:
+- Make a Custom Cartouches mod https://discord.com/channels/1011344665678708818/1522021932420304957/1533215393945092238
+- Vote Stop? https://www.curseforge.com/minecraft/mc-mods/vote-stop-server
+- Possible integration? https://www.curseforge.com/minecraft/mc-mods/power-grid
+- check for updates to https://www.curseforge.com/minecraft/mc-mods/ars-elixirum-forge
+- Add Ars Elixirum for Potion Making after it gets properly updated > then check apoth charms compat
+- Add Tempad as an After-Oritech endgame TP item that can(t?) travel between dims - requires ZPM?
+- Swap out the long ass recipe chains for individual recipes and items, making EMI Actually useful
+- check if https://www.curseforge.com/minecraft/mc-mods/ancient-remnants is 1.21.1 yet
+- add more dims by way of custom shit or add Alex Caves Dims mods and include a new gate per dimension
+- Overworld caves dimension similar to the nether
 Me      : I want to expand the sgj dims with more ores and stuff
 Request : Can we just get a giant cave dim? Like the Nether but with overworld blocks?
 Me      : I can agree with that, adding a new dimension isn't easy, biomes and ores need to be accounted for... I would have to add a new Stargate structure too...
@@ -51,13 +61,14 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - Complementary Shaders - Unbound: r5.8.1 -> r5.9
 
 ### Changes:
-- Fixed BotanyPots not being able to handle Multiple Cruxes per crop (Thanks Vteck!)
+- Fixed BotanyPots not being able to handle Different Cruxes per crop (Thanks Vteck!)
 - Fixed BotanyPots growth times across all crops/flowers/saplings/etc (Thanks Vteck!)
 - Adjusted Overworld Mirror Dimension
 - Fixed Mirror Staragte Pedistal so it doesnt spawn underwater anymore
 - Removed Sophisticated Inventory Interactions due to quark overlap
 - Fixed Jaja's Gate Recipes
 - Disabled advancedperipherals:AE2_disks
+- Disabled "Silver + Gold = Electrum" recipes breaking intended pack progression
 
 ### Additions:
 - JMI (Journey Map Integration)
@@ -67,15 +78,3 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 
 ### Known Issues:
 - Chairs/Benches/Seats cannot be sat on in airless Ad Astra Dimensions without a single block of oxygen below it. Use an Ad Astra Vent underneath the seat to prevent death.
-
-====================================================================================================
-
-### Long Term Goals:
-- Make a Custom Cartouches mod https://discord.com/channels/1011344665678708818/1522021932420304957/1533215393945092238
-- Vote Stop? https://www.curseforge.com/minecraft/mc-mods/vote-stop-server
-- Possible integration? https://www.curseforge.com/minecraft/mc-mods/power-grid
-- check for updates to https://www.curseforge.com/minecraft/mc-mods/ars-elixirum-forge
-- Add Ars Elixirum for Potion Making after it gets properly updated > then check apoth charms compat
-- Add Tempad as an After-Oritech endgame TP item that can(t?) travel between dims - requires ZPM?
-- Swap out the long ass recipe chains for individual recipes and items, making EMI Actually useful
-- check if https://www.curseforge.com/minecraft/mc-mods/ancient-remnants is 1.21.1 yet
