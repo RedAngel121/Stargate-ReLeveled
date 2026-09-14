@@ -8358,7 +8358,7 @@ hash = "8ca2f1071472697a35f7b29fd5b513d1397cda8d17e85f8c78736ab2914afa1f"
 
 [[files]]
 file = "kubejs/data/sgjourney/worldgen/structure/stargate/milky_way/temple/abydos_pyramid.json"
-hash = "3fab1d431d6423ba739bcc5a2ebb9da8133fce95d7f4eccb55246112fa4fefa0"
+hash = "4cbf5d04d6d1981d1cceadca5879d3d42ff68547456f7a242e20351a411793da"
 
 [[files]]
 file = "kubejs/data/shrink/recipe/shrinking_device.json"
