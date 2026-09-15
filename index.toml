@@ -406,7 +406,7 @@ hash = "f9403fc81d72a1810961c29eaaaaed7a8fbc512478e4d629a4ab322109536171"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "fe760d43768aac5bfbb6764202223302dac2b8e23ce33040b2752d805730fadf"
+hash = "69f44f885f44e0a2f5039acf8aa361b029fa603b20ac895b855c6df13082ff57"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/0C1192AF229D1C2B.snbt"
@@ -8018,7 +8018,7 @@ hash = "be87223f140a1130357cb159baea3eb6792dd887b0d2f2c3000d5ab44b842082"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_front.nbt"
-hash = "84fcacba4c4a2aeb79eddd8e9b7a164208effe96c82656b70cc5a1eb0705f176"
+hash = "d2509209d23a31081e03c7d1249b8934f63a5dad75b5f88fda816b0a4ddb8590"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_left_corner.nbt"
@@ -8042,7 +8042,7 @@ hash = "631dafd02ae097ab2e67003819fc74cc6e3fc9cba58d68be6f7a2353883d4b41"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/milky_way/temple/abydos_pyramid/abydos_pyramid_top.nbt"
-hash = "5c41a0fb251bf13ccfda6845127bb757ce80563fe51be9ca0c8a17908f85934c"
+hash = "3536ecc9e3ed4e59fe577b831d0fc5585eaae37e8bf111e157ffe729d5fbab66"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/tollan/pedestal/overworld_mirror_pedestal.nbt"
