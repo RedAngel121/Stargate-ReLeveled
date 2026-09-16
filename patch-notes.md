@@ -12,8 +12,6 @@
     - verify that all dims show up in abydos cartouche rooms
 
 - Ring panels are not whitelisted in FTB claims anymore because of the ID change
-- Abydos Pyramid ring blocks are not named when generated
-- Abydos Pyramid stargate is not primary nor protected
 
 - Chisel Blocks: Aluminum, Cobalt, Invar, and Silver - These have no recipe and need to be added to the chisel workbench somehow
 - Make chem cells https://github.com/GlodBlock/ExtendedAE/wiki/Custom-Infinity-Cell
@@ -72,6 +70,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 
 ### Additions:
 - JMI (Journey Map Integration)
+- Create: Transmission
 
 ### Removals:
 - Overworld Mirror Mod (dimension is still available ID has changed to overworldmirror:overworld_mirror)

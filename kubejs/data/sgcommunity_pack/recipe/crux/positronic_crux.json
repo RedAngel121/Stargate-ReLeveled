@@ -1,7 +1,7 @@
 {
     "type": "mekanism:injecting",
     "chemical_input": {
-        "amount": 5000,
+        "amount": 25,
         "chemical": "mekanism:antimatter"
     },
     "item_input": {
@@ -12,5 +12,5 @@
         "count": 1,
         "id": "sgcommunity_pack:positronic_crux"
     },
-    "per_tick_usage": false
+    "per_tick_usage": true
 }

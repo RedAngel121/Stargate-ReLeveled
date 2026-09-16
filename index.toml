@@ -13,6 +13,10 @@ file = "config/Mekanism/general.toml"
 hash = "48e2db48cc938225add13bd71ab5fb86bdb13d3c0ce25f591a14ea5e5ca673f0"
 
 [[files]]
+file = "config/Mekanism/machine-usage.toml"
+hash = "0f198e33a3a0b0039dd5ecee1a5da5368e1eeba5d78ffa87c4d101388f021e7e"
+
+[[files]]
 file = "config/Veinminer/groups.json"
 hash = "d50085eff7c760518e568793eab23f1d0ec21135340e8f5ba5f8ba17e6a92ed7"
 
@@ -326,7 +330,7 @@ hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
 file = "config/flan/flan_config.json"
-hash = "cd05cbcae8b484505dfe7a228d038189869572e454c5b752b44677dc39ef15dc"
+hash = "20cf6958e8e7d32c2085397d04a19e5133b472866067b47421a6bcb2766b8658"
 
 [[files]]
 file = "config/fml.toml"
@@ -651,10 +655,6 @@ hash = "977ebb131d488090fadc0a05f093eec69c087d217991645f082a7065b4fd3d35"
 [[files]]
 file = "config/wover/main.json"
 hash = "0d3a7f0f0b4e4658b2c69a696218f5ef7cb9ac453426aff6777031aab942dc10"
-
-[[files]]
-file = "config/xaerohud.txt"
-hash = "8d13c5f398016036aa4fdefb366ef3926d89f96ca104155bc9f6e5a7ec682ecd"
 
 [[files]]
 file = "instance.png"
@@ -5902,7 +5902,7 @@ hash = "cb5ccd977f640e1b8fa4ba13a7dccee8378201671aed560a6164e95420fa5ca5"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/crux/naquadria_crux.json"
-hash = "fe88b346a0ae332240999e403e593a2590684b49a8235632c7d0924d35b552e3"
+hash = "ab39a51d6190a4a84ae7ed0487b7ec6f2a15776d9535ecefc689ec29b184339b"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/crux/netherite_crux_smithing.json"
@@ -5910,7 +5910,7 @@ hash = "4f6a0644c22e56e39c6ec04ec3413ca87bf3fa5c1952a1013423318c42d10cc3"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/crux/positronic_crux.json"
-hash = "b4562b65ec6c97a93dbee9baf9ab7aa1a2d62097f37e438839ea6c28f5c292e8"
+hash = "912e2b55bcc97e97167a9e2853d7ba006cdf2ad84b702a2195cc70b3194de470"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/crux/reactive_crux.json"
@@ -8807,6 +8807,11 @@ metafile = true
 [[files]]
 file = "mods/create-stock-bridge.pw.toml"
 hash = "5426e7b1e7a895606d788cdc1d21915423bac84e5fed1ca62386e66b7ba1bec5"
+metafile = true
+
+[[files]]
+file = "mods/create-transmission.pw.toml"
+hash = "9d6d5ba4ae6e44207f34ea73fa99225de7dff948d80906cd8709990086de1f7a"
 metafile = true
 
 [[files]]
