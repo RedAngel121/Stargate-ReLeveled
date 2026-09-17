@@ -49,15 +49,6 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 ### Mod Updates:
 - **Neoforge 21.1.248 -> 21.1.250**
 
-- FTB Chunks (NeoForge): 2101.1.21 -> 2101.1.22
-- In Control!: 10.2.7 -> 10.3.0
-- Just Enough Items (JEI): 19.51.0.417 -> 19.51.0.418
-- ME Requester: 1.4.3 -> 1.5.0
-- Moonlight Lib: 3.5.2 -> 3.6.0
-
-- Complementary Shaders - Reimagined: r5.8.1 -> r5.9
-- Complementary Shaders - Unbound: r5.8.1 -> r5.9
-
 ### Changes:
 - Fixed BotanyPots not being able to handle Different Cruxes per crop (Thanks Vteck!)
 - Fixed BotanyPots growth times across all crops/flowers/saplings/etc (Thanks Vteck!)

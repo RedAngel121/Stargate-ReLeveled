@@ -17,7 +17,7 @@
 			# Range: 0 ~ 4
 			protected_zpm_hub_permissions = 4
 			#If false, it will be impossible for other blocks (like Hoppers) to access the inventories of protected blocks
-			protected_inventory_access = true
+			protected_inventory_access = false
 			#If true, protected blocks won't be destroyed during any explosion
 			protected_blocks_ignore_explosions = true
 			#Decides the player permission level required for a player to run the Force Stellar Update command
