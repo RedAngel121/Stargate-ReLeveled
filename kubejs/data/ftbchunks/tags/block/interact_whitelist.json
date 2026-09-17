@@ -1,0 +1,41 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "sgjourney:classic_dhd",
+            "required": false
+        },
+        {
+            "id": "sgjourney:milky_way_dhd",
+            "required": false
+        },
+        {
+            "id": "sgjourney:pegasus_dhd",
+            "required": false
+        },
+        {
+            "id": "sgjourney:universe_dhd",
+            "required": false
+        },
+        {
+            "id": "sgjourney:goauld_ring_panel",
+            "required": false
+        },
+        {
+            "id": "sgjourney:red_sandstone_cartouche",
+            "required": false
+        },
+        {
+            "id": "sgjourney:sandstone_cartouche",
+            "required": false
+        },
+        {
+            "id": "sgjourney:stone_cartouche",
+            "required": false
+        },
+        {
+            "id": "computercraft:monitor_advanced",
+            "required": false
+        }
+    ]
+}

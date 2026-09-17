@@ -4537,6 +4537,10 @@ file = "kubejs/data/flan/claim_interactions_override/sophisticated_storage.json"
 hash = "7ff7ff29467be6d7dca3593eea89063abf913bf7f1c0194a51d0e814425175b4"
 
 [[files]]
+file = "kubejs/data/ftbchunks/tags/block/interact_whitelist.json"
+hash = "c78450ab3366e62cb7527eb09ad08698a8d25262393037a4a9ad33450a61f172"
+
+[[files]]
 file = "kubejs/data/hostilenetworks/data_models/armadillo.json"
 hash = "75870bd090da5869a9fc41c1b909d382c950c67f305e1f5e3b6c9f47b3b1cb07"
 
