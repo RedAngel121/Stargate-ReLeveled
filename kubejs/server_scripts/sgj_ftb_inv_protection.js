@@ -1,9 +1,6 @@
-// sgjourney_ftb_inventory_protection.js
-//
-// Keeps SGJourney controls usable in FTB claims while restricting
-// inventory access according to the owning team's Block Interact Mode.
-//
-// Minecraft 1.21.1 / NeoForge
+// Stargate Journey & FTB Chunks Inventory Protection Script
+// Written for Stargate ReLeveled - Minecraft 1.21.1 / NeoForge 21.1.250
+// Keeps SGJourney controls usable in FTB claims while restricting inventory access according to the owning team's Block Interact Mode.
 
 const $FTBChunksAPI = Java.loadClass(
     'dev.ftb.mods.ftbchunks.api.FTBChunksAPI'
