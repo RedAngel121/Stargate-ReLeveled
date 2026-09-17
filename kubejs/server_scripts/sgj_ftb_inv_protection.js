@@ -1,44 +1,34 @@
 // Stargate Journey & FTB Chunks Inventory Protection Script
 // Written for Stargate ReLeveled - Minecraft 1.21.1 / NeoForge 21.1.250
 // Keeps SGJourney controls usable in FTB claims while restricting inventory access according to the owning team's Block Interact Mode.
-
 const $FTBChunksAPI = Java.loadClass(
     'dev.ftb.mods.ftbchunks.api.FTBChunksAPI'
 )
-
 // Native FTB action-bar notification, including its shared cooldown.
 const $SGJourneyFTBPlayerNotifier = Java.loadClass(
     'dev.ftb.mods.ftbchunks.PlayerNotifier'
 )
-
 const $FTBChunksProperties = Java.loadClass(
     'dev.ftb.mods.ftbchunks.api.FTBChunksProperties'
 )
-
 const $ChunkDimPos = Java.loadClass(
     'dev.ftb.mods.ftblibrary.math.ChunkDimPos'
 )
-
 const $UUID = Java.loadClass(
     'java.util.UUID'
 )
-
 const $Component = Java.loadClass(
     'net.minecraft.network.chat.Component'
 )
-
 const $MenuProvider = Java.loadClass(
     'net.minecraft.world.MenuProvider'
 )
-
 const $RingPanelProtected = Java.loadClass(
     'net.povstalec.sgjourney.common.menu.RingPanelMenu$Protected'
 )
-
 const $NetworkUtils = Java.loadClass(
     'net.povstalec.sgjourney.common.misc.NetworkUtils'
 )
-
 const DHD_BLOCKS = new Set([
     'sgjourney:universe_dhd',
     'sgjourney:milky_way_dhd',
@@ -51,40 +41,31 @@ const DHD_BLOCKS = new Set([
 // But what is currently "var isRingPanel = blockId == RING_PANEL" later in the code
 // Will need to be changed to "var isRingPanel = RING_PANEL.has(blockId)"
 const RING_PANEL = 'sgjourney:goauld_ring_panel'
-
-
 function canAccessSGJourneyInventory(player, block) {
     var manager
     var uuid
     var chunkPos
     var claimedChunk
     var teamData
-
+    
     try {
         if (!$FTBChunksAPI.api().isManagerLoaded()) {
             return true
         }
-
         manager = $FTBChunksAPI.api().getManager()
         uuid = $UUID.fromString(player.getStringUuid())
-
         if (manager.getBypassProtection(uuid)) {
             return true
         }
-
         chunkPos = new $ChunkDimPos(
             player.level,
             block.getPos()
         )
-
         claimedChunk = manager.getChunk(chunkPos)
-
         if (claimedChunk == null) {
             return true
         }
-
         teamData = claimedChunk.getTeamData()
-
         return teamData.canPlayerUse(
             player,
             $FTBChunksProperties.BLOCK_INTERACT_MODE
@@ -94,8 +75,6 @@ function canAccessSGJourneyInventory(player, block) {
         return true
     }
 }
-
-
 BlockEvents.rightClicked(event => {
     var player = event.player
     var block = event.block
@@ -106,17 +85,12 @@ BlockEvents.rightClicked(event => {
     var access
     var tryingToOpenInventory
     var pos
-
-    if (!isDHD && !isRingPanel) {
-        return
-    }
-
+    
+    if (!isDHD && !isRingPanel) {return}
     facingName = event.facing == null
         ? 'null'
         : String(event.facing.getName())
-
     access = canAccessSGJourneyInventory(player, block)
-
     if (isDHD) {
         // SGJourney opens the normal dialing UI only for:
         // top face + not sneaking.
@@ -124,15 +98,11 @@ BlockEvents.rightClicked(event => {
         // Every other interaction is the crystal/inventory path.
         tryingToOpenInventory =
             facingName != 'up' || player.isShiftKeyDown()
-
-        if (!tryingToOpenInventory || access) {
-            return
-        }
-
+        if (!tryingToOpenInventory || access) {return}
         // Use the same notifier, translation, color, and 2000 ms cooldown
         // as FTB Chunks' own claim protection. This displays above the
         // hotbar instead of adding a message to the player's chat.
-        player.server.scheduleInTicks(1, function() {
+        player.server.scheduleInTicks(1, function () {
             $SGJourneyFTBPlayerNotifier.notifyWithCooldown(
                 player,
                 $Component.translatable('ftbchunks.action_prevented')
@@ -140,40 +110,29 @@ BlockEvents.rightClicked(event => {
                 2000
             )
         })
-
         event.cancel()
         return
     }
-
+    
     if (isRingPanel) {
-        if (access) {
-            return
-        }
-
+        if (access) {return}
         // Do not cancel the interaction. Let SGJourney open its normal
         // menu first, then replace it one tick later with its existing
         // protected controls-only menu.
         pos = block.getPos()
-
-        player.server.scheduleInTicks(1, function() {
+        player.server.scheduleInTicks(1, function () {
             var delayedLevel = player.level
             var delayedRingPanel = delayedLevel.getBlockEntity(pos)
             var delayedProvider
-
-            if (delayedRingPanel == null) {
-                return
-            }
-
+            if (delayedRingPanel == null) {return}
             delayedRingPanel.tryUpdate()
-
             delayedProvider = new JavaAdapter($MenuProvider, {
-                getDisplayName: function() {
+                getDisplayName: function () {
                     return $Component.translatable(
                         'screen.sgjourney.ring_panel'
                     )
                 },
-
-                createMenu: function(windowId, playerInventory, menuPlayer) {
+                createMenu: function (windowId, playerInventory, menuPlayer) {
                     return new $RingPanelProtected(
                         windowId,
                         playerInventory,
@@ -181,7 +140,6 @@ BlockEvents.rightClicked(event => {
                     )
                 }
             })
-
             $NetworkUtils.openMenu(
                 player,
                 delayedProvider,

@@ -8414,7 +8414,7 @@ hash = "f1a1273a7a142646195dd8cb177f5ef25a867d748bee35dfa054563cbc6d7187"
 
 [[files]]
 file = "kubejs/server_scripts/sgj_ftb_inv_protection.js"
-hash = "970eb68e5e97e17c87cbb20765086ce1fa85674ffab51f82722aab23a569a0e2"
+hash = "ba15142e1e3acf18935ed83c632fc0a97d65e1d955990423759d74c4f3ceb3bc"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
