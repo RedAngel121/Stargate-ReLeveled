@@ -8413,6 +8413,10 @@ file = "kubejs/server_scripts/recipes.js"
 hash = "f1a1273a7a142646195dd8cb177f5ef25a867d748bee35dfa054563cbc6d7187"
 
 [[files]]
+file = "kubejs/server_scripts/sgj_ftb_inv_protection.js"
+hash = "c49e9ba3cafe64eb7427df3d1bd6004f7bce9b3aedc5d2f238542b3a4b8039c6"
+
+[[files]]
 file = "kubejs/server_scripts/tags.js"
 hash = "16cec5d6775a0077e9081b619eaa261346da3781a0be49b01333af17a9a1d8fd"
 
