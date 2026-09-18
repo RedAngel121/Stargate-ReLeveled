@@ -11,8 +11,6 @@
   - MOD/sgjourney/space_location for DeeperDarker, Overworld Mirror, Undergarden
     - verify that all dims show up in abydos cartouche rooms
 
-- Ring panels are not whitelisted in FTB claims anymore because of the ID change
-
 - Chisel Blocks: Aluminum, Cobalt, Invar, and Silver - These have no recipe and need to be added to the chisel workbench somehow
 - Make chem cells https://github.com/GlodBlock/ExtendedAE/wiki/Custom-Infinity-Cell
 - make/change the infinite item/fluid/chem cell recipes to be more production centered
@@ -37,7 +35,11 @@
 - Add Tempad as an After-Oritech endgame TP item that can(t?) travel between dims - requires ZPM?
 - Swap out the long ass recipe chains for individual recipes and items, making EMI Actually useful
 - check if https://www.curseforge.com/minecraft/mc-mods/ancient-remnants is 1.21.1 yet
+
+### Dimensional Options:
 - add more dims by way of custom shit or add Alex Caves Dims mods and include a new gate per dimension
+  - https://www.curseforge.com/minecraft/mc-mods/alexs-caves-unofficial-port
+  - https://www.curseforge.com/minecraft/mc-mods/dimensions-of-alexs-caves-unofficial-port
 - Overworld caves dimension similar to the nether
 Me      : I want to expand the sgj dims with more ores and stuff
 Request : Can we just get a giant cave dim? Like the Nether but with overworld blocks?
@@ -50,21 +52,24 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - **Neoforge 21.1.248 -> 21.1.250**
 
 ### Changes:
+- Fixed Ring Panels and DHDs no longer being accessable in FTB claims
+- Added a KubeJS script that prevents access to inventory items of the DHD and Ring Panel when claimed (Thanks Vteck!)
 - Fixed BotanyPots not being able to handle Different Cruxes per crop (Thanks Vteck!)
 - Fixed BotanyPots growth times across all crops/flowers/saplings/etc (Thanks Vteck!)
-- Adjusted Overworld Mirror Dimension
+- Adjusted Overworld Mirror Dimension files to be utilized by KubeJS
 - Fixed Mirror Staragte Pedistal so it doesnt spawn underwater anymore
-- Removed Sophisticated Inventory Interactions due to quark overlap
 - Fixed Jaja's Gate Recipes
 - Disabled advancedperipherals:AE2_disks
 - Disabled "Silver + Gold = Electrum" recipes breaking intended pack progression
 
 ### Additions:
-- JMI (Journey Map Integration)
 - Create: Transmission
+- Distant Horizons
+- JMI (Journey Map Integration)
 
 ### Removals:
-- Overworld Mirror Mod (dimension is still available ID has changed to overworldmirror:overworld_mirror)
+- Overworld Mirror Mod (dimension is still available, ID has changed to overworldmirror:overworld_mirror)
+- Sophisticated Inventory Interactions (conflicts with quark)
 
 ### Known Issues:
 - Chairs/Benches/Seats cannot be sat on in airless Ad Astra Dimensions without a single block of oxygen below it. Use an Ad Astra Vent underneath the seat to prevent death.
