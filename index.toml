@@ -581,8 +581,12 @@ file = "config/potionsmaster/zinc.json"
 hash = "421a6646424f6189f40b7d218dd1a30dcc560d023bc7021b18af695b8b5f6948"
 
 [[files]]
+file = "config/protection-pixel.toml"
+hash = "1e676c1210cfffd9d9114eb8afc37d506cd1ce51e831df752ae31591bc3f87cf"
+
+[[files]]
 file = "config/quark-common.toml"
-hash = "c274101bdfee7ff934943147abfb3d50f6462a68664fdeac89341333144836b9"
+hash = "b607a7690f01432af0ee33353d047e20974f4a3de127933307d049101ac0348d"
 
 [[files]]
 file = "config/rftoolsbuilder-server.toml"
@@ -610,7 +614,7 @@ hash = "20f5e3c8706702d385522c1f73230cfbdb28cbf9b78fb365864252ae56e4d533"
 
 [[files]]
 file = "config/sgjourney-common.toml"
-hash = "d5cf29b1b1ce94371f7f3238c152d0cb412d5fae1f404887af56ed6da8976346"
+hash = "48603cc40092943348e3eaf8a1c804898a277e086681ceaa0b0817868da1276f"
 
 [[files]]
 file = "config/simplebackups-common.toml"

@@ -50,51 +50,51 @@
 			other_mods_use_zero_point_energy = false
 
 		["Stargate Journey Common Config"."DHD Config".server]
-			#Capacity of the energy buffer inside the DHD
+			#Capacity of the energy buffer inside the Milky Way DHD
 			# Default: 300000
 			# Range: 0 ~ 9223372036854775807
 			milky_way_dhd_energy_buffer_capacity = 300000
-			#Maximum amount of energy that can be transferred to the DHD in one tick
+			#Maximum amount of energy that can be transferred to the Milky Way DHD in one tick
 			# Default: 100000
 			# Range: 0 ~ 9223372036854775807
 			milky_way_dhd_max_energy_receive = 100000
-			#Maximum amount of energy that can be transferred from the DHD in one tick
+			#Maximum amount of energy that can be transferred from the Milky Way DHD in one tick
 			# Default: 10000000
 			# Range: 0 ~ 9223372036854775807
 			milky_way_dhd_max_energy_extract = 10000000
-			#Energy depleted by pressing a button on the DHD
+			#Energy depleted by pressing a button on the Milky Way DHD
 			# Default: 5000
 			# Range: 0 ~ 9223372036854775807
 			milky_way_dhd_button_press_energy_cost = 5000
-			#Capacity of the energy buffer inside the DHD
+			#Capacity of the energy buffer inside the Pegasus DHD
 			# Default: 500000
 			# Range: 0 ~ 9223372036854775807
 			pegasus_dhd_energy_buffer_capacity = 500000
-			#Maximum amount of energy that can be transferred to the DHD in one tick
+			#Maximum amount of energy that can be transferred to the Pegasus DHD in one tick
 			# Default: 150000
 			# Range: 0 ~ 9223372036854775807
 			pegasus_dhd_max_energy_receive = 150000
-			#Maximum amount of energy that can be transferred from the DHD in one tick
+			#Maximum amount of energy that can be transferred from the Pegasus DHD in one tick
 			# Default: 100000000
 			# Range: 0 ~ 9223372036854775807
 			pegasus_dhd_max_energy_extract = 100000000
-			#Energy depleted by pressing a button on the DHD
+			#Energy depleted by pressing a button on the Pegasus DHD
 			# Default: 5000
 			# Range: 0 ~ 9223372036854775807
 			pegasus_dhd_button_press_energy_cost = 5000
-			#Capacity of the energy buffer inside the DHD
+			#Capacity of the energy buffer inside the Classic DHD
 			# Default: 300000
 			# Range: 0 ~ 9223372036854775807
 			classic_dhd_energy_buffer_capacity = 300000
-			#Maximum amount of energy that can be transferred to the DHD in one tick
+			#Maximum amount of energy that can be transferred to the DClassic HD in one tick
 			# Default: 100000
 			# Range: 0 ~ 9223372036854775807
 			classic_dhd_max_energy_receive = 100000
-			#Maximum amount of energy that can be transferred from the DHD in one tick
+			#Maximum amount of energy that can be transferred from the Classic DHD in one tick
 			# Default: 5000000
 			# Range: 0 ~ 9223372036854775807
 			classic_dhd_max_energy_extract = 5000000
-			#Energy depleted by pressing a button on the DHD
+			#Energy depleted by pressing a button on the Classic DHD
 			# Default: 5000
 			# Range: 0 ~ 9223372036854775807
 			classic_dhd_button_press_energy_cost = 5000
@@ -106,6 +106,22 @@
 			# Default: 100000
 			# Range: 1 ~ 9223372036854775807
 			advanced_energy_crystal_energy_target_increase = 100000
+			#Capacity of the energy buffer inside the Universe DHD
+			# Default: 300000
+			# Range: 0 ~ 9223372036854775807
+			universe_dhd_energy_buffer_capacity = 300000
+			#Maximum amount of energy that can be transferred to the Universe DHD in one tick
+			# Default: 100000
+			# Range: 0 ~ 9223372036854775807
+			universe_dhd_max_energy_receive = 100000
+			#Maximum amount of energy that can be transferred from the Universe DHD in one tick
+			# Default: 10000000
+			# Range: 0 ~ 9223372036854775807
+			universe_dhd_max_energy_extract = 10000000
+			#Energy depleted by pressing a button on the Universe DHD
+			# Default: 5000
+			# Range: 0 ~ 9223372036854775807
+			universe_dhd_button_press_energy_cost = 5000
 
 		["Stargate Journey Common Config"."Interface Config".server]
 			#The default amount of energy the Interface will try to provide until it stops
@@ -656,7 +672,7 @@
 			# Default: 100
 			# Range: 0 ~ 100
 			ata_gene_therapy_success_rate = 100
-			#A list of Player names who will receive the Ancient Gene when they join the world for the first time
+			#A list of Player names who will receive the Ancient Gene when they join the world for the first time (By default contains mod creator + Dpeople who helped with the mod)
 			ancient_players = ["Dev", "Woldericz_junior", "cookta2012", "mistersecret312", "_MaGistR____", "Redangel121"]
 			#A list of Player names who will inherit the Ancient Gene when they join the world for the first time
 			inherited_ancient_gene_players = []
