@@ -2521,6 +2521,94 @@ file = "kubejs/assets/sgcommunity_pack/textures/quests/roman_two.png"
 hash = "a48daa72f458221900e1a8836159bc2192fdeb650e27fc81c27f4a24ec45a4f8"
 
 [[files]]
+file = "kubejs/assets/sgjourney/models/item/bronze_iris.json"
+hash = "f9ecfed102a36da285cd10078ee5488250272bff52c21f352a36dfb3a1526f4a"
+
+[[files]]
+file = "kubejs/assets/sgjourney/models/item/clad_icons/bronze_iris.json"
+hash = "0d7f5192b89ba6bdda756871822ecdc3a387a040e4fd203af1cbc0dd61ebc19c"
+
+[[files]]
+file = "kubejs/assets/sgjourney/models/item/clad_icons/copper_iris.json"
+hash = "46e777d4fa4e9a98f890c800e9e6abb8ecf091cb047744b72eecf7862e11d752"
+
+[[files]]
+file = "kubejs/assets/sgjourney/models/item/clad_icons/diamond_iris.json"
+hash = "1d6614b3012490bb22cb39712900926959f917494de5017d73378b755046e370"
+
+[[files]]
+file = "kubejs/assets/sgjourney/models/item/clad_icons/golden_iris.json"
+hash = "cc68fe716b0d9825951e2f8cf8a6709488773721f15d9a2d4dbe0a6383fefd18"
+
+[[files]]
+file = "kubejs/assets/sgjourney/models/item/clad_icons/iron_iris.json"
+hash = "2375ef32aae53ce9f74c7e69f84c82921ddfedbf903cd6b2de171113ba0d7bb6"
+
+[[files]]
+file = "kubejs/assets/sgjourney/models/item/clad_icons/naquadah_copper_iris.json"
+hash = "34916d5160b48afd1124240419652cbe953c03a47081f52cfb25129a08dd0a01"
+
+[[files]]
+file = "kubejs/assets/sgjourney/models/item/clad_icons/naquadah_iris.json"
+hash = "ca79578124d587d5b6ca43c9cc2725b2a3497bff16f32901b1706ead0394da73"
+
+[[files]]
+file = "kubejs/assets/sgjourney/models/item/clad_icons/naquadah_iron_iris.json"
+hash = "26364c578f02177b4e105e9d13fcdf0b99de53627cdaec9afc833b35a83887b8"
+
+[[files]]
+file = "kubejs/assets/sgjourney/models/item/clad_icons/netherite_iris.json"
+hash = "687319eb45b81d49ccfb67ad3b14934cba43967cfedff163c17dad425fe1eb51"
+
+[[files]]
+file = "kubejs/assets/sgjourney/models/item/clad_icons/steel_iris.json"
+hash = "319e015060af2a7ed79ee1319f0d8ccd6c9282096af0be6af66129d5a5e9cf2b"
+
+[[files]]
+file = "kubejs/assets/sgjourney/models/item/clad_icons/trinium_iris.json"
+hash = "3682fed60e5270fb04b12e11c4041ced36a75309b4e0694c9e1f5e3cbf792500"
+
+[[files]]
+file = "kubejs/assets/sgjourney/models/item/copper_iris.json"
+hash = "ab19038ece2342a373faff46ce5790badbc91ac11f2d9ad0bfef68cde3d79617"
+
+[[files]]
+file = "kubejs/assets/sgjourney/models/item/diamond_iris.json"
+hash = "42f4e908079bd7f122caaa38e241aeb35d912081aed092755f2ea0b27192ec87"
+
+[[files]]
+file = "kubejs/assets/sgjourney/models/item/golden_iris.json"
+hash = "f46ff3cfec594da2f120191d3c1a50873be3a7750788544a9a435d285514bc92"
+
+[[files]]
+file = "kubejs/assets/sgjourney/models/item/iron_iris.json"
+hash = "f985ca22bad522669339ed33a662a7b5de21091295c0aaf3ac1929cb01ecdc95"
+
+[[files]]
+file = "kubejs/assets/sgjourney/models/item/naquadah_copper_iris.json"
+hash = "e3cd9a5fc464fe04eb32854e5461ee67ae2d59d6c7b0ef6b08d7ef1525c7aa4f"
+
+[[files]]
+file = "kubejs/assets/sgjourney/models/item/naquadah_iris.json"
+hash = "c56c7962c938b219d15035a0e378ab361216e0ab034be67a3c62813834586c34"
+
+[[files]]
+file = "kubejs/assets/sgjourney/models/item/naquadah_iron_iris.json"
+hash = "0046363ba6cee7604376ccf8312abd2946560434ec72a49ced6f9c29ddb31a68"
+
+[[files]]
+file = "kubejs/assets/sgjourney/models/item/netherite_iris.json"
+hash = "316c69c1946c7d3aa519fb47e5565cd6b87ef7fc8618cf6cd9de5aa24c1649e3"
+
+[[files]]
+file = "kubejs/assets/sgjourney/models/item/steel_iris.json"
+hash = "195eafc47c13f81028b7cdc4d65691f22ba9bbee14c07a567106e62d50c675a1"
+
+[[files]]
+file = "kubejs/assets/sgjourney/models/item/trinium_iris.json"
+hash = "b802ba7e9605f78e91e8370fa30322f5a38c51f617fe77c6cda8ad15480df9c1"
+
+[[files]]
 file = "kubejs/client_scripts/jei_hints.js"
 hash = "581f58cee9abef4c8c23cec0fae9063e9f006d38b893827e9396dca88a2595af"
 
@@ -2797,6 +2885,10 @@ file = "kubejs/data/botanypots/recipe/minecraft/crop/azure_bluet.json"
 hash = "57f4775aeef5ad34007876824a8aa8b51aca51de691164b83908bea51c184c8b"
 
 [[files]]
+file = "kubejs/data/botanypots/recipe/minecraft/crop/bamboo.json"
+hash = "35651ff07b80c4b819228f23efaef7d5758fb71201de982c71de226ac2e5f358"
+
+[[files]]
 file = "kubejs/data/botanypots/recipe/minecraft/crop/beetroots.json"
 hash = "9f2b7dc11db48220fbb56cb0d080b843a3ce31428dffb9e7aa18c9751e68920e"
 
@@ -2923,6 +3015,10 @@ hash = "5c05fff8bea3dbd1f5bb7ced9dfd1676f4d0d58441476cdcc194763bbe23673c"
 [[files]]
 file = "kubejs/data/botanypots/recipe/minecraft/crop/spore_blossom.json"
 hash = "65d7b99a24d7763d27395d9b660a215d02c05c75734b2a47cf14e3ae59306b0f"
+
+[[files]]
+file = "kubejs/data/botanypots/recipe/minecraft/crop/sugar_cane.json"
+hash = "5aab5d9d85945cfae511fe0a9d2bf84ca82ccfaba585bde54924da8521bb43c2"
 
 [[files]]
 file = "kubejs/data/botanypots/recipe/minecraft/crop/sunflower.json"
@@ -8401,6 +8497,10 @@ file = "kubejs/server_scripts/integrated_curcuit_chain.js"
 hash = "58df9973cb5a36f990b4175e4e228b83d3d5a807d44232bc71751d640dc7284d"
 
 [[files]]
+file = "kubejs/server_scripts/iris_smithing.js"
+hash = "ab904048d33afaeaab8e94d8d46c8ffa7c30eb459c50f4082aa92c5cab3a2ab8"
+
+[[files]]
 file = "kubejs/server_scripts/isotopic_decay_oscillator_chain.js"
 hash = "dd44e9998a156d99dcbea11591d3b70b46abaada9cb1e69e86fd9fd80171bcb8"
 
@@ -8869,7 +8969,7 @@ metafile = true
 
 [[files]]
 file = "mods/distant-horizons.pw.toml"
-hash = "1bbe182b3a43c998b702e565e7f061125a491c5ee385fd9b050de0faaf28647f"
+hash = "fdea7d99483592216d4818017629cb7af4cad08e502c793639a7ca682160a339"
 metafile = true
 
 [[files]]

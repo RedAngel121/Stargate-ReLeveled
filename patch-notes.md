@@ -56,7 +56,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - Added a KubeJS script that prevents access to inventory items of the DHD and Ring Panel when claimed (Thanks Vteck!)
 - Fixed BotanyPots not being able to handle Different Cruxes per crop (Thanks Vteck!)
 - Fixed BotanyPots growth times across all crops/flowers/saplings/etc (Thanks Vteck!)
-- Adjusted Overworld Mirror Dimension files to be utilized by KubeJS
+- Adjusted Overworld Mirror Dimension files to be utilized by KubeJS exclusively
 - Fixed Mirror Staragte Pedistal so it doesnt spawn underwater anymore
 - Fixed Jaja's Gate Recipes
 - Disabled advancedperipherals:AE2_disks

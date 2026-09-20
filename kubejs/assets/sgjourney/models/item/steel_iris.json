@@ -1,0 +1,74 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "sgjourney:item/steel_iris"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "sgjourney:item/clad_icons/copper_iris"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "sgjourney:item/clad_icons/iron_iris"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "sgjourney:item/clad_icons/golden_iris"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "sgjourney:item/clad_icons/diamond_iris"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "sgjourney:item/clad_icons/netherite_iris"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "sgjourney:item/clad_icons/naquadah_iron_iris"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "sgjourney:item/clad_icons/bronze_iris"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "sgjourney:item/clad_icons/steel_iris"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "sgjourney:item/clad_icons/naquadah_iris"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "sgjourney:item/clad_icons/naquadah_copper_iris"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "sgjourney:item/clad_icons/trinium_iris"
+    }
+  ]
+}
