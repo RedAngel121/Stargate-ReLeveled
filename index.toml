@@ -8373,6 +8373,14 @@ file = "kubejs/data/sgjourney/dimension_type/milky_way_planet.json"
 hash = "220697cd919097f687aba99ec4cc303c7c7105015278014a0294d1359a202390"
 
 [[files]]
+file = "kubejs/data/sgjourney/dimension_type/rima.json"
+hash = "1ee2b1d967fa3ca6b2d8ca28c095b814dd44c3993b63554976b8b8ede504ce5f"
+
+[[files]]
+file = "kubejs/data/sgjourney/dimension_type/tollan.json"
+hash = "9cebad0b0da585e48e800fdfe0a750c87c2fe9ccdcfbc0459c6a96f1b4d5b939"
+
+[[files]]
 file = "kubejs/data/sgjourney/dimension_type/unitas.json"
 hash = "46b9c1c8de8e1ccfaaf3237f3f7a475392617cb1ba75fdeff00836422a318e89"
 
@@ -8522,7 +8530,7 @@ hash = "ba15142e1e3acf18935ed83c632fc0a97d65e1d955990423759d74c4f3ceb3bc"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "16cec5d6775a0077e9081b619eaa261346da3781a0be49b01333af17a9a1d8fd"
+hash = "8ada461c4f794a116285894a58f555eb12b4ebd9de64f94b17495f59162e8ac3"
 
 [[files]]
 file = "kubejs/server_scripts/wafer_chain.js"
@@ -8759,6 +8767,11 @@ metafile = true
 [[files]]
 file = "mods/cable-facades.pw.toml"
 hash = "24b1ae1c84f5d788dd48f3611c75f002af25ea6470d14ab83391a979879c5842"
+metafile = true
+
+[[files]]
+file = "mods/cc-directgpu.pw.toml"
+hash = "279f6f5c47e3a7022fe7c1c31e08d63b3832ef890d6cf0b8578b52e7d990102c"
 metafile = true
 
 [[files]]
@@ -9950,10 +9963,6 @@ metafile = true
 file = "mods/zeta.pw.toml"
 hash = "d1baffd370868590fcb2785146c278df5781d20994022749c53c0f9b2bffc7fc"
 metafile = true
-
-[[files]]
-file = "options.txt"
-hash = "211dddaf4c727d16875ae197dea0fceb27c008207ea04531d57af5b6257e3fe8"
 
 [[files]]
 file = "resourcepacks/journeymap-extended-mob-icons.pw.toml"

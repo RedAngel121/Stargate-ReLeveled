@@ -32,6 +32,11 @@ ServerEvents.tags("block", event => {
     event.add("c:ores_in_ground/netherrack", "sgjourney:nether_naquadah_ore")
 })
 
+// Added Naq Copper alloy to c:ingots tag to fix iris smithing script
+ServerEvents.tags("item", event => {
+    event.add("c:ingots/naquadah_copper_alloy", "sgjourney:naquadah_copper_alloy")
+})
+
 // Adding Blaze stuff to tags cause mek recipes hate items
 ServerEvents.tags("item", event => {
     event.add("c:dusts/blaze", "minecraft:blaze_powder")
