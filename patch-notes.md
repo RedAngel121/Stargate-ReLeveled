@@ -9,8 +9,6 @@ Mods:
 - WorldEdit CUI
 
 ### TODO:
-- tollan needs to be fixed, and so does rima...
-
 - SGJ UPDATE coming soon:
   - remove the cartouche custom recipe or change new default recipe
   - MOD/sgjourney/space_location for DeeperDarker, Overworld Mirror, Undergarden
@@ -54,12 +52,28 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 ====================================================================================================
 
 ### Mod Updates:
+- AllTheLeaks (Memory Leak Fix): 1.1.12 -> 1.1.13
+- CreativeCore: v2.13.46 -> v2.13.48
+- Distant Horizons: 3.3.1 -> 3.3.2
+- Entity Culling Fabric/Forge: 1.11.0 -> 1.11.2
+- Exposure: 1.9.18 -> 1.9.19
+- ExtendedAE: 1.21-2.2.37 -> 1.21-2.2.38
+- Fusion (Connected Textures): 1.3.15a -> 1.3.15b
+- Just Enough Items (JEI): 19.56.0.441 -> 19.57.0.447
+- Lithostitched: 1.8.0+beta6 -> 1.8.0
+- Moonlight Lib: 3.6.5 -> 3.6.8
+- Simple Voice Chat: 2.6.23 -> 2.6.24
+- SuperMartijn642's Core Lib: 1.1.24 -> 1.1.24a
+- Torchmaster: 21.1.12 -> 21.1.13
 
 ### Changes:
 - added `c:ingots/naquadah_copper_alloy` tag to fix Iris Smithing script
-- Fixed Tollan and Rima block build heights to -64 to 384
+- Fixed Tollan and Rima block build heights to -64 to 384 (no more void at zero, sorry!)
 
 ### Additions:
+- Create: Iron Vaults
+- Create: Extra Gauges
+  - Create: Deployer API
 
 ### Removals:
 

@@ -8611,7 +8611,7 @@ metafile = true
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
-hash = "bb6f1ed9e7a09d936a0a8028d3332eb0b892f8fddfdf1d46ef0bd71b8d1ebb21"
+hash = "c71a37f05849d41b3b2a883c55afc4d32de7e05beff02b6f94a833be0c59635c"
 metafile = true
 
 [[files]]
@@ -8930,6 +8930,16 @@ hash = "39e4105fc8c8334fffb32f73220d898cc9ce22a1f2d5ba7eaaeb8abfc422b7fd"
 metafile = true
 
 [[files]]
+file = "mods/create-extra-gauges.pw.toml"
+hash = "80303b4d6acd243e1796b5debec43f53ee8b84b2bc84c4afe2af678680fd9cfe"
+metafile = true
+
+[[files]]
+file = "mods/create-iron-vaults.pw.toml"
+hash = "f18b07f1ad42744a0232ebf524df5a5f9aba3d1e70958262b4c73a964858cebe"
+metafile = true
+
+[[files]]
 file = "mods/create-stock-bridge.pw.toml"
 hash = "5426e7b1e7a895606d788cdc1d21915423bac84e5fed1ca62386e66b7ba1bec5"
 metafile = true
@@ -8951,7 +8961,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "7a164150e18506d4574474a4479b9c4e22fa9debbf79ac4f0d21c04a5adeee5d"
+hash = "2108ab41dd9a48a7a5ac62b89c4cbe152983f71d6aa406b3dce0dfc0a1be486c"
 metafile = true
 
 [[files]]
@@ -8980,13 +8990,18 @@ hash = "ebb3df18070c94169933965dc6ef11ea68adb2b362623417e6b129f0af9a1bbe"
 metafile = true
 
 [[files]]
+file = "mods/deployer.pw.toml"
+hash = "b5f93c7de7f0b296533f51c53536c5258a8896c4e30f0fc1bdc3c51fa3b60cb5"
+metafile = true
+
+[[files]]
 file = "mods/dimensional-structure-restrict.pw.toml"
 hash = "159f4780d7f32d0923b1cebaa1e846435666541574354bc91f09a70baf4074ba"
 metafile = true
 
 [[files]]
 file = "mods/distant-horizons.pw.toml"
-hash = "fdea7d99483592216d4818017629cb7af4cad08e502c793639a7ca682160a339"
+hash = "0a60fdc07b947574b9e19cb255e37d673736f5f05c199b82e078f7ae5ace35de"
 metafile = true
 
 [[files]]
@@ -9016,12 +9031,12 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "4e738cfd2ec06187a1dc18f7b02ec43228ce1dd1e6914383e1bbcfd6b53164af"
+hash = "b3cd138187e5fdcf1c7c9df852ce4a91e29898a22b8d9d78caca7a100fcea12d"
 metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "52fd907a732fe2539218a44cba0100f2b976d68c3f69100191394fff83fdf5de"
+hash = "e926d31a8a5e87d5f76945e4e42f01f61bbd99d064efddbc601ca7f065d8da87"
 metafile = true
 
 [[files]]
@@ -9036,7 +9051,7 @@ metafile = true
 
 [[files]]
 file = "mods/exposure.pw.toml"
-hash = "b4b08d948a7cb2725e0703b54d2534a432a8d4a6dc97b4f49d04c164c6bc7515"
+hash = "c21fdfb4055a25a2658c58995e0088f973b570c0c0b60e3bb8bf8291fa2a8e64"
 metafile = true
 
 [[files]]
@@ -9121,7 +9136,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "555624620c434a7a24517e67d0317318fc226f49f8bddd820dd22f3442f179bd"
+hash = "6af89fd83988eabd495c74f194915bad8d31806b8ca7e603c38de7dcf9d06ef3"
 metafile = true
 
 [[files]]
@@ -9231,7 +9246,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "28fa7ee636f28a2868359b7b3398b04b969e98e4da5c6b7dd6b91707d7991081"
+hash = "1852c162a57adb3e790ce993c024626ed62026ff5bd9591fac1be61637deae5c"
 metafile = true
 
 [[files]]
@@ -9296,7 +9311,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "f976c1685acfb6d19496454f2d8d9b3128778e7a7a940a458992d145dc3a8fba"
+hash = "a5021505140d5b7ffa4ff7184e74566a21b4e72a7ae256afeaf1e99e929333d1"
 metafile = true
 
 [[files]]
@@ -9646,7 +9661,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "db7288121ed92b50f70b67886919279445ff115a6b078c31c2897ab8204ca44a"
+hash = "4447f298596245cf7990175f85aadf51f3c39e9749deea092717769345d063a1"
 metafile = true
 
 [[files]]
@@ -9686,7 +9701,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "03ad55d6aa8f143fced561ef90d2cf075e08db92046f75f4281accd6c7cfb201"
+hash = "9e324cddedb5c8a25b577a4fcf23cb27e96ae4cb638b57854fac68dda294c20f"
 metafile = true
 
 [[files]]
@@ -9786,7 +9801,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "d50dfa866f719fe606d34bb81b0e466c1e6017878fa6b58b405e419ceaf9ee0d"
+hash = "20c4933aaef50088715abaee847a0dcb67c4863d11264518bfcac2dd7701f58e"
 metafile = true
 
 [[files]]
@@ -9836,7 +9851,7 @@ metafile = true
 
 [[files]]
 file = "mods/torchmaster.pw.toml"
-hash = "f3275e582b2626dcc9ae543154c2eff9aa4b60a571a9103b057db024974b2806"
+hash = "de4baeea541da736247e11bb8a90c66cee56e29e0b999af5ecb9fd82391c166f"
 metafile = true
 
 [[files]]
