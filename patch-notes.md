@@ -1,7 +1,6 @@
 ### Server File Removals:
 Configs:
 - Remove Viscord
-- Change SGJ config to `Common_Gates = False` for Single Player Releases
 Mods:
 - Chat Plus
 - Sodium
