@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "123",
+    "8v4",
+    "765"
+  ],
+  "key": {
+    
+    "v": {
+      "item": "sgjourney:stargate_variant_crystal"
+    },
+    "1": {
+      "tag": "c:dyes/red"
+    },
+	"2": {
+      "tag": "c:dyes/orange"
+    },
+	"3": {
+      "tag": "c:dyes/yellow"
+    },
+	"4": {
+      "item": "minecraft:chiseled_deepslate"
+    },
+	"5": {
+      "tag": "c:dyes/green"
+    },
+	"6": {
+      "tag": "c:dyes/blue"
+    },
+	"7": {
+      "tag": "c:dyes/purple"
+    },
+	"8": {
+      "tag": "c:ingots/iron"
+    }
+  },
+  "result": {
+    "id": "sgjourney:stargate_variant_crystal",
+    "components": {
+      "sgjourney:stargate_variant": "starboundedgates:novakid"
+    },
+    "count": 1
+  }
+}

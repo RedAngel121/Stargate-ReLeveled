@@ -1,0 +1,14 @@
+{
+	"type": "sgjourney:crystallizing",
+	"crystal_base": {"ingredient": {"item": "sgjourney:stargate_variant_crystal"}, "amount": 1},
+	"primary_ingredient": {"ingredient": {"item": "sgjourney:ancient_gene_detector"}, "amount": 1, "deplete": true},
+	"secondary_ingredient": {"ingredient": {"item": "sgjourney:cut_naquadah_block"}, "amount": 1, "deplete": true},
+	"output":
+	{
+		"id": "sgjourney:stargate_variant_crystal",
+		"components":
+		{
+			"sgjourney:stargate_variant": "starboundedgates:chozo_pg"
+		}
+	}
+}

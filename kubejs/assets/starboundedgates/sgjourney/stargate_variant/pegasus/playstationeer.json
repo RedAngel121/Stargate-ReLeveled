@@ -1,0 +1,144 @@
+{
+  "wormhole_sounds": {
+    "open": "starboundedgates:playstationeer_open",
+    "idle": "sgjourney:pegasus_wormhole_idle",
+    "close": "sgjourney:pegasus_wormhole_close"
+  },
+  "wormhole": {
+    "event_horizon": {
+      "front": {
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/playstationeer/playstationeer_event_horizon.png",
+        "columns": 1,
+        "frames": 21,
+        "rows": 21,
+        "rgba": {
+          "alpha": 1,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      },
+      "back": {
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/playstationeer/playstationeer_event_horizon.png",
+        "columns": 1,
+        "frames": 21,
+        "rows": 21,
+        "rgba": {
+          "alpha": 0.75,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      }
+    },
+		"disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+  },
+  "rotation_sounds": {
+    "rotation_sound": "sgjourney:pegasus_ring_spin"
+  },
+  "shiny_wormhole": {
+    "event_horizon": {
+      "front": {
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/playstationeer/playstationeer_event_horizon_shiny.png",
+        "columns": 1,
+        "frames": 21,
+        "rows": 21,
+        "rgba": {
+          "alpha": 1,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      },
+      "back": {
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/playstationeer/playstationeer_event_horizon_shiny.png",
+        "columns": 1,
+        "frames": 21,
+        "rows": 21,
+        "rgba": {
+          "alpha": 0.75,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      }
+    },
+		"disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+  },
+  "symbols": {
+    "engaged_symbols_glow": true,
+    "permanent_symbols": "starboundedgates:playstationeer",
+    "permanent_point_of_origin": "starboundedgates:playstationeer_zero",
+    "encoded_symbols_glow": true,
+    "engage_encoded_symbols": true,
+    "engage_symbols_on_incoming": true,
+    "symbol_color": {
+      "alpha": 1,
+      "red": 0.5,
+      "blue": 0.5,
+      "green": 0.5
+    },
+    "encoded_symbol_color": {
+      "alpha": 1,
+      "red": 1,
+      "blue": 1,
+      "green": 1
+    },
+    "engaged_symbol_color": {
+      "alpha": 1,
+      "red": 1,
+      "blue": 1,
+      "green": 1
+    },
+    "symbols_glow": true
+  },
+  "texture": "starboundedgates:textures/entity/stargate/pegasus/playstationeer/playstationeer_stargate.png",
+  "engaged_texture": "starboundedgates:textures/entity/stargate/pegasus/playstationeer/playstationeer_stargate_engaged.png",
+  "fail_sounds": {
+    "default": "sgjourney:pegasus_dial_fail"
+  },
+  "chevron_engaged_sounds": {
+    "default": "sgjourney:pegasus_chevron_engage"
+  },
+  "chevron_incoming_sounds": {
+    "default": "sgjourney:pegasus_chevron_incoming"
+  }
+}

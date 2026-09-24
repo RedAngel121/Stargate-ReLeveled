@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WNW",
+    "PVP",
+    "WBW"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "W": {
+      "item": "minecraft:chiseled_deepslate"
+    },
+    "P": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "V": {
+      "item": "sgjourney:stargate_variant_crystal"
+    },
+    "B": {
+      "item": "sgjourney:naquadah_alloy"
+    }
+  },
+  "result": {
+    "id": "sgjourney:stargate_variant_crystal",
+    "components": {
+      "sgjourney:stargate_variant": "starboundedgates:cultivator_universe"
+    },
+    "count": 1
+  }
+}

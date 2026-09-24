@@ -1,0 +1,14 @@
+{
+	"type": "sgjourney:advanced_crystallizing",
+	"crystal_base": {"ingredient": {"item": "sgjourney:stargate_variant_crystal"}, "amount": 1},
+	"primary_ingredient": {"ingredient": {"item": "minecraft:iron_block"}, "amount": 1, "deplete": true},
+	"secondary_ingredient": {"ingredient": {"item": "minecraft:mud"}, "amount": 64, "deplete": true},
+	"output":
+	{
+		"id": "sgjourney:stargate_variant_crystal",
+		"components":
+		{
+			"sgjourney:stargate_variant": "starboundedgates:apex_rebel"
+		}
+	}
+}

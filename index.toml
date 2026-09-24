@@ -2613,6 +2613,3126 @@ file = "kubejs/assets/sgjourney/models/item/trinium_iris.json"
 hash = "b802ba7e9605f78e91e8370fa30322f5a38c51f617fe77c6cda8ad15480df9c1"
 
 [[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/point_of_origin/actual_binary_origin.json"
+hash = "e859821260649f4b206b0417db5a8b1da96f60730079c61aa2bdbf9c19ba1f03"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/point_of_origin/aegi-script_zero.json"
+hash = "e2bf172d77955add63893b0f0549eaf934084c88d0978d41eaca4fdc8b766ec6"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/point_of_origin/ancient_zero.json"
+hash = "29f6cd6e55cd3de7f0f7ac93aa208d0427166a76f1a769b810ab4ac406cc2886"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/point_of_origin/apex_miniknog_origin.json"
+hash = "181a9f6016a6d7121e5e2aecc855c88b39ce56f1205e34ad79a6a226dcd2bd70"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/point_of_origin/apex_rebel_origin.json"
+hash = "e3fcbd330f661f38aad28f45ae73c0b83067acee986a0cfbc001d2527bec975e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/point_of_origin/avian_origin.json"
+hash = "c907736cb5de993d02303e4d0e4797433b7a9e57ba646bd321bc10c611ad39a4"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/point_of_origin/binaryish_zero.json"
+hash = "95e68bc1377dc69e48349ade8871b43d5c05b2bdce2ec9136d9baf7f027e16b2"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/point_of_origin/chozo-scratch_zero.json"
+hash = "ba5e28478137e95ae0a78cc816a806d7518fd0d37e7fe4e45138c5629bcd89e7"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/point_of_origin/chozo_artifact.json"
+hash = "4c7da2a0568435ea93036a57631e692d81f6dc10b9029e2e0aaa654920b20dd7"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/point_of_origin/floran_origin.json"
+hash = "b180e475864cf2dcfa510713681e887a8a60ebfa7a8453d87ed884cce0e55133"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/point_of_origin/glitch_origin.json"
+hash = "87d9e3564926be3e40c6b6deed24c0258c957b5fc2eb30946a6a21bb91d77c94"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/point_of_origin/hylotl_origin.json"
+hash = "e22edaf11e5bf0986ff7fff5172f63a90b47bff5a1b7b3e65b712a72e5621d98"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/point_of_origin/luminoth_zero.json"
+hash = "46df371854a830a0dd7411eb8eda96ad68f459b3a47e0694f10455c8c8591aef"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/point_of_origin/novakid_origin.json"
+hash = "d91625c14d591784f7b95a7bdef9b5da504b3c9866ca9b9e52f6fc8142655f60"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/point_of_origin/playstationeer_zero.json"
+hash = "3dbd9f5c8466ecf7dbbe6ea5e3e21831bcfb7b76717ed140f58602f6fdfd487f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/point_of_origin/prime_zero.json"
+hash = "fe7103ed8a42af44f0f75400461c41a86ce36b7cc6b83bedcc52f41b9f56cf65"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/point_of_origin/protectorate_origin.json"
+hash = "ff23922b1e8fc28bb3234dfb361e6532f19665bf2b7c64288b6390d7d6fbb910"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/point_of_origin/worn_protectorate_origin.json"
+hash = "60515b8ddf0c7d37b93343549e750d24f79c919ba51fb38c9880dbd42fbf18f0"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/point_of_origin/x-cyber_zero.json"
+hash = "ca1769c453174410963b61b0a98b5eaa7c15eb8a6e12d739b7f9723fcfb83ee8"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/aegi_mw.json"
+hash = "e33a1db1ad62c04a8f03534aa2c16a06bdf7b4269d2170dcd1223cba9c24221b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/avian_temple.json"
+hash = "7a5062ab014c07bdb27b67dc8446ff85de700656f06e94ce90f22b6af6006e38"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/avian_tomb.json"
+hash = "1932d9de46b4108e95c3514c846b91fa5cfb76aaa9cd934acba78aac55b640d4"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/avikan_mw.json"
+hash = "d2380a3f74e04db7ab711ea3d7ea021adcd6a16ebd94423c24ade9033bf87857"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/centen_milky.json"
+hash = "a7c216625cc658b866775f7515b320aea8a346fbf7cc25492c250c5170683edd"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/chozo_mw.json"
+hash = "ebc644c0a07b9ae8211c2e61688a295fab1747406135f30eab6583a1a209ea29"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/cultivator.json"
+hash = "60b23e90ca00e367a3d114d3587db99a5c10755f9a0bcc1b9aa32e6b614eda56"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/floran.json"
+hash = "8ae1c96a36556954dd2044c3c8e962dd82da5d6ddebd81b8e312bf077e394633"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/glitch_brass.json"
+hash = "c8fab5a1ac743765a24d436825fbd74dbdfe6c2add4a5917090e0b40da7744aa"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/glitch_copper.json"
+hash = "9139b2d9bbf8528c8dd06e1acd29e1df128e11336d3087bd8acfb12daa9c706e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/hylotl_koi.json"
+hash = "ca458bd519129d88c6b28533e8cecbaa874cfe522c01b6f63fd450d9ade48353"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/novakid.json"
+hash = "01e2d358413c722562f00068040ea6a7ef30c1b3f66ce16b243e593a4407757d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/protectorate.json"
+hash = "1336b653e73162840b81e3d190a4dccf677664d49c935e7d7928b080e57b7bcb"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/ruin.json"
+hash = "da971ea245a439a085e73f06773ed25fea5b78ae480f8b7602482a6166cb810c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/trinkan_milky.json"
+hash = "d5b16c90382f1078613183da6553f39c368b035962e787ba02711c6d49a1f75b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/worn_protectorate.json"
+hash = "6441c3e40240a77acd38efc096996a32355279a8682f7bc0c17146ebb4e0441d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/x-cyber.json"
+hash = "7098fd428ede748b03dd3fdf239a5d885b49c06862de85ebf037c3b2bef5dd0d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/pegasus/aegi_pg.json"
+hash = "fe7350fc574dc69738c10ed11800048ca97a341956de607a8c6cf7ca18ecf1a5"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/pegasus/apex_miniknog.json"
+hash = "4331bfcba302ef2afd64285a0c3afa985bed387cffffe61b2a6c6932d95ffb77"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/pegasus/apex_rebel.json"
+hash = "483b000c07ccda6dd87e5464a9bf11b2e52393f0f31078d0eee39dfa10bc3b24"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/pegasus/avikan_pg.json"
+hash = "af327c2c9ec4802004832b7e5130454bcd64c1027f62637cb4f237f4188e72ed"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/pegasus/centen_pegasus.json"
+hash = "347a59e424b3e7334474b69b634837fa7700859cf3e6238cfd0bdff5c4494e55"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/pegasus/chozo_pg.json"
+hash = "2ac4d343e13c57b53028aa3e6859f614989b8eabf53d3f17027418f5e6669c4f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/pegasus/cultivator_pegasus.json"
+hash = "01ec769e63d9e31e69577079a14ae3c0fbe4af7420f995bf995db174efabf158"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/pegasus/hylotl_standard.json"
+hash = "13282c6116d85253ddc6681fd229747a0eaea073a3779245ca82c5a2f7b9edf1"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/pegasus/luminoth.json"
+hash = "b9e048ffc72581cd6aabac98c06f07006f45bd3caf630a5216191510828f8a08"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/pegasus/playstationeer.json"
+hash = "680a80d39c692d80cf0572019940a3133f5e493100c266ef887389881c8b1a5c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/pegasus/trinkan_pegasus.json"
+hash = "ab7e934edaf53eb1e996ade0c8b29af2fb62b85f6d1618bbf0b1c1f6922c88ee"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/tollan/aegi_tn.json"
+hash = "31f50f6c70e25ca3f03d84d15c1e40f3d7612d5d73975d6cd8894722f733c61b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/tollan/centen_tollan.json"
+hash = "38b6a899aa0c84aa983d83536156be3a2ec64261857522bcddda5a4c47d1382e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/tollan/trinkan_tollan.json"
+hash = "afc886c6b33cc0cd99ee53abb00869e81e15cf9d300202d399b46eac7a8c8e58"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/universe/aegi_un.json"
+hash = "a4e7516a57c75b0891f028b9125ff6cb4597900934bd4f54886c2350b0a93f83"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/universe/centen_universe.json"
+hash = "1f8625c3a5794b9fae4f3a1e0ae0c54cc4d4d755c924b8434c76a21a41e645fe"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/universe/cultivator_universe.json"
+hash = "32141fc66bd37ccfc16328a5ef46f9649d8ca356eadf91f874303f2502964d64"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/universe/trinkan_universe.json"
+hash = "6e5ef3d4c79f0184d3b9690c33ccb0bb930beb24094e805904e34af2c661893b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/symbol_set/actual_binary.json"
+hash = "db7a82138ebb64f177fb479779191b6d912458f80d28ec95ed0207b37f705e75"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/symbol_set/aegi-script.json"
+hash = "05282bcbf23d721bdaee6698885d8d3d6d81e53743b14fb7f6c0fa44a8635ae7"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/symbol_set/binaryish.json"
+hash = "73ef130e63479ec42350b00151950fd6df48418e16c31a0779bfe93930ba0101"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/symbol_set/chozalembic.json"
+hash = "4f595004c20a17a70b5179c60ac4b4f37af6a62c55adcc36652e764fb075174d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/symbol_set/chozo-scratch.json"
+hash = "d180fc01e0c83782b2df66744f9ef1e6730078f29be4a84db80bb5edc72a13ba"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/symbol_set/cultivator.json"
+hash = "f305de4beb02895b2fd8dad9f8001d98ab55e420a15f80a5bd68db381c1abdfd"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/symbol_set/luminoth.json"
+hash = "c53f34c50da2006b6836914ad9c6c8358896b6500504aa0876a66f477162f35f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/symbol_set/novakid.json"
+hash = "33167d1f0c457dd048044682f7c9ebf3eecdd0e30da685d955caacbacf2a641c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/symbol_set/playstationeer.json"
+hash = "fcd4dcd20acba128f1cccd9b0c441775c1c03657ce9ceecab2edbcf96335d6e9"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/symbol_set/trinkian.json"
+hash = "583dcbd610d0d2bebb0b4f2cee08c35e65f6ba1fe74b7d939907ce223d423333"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/symbol_set/x-cyber.json"
+hash = "357a76a15456ebe0d7021782362d4732f327c67faf7628eab6887f7531dfc40c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/symbols/actual_binary.json"
+hash = "c2d574332de97c8551dfe91436a168f6d9160a30c48086807da8cd278cf72807"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/symbols/aegi-script.json"
+hash = "26f93b1ecbcb86eb8447b225000e05d0ea045cf97415482ebb954c6447fa864e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/symbols/binaryish.json"
+hash = "a076e1a53e77c0d0ed0377cdb584cbead43b6e0da2e151b121728cf80a349b84"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/symbols/chozalembic.json"
+hash = "d6256840c5c0639f4e8288705ee411eb9fd5043e997cc5bfa528fcacccff029d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/symbols/chozo-scratch.json"
+hash = "3355a8011ed11d5ae8737d266b7e62f01b9e669c102ef6621fc0a2016a286287"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/symbols/cultivator.json"
+hash = "6755e63c86bfd70266c56b0145a97c1738ca5cd7fdc97b3c0653a7bc88bde2be"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/symbols/luminoth.json"
+hash = "63b74a1aac6d9ef093668a330cd6401b7020aa5942a955fa0682a02faf9d458a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/symbols/novakid.json"
+hash = "363c5f6163eeb59d36c6af651d716863f16c25f2fb32305e00719c86f9e8493f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/symbols/playstationeer.json"
+hash = "f0c6847aa5e1c4a1bb6a0ac5ee83ba6c9934835531743c6e9112fa204e8bb6a7"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/symbols/trinkan.json"
+hash = "910239d51411738af20996e84941aca824a300ec73a90ee56d8b210eca16a3bf"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sgjourney/symbols/x-cyber.json"
+hash = "6a7aa501abb5881f5d53d83ac189da32eacd46ba5878d8cc84c97975fc4bef15"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds.json"
+hash = "40dcd0cf4d30d59bcc56f6f823364bf58d7e2a430ae4b22b9e0c185766f144b5"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_aegi_u_close.ogg"
+hash = "71edf171ff16ba9bf27c43ea2a71711248a06b0935696c4cb6d1b48969e81cc8"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_apex_chevron_engage.ogg"
+hash = "c3c1697fb0cc55784dd0bb6f48e3d2295731321b93ff583f12487cfb4567ea3e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_apex_chevron_incoming.ogg"
+hash = "90a8e192bd0120c6f4dc732ab9b1b8e0f8fb795e0a8ea10d1ee0332c7072d31a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_apex_close.ogg"
+hash = "797dfcba14b5084e6f25304b28aecd304c2a7062c8ac4e7668e4fe61ff51b6f7"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_apex_fail.ogg"
+hash = "3cbf07141d0b586b7dca05f534c1e4982f4db4761d6349f9a66ddc2d6a251e2f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_apex_open.ogg"
+hash = "e9ca122efcc377cb79b3eb5ff6e6456a6316b1bef479ae14a2400b9bb7868e9c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_apex_roll.ogg"
+hash = "d6cb7fc4987f40ce462cbfc8ce87a471be54bbe386db594f0e8e16ed704f59cf"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_avian_chevron_close.ogg"
+hash = "86908afa9dc4c8445d54d5c14f62541260cd0693668fdc9dcd4ceecd2b1cdfc8"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_avian_chevron_encode.ogg"
+hash = "e1cf8b51b0c53943c6369c82e85ca7e62c9cc0318de28fb195f641f845678597"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_avian_chevron_open.ogg"
+hash = "87eb52d3b008d3c810ea6a7e453ceaa82bc762ed3b34d4ca543bd8bffed23972"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_avian_close.ogg"
+hash = "48c97f1465a317e6204379838fee13d1517cc659b9fe015a05139568678c08c7"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_avian_fail.ogg"
+hash = "c8bf375946a7b38326d0225c90d06dbb40f3f91406ad59f02f66bce24bb84b2b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_avian_open.ogg"
+hash = "751c85a19d12fbbd3d17d84d29bf22bab649c95a086f8e1f4081a20273b996db"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_avian_roll_loop.ogg"
+hash = "22b924d780a51d22e5ceff4318685a51cca44de844682b4f1bba241b6b9bdfa2"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_avian_roll_start.ogg"
+hash = "1177816ccb467b7a905b453a3e0b0cebb7332536a580513f09592b1323232a6f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_avikan_chevron_close.ogg"
+hash = "497bc92bc1fee3ee3800f05b34e9e4d11dd64d6859376e5761945fd341444869"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_avikan_chevron_engage.ogg"
+hash = "893e93a4a3caa620fb144ea6d6ca51c10b047e023bf5769e3fbffc954f5924aa"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_avikan_chevron_open.ogg"
+hash = "14d6ca7a2aa9c530dc0a4ebeb3ab24866420a20580dbe34ecf7803a7937f2634"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_avikan_close.ogg"
+hash = "7fecd3f504165924ec1b2125f4bf2742c0b74b7aadcaea59f20b176f49c9f854"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_avikan_incoming.ogg"
+hash = "e738f77f06ae463a43deca6585630a9eb85f587ef248c5c21ddc1eaca9590b6e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_avikan_open.ogg"
+hash = "2d95eebce6ede316d346c46d67522c3ff60d700de90675c1b8b64e6e6e8b9510"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_avikan_roll_loop.ogg"
+hash = "7cd4015e8f5fa0848d8042f40c49d25e5f1168f5fd4e158330975a555bad119d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_avikan_roll_start.ogg"
+hash = "6ac5dd570285db3c7d88e409b86aef9c70a9e02c1799519c8fb8b6fd16871bce"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_centen_chevron_engage.ogg"
+hash = "2c8e0d2617b84dc02b050dbe2cf435c9e7937dad2f151ae41290ffb74dcef965"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_centen_chevron_incoming.ogg"
+hash = "52c8259075d07a0432294f05f3495a78a69e064d3d2d9095fa5b22cc12149471"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_centen_close.ogg"
+hash = "8d6dd445c4ed04c0dc8ee84828c6a7f5e25c951c9f3a2bfb2300f6b8afee61f0"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_centen_fail.ogg"
+hash = "eac7b4c1ade092712907221fa7d2f249d597f7a4a44e4efa8e38b91282adecfb"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_centen_m_open.ogg"
+hash = "3218b57fee41ffe4d687a792b02e3de35695447f2b893adf9ddae21349a8970c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_centen_m_roll_loop.ogg"
+hash = "df4edd437a764bf8d5b88d81f2d5aef83b1b4dc97fbf78f071fb7e91a8abf5d8"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_centen_m_roll_start.ogg"
+hash = "097601d46c93d736a08508036e03a10581f645ef156d8dc6c09683e0f6f82f65"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_centen_m_roll_stop.ogg"
+hash = "868b6433d1b427be702276283b593af00cc8d12fbf368a556a61d3246c4c0107"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_centen_open.ogg"
+hash = "0947a9242c226b86528bf3aabec4456e6836732d8d477a49d6646c64ee304100"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_centen_p_open.ogg"
+hash = "70e083855f98434b71834c7be8b1bacb9b25362133ca9ec3849eadd4cf4bf5f5"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_centen_p_roll.ogg"
+hash = "0f0ba951107d490c349734f7517ea466594b4f0df85bc0cc42141bd39835cc9b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_centen_u_open.ogg"
+hash = "da32f6a0616f16aa4d8f58855dea732dace464e0e78c10a89c5df2b7f04cb784"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_centen_wormhole_idle.ogg"
+hash = "11a396b1901012e872a94bdaa4c8d4b051fe938fcf148d9e52ad76f34fade8eb"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_chozo_chevron_close.ogg"
+hash = "8e59e949cab640d882ced12b6bbc3a15163150d8710b9be1b23f8bf26cab3178"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_chozo_chevron_encode.ogg"
+hash = "deb3d26dc99e14f3c8509a54868972eb34311fa030cb45eb73c36ed3b9d0d311"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_chozo_chevron_engage.ogg"
+hash = "d95b2a9aa2f78551e6245420da38d27703180b7cc9f59e24be4ca77a8b26fe08"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_chozo_chevron_incoming.ogg"
+hash = "a9e129caca5732dd739ee075ad9765ad4f3dc7a230b17c6fe1011efa904c78c9"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_chozo_chevron_open.ogg"
+hash = "651053485632ce731b516b6c711098b2dac9da7200013bd31e72fb177d125ae8"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_chozo_close.ogg"
+hash = "e491d4710f73f7340774d4a2d7babca5a57ce766b3ada29d3bcd36efc8b6022a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_chozo_fail.ogg"
+hash = "d148d503a65322b5c4cd7f8153273427ea3cbd1734fc0f7cfc1c5a90db4f292b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_chozo_open.ogg"
+hash = "0689a590569f1f2472f259fd5310f13c8da21d25f94d9c339d9fdbc4c99c2401"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_chozo_pg_close.ogg"
+hash = "2a5ae8e7a0b121a736b9d8531b2a6c64bd3fa2422e9e96e6f3faa2bb59315203"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_chozo_pg_open.ogg"
+hash = "6f0f245932b12703acd8bdd8af28a026c6668fc28297c738247c47896ed1d4d9"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_chozo_pg_spin.ogg"
+hash = "da6531acf3cb7ae3f94f4b351bd167504d5e482fc05a87ef3a47e2ac1bbf6ef0"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_chozo_spin_loop.ogg"
+hash = "3d9df6580081ff266f503813c6e464f5590ce78097cffdec3ae9b5eaa850109b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_chozo_spin_start.ogg"
+hash = "2c4d22b483ff768c3567206798660a46083399a9a09bc956268780c509b2aca7"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_cultivator_chevron_close.ogg"
+hash = "bba77b8d671eeb7b8327d91f2eb37eaa0234d99af9c6d40f611af97f21fa7c42"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_cultivator_chevron_incoming.ogg"
+hash = "8df3fe26c7b26d5e992e5351bcf24dd410ee57d1da1f40a7d0921e3356baae1a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_cultivator_chevron_open.ogg"
+hash = "78703d2aeb58426ffaf44e5148db4c03eb59eef3fec9683cc8920164a0e02204"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_cultivator_close.ogg"
+hash = "3043be84fd37cbd45f5e4ce8f775e868eac959e7f58c4b7e207581b300905761"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_cultivator_fail.ogg"
+hash = "88e9ebf2d5a97a4dea289e71d5905233f6bc46ef41be9f9cda8c8f3dba2a2f98"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_cultivator_open.ogg"
+hash = "b2eeaf0d7ed65565845c0cfe870a9e01de93a482bb760418508a9b30c86e5d22"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_cultivator_p_open.ogg"
+hash = "5a40901095ac07a8758b91186aceafefcf7d1e09313ae421187e5f168ccc6a70"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_cultivator_p_roll.ogg"
+hash = "9af8edff77d40a49bc5bd83427c732d001707d375529612bf02675a5b41b606f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_cultivator_roll_loop.ogg"
+hash = "ed5526ce21358bbabb266beff344bc92c26c37133019cc3b7a8e52dfaac4c78f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_cultivator_roll_start.ogg"
+hash = "bf4e28a7ce6f6a11986e8ce59640adfda403d4f265e79d162cd061be85b9073c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_cultivator_u_close.ogg"
+hash = "857b63315bfe874d6a198e383abdb2594c32507d0a1a9f9091600be66a292f84"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_cultivator_u_dial_start.ogg"
+hash = "65be0cb8da0355b4f3ff9ae2714bd5f07f6bd2204b17575a0917bdc51ba6929a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_cultivator_u_open.ogg"
+hash = "30e03c1a4c05c0be90251e1a4b156ef84c5bffc4cd6d4dc14c10c323d8905969"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_cultivator_wormhole_idle.ogg"
+hash = "0482340d4a20ec1aefa659a8742e8d1b05da9aac1b8d7c4d26a975a1426c8929"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_floran_chevron_close.ogg"
+hash = "d3009f0e0f4caa00b3a991e025fafd8ec1b7daf3721e0b0d6d154d34fc34339b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_floran_chevron_encode.ogg"
+hash = "1e7a97b7dd3c7b69b1bc67e2a641cd8f6077a16547b9fec1321b673f4e6c3da5"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_floran_chevron_engage.ogg"
+hash = "c1d73925b58629a6133899efda4a8fe69e770551a7acf7b7e8cb67c7f81d175f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_floran_chevron_open.ogg"
+hash = "09fbdbeffd2a97df10f05fdff84ada49a027f309657eebb3301b14bd3ac6e9a5"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_floran_close.ogg"
+hash = "a431264a47251daa80c4d7582203fb4d21dd873c92ea68c0739927a1db64656e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_floran_fail.ogg"
+hash = "5ec30a4f3456dee1104bc6817bd471417d02861dbd5c4da45bb45e93659d2fc4"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_floran_open.ogg"
+hash = "0df4d377042ff4f4e1a9064e7ec67254fe6f9e8332bfbcbe975271b60173ca77"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_floran_spin_loop.ogg"
+hash = "d26e8186cd11a5e6e5c6da89687f6107b785971d10e70b6232d9405c44f7e766"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_floran_spin_start.ogg"
+hash = "fb3db56c11e5abb4d30c59b61f724744a559ca2af63b7d39300304b258fabc4e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_glitch_roll_loop.ogg"
+hash = "0e37f73a0dbbd1e52b74a192eb97cf6275e6917724ef1055cf40e6201368aa5d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_hylotl_close.ogg"
+hash = "8ee3575106870ff6777df7a5d1ec459aca1e4e01a47b75fee5ba669860ca332e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_hylotl_open.ogg"
+hash = "9ad8cc22bbcfe8fa2ef13455f54c6059cfe3648a83d355250b298da5cfc433b5"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_hylotl_roll_loop.ogg"
+hash = "8446fde030238fb87c9f9cc134ada4c2b1b61f2a76d2b13c3ef8d66035bcf90d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_hylotl_roll_start.ogg"
+hash = "ab94deb1503aa2273522de0c7e98f807c05ad1b572d4622572f0ac243177d1e2"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_luminoth_chevron_engage.ogg"
+hash = "78016655d5992f3bab2c464e4838f5e359d91f885ea5fbe0e12baeb77444aa62"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_luminoth_chevron_incoming.ogg"
+hash = "1c8f8ba39066fa1fc85d5faf553bd7987eeceb9f232a7be3e60c0f220ed07624"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_luminoth_close.ogg"
+hash = "f55f0d3c814f47f782f8910696e5877c733debf4359a9b3e68a11d4f8e6a0604"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_luminoth_fail.ogg"
+hash = "983c6a97cb50875505964bc6a2b1a03868f539a750e4cf0d99e96cc13b5fee95"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_luminoth_idle.ogg"
+hash = "8ad8c29420b8f009c2b71e68ab5d60bc166dfdd6134e4a762090af7ca4f2c1f1"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_luminoth_open.ogg"
+hash = "8ca9984b634a3d85b1a8620af1e835478daca23c2717ecdfce0e5187e226432c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_luminoth_roll.ogg"
+hash = "0b8b1106797e0ca4f061200d18ab3e60b436d32157277d7d9007baa22f639dc3"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_ruin_chevron_close.ogg"
+hash = "7400d125803ffd0678cf8da60c2eae8d28d9541f8eb66f8fe1f385ed5510ee7f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_ruin_chevron_engaged.ogg"
+hash = "67317a201157ec5e5b3f6fd215c6a6599fc516632fcdf3d1b768010309243e2e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_ruin_chevron_incoming.ogg"
+hash = "0ffe389ce9ca054e93a6b7ee5c5fb2c27bf2a40bf7f3f2c1008a7cdd49229e69"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_ruin_chevron_open.ogg"
+hash = "3e48c4184eb55ab336a3161c4430ca1ab3405cdc6ff4455b18f1bae4c50021d3"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_ruin_close.ogg"
+hash = "79517594ba7675d12086d39db917740ea2b070159d1469ada37572bd723aba57"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_ruin_fail.ogg"
+hash = "ef85e10b03a030065ac98ae9e433fe64de6c94599de1f69af2d08e5c8efeddd9"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_ruin_open.ogg"
+hash = "ad5520b83576629fa25427f0e4c7d1c4682ec9191a371be076e13131c005a6e1"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_ruin_roll_loop.ogg"
+hash = "1f25d335c327abff622ffadab5a5b718f16f69b264ecaba7c81fda2b1a0b1148"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_ruin_roll_start.ogg"
+hash = "460178e2bd725b08d222973e5f68b0ef083adf501054355cd6548e9f3a758d1a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_ruin_wormhole_idle.ogg"
+hash = "8f8e4373f977baf606507fbcf67dd12c916a8f18b995a72505d6982beadb8b34"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_trink_fail.ogg"
+hash = "e48dab18fc80ebd7959edbb1c014c3adfd957b3d71ddd97acfb52753e4286e45"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_trink_idle.ogg"
+hash = "15f0d9d7d8111875bec0ce34cf29492ec6dff945187ef477de9b1ec529a2993e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_trink_m_chevron_encode.ogg"
+hash = "5801dc4980f950a96f294614c61b9f88802a6b591cc7ab45a341958e8beb4862"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_trink_m_chevron_incoming.ogg"
+hash = "a0307fbd99cf30ea8110450d12115f990c6dad77556fd86b0065c57cb627f483"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_trink_m_chevron_open.ogg"
+hash = "d81c63b14be56b790f1610cff14b8dc019999bb6e80b77777fa1b54b5d226b71"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_trink_m_open.ogg"
+hash = "40cc21f86c3dee2c5e7e2b9e2c02c3ba6daa393d2e8d486581bee42597d42d91"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_trink_m_roll_loop.ogg"
+hash = "e8797bd6cfd9e1ae9390f957f34b8b65ef5f9e7e7df184dafa3382ce6ac8595a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_trink_m_roll_start.ogg"
+hash = "7f448005ee96ae0ab127ad8cfacb76b4669d5f58a7e1c70e687a2e42620ac234"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_trink_p_chevron_engage.ogg"
+hash = "a75562034d3451198f3a09541078e2aa7608f569c67de321125123d432930a62"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_trink_p_chevron_incoming.ogg"
+hash = "6382e2804a56e31590c2d401a8bd88a72946d4606bd1a48b20b547a2318d13dc"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_trink_p_open.ogg"
+hash = "84d36d34ea9d28dc882ff71062272e087d33d64aebd67e3b98e01a9c75b46e5f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_trink_p_roll.ogg"
+hash = "3dc40e223949f6bd283e44f6dea3e33151ed69aed34390b35ab0624d060ffae0"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_trink_pm_close.ogg"
+hash = "d615349361982a51f0aed3e277153621d3e43a42c32947e491924596b44f600b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_trink_t_close.ogg"
+hash = "c160978dcf72d7c0dc7f559e89661788cde1f85516586f9e7414cde0b4009317"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_trink_u_chevron.ogg"
+hash = "34c436850aa1cbbc73baf59d558c5c33f65c11859310f36c2bb5a80661cf8194"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_trink_u_close.ogg"
+hash = "b65aaa9bc26d8fe8aa4df48294fa099293eea28dee7b8bca294260cdd98ed4c1"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_trink_u_dial_start.ogg"
+hash = "20413f7cec86e9288cc6712a689dbcd7d1fbd0a1363e6b1ac785db0154b992b9"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_trink_u_open.ogg"
+hash = "7b50e87bb2fb4f2c2f68fd1ec34e16f7defd9985e755f40fdaa29ebba34d446d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_trink_u_roll_loop.ogg"
+hash = "23f6e0afbd956773bf70c7ca98416ca1a44f7ac684921b37460775a2386e3af5"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_trink_u_roll_start.ogg"
+hash = "be3f7790989afd684c4c88d801ba12c1536ccdfd40cf0fe3c637644f0b1e5119"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_x_chevron_close.ogg"
+hash = "d8debc8cff430581355438f61f7568615dd0fdc5f84dba9cad4649402da6f01f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_x_chevron_encode.ogg"
+hash = "db654b1b35eee505b06e92edb53711a6f883ec5d5096260636544c7801a85417"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_x_chevron_incoming.ogg"
+hash = "02772f9d2d7b4c7b7327648e48a5b03254587747aadfc90a899d88e5b5af93d3"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_x_chevron_open.ogg"
+hash = "65137ba389760a49745cb86207ebe214dc603de2bb77d7c46a1663ce996309c8"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_x_close.ogg"
+hash = "3b3f3cab5051e2669aacd6428d938703655b4e164441076c31aaefed5ccac0b1"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_x_fail.ogg"
+hash = "bcdc7a5f28e1a02daa4be85efc937d6f003e0e616e539b5d2582154a04628e17"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_x_idle.ogg"
+hash = "938c4c53dc5eeaa4dcb412a2831e1950c405c1c4f10dbaec25a8124388bc219c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_x_open.ogg"
+hash = "586c3c40d2b1800ab9131015ccfa1946b95640c76a4a66aaaa739541a9bdcdf5"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_x_roll_loop.ogg"
+hash = "583c1af27d54f4541c93c011ed7db8de087d6e0d5529d1198b1ef9fbe71ef1ad"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/gate_x_roll_start.ogg"
+hash = "16fa044f358f204a505c39a0bb6264ae7ca49925ce81cb7c66edd2d6b2c9b465"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/sounds/playstationeer_open.ogg"
+hash = "4ea8adfe1cfac89b82d5ee2bff4d7820715f9567fef846f4986268d37b80ce73"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/aegi/aegi_milky_event_horizon.png"
+hash = "39d288fd0f1dcbbc78f235cf7319a099a7b74013d2d8a73d694a4ec5a03d22d3"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/aegi/aegi_milky_event_horizon_shiny.png"
+hash = "b5eaae3e4c7c6a758b743b9372f872572f3457f2526e380491268ec7a8299f7e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/aegi/aegi_milky_stargate.png"
+hash = "7dcc72dd8ad60233e3c2e74b0703fbefca619384e8ffe6ec2d600b48de73f061"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/aegi/aegi_milky_stargate_engaged.png"
+hash = "92cee330b3dc7ef2ad8e889fa27641f508e161c1b56ca1651a45d38f45639e3a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avian_temple/avian_disconnect.png"
+hash = "93ae7421a9bd6d5b0da810d034a389451918e997cb8b2ec44e87e7423ed332ff"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avian_temple/avian_temple_event_horizon.png"
+hash = "ef7959860a0ca73f1531c2fbcca16913cb1882d588b47f11d97a331c9ec94d2d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avian_temple/avian_temple_event_horizon_shiny.png"
+hash = "47c819d2c0a88f460ac14ea646f309d0376c6a94316f5992cb7bcbe0376bb6b9"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avian_temple/avian_temple_stargate_milky.png"
+hash = "05c2e7d10e838653cb606c283465b07ccd0952fe90b6192924589de7c0ee7a98"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avian_temple/avian_temple_stargate_milky_engaged.png"
+hash = "53ed182d35883412c3214aaa51bce3a65dc726583f937dd4c390b464359dc008"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avian_tomb/avian_disconnect.png"
+hash = "93ae7421a9bd6d5b0da810d034a389451918e997cb8b2ec44e87e7423ed332ff"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avian_tomb/avian_tomb_event_horizon.png"
+hash = "ef7959860a0ca73f1531c2fbcca16913cb1882d588b47f11d97a331c9ec94d2d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avian_tomb/avian_tomb_event_horizon_shiny.png"
+hash = "47c819d2c0a88f460ac14ea646f309d0376c6a94316f5992cb7bcbe0376bb6b9"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avian_tomb/avian_tomb_stargate_milky.png"
+hash = "ec778208ae6a08b3aa5868219a17ebb87b0c64ecc7eda5e2528ee3c996e06e2c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avian_tomb/avian_tomb_stargate_milky_engaged.png"
+hash = "53ed182d35883412c3214aaa51bce3a65dc726583f937dd4c390b464359dc008"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avikan/avikan_disconnect.png"
+hash = "570a031763efb9b2d580521f57fe1cf4f43909614179183ea5e225ea52741944"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avikan/avikan_milky_event_horizon.png"
+hash = "2e764ca7d32ed8ba77341d6d098772da3d243219d3413edb8b669112e7d793ea"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avikan/avikan_milky_event_horizon_shiny.png"
+hash = "2e764ca7d32ed8ba77341d6d098772da3d243219d3413edb8b669112e7d793ea"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avikan/avikan_milky_stargate.png"
+hash = "974872359390b237da60718bdeb8437b1ef3195a85793d8adf6bd5293e25745e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avikan/avikan_milky_stargate_engaged.png"
+hash = "7f9584c65ae930a37d21ec5bab1f5d1aceb2831100f12c46fd8805302c1835c7"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/centen/centen_disconnect.png"
+hash = "5da04e6233e062d0a9df98aafab7fd605ff0d6e9a1c445710f54022bb7386a63"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/centen/centen_event_horizon.png"
+hash = "217e6de11a63d94a70c5b1f904b418939fb32d589133c35c87826e533c107aa1"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/centen/centen_event_horizon_shiny.png"
+hash = "217e6de11a63d94a70c5b1f904b418939fb32d589133c35c87826e533c107aa1"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/centen/centen_stargate_milky.png"
+hash = "99f0e74658bd2c2440c3d48060bdf42e7f5e456bfd266b43d2bd25ed885ea046"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/centen/centen_stargate_milky_engaged.png"
+hash = "6cc4da1bcde79f90d12c5bb9939f774ae8acf32899215ae651c22cbfeb29a9b8"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/chozo_mw/chozo_disconnect.png"
+hash = "4ac139ced33b3b4fc872e2c946e2abbe2ac1b057bac15b677bfa99801d60553c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/chozo_mw/chozo_mw_event_horizon.png"
+hash = "b3935ac93b0dd611659043c0a6d8e1ab19276e76e7e0591320a0fa63652563c2"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/chozo_mw/chozo_mw_event_horizon_shiny.png"
+hash = "b3935ac93b0dd611659043c0a6d8e1ab19276e76e7e0591320a0fa63652563c2"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/chozo_mw/chozo_mw_stargate.png"
+hash = "08faec6dd59d181f2359d3be9cecaeeb147a6bdd07a27737337b93694f418e5b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/chozo_mw/chozo_mw_stargate_engaged.png"
+hash = "32fb04ad0e546d72768040c29d6e0b52326c34226815aff44122d0bba86a4679"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/cultivator/cultivator_disconnect.png"
+hash = "48b62922bbac5c3708cb7ffb640e950c6069ee12e8727cc9cb2f3ff4283de6d4"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/cultivator/cultivator_event_horizon.png"
+hash = "d2e19fc731f9f46754e4948e0b488cfe5a675b828d96ed06149d0185f1398add"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/cultivator/cultivator_event_horizon_shiny.png"
+hash = "d2e19fc731f9f46754e4948e0b488cfe5a675b828d96ed06149d0185f1398add"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/cultivator/cultivator_stargate_milky.png"
+hash = "3ea3179c42719d917cb520df1c3bc5ebd16efe22ff1b199cd92fc248926de42a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/cultivator/cultivator_stargate_milky_engaged.png"
+hash = "944e0e30d928d0239cc7f399fcd9795a99ca72a8ea18fdbb709f9bced78086e1"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/floran/floran_event_horizon.png"
+hash = "1427fb66be1bf093c08a57bc8d52376f5f4c6c79044e05d7c5604662af5bd7c3"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/floran/floran_event_horizon_shiny.png"
+hash = "8071bf60457bd36f99b988e3face234ad322dfedecbee14582030e490f47d611"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/floran/floran_stargate.png"
+hash = "9a4ea08b3c2ee9e8f7a3e8ae273601ee2a80215d827b30c028fa63181a8ba7df"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/floran/floran_stargate_engaged.png"
+hash = "bbf55fbcc06b5070741d8f04dc18accc3227c29766a2cb92282996d950cd6852"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/glitch_brass/glitch_brass_event_horizon.png"
+hash = "8cbe638cf2f69bc7f9f2ae3cfc4e3913522953ce26a1b30de2e314f000995f1c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/glitch_brass/glitch_brass_event_horizon_shiny.png"
+hash = "a274007308fd244763e1436d8af554a7dbfe4769eff66e1ded41e5263970d466"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/glitch_brass/glitch_brass_stargate.png"
+hash = "270c0531a06f47d74315d5160903bce566632ce7450ff980a581af794f85f6cf"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/glitch_brass/glitch_brass_stargate_engaged.png"
+hash = "14cf16bf401100c3441efa5425ddad78f15bb5c6a6ad0891acfeb3a9fab4d281"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/glitch_copper/glitch_copper_event_horizon.png"
+hash = "7175213aa665043bd469618d4015b1d942b4cdec1ef76b26987060dfdc269e6f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/glitch_copper/glitch_copper_event_horizon_shiny.png"
+hash = "5981594203a9a0657c945f9c784618db5e270791461e588377737008d69e64cb"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/glitch_copper/glitch_copper_stargate.png"
+hash = "99f5ce517bd0c19b159d0ff2a0dfce5079412b91ebb9ee57d6cdaf95a3b69496"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/glitch_copper/glitch_copper_stargate_engaged.png"
+hash = "14cf16bf401100c3441efa5425ddad78f15bb5c6a6ad0891acfeb3a9fab4d281"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/hylotl_koi/hylotl_koi_event_horizon.png"
+hash = "7c8f9f3974c26e4cfd13b5f245718c82f581c90d7452e5d5e038c4cc700f88a6"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/hylotl_koi/hylotl_koi_event_horizon_shiny.png"
+hash = "98844c0214675116b268edadae96b056a310e672f88c5e8eff8674a80f78e360"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/hylotl_koi/hylotl_koi_stargate.png"
+hash = "e5c0a586998541db64c4fee78f68308672e51f8f88acec55a179a06c26dbf75e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/hylotl_koi/hylotl_koi_stargate_engaged.png"
+hash = "bcb1587f8027ecad410fdde7aebb257a75cc6fcb4eee0d67f6e954485d4d624b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/novakid/novakid_event_horizon.png"
+hash = "aa03397bf2c26d50f0920b3770634c37a668511859398716fb2b9b66098ce203"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/novakid/novakid_event_horizon_shiny.png"
+hash = "aa03397bf2c26d50f0920b3770634c37a668511859398716fb2b9b66098ce203"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/novakid/novakid_stargate_milky.png"
+hash = "226dafc670238a190a7ae994f64786d290da4a8b98fcd874d973de3d880bb243"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/novakid/novakid_stargate_milky_engaged.png"
+hash = "29b1e49341954364d8eb0a7b99f404f3bbad6b0b4a9550870356b6edc93d3868"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/protectorate/protectorate_event_horizon.png"
+hash = "39d288fd0f1dcbbc78f235cf7319a099a7b74013d2d8a73d694a4ec5a03d22d3"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/protectorate/protectorate_event_horizon_shiny.png"
+hash = "b5eaae3e4c7c6a758b743b9372f872572f3457f2526e380491268ec7a8299f7e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/protectorate/protectorate_stargate.png"
+hash = "b45352adef86422c35a4b348ae6959be35333d1c25174bacad0e9e9d8745b4f9"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/protectorate/protectorate_stargate_engaged.png"
+hash = "47c1dfc63990351836cd63227bff623b4c60575f5e891bb9bc511f8444957fbc"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/ruin/ruin_event_horizon.png"
+hash = "54830917c1cb19e6e11d85b233b3cf0ed8d32800695d3b31be07d6f3d4e08323"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/ruin/ruin_event_horizon_shiny.png"
+hash = "54830917c1cb19e6e11d85b233b3cf0ed8d32800695d3b31be07d6f3d4e08323"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/ruin/ruin_stargate.png"
+hash = "00d2621a83995e452a5bf2088f80d320052c6c39af00ba68cf4eeb6dea72bb23"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/ruin/ruin_stargate_engaged.png"
+hash = "265f27ae44137e620c2187dcd0189c9aa672ed6ac63568ef67aab6af64467d58"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/trinkan/trinkan_milky_event_horizon.png"
+hash = "83310c156ebf32c68ee7e0b265f8b10f1f0a60ee466f5eb69414c54cfc6b2ed5"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/trinkan/trinkan_milky_stargate.png"
+hash = "b5a01b7c1d90ba3e5202d87e3d920c4499b42af54d565cf4f9ef5afcae78a7a3"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/trinkan/trinkan_milky_stargate_engaged.png"
+hash = "6780e3c1f175c22b69811b6076b5e86842462d47dbe3dd67615a9139f49d5c2b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/worn_protectorate/worn_protectorate_event_horizon.png"
+hash = "39d288fd0f1dcbbc78f235cf7319a099a7b74013d2d8a73d694a4ec5a03d22d3"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/worn_protectorate/worn_protectorate_event_horizon_shiny.png"
+hash = "b5eaae3e4c7c6a758b743b9372f872572f3457f2526e380491268ec7a8299f7e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/worn_protectorate/worn_protectorate_stargate.png"
+hash = "55a65e458210dcd2919aa0638b61df965788858c751bb0c30606bf769884d567"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/worn_protectorate/worn_protectorate_stargate_engaged.png"
+hash = "47c1dfc63990351836cd63227bff623b4c60575f5e891bb9bc511f8444957fbc"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/x-cyber/x-cyber_event_horizon.png"
+hash = "b5f2cbc3b3bc2160dbad80fc7b816c71db0f1ad2d32fe7ad408e9776b927798a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/x-cyber/x-cyber_stargate.png"
+hash = "8f2c408fc4ce601f9942b88e09934733bdc95170d99ccefb9831a44987bfac2b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/x-cyber/x-cyber_stargate_engaged.png"
+hash = "0a5b6decb07b446f7a2b8ff9472bca463d6be17d8ba2bebc6e06e2eebc77f695"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/aegi/aegi_pegasus_event_horizon.png"
+hash = "39d288fd0f1dcbbc78f235cf7319a099a7b74013d2d8a73d694a4ec5a03d22d3"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/aegi/aegi_pegasus_event_horizon_shiny.png"
+hash = "b5eaae3e4c7c6a758b743b9372f872572f3457f2526e380491268ec7a8299f7e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/aegi/aegi_pegasus_stargate.png"
+hash = "35393825019c262445515071fd309677340a3f58afb79d277d7b37d669c5f675"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/aegi/aegi_pegasus_stargate_engaged.png"
+hash = "92cee330b3dc7ef2ad8e889fa27641f508e161c1b56ca1651a45d38f45639e3a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/apex_miniknog/apex_miniknog_event_horizon.png"
+hash = "6340c513a08044ff08f242dc73f062bbd5df00d9def8968506944266292c7cc6"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/apex_miniknog/apex_miniknog_event_horizon_shiny.png"
+hash = "86d31eb0b22ca19ac314aba2f39ae81f1010c9d3babfccd7a43d53b6d61b7b27"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/apex_miniknog/apex_miniknog_pegasus_stargate.png"
+hash = "d5394a8845f711af870a799b5b79e7aedfa2f91746dd32170b8cf9ea1a1758d6"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/apex_miniknog/apex_miniknog_pegasus_stargate_engaged.png"
+hash = "957bcf7a32bc5fa2e1c37005ed59e861978e97bdc2a6782c2a396332caeb0ed4"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/apex_rebel/apex_rebel_event_horizon.png"
+hash = "9cd6ba0a07d99f5ace7a25d416cbe4ca77974c20cb848bb7fa8725c252538e43"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/apex_rebel/apex_rebel_event_horizon_shiny.png"
+hash = "004a4b7c5a7b4dae00d528a4d55ec774ffcd83f12180c1532d628f86d79eea78"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/apex_rebel/apex_rebel_pegasus_stargate.png"
+hash = "6fbd3eebc33d4ca1245c463644de80cc0079d62e9692a6247057e20fe3059a47"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/apex_rebel/apex_rebel_pegasus_stargate_engaged.png"
+hash = "b60cc33608617f06c0e992a47ed0706acd30c99be82cfe7c9f6bd26f6cce8d0a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/avikan/avikan_disconnect.png"
+hash = "5da04e6233e062d0a9df98aafab7fd605ff0d6e9a1c445710f54022bb7386a63"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/avikan/avikan_event_horizon.png"
+hash = "217e6de11a63d94a70c5b1f904b418939fb32d589133c35c87826e533c107aa1"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/avikan/avikan_event_horizon_shiny.png"
+hash = "217e6de11a63d94a70c5b1f904b418939fb32d589133c35c87826e533c107aa1"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/avikan/avikan_stargate_pegasus.png"
+hash = "26f39f2566346fb53d8515dffe2dd3ef2eeddc48f446c9ad6168c823f5099493"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/avikan/avikan_stargate_pegasus_engaged.png"
+hash = "7caf0e7d6fc790923c77b78435d716e7f52ea15f4f13fb6313f1e456bf063767"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/centen/centen_disconnect.png"
+hash = "5da04e6233e062d0a9df98aafab7fd605ff0d6e9a1c445710f54022bb7386a63"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/centen/centen_event_horizon.png"
+hash = "217e6de11a63d94a70c5b1f904b418939fb32d589133c35c87826e533c107aa1"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/centen/centen_event_horizon_shiny.png"
+hash = "217e6de11a63d94a70c5b1f904b418939fb32d589133c35c87826e533c107aa1"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/centen/centen_stargate_pegasus.png"
+hash = "4cc1c78360b0e5341a86ebf05d85ff86a438e775dc7e1cdaba75a31888f5829a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/centen/centen_stargate_pegasus_engaged.png"
+hash = "7caf0e7d6fc790923c77b78435d716e7f52ea15f4f13fb6313f1e456bf063767"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/chozo_pg/chozo_disconnect.png"
+hash = "d7305297a5c238f7c347055b60ea80d2ef779c5ea83754d2d0b36e92107c2581"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/chozo_pg/chozo_pg_event_horizon.png"
+hash = "d25efc502938d886fec2cd143ef6625e12a3024bc1b9a5d1dbd3416188e18985"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/chozo_pg/chozo_pg_event_horizon_shiny.png"
+hash = "d25efc502938d886fec2cd143ef6625e12a3024bc1b9a5d1dbd3416188e18985"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/chozo_pg/chozo_pg_stargate.png"
+hash = "e3a2ccb34121093cb474d63b53148f097d77d030245c5b970826e7ae808a40ac"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/chozo_pg/chozo_pg_stargate_engaged.png"
+hash = "7010e6b64106b6d6d59821b86ff1f724f2e1d4d37abed42451910d40980e982c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/cultivator/cultivator_event_horizon.png"
+hash = "d2e19fc731f9f46754e4948e0b488cfe5a675b828d96ed06149d0185f1398add"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/cultivator/cultivator_event_horizon_shiny.png"
+hash = "d2e19fc731f9f46754e4948e0b488cfe5a675b828d96ed06149d0185f1398add"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/cultivator/cultivator_stargate_pegasus.png"
+hash = "86d8fa53a453bbfc612a6876889b819c65748d1dfffd10d9a6707f56149fef23"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/cultivator/cultivator_stargate_pegasus_engaged.png"
+hash = "944e0e30d928d0239cc7f399fcd9795a99ca72a8ea18fdbb709f9bced78086e1"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/hylotl_standard/hylotl_standard_event_horizon.png"
+hash = "7c8f9f3974c26e4cfd13b5f245718c82f581c90d7452e5d5e038c4cc700f88a6"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/hylotl_standard/hylotl_standard_event_horizon_shiny.png"
+hash = "98844c0214675116b268edadae96b056a310e672f88c5e8eff8674a80f78e360"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/hylotl_standard/hylotl_standard_stargate.png"
+hash = "6c74d1e94a3b7e7f447b4030c69770e378fc576b4c09ebe7c116b7f05346dfba"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/hylotl_standard/hylotl_standard_stargate_engaged.png"
+hash = "bcb1587f8027ecad410fdde7aebb257a75cc6fcb4eee0d67f6e954485d4d624b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/luminoth/luminoth_disconnect.png"
+hash = "1e5d1649e045934774e2e9e840489586468c8f626fa03ee6423d74df2dd4585a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/luminoth/luminoth_event_horizon.png"
+hash = "39167218cda41ee0cde8a2148d25c87ddcf537cc0ef9df46b9ef0a06f62a0620"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/luminoth/luminoth_event_horizon_shiny.png"
+hash = "39167218cda41ee0cde8a2148d25c87ddcf537cc0ef9df46b9ef0a06f62a0620"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/luminoth/luminoth_stargate.png"
+hash = "e22639672c1f04546dd580aadd1dac5f0ea80cd46e59900242b0e66e517c6f2b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/luminoth/luminoth_stargate_engaged.png"
+hash = "4a5bd0439a44af4e0618e2ad2c6407966188ed52292668c7477a8439c920f89c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/luminoth/luminoth_strudel.png"
+hash = "e04ab6428fbe64ea37829325f05a8ab5f5f6b9b5438dc7da54a4e8f9a538ceac"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/luminoth/luminoth_strudel_shiny.png"
+hash = "e04ab6428fbe64ea37829325f05a8ab5f5f6b9b5438dc7da54a4e8f9a538ceac"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/playstationeer/playstationeer_event_horizon.png"
+hash = "5fc7368b3f08c121bffac342e9c89de7f10b1752e6c00e48dd3697461b6b7ca4"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/playstationeer/playstationeer_event_horizon_shiny.png"
+hash = "5fc7368b3f08c121bffac342e9c89de7f10b1752e6c00e48dd3697461b6b7ca4"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/playstationeer/playstationeer_stargate.png"
+hash = "fa23e0caa6d5801ab50eeb30b16c99e8d7a6bc027d9511f5f4f574138480bd9a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/playstationeer/playstationeer_stargate_engaged.png"
+hash = "804636f54082ca41d3e8a99cff31a7e8575c7cccb4947079a71f00ddb824518d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_event_horizon.png"
+hash = "83310c156ebf32c68ee7e0b265f8b10f1f0a60ee466f5eb69414c54cfc6b2ed5"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_stargate.png"
+hash = "c6f86f767cf39e201d48f5e6c1f3fafb6432add3defbbb14eae253c53b8259ff"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_stargate_engaged.png"
+hash = "6780e3c1f175c22b69811b6076b5e86842462d47dbe3dd67615a9139f49d5c2b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/tollan/aegi/aegi_event_horizon_tollan.png"
+hash = "1c8e978ae4a4ab7a390da4c061a945742d62ca9e22d43aa98bd5bd0666606976"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/tollan/aegi/aegi_event_horizon_tollan_shiny.png"
+hash = "faad5e6bd01ada0432bfb425c2bba14f39987850d0f202b7684946c71603788f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/tollan/aegi/aegi_stargate_tollan.png"
+hash = "d20462f31088652ae8aa5a29a6cc8eb545da453eb25e13a70138f18fd9c3246a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/tollan/aegi/aegi_stargate_tollan_engaged.png"
+hash = "6469bb972e62d430966694396cffe638b7149bd22a6f7221de04d44d58ef7588"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/tollan/centen/centen_stargate_tollan.png"
+hash = "e900a696e243e2c3fa0d2d037a08ceaf7d9529b035196d1b5d4185a81e7fd367"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/tollan/centen/centen_stargate_tollan_engaged.png"
+hash = "c8eb2bfefe72474ecaedaa43b164f6d31e8027c9f927ef90f0634dc05dc00c79"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/tollan/centen/centen_stargate_tollan_event_horizon.png"
+hash = "78a1e499471439c80433beee750a530bdee503b086fbd6f4d8a61104ea633bd9"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/tollan/trinkan/trinkan_stargate_tollan.png"
+hash = "ac82a051d2152c99b2077f81181c52c524bed80e1ac0d521314a4eb6f514d714"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/tollan/trinkan/trinkan_stargate_tollan_engaged.png"
+hash = "e06a0804a6787065ea305e36ca316512ada7ffef7b227bf32d749cccc58e1180"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/tollan/trinkan/trinkan_tollan_event_horizon.png"
+hash = "83310c156ebf32c68ee7e0b265f8b10f1f0a60ee466f5eb69414c54cfc6b2ed5"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/aegi/aegi_stargate_universe.png"
+hash = "57dd2ec24a02e3eea58869fd5b4b7ac81022e6c56db60c6beeba2c47775ff478"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/aegi/aegi_stargate_universe_engaged.png"
+hash = "56fa09f5c35e0d27261ae1c85a1f99c9f0bf4e359b415070f1126d21fbd6062e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/aegi/aegi_universe_event_horizon.png"
+hash = "1415a5027726a6d1a15ec2d50402fd7f069f685baf089120aedab764b9e08221"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/aegi/aegi_universe_event_horizon_shiny.png"
+hash = "5ee993738f41db9a8c7a28ed9fb17ca35735b05d6234675e983219c893201998"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/centen/centen_disconnect.png"
+hash = "ed1c1de58153d37b378258dac660c544a36c132a978af856a332a987c54a4de4"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/centen/centen_stargate_universe.png"
+hash = "a180a6ab1fef16749e2f85fbbac81011cde3cebdf1924e074143032cc4922f1d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/centen/centen_stargate_universe_engaged.png"
+hash = "1594e314052357a6b629626787ec54bea448aced701d3990061d961b1ffd494e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/centen/centen_u_event_horizon.png"
+hash = "3c4101f6191f4fb3317715b77e41e909adac409c41ae27285c567eec3069b50c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/centen/centen_u_event_horizon_shiny.png"
+hash = "b336935ce2b94938b4b0299ddb6a5ec285e59eba9898dc084a1b07a30552e76a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/cultivator/cultivator_event_horizon.png"
+hash = "d2e19fc731f9f46754e4948e0b488cfe5a675b828d96ed06149d0185f1398add"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/cultivator/cultivator_event_horizon_shiny.png"
+hash = "d2e19fc731f9f46754e4948e0b488cfe5a675b828d96ed06149d0185f1398add"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/cultivator/cultivator_stargate_universe.png"
+hash = "584fa2a5ff7f1c82d1a6215cae7dce3f2ab23cf2d047c47226f1f17df90df356"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/cultivator/cultivator_stargate_universe_engaged.png"
+hash = "f0fc8b78fd98181c74b215f9d05cad581e2ad528d777c9eeae91584fba4dbf61"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/trinkan/trinkan_stargate_universe.png"
+hash = "487905eb022dc5a23ac2ec06a7fb9be51423c2eaad7c974eeb8384bb42afe527"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/trinkan/trinkan_stargate_universe_engaged.png"
+hash = "4cd8de61a1bfff3df232d8029e6f7ccea38f8afc374ea384223b64ba884637ff"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/trinkan/trinkan_universe_event_horizon.png"
+hash = "83310c156ebf32c68ee7e0b265f8b10f1f0a60ee466f5eb69414c54cfc6b2ed5"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_1.png"
+hash = "2a4e4fe231b3973a1484becbd4b09f284de9f50c08b2df98ca5031310068ac87"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_10.png"
+hash = "7d8c983343bffd8ee3cf4c614f4baeb681fb0ae53c67fd96000bacaa36644cf3"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_11.png"
+hash = "ee7ae35b50472921ebc11fdcb18ba0c3c645481fee2bb96b1d701e8c571c7ba8"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_12.png"
+hash = "e387d0386a495afda796a87e0a2faae2589ca7d953668d91fccf1bdc3d568cce"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_13.png"
+hash = "5c78a27a0d5f692aefd4192a5d0b377769943cd6d12442d54595bf4cadf68ef7"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_14.png"
+hash = "7836a720d22cba1f56985087031982e250bf9466d4bb8c2c8844f85bdd7f7de0"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_15.png"
+hash = "83fd99102adad227c822afa42539afa359b8ee438471e41f46366ce4e993fc41"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_16.png"
+hash = "bd6cf4841557eecf2f5bdd6df916e58a1eb1daf8b9310dc0f79c8b1b385310e0"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_17.png"
+hash = "b210cc2ca58615cd1707b126e478df8c8dd702c017d890964c96bedba32ab2f6"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_18.png"
+hash = "a3d7a358abe6737249c5be837c3ab3cb45bc4dbd18a6e6f4dcf39c080d009589"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_19.png"
+hash = "11b526a39d5657151cfda8d11800dccb849ce4d78d399429330f657abc6679a4"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_2.png"
+hash = "0e17f784b3a0c25bd10ff05fb562ecae013aeb482b46c2257bc4cd630706e5f1"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_20.png"
+hash = "ee1c91b8b6a76f837b792412b1d4973efe7ad7e943ec5d24f0e71c77d359730f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_21.png"
+hash = "18c0800ef28140ef2708232c75b1aff0ed3ca54fe7b5fe710173006bf195b261"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_22.png"
+hash = "3ec4a06dc36b0ae6c6edea8b134d0774a321fc1b4a489c1877a0fea680e38b70"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_23.png"
+hash = "2af3abb2209a762bd786e5e5fcc69957eeb53652086ac66f891997716d0a0902"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_24.png"
+hash = "a2a59e51a64c11a5937c947764bd43a8c493f3081177daa2e37e34999d18d2b1"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_25.png"
+hash = "9ec5a99ac42adfb202a20838cc07de17263666d107784ff0c904e3c0aa533054"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_26.png"
+hash = "c40385e5f8662345e4c291d561f5661cff661255c2450ee60c6403c60a3400b4"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_27.png"
+hash = "80be003f5a5329117a92f3a0e9ca6066c5362b4b5d515e3249731c340789658e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_28.png"
+hash = "49d3fa87906b5036fc2ba75066ed5bec87bb0d3658d25cffa8b63117151821fb"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_29.png"
+hash = "6f8ca62ef4d1606170b5f2f8c8ef26129caff48a0a3de147605da77bf31c4ac3"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_3.png"
+hash = "6186de230ba84f26524f727e7d95ea3a8c47a0d9229163dc72f499b408a853b9"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_30.png"
+hash = "38c9112b76bbfe4058766b800b7e6e8e3553d2446128ba05c46862d99903f477"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_31.png"
+hash = "a6d2823f0a9591306768216b7fa36db497c27e5006d02ec5108b3250b49e356f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_32.png"
+hash = "0a4c130377b958088f5abea6314413da6a9fee0a2d1509645932add6a63093a3"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_33.png"
+hash = "32a00e770eb908cbaa7a2a2c70668b507b482add031dae0a0c553315e0bc0934"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_34.png"
+hash = "539e48ffca2728db55515a17afe4f359d21ba22a8960012072a40f9dc8959d45"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_35.png"
+hash = "18e3a01559158e21a55eeabccb057472b5c519b93aa61a50dd338f53c9b55197"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_4.png"
+hash = "cc1dc864343849a349ad9cb9609d6969decdd556b0c3d5dcf2ec7422ff61e380"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_5.png"
+hash = "35c7c25c57a0eed296c0b1758edae919ae1156b582ee8f80aa02bd684d26d93b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_6.png"
+hash = "a9086eb8e55b3bd66adf686aa78e8e2fb982ed0b0dcc63071de83cf786c5ae5b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_7.png"
+hash = "b71322c386885aa6745d1612a3260b4b7f06ff2c0c9e0d95931500a9c9372d08"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_8.png"
+hash = "e69c965d1ffc419a42cc99b04e2f54211529791a94e19372700ff7a90cd4378a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_9.png"
+hash = "e19c0384b189ece182be51cf95ebd9e222b380123d2f2a2a8cf263def8e3e826"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/point_of_origin/actual_binary_origin.png"
+hash = "396b84406f416b9b059acee4cdeab2039e0b5c88d6cfcf90da71766c59c6962f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_1.png"
+hash = "d3f0da9d1d1cddf42ead7dc824ba0ba38a3bd58fd54c73471bc8c9f7430e5d6f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_10.png"
+hash = "c201080517518e7e2ad8198c2edcb69d6d536b29f9fa2436ce3b2f7f1ff18df8"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_11.png"
+hash = "6ae0b95bead826a7b9c41349bc024e118e61414e1cd8b79cf9f809819bf81ab9"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_12.png"
+hash = "a6ae1bd70b6a46216685ae75c0c41d4c5284cb869ecac10a868934e1fd6e0fa1"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_13.png"
+hash = "6dcfb9b8abd1e72fbc349cf0cf7024d2da866eaee158a86b9e30bc4bc07d5dd2"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_14.png"
+hash = "4fe3f0dce05f1c9dde740e7b0df55ce97646adec5b0d977d491b924f7a794c96"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_15.png"
+hash = "feaa6684c915d22ef13deaf9d2cfffaed829985c1023cf3cc0bd8c4e5746be06"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_16.png"
+hash = "812a51e1b13e93b2965491e72d6dbd7975c5473057c814934199664ebef8c7ee"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_17.png"
+hash = "806f52d9755a736aab9474a090a81753bfa07b9a333ba88a0a06a37e423431d0"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_18.png"
+hash = "f5326a372205afff1e0b6875149ea10f4b48802b66dc9e412267c0821261cab7"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_19.png"
+hash = "660224d83cdb12b3c9bda24d2b8fa29ed68e2978edecf9975293c73688a075cc"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_2.png"
+hash = "a7e01ed1b759ea91c48996f14c3de85e61e66aacac60fbf5827ac57daeb0ad27"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_20.png"
+hash = "d9425f31575dc27e08af7f08559f952e892c6e64fd4b648be2e35819fc5dc48c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_21.png"
+hash = "aa804f772c54cdc2e63d73aef15ffcb30d93287a80653a2541869c085c25c429"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_22.png"
+hash = "9227e761f90e79d43e167c08b654120679f695f4d3f296c40f4f50ae051728bd"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_23.png"
+hash = "7128f13fdbdf24032d30a0fa356f052bdc6b5c5af6b839ea41f89b631ec76f4a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_24.png"
+hash = "a2cf5a8e6a75734de0f6fbb3cfc2ba7d73c70d069d969e1d5da2f1e0327e524b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_25.png"
+hash = "e985083b3fcc7882a793419e5d6db32e9ec32c82a9990408fb8adc9cad182460"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_26.png"
+hash = "5022e2ab349fb9c2fd34d406c0813f604fb95857939983182c312e5696f96bc9"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_27.png"
+hash = "03a442224815617d3769c790111a73f88fdf7fad9aad027a4c7962f4df385738"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_28.png"
+hash = "658357f87659f1a05b621be1c1c4c49ab9bdb20af4e05693410df6865990c087"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_29.png"
+hash = "0521198281030eba2f027ce2e26c6a68a45f7da2ea2edfd64d3e2fe326f0eb0e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_3.png"
+hash = "bab10e74a9adc3120a200193dede709e34714aa7dfb4998cee0f39d4989338d0"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_30.png"
+hash = "422592e5083c58771d1c076d6e8cee732b7ca1665d3f3cc6ae4429156f48e9cf"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_31.png"
+hash = "e19a6d85cd21f3775b0bf19abdfda6beb5ee3f3f8b52515398121133787fced4"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_32.png"
+hash = "6e8fb511d8dc3bf26c6d8551f7537f53c2a9f0a9aae2ff8120b4568440d3a60b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_33.png"
+hash = "2d52f879dc4cbfeb891e9035ce4831a93607d6dac53bef733028ca4288731d5f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_34.png"
+hash = "d70921334082ed739a189e97cf9de0ceea576bbb089f9b24544afa491a7694d5"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_35.png"
+hash = "ed6a7980ea4fef875da0977035c2aeb08a95f852223020fc8ccea58622db2613"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_36.png"
+hash = "1a208348f6c5f0b7393fe0d920a2639b3d562a609a768aef7ed8fce5d40d040d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_37.png"
+hash = "11ab1846c33fe63ff4f84ef1b4af07668cb1c6a2d17b7576ebb12600a24ab9ae"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_38.png"
+hash = "3a0872702fbd73c8f34e99629cde72401ff8c2aaa3d5e8a49bdc7ba3e691799b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_4.png"
+hash = "f25c8c019a4da84d2f0981580fe6af545cf45b826b308d70fd0e91b97db445c1"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_5.png"
+hash = "951ae40986d145b9c7e2c8ee52d511063055c846a8996dddb919d6582692f524"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_6.png"
+hash = "a6fa315eed9b2ce96a576539310d5b334f841d87e1c8dcdc7f0f1f86314156e6"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_7.png"
+hash = "2c0644ce374c78fc537bbc18340d6808c14d9f92ba3bebefb4bcdfb4011cd0d0"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_8.png"
+hash = "5a42eadcfdaf60c4f0479fecdf46d11a76279cd6f61efbeee46610bd27646caa"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/aegi_script_9.png"
+hash = "f5e44c958da1b6056691cf89c7b1dd85470e1bcb3a1b5ded998518543ed6e973"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/aegi-script/point_of_origin/aegi-script_zero.png"
+hash = "6ead30ba68567fced35fa94e19242437cfbcd2290e4c93123d3b2508bbd8a08a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_1.png"
+hash = "8a121e4cbb259b01232cd60cdf5c23ba105c1791b1bfe75041267d2470fc8562"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_10.png"
+hash = "d8d9abcaa71ecb93bd050178fd800850eaf1a24d2af6a9c0caca4b6a587b4efa"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_11.png"
+hash = "e9cf625319bcfa12a2ad766a2ec4c2f8b10c286610f0f6b1d800524072667ec4"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_12.png"
+hash = "d1e69677edc3368975bf37e91d25b48be27c74397e19f914c6e499eb0368417b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_13.png"
+hash = "9c6b6d2102d1584e83c5931e9681c8db68ec66611709ef1458f8e8706815b2f2"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_14.png"
+hash = "c45c8ac1e208529090444fd1c86657ed8f4f54b60ef6ed085f1c5d918ab3a4e7"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_15.png"
+hash = "6a37c5a07932a4300cd867f2a3239205d2c1500920cc02dc9be02c025815d6da"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_16.png"
+hash = "a1741c15bf52a22cb966ca038c4f12c5e398e3d7a4b8dab37928c5c8ab09c3c3"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_17.png"
+hash = "5fd7bed25c3aa73d5ae5337ac8318c6e081d9bc332805d1d5f010269de8cc2e5"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_18.png"
+hash = "72e46a5cd3e53eae90416b23720ead2a59ec599ea147447358d7a651cb838ac9"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_19.png"
+hash = "5bbb91fb93061a4ce230a18c885021914ced281e6fb0f4de694c7f65f409ed6f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_2.png"
+hash = "74041a5a45e26208e59b1af50d7e0a07e1e1c8a822b41bcc77bbf3fe99f2746b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_20.png"
+hash = "55af1e03ace776aac944e1f93961ead16f6f700aa06641108f95b0304827b371"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_21.png"
+hash = "7fa6a9bf382f15cc021236bbd40d3b75a6410f35892a07bfcbcdc8b7ed3ce4c9"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_22.png"
+hash = "5e4b69879d893ccfe61f890ac0dc23434a4d2a94428fb2099460fbe4ded57380"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_23.png"
+hash = "bc2c1864a1e400375d8e657cbff549a9ec468bee3b7bd06205dbb89724f5fda9"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_24.png"
+hash = "8b575d4d1aa119c2c48db9cc93eae68dfcbcf1f508e5c67c8d847db0084425fb"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_25.png"
+hash = "d2a4853e7167dd0825ac44e35869e524b88736ad65a371ef248452ad6bb59e5e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_26.png"
+hash = "42cc4055e3a64c4f0e46a546c314344f710b9a23b98b60fd6b65188ad7b40525"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_27.png"
+hash = "ee145512f5cb5019dcb5aad6ab1849a17fc45aed9e0239fa3b0dc2ce3440822d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_28.png"
+hash = "55dbb98b0f8b6e6532ca0451aec46ce327bf5969bc0e7971039c085a43d14159"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_29.png"
+hash = "6dd6178d792fa831052b58c9e503fd37395e08dcb79c1f84d48427211ae7ce73"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_3.png"
+hash = "f28b22aec4d5d5f4916c94326cb9072ce690966e84b0c41c7e54b6b6ae8b924d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_30.png"
+hash = "4a0257ff3403e683a26d9b2a3b7efa478ea81c187da9f58b8f815072c60ed099"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_31.png"
+hash = "c03e8780d668f3592c1796886b61ea6fedacefd77cd8430da00dea4a33a3da18"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_32.png"
+hash = "414404c657b1dc81bbb7102253d26aec74c51c1c6ef0fa2a4f5edf81e4692237"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_33.png"
+hash = "31e71c2db1de89dd0e40937610ad354f8e24320a36376b9a9bebfc76b0c47c7b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_34.png"
+hash = "ebaba878522f0c4466fb9788fc9672231c7f4930e62973896d17426d6c389b8e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_35.png"
+hash = "47cfe66b3d6d103aa74f21ad13f701ce1326c6c8dc44912cb45bd8d3507aa267"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_4.png"
+hash = "fe0f63c88948fb95e2576420d112f53fe77d131e73551d34f75d625a7f66746b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_5.png"
+hash = "26c083dde3cf62a5150434362cd9beec9838d295124c417aeaa4c450d0118b7a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_6.png"
+hash = "b645f5943746740fc89b63685b30a3505afbe8f97fad5a36d0a64d4eb60057c2"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_7.png"
+hash = "525283881b65a8c50cd4168db680960e85b84ee5155fb5886523ea2c47148a12"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_8.png"
+hash = "cede2503b7330552acb5644ca8bf0755ab11abe03c1ac0e5ce01bccf88b780c9"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/binaryish_9.png"
+hash = "1334c7160863891dee0854bfd37f4e6303f254781f0fbff8f94e9adc386009e3"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/binaryish/point_of_origin/binaryish_zero.png"
+hash = "864499d03132237951332f172ef9f10850ce43cf399e193a605ffca99fb496d7"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_1.png"
+hash = "6312c10a1a52dda32d86a31b8a41db9c9d5746e5cc61b6c7673c78b2ed8fab1c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_10.png"
+hash = "bb3fce3716d12440447d3699becf0f727a898a8c93beb9e5d97d2a05739524ac"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_11.png"
+hash = "e15b06729fa1d63ecd003cfcf61f3cfe8bdd1f348ac58e0c9b2d0f5d5cc36470"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_12.png"
+hash = "537ea79eaf3819f72226d5906728d418fe4a17245af99c939f2fedff1f4d3b0c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_13.png"
+hash = "40d3e44cba6c72ee5ab574a39122ac8ffa973c92b7944a755b581c5ff3b0e336"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_14.png"
+hash = "fbe822d67f8f4c07c78c88215bea2eb2222e236c0df91e2ae876ef8c021505c0"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_15.png"
+hash = "8bd1b01eeee06df22286a2b62bc2f00e4bb4bdfa2e79078578470dadd65b400c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_16.png"
+hash = "d8667e9f830934f890edcd2bc2d91228bac0329584168d1f72a08fff423eb4f2"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_17.png"
+hash = "27a857fd62eddbce73a5d536ad8781865d6a77b218105c2638cf1b3797e39a99"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_18.png"
+hash = "a6b1c741890120f5917d3ca7627e33495cc0d755be04bbe2aab2cdf7d6a800c7"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_19.png"
+hash = "c0c6c55985c463f89bd8d5dba0a2c88e1e786cb38faa362d32d0ae596a7fc62b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_2.png"
+hash = "3e8b51fa73e31730f3da06d43764c31490a2d3f2bbf6a7eafc741f4c3df48d67"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_20.png"
+hash = "01d32d5c79cfdbc311c12fb3f8344114194701e4ac61452c848cafbcd97382d5"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_21.png"
+hash = "e5d97653c9865dcd4c65c8e41f4ad0e51fb33286d2f45730202f07a3565eda48"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_22.png"
+hash = "97af531f32ac5e75ec94a5b2c757d07c04fb910301bfb74c69e5be12af012bee"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_23.png"
+hash = "88e049a43351deaa2dec4f045bb1acf2a1ddc66aa9f3e60f43835202fdfe1a03"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_24.png"
+hash = "169feba0ebc3f475f5faa980337e94a8e3efaa7ef5646924ab93f2427c5a69b3"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_25.png"
+hash = "2cfec34603bd45298bb9d3a363869057d7670210878f9ef93dfa17859c4423e3"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_26.png"
+hash = "5e3e404cf679d615516e36775be62c0251262b8caa1a30685a3c632d874e1b29"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_27.png"
+hash = "4142ecd5370e6cb1d8c248aa72beb0a2326ffd7fd37b62b10755493ee28f9af1"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_28.png"
+hash = "7097343150c86de64d183b7494cbb9a52db840e9d044415a68b85f7c87491427"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_29.png"
+hash = "5d0c20683509942f105c8a0f640f4918ba6a109b966d982fe4be2eb6009a4ce8"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_3.png"
+hash = "3925b41e18ce973c4f3a61e9fe0adb2f903f759ba4f2119f2ecd5829a4eec79e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_30.png"
+hash = "0e1256fbee3aac20600b5ea856abd04296fc833de4352f48356e575e644a6b44"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_31.png"
+hash = "0341b5d1f497df390b8c4584f43365c3cebcda356ccd2a5f5324194bc6058861"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_32.png"
+hash = "7365c60f2606f0c549da89e5916c199c424e383ac7289aa3a444690432b61829"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_33.png"
+hash = "2bcfc63a37d3a03badf3b4ecab188c89ded2af7fc010f5b41f8d5f2e57218ecf"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_34.png"
+hash = "9b2c3be6eb01721f23d9edb70445c2e7c5a2272cb82cd6bc90b95204ce715984"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_35.png"
+hash = "0495bbf476ea00918c28315b69109c861f028d07f82813cbeb191f30c00ddab6"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_36.png"
+hash = "63ff95a24f69e9376d3d17774291a8730bd3d44a5231620fc43e936dcc1fc900"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_37.png"
+hash = "3f5ead982997b9fd0e8ac71dbd766b19c145ef3cc3d02d12d7a12530581076c4"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_38.png"
+hash = "195a2388dcaa7f45bc6de48ee00a723c9f830b6799093bd0e8f0ffd924a977a3"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_4.png"
+hash = "f48e01fde81ee123f11902e79fc194c05035f0c9530c128e3e7549a8f8e5ca94"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_5.png"
+hash = "5a7bde1531908dbffb301f5873f5ec5bca2b70a575a696732316fa62a754e190"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_6.png"
+hash = "a7b10392c8d54001b8e77cf6cc50f2b010ee68786aeade027afa15a516b433e1"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_7.png"
+hash = "8670dfd3b881572521ca139fc96dd2da09180e19a59c694cf1dd028a9e71bd26"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_8.png"
+hash = "59a70fcd7db6d9cc8b9c5a9ebfafdbe45eda2772b8a23de1f66cf20f9167bd02"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/chozalembic_9.png"
+hash = "ead2d16937f5e3f57b52c255d9ec410fe09d0ca1cdfc1ee950693a8cea07c7a5"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozalembic/point_of_origin/chozo_artifact.png"
+hash = "1280881e6b79041cbdde8984e80a53bfb0c16bae3bbc311bd65bd649285d6b17"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_1.png"
+hash = "1af274a4278eaecf1881a0e3ae5a710ca4edaaf020b99cb2062de46da81699fa"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_10.png"
+hash = "1ad26832d45763ffef47f9a5d51b1336575ebf7c60c1ec846f02da946440989d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_11.png"
+hash = "1ef3de9790937c5502b70dbc59f3d39b4100ded1749e7df1d996ffc454580262"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_12.png"
+hash = "15eda1b5a255029dee05c2e086d09879a529204dd35c790620a4c06f422f2da7"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_13.png"
+hash = "7a888fec69b1dbbef4af2705230500c08121b047828b6c58e1664807346b6dcf"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_14.png"
+hash = "607b0e738993bfa1ec3058b9f28e6c8c790cd6d486faa1ddf592594da2ea33b2"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_15.png"
+hash = "7886873aaec3b1dfc8cd387ac3d709a522d150ac8e804544ac39688064fe8b27"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_16.png"
+hash = "a7c8faf6f711ca5aee69adafb63688c83734795d0862f10f02eda43c1268eef5"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_17.png"
+hash = "5e75588d7e7a77e11b87eb4b3c5b7cded32321613741feb5e331081a5e89248b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_18.png"
+hash = "c2138c715cb2d7f419b0204447bdabf36e0328c542db550041f77c2e8dd97ce6"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_19.png"
+hash = "f374e65f4d9bc73e3b0610dba8be73e8d89f64d80fa565a1441145ac3365c19b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_2.png"
+hash = "2bab4a7076b50b4a61ccb5b5b88204bd4397becf03af653b92cc2131d6424c77"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_20.png"
+hash = "7a3e0bf313b5f7205be2d8e665ce018c105cea05178378c3da8bfe5f32abfb6a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_21.png"
+hash = "e522664874893c6acb7d183f3c940a0b5ea1b7c5d462ccb3fd587d5c4f5f0a61"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_22.png"
+hash = "f65870ace0972ae2e37f5c065f62cb52e75a6c08dd163e0bcefbd29764b0f148"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_23.png"
+hash = "e735fd6036755ded8a8193fce8fe05946308f98b68ad10ae38c3439d55ff4bfe"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_24.png"
+hash = "59a02e64fd840ce250eb2186e57b984eeb822ecfac5eafbfccc6f26c5f578913"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_25.png"
+hash = "8f1d15bcf57f8e48c530bd8adeb5d3e5513d6464f344e1dd4f2a6268cab5487b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_26.png"
+hash = "4ad8d76eec71523c4526ca3d298901ef8b97bf9831a4e390f3b16402efb99e65"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_27.png"
+hash = "d14aead2c16d6ed7017a7feba0aee218eddeabb9a0c9177acbc9d9163769809f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_28.png"
+hash = "55f931574ddbc0fef6f483839c1c4657e7abe730d650b4f4733bef9c8e5b3403"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_29.png"
+hash = "adb22c9b82061146130c95ce4aca42dbf33701c9437b80c951ef2b5434c0f3c9"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_3.png"
+hash = "2346d5098e24a70df5f01695bcfdff30a0a30ab2a0f23ea9aa458a2c52f6d945"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_30.png"
+hash = "50ef8242b08c846ee447d63beb95abd1d051dd518ab5b2e8c64139ed0de83ce6"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_31.png"
+hash = "a2dee24e9468559a7ab21a7e93fdf1850d9ea25905d1eeabf698c4a70ca4d464"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_32.png"
+hash = "91a15f17ed6a4bbf21ead6e98777354725060873501e422b62e780eb1a3deb27"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_33.png"
+hash = "3395cb6794bbe5a11ea7a0f5551d3144ef45c80cae742121d07a6e4795357689"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_34.png"
+hash = "89d722bf44b0292281663cd600399e2956e06f8ff752a1f6c4828dbd7a74a879"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_35.png"
+hash = "7ed45882937bfe669d9d95663a47b57d089e99e66507c23c1667cdb19b2770e8"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_36.png"
+hash = "ab00a6de9686cc16752164c9a80084848eea0397379c81b652ecc65df64fb6d6"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_37.png"
+hash = "e471f51ea1d82a6a50da17a78ac9c5c20e23c32da9134d96caf984fe5691d7d7"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_38.png"
+hash = "c246a4f2ced3b8e06e0402824a8e584a51f2cb07884aa6eb227e7557c12c7c3c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_4.png"
+hash = "77e71a13ff0f0abe081515f6bf2303cac7bee57ab41dab99ca3aa5a294d3503b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_5.png"
+hash = "505182000d9e83bc414422e8643294e7a934728541ab082276bdedb3e4c54da4"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_6.png"
+hash = "f02f7981329bd7d2db1fad17fc842d522300acc02feb61977f06c7cedb48bc92"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_7.png"
+hash = "75f0c221e81bf4d873f000265eb14836872169619814387d708781a41faf4146"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_8.png"
+hash = "6f5bc1f1ef9cebc1ed588ffdb83e01ef9b2c0b828c4e1fd4b1be24cd566c3e95"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/chozo_scratch_9.png"
+hash = "f37a7ba44ae45678c39ad8632a7f3b8a6b923b244d9f948aa8498e7fed7bd75d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/chozo-scratch/point_of_origin/chozo-scratch_zero.png"
+hash = "1f08be384506edeb603877385fdfbc476bcbb219efe11f3f5624efa63392599f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_1.png"
+hash = "3367ff0fd734f3b9b48cf15b39543e54fb2e9e401d96be494054de3f3b6a5bcc"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_10.png"
+hash = "cc043812326e3ac71540d9fd223c7527147d4a837622c03715924e72903f4e91"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_11.png"
+hash = "8ba86f63b3e2b9ef900716c39cc2dba484652da8555a9241da038b89059e2be4"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_12.png"
+hash = "be5bf97b4b8b1b40fef040bd4fac445460ee793c6e0f4ebb13ad09c7d76ffa68"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_13.png"
+hash = "1ad6dac5f81b7ead4a74cf831a9d2580e753e4c9dc159c0125f2cf39df5d5d36"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_14.png"
+hash = "74a67f80a83dbea3af1ae0b51f1655fccb469065f9fa6fd7b36ab2c30c03dbe6"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_15.png"
+hash = "3ed03751084e58a15b03eb3f9693d067e666f31e2ac607274c52aedcf1b6dc2a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_16.png"
+hash = "d5c19d2a65d76942c872fd66dade15487dac5a3105d1f01a7d47115e721fb991"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_17.png"
+hash = "6d2f58ba1f2d88f3a26ab7645a75764bb1dced0fd2217d449951d68c73f2249e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_18.png"
+hash = "f011552b5f37c617e73f54b0e8c4d30687c4cec51839f34dfef525c13bdb8617"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_19.png"
+hash = "87c0c609323a0e2b223b866f6b7deb7d1e8522993ea42a0bbf5623d7b3858295"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_2.png"
+hash = "20016c3fc3900f24adbc50a3096d76571d03a07ec59cc3c5b72f986381375373"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_20.png"
+hash = "89495f717feaab654bb8b289ac3d0d49dbfe6c655ed84946387be47696135d74"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_21.png"
+hash = "4990fa9e6372240a9ade52cb496e995ce718a2fc187a8ee886ecf26aaddc54ad"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_22.png"
+hash = "7e6dc1cd910922c5ad26f3563b14d185d7d76b6bb862a87692a5ae3b41fc72eb"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_23.png"
+hash = "6dae114246d9794ceb58d366b9f03629c74623d4d352959e79ec4312b2093355"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_24.png"
+hash = "e891d1663a4867c7b6fdf55a22d44d31d88caee45b231b29b00dcfb92a0d57ce"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_25.png"
+hash = "8edc39c9831eabbc57d8615b7cf7b1df4baec6a5aeede66189c2b309af86a9dd"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_26.png"
+hash = "8a3a92d36b9d0f13d682e9b27fda64c6c6a94bc92e459908772ca38ea6a36e0c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_27.png"
+hash = "99721a9eaac8a9f6349685fd83b6322122e5a4424fa3e19a006e3db22d04e1c6"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_28.png"
+hash = "3e44ab4dd3e9721ae148dda3b21c2c5f917f38b80addb48d230b90716bf04ecc"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_29.png"
+hash = "3307aeae63658a072d4428eda8b5352efe8700cec0035861d433b11316e9e6fc"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_3.png"
+hash = "a4e9029824cfa9072770c950e6ef82fa80df34d31c29098921cdd1cca97db7fa"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_30.png"
+hash = "45bbf32f4294e4352754b4b40510fd9f7b04ed7134c74c149342fe97e4d65aef"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_31.png"
+hash = "f3ca48bf7a4bed6298fce802f67f5adf8f7dc7b2defb5cea0dacc4de3589da87"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_32.png"
+hash = "c2af511bbeb65cac31d409a1633984ac0d6552fcf3dcc14e153ad5a9be59885a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_33.png"
+hash = "a06b46f3b6ff87f9974cf5ccb7a4a7320b991680d56f7ff2e1e9536e2c2cb54e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_34.png"
+hash = "bf4a44e3967d017cbad30ab75995d6c3bb4696bb6eec1bf2d015cd51ea4ff97a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_35.png"
+hash = "1e694ba16a9f29d3caed916c14c01b2cbbec7e060cc87865f397a29df8f627e7"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_36.png"
+hash = "28a367a13720218e2871a99967b0d00794061e0b3a5b7b3bf80ceaed968b05b7"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_37.png"
+hash = "1297f38e1ba28fe3509a59a27770d549dfc3fffbf06d8462cdb0fffe2f796a10"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_38.png"
+hash = "c22fc22e25a9ce8edb02b1470f2cd60c2076b478ed2ddc0e1ac512ee877e7dfd"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_4.png"
+hash = "ee032a7ada47257a336d99f3f7987032c4f83f83c0f46b766ced48a6021747ac"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_5.png"
+hash = "74ae641a83647b08023050fff6c50d6ac8e74c617bf412983cc6bf51f74b4e42"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_6.png"
+hash = "9526a8812c346262b98e3a28d06229c51e10ef759cd40ab906a65d678773798b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_7.png"
+hash = "08a435f3cd6c1fd23d141454f7b5728974a5351862bc0bf7f876489a1537fff6"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_8.png"
+hash = "bda953b1b2b1e63a0c19e920d28dabd3f6b4450c2a16aa86e31109128c393d84"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/cultivator_9.png"
+hash = "4bd749bc2f318d544ecf61f5a60050800eb36017317528f77515657025e619a1"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/cultivator/point_of_origin/ancient_zero.png"
+hash = "6af1e233b062afb4475a4e40cbc6569392734faabe74a05c8c48eae4f312d029"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_1.png"
+hash = "e4edcd15b4b5844a74cccf1ab1f0d447602742fb68178ec88c27a19bfe993680"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_10.png"
+hash = "e5842bf9163286c8c016b1c93022d5f31a4ab1c46b6ab364e23ab1d58a13fd82"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_11.png"
+hash = "b355e0574f9c76824a18abe1826b38e9fa930ccfa9296b32de8442251d9b078c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_12.png"
+hash = "a370f3e356a0e3c54f7ff0f64d1553d149f000ba092c0802f42d33693cc4302b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_13.png"
+hash = "87f41df3eba28a3b87ef15b9638f79affdba7a164bdb126cf9ba9fc5654a7e7e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_14.png"
+hash = "656a1c431641d79b8f286daefcbb551cc0ade06a8510574df381bdc23e19d065"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_15.png"
+hash = "397d6982b0a3b0d7b962088a4cfa922359ac9f6718e8c773a7c7c8625f98554b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_16.png"
+hash = "2559e9f2333f1d527557cc67de62b85cad98dda3eab5f5a56219e5b004729094"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_17.png"
+hash = "6f74fcf896b01cc50048da4e6d42f703a3a969f287f347097417167f55005ed0"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_18.png"
+hash = "fce10f9f70ac6ad2cb19dca0556daeccec4f0ca4c03d90f0e28f5941303f5414"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_19.png"
+hash = "48c9ae77b2629e9e24830cfbe999af7c620392312a412c52521c81339f8592e1"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_2.png"
+hash = "22d80fb8f60f3e748bdef398a951e1a7c3198f5a6842ad0a41263bd24dd51562"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_20.png"
+hash = "fe112e9db058852c2c4787b6ca198a33080c83b4b5b67611fa254f4dfe49f891"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_21.png"
+hash = "4229275e337efbe13af31fe9c2bb33750a1d6710f552862194c74e5e04d71bb1"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_22.png"
+hash = "41b16352d5bf50fe26ca2011fa9ac8c249cec588171314d1d02149bde49ef865"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_23.png"
+hash = "a9a6b1129db4d85c682c78ad2ee03be9df0b6d64d10e98c82fbdd852c9661463"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_24.png"
+hash = "3c9d3b2b1e30dbb1ada2e04b8c9dd18be8dba9690b8ecdab1c5e074119288dc0"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_25.png"
+hash = "aab81a9d86d58622d2192cbd873496457811a257074524d2a2ab9fae18d1fbea"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_26.png"
+hash = "eb609c415651f70ffd0f579410f5105fd9631762dce000041da070905722f547"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_27.png"
+hash = "bda9c0775923d79d22fd730125de6ad7e639787014ec159cf458a07719d3aef2"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_28.png"
+hash = "2dd442cdb8b0c55471de496a73de4540f5a954a29f2e6648b1b09e24bfbdc564"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_29.png"
+hash = "3e1e02ce2810cd8ab7bd07d51e0f135ec8b368827ac39afcd81d4a734234bbd4"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_3.png"
+hash = "401dede12b4ab536a1f0b7f0102c431bddc510bb1b075a59d98a922e81dfa387"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_30.png"
+hash = "2f6c2b3eb65f20b77cc2d233e0fa8b0b526ffb75300c5ecf04bd10e973be1a78"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_31.png"
+hash = "9d3cc2158088963ee1d94f6f7780c871dd3729ef9344067a991b1665c0be908e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_32.png"
+hash = "b31c62927d45d43d6d4ec8310ff05cff9cd8616f2589c004bc99b074dd451a08"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_33.png"
+hash = "17b9e000ed8113403197806712ad93639716c18ab796f8027f40e48fe79adbe5"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_34.png"
+hash = "e975d4527cfd464d12c460112f7918e90c79fbd728d0198cbde421aafbdefe5f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_35.png"
+hash = "37a50782d1a1b4fb3bfe189bb0633645782fa5e6d3cf186571bb39f08f500aa3"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_36.png"
+hash = "5a78fce4188cf00a6421f2f38b3505f475933be71d6b7be3ce0efa543908e04c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_37.png"
+hash = "d9479120f73fa2547dfb3135e6b47ecb02b5a9e0393425fda5b8f2d1ff7bdb2f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_38.png"
+hash = "2e97532b52659bad64db5c5ebcbab0abc43951a9b0f6eaf8395511248775123d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_4.png"
+hash = "2d9ff06420f488d890bca8e3767bbf21ffcf4bac8ac07b46d9bc0da907774bb3"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_5.png"
+hash = "9e3da22c44cda037b0de4f963f8967c81d3e7be58ea28ea7529deb9ced4fa748"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_6.png"
+hash = "f1ab6a49469452dbd2839adbb3540a2ffa0d245f7126e353c5e16b651abee7da"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_7.png"
+hash = "d97f6c5d9479712587d2b2451cf91855045e8b2fb4cda7c5a7855349c3d20e3d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_8.png"
+hash = "bbd32aa7ede8766d19e339d44a25977a6d8202bb4b4d8ab74ef49acb423ddae4"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/luminoth_9.png"
+hash = "5c3527c500585799457cb8db496a181766f30a80d1a1229c924e811cddf3f289"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/point_of_origin/luminoth_zero.png"
+hash = "79f29d5f85a3e36f88db9b0af6ec037193ae83d3d2cd48a2858fec9779960e49"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_1.png"
+hash = "5b2a91b9e5c8a9172e084b584f8b7fe3d719d89e8e91f506ff92d3188b6e3fc9"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_10.png"
+hash = "549df2c637394a315c336db31f809e9b8e7fe576307f118a8b6ba4a1efb7b522"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_11.png"
+hash = "1619fbf64dcc7c046da68c1108d8f321a821d7a17766f42170a924e14f6e7ca7"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_12.png"
+hash = "7bca6d763fbfa552f6791dabc17c9b39ec90450cefc932c2bbb1ff8a2f339f08"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_13.png"
+hash = "93b10c536458e3fd03050ca66eaf700d845f798fd762098a4b5e04ac8fd313a4"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_14.png"
+hash = "86dcd9c724a8aeea51fc9bb9c092b645c53367bc1296ab2de9c62c32c6b8a0e0"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_15.png"
+hash = "a33399c0d8bc41f466ebf81b6bff537829a43eb9163dca7c3f499aaecadaa10f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_16.png"
+hash = "24bc88bd224a77c7849a24bc14b01b9596f3bfe3c915ffe0f7a81ec8efc5f6fa"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_17.png"
+hash = "8631cee5643695a420e572114c6020a7b27508cf8df55475e624ee23a50fabcb"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_18.png"
+hash = "318adc53ee978e09e811fe5f1bd7ed966e42e1ebd870889829f93ff6fa0e11d0"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_19.png"
+hash = "cf6d3510062fa43122bb75fd1f65538b4f19b868563c52cb5a27f370c2f308b9"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_2.png"
+hash = "5ecf278cd65e9442212268c25c103a16f950db301710538d96af795476ecdc2e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_20.png"
+hash = "f9d4aca57bc898ab6d6077696475674ed7ed6e9443d53a30cfebdf284ec56b2e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_21.png"
+hash = "d13c0939acf8dca6e8c34ecb7f54feba79a37df7375a3338cdd42df36fdec82e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_22.png"
+hash = "22032e944e6f42ed68999d8730093d9507dc9a03f845063dc1fc1540acd8cb4b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_23.png"
+hash = "20ea9abc07cdadae6ceca11d720c56e52f41ec53f0d693019c7f57e5529c98d4"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_24.png"
+hash = "1ad0d91ef9a7567cc7a7a24bfa058c71511d8dad2e6994c8ceb2f57b75632ad7"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_25.png"
+hash = "0be5efebf3775d77f7262984730a9581a2dbc1c573cbd6ec3c060bdc6cc41f0a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_26.png"
+hash = "80f8c27ff88a811f8c98bf6df6da388de8150c433acdca34fdf4cf1bc0660339"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_27.png"
+hash = "2aba9e6bf3ac7aa347781c5dbb04f8ce1b47bb5660bbdc4282d75c3c14c85688"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_28.png"
+hash = "67317b9f0ce3f2eff5da2673a5b0ea3a604e870f2f3a8fdd3659ffcbef8f843d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_29.png"
+hash = "80f9cb438ca29a7b5ca9a2294aad03c1176ebc29a70e7f168526193cfd20fd59"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_3.png"
+hash = "3a1751cb2f93df4a2b01e574e1bf10ee944d07bf1f3c3081b71425e8d83a5b4a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_30.png"
+hash = "59405b76031f36e9016412f299042f61c542ee5eac34b298b043b34c5e8d7f0b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_31.png"
+hash = "d36b5658dfd094d0b4ca1421d79c37aa45639cf4083c6fdf8519059ffa53698b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_32.png"
+hash = "393a65278aa30976157767a1492de896005b8b6c07118558089d06c5411195f9"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_33.png"
+hash = "5cf32688d79cf24d74a051c682f9fc797421ba642d44957fc2d681aa867b0fce"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_34.png"
+hash = "2e853093eb079281eb742b3a88178b8a175974258b46ff0efa17255a99ebc27a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_35.png"
+hash = "cf82024329161ac1a59ce9c94143e69e32010631065ebe51bdadd236725d7db1"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_36.png"
+hash = "d5dc73c3269d7f8e3f7ae384aff94ce9a3129539ae7ddde3afa56f2d21878f44"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_37.png"
+hash = "83a5d0db00b59cc6350dd3ce03c498237da93ab003743a38323c24fe7d856dbe"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_38.png"
+hash = "e3644a0344ac64d4293580a3e7b89857884cc9d76a247fcc97be9b9d86a1b725"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_4.png"
+hash = "b9a0d57dc4c4e8c41d018afa2d521da378edc2b0b69a5d55ad057b159468ebe7"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_5.png"
+hash = "033c063dc22231f93e7b7507929e34569612c1066c5a7b18b78648baaee4c332"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_6.png"
+hash = "0a6a9a609543f84e42ba50d73d528d5f3d49eb88d74ad47508c4de5b567459bd"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_7.png"
+hash = "c611f9d8b47277ad8c58c877fb6bb3be681ca4bf9123a0f7c6f41084526c1a82"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_8.png"
+hash = "7309411d0e6b0dd3e3ea431a6debe41f4143118d8c93e434d755a4842f7b6e33"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_9.png"
+hash = "c34c5ec57876853e76a10341692ef97691ddbfa0f91052bc75ad960351a73a7a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/novakid/point_of_origin/novakid_origin.png"
+hash = "5e1269ca4a96a29653a69cac28a451fddcbf9676665e16b966501c59f7111702"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_1.png"
+hash = "8aeeb323095d26a551231867daab03029808022b1b8c27d1718c7e84c17bb057"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_10.png"
+hash = "e869dfc0d161f8fd17860259cbf716ed68af21d32a3ca00ebce3ccc4629cb7d8"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_11.png"
+hash = "7ee8692cc56c5d1e71a1c12a19a36f1ed32e0df5618822365bea485215666e8d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_12.png"
+hash = "60a11e809045fb42bec03eea74198bf7946ec7e5a3d264750503953ea8fe5e82"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_13.png"
+hash = "6a2469673bfe51aebe834ccb6d0568ebb4ba2da2dac9f51e240c9e7429cf234d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_14.png"
+hash = "bb1c8e7c31e27461f39e1812e945ac12e868e248205ad36eed33dbb498077c1c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_15.png"
+hash = "f22409f5c94a95a4dde81db3d41dce865b69a11d0fa67ecb8ce22a1aa769d448"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_16.png"
+hash = "0727a0e26abf6a26b172a4020ac0679752cdd4160fe6148de2cd5bfbffd391cf"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_17.png"
+hash = "dbe1a60f6bcb0501293f3938cc83406f02bff391b23ba7641aca69caf8378130"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_18.png"
+hash = "b285e7ff1ed221e6677dfec1b26f32553271f70a7615e8ef03c75cb677b8ce9a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_19.png"
+hash = "a72fd4ca922a3a0bd9939eeb7a475f33a9710a1927d328c06b21a47d1e77df7f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_2.png"
+hash = "de6212c520e677b800cde840e4bcee229b13c45450684426953c82f3b460c49d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_20.png"
+hash = "dfc15ab0e78e691d365e30d917040e94b43206d1ea1aa91f4b1edd48ed9aa53d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_21.png"
+hash = "584e027ff35429b959fb3971e7148336faacd14de16a965f536748889506cb37"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_22.png"
+hash = "737af96780363fce0fbf554e740c9124b7674fb8277a4f96c607f9b94bba5414"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_23.png"
+hash = "6ca61e5f584fba4f6f58601b5cacb5bb333c8ef40ee2104f6b28b0f24b35e60d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_24.png"
+hash = "0c3a6ae27f3f731a7cc55d63867d3bb34e60c6b2fd626fbd0c55367b65e599b8"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_25.png"
+hash = "d585b6c4ab434be48a5e230497332a4574d31a847dbf8fb17a0f119055be709f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_26.png"
+hash = "bc8c805ea1dd9d93a5fa306f116aea4944ba062ec35c2c0a2ed015de76ce74db"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_27.png"
+hash = "c0e0ddcd41d7bea93f19b0ffeaf4ba809e588a7b2f05656f7c53a4c4dafba2b7"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_28.png"
+hash = "9053964afb09f205d33f6a60d4d56b21f4473e53fb050a85e7a8872fe9660839"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_29.png"
+hash = "0e4e8b16c87bb5996bddb4dcdb258d66958318d9de50c650f9120b421bbb5e55"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_3.png"
+hash = "07c55b72dcda9e639961d11c5887ff64e39b7d709977f57028a9abe6311ce370"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_30.png"
+hash = "4702633e3cdae39d15bd7fa9ea60eb97ad077833d8b6c510d8b9302fff10c1b6"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_31.png"
+hash = "fce7ca5cfcc9b6d300aa22b090f08dc726c414663fd91fdebbf74a06297a5bfe"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_32.png"
+hash = "3b372ce0e7254a8a895e88687c15f75a08adacbb2bb0b7eecba0754b2027370b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_33.png"
+hash = "b2c0dc2b3a64987ec04e37707b44582986a2f6e6564d4498755b38164a2f1805"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_34.png"
+hash = "4e11f79b4a29975957798a2d34330641fd40dfbba0bfaa738caa0befcfb7e04b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_35.png"
+hash = "431c13346c71e276714dd59919f0d35f620b3866ecc8bda0462562748de36e6e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_36.png"
+hash = "cd0a5d024799060dff62168db2d7e4cbccb50e228285e2879a015599f45ea559"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_37.png"
+hash = "8ac67c96b0669a11702e531c5d6b705a9af895795d932814c1e55254f8fde903"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_38.png"
+hash = "35e8326a76545fbad657313303eb49b1a4d972a0bb6eaa0dc6df9c7984d399c3"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_4.png"
+hash = "f695f071940512058ef9c527c651119f79778ef4e82b0bd8dc4d83b45ab71337"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_5.png"
+hash = "9d279c313d3be439127b7e03196e8b913921f9ea001725c2332d222ef57c1b94"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_6.png"
+hash = "89ddb36481f70b79f5455240601a5fea83ae2d109963a27745ca5249ea02b309"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_7.png"
+hash = "ab4698315c50d18235795fbc86c296bbcb9655962f2252e90b2632fb81c887ad"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_8.png"
+hash = "af36f31d2d84c0e8439ed8eba86df82585138aafb564214e49be09118f6c05cf"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/playstationeer_9.png"
+hash = "951dc56dbbd132a923a74bc3a7fe51ef7e68a9903a20cb87b261be2de9b73269"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/point_of_origin/playstationeer_zero.png"
+hash = "eddd443f69015193ba15ffd56b9cc83fadbcfacec05c2ffc47f7c25ce4697d52"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/points_of_origin/apex_miniknog_origin.png"
+hash = "3e11dc74bdc870cddfe1270841fa0c59080ae832655396d4a9193d83eda22225"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/points_of_origin/apex_rebel_origin.png"
+hash = "13586fbbebbc4bc8a0d38cbc51492c17d30eff05673661f2098e5e34b276f2ed"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/points_of_origin/avian_origin.png"
+hash = "ccfe1e9184744aa6d1262aa72d8ec5beca885c21b6dd5ae5d83af5968b0e28e8"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/points_of_origin/floran_origin.png"
+hash = "61143acd0352cedf466781c068e87b773c93c83d0a4c48a50f28125e76d77354"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/points_of_origin/glitch_origin.png"
+hash = "ac17bfa864c52697224cc6f9b49f54ea0b36ba35cfb1735ff5e3aa8311f9f80d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/points_of_origin/hylotl_origin.png"
+hash = "1350d97f3b9b6cde8888c580ce651b1278a3e38cff39dddca9b819f421c057db"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/points_of_origin/protectorate_origin.png"
+hash = "abe5f75656b2e4b1a93c81de92d2a5341826899b7b2515eb81ec332a942fa30a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/points_of_origin/worn_protectorate_origin.png"
+hash = "567aaf636797eb23170d8743827c5b2b7defc88b98ffdaae9cb8e0faef7612d3"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/point_of_origin/prime_zero.png"
+hash = "f368f8daf7eda13e23f95f76dcb876aa7181b23ba1e9bee916c2b63f72eb476f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_1.png"
+hash = "0dbdebe983c63b2ed51c731a9250b8eb15ff8efab3ea9a54de9af5d399bbcf2e"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_10.png"
+hash = "abbc91ebf9913b9a50880887d887172bedd76dd7ca59be50895a3372a08a69d0"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_11.png"
+hash = "59d7c63ddd6308d05205e4851e416342e65659760ae773c7d5b424057c2493ae"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_12.png"
+hash = "5df2adba53bc50c22cf465aa4e3abff041474693395c1bfedd159cf164e91b20"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_13.png"
+hash = "5fc19eb044196c232f863643ae94ca0d2e6ff5fa58d9e6687d03950d582f5d00"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_14.png"
+hash = "86cb75f5aa261249ecdb8689d64460befeff5a1a274a4cf2b411a7d08f817e98"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_15.png"
+hash = "5c85b2cd9bbef26cf7425b31e85aeaef64e552b9fb6e8373a1206a20659ca438"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_16.png"
+hash = "7e62f94489dd0751bb172c4ea1292e2b01718ed2c4189405facf31ec725ae919"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_17.png"
+hash = "67145d625ee1a1de548fbe477804287c3cee1dc2da201e91739941f1a5752bea"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_18.png"
+hash = "f922b691faca3ff5ea5ed44efbf27dee1a883bad7ddb79a5bcf122a1ddf832cc"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_19.png"
+hash = "59b69d25fda61399de5ada8fa7ede6d6eaff0cf96c988e00396f0021f2b7c34c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_2.png"
+hash = "5d6a72140c35b595d5f7f9d65facbac7423fc08ba252c38242b41fc0a12b3b5c"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_20.png"
+hash = "ca8c146b8b7046dc5fc0b141b688b80419bca274231ea56c939d570cfc31434a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_21.png"
+hash = "640c7603f3acfefcb6ddc78630f76ea6004b2bdb1f36f233fae89adab5cdc0f3"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_22.png"
+hash = "edb2565549d8275186bf59c0f12e66896f8aa7751a11488e5f5669803b894f67"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_23.png"
+hash = "632c40ab1f27ad3999eb9fdaa8a89424c381cb803a92dc057ed6258a7f396fff"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_24.png"
+hash = "8ed413845394e4ed90c7064023cfbbb07fd82be096580b980bea39e7c86676a2"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_25.png"
+hash = "2ec43b27d0680bffe6d422c0beebf22eafd80e9c1c3510a928edad2590415c98"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_26.png"
+hash = "b6aa6e00a97df2649a1abe6d806aeda9a22b3dcac579c9e46622bcd4d265ff95"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_27.png"
+hash = "d649d0903d74278a76628dd517cfd28b4f4e91700e504721a3079fab2efa1b41"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_28.png"
+hash = "455c50de6e37affacec422513b7857ee1dae276ce9665bb6f16b2ccd4f3ffbd4"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_29.png"
+hash = "58cf1042344a6433e946c10507eb6af561b17ae8288bb478be3dd3ca9a07ee9d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_3.png"
+hash = "8f33442f107994f81f18c6a2103ef4fb690aca93bb31ed41630473aa9ab9e58d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_30.png"
+hash = "b49cffc90b65a7f32bf53719833f34557e55d090a0566a693d6f4107ebc10d39"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_31.png"
+hash = "c5762df51fac0f7f48d5921760138f1ec2cfa05b6cd16ab17ef8e0cf9fc87ecd"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_32.png"
+hash = "f539338da857253365d4266bacc86efb107c39b84baad600b3dbf29f875afa87"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_33.png"
+hash = "9b472739ff6dfcedc3ad1f71c161e94f2ba9d16b0a1710038f75a8c9576bf8c7"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_34.png"
+hash = "f207c9bbb2aa1fbdcd928b5b845b45d4d3196dac3ee6183eec3ead8e70605aeb"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_35.png"
+hash = "62a10951992ca2365feec56521465196e7cabd2850e657fb1dad9af690bc6cf6"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_36.png"
+hash = "5a3df7ecedbc6a48ba1a6f6c995ab3a0b5f0aeb142447636263f3737bed7aec4"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_37.png"
+hash = "1ac967c53be515b3b1399af0141649e72ff28e3835b4292761fd1d83f88a4f2f"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_38.png"
+hash = "d20929b44ff05a3e28a73f43a96887949e15c7667746ebcf792843dbbf600745"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_4.png"
+hash = "c192884700f24ddbaed9edaf63b64585b1057c9aa93abf244b88fc7811092573"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_5.png"
+hash = "ceef703f406b30c08e2e52edcc3122e5118aac695ab04ae3b71ccddcb19182ac"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_6.png"
+hash = "def5ccdaa926f0a19a3cdcce32de74797ecfb641ff3b51c28b3ab27c640dff28"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_7.png"
+hash = "5da4e0be587a5e87fa8d1e1274b78c2cdf7b89683c647d0553bfa82a728e0692"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_8.png"
+hash = "b4a5acbca197147c53d6f975189eba531a88bdcc2fb50251df43cae55b1cc682"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_9.png"
+hash = "4721e73f391a0e0898c871edd97f2dac02e3dcc1272b2ac9a8f57b97033eaa4d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/point_of_origin/x-cyber_zero.png"
+hash = "cb143c65c9a553ce36addad870a696255fc58b18cb0deacf3457fb23e5dc3cce"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_1.png"
+hash = "6ca91cb8f2477563ab7138683bb951a89bd2bf7a32577b884d873c41f6782c99"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_10.png"
+hash = "e15b35d2d2e1a4fc8146ee65dd723cba66771bb06a7aa08ee83f1365f0fce4ff"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_11.png"
+hash = "ee44bc04410da5f0867947e8c4e034dec97d2d55af02beaf2365c2df242c4d8a"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_12.png"
+hash = "ae4d2c3611a9c32ab6eee1ca19288e0e8901806ebc996d2569dc4eb73a3e8c09"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_13.png"
+hash = "d8d97dfd10a9132ffdc9c82c1de050b5a6884bb8553b6e97f4c1155903a253fb"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_14.png"
+hash = "0104e71f91e3f57ce2fb423cc9d6ecc8fc492dcc5bc0498ad1d6e3c5770f1af6"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_15.png"
+hash = "c418d37e13036eb1219e5580a58b92f0af766bafcc71000b7789bf33cc1d823b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_16.png"
+hash = "876737344e05a3134bc1b8aa62912b1ef1507082c4ed004077972069a9159ce8"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_17.png"
+hash = "93923eadbdcbd40ae33a03cf09fa34588f25edfda845c196a37261297860d656"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_18.png"
+hash = "815da0d5b96f5b8d885a8809dc932b14db8de5ee7f948d55999648e7427065fa"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_19.png"
+hash = "1561d6d767eab38e65a619fbfa7d80c2f726016e9cddf81dde937d64364acc56"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_2.png"
+hash = "afa0814d12a0c0636f3fc9258fcf21df916c988bd00bf9f5dc1c11be61aea594"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_20.png"
+hash = "06fef136dece55378da1f619490ca9f945c1fe945854f4d25116b5d797cdb921"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_21.png"
+hash = "e7e762b6fd9def385207afa9b0ea4ba057a84d875ab18c2fe8847f5a7c15eb97"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_22.png"
+hash = "304edd5b5738d723c7e152faae7e7a4449286bb135054245078e1cd94f96129b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_23.png"
+hash = "87770ada45cddd2f739fc40db7d45e827fff4a7ab8f31662f6f487f4c80f6350"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_24.png"
+hash = "a33ce24e8b9719609bc3bc86e597c2cc0364e0d22dd2d55551a0fb7a73664648"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_25.png"
+hash = "68013f16535efe78761d0763ec9252b15699bcf3bc9f50ae9173ebc1663d7f0d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_26.png"
+hash = "2f6e93115c899355137408eab5d1b278b052c666777917410a40b2ac487cf934"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_27.png"
+hash = "642f3ed99ff34211e9413823aa6ba8034411236bd7175ed467ecb457da7a8613"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_28.png"
+hash = "53137a0dfe168c757999cfc485e7636feb6429a05ab69f3c9fdd35bf1dcbb0f9"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_29.png"
+hash = "fd5a1ade44789e49c62b0a16e4d225a9177104dac7d0424a427d4c80a3f49f13"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_3.png"
+hash = "0af01bac1829659f63fadfcf312e097cd5248d059d372d7b1f7568bd07a3af20"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_30.png"
+hash = "95e199659522c54aed5408516ff09451c7b2080599310a9f5c747b550cc0d8a3"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_31.png"
+hash = "30059042b9274755ca5a56b0b7f2148e645b0fe13087fbc37c643681f5121750"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_32.png"
+hash = "bb641d5254e38baaf4e65e1d61ad6941659b52aa1d37442f867e11a9108389a5"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_33.png"
+hash = "cb56fd838c5d26e4d32fd4a0e045a890bf5f61d6d58a368902ca1d5760867a97"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_34.png"
+hash = "695bf8043541552b79842ac2e2cceacf1a4664a1d1eb3a2f1a7bbc02cb7a73d1"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_35.png"
+hash = "32036d7bd930caf95b6001fdd5de9375652ac0d984a05205e230da51c1d15d41"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_36.png"
+hash = "60476650746704ade64b08354d1df95ff250c843448e3bdd3082cf2f0e285a48"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_37.png"
+hash = "1e05f5a1d7587b38ce8f660e374188dd1f5cd50d7a541463280224edf11ec6ac"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_38.png"
+hash = "90628d33aa14eec6c4b1ebc74fd1d8dd9d8c5e21ac85d1c875e237d9126471bb"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_4.png"
+hash = "c2689268fb66a23b07093e49947cd6201df38bd521c04a581590ab51758f4de5"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_5.png"
+hash = "5918f3450bdb1e67282e443ac93060f9e5d8f73d63857e4d525819ecbaaf3f2b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_6.png"
+hash = "be4c070bb0740603d1a49c36747fb3f15bf59d6cf4f3b60835d1552a48cfdf77"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_7.png"
+hash = "e97a66db7c9f3e60b8b3ca195ba0c5c3b6379b5ed3e0d65ddf5df7104a97da87"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_8.png"
+hash = "ef01277c9478533282c54847516a19e9cd7477fe4c600ae72d47a32d51c2a85b"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/x-cyber_9.png"
+hash = "213d72d502948cba0a6b31fb6c085762955a7a39ee0d9e0abe710ffa5fc3e772"
+
+[[files]]
 file = "kubejs/client_scripts/jei_hints.js"
 hash = "581f58cee9abef4c8c23cec0fae9063e9f006d38b893827e9396dca88a2595af"
 
@@ -8475,6 +11595,406 @@ hash = "4cbf5d04d6d1981d1cceadca5879d3d42ff68547456f7a242e20351a411793da"
 [[files]]
 file = "kubejs/data/shrink/recipe/shrinking_device.json"
 hash = "0ac524076599c5bd2a8398bfef58949ddcce782f0176f94f7a8beb48d6d96aa4"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/advanced_crystallizing/apex_miniknog.json"
+hash = "600fc7a2d06e4b024884d137b6b50b1b1ab2cb49e322e73bc71a77bf20dad5ff"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/advanced_crystallizing/apex_rebel.json"
+hash = "1d39fe9d13b6b177886adb66f23b68d0585891f5a26d67341e316c5a9bafe0d0"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/advanced_crystallizing/hylotl_standard.json"
+hash = "6572ebb6e710a33bfe9f4b25530b352b15c781c87e105e7e3ea831daed774f83"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/aegi_milky_variant_crystal.json"
+hash = "947421d723e87f2d6f0b481e09827480df7e4e1d5a2f1fe7370299cd41c614b6"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/aegi_pegasus_variant_crystal.json"
+hash = "6cc7737ab01dceb539410ea3d49b9c26fb8f34b0ea0084bf85bce73f3071c94f"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/aegi_tollan_variant_crystal.json"
+hash = "780fa534834f405dfa023c94d6e2566e764f810aeccfc8293d0a041e288f0d36"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/aegi_universe_variant_crystal.json"
+hash = "7ce7a0e60fcc8f86ad7c88882d676ea3776d2ffe2cdcdbf6ff2d6f48c0517ca0"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/avikan-centen_pegasus_variant_crystal.json"
+hash = "4548ff8ef4d90709b5a37b52642b4bfd44d1e7237992bb9feba4731e465ce07c"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/avikan_milky_variant_crystal.json"
+hash = "e6e04439caa9ece2798620d10dcd7bc7bf05e2fff251318319fd0e72fe8fb434"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/centen_milky_variant_crystal.json"
+hash = "da7d030db101aac3b1500bd0ec4cb1a9bf7fb51f4c930ff70a1df0904c763805"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/centen_pegasus_variant_crystal.json"
+hash = "f40e26ff5b357e0fc78e36a5c1b2f8bc995716e49da16b4b3bd4d00b4d6f29ec"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/centen_tollan_variant_crystal.json"
+hash = "811c33feffb74861ea5eda6194b9b0fc3133eb380e4c87e93dcdc338ac6743b2"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/centen_universe_variant_crystal.json"
+hash = "1482354a5bdfdd539eef092c4ecb33fe542ecf52333bb89b8601a4b219814f59"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/crystallizing/avian_temple.json"
+hash = "635329cca844c1c67074d7f488676381a3d19cce51264953830be2ef856be207"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/crystallizing/avian_tomb.json"
+hash = "bc2e6db7d156ae4a57645cbbf8dc81ef080c6c356eb69d458e7914f450e1f3aa"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/crystallizing/chozo.json"
+hash = "39628942042d98580fea67144f262b6233fb9b2406dbc9cdea74165d9406322a"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/crystallizing/chozo_pg.json"
+hash = "8087a7ba74d32b863358bab7ac4a62f91ec17c799aea09cc28f580cfaa4938d0"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/crystallizing/glitch_brass.json"
+hash = "86e25e2c36efac2b90ea99e36e6eb3fcfc846b1a2c9b21d41d92cf75e50fd901"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/crystallizing/glitch_copper.json"
+hash = "ac1819e01a5beb71021981370c12e2a5cd1c0d7468cfd8ffa011bf5cc8e5dd8b"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/crystallizing/hylotl_koi.json"
+hash = "f7c5671fc13ba2334b04d74af0dbb073f52d196de2d8c2a74244abae721d3d6e"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/crystallizing/luminoth.json"
+hash = "8acc8b79f68fcd2bcc3ac728135acf46bdd23851c92928769a3c555e60404435"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/crystallizing/playstationeer.json"
+hash = "e33bde7bbf1e1ee6249e3462f3c6fb384b776fb4665228687081d182baafcb9d"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/crystallizing/protectorate.json"
+hash = "44001392d3fb36d93a357c252e203690a8f3b27b90e3d0d3d4b9ec6b1261a0d6"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/crystallizing/ruin.json"
+hash = "44aa77d082335e9d60c28bd1d35c7ab69ecc84c438269d3e6fd5ac7ef9c0583f"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/crystallizing/worn_protectorate.json"
+hash = "61116dc1782aebe4acbdf2aef27fe83a31b35c811cee85ff0ee91526cfbaee9c"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/crystallizing/x-cyber.json"
+hash = "7299bb053863e102349e42c7ca56c58b9d10b4a1729f1d0f0fe00d74e641659d"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/cultivator_milky_variant_crystal.json"
+hash = "6d4937fdbf28da815378d6f85d04ff58190221cd017c176f2f430974b20caece"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/cultivator_pegasus_variant_crystal.json"
+hash = "0ec464a618da74d746e24536a7d8c564e49350a259bd5947b7bc5f2b2a3242cd"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/cultivator_universe_variant_crystal.json"
+hash = "e7b685fa3c2552e010e7a9f00b912cea90b35c807bd496993a2ae78a68fe58b4"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/floran_variant_crystal.json"
+hash = "691e7b81a3b3018cc9e29c7b7f2bf4bfc0f360bc64512e4292eece95c1155faf"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/novakid_variant_crystal.json"
+hash = "fe51c59e32dc2b92ebc62c04da0c00811de24b004cc9f720f7455cd025a5c885"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/trinkan_milky_variant_crystal.json"
+hash = "7f7d1f332a74371f0e385a97a8a97cde005130b6bfc2a6b57a8fcaad301ffb2b"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/trinkan_pegasus_variant_crystal.json"
+hash = "17b1ad926fab63a542f354a0b1192cf72ec1fbcf1b2881c425bad8875fc3c611"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/trinkan_tollan_variant_crystal.json"
+hash = "595254cadb072816ccb364228aa42b6d4e77df4039ebed13c9a722deed58c3be"
+
+[[files]]
+file = "kubejs/data/starboundedgates/recipe/trinkan_universe_variant_crystal.json"
+hash = "cf5c4cfdfe39a96a4f0e4b6983cf79ae87d3ecc136a2b8335a7eaff0ff4f4c9d"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/actual_binary_origin.json"
+hash = "42d99bd71013c3f38497d54cc0535128e22db10e61a327a4fcbc1883b443df1a"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/aegi-script_zero.json"
+hash = "349d2a21cc5a7a1a96453a2efbd40556d4a419a1d98be4a1dc895a379177e3e1"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/ancient_zero.json"
+hash = "71c491721a558e4dfd74da856db47bdd9b0723d0f5a3a4a73433de22a9e6b927"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/apex_miniknog_origin.json"
+hash = "f42942fd6aa87d6708e7b9e29a1294255887fd246aabee5db46f361699cf7623"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/apex_rebel_origin.json"
+hash = "a4b4496d16d7ab307466a8dcf742602d8a3b1e4b34a024642afca401d240515b"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/avian_origin.json"
+hash = "4a00cbcf923659375ba28a6deba174656eeb7c499ce9a0dbbb67e4a8935adef4"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/binaryish_zero.json"
+hash = "6ef8f8d4118d1b1dfb014b749e9149a401ab2050b173037de8770c3581b946fd"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/chozo-scratch_zero.json"
+hash = "2a39fdae966b40e27f14e12d8d2c432d4815c977ee9bf51453cfbd0e08cc1288"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/chozo_artifact.json"
+hash = "4a6b4434b27ddd669becc4609b032b69a5abdbcb454bfac9790e54db89983cb5"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/floran_origin.json"
+hash = "a50379210dc5de70405372386bc1bc51d258b3c5b52bd872cf78d5c5055e3215"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/glitch_origin.json"
+hash = "275ff7f860fe1479b910fcf640c321958ca2a1b893757dc176cc4b75509972d4"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/hylotl_origin.json"
+hash = "a34de13d6c7b182005b3cd350afe87db296698efe0fce2dec571fde7f27ab292"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/luminoth_zero.json"
+hash = "b7aad9bd659c7776489960d0e0bf112d872a348ca1a2bc4b4f31f96fa596c589"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/novakid_origin.json"
+hash = "73192eb54bc8f60e1939a9f49113c703bdfdc969f16c016e1431758c978aac61"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/playstationeer_zero.json"
+hash = "3d4621a712fa6b4a851648cb241787bd28442ba206bb4baada4a54214844e06f"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/prime_zero.json"
+hash = "33f6c86a9b4280986c8e4a24abe05f38915aac3a7bf6982e9ab7ff3b6b267402"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/protectorate_origin.json"
+hash = "7f3dd9a6430c058af62b246ee2953d591a5535825c56b4d332c38f3cb75dab11"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/worn_protectorate_origin.json"
+hash = "9ed4dccb26d3a1b7b99a06004402d28642423117436841f8c70e623a4de410cc"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/x-cyber_zero.json"
+hash = "1b82890010698e6f68b917f1272c0b2075dbfd36261d9ed9c220e7535887da64"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/aegi_mw.json"
+hash = "7c41def44ac4e9436b37ea1299aef8d3d4fcda9b111ccc063779e6e51d08b359"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/aegi_pg.json"
+hash = "2f40625d96a224eb71865edef4ddf2ca79a51ba5d9893afc39e89210c31aa3a0"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/aegi_tn.json"
+hash = "0a9080f99d4943e57597249687de57663f898f3692af7c40d856588f093fda3f"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/aegi_un.json"
+hash = "5ef990b117cc4989b3eb6e2c59257cbef52b9fc424730f6984e063380ccaed33"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/apex_miniknog.json"
+hash = "f74624d9d287f989265f24323206b1972ab957b4619cf4c794391726e2437038"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/apex_rebel.json"
+hash = "f5730cb9899beeec118792e0da47b2ebc4e0f8f6b7d19fa62bedbc4ef2e3e792"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/avian_temple.json"
+hash = "94c1946bf30a6018e0e21b0086600cf2daf6b06d2d558465fb609f9154c93f6d"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/avian_tomb.json"
+hash = "e1966d3c3653c4113e8f1c46254fb4f677cdfacf2bc73f6eb9380a82146ff26a"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/avikan_mw.json"
+hash = "a84048d776952ad84ab26ae1e17a9f245ec8c4e78349b42f14d531bfe2a9276a"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/avikan_pg.json"
+hash = "4ab537da824fc955977e1eda23e3de6c7cc3c662dcc0239fe98551d9218226f7"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/centen_milky.json"
+hash = "07170012c03dc97897e50799c77074f77bc83118d8e453ba8eb9f503778ebc1a"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/centen_pegasus.json"
+hash = "e5a7e698ad87e8964f675b3a869656c6452b4b570c7118ace1dd73265b276ce4"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/centen_tollan.json"
+hash = "0f8d8f709161de7ad8cb1eea913c0ee1df37276df624a0551be814cc451e8486"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/centen_universe.json"
+hash = "d3347b54b161a3c5a3beb7fa51dac2d03c7d719bff295c341c26be9be3a5a995"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/chozo_mw.json"
+hash = "4f327e9edb5e6e9dbd92f006f8eaab67ec5e0098ce9d138e150e2ba1613c732e"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/chozo_pg.json"
+hash = "e739739556ed847539ae8d2895b882a76ba400fabb778a17ab017164e5928f7c"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/cultivator.json"
+hash = "24e879a35702c9006d38041813b083c9ad16cc49d59e81edee8b613bdfab13a0"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/cultivator_pegasus.json"
+hash = "c03364ecf39ea4ed4d58962160121ab5b977a6354648be06f984c784b614135f"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/cultivator_universe.json"
+hash = "20c8f02f92dc18863d5c2b4cb17edee73ec8e628286050f689f73c298dd489f9"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/floran.json"
+hash = "2372947a27b6c3b65c67792c0269788bb918765577a775fc9810def761655dfe"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/glitch_brass.json"
+hash = "d7bfc69ff73cc4e057da72d1593ad764af275ca442a8adc75541d3902216b5c0"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/glitch_copper.json"
+hash = "6a49c62ac6757831552d831fdb8455866957dd332b48baccbe79923f36290cb7"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/hylotl_koi.json"
+hash = "99e045be8c8fcc28ecc69960ef62636777563c38f1c292f0a54d08df7d63bc90"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/hylotl_standard.json"
+hash = "ed445e1565e11d4d103fe12564dc5764a78d9c4079815729f9fc6967ce955bfd"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/luminoth.json"
+hash = "e5dc8cc58f901681d4a7a5f248bba777ec331f76c5b2ea3e65dc82d2842e268e"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/novakid.json"
+hash = "c29aaa756a655fc0f45e7cc82cf02a77a96800dd1c6f6ac689b0fb221c5aba86"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/playstationeer.json"
+hash = "2deb4ead7f58103257ca7c854d864e70b1af45b2ba2da77271a0ddc5a4d4be23"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/protectorate.json"
+hash = "7948092ad7f557056dd77f45520635fc62df57f35586fec2e47d87cb62da2cda"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/ruin.json"
+hash = "03846ef5d0ef6f706742e9fbe716a28f7f06be6bc65d1f154cf1c48146ebdb5c"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/trinkan_milky.json"
+hash = "4d80f45edfa25cb1b0f70b677a926f3f311160fd4de7b270df4a9fafb7265a5e"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/trinkan_pegasus.json"
+hash = "4e68d6394f03e5e4dacd14a5eb47bf230b78d0928820177b78ab70f1b63274b0"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/trinkan_tollan.json"
+hash = "c83ecd4c7876c308d9dd604d646a313e0a58497516441c35a252601b170db3ff"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/trinkan_universe.json"
+hash = "6e92654adb97ec336f5505983c1859248ab62aa4e37aa05c2ac47dae0cf5140c"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/worn_protectorate.json"
+hash = "1ac7833f2484a5974ebc5ff16b0c4e5beab026f44be03d286c3e1425b1a6e391"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/x-cyber.json"
+hash = "1ecea8acf39fd59956d7ad11dd9a118a83d70b839c0bf46b341d50fcf3715c92"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/symbols/actual_binary.json"
+hash = "991343f2e41d60d80b455fbd2e1f9fc29fb7c2fed9bc4a86ce7034497483fd2c"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/symbols/aegi-script.json"
+hash = "f1d1f81c7b2b0c8c3545e7ce4220404862d47b5aaafe2817470be45a32aeac73"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/symbols/binaryish.json"
+hash = "db77c7c587b9dff650a07f01eabc94492f6eb0c28fecc22abf0e329e6d957fe7"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/symbols/chozalembic.json"
+hash = "a2cbf6c774da29ba2905b8b4af18ea4e99639602e715b6122978299d7c743ec0"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/symbols/chozo-scratch.json"
+hash = "c7156a4030dbaf3db67e9ed300e13043f682e5353ecdf32fd679cdbc7ca1291c"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/symbols/cultivator.json"
+hash = "1dce33111e421464c34ede935f075f1056c3d861554282c558bc9aa900d924de"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/symbols/luminoth.json"
+hash = "b724e4bca64a8fc8699f528e82b2412a614487f0a59be0825018eefe35600778"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/symbols/novakid.json"
+hash = "6c479f0d4b4dd8f21413a2b102e1b948ad0a7bbb76bf65d3f6ba9c2e461aef62"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/symbols/playstationeer.json"
+hash = "4806fae85f6feb55b4bd6bb97e6b3a852a1322e092de24fd98fb1ca0e0992da6"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/symbols/trinkan.json"
+hash = "1cf043c1dfe1893feb962566c78ed8eaae41715a90eaf55f78cefbf79d20b5cb"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/symbols/x-cyber.json"
+hash = "1c27fd7416a0aa5fd8e3268a6213c918fce06b84a3891a08c79865086e83d345"
 
 [[files]]
 file = "kubejs/data/terralith/function/toast.mcfunction"

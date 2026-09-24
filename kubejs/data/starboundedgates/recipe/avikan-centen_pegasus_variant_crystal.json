@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WNS",
+    "PVP",
+    "SBW"
+  ],
+  "key": {
+    "N": {
+      "item": "sgjourney:pure_naquadah"
+    },
+    "W": {
+      "item": "minecraft:white_concrete"
+    },
+    "S": {
+      "item": "minecraft:smooth_sandstone"
+    },
+    "P": {
+      "item": "minecraft:orange_concrete"
+    },
+    "V": {
+      "item": "sgjourney:stargate_variant_crystal"
+    },
+    "B": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "id": "sgjourney:stargate_variant_crystal",
+    "components": {
+      "sgjourney:stargate_variant": "starboundedgates:avikan_pg"
+    },
+    "count": 1
+  }
+}

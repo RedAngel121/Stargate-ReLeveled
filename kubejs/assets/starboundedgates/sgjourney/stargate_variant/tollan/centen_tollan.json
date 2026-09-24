@@ -1,0 +1,134 @@
+{
+  "wormhole_sounds": {
+    "open": "starboundedgates:gate_centen_open",
+    "idle": "starboundedgates:gate_centen_wormhole_idle",
+    "close": "starboundedgates:gate_centen_close"
+  },
+  "wormhole": {
+    "event_horizon": {
+      "front": {
+        "texture": "starboundedgates:textures/entity/stargate/tollan/centen/centen_stargate_tollan_event_horizon.png",
+        "columns": 1,
+        "frames": 19,
+        "rows": 19,
+        "rgba": {
+          "alpha": 1,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      },
+      "back": {
+        "texture": "starboundedgates:textures/entity/stargate/tollan/centen/centen_stargate_tollan_event_horizon.png",
+        "columns": 1,
+        "frames": 19,
+        "rows": 19,
+        "rgba": {
+          "alpha": 0.75,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      }
+    },
+		"disconnect_ticks": { "wait_ticks": 26, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/universe/centen/centen_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/universe/centen/centen_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+  },
+  "shiny_wormhole": {
+    "event_horizon": {
+      "front": {
+        "texture": "starboundedgates:textures/entity/stargate/tollan/centen/centen_stargate_tollan_event_horizon.png",
+        "columns": 1,
+        "frames": 19,
+        "rows": 19,
+        "rgba": {
+          "alpha": 1,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      },
+      "back": {
+        "texture": "starboundedgates:textures/entity/stargate/tollan/centen/centen_stargate_tollan_event_horizon.png",
+        "columns": 1,
+        "frames": 19,
+        "rows": 19,
+        "rgba": {
+          "alpha": 0.75,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      }
+    },
+		"disconnect_ticks": { "wait_ticks": 26, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/universe/centen/centen_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/universe/centen/centen_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+  },
+  "symbols": {
+    "encoded_symbol_color": {
+      "alpha": 1,
+      "red": 0.54509803921569,
+      "blue": 0.96862745098039,
+      "green": 0
+    },
+    "symbol_color": {
+      "alpha": 1,
+      "red": 0.13725490196078,
+      "blue": 0.24313725490196,
+      "green": 0
+    },
+    "engaged_symbol_color": {
+      "alpha": 1,
+      "red": 0.54509803921569,
+      "blue": 0.96862745098039,
+      "green": 0
+    }
+  },
+  "texture": "starboundedgates:textures/entity/stargate/tollan/centen/centen_stargate_tollan.png",
+  "engaged_texture": "starboundedgates:textures/entity/stargate/tollan/centen/centen_stargate_tollan_engaged.png",
+  "fail_sounds": {
+    "default": "starboundedgates:gate_centen_fail"
+  },
+  "chevron_engaged_sounds": {
+    "default": "starboundedgates:gate_centen_chevron_engage"
+  },
+  "chevron_incoming_sounds": {
+    "default": "starboundedgates:gate_centen_chevron_incoming"
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "wormhole_sounds": {
+    "open": "starboundedgates:gate_trink_p_open",
+    "idle": "starboundedgates:gate_trink_idle",
+    "close": "starboundedgates:gate_trink_pm_close"
+  },
+  "wormhole": {
+	"has_strudel": true,
+    "event_horizon": {
+      "front": {
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_event_horizon.png",
+        "columns": 1,
+        "frames": 60,
+        "rows": 60,
+        "rgba": {
+          "alpha": 1,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      },
+      "back": {
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_event_horizon.png",
+        "columns": 1,
+        "frames": 60,
+        "rows": 60,
+        "rgba": {
+          "alpha": 0.75,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      },
+	  "strudel":{
+      "front": {
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_event_horizon.png",
+        "columns": 1,
+        "frames": 60,
+        "rows": 60,
+        "rgba": {
+          "alpha": 1,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      },
+      "back": {
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_event_horizon.png",
+        "columns": 1,
+        "frames": 60,
+        "rows": 60,
+        "rgba": {
+          "alpha": 0.75,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      }
+    },
+		"disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+    }
+  },
+  "rotation_sounds": {
+    "rotation_sound": "starboundedgates:gate_trink_p_roll"
+  },
+  "shiny_wormhole": {
+	"has_strudel": true,
+    "event_horizon": {
+      "front": {
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_event_horizon.png",
+        "columns": 1,
+        "frames": 60,
+        "rows": 60,
+        "rgba": {
+          "alpha": 1,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      },
+      "back": {
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_event_horizon.png",
+        "columns": 1,
+        "frames": 60,
+        "rows": 60,
+        "rgba": {
+          "alpha": 0.75,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      },
+	  "strudel":{
+      "front": {
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_event_horizon.png",
+        "columns": 1,
+        "frames": 60,
+        "rows": 60,
+        "rgba": {
+          "alpha": 1,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      },
+      "back": {
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_event_horizon.png",
+        "columns": 1,
+        "frames": 60,
+        "rows": 60,
+        "rgba": {
+          "alpha": 0.75,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      }
+    },
+		"disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+    }
+  },
+  "symbols": {
+    "permanent_symbols": "starboundedgates:trinkan",
+    "permanent_point_of_origin": "starboundedgates:prime_zero",
+    "engaged_symbols_glow": true,
+    "encoded_symbols_glow": true,
+    "engage_encoded_symbols": true,
+    "engage_symbols_on_incoming": true,
+    "symbol_color": {
+      "alpha": 1,
+      "red": 0.247,
+      "green": 0.247,
+      "blue": 0.247
+    },
+    "encoded_symbol_color": {
+      "alpha": 1,
+      "red": 0.133,
+	  "green": 1,
+      "blue": 0.075
+    },
+    "engaged_symbol_color": {
+      "alpha": 1,
+      "red": 0.703,
+	  "green": 1,
+      "blue": 0.557
+    },
+    "symbols_glow": true
+  },
+  "texture": "starboundedgates:textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_stargate.png",
+  "engaged_texture": "starboundedgates:textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_stargate_engaged.png",
+  "fail_sounds": {
+    "default": "starboundedgates:gate_trink_fail"
+  },
+  "chevron_engaged_sounds": {
+    "default": "starboundedgates:gate_trink_p_chevron_engage"
+  },
+  "chevron_incoming_sounds": {
+    "default": "starboundedgates:gate_trink_p_chevron_incoming"
+  }
+}

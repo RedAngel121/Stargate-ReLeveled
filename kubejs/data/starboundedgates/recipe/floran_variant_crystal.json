@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "VmV",
+    "UvT",
+    "MPM"
+  ],
+  "key": {
+    "V": {
+      "item": "minecraft:vine"
+    },
+    "m": {
+      "item": "sgjourney:milky_way_stargate"
+    },
+    "U": {
+      "item": "sgjourney:universe_stargate"
+    },
+    "v": {
+      "item": "sgjourney:stargate_variant_crystal"
+    },
+    "T": {
+      "item": "sgjourney:tollan_stargate"
+    },
+	"M": {
+      "item": "minecraft:moss_block"
+    },
+	"P": {
+      "item": "sgjourney:pegasus_stargate"
+    }
+  },
+  "result": {
+    "id": "sgjourney:stargate_variant_crystal",
+    "components": {
+      "sgjourney:stargate_variant": "starboundedgates:floran"
+    },
+    "count": 1
+  }
+}

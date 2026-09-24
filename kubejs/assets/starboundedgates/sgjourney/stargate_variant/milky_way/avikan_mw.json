@@ -1,0 +1,212 @@
+{
+  "wormhole": {
+	"has_strudel": false,
+    "event_horizon": {
+      "front": {
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/avikan/avikan_milky_event_horizon.png",
+        "columns": 1,
+        "frames": 6,
+        "rows": 6,
+        "rgba": {
+          "alpha": 1,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      },
+      "back": {
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/avikan/avikan_milky_event_horizon.png",
+        "columns": 1,
+        "frames": 6,
+        "rows": 6,
+        "rgba": {
+          "alpha": 0.75,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      }
+	},
+	  "strudel":{
+      "front": {
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/avikan/avikan_milky_event_horizon.png",
+        "columns": 1,
+        "frames": 6,
+        "rows": 6,
+        "rgba": {
+          "alpha": 1,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      },
+      "back": {
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/avikan/avikan_milky_event_horizon.png",
+        "columns": 1,
+        "frames": 6,
+        "rows": 6,
+        "rgba": {
+          "alpha": 0.75,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      }
+    },
+		"disconnect_ticks": { "wait_ticks": 39, "fade_in_ticks": 1, "stable_ticks": 0, "fade_out_ticks": 9 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/milky_way/avikan/avikan_disconnect.png",
+				"rows": 9,
+				"columns": 1,
+				"frames": 9,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/milky_way/avikan/avikan_disconnect.png",
+				"rows": 9,
+				"columns": 1,
+				"frames": 9,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+    
+  },
+  
+  "shiny_wormhole": {
+	"has_strudel": false,
+    "event_horizon": {
+      "front": {
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/avikan/avikan_milky_event_horizon.png",
+        "columns": 1,
+        "frames": 6,
+        "rows": 6,
+        "rgba": {
+          "alpha": 1,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      },
+      "back": {
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/avikan/avikan_milky_event_horizon.png",
+        "columns": 1,
+        "frames": 6,
+        "rows": 6,
+        "rgba": {
+          "alpha": 0.75,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      }
+	},
+	  "strudel":{
+      "front": {
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/avikan/avikan_milky_event_horizon.png",
+        "columns": 1,
+        "frames": 6,
+        "rows": 6,
+        "rgba": {
+          "alpha": 1,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      },
+      "back": {
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/avikan/avikan_milky_event_horizon.png",
+        "columns": 1,
+        "frames": 6,
+        "rows": 6,
+        "rgba": {
+          "alpha": 0.75,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      }
+    },
+		"disconnect_ticks": { "wait_ticks": 39, "fade_in_ticks": 1, "stable_ticks": 0, "fade_out_ticks": 9 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/milky_way/avikan/avikan_disconnect.png",
+				"rows": 9,
+				"columns": 1,
+				"frames": 9,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/milky_way/avikan/avikan_disconnect.png",
+				"rows": 9,
+				"columns": 1,
+				"frames": 9,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+    
+  },
+  "symbols": {
+    "encoded_symbols_glow": true,
+    "engage_encoded_symbols": true,
+    "engage_symbols_on_incoming": true,
+    "symbol_color": {
+      "alpha": 1,
+      "red": 1,
+      "green": 0.26,
+      "blue": 0
+    },
+    "encoded_symbol_color": {
+      "alpha": 1,
+      "red": 0.75,
+	  "green": 0,
+      "blue": 0
+    },
+    "engaged_symbol_color": {
+      "alpha": 1,
+      "red": 1,
+	  "green": 0.5,
+      "blue": 0
+      
+    }
+
+  },
+  "texture": "starboundedgates:textures/entity/stargate/milky_way/avikan/avikan_milky_stargate.png",
+  "engaged_texture": "starboundedgates:textures/entity/stargate/milky_way/avikan/avikan_milky_stargate_engaged.png",
+  "stargate_model": {
+    "raise_back_chevrons": true,
+    "movie_chevron_locking": false,
+	"movie_primary_chevron": true
+  },
+  "wormhole_sounds": {
+    "open": "starboundedgates:gate_avikan_open",
+    "idle": "sgjourney:milky_way_wormhole_idle",
+    "close": "starboundedgates:gate_avikan_close"
+  },
+  "chevron_encode_sounds": {
+    "default": "starboundedgates:gate_avikan_chevron_engage"
+  },
+  "chevron_open_sounds": {
+    "default": "starboundedgates:gate_avikan_chevron_open"
+  },
+  "fail_sounds": {
+    "default": "starboundedgates:gate_trink_fail"
+  },
+  "chevron_engaged_sounds": {
+    "default": "starboundedgates:gate_avikan_chevron_close"
+  },
+  "chevron_incoming_sounds": {
+    "default": "starboundedgates:gate_avikan_incoming"
+  },
+  "rotation_sounds": {
+    "rotation_sound": "starboundedgates:gate_avikan_roll_loop",
+    "rotation_stop_sound": "sgjourney:empty",
+    "rotation_startup_sound": "starboundedgates:gate_avikan_roll_start"
+  }
+}

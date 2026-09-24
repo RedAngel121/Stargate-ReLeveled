@@ -1,0 +1,116 @@
+{
+	"texture": "starboundedgates:textures/entity/stargate/tollan/aegi/aegi_stargate_tollan.png",
+	"engaged_texture": "starboundedgates:textures/entity/stargate/tollan/aegi/aegi_stargate_tollan_engaged.png",
+	
+	"wormhole":
+	{
+		"event_horizon":
+		{
+			"front":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/tollan/aegi/aegi_event_horizon_tollan.png",
+				"rows": 32,
+				"columns": 1,
+				"frames": 32,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/tollan/aegi/aegi_event_horizon_tollan.png",
+				"rows": 32,
+				"columns": 1,
+				"frames": 32,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			}
+		},
+		"disconnect_ticks": { "wait_ticks": 26, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "sgjourney:textures/entity/stargate/tollan/tollan_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "sgjourney:textures/entity/stargate/tollan/tollan_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+	},
+	"shiny_wormhole":
+	{
+		"event_horizon":
+		{
+			"front":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/tollan/aegi/aegi_event_horizon_tollan_shiny.png",
+				"rows": 32,
+				"columns": 1,
+				"frames": 32,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/tollan/aegi/aegi_event_horizon_tollan_shiny.png",
+				"rows": 32,
+				"columns": 1,
+				"frames": 32,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			}
+		},
+		"disconnect_ticks": { "wait_ticks": 26, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "sgjourney:textures/entity/stargate/tollan/tollan_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "sgjourney:textures/entity/stargate/tollan/tollan_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+	},
+	
+	"symbols":
+	{
+		"symbol_color": { "red": 1.0, "green": 1.0, "blue": 1.0, "alpha": 1.0 }
+	},
+	
+	"chevron_engaged_sounds":
+	{
+		"default": "sgjourney:tollan_chevron_engage"
+	},
+	
+	"chevron_incoming_sounds":
+	{
+		"default": "sgjourney:tollan_chevron_engage"
+	},
+	
+	"wormhole_sounds":
+	{
+		"open": "sgjourney:tollan_wormhole_open",
+		"idle": "sgjourney:tollan_wormhole_idle",
+		"close": "starboundedgates:gate_hylotl_close"
+	},
+	
+	"fail_sounds":
+	{
+		"default": "sgjourney:tollan_dial_fail"
+	}
+}

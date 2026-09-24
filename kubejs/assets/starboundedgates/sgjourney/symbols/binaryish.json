@@ -1,0 +1,43 @@
+{
+	"name": "symbols.starboundedgates.binaryish",
+	"symbol_set": "starboundedgates:binaryish",
+	"textures":[
+	
+    "starboundedgates:symbol/binaryish/binaryish_1",
+    "starboundedgates:symbol/binaryish/binaryish_2",
+    "starboundedgates:symbol/binaryish/binaryish_3",
+    "starboundedgates:symbol/binaryish/binaryish_4",
+    "starboundedgates:symbol/binaryish/binaryish_5",
+    "starboundedgates:symbol/binaryish/binaryish_6",
+    "starboundedgates:symbol/binaryish/binaryish_7",
+    "starboundedgates:symbol/binaryish/binaryish_8",
+    "starboundedgates:symbol/binaryish/binaryish_9",
+    "starboundedgates:symbol/binaryish/binaryish_10",
+    "starboundedgates:symbol/binaryish/binaryish_11",
+    "starboundedgates:symbol/binaryish/binaryish_12",
+    "starboundedgates:symbol/binaryish/binaryish_13",
+    "starboundedgates:symbol/binaryish/binaryish_14",
+    "starboundedgates:symbol/binaryish/binaryish_15",
+    "starboundedgates:symbol/binaryish/binaryish_16",
+    "starboundedgates:symbol/binaryish/binaryish_17",
+    "starboundedgates:symbol/binaryish/binaryish_18",
+    "starboundedgates:symbol/binaryish/binaryish_19",
+    "starboundedgates:symbol/binaryish/binaryish_20",
+    "starboundedgates:symbol/binaryish/binaryish_21",
+    "starboundedgates:symbol/binaryish/binaryish_22",
+    "starboundedgates:symbol/binaryish/binaryish_23",
+    "starboundedgates:symbol/binaryish/binaryish_24",
+    "starboundedgates:symbol/binaryish/binaryish_25",
+    "starboundedgates:symbol/binaryish/binaryish_26",
+    "starboundedgates:symbol/binaryish/binaryish_27",
+    "starboundedgates:symbol/binaryish/binaryish_28",
+    "starboundedgates:symbol/binaryish/binaryish_29",
+    "starboundedgates:symbol/binaryish/binaryish_30",
+    "starboundedgates:symbol/binaryish/binaryish_31",
+    "starboundedgates:symbol/binaryish/binaryish_32",
+    "starboundedgates:symbol/binaryish/binaryish_33",
+    "starboundedgates:symbol/binaryish/binaryish_34",
+    "starboundedgates:symbol/binaryish/binaryish_35"
+	
+	]
+}

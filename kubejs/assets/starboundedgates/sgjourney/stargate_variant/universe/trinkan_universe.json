@@ -1,0 +1,146 @@
+{
+  "wormhole_sounds": {
+    "open": "starboundedgates:gate_trink_u_open",
+    "idle": "starboundedgates:gate_trink_idle",
+    "close": "starboundedgates:gate_trink_u_close"
+  },
+  "wormhole": {
+    "event_horizon": {
+      "front": {
+        "texture": "starboundedgates:textures/entity/stargate/universe/trinkan/trinkan_universe_event_horizon.png",
+        "columns": 1,
+        "frames": 60,
+        "rows": 60,
+        "rgba": {
+          "alpha": 1,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      },
+      "back": {
+        "texture": "starboundedgates:textures/entity/stargate/universe/trinkan/trinkan_universe_event_horizon.png",
+        "columns": 1,
+        "frames": 20,
+        "rows": 20,
+        "rgba": {
+          "alpha": 0.75,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      }
+    },
+		"disconnect_ticks": { "wait_ticks": 26, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "sgjourney:textures/entity/stargate/universe/universe_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "sgjourney:textures/entity/stargate/universe/universe_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+  },
+  "rotation_sounds": {
+    "rotation_sound": "starboundedgates:gate_trink_u_roll_loop",
+    "rotation_startup_sound": "starboundedgates:gate_trink_u_roll_start"
+  },
+  "shiny_wormhole": {
+    "event_horizon": {
+      "front": {
+        "texture": "starboundedgates:textures/entity/stargate/universe/trinkan/trinkan_universe_event_horizon.png",
+        "columns": 1,
+        "frames": 60,
+        "rows": 60,
+        "rgba": {
+          "alpha": 1,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      },
+      "back": {
+        "texture": "starboundedgates:textures/entity/stargate/universe/trinkan/trinkan_universe_event_horizon.png",
+        "columns": 1,
+        "frames": 60,
+        "rows": 60,
+        "rgba": {
+          "alpha": 0.75,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      }
+    },
+		"disconnect_ticks": { "wait_ticks": 26, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "sgjourney:textures/entity/stargate/universe/universe_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "sgjourney:textures/entity/stargate/universe/universe_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+  },
+  "symbols": {
+    "permanent_symbols": "starboundedgates:actual_binary",
+    "permanent_point_of_origin": "starboundedgates:actual_binary_origin",
+    "engaged_symbols_glow": true,
+    "encoded_symbols_glow": true,
+    "engage_encoded_symbols": true,
+    "engage_symbols_on_incoming": false,
+    "symbol_color": {
+      "alpha": 1,
+      "red": 0,
+      "green": 0.1451,
+      "blue": 0
+    },
+    "encoded_symbol_color": {
+      "alpha": 1,
+      "red": 0,
+      "green": 0.5,
+      "blue": 0
+    },
+    "engaged_symbol_color": {
+      "alpha": 1,
+      "red": 0,
+      "green": 1,
+      "blue": 0
+    },
+    "symbols_glow": true
+  },
+  "texture": "starboundedgates:textures/entity/stargate/universe/trinkan/trinkan_stargate_universe.png",
+  "engaged_texture": "starboundedgates:textures/entity/stargate/universe/trinkan/trinkan_stargate_universe_engaged.png",
+  "fail_sounds": {
+    "default": "starboundedgates:gate_trink_fail"
+  },
+  "chevron_engaged_sounds": {
+    "default": "starboundedgates:gate_trink_u_chevron"
+  },
+  "chevron_incoming_sounds": {
+    "default": "sgjourney:empty"
+  },
+  "dial_start_sound": "starboundedgates:gate_trink_u_dial_start"
+}
