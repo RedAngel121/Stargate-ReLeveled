@@ -213,6 +213,10 @@ file = "config/fancymenu/slideshows/main_menu/images/abydos_temple.png"
 hash = "e9e2474ebe8f873200f8eaff528f1baec87866caecb7669de5715c26ed69f17c"
 
 [[files]]
+file = "config/fancymenu/slideshows/main_menu/images/archway.png"
+hash = "a5663fd2ea1f6b58a683181f7b4812da7eb7caa755c661b90d6cf33faa8d7321"
+
+[[files]]
 file = "config/fancymenu/slideshows/main_menu/images/aspect.png"
 hash = "1dd7da7ed619e1e1b834f77acf719933b6f2c9e014b39638714c64917e881fd5"
 
@@ -297,6 +301,10 @@ file = "config/fancymenu/slideshows/main_menu/images/spawn.png"
 hash = "2232b2078b8d402d226aac15396dd0d1609d3d54e4833c2d89dfbaa4c429ac95"
 
 [[files]]
+file = "config/fancymenu/slideshows/main_menu/images/sterile.png"
+hash = "6584c532cd9cb0d02d9ba4baca89a92c4a8a7e82b808d5616495bbbf538b0464"
+
+[[files]]
 file = "config/fancymenu/slideshows/main_menu/images/stone_gateroom.png"
 hash = "f3dc4e911338eb0122489c9824682d5a9e1b00c8fc51f99a0b24f74a82309272"
 
@@ -311,6 +319,10 @@ hash = "9c1fb07737131beda706fcdf8a7f356dd2fdc44965611ebace3472b31e9d49ed"
 [[files]]
 file = "config/fancymenu/slideshows/main_menu/images/uni_forest.png"
 hash = "a3ac0c106925e6ca2acb52da29fb0c254da2e4ff59c3cc70afd5fe7461e8ac55"
+
+[[files]]
+file = "config/fancymenu/slideshows/main_menu/images/vines.png"
+hash = "d78cb9cae09abe38c265ff2dc797425b242677f211f305835566a5e364e82edb"
 
 [[files]]
 file = "config/fancymenu/slideshows/main_menu/properties.txt"

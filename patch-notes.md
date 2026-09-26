@@ -13,7 +13,7 @@ Mods:
   - MOD/sgjourney/space_location for DeeperDarker, Overworld Mirror, Undergarden
     - verify that all dims show up in abydos cartouche rooms
 
-- Chisel Blocks: Aluminum, Cobalt, Invar, and Silver - These have no recipe and need to be added to the chisel workbench somehow
+- Chisel Blocks: Aluminum, Cobalt, Invar - These have no recipe and need to be added to the chisel workbench somehow
 - Make chem cells https://github.com/GlodBlock/ExtendedAE/wiki/Custom-Infinity-Cell
 - make/change the infinite item/fluid/chem cell recipes to be more production centered
 - ? TAGS: CreateAdditions bio pellet and pellet block need to be adjusted to be bio-fuels compatible
@@ -35,7 +35,7 @@ Mods:
 - check for updates to https://www.curseforge.com/minecraft/mc-mods/ars-elixirum-forge
 - Add Ars Elixirum for Potion Making after it gets properly updated > then check apoth charms compat
 - Add Tempad as an After-Oritech endgame TP item that can(t?) travel between dims - requires ZPM?
-- Swap out the long ass recipe chains for individual recipes and items, making EMI Actually useful
+- Swap out the long ass recipe chains for individual recipes and items, making JEI/EMI Actually useful
 - check if https://www.curseforge.com/minecraft/mc-mods/ancient-remnants is 1.21.1 yet
 
 ### Dimensional Options:
@@ -55,6 +55,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 ### Changes:
 
 ### Additions:
+- Added 3 new Main Menu Backgrounds for a total of 32 (Thanks Licflagg!)
 - Starbounded Gates (Thanks Licflagg!)
 
 ### Removals:
