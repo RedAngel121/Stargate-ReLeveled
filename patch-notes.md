@@ -117,6 +117,7 @@ Modded Omelet Datapack: 170 -> 171
 - Starbounded Gates (Thanks Licflagg!)
 
 ### Removals:
+- Immersive Armors (crashing the game on load)
 
 ### Known Issues:
 - Chairs/Benches/Seats cannot be sat on in airless Ad Astra Dimensions without a single block of oxygen below it. Use an Ad Astra Vent underneath the seat to prevent death.
