@@ -93,10 +93,10 @@ Apothic Attributes: 2.10.1 -> 2.11.0
 Applied Energistics 2: 19.2.17 -> 19.2.18
 Balm: 21.0.65 -> 21.0.66
 Create: Interiors: 0.6.1 v2 -> 0.6.1 v3
-CreativeCore: v2.13.48 -> v2.13.49
+CreativeCore: v2.13.48 -> v2.13.50
 Distant Horizons: 3.3.2 -> 3.3.3
 FancyMenu: 3.9.12 -> 3.9.14
-FTB Library (NeoForge): 2101.1.36 -> 2101.1.37
+FTB Library: 2101.1.36 -> 2101.1.37
 Just Enough Items (JEI): 19.57.0.447 -> 19.57.0.450
 Just Enough Mekanism Multiblocks: 7.21 -> 7.22
 Moonlight Lib: 3.6.8 -> 3.7.0
@@ -117,7 +117,6 @@ Modded Omelet Datapack: 170 -> 171
 - Starbounded Gates (Thanks Licflagg!)
 
 ### Removals:
-- Immersive Armors (crashing the game on load)
 
 ### Known Issues:
 - Chairs/Benches/Seats cannot be sat on in airless Ad Astra Dimensions without a single block of oxygen below it. Use an Ad Astra Vent underneath the seat to prevent death.
