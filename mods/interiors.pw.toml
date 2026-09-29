@@ -1,13 +1,13 @@
 name = "Create: Interiors"
-filename = "interiors-0.6.1 v2.jar"
+filename = "interiors-0.6.1 v3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "be747984ad74204980877841ab041bf5ea854446"
+hash = "1c1cca4888ca30e12e6dee53f466ffa8af4ab796"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8854020
+file-id = 8974633
 project-id = 906239
