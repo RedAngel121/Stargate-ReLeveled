@@ -227,6 +227,10 @@
         "tier": "mysticalagriculture:4",
         "crux": "sgcommunity_pack:mekanised_crux"
     },
+    "mysticalagriculture:silver": {
+        "tier": "mysticalagriculture:4",
+        "crux": "sgcommunity_pack:mekanised_crux"
+    },
     "mysticalagriculture:breeze": {
         "tier": "mysticalagriculture:4",
         "crux": "sgcommunity_pack:reactive_crux"
@@ -309,9 +313,6 @@
         "enabled": false
     },
     "mysticalagriculture:apatite": {
-        "enabled": false
-    },
-    "mysticalagriculture:silver": {
         "enabled": false
     },
     "mysticalagriculture:graphite": {

@@ -10,6 +10,7 @@
 	images: [
 		{
 			height: 2.0d
+			id: "6990E3946DC9AD03"
 			image: "mysticalagriculture:item/inferium_essence"
 			rotation: 0.0d
 			width: 2.0d
@@ -18,6 +19,7 @@
 		}
 		{
 			height: 1.0d
+			id: "11AB2A08719C2D89"
 			image: "mysticalagriculture:item/prudentium_essence"
 			rotation: 0.0d
 			width: 1.0d
@@ -26,6 +28,7 @@
 		}
 		{
 			height: 1.0d
+			id: "62B0BCD19437B2F7"
 			image: "mysticalagriculture:item/tertium_essence"
 			rotation: 0.0d
 			width: 1.0d
@@ -34,6 +37,7 @@
 		}
 		{
 			height: 1.0d
+			id: "2AFA949D8103E71B"
 			image: "mysticalagriculture:item/imperium_essence"
 			rotation: 0.0d
 			width: 1.0d
@@ -42,6 +46,7 @@
 		}
 		{
 			height: 1.0d
+			id: "4B83C019A05AF52C"
 			image: "mysticalagriculture:item/supremium_essence"
 			rotation: 0.0d
 			width: 1.0d
@@ -50,6 +55,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7C02F789CE743678"
 			image: "mysticalagradditions:item/insanium_essence"
 			rotation: 0.0d
 			width: 1.0d
@@ -996,6 +1002,16 @@
 			}]
 			x: 17.0d
 			y: 5.5d
+		}
+		{
+			id: "7BB69C4B4B41EF88"
+			tasks: [{
+				id: "2F283472F43212EC"
+				item: { count: 1, id: "mysticalagriculture:silver_seeds" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 7.5d
 		}
 	]
 }

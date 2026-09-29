@@ -7,6 +7,7 @@
 		id: "copycats:copycat_large_cogwheel"
 	}
 	id: "2AB09A34CE1A5FC5"
+	images: [ ]
 	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]

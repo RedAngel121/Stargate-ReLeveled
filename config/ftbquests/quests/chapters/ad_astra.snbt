@@ -7,6 +7,7 @@
 		id: "ad_astra:tier_2_rocket"
 	}
 	id: "64B3D62321648BBE"
+	images: [ ]
 	order_index: 5
 	quest_links: [ ]
 	quests: [

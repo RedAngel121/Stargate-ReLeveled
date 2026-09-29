@@ -17,6 +17,9 @@
 	chapter_group.0B892AF6A2410D9F.title: "Eras"
 	chapter_group.3553DD7F726AE366.title: "Mods"
 	file.0000000000000001.title: "Stargate ReLeveled"
+	image.220CDD509021084E.title: "Tier 3"
+	image.23021EE44A55D61A.title: "Tier 2"
+	image.7165ABB73E9BCBFA.title: "Tier 1"
 	quest.0016AD4682EB8536.quest_desc: ["Step 2 of Easy Mode is Automating Easy Mode. Craft the Oredictionificator and start converting things even faster with access to higher tier components. Use JEI Hints to see what gets converted into circuits."]
 	quest.0016AD4682EB8536.title: "Easy Mode Part 2"
 	quest.0037AEAA42C65333.quest_desc: ["Now, slowly mix in your flour"]
@@ -728,7 +731,6 @@
 	quest.7FFEAEE440BD9D16.quest_desc: ["Steal the golden idol from a pyramid (not just in the desert!) and use it to make the Archaeology Table; a villager workstation for the Archaeologist. Then, you can trade to upgrade that villager to Master and unlock the Map to Chappa'ai."]
 	quest.7FFEAEE440BD9D16.title: "Archaeologist"
 	reward.27C719C714D6AA5D.title: "Easy Mode Enabled"
-	reward_table.0C1192AF229D1C2B.title: "Myst Ag Rewards"
 	reward_table.5D16E613CEF3AC98.title: "Create Rewards"
 	reward_table.671627EF1CBDA0DC.title: "AE2 Rewards"
 	task.0155F73A47300110.title: "Acknowledge"

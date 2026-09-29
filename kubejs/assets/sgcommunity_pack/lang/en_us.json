@@ -154,5 +154,13 @@
     "item.minecraft.tipped_arrow.effect.naquadah_sight_potion":"Arrow of Naquadah Sight",
     "item.minecraft.potion.effect.naquadah_sight_potion":"Potion of Naquadah Sight",
     "item.minecraft.splash_potion.effect.naquadah_sight_potion":"Splash Potion of Naquadah Sight",
-    "item.minecraft.lingering_potion.effect.naquadah_sight_potion":"Lingering Potion of Naquadah Sight"
+    "item.minecraft.lingering_potion.effect.naquadah_sight_potion":"Lingering Potion of Naquadah Sight",
+
+    "effect.potionsmaster.silver_sight":"Silver Sight",
+    "item.potionsmaster.silver_oresight_powder":"Silver Oresight Powder",
+    "item.potionsmaster.calcinated_silver_oresight_powder":"Calcinated Silver Oresight Powder",
+    "item.minecraft.tipped_arrow.effect.silver_sight_potion":"Arrow of Silver Sight",
+    "item.minecraft.potion.effect.silver_sight_potion":"Potion of Silver Sight",
+    "item.minecraft.splash_potion.effect.silver_sight_potion":"Splash Potion of Silver Sight",
+    "item.minecraft.lingering_potion.effect.silver_sight_potion":"Lingering Potion of Silver Sight"
 }

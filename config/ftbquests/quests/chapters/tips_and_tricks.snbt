@@ -8,6 +8,7 @@
 		id: "minecraft:writable_book"
 	}
 	id: "5D60483138C53A9C"
+	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

@@ -13,6 +13,8 @@ Mods:
   - MOD/sgjourney/space_location for DeeperDarker, Overworld Mirror, Undergarden
     - verify that all dims show up in abydos cartouche rooms
 
+- Add Silver to the Myst Ag quests
+
 - Chisel Blocks: Aluminum, Cobalt, Invar - These have no recipe and need to be added to the chisel workbench somehow
 - Make chem cells https://github.com/GlodBlock/ExtendedAE/wiki/Custom-Infinity-Cell
 - make/change the infinite item/fluid/chem cell recipes to be more production centered
@@ -50,9 +52,43 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 
 ====================================================================================================
 
+### Quantum core setup
+
+| Step | Process
+| ---: | -------------------------------------
+|    1 | Start with something equivalent to a Computation Core, a somewhat complex item that has ties to the quantum complex
+|    2 | Create Quantum Substrate out of the normal mekanism substrates fused with some quantum bullshittery i guess
+|    3 | Refine C.Quartz and N.Quartz material into a slurry and combine them (Sodium hydroxide can dissolve quartz, is that chem available? should i make it? or try something similar?)
+|    4 | Produce Ultra-Pure Silicon from the slurry in the crystalizer
+|    5 | Produce Superconducting Resistant Material  using ultra pure silicon
+|    6 | Create Cryogenic Compound using a mix of "cold" chemicals (research needed)
+|    7 | Create Quantum Conductor out of several different items and metals (research needed)
+|    8 | Create Superconducting Wire out of quantum conductor metals
+|    9 | Produce Quantum-Grade Crystal Compound
+|   10 | Purify that Crystal Compound then pass it through a atomic assembler
+|   11 | Create Crystal Lattice in the atomic assembler
+|   12 | Manufacture Quantum Resonator
+|   13 | Manufacture Magnetic Containment Coil
+|   14 | Manufacture Cryogenic Chamber
+|   15 | Create Quantum Control Unit
+|   16 | Create Entangled Pair
+|   17 | Stabilize Entangled Pair
+|   18 | Create Quantum Memory Matrix
+|   19 | Create Superconducting Processor
+|   20 | Combine Processor + Resonator
+|   21 | Apply Quantum Control Layer
+|   22 | Cool Quantum Assembly
+|   23 | Initialize Quantum State
+|   24 | Stabilize Quantum State
+|   25 | Integrate with Computation Core
+|   26 | Final Quantum Core
+
+====================================================================================================
+
 ### Mod Updates:
 
 ### Changes:
+- ReAdded Silver and provided full integration between MystAg/Inf Cells/Potions Master/Quests
 
 ### Additions:
 - Added 3 new Main Menu Backgrounds for a total of 32 (Thanks Licflagg!)

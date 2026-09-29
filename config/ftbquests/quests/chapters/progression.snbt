@@ -10,7 +10,7 @@
 	images: [
 		{
 			height: 1.0d
-			hover: ["Tier 1"]
+			id: "7165ABB73E9BCBFA"
 			image: "sgcommunity_pack:textures/quests/roman_one.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -19,7 +19,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Tier 2"]
+			id: "23021EE44A55D61A"
 			image: "sgcommunity_pack:textures/quests/roman_two.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -28,7 +28,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Tier 3"]
+			id: "220CDD509021084E"
 			image: "sgcommunity_pack:textures/quests/roman_three.png"
 			rotation: 0.0d
 			width: 1.0d

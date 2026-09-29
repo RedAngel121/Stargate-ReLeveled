@@ -10,6 +10,7 @@
 	images: [
 		{
 			height: 1.0d
+			id: "192428A8124D073C"
 			image: "journeymap:textures/waypoint/icon/00_markers/jwi81hds_1.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -18,6 +19,7 @@
 		}
 		{
 			height: 1.0d
+			id: "09939559B34F7B05"
 			image: "journeymap:textures/waypoint/icon/00_markers/jwi82hds_2.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -26,6 +28,7 @@
 		}
 		{
 			height: 1.0d
+			id: "5B78C56128889F13"
 			image: "journeymap:textures/waypoint/icon/00_markers/jwi83hds_3.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -34,6 +37,7 @@
 		}
 		{
 			height: 1.0d
+			id: "0AF705923EE757E1"
 			image: "journeymap:textures/waypoint/icon/00_markers/jwi84hds_4.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -42,6 +46,7 @@
 		}
 		{
 			height: 1.0d
+			id: "772BD68752CCD8AD"
 			image: "journeymap:textures/waypoint/icon/00_markers/jwi85hds_5.png"
 			rotation: 0.0d
 			width: 1.0d

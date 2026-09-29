@@ -358,75 +358,71 @@ hash = "91a58d33dc24923bb745139678a01cee1bb0dfd5a29f914e798f89edf84d9e3d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ad_astra.snbt"
-hash = "282aa1effca1215b4f19b4dd1f6f3d3f55c28de94402dc2b0d3444ee34cdce81"
+hash = "ee38eaafd2cf80509850fdba00307e5a416f6cd6e57ffaf11fb7004ee728d6c1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae2.snbt"
-hash = "1baf1b150a4774deda7bfea359b85c797918c9b3bf2085b6b83d6a95317b9d3a"
+hash = "6c00ea8f9535f741a1d7c2519b08ee70e5d96b68188a5575ba14e376db0ef2a7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "0692ba14214fec45d5b1f72bf925dbeba9f4bfd9713e6a1d3d31af350bb595f7"
+hash = "115765bd3b51fa182d46e5e35014c9f462698dbd78afbfa711eb9feba8458495"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kinetic_era.snbt"
-hash = "c60114f9dbd52a17c5abef588f24b84ff4829a491094feec9b71a77869bb4177"
+hash = "7c48931d78f92481c15a9b4ae2937c9a45010a2680fe592517cb0d82e621dbd5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kinetic_era_ii.snbt"
-hash = "76efdcae53a382c691fb197afc37bc65ada9758592895a868a2b81a4f56394a4"
+hash = "e5b90d9db84b3924d4892e49743bfae6c20c1885a69fadf26c47fdbe3f8fc386"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanised_i.snbt"
-hash = "3d404bc3ceccc8b478e39bdcf8a7467ec7bd843d9748d6a27dfce6d697fdb9a4"
+hash = "33e04aa5d98d06fa750e8a5b153d931919bda3b04ed8e28e1b90177664f4370c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanised_ii.snbt"
-hash = "0d9cef1de3bf5b1027c9217ff6e852b9cc5147d93c5e4ce75661de51c6259ff8"
+hash = "aff17b653a37b4062186919e55eca32760335d4f7de9201f8346b5af84fbbec4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanised_iii.snbt"
-hash = "26980a985f6f499e59d8c9aeb35b62bc383d10924abe7d939fff30d2cd01aec9"
+hash = "e5b260e53cae174cabaa8e36667b6d5db22d0e960e9cdced1f1a3e26065ab250"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
-hash = "e06a6bf293069221904627761919b15bdfc99fb44106967b06d7f8c58ae83a94"
+hash = "083a4153fdd977795fb1382bd1794d1e05f2ecd99b92d414257e7bf7f17187ef"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/myst_ag.snbt"
-hash = "d8bb0f86ac64768ba26810e5ab8a36a5b2bfc608b6aa9f2cb09f1c3779781a01"
+hash = "803c824534f88c9950a3151aa740d00ce59ab628296cfec6cdecca71f67b5b35"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/progression.snbt"
-hash = "b8b50dd6facbc6af4ee4a43c92689791b6a0d6711d4e082fc1568d55a2039ad9"
+hash = "7e3d29e305ef4c7ef2cbe88ada45c3456369a237f800ff7a7f7ca8e334721153"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sophisticated.snbt"
-hash = "98b52a2d49f08c7f3fdc2f54416b27bfb1599e3518aeabdea3724801b1828134"
+hash = "21045036fb609cc682ffa83facc5b98482277e6aa99d6dc7b59a5563761f0488"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/stargate_journey.snbt"
-hash = "d2df757c9367f3b07eb9a8e5e81208937f8d4558db0325cc4129d701dfbf9725"
+hash = "b817724c9efd8a0ae2abb8b736ae6aa174e86dafe19aba5ad8176a721a0e44e1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_beginnings.snbt"
-hash = "bb7058513b3ce2ae7ac9519eed4295cf58fdfaeb70ff6a9b9dc3c4b0b1bc6940"
+hash = "ae4968ce97c043809b962ce7e8e3946859efa1c75b2d16c69c2dd504f5032f60"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips_and_tricks.snbt"
-hash = "0c91f0cde301223045d7108e5426e7adcb95e82a35c5e9c5aa0060b8a991b9c6"
+hash = "a9c41e304499dd54752b6eb74ac859cb60de9e3f7b7b8f3897ca1fd77aa1a120"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "f9403fc81d72a1810961c29eaaaaed7a8fbc512478e4d629a4ab322109536171"
+hash = "37876f693cf3a94a7158b6e51ce185d63cae1efbb577f2a14d5e7c6ad992814b"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "69f44f885f44e0a2f5039acf8aa361b029fa603b20ac895b855c6df13082ff57"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/0C1192AF229D1C2B.snbt"
-hash = "8e123d67b2703c093eeb75df2dfe40e51523329b4fc87defdfd111733fb531c5"
+hash = "172d1db094f6478d767894ec09192ae2d6653ade2d26a9aa7022a0fc36b93102"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/ae2basic.snbt"
@@ -478,7 +474,7 @@ hash = "bca416449459d1833ba405b44334d409e35615a521eb98c8ad7798972499e080"
 
 [[files]]
 file = "config/mysticalcustomization/configure-crops.json"
-hash = "b0486f295158536d979fa8bb6b1d05efd3f57cf2b420073287042f43e9eb2a57"
+hash = "9f018c91b4d50f54e98a56003878506bcf4a758ea95d6984599f15e9ffa88d15"
 
 [[files]]
 file = "config/mysticalcustomization/configure-tiers.json"
@@ -579,6 +575,10 @@ hash = "514388c35721c3f0dd025a834b5b8296a77976c73e5f175d90de5888991e277b"
 [[files]]
 file = "config/potionsmaster/redstone.json"
 hash = "bc452f74514a9a68562c006a988b29c76a979ba4307196cbafff7b5001d669ab"
+
+[[files]]
+file = "config/potionsmaster/silver.json"
+hash = "7546fc3ec0109af15312eed9ea6e52206898e1b72e20a3658ec1ab7d4dab1a09"
 
 [[files]]
 file = "config/potionsmaster/tin.json"
@@ -1134,7 +1134,7 @@ hash = "5958d1ecefb1791cae29bb7f500e0bde91acd5dbc87e2ec6239c24078f8bbe14"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/lang/en_us.json"
-hash = "823add87cb5e98251dc179b935ef73bfbc6460f040e0557061177b9931de9046"
+hash = "0f2b2e3a2d91cf7c093432267b3ffbf314f46eec1ab9608a7fd0351464c19076"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/models/block/drive/air_essence_cell.json"
@@ -1419,6 +1419,10 @@ hash = "796ed29d4916a65f0d7157af685562445aa08ff5eb598f7bbaa4b837ad920efa"
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/models/block/drive/silicon_essence_cell.json"
 hash = "3efc529740c58992757d839ba5cba98c9853ec217dca2dc358fe77f9f3c60258"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/models/block/drive/silver_essence_cell.json"
+hash = "001752c766da93caf88692927978c6e007072533bd8e37cd64082f08ffbf2044"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/models/block/drive/skeleton_essence_cell.json"
@@ -1799,6 +1803,10 @@ hash = "4a7aea3bc30734a8cbf976f5ad3dbc816abef53e933f8670199bb524076bd979"
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/textures/block/drive/silicon_essence_cell.png"
 hash = "f15cee1cee2e15abbf6652af118252be13a7088567a33491b89579bcd795e0a5"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/block/drive/silver_essence_cell.png"
+hash = "7402175601ac05090468f0c8f736e781040c07fb9bd03200ad78b62a0b0c48c5"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/textures/block/drive/skeleton_essence_cell.png"
@@ -2307,6 +2315,10 @@ hash = "3c1f03d87fcf199830de1899128d9dce1f598ef40aa196b678118e90aee7a9c2"
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/silicon_essence_cell.png"
 hash = "e45307e6c8042b6ae5f5bc1c254ff92f565a5c623db956524f3081694285822e"
+
+[[files]]
+file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/silver_essence_cell.png"
+hash = "81836c5c06b1f55a5c26f4dd3c01bd7cd042023eb45a9941429e5be8d8805c73"
 
 [[files]]
 file = "kubejs/assets/sgcommunity_pack/textures/item/inf_cells/skeleton_essence_cell.png"
@@ -6417,6 +6429,10 @@ file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/silicon_seeds.jso
 hash = "434affcd529f806e082fc1e8a137d017cba263dcb1b969b98bd69c6bc108e67c"
 
 [[files]]
+file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/silver_seeds.json"
+hash = "b2b0e1beda25aeed355d227e2c0206b73f4f1993d456d0cc6361ed9a4fbe16e1"
+
+[[files]]
 file = "kubejs/data/botanypots/recipe/mysticalagriculture/crop/skeleton_seeds.json"
 hash = "e55d56d9efed0ca268347ee095b27d00bbe66a9bd284f5cca2b102dfb96bac1c"
 
@@ -8395,10 +8411,6 @@ hash = "ebb9423eae3d7862ccb182946f82f55dc53a377b28b19306e2a5eb32b739f579"
 [[files]]
 file = "kubejs/data/ironfurnaces/recipe/furnaces/netherite_furnace.json"
 hash = "4ddee6792969ea5216642a05ac5627b012f98ba12ea6a470adc96b2651d72761"
-
-[[files]]
-file = "kubejs/data/ironfurnaces/recipe/furnaces/silver_furnace.json"
-hash = "e272d837ffa2ad6cf862c8973e5c77fc8c1f4400c318374e878d655856c3a106"
 
 [[files]]
 file = "kubejs/data/ironfurnaces/recipe/heater.json"
@@ -12086,11 +12098,11 @@ hash = "13bbe11285e0b670c9a114f2a803cd26d465c1d3d5b58f4d21fae4f1be04781f"
 
 [[files]]
 file = "kubejs/startup_scripts/infinite_cells.js"
-hash = "9380157bbb270dce9b64ff3cf96d2e9a43a6cab5e4abf9eed9c60b90b7ed2b2a"
+hash = "b8c483dbc93ffc35e002acb80196b549e5f0ed9ba58a077ebe3d42480322d8dd"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "c3b1e5a863b167c5791515a0a8c7d8348b7d2cd546961b529f4d91940bffbddd"
+hash = "77fecd5f34eeae6ecf5c29f07247cc165102ef9b43b69f0e801bf559227bbfcb"
 
 [[files]]
 file = "mods/SGJ_Ponder-1.0.3-1.21.1.jar"

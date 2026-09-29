@@ -10,7 +10,7 @@ let essences = [
     "armadillo", "silicon", "sulfur", "limestone", "iron", "copper",
     "nether_quartz", "glowstone", "redstone", "obsidian", "prismarine", "sculk",
     "zombie", "skeleton", "creeper", "spider", "phantom", "rabbit",
-    "tin", "bronze", "zinc", "brass", "lead", "sky_stone",
+    "tin", "bronze", "zinc", "brass", "lead", "sky_stone", "silver",
     "certus_quartz", "gold", "lapis_lazuli", "end", "experience", "breeze",
     "blaze", "ghast", "enderman", "steel", "electrum", "uranium",
     "soulium", "osmium", "fluorite", "refined_glowstone", "refined_obsidian", "fluix",
