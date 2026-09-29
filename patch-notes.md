@@ -87,32 +87,34 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 
 ### Mod Updates:
 **Neoforge: 21.1.251 -> 21.1.252**
-AE2 Import Export Card: 1.9.0 -> 1.9.1
-Apotheosis: 8.8.0 -> 8.9.0
-Apothic Attributes: 2.10.1 -> 2.11.0
-Applied Energistics 2: 19.2.17 -> 19.2.18
-Balm: 21.0.65 -> 21.0.66
-Create: Interiors: 0.6.1 v2 -> 0.6.1 v3
-CreativeCore: v2.13.48 -> v2.13.50
-Distant Horizons: 3.3.2 -> 3.3.3
-FancyMenu: 3.9.12 -> 3.9.14
-FTB Library: 2101.1.36 -> 2101.1.37
-Just Enough Items (JEI): 19.57.0.447 -> 19.57.0.450
-Just Enough Mekanism Multiblocks: 7.21 -> 7.22
-Moonlight Lib: 3.6.8 -> 3.7.0
-Puzzles Lib: v21.1.60 -> v21.1.62
-Sophisticated Backpacks Create Integration: 0.2.0.168 -> 0.2.1.171
-Sophisticated Backpacks: 3.26.3.2158 -> 3.26.6.2174
-Sophisticated Core: 1.5.1.2341 -> 1.5.2.2343
-Sophisticated Storage: 1.5.91.2127 -> 1.6.0.2136
-Stargate Journey: 0.6.48-hotfix1 -> 0.6.49
-Trash Cans: 1.1.0 -> 1.1.1
-Modded Omelet Datapack: 170 -> 171
+- AE2 Import Export Card: 1.9.0 -> 1.9.1
+- Apotheosis: 8.8.0 -> 8.9.0
+- Apothic Attributes: 2.10.1 -> 2.11.0
+- Applied Energistics 2: 19.2.17 -> 19.2.18
+- Balm: 21.0.65 -> 21.0.66
+- Create: Interiors: 0.6.1 v2 -> 0.6.1 v3
+- CreativeCore: v2.13.48 -> v2.13.50
+- Distant Horizons: 3.3.2 -> 3.3.3
+- FancyMenu: 3.9.12 -> 3.9.14
+- FTB Library: 2101.1.36 -> 2101.1.37
+- Just Enough Items (JEI): 19.57.0.447 -> 19.57.0.450
+- Just Enough Mekanism Multiblocks: 7.21 -> 7.22
+- Moonlight Lib: 3.6.8 -> 3.7.0
+- MORE GATE NEEDS UPDATE
+- Puzzles Lib: v21.1.60 -> v21.1.62
+- Sophisticated Backpacks Create Integration: 0.2.0.168 -> 0.2.1.171
+- Sophisticated Backpacks: 3.26.3.2158 -> 3.26.6.2174
+- Sophisticated Core: 1.5.1.2341 -> 1.5.2.2343
+- Sophisticated Storage: 1.5.91.2127 -> 1.6.0.2136
+- Stargate Journey: 0.6.48-hotfix1 -> 0.6.49
+- Trash Cans: 1.1.0 -> 1.1.1
+- Modded Omelet Datapack: 170 -> 171
 
 ### Changes:
 - ReAdded Silver and provided full integration between MystAg/Inf Cell/Potions Master/FTBQuest
 
 ### Additions:
+- MezzConfig (JEI Dependancy)
 - Added 3 new Main Menu Backgrounds for a total of 32 (Thanks Licflagg!)
 - Starbounded Gates (Thanks Licflagg!)
 

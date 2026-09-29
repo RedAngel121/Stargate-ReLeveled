@@ -2810,7 +2810,7 @@ hash = "01ec769e63d9e31e69577079a14ae3c0fbe4af7420f995bf995db174efabf158"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/pegasus/hylotl_standard.json"
-hash = "13282c6116d85253ddc6681fd229747a0eaea073a3779245ca82c5a2f7b9edf1"
+hash = "13af1c6915ddb2c2a75e9addaebc3c7e12dba660a5c5d0878dfa57b15f11c922"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/pegasus/luminoth.json"
@@ -2822,7 +2822,7 @@ hash = "680a80d39c692d80cf0572019940a3133f5e493100c266ef887389881c8b1a5c"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/pegasus/trinkan_pegasus.json"
-hash = "ab7e934edaf53eb1e996ade0c8b29af2fb62b85f6d1618bbf0b1c1f6922c88ee"
+hash = "195020cd87dfaebd843ac2dfce87a4c75e3bd35ef392c71bc8961b36abe65fa2"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/tollan/aegi_tn.json"
@@ -4033,6 +4033,10 @@ file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/trinkan
 hash = "83310c156ebf32c68ee7e0b265f8b10f1f0a60ee466f5eb69414c54cfc6b2ed5"
 
 [[files]]
+file = "kubejs/assets/starboundedgates/textures/logo.pdn"
+hash = "d7f946f51e619e87afbcbd89fd4046e9f5b163145b972a64db9bf4f0b4d162cb"
+
+[[files]]
 file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_1.png"
 hash = "2a4e4fe231b3973a1484becbd4b09f284de9f50c08b2df98ca5031310068ac87"
 
@@ -5101,6 +5105,10 @@ file = "kubejs/assets/starboundedgates/textures/symbol/luminoth/point_of_origin/
 hash = "79f29d5f85a3e36f88db9b0af6ec037193ae83d3d2cd48a2858fec9779960e49"
 
 [[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/milky-pegasus base.pdn"
+hash = "19beb2149cb11086f84c4586e62c96c3048a2077ee058b332272e134b4e18660"
+
+[[files]]
 file = "kubejs/assets/starboundedgates/textures/symbol/novakid/novakid_1.png"
 hash = "5b2a91b9e5c8a9172e084b584f8b7fe3d719d89e8e91f506ff92d3188b6e3fc9"
 
@@ -5413,6 +5421,10 @@ file = "kubejs/assets/starboundedgates/textures/symbol/playstationeer/point_of_o
 hash = "eddd443f69015193ba15ffd56b9cc83fadbcfacec05c2ffc47f7c25ce4697d52"
 
 [[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/points_of_origin/UniverseZero.pdn"
+hash = "9f0ec976977bb004f05e4dc29aa11c6650c044209f257898e9394f56cec8e715"
+
+[[files]]
 file = "kubejs/assets/starboundedgates/textures/symbol/points_of_origin/apex_miniknog_origin.png"
 hash = "3e11dc74bdc870cddfe1270841fa0c59080ae832655396d4a9193d83eda22225"
 
@@ -5431,6 +5443,10 @@ hash = "61143acd0352cedf466781c068e87b773c93c83d0a4c48a50f28125e76d77354"
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/symbol/points_of_origin/glitch_origin.png"
 hash = "ac17bfa864c52697224cc6f9b49f54ea0b36ba35cfb1735ff5e3aa8311f9f80d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/points_of_origin/glyphguide.pdn"
+hash = "ed885e5ce985f04fbeea15e8f66a8cc8f79499e2227f9ddb2b9d1eea5c75ba87"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/symbol/points_of_origin/hylotl_origin.png"
@@ -5599,6 +5615,10 @@ hash = "b4a5acbca197147c53d6f975189eba531a88bdcc2fb50251df43cae55b1cc682"
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/symbol/trinkian/trinkian_9.png"
 hash = "4721e73f391a0e0898c871edd97f2dac02e3dcc1272b2ac9a8f57b97033eaa4d"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/symbol/universal.pdn"
+hash = "85a4a90744b937c765ab94a64ff730ed58f3b13478655a0df51d974b23c0c851"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/symbol/x-cyber/point_of_origin/x-cyber_zero.png"
@@ -12360,6 +12380,11 @@ metafile = true
 [[files]]
 file = "mods/merequester.pw.toml"
 hash = "490c62f126037c9258c345e3f2a1c523f004179c7026072d9301391f9c5ecf75"
+metafile = true
+
+[[files]]
+file = "mods/mezzconfig.pw.toml"
+hash = "0a94f9ca9a86267c51832956da72f6f9b8ba598dcac48c3a93b6e50d38089879"
 metafile = true
 
 [[files]]
