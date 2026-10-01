@@ -95,12 +95,14 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - Create: Interiors: 0.6.1 v2 -> 0.6.1 v3
 - CreativeCore: v2.13.48 -> v2.13.50
 - Distant Horizons: 3.3.2 -> 3.3.3
+- Expanded AE: 2.1.3 -> 2.1.4
 - FancyMenu: 3.9.12 -> 3.9.14
 - FTB Library: 2101.1.36 -> 2101.1.37
 - Just Enough Items (JEI): 19.57.0.447 -> 19.57.0.450
 - Just Enough Mekanism Multiblocks: 7.21 -> 7.22
 - Moonlight Lib: 3.6.8 -> 3.7.0
-- MORE GATE NEEDS UPDATE
+- Moregate: 1.1.3 -> 1.1.4
+- No Chat Restrictions: v1.0.2 -> v1.0.3
 - Puzzles Lib: v21.1.60 -> v21.1.62
 - Sophisticated Backpacks Create Integration: 0.2.0.168 -> 0.2.1.171
 - Sophisticated Backpacks: 3.26.3.2158 -> 3.26.6.2174

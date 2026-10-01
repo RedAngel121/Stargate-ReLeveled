@@ -1,13 +1,13 @@
 name = "No Chat Restrictions"
-filename = "NoChatRestrictions-NeoForge-MC1.21.11-v1.0.2.jar"
+filename = "NoChatRestrictions-NeoForge-MC1.21.11-v1.0.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f1287060af0efbd5e85de052be9d550709561ab1"
+hash = "553654f8f037c6ad419176f38f02ad4775a733e5"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8707235
+file-id = 9017051
 project-id = 1442925
