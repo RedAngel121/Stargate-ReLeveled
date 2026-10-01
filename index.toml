@@ -10557,10 +10557,6 @@ file = "kubejs/data/sgcommunity_pack/recipe/sand_to_white_sand.json"
 hash = "d0fb7994e889e2fa09e80cb30a1a2f6be9d4909a25cee423952886ac7f966226"
 
 [[files]]
-file = "kubejs/data/sgcommunity_pack/recipe/sandstone_cartouche.json"
-hash = "088461b6b6bcc3a4eda178fabf731c1faae6686030f30b7587f139a55a4ef35a"
-
-[[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/soil/computational_crux.json"
 hash = "8b164ed2477bebc80a299f86c1de6ae1a4a63f1743cde36caaac11cdead2ccce"
 
@@ -11944,7 +11940,7 @@ metafile = true
 
 [[files]]
 file = "mods/createaddition.pw.toml"
-hash = "f0e7bca98eed4c0747156c8dd9d59ec7e081bf1cb9b900f6139a72107a57f0eb"
+hash = "8913bb244d45ff085d444bd9c0ea236ffb3414a608554766140a208ac973a5a6"
 metafile = true
 
 [[files]]

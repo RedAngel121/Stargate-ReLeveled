@@ -92,6 +92,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - Apothic Attributes: 2.10.1 -> 2.11.0
 - Applied Energistics 2: 19.2.17 -> 19.2.18
 - Balm: 21.0.65 -> 21.0.66
+- Create Crafts & Additions: 1.7.1 -> 1.7.2
 - Create: Interiors: 0.6.1 v2 -> 0.6.1 v3
 - CreativeCore: v2.13.48 -> v2.13.50
 - Distant Horizons: 3.3.2 -> 3.3.3
