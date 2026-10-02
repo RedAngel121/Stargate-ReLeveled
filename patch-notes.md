@@ -118,6 +118,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - Starbounded Gates (Thanks Licflagg!)
 
 ### Removals:
+- Immerisve Armors (constantly breaking for no reason)
 
 ### Known Issues:
 - Chairs/Benches/Seats cannot be sat on in airless Ad Astra Dimensions without a single block of oxygen below it. Use an Ad Astra Vent underneath the seat to prevent death.
