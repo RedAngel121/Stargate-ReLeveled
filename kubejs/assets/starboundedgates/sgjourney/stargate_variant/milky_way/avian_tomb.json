@@ -25,7 +25,25 @@
           "blue": 1
         }
       }
-    },
+    },"event_horizon_unstable":
+		{
+			"front":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/milky_way/avian_tomb/avian_tomb_event_horizon_unstable.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			},
+			"back":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/milky_way/avian_tomb/avian_tomb_event_horizon_unstable.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			}
+		},
 		"disconnect_ticks": { "wait_ticks": 39, "fade_in_ticks": 1, "stable_ticks": 0, "fade_out_ticks": 9 },
 		"disconnect":
 		{
@@ -73,7 +91,25 @@
           "blue": 1
         }
       }
-    },
+    },"event_horizon_unstable":
+		{
+			"front":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/milky_way/avian_tomb/avian_tomb_event_horizon_shiny_unstable.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			},
+			"back":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/milky_way/avian_tomb/avian_tomb_event_horizon_shiny_unstable.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			}
+		},
 		"disconnect_ticks": { "wait_ticks": 39, "fade_in_ticks": 1, "stable_ticks": 0, "fade_out_ticks": 9 },
 		"disconnect":
 		{

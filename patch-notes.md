@@ -8,12 +8,8 @@ Mods:
 - WorldEdit CUI
 
 ### TODO:
-- SGJ UPDATE coming soon:
-  - remove the cartouche custom recipe or change new default recipe
-  - MOD/sgjourney/space_location for DeeperDarker, Overworld Mirror, Undergarden
-    - verify that all dims show up in abydos cartouche rooms
-
-- Add Silver to the Myst Ag quests
+- Verify space_location for DeeperDarker, Overworld Mirror, Undergarden and verify that all dims show up in abydos cartouche rooms
+- why can't the mekanism presser and presser factory make pcb substrates?
 
 - Chisel Blocks: Aluminum, Cobalt, Invar - These have no recipe and need to be added to the chisel workbench somehow
 - Make chem cells https://github.com/GlodBlock/ExtendedAE/wiki/Custom-Infinity-Cell

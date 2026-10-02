@@ -23,6 +23,25 @@
 				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
 			}
 		},
+		"event_horizon_unstable":
+		{
+			"front":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/universe/centen/centen_u_event_horizon_unstable.png",
+				"rows": 32,
+				"columns": 1,
+				"frames": 32,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			},
+			"back":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/universe/centen/centen_u_event_horizon_unstable.png",
+				"rows": 32,
+				"columns": 1,
+				"frames": 32,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			}
+		},
 		"disconnect_ticks": { "wait_ticks": 26, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
 		"disconnect":
 		{
@@ -59,6 +78,25 @@
 			"back":
 			{
 				"texture": "starboundedgates:textures/entity/stargate/universe/centen/centen_u_event_horizon_shiny.png",
+				"rows": 32,
+				"columns": 1,
+				"frames": 32,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			}
+		},
+		"event_horizon_unstable":
+		{
+			"front":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/universe/centen/centen_u_event_horizon_unstable.png",
+				"rows": 32,
+				"columns": 1,
+				"frames": 32,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			},
+			"back":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/universe/centen/centen_u_event_horizon_unstable.png",
 				"rows": 32,
 				"columns": 1,
 				"frames": 32,

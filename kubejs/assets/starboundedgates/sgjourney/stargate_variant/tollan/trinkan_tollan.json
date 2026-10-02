@@ -31,6 +31,25 @@
         }
       }
     },
+		"event_horizon_unstable":
+		{
+			"front":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/tollan/trinkan/trinkan_tollan_event_horizon_unstable.png",
+				"rows": 60,
+				"columns": 1,
+				"frames": 60,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			},
+			"back":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/tollan/trinkan/trinkan_tollan_event_horizon_unstable.png",
+				"rows": 60,
+				"columns": 1,
+				"frames": 60,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			}
+		},
 		"disconnect_ticks": { "wait_ticks": 0, "fade_in_ticks": 0, "stable_ticks": 0, "fade_out_ticks": 20 },
 		"disconnect":
 		{
@@ -79,6 +98,25 @@
         }
       }
     },
+		"event_horizon_unstable":
+		{
+			"front":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/tollan/trinkan/trinkan_tollan_event_horizon_unstable.png",
+				"rows": 60,
+				"columns": 1,
+				"frames": 60,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			},
+			"back":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/tollan/trinkan/trinkan_tollan_event_horizon_unstable.png",
+				"rows": 60,
+				"columns": 1,
+				"frames": 60,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			}
+		},
 		"disconnect_ticks": { "wait_ticks": 0, "fade_in_ticks": 0, "stable_ticks": 0, "fade_out_ticks": 20 },
 		"disconnect":
 		{

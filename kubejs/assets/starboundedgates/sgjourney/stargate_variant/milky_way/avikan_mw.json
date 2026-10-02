@@ -26,7 +26,25 @@
           "blue": 1
         }
       }
-	},
+	},"event_horizon_unstable":
+		{
+			"front":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/milky_way/avikan/avikan_milky_event_horizon_unstable.png",
+				"rows": 6,
+				"columns": 1,
+				"frames": 6,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			},
+			"back":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/milky_way/avikan/avikan_milky_event_horizon_unstable.png",
+				"rows": 6,
+				"columns": 1,
+				"frames": 6,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			}
+		},
 	  "strudel":{
       "front": {
         "texture": "starboundedgates:textures/entity/stargate/milky_way/avikan/avikan_milky_event_horizon.png",
@@ -103,7 +121,25 @@
           "blue": 1
         }
       }
-	},
+	},"event_horizon_unstable":
+		{
+			"front":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/milky_way/avikan/avikan_milky_event_horizon_unstable.png",
+				"rows": 6,
+				"columns": 1,
+				"frames": 6,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			},
+			"back":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/milky_way/avikan/avikan_milky_event_horizon_unstable.png",
+				"rows": 6,
+				"columns": 1,
+				"frames": 6,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			}
+		},
 	  "strudel":{
       "front": {
         "texture": "starboundedgates:textures/entity/stargate/milky_way/avikan/avikan_milky_event_horizon.png",

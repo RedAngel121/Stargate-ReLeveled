@@ -31,6 +31,25 @@
         }
       }
     },
+		"event_horizon_unstable":
+		{
+			"front":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/pegasus/aegi/aegi_pegasus_event_horizon_unstable.png",
+				"rows": 32,
+				"columns": 1,
+				"frames": 32,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			},
+			"back":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/pegasus/aegi/aegi_pegasus_event_horizon_unstable.png",
+				"rows": 32,
+				"columns": 1,
+				"frames": 32,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			}
+		},
 		"disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
 		"disconnect":
 		{
@@ -82,6 +101,25 @@
         }
       }
     },
+		"event_horizon_unstable":
+		{
+			"front":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/pegasus/aegi/aegi_pegasus_event_horizon_shiny_unstable.png",
+				"rows": 32,
+				"columns": 1,
+				"frames": 32,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			},
+			"back":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/pegasus/aegi/aegi_pegasus_event_horizon_shiny_unstable.png",
+				"rows": 32,
+				"columns": 1,
+				"frames": 32,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			}
+		},
 		"disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
 		"disconnect":
 		{

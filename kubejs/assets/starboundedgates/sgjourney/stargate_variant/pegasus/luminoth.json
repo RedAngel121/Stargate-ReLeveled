@@ -85,6 +85,25 @@
         }
       }
     },
+		"event_horizon_unstable":
+		{
+			"front":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/pegasus/luminoth/luminoth_strudel.png",
+				"rows": 64,
+				"columns": 1,
+				"frames": 64,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/pegasus/luminoth/luminoth_strudel.png",
+				"rows": 64,
+				"columns": 1,
+				"frames": 64,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		},
 		"disconnect_ticks": { "wait_ticks": 0, "fade_in_ticks": 0, "stable_ticks": 0, "fade_out_ticks": 17 },
 		"disconnect":
 		{
@@ -190,6 +209,25 @@
         }
       }
     },
+		"event_horizon_unstable":
+		{
+			"front":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/pegasus/luminoth/luminoth_strudel_shiny.png",
+				"rows": 64,
+				"columns": 1,
+				"frames": 64,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "starboundedgates:textures/entity/stargate/pegasus/luminoth/luminoth_strudel_shiny.png",
+				"rows": 64,
+				"columns": 1,
+				"frames": 64,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		},
 		"disconnect_ticks": { "wait_ticks": 0, "fade_in_ticks": 0, "stable_ticks": 0, "fade_out_ticks": 17 },
 		"disconnect":
 		{
