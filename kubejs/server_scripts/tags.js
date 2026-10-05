@@ -1,11 +1,3 @@
-// Bottomless Fluid Tagging
-let bottomless = ["create:honey", "create:chocolate", "create_confectionery:black_chocolate", "create_confectionery:white_chocolate", "create_confectionery:ruby_chocolate", "c:experience", "mekanismgenerators:fusion_fuel"];
-ServerEvents.tags("fluid", event => {
-    for (let fluids of bottomless) {
-        event.add("create:bottomless/allow", fluids);
-    }
-});
-
 // SGCommunity_Pack Convertables using Oredictionificator
 ServerEvents.tags("item", event => {
     event.add("convert:mosfet", "minecraft:redstone");
