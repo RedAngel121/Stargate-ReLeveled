@@ -125,8 +125,10 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - SuperMartijn642's Core Lib: 1.1.24a -> 1.1.24b
 - Trash Cans: 1.1.0 -> 1.1.1
 
-### Datapacks and Shaders:
+### Datapacks:
 - Modded Omelet Datapack: 170 -> 171
+
+### Shaders:
 - Reverie: Beta v0.9 -> v1.0
 
 ### Changes:
