@@ -9,16 +9,8 @@ Mods:
 
 ### TODO:
 - Verify space_location for DeeperDarker, Overworld Mirror, Undergarden and verify that all dims show up in abydos cartouche rooms
- (replacement for inscriber)
-  - mekmm:compat/megacells/presser/accumulation_ETC
 
-- Chisel Blocks: Aluminum, Cobalt, Invar - These have no recipe and need to be added to the chisel workbench somehow
-- Make chem cells https://github.com/GlodBlock/ExtendedAE/wiki/Custom-Infinity-Cell
-- make/change the infinite item/fluid/chem cell recipes to be more production centered
-- ? TAGS: CreateAdditions bio pellet and pellet block need to be adjusted to be bio-fuels compatible
-- ? Choose Mekanism Uranium or Oritech Uranium - change world gen
-
-### Oritech Upgrades:
+### Oritech Upgrade:
 - New Oritech Quest Chapter
 - Circuit Etching Mask made of smithing templates from different modded dims
 - Integrate Oritech - this would be amazing to add compat for, make even more complex circuits and recipe chains... make a ZPM with it?
@@ -26,6 +18,13 @@ Mods:
 - ZPM replication options for endgame (talk to cookta) > use the Antiprotonic Nucleosynthesizer
 - Find a way to include UU Matter into endgame recipes
 - 2 new circuits: one for replacing the Comp Core and a new one called Zero Point Energy Circuit that can be used to craft the ZPM and ZPM hub
+- make/change the infinite item/fluid/chem cell recipes to be more production centered
+- Make chem cells https://github.com/GlodBlock/ExtendedAE/wiki/Custom-Infinity-Cell
+
+### Extra TODOs that are not all that important yet:
+- Chisel Blocks: Aluminum, Cobalt, Invar - These have no recipe and need to be added to the chisel workbench somehow
+- ? TAGS: CreateAdditions bio pellet and pellet block need to be adjusted to be bio-fuels compatible
+- ? Choose Mekanism Uranium or Oritech Uranium - change world gen
 
 ### Long Term Goals:
 - Make a Custom Cartouches mod https://discord.com/channels/1011344665678708818/1522021932420304957/1533215393945092238
@@ -84,66 +83,16 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 ====================================================================================================
 
 ### Mod Updates:
-**Neoforge: 21.1.251 -> 21.1.255**
-- Advanced Peripherals: 0.8.1a -> 0.8.2a
-- AE2 Import Export Card: 1.9.0 -> 1.9.1
-- Apotheosis: 8.8.0 -> 8.9.0
-- Apothic Attributes: 2.10.1 -> 2.11.0
-- Apothic Enchanting: 1.6.2 -> 1.6.3
-- Applied Energistics 2: 19.2.17 -> 19.2.18
-- Azimuth API: 1.4.9 -> 1.4.10
-- Balm: 21.0.65 -> 21.0.66
-- Create Crafts & Additions: 1.7.1 -> 1.7.2
-- Create: Interiors: 0.6.1 v2 -> 0.6.1 v3
-- CreativeCore: v2.13.48 -> v2.13.50
-- Distant Horizons: 3.3.2 -> 3.3.3
-- Easy Villagers: 1.1.42 -> 1.1.45
-- Expanded AE: 2.1.3 -> 2.1.4
-- ExtendedAE: 2.2.38 -> 2.2.39
-- Extreme sound muffler: 3.56 -> 3.57
-- FancyMenu: 3.9.12 -> 3.9.14
-- FTB Library: 2101.1.36 -> 2101.1.37
-- Fusion (Connected Textures): 1.3.15b -> 1.3.16
-- HammerLib: 21.0.16 -> 21.0.17
-- Jade Addons (Neo/Forge): 6.1.1 -> 6.1.2
-- Just Enough Items (JEI): 19.57.0.447 -> 19.57.0.451
-- Just Enough Mekanism Multiblocks: 7.21 -> 7.23
-- Moonlight Lib: 3.6.8 -> 3.7.1
-- Moregate: 1.1.3 -> 1.1.6
-- Mystical Agradditions: 8.0.14 -> 8.0.15
-- No Chat Restrictions: v1.0.2 -> v1.0.3
-- Oritech: 1.2.12 -> 1.2.13
-- Puzzles Lib: v21.1.60 -> v21.1.62
-- Quark: 4.1-485 -> 4.1-486
-- RFTools Builder: 7.0.6 -> 7.0.7
-- Schematic Energistics: 1.5.4a -> 1.5.5
-- Sophisticated Backpacks Create Integration: 0.2.0.168 -> 0.2.1.171
-- Sophisticated Backpacks: 3.26.3.2158 -> 3.26.6.2182
-- Sophisticated Core: 1.5.1.2341 -> 1.5.2.2363
-- Sophisticated Storage: 1.5.91.2127 -> 1.6.0.2147
-- Stargate Journey: 0.6.48-hotfix1 -> 0.6.50
-- SuperMartijn642's Core Lib: 1.1.24a -> 1.1.24b
-- Trash Cans: 1.1.0 -> 1.1.1
 
 ### Datapacks:
-- Modded Omelet Datapack: 170 -> 171
 
 ### Shaders:
-- Reverie: Beta v0.9 -> v1.0
 
 ### Changes:
-- ReAdded Silver and provided full integration between MystAg/Inf Cell/Potions Master/FTBQuest
-- Added the sgcommunity_pack:advanced_pcb_substrate recipe to the MekMM press
-- Hose Pulley now allows all fluids as bottomless at 10k+ source blocks
-- Updated Hose Pulley Quest to reflect changes and added new Pulley blocks from Create: Encased
 
 ### Additions:
-- MezzConfig (JEI Dependancy)
-- Added 3 new Main Menu Backgrounds for a total of 32 (Thanks Licflagg!)
-- Starbounded Gates (Thanks Licflagg!)
 
 ### Removals:
-- Immerisve Armors (constantly breaking for no reason)
 
 ### Known Issues:
 - Chairs/Benches/Seats cannot be sat on in airless Ad Astra Dimensions without a single block of oxygen below it. Use an Ad Astra Vent underneath the seat to prevent death.
