@@ -661,7 +661,7 @@
 	]
 	quest.71C4CA73E8FA19A6.quest_desc: ["While you can currently manufacture Tier III circuits, you are not even close to automating them. You must expand into nuclear reactors in order to do so."]
 	quest.71C4CA73E8FA19A6.title: "&6What now?"
-	quest.723CFF1C353C5B85.quest_desc: ["The Create hose allows for extracting or filling large bodies of fluids. It extracts everything at or above the height of it's nozzle and fills up to it's level. However, when the body of fluid is larger than 10000 blocks, the hose considers the pool to be infinite. This works for water, honey, chocolate, and lava. If you want another fluid added to the list, just ask the Pack Dev."]
+	quest.723CFF1C353C5B85.quest_desc: ["The Create hose allows for extracting or filling large bodies of fluids. It extracts everything at or above the height of it's nozzle and fills up to it's level. However, when the body of fluid is larger than 10000 blocks, the hose considers the pool to be infinite. This works for all fluids."]
 	quest.723CFF1C353C5B85.quest_subtitle: "Ok, that's definitely not balanced"
 	quest.723CFF1C353C5B85.title: "Infinite Lava"
 	quest.725863D132052C3F.quest_desc: ["The &lPattern Access&r Terminal allows you to quickly move or add patterns to your network."]
@@ -748,6 +748,7 @@
 	task.07CBCE0E4DE73B4D.title: "Acknowledge"
 	task.0BF0F5D641450559.title: "Acknowledge"
 	task.0C493FF23582D551.title: "I see"
+	task.0F8B14CCDFB3446B.title: "Hose Pulley"
 	task.0FDDB96D33BA1CCA.title: "Storage Cells"
 	task.12480A5D3FD71BA5.title: "Acknowledge"
 	task.13123EA1EC6EB6F9.title: "Acknowledge"

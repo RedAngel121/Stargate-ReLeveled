@@ -35,7 +35,8 @@ Mods:
 - Add Ars Elixirum for Potion Making after it gets properly updated > then check apoth charms compat
 - Add Tempad as an After-Oritech endgame TP item that can(t?) travel between dims - requires ZPM?
 - Swap out the long ass recipe chains for individual recipes and items, making JEI/EMI Actually useful
-- check if https://www.curseforge.com/minecraft/mc-mods/ancient-remnants is 1.21.1 yet
+- https://www.curseforge.com/minecraft/mc-mods/ancient-remnants is available on 1.21.1 - Destony Monolith Planet?
+  - add a new planet and assign the monoliths to that dim instead of being allowed to spawn in the overworld
 
 ### Dimensional Options:
 - add more dims by way of custom shit or add Alex Caves Dims mods and include a new gate per dimension
@@ -107,7 +108,6 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - Jade Addons (Neo/Forge): 6.1.1 -> 6.1.2
 - Just Enough Items (JEI): 19.57.0.447 -> 19.57.0.451
 - Just Enough Mekanism Multiblocks: 7.21 -> 7.23
-- MezzConfig: 0.6.6 -> 0.6.8
 - Moonlight Lib: 3.6.8 -> 3.7.1
 - Moregate: 1.1.3 -> 1.1.6
 - Mystical Agradditions: 8.0.14 -> 8.0.15
@@ -132,6 +132,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 ### Changes:
 - ReAdded Silver and provided full integration between MystAg/Inf Cell/Potions Master/FTBQuest
 - Hose Pulley now allows all fluids as bottomless at 10k+ source blocks
+- Updated Hose Pulley Quest to reflect changes and added new Pulley blocks from Create: Encased
 
 ### Additions:
 - MezzConfig (JEI Dependancy)

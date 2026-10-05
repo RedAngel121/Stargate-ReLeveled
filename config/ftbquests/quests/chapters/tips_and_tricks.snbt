@@ -46,8 +46,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "1B78D909ACCA8D59"
-				item: { count: 1, id: "create:hose_pulley" }
+				icon: {
+					id: "create:hose_pulley"
+				}
+				id: "0F8B14CCDFB3446B"
+				item: { components: { "ftbfiltersystem:filter": "or(item(create:hose_pulley)item(createcasing:andesite_hose_pulley)item(createcasing:brass_hose_pulley)item(createcasing:zinc_hose_pulley))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 3.0d

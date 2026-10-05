@@ -139,8 +139,11 @@
 				{
 					id: "1612E297527D4089"
 					item: {
+						components: {
+							"ftbquests:missing_item": "immersive_armors:slime_boots"
+						}
 						count: 1
-						id: "immersive_armors:slime_boots"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
