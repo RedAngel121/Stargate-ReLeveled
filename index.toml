@@ -8705,6 +8705,10 @@ file = "kubejs/data/sgcommunity_pack/recipe/item/advanced_pcb_substrate.json"
 hash = "16354804cd143748c45014265e76d120836a0fe54108f732c02b179b4176792e"
 
 [[files]]
+file = "kubejs/data/sgcommunity_pack/recipe/item/advanced_pcb_substrate_presser.json"
+hash = "ad5ee9a01379fb5c637c7dd54ce98140f9f6f9b44b2439a9cf82e6150d6e635d"
+
+[[files]]
 file = "kubejs/data/sgcommunity_pack/recipe/item/alu.json"
 hash = "4fcfc27d8eb737b5c9276223d96b62fd7defcd794cc521ae7655a2fa3cd0988f"
 

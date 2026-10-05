@@ -9,7 +9,7 @@ Mods:
 
 ### TODO:
 - Verify space_location for DeeperDarker, Overworld Mirror, Undergarden and verify that all dims show up in abydos cartouche rooms
-- Add the sgcommunity_pack:advanced_pcb_substrate recipe to the MekMM press (replacement for inscriber)
+ (replacement for inscriber)
   - mekmm:compat/megacells/presser/accumulation_ETC
 
 - Chisel Blocks: Aluminum, Cobalt, Invar - These have no recipe and need to be added to the chisel workbench somehow
@@ -133,6 +133,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 
 ### Changes:
 - ReAdded Silver and provided full integration between MystAg/Inf Cell/Potions Master/FTBQuest
+- Added the sgcommunity_pack:advanced_pcb_substrate recipe to the MekMM press
 - Hose Pulley now allows all fluids as bottomless at 10k+ source blocks
 - Updated Hose Pulley Quest to reflect changes and added new Pulley blocks from Create: Encased
 

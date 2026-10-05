@@ -1,0 +1,19 @@
+{
+    "type": "mekmm:pressing",
+    "primary_input": {
+        "count": 1,
+        "tag": "c:ingots/copper"
+    },
+    "secondary_input": {
+        "count": 1,
+        "item": "mekanism:hdpe_sheet"
+    },
+    "tertiary_input": {
+        "count": 1,
+        "tag": "c:ingots/copper"
+    },
+    "output": {
+        "count": 1,
+        "id": "sgcommunity_pack:advanced_pcb_substrate"
+    }
+}
