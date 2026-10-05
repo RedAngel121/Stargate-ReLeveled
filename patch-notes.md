@@ -84,7 +84,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 ====================================================================================================
 
 ### Mod Updates:
-**Neoforge: 21.1.251 -> 21.1.252**
+**Neoforge: 21.1.251 -> 21.1.255**
 - Advanced Peripherals: 0.8.1a -> 0.8.2a
 - AE2 Import Export Card: 1.9.0 -> 1.9.1
 - Apotheosis: 8.8.0 -> 8.9.0
