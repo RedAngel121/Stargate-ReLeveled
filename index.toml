@@ -2722,7 +2722,7 @@ hash = "cd240d8016329bf812f72a1a2b2648eeeb16e1a014811ff2afcd96a1a35f65cb"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/avian_tomb.json"
-hash = "a2a667826fe8d92bdc0a2833adcf2111d5eae854fe01aa8c6b7bda5c87fcad16"
+hash = "eb39c047198aae239cc33312a921bd609dde784c2398bfe3caab2f188e87ca48"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/avikan_mw.json"
@@ -2730,15 +2730,15 @@ hash = "3938cfb89d651e66169fffc24169687af15a8eac8a3ee49f6aa214a73e30f1d1"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/centen_milky.json"
-hash = "1de4d219ab522776c147235d376a34ce6c59823c5983aea24b3d3f442b16aedf"
+hash = "6612424333e926560a8494db464d209ea94b92ef1681a9d7a9ac5751f36dee83"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/chozo_mw.json"
-hash = "4d3cfccad087021f2b97ce3ce860a5d6a21d2ac5b85ab701e6deab12ab3f7bb2"
+hash = "ab9fa32d33b1fe7c5042ec2b8cb5f2c028fcf130de1c7b6f570382e816902839"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/cultivator.json"
-hash = "3ba3a88befb49f9f1b64a2f685bdc910daa0760ac409e390a42d5899a597b358"
+hash = "16d2368df7c59c0c26f17a932323af15eced05746fffad8c39f58a1f793db461"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/floran.json"
@@ -2758,7 +2758,7 @@ hash = "951853415baa3c3c5921756d432c4823d05bda4ea87254d3605146a16364b06e"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/novakid.json"
-hash = "70107ae9776fee75a18af224cc8d020800a4e652bcf6b58f2b6332ead18acf92"
+hash = "313d3e8f46eaa2ceeb08017f56c28916b1e64209aecb0ff0896596d8645a3468"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/protectorate.json"
@@ -2766,11 +2766,11 @@ hash = "2b1a097c0fdc7852377bdf9cd535820eaf149e2eac2b667ff6e70198d893b004"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/ruin.json"
-hash = "9d8669ca0d614cb2fcf8123231eb8409ea1a5250b3179b6aa3f24ee4f857e489"
+hash = "eb82742609b784e12140194c10cbc0fd9a9e139678e61f474437abd2d3c054ce"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/trinkan_milky.json"
-hash = "192db4a4410442494660010bb50f4b36e3730bfb44463180ec96d3a32a1b8c6b"
+hash = "d9dcd96a5a3d9689eab07bc83b713dba60b0b56a8f205cedc6c2751641a2a093"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/milky_way/worn_protectorate.json"
@@ -2794,19 +2794,19 @@ hash = "eaa8420518871c1a7b89f958e76d2d7fabd21728d3df48299dcb6a8a5de1fb5f"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/pegasus/avikan_pg.json"
-hash = "55dfb3d13fc41bf34408d5e0f528655060c79ae7732028fcff36534c00ca8cbe"
+hash = "122df874bbbb939dce2ce463ff6da3ab9ed13810b3e363ffb9364f547d6f82c3"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/pegasus/centen_pegasus.json"
-hash = "52ca8bbb5444222e9fbbc3e76a45d136517c6597959a760c964890bcb189977e"
+hash = "7075cfa84ae75a2ccfceb82d742eab916ffa3082a88fe7063404e6a79adc75f1"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/pegasus/chozo_pg.json"
-hash = "2c6603594a0bd5cc47904798853ebe896d4a441ed8a49cd722d111a6c55adb36"
+hash = "19d9580c7ecd8195a6fecb2722e9af019ec8714ab523b92526f22e1ba4eca157"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/pegasus/cultivator_pegasus.json"
-hash = "5692d365f3249832649fe761e841160962a60e87bf029e4de3c58dc525909723"
+hash = "ebe6d8f02cec1255011be8a63dc88014267ee7aa03c24f228f6842aba4fa5825"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/pegasus/hylotl_standard.json"
@@ -2814,27 +2814,27 @@ hash = "2a48e84ce18e065fd7cabe13daf5dd92b601a2d2ce17f4fcc6008deb3fb1e36a"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/pegasus/luminoth.json"
-hash = "38cc4849efb82d703c0f56ebdc111177068c8b9dbde64ecda8cea6f122dc5c43"
+hash = "f5aa95baa835863f2272b356672d5b868b7c425ba51bb073c64d02b1feb0a6c8"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/pegasus/playstationeer.json"
-hash = "830af05681f3ffd053f228779a7f50ee9ffd6fd958cdea5bb0f40a6967a10ceb"
+hash = "5754b0104bd619a97bac983e3f49a05f2d757d8a0e5d5d89e78128eae44301f4"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/pegasus/trinkan_pegasus.json"
-hash = "1d8dd5ca3acbb4e2fc7a984f7b04f91333382b052b733907d8944e0030f668b6"
+hash = "a6498eee94773d8d69242c9d71c61b06f198e3616b6ec888bde38eb832d6b591"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/tollan/aegi_tn.json"
-hash = "d7745a5d3249b13ca19d1786adf2ea34685ac8f0e6b24cbf7913f3654e13692d"
+hash = "9bfbe4f1e229291f11d8a0549c57feda12740048fbfabf25801f7d487351c51b"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/tollan/centen_tollan.json"
-hash = "b10e5bf24b8b8d43787592d67c6a04ad485ea409afd4687ffd6fb7f2e057dcf1"
+hash = "be50e986f837dc7834102295414b7d07703ecfe6b5e0187fe4f4b2f9a51308cb"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/tollan/trinkan_tollan.json"
-hash = "58aa9b53725abe16f3502c69e0e47bbfff1b5e1ae27b3683fd710d36d475115c"
+hash = "006efcdd06b53ac6be049d60929698a4aee401d98433d19f0b65564efcbcca7c"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/universe/aegi_un.json"
@@ -2842,15 +2842,15 @@ hash = "e11209cb5cb31f0ab0980141e116eaddfe9a6111c0c10afad9e0e67b36ea829c"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/universe/centen_universe.json"
-hash = "c74101664e98780bd3daad6cbb6fde7c38ce202cd6d17f1abfa79c87d2fdaf6e"
+hash = "62a7259d845973ea291c126e62e27506b1d1d2bb2cab577bd50fd03123703bfb"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/universe/cultivator_universe.json"
-hash = "d14afe8eefc7adabcfe6cca1d79dad8f4e073fdb3943f41845b7570fe4e83cd7"
+hash = "6f77dbc17f09c154a1038fab22ebfc9d473b9381de41274dd05f31fb5acfccc5"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/stargate_variant/universe/trinkan_universe.json"
-hash = "499bea733c92e6279eb13937d0d7829d6e33e31fdd127aacfe3f0b2e003edf47"
+hash = "c760cb557c1b525570321cdf5822a56bf6c9e696861ad14783b7865d20160bbe"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/sgjourney/symbol_set/actual_binary.json"
@@ -3497,26 +3497,6 @@ file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avian_
 hash = "53ed182d35883412c3214aaa51bce3a65dc726583f937dd4c390b464359dc008"
 
 [[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avian_tomb/avian_disconnect.png"
-hash = "93ae7421a9bd6d5b0da810d034a389451918e997cb8b2ec44e87e7423ed332ff"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avian_tomb/avian_tomb_event_horizon.png"
-hash = "ef7959860a0ca73f1531c2fbcca16913cb1882d588b47f11d97a331c9ec94d2d"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avian_tomb/avian_tomb_event_horizon_shiny.png"
-hash = "47c819d2c0a88f460ac14ea646f309d0376c6a94316f5992cb7bcbe0376bb6b9"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avian_tomb/avian_tomb_event_horizon_shiny_unstable.png"
-hash = "740a4d7dd894a276f1a6528e3e6fbaf7a1e514466ebb51ff2a7dde308e115bc5"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avian_tomb/avian_tomb_event_horizon_unstable.png"
-hash = "663289eb761acb08843515d2a1196fcd0b1220d43994dade3ad9799a553a6160"
-
-[[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avian_tomb/avian_tomb_stargate_milky.png"
 hash = "ec778208ae6a08b3aa5868219a17ebb87b0c64ecc7eda5e2528ee3c996e06e2c"
 
@@ -3531,14 +3511,6 @@ hash = "570a031763efb9b2d580521f57fe1cf4f43909614179183ea5e225ea52741944"
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avikan/avikan_milky_event_horizon.png"
 hash = "2e764ca7d32ed8ba77341d6d098772da3d243219d3413edb8b669112e7d793ea"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avikan/avikan_milky_event_horizon_shiny.png"
-hash = "2e764ca7d32ed8ba77341d6d098772da3d243219d3413edb8b669112e7d793ea"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avikan/avikan_milky_event_horizon_shiny_unstable.png"
-hash = "aac516f667d83441c94673ad8e5b1b3c2a2735e69ce01f1a087762b84d98dd79"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/avikan/avikan_milky_event_horizon_unstable.png"
@@ -3557,22 +3529,6 @@ file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/centen
 hash = "5da04e6233e062d0a9df98aafab7fd605ff0d6e9a1c445710f54022bb7386a63"
 
 [[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/centen/centen_event_horizon.png"
-hash = "217e6de11a63d94a70c5b1f904b418939fb32d589133c35c87826e533c107aa1"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/centen/centen_event_horizon_shiny.png"
-hash = "217e6de11a63d94a70c5b1f904b418939fb32d589133c35c87826e533c107aa1"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/centen/centen_event_horizon_shiny_unstable.png"
-hash = "48862f52822e235efb7de2101f550f6d36775b4c6b39de8d8de12526619f9aa2"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/centen/centen_event_horizon_unstable.png"
-hash = "48862f52822e235efb7de2101f550f6d36775b4c6b39de8d8de12526619f9aa2"
-
-[[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/centen/centen_stargate_milky.png"
 hash = "99f0e74658bd2c2440c3d48060bdf42e7f5e456bfd266b43d2bd25ed885ea046"
 
@@ -3587,14 +3543,6 @@ hash = "4ac139ced33b3b4fc872e2c946e2abbe2ac1b057bac15b677bfa99801d60553c"
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/chozo_mw/chozo_mw_event_horizon.png"
 hash = "b3935ac93b0dd611659043c0a6d8e1ab19276e76e7e0591320a0fa63652563c2"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/chozo_mw/chozo_mw_event_horizon_shiny.png"
-hash = "b3935ac93b0dd611659043c0a6d8e1ab19276e76e7e0591320a0fa63652563c2"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/chozo_mw/chozo_mw_event_horizon_shiny_unstable.png"
-hash = "5cf73413964c8a792172a85017d747be7d1c414f3a2e6c4a382abf4e73645ffb"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/chozo_mw/chozo_mw_event_horizon_unstable.png"
@@ -3615,14 +3563,6 @@ hash = "48b62922bbac5c3708cb7ffb640e950c6069ee12e8727cc9cb2f3ff4283de6d4"
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/cultivator/cultivator_event_horizon.png"
 hash = "d2e19fc731f9f46754e4948e0b488cfe5a675b828d96ed06149d0185f1398add"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/cultivator/cultivator_event_horizon_shiny.png"
-hash = "d2e19fc731f9f46754e4948e0b488cfe5a675b828d96ed06149d0185f1398add"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/cultivator/cultivator_event_horizon_shiny_unstable.png"
-hash = "d2de5624b767b4133a5de5f486bfe7225aa2f1ee309e7d9d0d8456f3add85544"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/cultivator/cultivator_event_horizon_unstable.png"
@@ -3737,14 +3677,6 @@ file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/novaki
 hash = "aa03397bf2c26d50f0920b3770634c37a668511859398716fb2b9b66098ce203"
 
 [[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/novakid/novakid_event_horizon_shiny.png"
-hash = "aa03397bf2c26d50f0920b3770634c37a668511859398716fb2b9b66098ce203"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/novakid/novakid_event_horizon_shiny_unstable.png"
-hash = "13015894856e411d2b1c3bdc66d76b784276c69a6b2ae19434c5242b4d2bdda0"
-
-[[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/novakid/novakid_event_horizon_unstable.png"
 hash = "13015894856e411d2b1c3bdc66d76b784276c69a6b2ae19434c5242b4d2bdda0"
 
@@ -3785,14 +3717,6 @@ file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/ruin/r
 hash = "54830917c1cb19e6e11d85b233b3cf0ed8d32800695d3b31be07d6f3d4e08323"
 
 [[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/ruin/ruin_event_horizon_shiny.png"
-hash = "54830917c1cb19e6e11d85b233b3cf0ed8d32800695d3b31be07d6f3d4e08323"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/ruin/ruin_event_horizon_shiny_unstable.png"
-hash = "cf1eba6f3adbaaf13c8aeac6ed98a4956343ce8139ddd7242cf24372c5642b79"
-
-[[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/ruin/ruin_event_horizon_unstable.png"
 hash = "cf1eba6f3adbaaf13c8aeac6ed98a4956343ce8139ddd7242cf24372c5642b79"
 
@@ -3806,11 +3730,15 @@ hash = "265f27ae44137e620c2187dcd0189c9aa672ed6ac63568ef67aab6af64467d58"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/trinkan/trinkan_milky_event_horizon.png"
-hash = "83310c156ebf32c68ee7e0b265f8b10f1f0a60ee466f5eb69414c54cfc6b2ed5"
+hash = "8b52d5562a348b62e9e582b1797ba798bc3f289d2cd56dfd5d6c0e78ef2910f8"
+
+[[files]]
+file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/trinkan/trinkan_milky_event_horizon_kawoosh.png"
+hash = "a200fe5c65fd9bfa6652477530c3853011ed6e26f240f5050f761c1bbab8fc26"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/trinkan/trinkan_milky_event_horizon_unstable.png"
-hash = "597e3fd7f0dde09447fff0c50edaaa156b8b1892c0a00bcdc543b02491a2f4ea"
+hash = "526ecbccd65fa9a40f57a7e6b9d3f03a31fde22b02d6da9de4b546668d89530e"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/milky_way/trinkan/trinkan_milky_stargate.png"
@@ -3941,14 +3869,6 @@ file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/avikan/a
 hash = "217e6de11a63d94a70c5b1f904b418939fb32d589133c35c87826e533c107aa1"
 
 [[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/avikan/avikan_event_horizon_shiny.png"
-hash = "217e6de11a63d94a70c5b1f904b418939fb32d589133c35c87826e533c107aa1"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/avikan/avikan_event_horizon_shiny_unstable.png"
-hash = "48862f52822e235efb7de2101f550f6d36775b4c6b39de8d8de12526619f9aa2"
-
-[[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/avikan/avikan_event_horizon_unstable.png"
 hash = "48862f52822e235efb7de2101f550f6d36775b4c6b39de8d8de12526619f9aa2"
 
@@ -3961,20 +3881,8 @@ file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/avikan/a
 hash = "7caf0e7d6fc790923c77b78435d716e7f52ea15f4f13fb6313f1e456bf063767"
 
 [[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/centen/centen_disconnect.png"
-hash = "5da04e6233e062d0a9df98aafab7fd605ff0d6e9a1c445710f54022bb7386a63"
-
-[[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/centen/centen_event_horizon.png"
 hash = "217e6de11a63d94a70c5b1f904b418939fb32d589133c35c87826e533c107aa1"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/centen/centen_event_horizon_shiny.png"
-hash = "217e6de11a63d94a70c5b1f904b418939fb32d589133c35c87826e533c107aa1"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/centen/centen_event_horizon_shiny_unstable.png"
-hash = "48862f52822e235efb7de2101f550f6d36775b4c6b39de8d8de12526619f9aa2"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/centen/centen_event_horizon_unstable.png"
@@ -3997,14 +3905,6 @@ file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/chozo_pg
 hash = "d25efc502938d886fec2cd143ef6625e12a3024bc1b9a5d1dbd3416188e18985"
 
 [[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/chozo_pg/chozo_pg_event_horizon_shiny.png"
-hash = "d25efc502938d886fec2cd143ef6625e12a3024bc1b9a5d1dbd3416188e18985"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/chozo_pg/chozo_pg_event_horizon_shiny_unstable.png"
-hash = "06eec5d6434c89a4e5247f46e797df7c397590aafc7d7dfd8a7d61da8645cb03"
-
-[[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/chozo_pg/chozo_pg_event_horizon_unstable.png"
 hash = "06eec5d6434c89a4e5247f46e797df7c397590aafc7d7dfd8a7d61da8645cb03"
 
@@ -4015,22 +3915,6 @@ hash = "e3a2ccb34121093cb474d63b53148f097d77d030245c5b970826e7ae808a40ac"
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/chozo_pg/chozo_pg_stargate_engaged.png"
 hash = "7010e6b64106b6d6d59821b86ff1f724f2e1d4d37abed42451910d40980e982c"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/cultivator/cultivator_event_horizon.png"
-hash = "d2e19fc731f9f46754e4948e0b488cfe5a675b828d96ed06149d0185f1398add"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/cultivator/cultivator_event_horizon_shiny.png"
-hash = "d2e19fc731f9f46754e4948e0b488cfe5a675b828d96ed06149d0185f1398add"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/cultivator/cultivator_event_horizon_shiny_unstable.png"
-hash = "d2de5624b767b4133a5de5f486bfe7225aa2f1ee309e7d9d0d8456f3add85544"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/cultivator/cultivator_event_horizon_unstable.png"
-hash = "d2de5624b767b4133a5de5f486bfe7225aa2f1ee309e7d9d0d8456f3add85544"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/cultivator/cultivator_stargate_pegasus.png"
@@ -4073,10 +3957,6 @@ file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/luminoth
 hash = "39167218cda41ee0cde8a2148d25c87ddcf537cc0ef9df46b9ef0a06f62a0620"
 
 [[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/luminoth/luminoth_event_horizon_shiny.png"
-hash = "39167218cda41ee0cde8a2148d25c87ddcf537cc0ef9df46b9ef0a06f62a0620"
-
-[[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/luminoth/luminoth_stargate.png"
 hash = "77f605c35b717b924232e6671c4985b34e321cb09a0d588c67cf805c117d74f8"
 
@@ -4089,24 +3969,12 @@ file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/luminoth
 hash = "e04ab6428fbe64ea37829325f05a8ab5f5f6b9b5438dc7da54a4e8f9a538ceac"
 
 [[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/luminoth/luminoth_strudel_shiny.png"
-hash = "e04ab6428fbe64ea37829325f05a8ab5f5f6b9b5438dc7da54a4e8f9a538ceac"
-
-[[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/playstationeer/playstationeer_event_horizon.png"
-hash = "5fc7368b3f08c121bffac342e9c89de7f10b1752e6c00e48dd3697461b6b7ca4"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/playstationeer/playstationeer_event_horizon_shiny.png"
-hash = "5fc7368b3f08c121bffac342e9c89de7f10b1752e6c00e48dd3697461b6b7ca4"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/playstationeer/playstationeer_event_horizon_shiny_unstable.png"
-hash = "2dedc3422efa0a4394844fd96e6fe7f1323ba9558768dcd7bedacfe6e2329567"
+hash = "257ec475738efc28bb7cd16fdb88e6a08244ba4fa193a887ef7dd9a2f60f4a64"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/playstationeer/playstationeer_event_horizon_unstable.png"
-hash = "2dedc3422efa0a4394844fd96e6fe7f1323ba9558768dcd7bedacfe6e2329567"
+hash = "ea290943c3539cd7d3888c8d7784033b1ac72da3d983d881b7c5cedf1ec4f6d9"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/playstationeer/playstationeer_stargate.png"
@@ -4115,14 +3983,6 @@ hash = "fa23e0caa6d5801ab50eeb30b16c99e8d7a6bc027d9511f5f4f574138480bd9a"
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/playstationeer/playstationeer_stargate_engaged.png"
 hash = "804636f54082ca41d3e8a99cff31a7e8575c7cccb4947079a71f00ddb824518d"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_event_horizon.png"
-hash = "83310c156ebf32c68ee7e0b265f8b10f1f0a60ee466f5eb69414c54cfc6b2ed5"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_event_horizon_unstable.png"
-hash = "597e3fd7f0dde09447fff0c50edaaa156b8b1892c0a00bcdc543b02491a2f4ea"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_stargate.png"
@@ -4165,28 +4025,12 @@ file = "kubejs/assets/starboundedgates/textures/entity/stargate/tollan/centen/ce
 hash = "c8eb2bfefe72474ecaedaa43b164f6d31e8027c9f927ef90f0634dc05dc00c79"
 
 [[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/tollan/centen/centen_stargate_tollan_event_horizon.png"
-hash = "78a1e499471439c80433beee750a530bdee503b086fbd6f4d8a61104ea633bd9"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/tollan/centen/centen_stargate_tollan_event_horizon_unstable.png"
-hash = "f21ffd64cc07427a715b64b72bc44fb2c667c809d977d39b67567ccb97fcfc55"
-
-[[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/tollan/trinkan/trinkan_stargate_tollan.png"
 hash = "ac82a051d2152c99b2077f81181c52c524bed80e1ac0d521314a4eb6f514d714"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/tollan/trinkan/trinkan_stargate_tollan_engaged.png"
 hash = "e06a0804a6787065ea305e36ca316512ada7ffef7b227bf32d749cccc58e1180"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/tollan/trinkan/trinkan_tollan_event_horizon.png"
-hash = "83310c156ebf32c68ee7e0b265f8b10f1f0a60ee466f5eb69414c54cfc6b2ed5"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/tollan/trinkan/trinkan_tollan_event_horizon_unstable.png"
-hash = "597e3fd7f0dde09447fff0c50edaaa156b8b1892c0a00bcdc543b02491a2f4ea"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/aegi/aegi_stargate_universe.png"
@@ -4213,48 +4057,12 @@ file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/aegi/ae
 hash = "573afa7edbea36f4273fa41b6a1aacf15c4b15b33aee0ed1f225b6e929b7bf3c"
 
 [[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/centen/centen_disconnect.png"
-hash = "ed1c1de58153d37b378258dac660c544a36c132a978af856a332a987c54a4de4"
-
-[[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/centen/centen_stargate_universe.png"
 hash = "a180a6ab1fef16749e2f85fbbac81011cde3cebdf1924e074143032cc4922f1d"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/centen/centen_stargate_universe_engaged.png"
 hash = "1594e314052357a6b629626787ec54bea448aced701d3990061d961b1ffd494e"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/centen/centen_u_event_horizon.png"
-hash = "3c4101f6191f4fb3317715b77e41e909adac409c41ae27285c567eec3069b50c"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/centen/centen_u_event_horizon_shiny.png"
-hash = "b336935ce2b94938b4b0299ddb6a5ec285e59eba9898dc084a1b07a30552e76a"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/centen/centen_u_event_horizon_shiny_unstable.png"
-hash = "9382d40989d85d7f7cd778629495b3e4dcae3faf66b7c5b05092ae2526021b86"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/centen/centen_u_event_horizon_unstable.png"
-hash = "06c3bf271f54be8b0e9f265f0bdf947cc2d55285707dff0d9578d2f9dedf5c3c"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/cultivator/cultivator_event_horizon.png"
-hash = "d2e19fc731f9f46754e4948e0b488cfe5a675b828d96ed06149d0185f1398add"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/cultivator/cultivator_event_horizon_shiny.png"
-hash = "d2e19fc731f9f46754e4948e0b488cfe5a675b828d96ed06149d0185f1398add"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/cultivator/cultivator_event_horizon_shiny_unstable.png"
-hash = "d2de5624b767b4133a5de5f486bfe7225aa2f1ee309e7d9d0d8456f3add85544"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/cultivator/cultivator_event_horizon_unstable.png"
-hash = "d2de5624b767b4133a5de5f486bfe7225aa2f1ee309e7d9d0d8456f3add85544"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/cultivator/cultivator_stargate_universe.png"
@@ -4271,14 +4079,6 @@ hash = "487905eb022dc5a23ac2ec06a7fb9be51423c2eaad7c974eeb8384bb42afe527"
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/trinkan/trinkan_stargate_universe_engaged.png"
 hash = "4cd8de61a1bfff3df232d8029e6f7ccea38f8afc374ea384223b64ba884637ff"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/trinkan/trinkan_universe_event_horizon.png"
-hash = "83310c156ebf32c68ee7e0b265f8b10f1f0a60ee466f5eb69414c54cfc6b2ed5"
-
-[[files]]
-file = "kubejs/assets/starboundedgates/textures/entity/stargate/universe/trinkan/trinkan_universe_event_horizon_unstable.png"
-hash = "597e3fd7f0dde09447fff0c50edaaa156b8b1892c0a00bcdc543b02491a2f4ea"
 
 [[files]]
 file = "kubejs/assets/starboundedgates/textures/symbol/actual_binary/actual_binary_1.png"
@@ -11458,19 +11258,19 @@ hash = "349d2a21cc5a7a1a96453a2efbd40556d4a419a1d98be4a1dc895a379177e3e1"
 
 [[files]]
 file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/ancient_zero.json"
-hash = "71c491721a558e4dfd74da856db47bdd9b0723d0f5a3a4a73433de22a9e6b927"
+hash = "4fe6049183629f752066f5f97abea310ed00de78921ba64734da59d02c7246c8"
 
 [[files]]
 file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/apex_miniknog_origin.json"
-hash = "f42942fd6aa87d6708e7b9e29a1294255887fd246aabee5db46f361699cf7623"
+hash = "af023a2bca1a9ec7613201b8eeafe9e731750c0fd0b250083c6c9f19999dd2c4"
 
 [[files]]
 file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/apex_rebel_origin.json"
-hash = "a4b4496d16d7ab307466a8dcf742602d8a3b1e4b34a024642afca401d240515b"
+hash = "e891a10d5370d504dfe942fdabd28c8ab12cc66b753dcd0b39b246ea978fb557"
 
 [[files]]
 file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/avian_origin.json"
-hash = "4a00cbcf923659375ba28a6deba174656eeb7c499ce9a0dbbb67e4a8935adef4"
+hash = "4cabbf13c465ef422994a9905dc61b1124f27af4e0c2b546bbf393cfe9ab2496"
 
 [[files]]
 file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/binaryish_zero.json"
@@ -11482,19 +11282,19 @@ hash = "2a39fdae966b40e27f14e12d8d2c432d4815c977ee9bf51453cfbd0e08cc1288"
 
 [[files]]
 file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/chozo_artifact.json"
-hash = "4a6b4434b27ddd669becc4609b032b69a5abdbcb454bfac9790e54db89983cb5"
+hash = "917ac78b67b9515841ec6301e2f33af2c343445cf0a5ea687064225d0df793dc"
 
 [[files]]
 file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/floran_origin.json"
-hash = "a50379210dc5de70405372386bc1bc51d258b3c5b52bd872cf78d5c5055e3215"
+hash = "31be4cf411bccfdc32391c869f083c0c691465553f369d8c0fb392232de0b608"
 
 [[files]]
 file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/glitch_origin.json"
-hash = "275ff7f860fe1479b910fcf640c321958ca2a1b893757dc176cc4b75509972d4"
+hash = "bd5712b3d16ec03c0a11568c09131c2a5d85cba80233b1ac6ff3e806b6e1cf07"
 
 [[files]]
 file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/hylotl_origin.json"
-hash = "a34de13d6c7b182005b3cd350afe87db296698efe0fce2dec571fde7f27ab292"
+hash = "9a0dd489dbc79d46bac9e44f08b2f12d7617e2e5c78cd2b263eed63ab8488486"
 
 [[files]]
 file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/luminoth_zero.json"
@@ -11514,7 +11314,7 @@ hash = "33f6c86a9b4280986c8e4a24abe05f38915aac3a7bf6982e9ab7ff3b6b267402"
 
 [[files]]
 file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/protectorate_origin.json"
-hash = "7f3dd9a6430c058af62b246ee2953d591a5535825c56b4d332c38f3cb75dab11"
+hash = "9601700fc708d62ac0441f89ee428d4b6486f2da0da290a4247d0018c31473c4"
 
 [[files]]
 file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/worn_protectorate_origin.json"
@@ -11523,6 +11323,10 @@ hash = "9ed4dccb26d3a1b7b99a06004402d28642423117436841f8c70e623a4de410cc"
 [[files]]
 file = "kubejs/data/starboundedgates/sgjourney/point_of_origin/x-cyber_zero.json"
 hash = "1b82890010698e6f68b917f1272c0b2075dbfd36261d9ed9c220e7535887da64"
+
+[[files]]
+file = "kubejs/data/starboundedgates/sgjourney/point_of_origin_table/galaxy_milky_way.json"
+hash = "97a4be5d3d7cd822385d4aa71ee8db45a238e1a9eeb145b7bea72b7c0c80d1a8"
 
 [[files]]
 file = "kubejs/data/starboundedgates/sgjourney/stargate_variant/aegi_mw.json"

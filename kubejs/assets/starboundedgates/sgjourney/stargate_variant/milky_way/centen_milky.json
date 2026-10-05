@@ -7,7 +7,7 @@
   "wormhole": {
     "event_horizon": {
       "front": {
-        "texture": "starboundedgates:textures/entity/stargate/milky_way/centen/centen_event_horizon.png",
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/centen/centen_event_horizon.png",
         "columns": 1,
         "frames": 6,
         "rows": 6,
@@ -19,10 +19,10 @@
         }
       },
       "back": {
-        "texture": "starboundedgates:textures/entity/stargate/milky_way/centen/centen_event_horizon.png",
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/centen/centen_event_horizon.png",
         "columns": 1,
-        "frames": 64,
-        "rows": 64,
+        "frames": 6,
+        "rows": 6,
         "rgba": {
           "alpha": 0.75,
           "red": 1,
@@ -30,11 +30,12 @@
           "blue": 1
         }
       }
-    },"event_horizon_unstable":
+    },
+		"event_horizon_unstable":
 		{
 			"front":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/milky_way/centen/centen_event_horizon_unstable.png",
+				"texture": "starboundedgates:textures/entity/stargate/pegasus/centen/centen_event_horizon_unstable.png",
 				"rows": 6,
 				"columns": 1,
 				"frames": 6,
@@ -42,7 +43,7 @@
 			},
 			"back":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/milky_way/centen/centen_event_horizon_unstable.png",
+				"texture": "starboundedgates:textures/entity/stargate/pegasus/centen/centen_event_horizon_unstable.png",
 				"rows": 6,
 				"columns": 1,
 				"frames": 6,
@@ -82,7 +83,7 @@
   "shiny_wormhole": {
     "event_horizon": {
       "front": {
-        "texture": "starboundedgates:textures/entity/stargate/milky_way/centen/centen_event_horizon_shiny.png",
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/centen/centen_event_horizon.png",
         "columns": 1,
         "frames": 6,
         "rows": 6,
@@ -94,7 +95,7 @@
         }
       },
       "back": {
-        "texture": "starboundedgates:textures/entity/stargate/milky_way/centen/centen_event_horizon_shiny.png",
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/centen/centen_event_horizon.png",
         "columns": 1,
         "frames": 6,
         "rows": 6,
@@ -105,11 +106,12 @@
           "blue": 1
         }
       }
-    },"event_horizon_unstable":
+    },
+		"event_horizon_unstable":
 		{
 			"front":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/milky_way/centen/centen_event_horizon_unstable.png",
+				"texture": "starboundedgates:textures/entity/stargate/pegasus/centen/centen_event_horizon_unstable.png",
 				"rows": 6,
 				"columns": 1,
 				"frames": 6,
@@ -117,7 +119,7 @@
 			},
 			"back":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/milky_way/centen/centen_event_horizon_unstable.png",
+				"texture": "starboundedgates:textures/entity/stargate/pegasus/centen/centen_event_horizon_unstable.png",
 				"rows": 6,
 				"columns": 1,
 				"frames": 6,

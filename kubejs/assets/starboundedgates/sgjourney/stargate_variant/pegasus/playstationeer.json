@@ -77,7 +77,7 @@
   "shiny_wormhole": {
     "event_horizon": {
       "front": {
-        "texture": "starboundedgates:textures/entity/stargate/pegasus/playstationeer/playstationeer_event_horizon_shiny.png",
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/playstationeer/playstationeer_event_horizon.png",
         "columns": 1,
         "frames": 21,
         "rows": 21,
@@ -89,7 +89,7 @@
         }
       },
       "back": {
-        "texture": "starboundedgates:textures/entity/stargate/pegasus/playstationeer/playstationeer_event_horizon_shiny.png",
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/playstationeer/playstationeer_event_horizon.png",
         "columns": 1,
         "frames": 21,
         "rows": 21,

@@ -7,7 +7,7 @@
   "wormhole": {
     "event_horizon": {
       "front": {
-        "texture": "starboundedgates:textures/entity/stargate/universe/cultivator/cultivator_event_horizon.png",
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/cultivator/cultivator_event_horizon.png",
         "columns": 1,
         "frames": 20,
         "rows": 20,
@@ -19,7 +19,7 @@
         }
       },
       "back": {
-        "texture": "starboundedgates:textures/entity/stargate/universe/cultivator/cultivator_event_horizon.png",
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/cultivator/cultivator_event_horizon.png",
         "columns": 1,
         "frames": 20,
         "rows": 20,
@@ -30,12 +30,11 @@
           "blue": 1
         }
       }
-    },
-		"event_horizon_unstable":
+    },"event_horizon_unstable":
 		{
 			"front":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/universe/cultivator/cultivator_event_horizon_unstable.png",
+				"texture": "starboundedgates:textures/entity/stargate/milky_way/cultivator/cultivator_event_horizon_unstable.png",
 				"rows": 20,
 				"columns": 1,
 				"frames": 20,
@@ -43,7 +42,7 @@
 			},
 			"back":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/universe/cultivator/cultivator_event_horizon_unstable.png",
+				"texture": "starboundedgates:textures/entity/stargate/milky_way/cultivator/cultivator_event_horizon_unstable.png",
 				"rows": 20,
 				"columns": 1,
 				"frames": 20,
@@ -78,7 +77,7 @@
   "shiny_wormhole": {
     "event_horizon": {
       "front": {
-        "texture": "starboundedgates:textures/entity/stargate/universe/cultivator/cultivator_event_horizon_shiny.png",
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/cultivator/cultivator_event_horizon.png",
         "columns": 1,
         "frames": 20,
         "rows": 20,
@@ -90,7 +89,7 @@
         }
       },
       "back": {
-        "texture": "starboundedgates:textures/entity/stargate/universe/cultivator/cultivator_event_horizon_shiny.png",
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/cultivator/cultivator_event_horizon.png",
         "columns": 1,
         "frames": 20,
         "rows": 20,
@@ -101,12 +100,11 @@
           "blue": 1
         }
       }
-    },
-		"event_horizon_unstable":
+    },"event_horizon_unstable":
 		{
 			"front":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/universe/cultivator/cultivator_event_horizon_unstable.png",
+				"texture": "starboundedgates:textures/entity/stargate/milky_way/cultivator/cultivator_event_horizon_unstable.png",
 				"rows": 20,
 				"columns": 1,
 				"frames": 20,
@@ -114,7 +112,7 @@
 			},
 			"back":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/universe/cultivator/cultivator_event_horizon_unstable.png",
+				"texture": "starboundedgates:textures/entity/stargate/milky_way/cultivator/cultivator_event_horizon_unstable.png",
 				"rows": 20,
 				"columns": 1,
 				"frames": 20,

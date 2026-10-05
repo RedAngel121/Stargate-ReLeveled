@@ -1,0 +1,14 @@
+{
+	"points_of_origin":
+	[
+		{ "point_of_origin": "starboundedgates:ancient_zero", "weight": 1 },
+		{ "point_of_origin": "starboundedgates:apex_miniknog_origin", "weight": 1 },
+		{ "point_of_origin": "starboundedgates:apex_rebel_origin", "weight": 1 },
+		{ "point_of_origin": "starboundedgates:avian_origin", "weight": 1 },
+		{ "point_of_origin": "starboundedgates:chozo_artifact", "weight": 1 },
+		{ "point_of_origin": "starboundedgates:floran_origin", "weight": 1 },
+		{ "point_of_origin": "starboundedgates:glitch_origin", "weight": 1 },
+		{ "point_of_origin": "starboundedgates:hylotl_origin", "weight": 1 },
+		{ "point_of_origin": "starboundedgates:protectorate_origin", "weight": 1 }
+	]
+}

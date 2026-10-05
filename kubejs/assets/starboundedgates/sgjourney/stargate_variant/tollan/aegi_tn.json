@@ -27,7 +27,7 @@
 		{
 			"front":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/tollan/aegi/aegi_event_horizon_unstable.png",
+				"texture": "starboundedgates:textures/entity/stargate/tollan/aegi/aegi_event_horizon_tollan_unstable.png",
 				"rows": 32,
 				"columns": 1,
 				"frames": 32,
@@ -35,7 +35,7 @@
 			},
 			"back":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/tollan/aegi/aegi_event_horizon_unstable.png",
+				"texture": "starboundedgates:textures/entity/stargate/tollan/aegi/aegi_event_horizon_tollan_unstable.png",
 				"rows": 32,
 				"columns": 1,
 				"frames": 32,
@@ -88,7 +88,7 @@
 		{
 			"front":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/tollan/aegi/aegi_event_horizon_shiny_unstable.png",
+				"texture": "starboundedgates:textures/entity/stargate/tollan/aegi/aegi_event_horizon_tollan_shiny_unstable.png",
 				"rows": 32,
 				"columns": 1,
 				"frames": 32,
@@ -96,7 +96,7 @@
 			},
 			"back":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/tollan/aegi/aegi_event_horizon_shiny_unstable.png",
+				"texture": "starboundedgates:textures/entity/stargate/tollan/aegi/aegi_event_horizon_tollan_shiny_unstable.png",
 				"rows": 32,
 				"columns": 1,
 				"frames": 32,

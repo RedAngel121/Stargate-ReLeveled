@@ -106,7 +106,7 @@
 	"has_strudel": true,
     "event_horizon": {
       "front": {
-        "texture": "starboundedgates:textures/entity/stargate/pegasus/chozo_pg/chozo_pg_event_horizon_shiny.png",
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/chozo_pg/chozo_pg_event_horizon.png",
         "columns": 1,
         "frames": 20,
         "rows": 20,
@@ -118,7 +118,7 @@
         }
       },
       "back": {
-        "texture": "starboundedgates:textures/entity/stargate/pegasus/chozo_pg/chozo_pg_event_horizon_shiny.png",
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/chozo_pg/chozo_pg_event_horizon.png",
         "columns": 1,
         "frames": 20,
         "rows": 20,
@@ -132,7 +132,7 @@
 	},
 	  "strudel":{
       "front": {
-        "texture": "starboundedgates:textures/entity/stargate/pegasus/chozo_pg/chozo_pg_event_horizon_shiny.png",
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/chozo_pg/chozo_pg_event_horizon.png",
         "columns": 1,
         "frames": 20,
         "rows": 20,
@@ -144,7 +144,7 @@
         }
       },
       "back": {
-        "texture": "starboundedgates:textures/entity/stargate/pegasus/chozo_pg/chozo_pg_event_horizon_shiny.png",
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/chozo_pg/chozo_pg_event_horizon.png",
         "columns": 1,
         "frames": 20,
         "rows": 20,

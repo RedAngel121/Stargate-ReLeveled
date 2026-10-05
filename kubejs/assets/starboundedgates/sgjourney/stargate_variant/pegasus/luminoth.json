@@ -132,7 +132,7 @@
 	"has_strudel": true,
     "event_horizon": {
       "front": {
-        "texture": "starboundedgates:textures/entity/stargate/pegasus/luminoth/luminoth_event_horizon_shiny.png",
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/luminoth/luminoth_event_horizon.png",
         "columns": 1,
         "frames": 64,
         "rows": 64,
@@ -144,7 +144,7 @@
         }
       },
       "back": {
-        "texture": "starboundedgates:textures/entity/stargate/pegasus/luminoth/luminoth_event_horizon_shiny.png",
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/luminoth/luminoth_event_horizon.png",
         "columns": 1,
         "frames": 64,
         "rows": 64,
@@ -185,7 +185,7 @@
     },
 	 "strudel":{
       "front": {
-        "texture": "starboundedgates:textures/entity/stargate/pegasus/luminoth/luminoth_strudel_shiny.png",
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/luminoth/luminoth_strudel.png",
         "columns": 1,
         "frames": 64,
         "rows": 64,
@@ -197,7 +197,7 @@
         }
       },
       "back": {
-        "texture": "starboundedgates:textures/entity/stargate/pegasus/luminoth/luminoth_strudel_shiny.png",
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/luminoth/luminoth_strudel.png",
         "columns": 1,
         "frames": 64,
         "rows": 64,
@@ -213,7 +213,7 @@
 		{
 			"front":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/pegasus/luminoth/luminoth_strudel_shiny.png",
+				"texture": "starboundedgates:textures/entity/stargate/pegasus/luminoth/luminoth_strudel.png",
 				"rows": 64,
 				"columns": 1,
 				"frames": 64,
@@ -221,7 +221,7 @@
 			},
 			"back":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/pegasus/luminoth/luminoth_strudel_shiny.png",
+				"texture": "starboundedgates:textures/entity/stargate/pegasus/luminoth/luminoth_strudel.png",
 				"rows": 64,
 				"columns": 1,
 				"frames": 64,

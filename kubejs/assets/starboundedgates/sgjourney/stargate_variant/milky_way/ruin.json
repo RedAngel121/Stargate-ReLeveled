@@ -82,7 +82,7 @@
   "shiny_wormhole": {
     "event_horizon": {
       "front": {
-        "texture": "starboundedgates:textures/entity/stargate/milky_way/ruin/ruin_event_horizon_shiny.png",
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/ruin/ruin_event_horizon.png",
         "columns": 1,
         "frames": 20,
         "rows": 20,
@@ -94,7 +94,7 @@
         }
       },
       "back": {
-        "texture": "starboundedgates:textures/entity/stargate/milky_way/ruin/ruin_event_horizon_shiny.png",
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/ruin/ruin_event_horizon.png",
         "columns": 1,
         "frames": 20,
         "rows": 20,

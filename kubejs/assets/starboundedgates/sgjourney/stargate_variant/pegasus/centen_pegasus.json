@@ -77,7 +77,7 @@
   "shiny_wormhole": {
     "event_horizon": {
       "front": {
-        "texture": "starboundedgates:textures/entity/stargate/pegasus/centen/centen_event_horizon_shiny.png",
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/centen/centen_event_horizon.png",
         "columns": 1,
         "frames": 6,
         "rows": 6,
@@ -89,7 +89,7 @@
         }
       },
       "back": {
-        "texture": "starboundedgates:textures/entity/stargate/pegasus/centen/centen_event_horizon_shiny.png",
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/centen/centen_event_horizon.png",
         "columns": 1,
         "frames": 6,
         "rows": 6,

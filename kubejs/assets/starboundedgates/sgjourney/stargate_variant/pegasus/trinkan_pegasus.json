@@ -8,10 +8,10 @@
 	"has_strudel": true,
     "event_horizon": {
       "front": {
-        "texture": "starboundedgates:textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_event_horizon.png",
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/trinkan/trinkan_milky_event_horizon.png",
         "columns": 1,
-        "frames": 60,
-        "rows": 60,
+        "frames": 16,
+        "rows": 16,
         "rgba": {
           "alpha": 1,
           "red": 1,
@@ -20,10 +20,10 @@
         }
       },
       "back": {
-        "texture": "starboundedgates:textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_event_horizon.png",
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/trinkan/trinkan_milky_event_horizon.png",
         "columns": 1,
-        "frames": 60,
-        "rows": 60,
+        "frames": 16,
+        "rows": 16,
         "rgba": {
           "alpha": 0.75,
           "red": 1,
@@ -33,10 +33,10 @@
       },
 	  "strudel":{
       "front": {
-        "texture": "starboundedgates:textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_event_horizon.png",
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/trinkan/trinkan_milky_event_horizon.png",
         "columns": 1,
-        "frames": 60,
-        "rows": 60,
+        "frames": 16,
+        "rows": 16,
         "rgba": {
           "alpha": 1,
           "red": 1,
@@ -45,10 +45,10 @@
         }
       },
       "back": {
-        "texture": "starboundedgates:textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_event_horizon.png",
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/trinkan/trinkan_milky_event_horizon.png",
         "columns": 1,
-        "frames": 60,
-        "rows": 60,
+        "frames": 16,
+        "rows": 16,
         "rgba": {
           "alpha": 0.75,
           "red": 1,
@@ -58,31 +58,58 @@
       }
     }
     },
-		"event_horizon_unstable":
+	
+	"kawoosh":{
+      "front": {
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/trinkan/trinkan_milky_event_horizon_kawoosh.png",
+        "columns": 1,
+        "frames": 16,
+        "rows": 16,
+        "rgba": {
+          "alpha": 1,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      },
+      "back": {
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/trinkan/trinkan_milky_event_horizon_kawoosh.png",
+        "columns": 1,
+        "frames": 16,
+        "rows": 16,
+        "rgba": {
+          "alpha": 1,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      }
+    },
+	"event_horizon_unstable":
 		{
 			"front":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_event_horizon_unstable.png",
-				"rows": 60,
+				"texture": "starboundedgates:textures/entity/stargate/milky_way/trinkan/trinkan_milky_event_horizon_unstable.png",
+				"rows": 16,
 				"columns": 1,
-				"frames": 60,
+				"frames": 16,
 				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
 			},
 			"back":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_event_horizon_unstable.png",
-				"rows": 60,
+				"texture": "starboundedgates:textures/entity/stargate/milky_way/trinkan/trinkan_milky_event_horizon_unstable.png",
+				"rows": 16,
 				"columns": 1,
-				"frames": 60,
+				"frames": 16,
 				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
 			}
 		},
-		"disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect_ticks": { "wait_ticks": 26, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
 		"disconnect":
 		{
 			"front":
 			{
-				"texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+				"texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_disconnect.png",
 				"rows": 20,
 				"columns": 1,
 				"frames": 20,
@@ -90,7 +117,7 @@
 			},
 			"back":
 			{
-				"texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+				"texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_disconnect.png",
 				"rows": 20,
 				"columns": 1,
 				"frames": 20,
@@ -105,10 +132,10 @@
 	"has_strudel": true,
     "event_horizon": {
       "front": {
-        "texture": "starboundedgates:textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_event_horizon.png",
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/trinkan/trinkan_milky_event_horizon.png",
         "columns": 1,
-        "frames": 60,
-        "rows": 60,
+        "frames": 16,
+        "rows": 16,
         "rgba": {
           "alpha": 1,
           "red": 1,
@@ -117,10 +144,10 @@
         }
       },
       "back": {
-        "texture": "starboundedgates:textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_event_horizon.png",
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/trinkan/trinkan_milky_event_horizon.png",
         "columns": 1,
-        "frames": 60,
-        "rows": 60,
+        "frames": 16,
+        "rows": 16,
         "rgba": {
           "alpha": 0.75,
           "red": 1,
@@ -130,10 +157,10 @@
       },
 	  "strudel":{
       "front": {
-        "texture": "starboundedgates:textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_event_horizon.png",
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/trinkan/trinkan_milky_event_horizon.png",
         "columns": 1,
-        "frames": 60,
-        "rows": 60,
+        "frames": 16,
+        "rows": 16,
         "rgba": {
           "alpha": 1,
           "red": 1,
@@ -142,10 +169,10 @@
         }
       },
       "back": {
-        "texture": "starboundedgates:textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_event_horizon.png",
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/trinkan/trinkan_milky_event_horizon.png",
         "columns": 1,
-        "frames": 60,
-        "rows": 60,
+        "frames": 16,
+        "rows": 16,
         "rgba": {
           "alpha": 0.75,
           "red": 1,
@@ -154,34 +181,59 @@
         }
       }
     }
-		
     },
 	
-		"event_horizon_unstable":
+	"kawoosh":{
+      "front": {
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/trinkan/trinkan_milky_event_horizon_kawoosh.png",
+        "columns": 1,
+        "frames": 16,
+        "rows": 16,
+        "rgba": {
+          "alpha": 1,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      },
+      "back": {
+        "texture": "starboundedgates:textures/entity/stargate/milky_way/trinkan/trinkan_milky_event_horizon_kawoosh.png",
+        "columns": 1,
+        "frames": 16,
+        "rows": 16,
+        "rgba": {
+          "alpha": 1,
+          "red": 1,
+          "green": 1,
+          "blue": 1
+        }
+      }
+    },
+	"event_horizon_unstable":
 		{
 			"front":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_event_horizon_unstable.png",
-				"rows": 60,
+				"texture": "starboundedgates:textures/entity/stargate/milky_way/trinkan/trinkan_milky_event_horizon_unstable.png",
+				"rows": 16,
 				"columns": 1,
-				"frames": 60,
+				"frames": 16,
 				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
 			},
 			"back":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/pegasus/trinkan/trinkan_pegasus_event_horizon_unstable.png",
-				"rows": 60,
+				"texture": "starboundedgates:textures/entity/stargate/milky_way/trinkan/trinkan_milky_event_horizon_unstable.png",
+				"rows": 16,
 				"columns": 1,
-				"frames": 60,
+				"frames": 16,
 				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
 			}
 		},
-		"disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect_ticks": { "wait_ticks": 26, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
 		"disconnect":
 		{
 			"front":
 			{
-				"texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+				"texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_disconnect.png",
 				"rows": 20,
 				"columns": 1,
 				"frames": 20,
@@ -189,7 +241,7 @@
 			},
 			"back":
 			{
-				"texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+				"texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_disconnect.png",
 				"rows": 20,
 				"columns": 1,
 				"frames": 20,

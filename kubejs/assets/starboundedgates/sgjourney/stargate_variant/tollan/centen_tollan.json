@@ -7,10 +7,10 @@
   "wormhole": {
     "event_horizon": {
       "front": {
-        "texture": "starboundedgates:textures/entity/stargate/tollan/centen/centen_stargate_tollan_event_horizon.png",
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/centen/centen_event_horizon.png",
         "columns": 1,
-        "frames": 19,
-        "rows": 19,
+        "frames": 6,
+        "rows": 6,
         "rgba": {
           "alpha": 1,
           "red": 1,
@@ -19,10 +19,10 @@
         }
       },
       "back": {
-        "texture": "starboundedgates:textures/entity/stargate/tollan/centen/centen_stargate_tollan_event_horizon.png",
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/centen/centen_event_horizon.png",
         "columns": 1,
-        "frames": 19,
-        "rows": 19,
+        "frames": 6,
+        "rows": 6,
         "rgba": {
           "alpha": 0.75,
           "red": 1,
@@ -35,38 +35,38 @@
 		{
 			"front":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/tollan/centen/centen_stargate_tollan_event_horizon_unstable.png",
-				"rows": 19,
+				"texture": "starboundedgates:textures/entity/stargate/pegasus/centen/centen_event_horizon_unstable.png",
+				"rows": 6,
 				"columns": 1,
-				"frames": 19,
+				"frames": 6,
 				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
 			},
 			"back":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/tollan/centen/centen_stargate_tollan_event_horizon_unstable.png",
-				"rows": 19,
+				"texture": "starboundedgates:textures/entity/stargate/pegasus/centen/centen_event_horizon_unstable.png",
+				"rows": 6,
 				"columns": 1,
-				"frames": 19,
+				"frames": 6,
 				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
 			}
 		},
-		"disconnect_ticks": { "wait_ticks": 26, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect_ticks": { "wait_ticks": 35, "fade_in_ticks": 1, "stable_ticks": 0, "fade_out_ticks": 15 },
 		"disconnect":
 		{
 			"front":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/universe/centen/centen_disconnect.png",
-				"rows": 20,
+				"texture": "starboundedgates:textures/entity/stargate/milky_way/centen/centen_disconnect.png",
+				"rows": 15,
 				"columns": 1,
-				"frames": 20,
+				"frames": 15,
 				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
 			},
 			"back":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/universe/centen/centen_disconnect.png",
-				"rows": 20,
+				"texture": "starboundedgates:textures/entity/stargate/milky_way/centen/centen_disconnect.png",
+				"rows": 15,
 				"columns": 1,
-				"frames": 20,
+				"frames": 15,
 				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
 			}
 		}
@@ -74,10 +74,10 @@
   "shiny_wormhole": {
     "event_horizon": {
       "front": {
-        "texture": "starboundedgates:textures/entity/stargate/tollan/centen/centen_stargate_tollan_event_horizon.png",
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/centen/centen_event_horizon.png",
         "columns": 1,
-        "frames": 19,
-        "rows": 19,
+        "frames": 6,
+        "rows": 6,
         "rgba": {
           "alpha": 1,
           "red": 1,
@@ -86,10 +86,10 @@
         }
       },
       "back": {
-        "texture": "starboundedgates:textures/entity/stargate/tollan/centen/centen_stargate_tollan_event_horizon.png",
+        "texture": "starboundedgates:textures/entity/stargate/pegasus/centen/centen_event_horizon.png",
         "columns": 1,
-        "frames": 19,
-        "rows": 19,
+        "frames": 6,
+        "rows": 6,
         "rgba": {
           "alpha": 0.75,
           "red": 1,
@@ -102,38 +102,38 @@
 		{
 			"front":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/tollan/centen/centen_stargate_tollan_event_horizon_unstable.png",
-				"rows": 19,
+				"texture": "starboundedgates:textures/entity/stargate/pegasus/centen/centen_event_horizon_unstable.png",
+				"rows": 6,
 				"columns": 1,
-				"frames": 19,
+				"frames": 6,
 				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
 			},
 			"back":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/tollan/centen/centen_stargate_tollan_event_horizon_unstable.png",
-				"rows": 19,
+				"texture": "starboundedgates:textures/entity/stargate/pegasus/centen/centen_event_horizon_unstable.png",
+				"rows": 6,
 				"columns": 1,
-				"frames": 19,
+				"frames": 6,
 				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
 			}
 		},
-		"disconnect_ticks": { "wait_ticks": 26, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect_ticks": { "wait_ticks": 35, "fade_in_ticks": 1, "stable_ticks": 0, "fade_out_ticks": 15 },
 		"disconnect":
 		{
 			"front":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/universe/centen/centen_disconnect.png",
-				"rows": 20,
+				"texture": "starboundedgates:textures/entity/stargate/milky_way/centen/centen_disconnect.png",
+				"rows": 15,
 				"columns": 1,
-				"frames": 20,
+				"frames": 15,
 				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
 			},
 			"back":
 			{
-				"texture": "starboundedgates:textures/entity/stargate/universe/centen/centen_disconnect.png",
-				"rows": 20,
+				"texture": "starboundedgates:textures/entity/stargate/milky_way/centen/centen_disconnect.png",
+				"rows": 15,
 				"columns": 1,
-				"frames": 20,
+				"frames": 15,
 				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
 			}
 		}
