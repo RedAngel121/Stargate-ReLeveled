@@ -12711,7 +12711,7 @@ metafile = true
 
 [[files]]
 file = "mods/sgjourney.pw.toml"
-hash = "3bef8e31ce6404c0b274a793d465a93009cb13ea7bc0e9c23df930ffb6b8a4b6"
+hash = "b73e49894b0ccd4b07dd519b0ae4be1c184bc08bd2b1c423978b633c078d6924"
 metafile = true
 
 [[files]]
