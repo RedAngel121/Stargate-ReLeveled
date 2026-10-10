@@ -8,7 +8,6 @@ Mods:
 - WorldEdit CUI
 
 ### TODO:
-- Verify space_location for DeeperDarker, Overworld Mirror, Undergarden and verify that all dims show up in abydos cartouche rooms
 
 ### Oritech Upgrade:
 - New Oritech Quest Chapter
@@ -89,6 +88,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 ### Shaders:
 
 ### Changes:
+- Added SGJ space_location for DeeperDarker, Overworld Mirror, Undergarden and RFToolsDim Dimensions, all dims now show up in abydos cartouche rooms
 
 ### Additions:
 

@@ -5,6 +5,10 @@ file = "config/Advancedperipherals/world.toml"
 hash = "e209b32acf4d663457ea3786435f600679e616cd6b2dd779e52acf63f756f37e"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "fa8d2de0fa59f2a94cad06a35f5d0c6e998becd80ad20c27c2fb5cef7598ea6b"
+
+[[files]]
 file = "config/Mekanism/common.toml"
 hash = "984646e6c2712221435f496821976cb81fe71943a982f30e3a066f32490b0808"
 
@@ -8397,10 +8401,6 @@ file = "kubejs/data/protection_pixel/recipe/workerasloot.json"
 hash = "95e342d95f608fb45630b1c8247bf791ed06ee570bcfb7f459d02b8e50ed3c95"
 
 [[files]]
-file = "kubejs/data/rftools/sgjourney/space_location/rftoolsdim.json"
-hash = "c5fe67dcbac05f3dbc8c408b134e4108cc46b66c519dcb3dde763ac40b0182bd"
-
-[[files]]
 file = "kubejs/data/rftoolsbase/recipe/machine_base.json"
 hash = "46b46bfe65dc12165036aa1de7e63f7714089f02420338f474e74c7d0ffc1b9d"
 
@@ -10674,15 +10674,19 @@ hash = "507700d73981b09f6f88ab53a8dad5b3a61ed7ebe16608e4910e07e6a61642ec"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/sgjourney/space_location/deeperdarker_loc.json"
-hash = "2e7ea705bc4a8267bf139efbf40fef904e0868dac3f5ec3153dc096c877e857f"
+hash = "072a5ed3f0c627bfcae706c335ea0961ec36c64a86d6b8f0313dc10a1ada4d82"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/sgjourney/space_location/overworldmirror_loc.json"
-hash = "b9f31f528478723aeb36c697dbdc1cc7204545dc10afb089ef0977402b1d6405"
+hash = "f979967f83e0c0857e18362de1b2b2e912743d3d3cf763c45a1aeca67045d8ca"
+
+[[files]]
+file = "kubejs/data/sgcommunity_pack/sgjourney/space_location/rftoolsdim_loc.json"
+hash = "61fd497c0842bdfef1e49bd171d3b9e8cf1488294952d50f38811549a2318922"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/sgjourney/space_location/undergarden_loc.json"
-hash = "88feefedd41c93841eabfd95c210a5b4fb2eb8ecc6576c24841dbd2a7b91f23c"
+hash = "41187f7bed6291ab6966117ad162ec597323d20b63d88c6c98ef16a2c49d1ffb"
 
 [[files]]
 file = "kubejs/data/sgcommunity_pack/structure/stargate/classic/buried/badlands_template.nbt"

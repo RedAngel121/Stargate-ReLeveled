@@ -1,6 +1,7 @@
 {
     "template_info": {
         "prefix": "deeperdarker:",
+        "generate_in_address_tables": true,
         "generate_address_region": true,
         "galaxies": [
             "sgjourney:milky_way"
