@@ -110,6 +110,7 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 - SuperMartijn642's Core Lib: 1.1.24b -> 1.1.25
 
 ### Datapacks:
+- StarboundedGates: updated to SGJ v6.51
 
 ### Shaders:
 
@@ -124,3 +125,6 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 
 ### Known Issues:
 - Chairs/Benches/Seats cannot be sat on in airless Ad Astra Dimensions without a single block of oxygen below it. Use an Ad Astra Vent underneath the seat to prevent death.
+
+# Server Files are being uploaded!
+# Public Server is updated!
