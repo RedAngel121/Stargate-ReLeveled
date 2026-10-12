@@ -135,26 +135,24 @@
   },
   "symbols": {
     "permanent_point_of_origin": "starboundedgates:glitch_origin",
-    "encoded_symbols_glow": false,
-    "engage_encoded_symbols": false,
-    "engage_symbols_on_incoming": false,
-    "symbol_color": {
+
+    "idle_symbols": { "glow": false, "color":{
       "alpha": 1,
       "red": 0.65,
       "green": 0.65,
-      "blue": 0.65
+	"blue": 0.65}
     },
-    "encoded_symbol_color": {
+    "encoded_symbols": { "glow": false, "color":{
       "alpha": 1,
       "red": 0.65,
 	  "green": 0.65,
-      "blue": 0.65
+	"blue": 0.65}
     },
-    "engaged_symbol_color": {
+    "engaged_symbols": { "glow": false, "color":{
       "alpha": 1,
       "red": 0.65,
 	  "green": 0.65,
-      "blue": 0.65
+	"blue": 0.65}
       
     }
 

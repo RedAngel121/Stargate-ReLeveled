@@ -125,7 +125,7 @@
 	
 	"symbols":
 	{"permanent_point_of_origin": "starboundedgates:protectorate_origin",
-		"symbol_color": { "red": 0.6117, "green": 0.6392, "blue": 0.8078, "alpha": 1.0 }
+		"idle_symbols": { "glow": false, "color":{ "red": 0.6117, "green": 0.6392, "blue": 0.8078, "alpha": 1.0} }
 	},
 	
 	"stargate_model":

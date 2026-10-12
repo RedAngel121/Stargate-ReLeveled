@@ -189,26 +189,24 @@
     
   },
   "symbols": {
-    "encoded_symbols_glow": true,
-    "engage_encoded_symbols": true,
-    "engage_symbols_on_incoming": true,
-    "symbol_color": {
+
+    "idle_symbols": { "glow": false, "color":{
       "alpha": 1,
       "red": 1,
       "green": 0.26,
-      "blue": 0
+	"blue": 0}
     },
-    "encoded_symbol_color": {
+    "encoded_symbols": { "glow": true, "color":{
       "alpha": 1,
       "red": 0.75,
 	  "green": 0,
-      "blue": 0
+	"blue": 0}
     },
-    "engaged_symbol_color": {
+    "engaged_symbols": { "glow": true, "color":{
       "alpha": 1,
       "red": 1,
 	  "green": 0.5,
-      "blue": 0
+	"blue": 0}
       
     }
 

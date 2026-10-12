@@ -143,29 +143,24 @@
   "symbols": {
     "permanent_symbols": "starboundedgates:binaryish",
     "permanent_point_of_origin": "starboundedgates:binaryish_zero",
-    "engaged_symbols_glow": true,
-    "encoded_symbols_glow": true,
-    "engage_encoded_symbols": true,
-    "engage_symbols_on_incoming": false,
-    "symbol_color": {
+    "idle_symbols": {"glow": false, "color":{
       "alpha": 1,
       "red": 0.5,
       "green": 0.5,
-      "blue": 0.5
+	"blue": 0.5}
     },
-    "encoded_symbol_color": {
+    "encoded_symbols": {"glow": true, "color":{
       "alpha": 1,
       "red": 0.9921,
       "green": 1,
-      "blue": 0.8078
+	"blue": 0.8078}
     },
-    "engaged_symbol_color": {
+    "engaged_symbols": {"glow": true, "color":{
       "alpha": 1,
       "red": 1,
       "green": 1,
-      "blue": 1
-    },
-    "symbols_glow": true
+	"blue": 1}
+    }
   },
   "texture": "starboundedgates:textures/entity/stargate/universe/cultivator/cultivator_stargate_universe.png",
   "engaged_texture": "starboundedgates:textures/entity/stargate/universe/cultivator/cultivator_stargate_universe_engaged.png",

@@ -134,26 +134,24 @@
   "symbols": {
 	  "permanent_symbols": "starboundedgates:chozalembic",
     "permanent_point_of_origin": "starboundedgates:chozo_artifact",
-    "encoded_symbols_glow": true,
-    "engage_encoded_symbols": true,
-    "engage_symbols_on_incoming": false,
-    "symbol_color": {
+
+    "idle_symbols": { "glow": false, "color":{
       "alpha": 1,
       "red": 0.1,
       "green": 0.1,
-      "blue": 0.1
+	"blue": 0.1}
     },
-    "encoded_symbol_color": {
+    "encoded_symbols": { "glow": true, "color":{
       "alpha": 1,
       "red": 0.1,
 	  "green": 0.1,
-      "blue": 0.1
+	"blue": 0.3}
     },
-    "engaged_symbol_color": {
+    "engaged_symbols": { "glow": true, "color":{
       "alpha": 1,
       "red": 0.0,
 	  "green": 1,
-      "blue": 1
+	"blue": 1}
       
     }
 

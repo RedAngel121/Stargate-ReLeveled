@@ -185,26 +185,24 @@
   },
   "symbols": {
     "permanent_point_of_origin": "starboundedgates:hylotl_origin",
-    "encoded_symbols_glow": true,
-    "engage_encoded_symbols": true,
-    "engage_symbols_on_incoming": true,
-    "symbol_color": {
+
+    "idle_symbols": { "glow": true, "color":{
       "alpha": 1,
       "red": 0.0,
       "green":  0.392,
-      "blue": 0.784
+	"blue": 0.784}
     },
-    "encoded_symbol_color": {
+    "encoded_symbols": { "glow": true, "color":{
       "alpha": 1,
       "red": 0,
 	  "green": 0.784,
-      "blue": 1
+	"blue": 1}
     },
-    "engaged_symbol_color": {
+    "engaged_symbols": { "glow": true, "color":{
       "alpha": 1,
       "red": 1,
 	  "green": 0.75,
-      "blue": 0.75
+	"blue": 0.75}
     }
 
   },

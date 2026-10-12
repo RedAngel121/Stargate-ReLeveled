@@ -142,32 +142,25 @@
 		}
   },
   "symbols": {
-    "engaged_symbols_glow": true,
     "permanent_symbols": "starboundedgates:aegi-script",
     "permanent_point_of_origin": "starboundedgates:aegi-script_zero",
-    "encoded_symbols_glow": true,
-    "engage_encoded_symbols": true,
-    "engage_symbols_on_incoming": true,
-    "symbol_color": {
-      "alpha": 1,
-      "red": 1,
-	  "green": 0,
-      "blue": 0
-      
-    },
-    "encoded_symbol_color": {
-       "alpha": 1,
-      "red": 1,
-	  "green": 1,
-      "blue": 0
-    },
-    "engaged_symbol_color": {
-      "alpha": 1,
-      "red": 0,
-	  "green": 1,
-      "blue": 0
-    },
-    "symbols_glow": true
+		"idle_symbols": { "color": {"r": 255, "g": 0, "b": 0}, "glow": true  },
+		
+		"encoded_symbols": { "color": {"r": 255, "g": 255, "b": 0}, "glow": true },
+
+		"encoded_symbols_incoming": { "color": {"r": 255, "g": 128, "b": 0}, "glow": true },
+
+		"encoding_symbol": { "color": {"r": 255, "g": 255, "b": 0}, "glow": true },
+
+		"engaged_symbols": { "color": {"r": 0, "g": 255, "b": 0}, "glow": true },
+
+		"engaged_symbols_incoming": { "color": {"r": 0, "g": 255, "b": 0 }, "glow": true },
+
+		"unengaged_symbols": { "color": {"r": 0, "g": 0, "b": 0, "a":0}},
+
+		"unencoded_symbols": { "color": {"r": 255, "g": 0, "b": 0, "a":0 }},
+
+		"unencoded_symbols_incoming": { "color": {"r": 0, "g": 0, "b": 0, "a":0 }}
   },
   "texture": "starboundedgates:textures/entity/stargate/pegasus/aegi/aegi_pegasus_stargate.png",
   "engaged_texture": "starboundedgates:textures/entity/stargate/pegasus/aegi/aegi_pegasus_stargate_engaged.png",

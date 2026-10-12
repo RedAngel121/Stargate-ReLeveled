@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+        {
+            "tag": "c:ingots/iron"
+        },
+        {
+            "tag": "c:raw_materials/naquadah"
+        },
+        {
+            "tag": "c:raw_materials/naquadah"
+        },
+        {
+            "tag": "c:raw_materials/naquadah"
+        }
+    ],
+    "result": {
+        "id": "sgjourney:naquadah_iron_mixture",
+        "count": 4
+    }
+}

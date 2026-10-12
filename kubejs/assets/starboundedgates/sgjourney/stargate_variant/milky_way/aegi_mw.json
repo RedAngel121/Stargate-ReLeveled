@@ -134,28 +134,23 @@
 		}
   },
   "symbols": {
-    "encoded_symbols_glow": false,
-    "engage_encoded_symbols": true,
-    "engage_symbols_on_incoming": true,
-    "symbol_color": {
-      "alpha": 1,
-      "red": 1,
-      "green": 0,
-      "blue": 0
-    },
-    "encoded_symbol_color": {
-      "alpha": 1,
-      "red": 1,
-	  "green": 1,
-      "blue": 0.65
-    },
-    "engaged_symbol_color": {
-      "alpha": 1,
-      "red": 0,
-	  "green": 1,
-      "blue": 0
-      
-    }
+		"idle_symbols": { "color": {"r": 255, "g": 0, "b": 0}, "glow": true  },
+		
+		"encoded_symbols": { "color": {"r": 255, "g": 255, "b": 0}, "glow": true },
+
+		"encoded_symbols_incoming": { "color": {"r": 255, "g": 0, "b": 0}, "glow": true },
+
+		"encoding_symbol": { "color": {"r": 255, "g": 255, "b": 0}, "glow": true },
+
+		"unencoded_symbols": { "color": {"r": 255, "g": 0, "b": 0}, "glow": true  },
+
+		"unencoded_symbols_incoming": { "color": {"r": 255, "g": 128, "b": 0}, "glow": true  },
+
+		"engaged_symbols": { "color": {"r": 0, "g": 255, "b": 0}, "glow": true },
+
+		"engaged_symbols_incoming": { "color": {"r": 255, "g": 128, "b": 0}, "glow": true },
+
+		"unengaged_symbols": { "color": {"r": 255, "g": 128, "b": 0}, "glow": true  }
 
   },
   "texture": "starboundedgates:textures/entity/stargate/milky_way/aegi/aegi_milky_stargate.png",

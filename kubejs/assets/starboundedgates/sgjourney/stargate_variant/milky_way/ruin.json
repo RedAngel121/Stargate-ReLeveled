@@ -148,35 +148,35 @@
   "symbols": {
     "permanent_symbols": "starboundedgates:cultivator",
     "permanent_point_of_origin": "starboundedgates:ancient_zero",
-    "encoded_symbols_glow": true,
-    "engage_encoded_symbols": true,
-    "engage_symbols_on_incoming": true,
-    "symbol_color": {
+
+    "idle_symbols": { "glow": false, "color":{
       "alpha": 1,
       "red": 0.129,
       "green": 0.023,
-      "blue": 0.062
+	"blue": 0.062}
     },
-    "encoded_symbol_color": {
+    "encoded_symbols": { "glow": true, "color":{
       "alpha": 1,
       "red": 0.094,
 	  "green": 0.949,
-      "blue": 0.713
+	"blue": 0.713}
     },
-    "movie_chevron_locking": true,
-    "engaged_symbol_color": {
+
+    "engaged_symbols": { "glow": true, "color":{
       "alpha": 1,
       "red": 0,
 	  "green": 1,
-      "blue": 1
+	"blue": 1}
       
-    },
-    "movie_primary_chevron": true
+    }
+  
   },
   "texture": "starboundedgates:textures/entity/stargate/milky_way/ruin/ruin_stargate.png",
   "engaged_texture": "starboundedgates:textures/entity/stargate/milky_way/ruin/ruin_stargate_engaged.png",
   "stargate_model": {
-    "raise_back_chevrons": true
+    "raise_back_chevrons": true,
+	"movie_primary_chevron": true,
+    "movie_chevron_locking": true
   },
   "rotation_sounds": {
     "rotation_sound": "starboundedgates:gate_ruin_roll_loop",

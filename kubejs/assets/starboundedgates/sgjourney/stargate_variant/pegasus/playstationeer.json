@@ -142,31 +142,33 @@
 		}
   },
   "symbols": {
-    "engaged_symbols_glow": true,
     "permanent_symbols": "starboundedgates:playstationeer",
     "permanent_point_of_origin": "starboundedgates:playstationeer_zero",
-    "encoded_symbols_glow": true,
-    "engage_encoded_symbols": true,
-    "engage_symbols_on_incoming": true,
-    "symbol_color": {
+
+    "idle_symbols": {"glow": true, "color":{
       "alpha": 1,
       "red": 0.5,
       "blue": 0.5,
-      "green": 0.5
+	"green": 0.5}
     },
-    "encoded_symbol_color": {
+    "encoded_symbols": {"glow": true, "color":{
       "alpha": 1,
       "red": 1,
       "blue": 1,
-      "green": 1
+	"green": 1}
     },
-    "engaged_symbol_color": {
+    "engaged_symbols": {"glow": true, "color":{
       "alpha": 1,
       "red": 1,
       "blue": 1,
-      "green": 1
+	"green": 1}
     },
-    "symbols_glow": true
+
+		"unengaged_symbols": { "color": {"r": 0, "g": 0, "b": 0, "a":0}},
+
+		"unencoded_symbols": { "color": {"r": 0, "g": 0, "b": 0, "a":0 }},
+
+		"unencoded_symbols_incoming": { "color": {"r": 0, "g": 0, "b": 0, "a":0 }}
   },
   "texture": "starboundedgates:textures/entity/stargate/pegasus/playstationeer/playstationeer_stargate.png",
   "engaged_texture": "starboundedgates:textures/entity/stargate/pegasus/playstationeer/playstationeer_stargate_engaged.png",

@@ -148,34 +148,32 @@
   "symbols": {
     "permanent_symbols": "starboundedgates:novakid",
     "permanent_point_of_origin": "starboundedgates:novakid_origin",
-    "encoded_symbols_glow": true,
-    "engage_encoded_symbols": true,
-    "engage_symbols_on_incoming": true,
-    "symbol_color": {
+
+    "idle_symbols": { "glow": false, "color":{
       "alpha": 1,
       "red": 0.0,
       "green": 0.0,
-      "blue": 0.0
+	"blue": 0.0}
     },
-    "encoded_symbol_color": {
+    "encoded_symbols": { "glow": true, "color":{
       "alpha": 1,
       "red": 0.25,
 	  "green": 0.25,
-      "blue": 0.25
+	"blue": 0.25}
     },
-    "engaged_symbol_color": {
+    "engaged_symbols": { "glow": true, "color":{
       "alpha": 1,
       "red": 1,
 	  "green": 1,
-      "blue": 1
+	"blue": 1}
       
     }
   },
   "texture": "starboundedgates:textures/entity/stargate/milky_way/novakid/novakid_stargate_milky.png",
   "engaged_texture": "starboundedgates:textures/entity/stargate/milky_way/novakid/novakid_stargate_milky_engaged.png",
   "stargate_model": {
-    "raise_back_chevrons": true,
-    "movie_chevron_locking": false,
+    "raise_back_chevrons": false,
+    "movie_chevron_locking": true,
     "movie_primary_chevron": true
   },
   "rotation_sounds": {

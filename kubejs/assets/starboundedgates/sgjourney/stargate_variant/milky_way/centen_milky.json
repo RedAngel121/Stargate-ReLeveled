@@ -148,35 +148,33 @@
 		}
   },
   "symbols": {
-    "encoded_symbols_glow": true,
-    "engage_encoded_symbols": true,
-    "engage_symbols_on_incoming": true,
-    "symbol_color": {
+
+    "idle_symbols": { "glow": false, "color":{
       "alpha": 1,
       "red": 0.478,
       "green": 0.443,
-      "blue": 0.451
+	"blue": 0.451}
     },
-    "encoded_symbol_color": {
+    "encoded_symbols": { "glow": true, "color":{
       "alpha": 1,
       "red": 0.117,
 	  "green": 0,
-      "blue": 0.259
+	"blue": 0.259}
     },
-    "movie_chevron_locking": true,
-    "engaged_symbol_color": {
+    "engaged_symbols": { "glow": true, "color":{
       "alpha": 1,
       "red": 0.235,
 	  "green": 0,
-      "blue": 0.541
+	"blue": 0.541}
       
-    },
-    "movie_primary_chevron": true
+    }
   },
   "texture": "starboundedgates:textures/entity/stargate/milky_way/centen/centen_stargate_milky.png",
   "engaged_texture": "starboundedgates:textures/entity/stargate/milky_way/centen/centen_stargate_milky_engaged.png",
   "stargate_model": {
-    "raise_back_chevrons": false
+    "raise_back_chevrons": false,
+    "movie_chevron_locking": true,
+    "movie_primary_chevron": true
   },
   "rotation_sounds": {
     "rotation_sound": "starboundedgates:gate_centen_m_roll_loop",

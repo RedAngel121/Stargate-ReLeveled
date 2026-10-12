@@ -200,29 +200,31 @@
   "symbols": {
 	"permanent_symbols": "starboundedgates:chozo-scratch",
     "permanent_point_of_origin": "starboundedgates:chozo-scratch_zero",
-    "engaged_symbols_glow": true,
-    "encoded_symbols_glow": true,
-    "engage_encoded_symbols": true,
-    "engage_symbols_on_incoming": true,
-    "symbol_color": {
+
+    "idle_symbols": {"glow": true, "color":{
       "alpha": 1,
       "red": 0.0,
       "green": 0.0,
-      "blue": 0.0
+	"blue": 0.0}
     },
-    "encoded_symbol_color": {
+    "encoded_symbols": {"glow": true, "color":{
       "alpha": 1,
       "red": 0,
 	  "green": 1,
-      "blue": 0.5
+	"blue": 0.5}
     },
-    "engaged_symbol_color": {
+    "engaged_symbols": {"glow": true, "color":{
       "alpha": 1,
       "red": 1,
 	  "green": 1,
-      "blue": 1
+	"blue": 1}
     },
-    "symbols_glow": true
+
+		"unengaged_symbols": { "color": {"r": 0, "g": 0, "b": 0, "a":0}},
+
+		"unencoded_symbols": { "color": {"r": 0, "g": 0, "b": 0, "a":0 }},
+
+		"unencoded_symbols_incoming": { "color": {"r": 0, "g": 0, "b": 0, "a":0 }}
   },
   "stargate_model":
 	{

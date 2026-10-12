@@ -8,13 +8,13 @@
     ],
     "key": {
         "G": {
-            "item": "minecraft:gold_ingot"
+            "tag": "c:ingots/gold"
         },
         "I": {
-            "item": "minecraft:iron_ingot"
+            "tag": "c:ingots/iron"
         },
         "C": {
-            "item": "minecraft:copper_ingot"
+            "tag": "c:ingots/copper"
         },
         "R": {
             "tag": "sgcommunity_pack:circuit_intermediate"

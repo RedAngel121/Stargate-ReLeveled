@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:smelting",
+    "cookingtime": 100,
+    "experience": 1.0,
+    "ingredient": {
+        "item": "pamhc2foodcore:groundporkitem"
+    },
+    "result": {
+        "id": "pamhc2foodcore:cookedgroundporkitem"
+    }
+}

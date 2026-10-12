@@ -141,16 +141,9 @@
 	
 	"symbols":
 	{
-		"symbol_color": { "red": 0.082, "green": 0.035, "blue": 0.0, "alpha": 1.0 },
-		"encoded_symbol_color": { "red": 0.784, "green": 0.8627, "blue": 1.0, "alpha": 1.0 },
-		"engaged_symbol_color": { "red": 0.784, "green": 0.8627, "blue": 1.0, "alpha": 1.0 },
-		
-		"symbols_glow": false,
-		"encoded_symbols_glow": true,
-		"engaged_symbols_glow": true,
-		
-		"engage_encoded_symbols": true,
-		"engage_symbols_on_incoming": false
+		"idle_symbols": {"glow": false, "color":{ "red": 0.082, "green": 0.035, "blue": 0.0, "alpha": 1.0 }},
+		"encoded_symbols": {"glow": true, "color":{ "red": 0.784, "green": 0.8627, "blue": 1.0, "alpha": 1.0 }},
+		"engaged_symbols":{"glow": true, "color": { "red": 0.784, "green": 0.8627, "blue": 1.0, "alpha": 1.0 }}
 	},
 	
 	"chevron_engaged_sounds":

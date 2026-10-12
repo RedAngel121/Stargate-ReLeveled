@@ -139,23 +139,11 @@
 		}
   },
   "symbols": {
-    "encoded_symbol_color": {
+    "idle_symbols": {"glow": false, "color":{
       "alpha": 1,
       "red": 0.54509803921569,
       "blue": 0.96862745098039,
-      "green": 0
-    },
-    "symbol_color": {
-      "alpha": 1,
-      "red": 0.13725490196078,
-      "blue": 0.24313725490196,
-      "green": 0
-    },
-    "engaged_symbol_color": {
-      "alpha": 1,
-      "red": 0.54509803921569,
-      "blue": 0.96862745098039,
-      "green": 0
+	"green": 0}
     }
   },
   "texture": "starboundedgates:textures/entity/stargate/tollan/centen/centen_stargate_tollan.png",

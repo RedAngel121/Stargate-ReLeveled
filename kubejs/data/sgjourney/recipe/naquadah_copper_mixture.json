@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+        {
+            "tag": "c:ingots/copper"
+        },
+        {
+            "tag": "c:raw_materials/naquadah"
+        },
+        {
+            "tag": "c:raw_materials/naquadah"
+        },
+        {
+            "tag": "c:raw_materials/naquadah"
+        }
+    ],
+    "result": {
+        "id": "sgjourney:naquadah_copper_mixture",
+        "count": 4
+    }
+}

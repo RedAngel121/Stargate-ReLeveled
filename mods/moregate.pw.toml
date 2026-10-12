@@ -1,13 +1,13 @@
 name = "moregate"
-filename = "moregate-1.1.6.jar"
+filename = "moregate-1.1.7.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "1ec7d8a60163b3f90bde5e7ac6f580ad234ebfe7"
+hash = "6ae5ab913e3dbee3c83ba784af81c521868a95eb"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9063305
+file-id = 9132530
 project-id = 1672463

@@ -1,13 +1,13 @@
 name = "CreativeCore"
-filename = "CreativeCore_NEOFORGE_v2.13.50_mc1.21.1.jar"
+filename = "CreativeCore_NEOFORGE_v2.13.51_mc1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "2083a79b52c2cbd6dd171ff1ce4e85c9f4c9b86b"
+hash = "eb2242b3d4442ad4017ba0624a7f9588e778b157"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9009568
+file-id = 9108041
 project-id = 257814

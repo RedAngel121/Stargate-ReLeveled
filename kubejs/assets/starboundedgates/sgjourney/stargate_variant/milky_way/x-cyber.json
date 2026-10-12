@@ -134,26 +134,24 @@
   "symbols": {
 	"permanent_symbols": "starboundedgates:x-cyber",
     "permanent_point_of_origin": "starboundedgates:x-cyber_zero",
-    "encoded_symbols_glow": true,
-    "engage_encoded_symbols": true,
-    "engage_symbols_on_incoming": false,
-    "symbol_color": {
+
+    "idle_symbols": { "glow": false, "color":{
       "alpha": 1,
-      "red": 0.0,
-      "green": 0.0,
-      "blue": 0.0
+      "red": 0.2,
+      "green": 0.2,
+	"blue": 0.2}
     },
-    "encoded_symbol_color": {
+    "encoded_symbols": { "glow": false, "color":{
       "alpha": 1,
-      "red": 0.25,
-	  "green": 0.25,
-      "blue": 0.25
+      "red": 0.5,
+	  "green": 0.5,
+	"blue": 0.5}
     },
-    "engaged_symbol_color": {
+    "engaged_symbols":  {"glow": true, "color":{
       "alpha": 1,
       "red": 1,
 	  "green": 1,
-      "blue": 1
+	"blue": 1}
       
     }
 

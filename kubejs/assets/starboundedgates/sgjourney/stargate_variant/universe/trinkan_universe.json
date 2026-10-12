@@ -253,29 +253,24 @@
   "symbols": {
     "permanent_symbols": "starboundedgates:actual_binary",
     "permanent_point_of_origin": "starboundedgates:actual_binary_origin",
-    "engaged_symbols_glow": true,
-    "encoded_symbols_glow": true,
-    "engage_encoded_symbols": true,
-    "engage_symbols_on_incoming": false,
-    "symbol_color": {
+    "idle_symbols": {"glow": false, "color":{
       "alpha": 1,
       "red": 0,
       "green": 0.1451,
-      "blue": 0
+	"blue": 0}
     },
-    "encoded_symbol_color": {
+    "encoded_symbols": {"glow": true, "color":{
       "alpha": 1,
       "red": 0,
-      "green": 0.5,
-      "blue": 0
+	"green": 0.5,
+	"blue": 0}
     },
-    "engaged_symbol_color": {
+    "engaged_symbols": {"glow": true, "color":{
       "alpha": 1,
       "red": 0,
       "green": 1,
-      "blue": 0
-    },
-    "symbols_glow": true
+	"blue": 0}
+    }
   },
   "texture": "starboundedgates:textures/entity/stargate/universe/trinkan/trinkan_stargate_universe.png",
   "engaged_texture": "starboundedgates:textures/entity/stargate/universe/trinkan/trinkan_stargate_universe_engaged.png",

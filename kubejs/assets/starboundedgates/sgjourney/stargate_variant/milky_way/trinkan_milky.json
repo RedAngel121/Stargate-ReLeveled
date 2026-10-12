@@ -257,35 +257,35 @@
   "symbols": {
     "permanent_symbols": "starboundedgates:trinkan",
     "permanent_point_of_origin": "starboundedgates:prime_zero",
-    "encoded_symbols_glow": true,
-    "engage_encoded_symbols": true,
-    "engage_symbols_on_incoming": true,
-    "symbol_color": {
+
+    "idle_symbols": { "glow": true, "color":{
       "alpha": 1,
       "red": 0.247,
       "green": 0.247,
-      "blue": 0.247
+	"blue": 0.247}
     },
-    "encoded_symbol_color": {
+    "encoded_symbols": { "glow": true, "color":{
       "alpha": 1,
       "red": 0.133,
 	  "green": 1,
-      "blue": 0.075
+	"blue": 0.075}
     },
-    "movie_chevron_locking": true,
-    "engaged_symbol_color": {
+
+    "engaged_symbols": { "glow": true, "color":{
       "alpha": 1,
       "red": 0.703,
 	  "green": 1,
-      "blue": 0.557
+	"blue": 0.557}
       
-    },
-    "movie_primary_chevron": true
+    }
+    
   },
   "texture": "starboundedgates:textures/entity/stargate/milky_way/trinkan/trinkan_milky_stargate.png",
   "engaged_texture": "starboundedgates:textures/entity/stargate/milky_way/trinkan/trinkan_milky_stargate_engaged.png",
   "stargate_model": {
-    "raise_back_chevrons": true
+	"movie_chevron_locking": true,
+    "raise_back_chevrons": true,
+	"movie_primary_chevron": true
   },
   "rotation_sounds": {
     "rotation_sound": "starboundedgates:gate_trink_m_roll_loop",
