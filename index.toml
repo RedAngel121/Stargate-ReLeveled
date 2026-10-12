@@ -37,6 +37,10 @@ file = "config/ae2-common.toml"
 hash = "0b13fbe2bd57729f040dc9574e6fc826b30b8bfc75da69d244440a9fdd8477c7"
 
 [[files]]
+file = "config/auto_restart-server.toml"
+hash = "f8fb1146f42c12d66420d5c7d8fecf0b1560e3d150406f25dc35765c0814961c"
+
+[[files]]
 file = "config/bcc-common.toml"
 hash = "b3da795b95ae5b00cf0cc72f167dc5622efb2a9c045ee4af55a3dd3f2af89e97"
 

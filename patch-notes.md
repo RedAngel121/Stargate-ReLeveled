@@ -83,41 +83,12 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 ====================================================================================================
 
 ### Mod Updates:
-- **Stargate Journey: 0.6.50-hotfix2 -> 0.6.51**
-- Ad Astra: Giselle Addon: 8.4 -> 8.6
-- Apothic Enchanting: 1.6.3 -> 1.6.4
-- Create: Iron Vaults: 1.1.1 -> 1.2.0
-- CreativeCore: v2.13.50 -> v2.13.51
-- Easy Villagers: 1.1.45 -> 1.1.47
-- Entity Culling: 1.11.2 -> 1.11.3
-- ExtendedAE: 2.2.39 -> 2.2.41
-- JourneyMap Integration: 1.9 -> 1.9.1
-- KotlinLangForge: 2.14.1-k2.4.20-3.0 -> 2.15.0-k2.4.21-3.0
-- ModernFix: 5.27.24 -> 5.27.26
-- Modular Routers: 13.2.7 -> 13.2.7
-- Moonlight Lib: 3.7.1 -> 3.7.2
-- moregate: 1.1.6 -> 1.1.7
-- Placebo: 9.9.2 -> 9.9.3
-- Puzzles Lib: v21.1.62 -> v21.1.64
-- Quark: 4.1-486 -> 4.1-487
-- Sophisticated Backpacks Create Integration: 0.2.1.171 -> 0.2.2.188
-- Sophisticated Backpacks: 3.26.7.2182 -> 3.26.9.2195
-- Sophisticated Core: 1.5.5.2363 -> 1.5.7.2381
-- Sophisticated Storage Create Integration: 0.1.21.209 -> 0.1.22.238
-- Sophisticated Storage in Motion: 0.10.34.358 -> 0.10.35.372
-- Sophisticated Storage: 1.6.1.2147 -> 1.6.2.2159
-- Spice of Life Onion: v1.5.6 -> v1.5.7
-- SuperMartijn642's Core Lib: 1.1.24b -> 1.1.25
 
 ### Datapacks:
-- StarboundedGates: updated to SGJ v6.51
 
 ### Shaders:
 
 ### Changes:
-- Added SGJ space_location for DeeperDarker, Overworld Mirror and Undergarden, these dims now show up in abydos cartouche rooms
-- Added missing cooked ground pork recipes from PamsHC2 Food Core
-- Changed Naq-Copper and Naq-Iron mixture recipes to be ingots instead of raw ores
 
 ### Additions:
 
