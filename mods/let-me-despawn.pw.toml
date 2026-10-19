@@ -1,13 +1,13 @@
 name = "Let Me Despawn"
-filename = "letmedespawn-1.21.x-neoforge-1.5.0.jar"
+filename = "letmedespawn-neoforge-1.21.1-1.26.10.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "576fe2edaa96e7e71015287457bd52f87646d968"
+hash = "6e9b732a7ade6e3d2e7899b53821a8bcab1add1a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6311236
+file-id = 9218672
 project-id = 663477

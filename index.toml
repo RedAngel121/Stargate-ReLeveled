@@ -178,7 +178,7 @@ hash = "c88138de52f8bc3bc3fb3f6ae389af4a4811c80140298cf6d33dceb57e751746"
 
 [[files]]
 file = "config/fancymenu/customization/aspect_title_screen_layout.txt"
-hash = "9d749abd356327501f1f042a2e22bcf3ec1227faa515a02fd7379b70c6e6736b"
+hash = "7657a724eeb1f40d5f1e2af651f4465153320fffd3bc44ff1a10db4a18cafe03"
 
 [[files]]
 file = "config/fancymenu/customization/net.povstalec.sgjourney.client.screens.milkywaydhdscreen_layout.txt"
@@ -202,7 +202,7 @@ hash = "9bdd808b0e3e8a7fa3f0f3b543da5905e53cf20b5bceff2a8eac542d5fec56e1"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "5ebff2fb39f2dee654495388df6261d7c3a4ed729ce5a9876cbfe81887ffcfdf"
+hash = "0ca5a2c3554ea9a686bc336ae7e9cdc2ed3d76f3b77e3cccae531400effa79fa"
 
 [[files]]
 file = "config/fancymenu/slideshows/main_menu/images/Datas_home_gate.png"
@@ -338,11 +338,11 @@ hash = "392ea74823594d160c2a2990e99e75c30ffde6f072b705f986f024d7d21568f3"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
-hash = "3f1263eaf693fdb6a315099b06797ac18830faa66c620916a80337a5082fd850"
+hash = "01e2a3b5d250c0259a7f97f0d353785bfeab6d7ee2e147c16bb910f1d23e9498"
 
 [[files]]
 file = "config/fancymenu/ui_themes/light.json"
-hash = "3fcfc5f9957fbb86aea846c9ad49a24f47ca709c523c4018b584668e38b72f41"
+hash = "a05e95f7b62f338049fe0045d9a6a50060d3aba52d5ab83ac1ed6ff55cac1153"
 
 [[files]]
 file = "config/fancymenu/user_variables.db"
@@ -11224,7 +11224,7 @@ metafile = true
 
 [[files]]
 file = "mods/almanac-lib.pw.toml"
-hash = "9e414657b3a5e60c99e241c58c33cd1e6444780d29aa64c5f897ce1aaf24a00d"
+hash = "2725ec48c1882cbfd3e6f3befc2a0a90a92ba303218f3ee8a93033c376eb0b76"
 metafile = true
 
 [[files]]
@@ -11384,7 +11384,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-directgpu.pw.toml"
-hash = "279f6f5c47e3a7022fe7c1c31e08d63b3832ef890d6cf0b8578b52e7d990102c"
+hash = "0582465959b696b0529aac996f075c872d1a0a8b6c03b6f46ca328f22f75a67d"
 metafile = true
 
 [[files]]
@@ -11514,12 +11514,12 @@ metafile = true
 
 [[files]]
 file = "mods/corpse-x-curios-api-compat.pw.toml"
-hash = "073c8410430fa1f84f4b8926ea37ce5bdcf2df764c25f44331978171311da9f2"
+hash = "bc4550cb87607a7cb5baf1165b4380a0b97525701c1618fe3865bf625008cf84"
 metafile = true
 
 [[files]]
 file = "mods/corpse.pw.toml"
-hash = "e2edf339c98dbdcf04f46a15276e9b1b5bbdeee0f1ac8b7d9bddb1ee8e54b9a1"
+hash = "0bc8958d55b8ff8a6ec3be278fbaf8a960ce72777cf742c6bd2cd0550952c336"
 metafile = true
 
 [[files]]
@@ -11729,7 +11729,7 @@ metafile = true
 
 [[files]]
 file = "mods/framedblocks.pw.toml"
-hash = "82271b1e9d999e52768efcc8857a23d17ab7a884faa7810f055a4f4f3dafe9bf"
+hash = "be4d309355c854d8b20aa36276f134270a5c4c1abe6cac955b41deabf83cecb3"
 metafile = true
 
 [[files]]
@@ -11884,7 +11884,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "e899cdf41bc145d2f9212a3d097839b55e3c6c2a0b13b26c8fa6bb8241dc7134"
+hash = "50109154721adb4a72b7f2d034b1839aea2221d84bce2c40a6dfd98368363716"
 metafile = true
 
 [[files]]
@@ -11939,7 +11939,7 @@ metafile = true
 
 [[files]]
 file = "mods/let-me-despawn.pw.toml"
-hash = "dd4dd28e505ef8a6dae0569c92b03732302094e952068db010924fe945a27170"
+hash = "e9d3cdd8daaecbd6e0e8196c69aabc4cb8be8fad5b44c3b63e561478784b1554"
 metafile = true
 
 [[files]]
@@ -11949,7 +11949,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "a5021505140d5b7ffa4ff7184e74566a21b4e72a7ae256afeaf1e99e929333d1"
+hash = "93f98a3019a5ce1bda97af2c3e937aaa2adbe4e4dce46e74b130d32cbfdc80a2"
 metafile = true
 
 [[files]]
@@ -12184,7 +12184,7 @@ metafile = true
 
 [[files]]
 file = "mods/placebo.pw.toml"
-hash = "d8c433e94f2c8e5838e8937d7a162fe834e966f1f9640a563db5060a3011b2f4"
+hash = "1762970777e293ba6d7a6a7b43dde2ac87604820e0fd90dd712beb744d068266"
 metafile = true
 
 [[files]]
@@ -12314,7 +12314,7 @@ metafile = true
 
 [[files]]
 file = "mods/sgjourney.pw.toml"
-hash = "f10423f3c43db00d50dc4d99e25b9c2fe3d571835d8e9f2750b07f57430c0d85"
+hash = "159590bae6d8b82b5ca9451f2ec51f3259298b20da6f5dd7508e00883abd23a5"
 metafile = true
 
 [[files]]
@@ -12359,37 +12359,37 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks-create-integration.pw.toml"
-hash = "4ad16a440d4a3ff30953d303a21581c1bdafae9ace3a00ae400a875e24c7f4a5"
+hash = "6876c183b8154953471a24e47efc66b02fa88e9bf88b5ce910093d72d817fd45"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "73b02212aef023d0709e1c29441004a09c5f34879ff877b49ddf8bcbdd8d5f1f"
+hash = "8b40a946e889b44feb2fa3b3f4876ca30f7e276e420b8b8b8b1f2051180c0418"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "be8fc8f72f1139f6b6cf19389a41a8f6c635456dac482bb981f5732e56d4e2ff"
+hash = "4562fb2d63ea4aea7c6ced1f715e796caf7413a5dab9a7d8e708a83c7d62ec8d"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-item-actions.pw.toml"
-hash = "2665bd5b22af9ed6694f0edb557293841e53e9a9044366fb77416057ec744f6b"
+hash = "b68c21307e3526f407daf1322dfe46a79d3d5894f18114ffb1fd9ee773be6ec3"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-create-integration.pw.toml"
-hash = "bf77b75f44804c640ecaa51e5c6353c88567f1464759198abf4a2b690cd5b052"
+hash = "0ef48baddd8f67f923ed3e82beca19f583d85f171fd6c7fd8e42ac822c85a7ce"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-in-motion.pw.toml"
-hash = "4f936256e1ac4c464c27d16b1e801d019d321210ef7ec30ba7b42accd2e53f78"
+hash = "41a2b44e26ad0e521ee6c66137853e1bd2849b5708d2d631257698d600fa6648"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "4b45eb6bb8dc80ae185b8077aedc91967ac77368720f3835e96edc14167265f3"
+hash = "50b921dfc5f182c90225ceefa137361092c9f08a4b591f69091f512eac159106"
 metafile = true
 
 [[files]]
@@ -12663,5 +12663,5 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/solas-shader.pw.toml"
-hash = "cb1d409dd3cb03c3422ffef56e720da5a5320b8491648b0d9bbc3ffb0b502e31"
+hash = "a28e4a2a391ef4d843902f79c99ed0154ed7e9dd214dafac5b061838efd17667"
 metafile = true

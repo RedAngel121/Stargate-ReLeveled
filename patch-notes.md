@@ -106,13 +106,33 @@ Me      : I can agree with that, adding a new dimension isn't easy, biomes and o
 ====================================================================================================
 
 ### Mod Updates:
+- **Neoforge 21.1.255 -> 21.1.263**
+- **Stargate Journey: 0.6.51 -> 0.6.52**
+- Almanac Lib: 2-1.5.2 -> 1.26.10.2
+- Corpse x Curios API Compat: 4.0.1 -> 4.2.0
+- Corpse: 1.1.13 -> 1.1.21
+- FramedBlocks: 10.6.2 -> 10.6.3
+- Just Enough Items (JEI): 19.57.0.451 -> 19.64.0.455
+- Let Me Despawn: 1.5.0 -> 1.26.10.2
+- Lithostitched: 1.8.0 -> 1.8.1
+- Placebo: 9.9.3 -> 9.9.4
+- Sophisticated Backpacks Create Integration: 0.2.2.188 -> 0.2.3.194
+- Sophisticated Backpacks: 3.26.9.2195 -> 3.26.12.2208
+- Sophisticated Core: 1.5.7.2381 -> 1.5.14.2413
+- Sophisticated Item Actions: 0.5.16.423 -> 0.5.17.435
+- Sophisticated Storage Create Integration: 0.1.22.238 -> 0.1.23.246
+- Sophisticated Storage in Motion: 0.10.35.372 -> 0.10.36.381
+- Sophisticated Storage: 1.6.2.2159 -> 1.6.7.2184
 
 ### Datapacks:
 
 ### Shaders:
+- Solas Shader: 3.7b -> 3.8
 
 ### Changes:
 - Assigned Otherside, Undergarden, and Overworld Mirror to SGJ Address Regions and Space Locations
+- Updated SGJ Config to 6.0.52
+- Updated FancyMenu Config to remove extra useless buttons
 
 ### Additions:
 - Chisels & Bits Shader Compat
