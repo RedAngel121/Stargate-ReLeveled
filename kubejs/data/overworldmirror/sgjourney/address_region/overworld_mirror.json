@@ -1,0 +1,31 @@
+{
+    "name": "solar_system.sgjourney.overworld_mirror",
+    "symbol_prefix": 1,
+    "extragalactic_address": {
+        "symbols": [
+            1,
+            17,
+            6,
+            32,
+            14,
+            3,
+            16
+        ],
+        "randomizable": true
+    },
+    "galactic_addresses": {
+        "sgjourney:milky_way": {
+            "address": {
+                "symbols": [
+                    8,
+                    17,
+                    11,
+                    5,
+                    31,
+                    32
+                ],
+                "randomizable": true
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+name = "Compact Mekanism Machines Plus"
+filename = "compactmekanismmachinesplus-0.4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2efeb78c005900b2c9090f21ef3bbbad364e70d0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7005423
+project-id = 1329766

@@ -162,5 +162,9 @@
     "item.minecraft.tipped_arrow.effect.silver_sight_potion":"Arrow of Silver Sight",
     "item.minecraft.potion.effect.silver_sight_potion":"Potion of Silver Sight",
     "item.minecraft.splash_potion.effect.silver_sight_potion":"Splash Potion of Silver Sight",
-    "item.minecraft.lingering_potion.effect.silver_sight_potion":"Lingering Potion of Silver Sight"
+    "item.minecraft.lingering_potion.effect.silver_sight_potion":"Lingering Potion of Silver Sight",
+
+    "solar_system.sgjourney.otherside":"Otherside",
+    "solar_system.sgjourney.undergarden":"Undergarden",
+    "solar_system.sgjourney.overworld_mirror":"Overworld Mirror"
 }

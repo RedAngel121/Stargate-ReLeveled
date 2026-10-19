@@ -20,6 +20,18 @@ Mods:
 - 2 new circuits: one for replacing the Comp Core and a new one called Zero Point Energy Circuit that can be used to craft the ZPM and ZPM hub
 - make/change the infinite item/fluid/chem cell recipes to be more production centered
 - Make chem cells https://github.com/GlodBlock/ExtendedAE/wiki/Custom-Infinity-Cell
+  - sgcommunity_pack:blaze_gas
+  - sgcommunity_pack:phosphorus
+  - sgcommunity_pack:silicon
+  - sgcommunity_pack:doped_silicon
+  - sgcommunity_pack:photoresist
+  - sgcommunity_pack:boron_trifluoride
+  - sgcommunity_pack:boron_trioxide
+  - sgcommunity_pack:tree_sap
+  - sgcommunity_pack:naquadria
+  - Hydrofluoric acid
+  - Ethene
+  - Sodium
 
 ### Extra TODOs that are not all that important yet:
 - Chisel Blocks: Aluminum, Cobalt, Invar - These have no recipe and need to be added to the chisel workbench somehow
@@ -38,6 +50,11 @@ Mods:
   - add a new planet and assign the monoliths to that dim instead of being allowed to spawn in the overworld
 
 ### Dimensional Options:
+- The Lost Cities mod https://www.curseforge.com/minecraft/mc-mods/the-lost-cities
+  - Need Stargate Structure, New Tollana?
+  - Need Address Region and Space Location files
+  - Adjust config to disable vanilla portal
+
 - add more dims by way of custom shit or add Alex Caves Dims mods and include a new gate per dimension
   - https://www.curseforge.com/minecraft/mc-mods/alexs-caves-unofficial-port
   - https://www.curseforge.com/minecraft/mc-mods/dimensions-of-alexs-caves-unofficial-port
@@ -45,40 +62,46 @@ Mods:
 Me      : I want to expand the sgj dims with more ores and stuff
 Request : Can we just get a giant cave dim? Like the Nether but with overworld blocks?
 Me      : I can agree with that, adding a new dimension isn't easy, biomes and ores need to be accounted for... I would have to add a new Stargate structure too...
-Me      : oh maybe i could look into adding that city mod that adds houses and skyscrapers and whatnot for a new vacated city dim... its a lot but its not a bad idea
 
 ====================================================================================================
 
-### Quantum core setup
+# Quantum core setup
 
-| Step | Process
-| ---: | -------------------------------------
-|    1 | Start with something equivalent to a Computation Core, a somewhat complex item that has ties to the quantum complex
-|    2 | Create Quantum Substrate out of the normal mekanism substrates fused with some quantum bullshittery i guess
-|    3 | Refine C.Quartz and N.Quartz material into a slurry and combine them (Sodium hydroxide can dissolve quartz, is that chem available? should i make it? or try something similar?)
-|    4 | Produce Ultra-Pure Silicon from the slurry in the crystalizer
-|    5 | Produce Superconducting Resistant Material  using ultra pure silicon
-|    6 | Create Cryogenic Compound using a mix of "cold" chemicals (research needed)
-|    7 | Create Quantum Conductor out of several different items and metals (research needed)
-|    8 | Create Superconducting Wire out of quantum conductor metals
-|    9 | Produce Quantum-Grade Crystal Compound
-|   10 | Purify that Crystal Compound then pass it through a atomic assembler
-|   11 | Create Crystal Lattice in the atomic assembler
-|   12 | Manufacture Quantum Resonator
-|   13 | Manufacture Magnetic Containment Coil
-|   14 | Manufacture Cryogenic Chamber
-|   15 | Create Quantum Control Unit
-|   16 | Create Entangled Pair
-|   17 | Stabilize Entangled Pair
-|   18 | Create Quantum Memory Matrix
-|   19 | Create Superconducting Processor
-|   20 | Combine Processor + Resonator
-|   21 | Apply Quantum Control Layer
-|   22 | Cool Quantum Assembly
-|   23 | Initialize Quantum State
-|   24 | Stabilize Quantum State
-|   25 | Integrate with Computation Core
-|   26 | Final Quantum Core
+### Silicon:
+- take raw silicon and turn it into a chemical (mek)
+- add 1 HCL for every 3 SI to start the purification process = Silicon Chloride (mek/oritech)
+- distill the HCl3Si in the distill tower and create ultra pure silicon chemical (mek)
+- crystalize the ultra pure silicon into Ultra Pure Silicon sheets (mek)
+
+### Quantum Crystal
+- find raw crystals and combine them somehow into a crystal mixture, maybe like how AE2 does it in water?
+- purify the crystal using something that cleans crystals without destroying them
+- Add Heavy Liq Naq to create a semi quantum state
+- run that through the Particle Accelerator to process them into an inactive quantum crystal (find second item)
+- use atomic assembler to make quantum crystal lattice
+
+### platinum nickel super conductor
+- Use dust or liquid to mix 1 Platinum and 3 Nickel
+- heat it into a super conducting compound
+- turn into ingots using oritech chiller
+- turn into supercunductor wires
+- find a way to make a supermagnet / Oritech Ion Thruster? Linear Motor?
+- Apply magnetized material to supercond-wire for magnetic containment coil
+
+### Quantum Housing
+- Ultra-Pure Silicon Sheets + Quantum Crystal Lattice = Quantum Resonator.
+- Cryogenic Fluid + Magnetic Containment Coil = Cryogenic Containment Unit.
+- Superconducting Alloy Ingots + Ultra-Pure Silicon Sheets = Resonance Chamber.
+- Quantum Resonator + Cryogenic Containment Unit + Resonance Chamber = Quantum Housing.
+
+### Quantum Processor INCOMPLETE
+- Quantum Crystal and SuperC Wire to make Quantum Circuit? something more complex?
+- Entanglement Matrix
+- Quantum Memory Matrix
+- Quantum Processor
+
+### Quantum Core INCOMPLETE
+- multiple processors + Stabilized Quantum core = Quantum core
 
 ====================================================================================================
 
@@ -89,13 +112,22 @@ Me      : oh maybe i could look into adding that city mod that adds houses and s
 ### Shaders:
 
 ### Changes:
+- Assigned Otherside, Undergarden, and Overworld Mirror to SGJ Address Regions and Space Locations
 
 ### Additions:
+- Chisels & Bits Shader Compat
+- Chipped Express
+- CC:DirectGPU
+- CC:HQ Speakers
+- CC:LiftLink
+- Compact Mekanism Machines Plus
+- Compact Mekanism Machines (Unofficial Edition)
 
 ### Removals:
+- Jaja's gates (per request of the dev)
 
 ### Known Issues:
 - Chairs/Benches/Seats cannot be sat on in airless Ad Astra Dimensions without a single block of oxygen below it. Use an Ad Astra Vent underneath the seat to prevent death.
 
-# Server Files are being uploaded!
-# Public Server is updated!
+# Server Files uploaded!
+# Public Server updated!

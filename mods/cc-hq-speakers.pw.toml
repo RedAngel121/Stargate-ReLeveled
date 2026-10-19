@@ -1,0 +1,13 @@
+name = "CC:HQ Speakers"
+filename = "hqspeaker-neoforge-1.21.1-1.0.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "70d258f2cb0bf98d0c38d49e16e6e02c00b3e2bb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9129621
+project-id = 1681330

@@ -1,0 +1,16 @@
+{
+    "name": "solar_system.sgjourney.undergarden",
+    "symbol_prefix": 1,
+    "extragalactic_address": {
+        "symbols": [ 1, 23, 19, 32, 17, 4, 3 ],
+        "randomizable": true
+    },
+    "galactic_addresses": {
+        "sgjourney:milky_way": {
+            "address": {
+                "symbols": [ 10, 22, 13, 2, 32, 9 ],
+                "randomizable": true
+            }
+        }
+    }
+}

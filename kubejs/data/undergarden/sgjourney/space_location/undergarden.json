@@ -1,0 +1,7 @@
+{
+	"in_stargate_network": true,
+	"generate_in_address_tables": true,
+    "point_of_origin": "sgjourney:universal",
+	"address_region": "undergarden:undergarden",
+    "symbols": "sgjourney:galaxy_milky_way"
+}

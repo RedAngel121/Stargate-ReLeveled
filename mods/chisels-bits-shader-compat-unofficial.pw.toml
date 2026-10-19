@@ -1,0 +1,13 @@
+name = "Chisels & Bits Shader Compat [Unofficial]"
+filename = "cbshadercompat-0.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "511f18d4c0bd344019eb59361e952f3df5b20c39"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8758508
+project-id = 1672759
