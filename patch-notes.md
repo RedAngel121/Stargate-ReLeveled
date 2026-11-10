@@ -118,7 +118,7 @@ Me      : I can agree with that, adding a new dimension isn't easy, biomes and o
 - Balm: 21.0.66 -> 21.0.67
 - Blocks You Need: 1.11.4 -> 1.12.6
 - Building Gadgets: 1.3.9 -> 21.1.1
-- CC: Tweaked: 1.120.2 -> 1.121.0
+- CC: Tweaked: 1.120.2 -> 1.120.2
 - CC:HQ Speakers: 1.0.8 -> 1.1.0
 - Chisels & Bits: 21.1.32 -> 21.1.40
 - Compass to Map: JourneyMap + Explorer's/Nature's Compass Addon: 2.0.4 -> -2.1.1
