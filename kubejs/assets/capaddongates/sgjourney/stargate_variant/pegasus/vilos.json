@@ -1,0 +1,165 @@
+{
+	"texture": "capaddongates:textures/entity/stargate/pegasus/vilos/vilos_stargate.png",
+	"engaged_texture": "capaddongates:textures/entity/stargate/pegasus/vilos/vilos_stargate_engaged.png",
+	
+	"wormhole":
+	{
+		"event_horizon":
+		{
+			"front":
+			{
+				"texture": "capaddongates:textures/entity/stargate/pegasus/vilos/vilos_event_horizon.png",
+				"rows": 24,
+				"columns": 1,
+				"frames": 24,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "capaddongates:textures/entity/stargate/pegasus/vilos/vilos_event_horizon.png",
+				"rows": 24,
+				"columns": 1,
+				"frames": 24,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			}
+		},
+		"event_horizon_unstable":
+		{
+			"front":
+			{
+				"texture": "capaddongates:textures/entity/stargate/pegasus/vilos/vilos_event_horizon_unstable.png",
+				"rows": 24,
+				"columns": 1,
+				"frames": 24,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			},
+			"back":
+			{
+				"texture": "capaddongates:textures/entity/stargate/pegasus/vilos/vilos_event_horizon_unstable.png",
+				"rows": 24,
+				"columns": 1,
+				"frames": 24,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			}
+		},
+		"disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+	},
+	"shiny_wormhole":
+	{
+		"event_horizon":
+		{
+			"front":
+			{
+				"texture": "capaddongates:textures/entity/stargate/pegasus/vilos/vilos_event_horizon.png",
+				"rows": 24,
+				"columns": 1,
+				"frames": 24,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "capaddongates:textures/entity/stargate/pegasus/vilos/vilos_event_horizon.png",
+				"rows": 24,
+				"columns": 1,
+				"frames": 24,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			}
+		},
+		"event_horizon_unstable":
+		{
+			"front":
+			{
+				"texture": "capaddongates:textures/entity/stargate/pegasus/vilos/vilos_event_horizon_unstable.png",
+				"rows": 24,
+				"columns": 1,
+				"frames": 24,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			},
+			"back":
+			{
+				"texture": "capaddongates:textures/entity/stargate/pegasus/vilos/vilos_event_horizon_unstable.png",
+				"rows": 24,
+				"columns": 1,
+				"frames": 24,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			}
+		},
+		"disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+	},
+	
+	"symbols":
+	{
+		"idle_symbols": { "color": {"r": 160, "g": 158, "b": 93}, "glow": false },
+		
+		"unencoded_symbols": { "color": {"r": 0, "g": 0, "b": 0, "a": 0} },
+		"unencoded_symbols_incoming": { "color": {"r": 0, "g": 0, "b": 0, "a": 0} },
+		
+		"engaged_symbols": { "color": {"r": 255, "g": 255, "b": 255}, "glow": true },
+		"unengaged_symbols": { "color": {"r": 0, "g": 0, "b": 0, "a": 0} }
+	},
+	
+	"chevron_engaged_sounds":
+	{
+		"default": "capaddongates:vilos_chevron"
+	},
+	
+	"chevron_incoming_sounds":
+	{
+		"default": "capaddongates:vilos_chevron"
+	},
+	
+	"rotation_sounds":
+	{
+		"rotation_sound": "sgjourney:nothing"
+	},
+	
+	"wormhole_sounds":
+	{
+		"open": "capaddongates:vilos_open",
+		"idle": "sgjourney:pegasus_wormhole_idle",
+		"close": "capaddongates:vilos_close"
+	},
+	
+	"fail_sounds":
+	{
+		"default": "capaddongates:vilos_fail"
+	}
+}

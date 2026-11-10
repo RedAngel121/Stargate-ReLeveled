@@ -273,6 +273,13 @@
          "starboundedgates:gate_avikan_incoming"
       ]
    },
+   
+     "gate_avali_tollan_chevron":{
+      "subtitle":"sounds.sgjourney.chevron_encode",
+      "sounds":[
+         "starboundedgates:gate_avikan_incoming"
+      ]
+   },
  
 	
 	
@@ -526,6 +533,39 @@
       "subtitle":"sounds.sgjourney.wormhole_close",
       "sounds":[
          "starboundedgates:gate_apex_close"
+      ]
+   },
+   
+   
+   
+    "gate_thelean_andromeda_chevron_engage":{
+      "subtitle":"sounds.sgjourney.chevron_engage",
+      "sounds":[
+         "starboundedgates:gate_thelean_andromeda_chevron_engage"
+      ]
+   },
+   "gate_thelean_andromeda_chevron_incoming":{
+      "subtitle":"sounds.sgjourney.chevron_incoming",
+      "sounds":[
+         "starboundedgates:gate_thelean_andromeda_chevron_incoming"
+      ]
+   },
+  "gate_thelean_andromeda_roll":{
+      "subtitle":"sounds.sgjourney.ring_spin",
+      "sounds":[
+         "starboundedgates:gate_thelean_andromeda_roll"
+      ]
+   },
+   "gate_thelean_andromeda_fail":{
+		"subtitle": "sounds.sgjourney.dial_fail",
+		"sounds":[
+			"starboundedgates:gate_thelean_andromeda_fail"
+		]
+	},
+   "gate_thelean_andromeda_open":{
+      "subtitle":"sounds.sgjourney.wormhole_open",
+      "sounds":[
+         "starboundedgates:gate_thelean_andromeda_open"
       ]
    },
    

@@ -1,0 +1,14 @@
+{
+	"type": "sgjourney:crystallizing",
+	"crystal_base": {"ingredient": {"item": "sgjourney:stargate_variant_crystal"}, "amount": 1},
+	"primary_ingredient": {"ingredient": {"item": "minecraft:painting"}, "amount": 9, "deplete": true},
+	"secondary_ingredient": {"ingredient": {"item": "minecraft:brush"}, "amount": 1, "deplete": true},
+	"output":
+	{
+		"id": "sgjourney:stargate_variant_crystal",
+		"components":
+		{
+			"sgjourney:stargate_variant": "capaddongates:alugay"
+		}
+	}
+}

@@ -14,7 +14,7 @@
 	hide_excluded_quests: false
 	icon: {
 		components: {
-			"ftbquests:icon": "sgjourney:textures/symbols/milky_way/points_of_origin/tauri.png"
+			"ftbquests:icon": "sgjourney:symbol/milky_way/point_of_origin/tauri"
 		}
 		id: "ftbquests:custom_icon"
 	}

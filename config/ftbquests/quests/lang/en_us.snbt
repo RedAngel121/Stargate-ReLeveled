@@ -112,6 +112,8 @@
 	]
 	quest.0F6208E619E40AB5.quest_desc: ["Have you read the guide and still find channels to be confusing? No worries! Smart cables allow for you to see the paths that channels are taking to the ME Controller. They also come in dense variants."]
 	quest.0F6208E619E40AB5.title: "Smart Cables"
+	quest.10B92B87A30B9B1D.quest_desc: ["Mystical Agriculture lets you grow all sorts of resources, but you'll need an &dInfusion Altar&r and 8 &dInfusion Pedestals&r to get started. Craft them and prepare to grow just about anything!"]
+	quest.10B92B87A30B9B1D.title: "Crazy Crops"
 	quest.112725E86D8D3D75.quest_desc: ["The charger is used for creating, amongst other things, charged certus quartz which is used in many ae2 recipes. Attach the wooden crank and click it to charge items. You can also provide power over ae2 networks or with FE."]
 	quest.112725E86D8D3D75.title: "Do you have a cable I could borrow?"
 	quest.1221A9C5A3B3F1D1.quest_desc: ["MEGA Cells adds MEGA variants of the pattern provider and ME interface. However, the MEGA Pattern Provider can only be used for processing recipes."]

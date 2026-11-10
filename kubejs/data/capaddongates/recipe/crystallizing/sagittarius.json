@@ -1,0 +1,14 @@
+{
+	"type": "sgjourney:crystallizing",
+	"crystal_base": {"ingredient": {"item": "sgjourney:stargate_variant_crystal"}, "amount": 1},
+	"primary_ingredient": {"ingredient": {"item": "sgjourney:naquadah_copper_alloy"}, "amount": 9, "deplete": true},
+	"secondary_ingredient": {"ingredient": {"item": "minecraft:sea_lantern"}, "amount": 9, "deplete": true},
+	"output":
+	{
+		"id": "sgjourney:stargate_variant_crystal",
+		"components":
+		{
+			"sgjourney:stargate_variant": "capaddongates:sagittarius"
+		}
+	}
+}

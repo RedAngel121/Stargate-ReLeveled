@@ -1,14 +1,6 @@
 // priority: 0
 
-// ===============================
-// REMOVE TRADES
-// ===============================
-
 MoreJS.wandererTrades(event => { event.removeTrades({ outputItem: "minecraft:beacon" }); });
-MoreJS.villagerTrades(event => {
-    event.removeVanillaTypedTrades(["advancedperipherals:computer_scientist"]);
-    event.removeModdedTypedTrades(["advancedperipherals:computer_scientist"]);
-});
 
 // ===============================
 // REMOVE GAME BREAKERS

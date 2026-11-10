@@ -1,13 +1,13 @@
 name = "Create: Copycats+"
-filename = "copycats-3.0.9+mc.1.21.1-neoforge.jar"
+filename = "copycats-3.0.11-mc.1.21.1-neoforge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "74de17876c43f5f780bac478b9f9eb11e687b8d7"
+hash = "020a921b43794bb2172d48a5e6ec4a4f56a681b9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8822348
+file-id = 9504789
 project-id = 968398

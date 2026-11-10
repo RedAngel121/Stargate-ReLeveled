@@ -1,0 +1,14 @@
+{
+	"type": "sgjourney:crystallizing",
+	"crystal_base": {"ingredient": {"item": "sgjourney:stargate_variant_crystal"}, "amount": 1},
+	"primary_ingredient": {"ingredient": {"item": "minecraft:redstone"}, "amount": 9, "deplete": true},
+	"secondary_ingredient": {"ingredient": {"item": "minecraft:gray_concrete"}, "amount": 8, "deplete": true},
+	"output":
+	{
+		"id": "sgjourney:stargate_variant_crystal",
+		"components":
+		{
+			"sgjourney:stargate_variant": "capaddongates:aludat"
+		}
+	}
+}

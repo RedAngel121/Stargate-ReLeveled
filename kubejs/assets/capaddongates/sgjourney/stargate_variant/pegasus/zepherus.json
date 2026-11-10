@@ -1,0 +1,165 @@
+{
+	"texture": "capaddongates:textures/entity/stargate/pegasus/zepherus/zepherus_stargate.png",
+	"engaged_texture": "capaddongates:textures/entity/stargate/pegasus/zepherus/zepherus_stargate_engaged.png",
+	
+	"wormhole":
+	{
+		"event_horizon":
+		{
+			"front":
+			{
+				"texture": "capaddongates:textures/entity/stargate/pegasus/zepherus/zepherus_event_horizon.png",
+				"rows": 32,
+				"columns": 1,
+				"frames": 32,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "capaddongates:textures/entity/stargate/pegasus/zepherus/zepherus_event_horizon.png",
+				"rows": 32,
+				"columns": 1,
+				"frames": 32,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			}
+		},
+		"event_horizon_unstable":
+		{
+			"front":
+			{
+				"texture": "capaddongates:textures/entity/stargate/pegasus/zepherus/zepherus_event_horizon_unstable.png",
+				"rows": 32,
+				"columns": 1,
+				"frames": 32,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			},
+			"back":
+			{
+				"texture": "capaddongates:textures/entity/stargate/pegasus/zepherus/zepherus_event_horizon_unstable.png",
+				"rows": 32,
+				"columns": 1,
+				"frames": 32,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			}
+		},
+		"disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+	},
+	"shiny_wormhole":
+	{
+		"event_horizon":
+		{
+			"front":
+			{
+				"texture": "capaddongates:textures/entity/stargate/pegasus/zepherus/zepherus_event_horizon.png",
+				"rows": 32,
+				"columns": 1,
+				"frames": 32,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "capaddongates:textures/entity/stargate/pegasus/zepherus/zepherus_event_horizon.png",
+				"rows": 32,
+				"columns": 1,
+				"frames": 32,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			}
+		},
+		"event_horizon_unstable":
+		{
+			"front":
+			{
+				"texture": "capaddongates:textures/entity/stargate/pegasus/zepherus/zepherus_event_horizon_unstable.png",
+				"rows": 32,
+				"columns": 1,
+				"frames": 32,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			},
+			"back":
+			{
+				"texture": "capaddongates:textures/entity/stargate/pegasus/zepherus/zepherus_event_horizon_unstable.png",
+				"rows": 32,
+				"columns": 1,
+				"frames": 32,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 0.75 }
+			}
+		},
+		"disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "sgjourney:textures/entity/stargate/pegasus/pegasus_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+	},
+	
+	"symbols":
+	{
+		"idle_symbols": { "color": {"r": 72, "g": 55, "b": 23}, "glow": false },
+		
+		"unencoded_symbols": { "color": {"r": 0, "g": 0, "b": 0, "a": 0} },
+		"unencoded_symbols_incoming": { "color": {"r": 0, "g": 0, "b": 0, "a": 0} },
+		
+		"engaged_symbols": { "color": {"r": 255, "g": 216, "b": 20}, "glow": true },
+		"unengaged_symbols": { "color": {"r": 0, "g": 0, "b": 0, "a": 0} }
+	},
+	
+	"chevron_engaged_sounds":
+	{
+		"default": "capaddongates:zepherus_chevron"
+	},
+	
+	"chevron_incoming_sounds":
+	{
+		"default": "capaddongates:zepherus_incoming"
+	},
+	
+	"rotation_sounds":
+	{
+		"rotation_sound": "capaddongates:zepherus_spin"
+	},
+	
+	"wormhole_sounds":
+	{
+		"open": "capaddongates:zepherus_open",
+		"idle": "sgjourney:pegasus_wormhole_idle",
+		"close": "capaddongates:zepherus_close"
+	},
+	
+	"fail_sounds":
+	{
+		"default": "capaddongates:zepherus_fail"
+	}
+}

@@ -1,13 +1,13 @@
 name = "Create: Iron Vaults"
-filename = "createironvaults-neoforge-1.2.0-1.21.1.jar"
+filename = "createironvaults-neoforge-1.3.0-1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "64342bbd3750d3077b193cd96bca61e69f5bf2a8"
+hash = "e38379ca3f11334e9f9e0faef972159772193b7d"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9100838
+file-id = 9274083
 project-id = 1652333

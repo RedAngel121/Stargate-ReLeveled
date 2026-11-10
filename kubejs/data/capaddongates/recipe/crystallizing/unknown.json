@@ -1,0 +1,14 @@
+{
+	"type": "sgjourney:crystallizing",
+	"crystal_base": {"ingredient": {"item": "sgjourney:stargate_variant_crystal"}, "amount": 1},
+	"primary_ingredient": {"ingredient": {"item": "minecraft:snowball"}, "amount": 16, "deplete": true},
+	"secondary_ingredient": {"ingredient": {"item": "minecraft:sunflower"}, "amount": 3, "deplete": true},
+	"output":
+	{
+		"id": "sgjourney:stargate_variant_crystal",
+		"components":
+		{
+			"sgjourney:stargate_variant": "capaddongates:unknown"
+		}
+	}
+}

@@ -1,13 +1,13 @@
 name = "AEInfinityBooster"
-filename = "aeinfinitybooster-neoforge-1.21.1-1.0.0.58.jar"
+filename = "aeinfinitybooster-neoforge-2.1.2-mc1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "61756becbab62dd376378ceb74a3daa45b70562a"
+hash = "8a4ba3b0cb8fedb499aa32f63d9e31077c934401"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8377914
+file-id = 9483395
 project-id = 559313

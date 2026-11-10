@@ -242,5 +242,36 @@
 			x: -2.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["1B3E348B011762ED"]
+			icon: {
+				id: "mysticalagriculture:infusion_altar"
+			}
+			id: "10B92B87A30B9B1D"
+			rewards: [{
+				count: 32
+				id: "15C6DA9694AE8C5F"
+				item: {
+					count: 1
+					id: "mysticalagriculture:prosperity_shard"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "550F2591DF477E1C"
+					item: { count: 1, id: "mysticalagriculture:infusion_altar" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7A8EB576AB8F956D"
+					item: { count: 1, id: "mysticalagriculture:infusion_pedestal" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 1.5d
+		}
 	]
 }
