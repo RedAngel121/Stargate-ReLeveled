@@ -42,7 +42,7 @@ hash = "f8fb1146f42c12d66420d5c7d8fecf0b1560e3d150406f25dc35765c0814961c"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "c5f3a1a2e28b31d2e4d5156f60c36186a7660711e942524e6532b43f04edae5d"
+hash = "750426ec0c2d7d964af4aa10b3d44b42cd08318c37093341b3d579526283830a"
 
 [[files]]
 file = "config/botanypots-mysticalagriculture/general.json"
@@ -12696,11 +12696,6 @@ metafile = true
 [[files]]
 file = "mods/biomes-o-plenty.pw.toml"
 hash = "f6f723c2d15da3b36a2c29408deb914f6c4bdbe4a20aa652f3f07642011fce8e"
-metafile = true
-
-[[files]]
-file = "mods/blocks-you-need.pw.toml"
-hash = "66203631bb8223762b1cc66a7f792af48acc87b0fae7f0250642ab7122747f1d"
 metafile = true
 
 [[files]]

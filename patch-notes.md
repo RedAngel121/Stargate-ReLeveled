@@ -8,6 +8,8 @@ Mods:
 - WorldEdit CUI
 
 ### TODO:
+- Update BCC config every update
+- SGJ 0.7 release : recreate the entire set of structures you have created with stargates and rings, they will be broken until they are updated to the new version
 - find a way to change Athos' biome to BoP Redwoood Forest without causing the gate to spawn in the overworld, maybe struc restrict can help there?
 - when updating CC better speakers mod check configs to disable debug logs
 
@@ -108,89 +110,17 @@ Me      : I can agree with that, adding a new dimension isn't easy, biomes and o
 ====================================================================================================
 
 ### Mod Updates:
-- **Neoforge 21.1.263 -> 21.1.265**
-- AdAstra StellarView Compatibility: 1.1.0 -> 1.2.0
-- AEInfinityBooster: 1.0.0.58 -> 2.1.2
-- AllTheLeaks (Memory Leak Fix): 1.1.13 -> 1.1.16
-- Almanac Lib: 1.26.10.2 -> 1.26.11.1
-- Applied Energistics 2: 19.2.18 -> 19.2.19
-- Auto Restart: 3.0.2 -> 3.0.3
-- Balm: 21.0.66 -> 21.0.67
-- Blocks You Need: 1.11.4 -> 1.12.6
-- Building Gadgets: 1.3.9 -> 21.1.1
-- CC: Tweaked: 1.120.2 -> 1.120.2
-- CC:HQ Speakers: 1.0.8 -> 1.1.0
-- Chisels & Bits: 21.1.32 -> 21.1.40
-- Compass to Map: JourneyMap + Explorer's/Nature's Compass Addon: 2.0.4 -> -2.1.1
-- Corpse x Curios API Compat: 4.2.0 -> 4.2.1
-- Corpse: 1.1.21 -> 1.1.22
-- Create Encased: 1.9.0-ht3 -> 1.10.1
-- Create: Copycats+: 3.0.9 -> 3.0.11
-- Create: Iron Vaults: 1.2.0 -> 1.3.0
-- CreativeCore: v2.13.51 -> v2.13.54
-- Easy Villagers: 1.1.47 -> 1.1.49
-- Exposure: 1.9.19 -> 1.9.21
-- ExtendedAE: 1.21-2.2.41 -> 1.21-2.2.43
-- FancyMenu: 3.9.14 -> 3.10.0
-- FTB Chunks (NeoForge): 2101.1.22 -> 2101.1.23
-- FTB Library (NeoForge): 2101.1.37 -> 2101.1.39
-- FTB Quests (NeoForge): 2101.1.36 -> 2101.1.38
-- FTB Teams (NeoForge): 2101.1.11 -> 2101.1.12
-- FTB XMod Compat: 21.1.12 -> 21.1.14
-- Fzzy Config: 0.7.7 -> 0.7.7+fix1
-- GuideME: 21.1.19 -> 21.1.22
-- Immersive Paintings: 0.7.9 -> 0.8.0
-- In Control!: 10.3.0 -> 10.3.1
-- Just Enough Items (JEI): 19.64.0.455 -> 19.70.0.469
-- Just Enough Resources (JER): 1.6.0.17 -> 1.6.0.66
-- KotlinLangForge: 2.15.0-k2.4.21-3.0 -> 2.18.0-k2.4.21-3.0
-- KubeJS: 2101.7.2-build.377 -> 2101.7.2-build.381
-- Let Me Despawn: 1.26.10.2 -> 1.26.11.1
-- McJtyLib: 9.0.21 -> 9.0.22
-- Mekanism:More Machine: 1.4.1 -> 1.4.2
-- MezzConfig: 0.6.8 -> 0.7.1
-- ModernFix: 5.27.26 -> 5.27.27
-- Moonlight Lib: 3.7.2 -> 3.8.3
-- moregate: 1.1.7 -> 1.2
-- Mystical Agriculture: 8.0.28 -> 8.0.29
-- Not Enough Recipe Book [NERB]: 0.4.3 -> 0.6
-- Oracle Index: 1.4.0 -> 1.4.1
-- Puzzles Lib: v21.1.64 -> v21.1.66
-- Quark: 4.1-487 -> 4.1-488
-- RFTools Builder: 7.0.7 -> 7.0.8
-- Schematic Energistics: 1.5.5 -> 1.5.6
-- ShatterLib | OctoLib: 0.6.2 -> 0.6.3
-- Simple Voice Chat: 2.6.24 -> 2.6.27
-- Sophisticated Backpacks: 3.26.12.2208 -> 3.26.21.2249
-- Sophisticated Core: 1.5.14.2413 -> 1.5.32.2464
-- Sophisticated Item Actions: 0.5.17.435 -> 0.5.19.446
-- Sophisticated Storage in Motion: 0.10.36.381 -> 0.10.38.395
-- Sophisticated Storage: 1.6.7.2184 -> 1.6.16.2222
-- SuperMartijn642's Core Lib: 1.1.25 -> 1.1.26a
-- Trash Cans: 1.1.1 -> 1.1.2
 
 ### Datapacks:
-- Updated Starbounded Gates
 
 ### Shaders:
-Solas Shader: V3.8 -> V3.9
 
 ### Changes:
-- Updated FTB Quests a bit
-- Updated a bunch of configs to current versions
-- Removed kubejs trade blocks for computer scientist villager
-- Updated Advancedperipherals/world.toml config to remove computer scientist trades
-- Added Sophisticated Backpacks Config to disable accessing other peoples backpacks by default
-- Removed duplicate food shanks in tooltips
-- Added Silver Oresight Powder to the Oresight Quest completion requirements
-- Added recipes to turn iron and copper into naquadah-copper and naquadah-iron using essence
-- Scaled up the Whole Melon recipe to make nutrient solution (better than slices)
 
 ### Additions:
-- CAP Addon Gate Variants
-- Lever Drugster
 
 ### Removals:
+- Blocks you need (adds more than blocks)
 
 ### Known Issues:
 - Chairs/Benches/Seats cannot be sat on in airless Ad Astra Dimensions without a single block of oxygen below it. Use an Ad Astra Vent underneath the seat to prevent death.
